@@ -1,0 +1,352 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise: Insert and Delete</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Spreadsheets 1: Getting Started</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Intro.html">01. Intro</a>
+    </li>
+    <li class="">
+      <a href="02. Commas vs. Decimals.html">02. Commas vs. Decimals</a>
+    </li>
+    <li class="">
+      <a href="03. Why Spreadsheets.html">03. Why Spreadsheets?</a>
+    </li>
+    <li class="">
+      <a href="04. Spreadsheet Benefits.html">04. Spreadsheet Benefits</a>
+    </li>
+    <li class="">
+      <a href="05. Getting Started.html">05. Getting Started</a>
+    </li>
+    <li class="">
+      <a href="06. Navigation Worksheet.html">06. Navigation: Worksheet</a>
+    </li>
+    <li class="">
+      <a href="07. Column and Row Labels.html">07. Column and Row Labels</a>
+    </li>
+    <li class="">
+      <a href="08. Navigation Menu Bar.html">08. Navigation: Menu Bar</a>
+    </li>
+    <li class="">
+      <a href="09. Menu Bar.html">09. Menu Bar</a>
+    </li>
+    <li class="">
+      <a href="10. Navigation Shortcuts.html">10. Navigation: Shortcuts</a>
+    </li>
+    <li class="">
+      <a href="11. Fill.html">11. Fill</a>
+    </li>
+    <li class="">
+      <a href="12. Copy Data.html">12. Copy Data</a>
+    </li>
+    <li class="">
+      <a href="13. Exercise Copy Data.html">13. Exercise: Copy Data</a>
+    </li>
+    <li class="">
+      <a href="14. Range Addressing.html">14. Range Addressing</a>
+    </li>
+    <li class="">
+      <a href="15. Range Addressing.html">15. Range Addressing</a>
+    </li>
+    <li class="">
+      <a href="16. Relative vs Absolute Addressing.html">16. Relative vs Absolute Addressing</a>
+    </li>
+    <li class="">
+      <a href="17. Relative vs Absolute Addressing.html">17. Relative vs Absolute Addressing</a>
+    </li>
+    <li class="">
+      <a href="18. Insert and Delete.html">18. Insert and Delete</a>
+    </li>
+    <li class="">
+      <a href="19. Exercise Insert and Delete.html">19. Exercise: Insert and Delete</a>
+    </li>
+    <li class="">
+      <a href="20. Save Data.html">20. Save Data</a>
+    </li>
+    <li class="">
+      <a href="21. File Types.html">21. File Types</a>
+    </li>
+    <li class="">
+      <a href="22. Recap.html">22. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">19. Exercise: Insert and Delete</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="exercise-insert-and-delete">Exercise: Insert and Delete</h1>
+<p>In the exercise below, you'll combine what you've learned about <strong>insert</strong> and <strong>delete</strong> with what you've learned about <strong>addressing</strong> and <strong>fill</strong>.  To begin the exercise, you are asked to download and open <code>fruit_stand.xlsx</code>, which is provided for download at the bottom of this page.  Look for "Supporting Materials" with a link to <code>fruit_stand.xlsx</code> below it, and click to download.  Open the file with your spreadsheet application on your computer.  It should look something like this:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/fruit-stand.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Complete the tasks to complete the exercise!</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>The following list has a series of steps for this exercise.  As you complete each step, check it off the list.  The quizzes in the task list can be found below.</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--0">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--0"><p>Download the <code>fruit_stand.xlsx</code> file from the resources (see bottom of page)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--1">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--1"><p>Open <code>fruit_stand.xlsx</code> in your spreadsheet application</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--2">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--2"><p>Delete the duplicate row</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--3">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--3"><p>Insert a column labeled <strong>Peaches</strong> to the right of <strong>Oranges</strong></p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--4">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--4"><p>Enter values in the <strong>Peaches</strong> column cells as <strong>2, 3, 4, 2, 1</strong></p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--5">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--5"><p>Enter a price for <strong>Peach</strong> of <strong>$0.90</strong> underneath the <strong>Orange</strong> price</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--6">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--6"><p>Correct the calculation for <strong>All Fruit</strong> and <code>fill</code> down</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--7">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--7"><p>Quiz: All Fruit (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--8">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--8"><p>Correct the calculation for <strong>Income</strong> and <code>fill</code> down</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="0c5c7c16-4ccd-4521-a675-5a3382dbda46--9">
+        <label for="0c5c7c16-4ccd-4521-a675-5a3382dbda46--9"><p>Quiz: Income (see below)</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Way to go!  You've created a spreadsheet using a number of techniques and formulas!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>All Fruit</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>What is the <strong>All Fruit</strong> value you calculated for Order number 3?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Income</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>What is the <strong>Income</strong> value you calculated for Order number 5?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="20. Save Data.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('19. Exercise: Insert and Delete')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

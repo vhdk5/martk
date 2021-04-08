@@ -1,0 +1,132 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.534 --> 00:00:03.403
+Você já percebeu agora
+que um grupo de células
+
+00:00:03.437 --> 00:00:05.305
+é chamado de intervalo.
+
+00:00:05.339 --> 00:00:08.308
+O endereço de uma célula
+ou intervalo é exigido
+
+00:00:08.342 --> 00:00:10.844
+quando queremos nos referir
+àquela célula ou intervalo
+
+00:00:10.878 --> 00:00:13.914
+em uma fórmula ou gráfico,
+então, como nos referimos
+
+00:00:13.947 --> 00:00:16.617
+a um intervalo em particular
+no Excel?
+
+00:00:16.650 --> 00:00:18.986
+Selecione um intervalo segurando
+o mouse para baixo,
+
+00:00:19.019 --> 00:00:21.288
+deslizando ou arrastando.
+
+00:00:21.321 --> 00:00:24.157
+Isto seleciona um grupo de células
+próximas uma da outra,
+
+00:00:24.191 --> 00:00:26.627
+que podem ser usadas
+para fazer um gráfico,
+
+00:00:26.660 --> 00:00:29.029
+que nós vamos explorar na aula
+sobre visualização de dados.
+
+00:00:29.062 --> 00:00:31.431
+Ou para adicionar formatação
+como destaque de células
+
+00:00:31.465 --> 00:00:32.833
+ou para colorir a fonte.
+
+00:00:32.866 --> 00:00:35.102
+São muitas as escolhas
+de formatação.
+
+00:00:35.135 --> 00:00:38.038
+Ou para inclusão
+em uma fórmula.
+
+00:00:38.071 --> 00:00:41.375
+Um jeito de ver isso é observar
+como o intervalo é referido
+
+00:00:41.408 --> 00:00:43.710
+em uma fórmula simples
+usando uma soma.
+
+00:00:43.744 --> 00:00:47.548
+Neste exemplo, criamos uma fórmula
+que usa apenas o sinal de igual,
+
+00:00:47.581 --> 00:00:51.084
+depois digite "soma"
+e daí selecione o intervalo.
+
+00:00:51.118 --> 00:00:53.754
+O endereço do intervalo mostra
+a fórmula.
+
+00:00:53.787 --> 00:00:56.390
+O intervalo é definido pelo canto
+superior esquerdo
+
+00:00:56.423 --> 00:00:58.892
+e canto inferior direito
+da área selecionada.
+
+00:00:58.926 --> 00:01:03.063
+Neste exemplo, vemos que o intervalo
+vai de B2, no superior esquerdo,
+
+00:01:03.096 --> 00:01:05.465
+a C7, no inferior direito.
+
+00:01:05.499 --> 00:01:08.235
+Os cantos do intervalo são separados
+por dois-pontos para indicar
+
+00:01:08.268 --> 00:01:11.505
+"e tudo que está no meio".
+
+00:01:11.538 --> 00:01:14.942
+Além de selecionar intervalos
+por rótulos de coluna e linha,
+
+00:01:14.975 --> 00:01:18.579
+também é possível nomear
+intervalos para facilitar
+
+00:01:18.612 --> 00:01:20.714
+sua leitura e identificação.
+
+00:01:20.747 --> 00:01:23.250
+Você vai aprender sobre isso
+em uma próxima aula.
+
+00:01:23.250 --> 00:01:25.886
+A seguir, quero lhe mostrar
+outra coisa especial
+
+00:01:25.919 --> 00:01:28.555
+sobre endereços com planilhas:
+
+00:01:28.622 --> 00:01:33.026
+a ideia de endereço absoluto
+x relativo.
+
+00:01:33.026 --> 00:01:34.026
+*END*
+

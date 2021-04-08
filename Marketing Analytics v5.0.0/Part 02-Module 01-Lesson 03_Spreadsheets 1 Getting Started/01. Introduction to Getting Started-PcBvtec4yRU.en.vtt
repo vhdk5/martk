@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.215
+Hello. My name is Dana Shin,
+
+00:00:02.215 --> 00:00:04.710
+and I'll be your instructor for spreadsheets.
+
+00:00:04.710 --> 00:00:06.890
+I'm an Engineer and Computer Scientist.
+
+00:00:06.890 --> 00:00:11.700
+I've been using spreadsheets since early in my career when they first came out.
+
+00:00:11.700 --> 00:00:13.675
+In this introduction to spreadsheets,
+
+00:00:13.675 --> 00:00:17.190
+we'll focus on how to leverage some of the powerful features that
+
+00:00:17.190 --> 00:00:21.015
+makes spreadsheets a must for your data analysis tool box.
+
+00:00:21.015 --> 00:00:23.116
+Here's how the lessons are organized.
+
+00:00:23.116 --> 00:00:24.360
+In this first lesson,
+
+00:00:24.360 --> 00:00:28.050
+I'll give you a little background and then you'll jump right in.
+
+00:00:28.050 --> 00:00:29.430
+We'll set up a spreadsheet,
+
+00:00:29.430 --> 00:00:30.990
+go over some major features,
+
+00:00:30.990 --> 00:00:32.775
+without going into too much depth,
+
+00:00:32.775 --> 00:00:34.745
+just to get you started.
+
+00:00:34.745 --> 00:00:37.620
+If you're already familiar with the basics of spreadsheets,
+
+00:00:37.620 --> 00:00:41.670
+it's okay to skip ahead to the exercises and quizzes.
+
+00:00:41.670 --> 00:00:45.945
+After getting started, we'll focus on how to manipulate data,
+
+00:00:45.945 --> 00:00:49.950
+analyze data and finally, visualize data.
+
+00:00:49.950 --> 00:00:53.265
+Along the way, I'll show you lots of examples,
+
+00:00:53.265 --> 00:00:55.680
+and you'll have the opportunity to try out what you've
+
+00:00:55.680 --> 00:00:59.070
+learned in small exercises and quizzes.
+
+00:00:59.070 --> 00:01:02.693
+That is, I'll demonstrate a concept or group of features,
+
+00:01:02.693 --> 00:01:08.070
+then you'll be given some small challenges in the form of quizzes or exercises.
+
+00:01:08.070 --> 00:01:10.991
+These are designed to reinforce what you see in the videos,
+
+00:01:10.991 --> 00:01:13.410
+so be sure to give them a try.
+
+00:01:13.410 --> 00:01:16.770
+Also, keep an eye out for key terms and
+
+00:01:16.770 --> 00:01:22.200
+special pro tips in the instructor notes on the shortcuts and time-savers.
+
+00:01:22.200 --> 00:01:26.790
+Now, you may be wondering which spreadsheet you're going to learn about.
+
+00:01:26.790 --> 00:01:29.535
+The answer is, any of them.
+
+00:01:29.535 --> 00:01:32.535
+I'll be demonstrating with Excel on Windows but,
+
+00:01:32.535 --> 00:01:35.460
+you're welcome to use any spreadsheet you have ready
+
+00:01:35.460 --> 00:01:39.150
+access to when you're trying the quizzes and exercises.
+
+00:01:39.150 --> 00:01:42.894
+There are a number of different spreadsheet applications out there to choose from,
+
+00:01:42.894 --> 00:01:48.630
+Microsoft Excel is the most popular and is robust and mature.
+
+00:01:48.630 --> 00:01:51.840
+Google sheets won't do everything that Excel can,
+
+00:01:51.840 --> 00:01:54.600
+but it's free and collaborative.
+
+00:01:54.600 --> 00:01:59.920
+Then, there's Apple numbers and Apache Open Office Calc and more.
+
+00:01:59.920 --> 00:02:02.460
+The interfaces and some of the details differ between
+
+00:02:02.460 --> 00:02:06.585
+spreadsheet applications as well as between computer platforms,
+
+00:02:06.585 --> 00:02:10.465
+but they share a number of core features and functions.
+
+00:02:10.465 --> 00:02:16.260
+Your exercises and quizzes in the lessons will use a format that all of these support.
+

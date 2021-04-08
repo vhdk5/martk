@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.075
+We're going to start with simply opening a blank spreadsheet.
+
+00:00:04.075 --> 00:00:06.000
+If you've reviewed the Getting Started Guide,
+
+00:00:06.000 --> 00:00:07.820
+this should be straightforward.
+
+00:00:07.820 --> 00:00:10.530
+In this example, I've opened a new Excel spreadsheet by
+
+00:00:10.529 --> 00:00:14.704
+clicking on File, New, Blank spreadsheet.
+
+00:00:14.705 --> 00:00:18.699
+The spreadsheet has a series of columns with letter labels A,
+
+00:00:18.699 --> 00:00:22.175
+B, C, and so on.
+
+00:00:22.175 --> 00:00:26.568
+If you go past Z, they become AA,
+
+00:00:26.568 --> 00:00:30.429
+AB, AC, and continue in that pattern.
+
+00:00:30.429 --> 00:00:38.750
+Meanwhile, rows are labeled numerically 1,2,3, and so on.
+
+00:00:38.750 --> 00:00:41.060
+These boxes are called cells.
+
+00:00:41.060 --> 00:00:43.215
+And each one has an address.
+
+00:00:43.215 --> 00:00:46.035
+The address of this cell, for example,
+
+00:00:46.034 --> 00:00:50.939
+is A1, and this one is E8.
+
+00:00:50.939 --> 00:00:55.500
+You can see that the label boxes are grayed in the E and the 8.
+
+00:00:55.500 --> 00:00:59.240
+In spreadsheets, you can also have multiple sheets.
+
+00:00:59.240 --> 00:01:01.454
+Here is the add sheets button.
+
+00:01:01.454 --> 00:01:07.469
+I can add sheets easily and even rename them to something more useful.
+
+00:01:07.469 --> 00:01:11.879
+At first, we're just going to work on one sheet but keep in mind that
+
+00:01:11.879 --> 00:01:14.129
+the sheet or tab name will become part of
+
+00:01:14.129 --> 00:01:18.114
+the cell address when we work with multiple sheets.
+
+00:01:18.114 --> 00:01:22.549
+The formula bar is your window into a selected cell.
+
+00:01:22.549 --> 00:01:24.896
+If you start typing into a cell,
+
+00:01:24.896 --> 00:01:28.015
+you can see your typing appear in the formula bar.
+
+00:01:28.015 --> 00:01:33.314
+Alternatively, you could select the cell and type directly into the formula bar.
+
+00:01:33.314 --> 00:01:36.585
+Sometimes, you'll be entering a formula as I have here.
+
+00:01:36.585 --> 00:01:40.049
+I'm adding two cells together by entering an equal sign and
+
+00:01:40.049 --> 00:01:44.310
+then selecting each of the cells with a plus sign in between.
+
+00:01:44.310 --> 00:01:45.870
+If I come back later,
+
+00:01:45.870 --> 00:01:47.579
+after entering some formulas,
+
+00:01:47.579 --> 00:01:51.239
+I can examine a cell by selecting it and see
+
+00:01:51.239 --> 00:01:56.319
+the formula that's hidden inside by looking at the formula bar.
+
+00:01:56.319 --> 00:01:59.069
+Another handy trick is to click on
+
+00:01:59.069 --> 00:02:04.439
+the formula bar which highlights all the cells that are used in the formula.
+
+00:02:04.439 --> 00:02:07.789
+The main menu includes the most custom features of
+
+00:02:07.790 --> 00:02:11.250
+the particular spreadsheet application and varies somewhat
+
+00:02:11.250 --> 00:02:15.310
+between Google Excel, Apple Numbers etc.
+
+00:02:15.310 --> 00:02:20.090
+We're going to focus on the features they have in common.That's coming up next.
+

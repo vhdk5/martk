@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.980
+You've already figured out by now that a group of cells is called a range.
+
+00:00:04.980 --> 00:00:08.610
+The address of a cell or a range is required when we
+
+00:00:08.610 --> 00:00:12.570
+want to reference that cell or range in a formula or chart.
+
+00:00:12.570 --> 00:00:16.095
+So how do we reference a particular range in Excel?
+
+00:00:16.095 --> 00:00:21.135
+Select a range by holding down your mouse button and swiping or dragging.
+
+00:00:21.135 --> 00:00:24.630
+This selects a group of cells that are next to each other which can be
+
+00:00:24.630 --> 00:00:28.763
+used to make a chart which we will explore in the visualize data lesson.
+
+00:00:28.763 --> 00:00:32.355
+Or to add formatting such as cell highlighting or font color,
+
+00:00:32.355 --> 00:00:34.635
+many choices for formatting.
+
+00:00:34.635 --> 00:00:37.514
+Or for inclusion in a Formula.
+
+00:00:37.514 --> 00:00:43.430
+One way to see this is to look at how range is referenced in a simple formula using sum.
+
+00:00:43.430 --> 00:00:45.660
+In this example, we'll create a formula that's
+
+00:00:45.660 --> 00:00:50.715
+just equal sign then type sum and then select a range.
+
+00:00:50.715 --> 00:00:53.715
+The range address shows up in the formula.
+
+00:00:53.715 --> 00:00:58.370
+A range is defined by the upper left and lower right corners of the area selected.
+
+00:00:58.370 --> 00:01:01.440
+In this example, we can see that the range is from
+
+00:01:01.440 --> 00:01:05.115
+B2 in the upper left to C7 in the lower right.
+
+00:01:05.115 --> 00:01:08.730
+The range corners are separated by a colon to indicate,
+
+00:01:08.730 --> 00:01:11.370
+and everything in between.
+
+00:01:11.370 --> 00:01:14.790
+In addition to selecting ranges by column and row labels,
+
+00:01:14.790 --> 00:01:20.085
+it is also possible to name ranges to make them easier to read and identify.
+
+00:01:20.085 --> 00:01:23.150
+You'll learn about that in a later lesson.
+
+00:01:23.150 --> 00:01:25.610
+Next, I want to show you something else that's
+
+00:01:25.610 --> 00:01:28.755
+special about addressing with spreadsheets.
+
+00:01:28.755 --> 00:01:34.000
+That's the idea of relative versus absolute addressing.
+

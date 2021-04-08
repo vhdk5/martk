@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.044
+Let's take a look at this little fruit stand example.
+
+00:00:03.044 --> 00:00:06.254
+I have a column of apple sales and one of orange sales.
+
+00:00:06.254 --> 00:00:09.179
+To find out how many total fruit I've sold in each order,
+
+00:00:09.179 --> 00:00:11.384
+I'll create a new column called fruits.
+
+00:00:11.384 --> 00:00:15.300
+I'll make a formula that adds the apples and oranges for the order,
+
+00:00:15.300 --> 00:00:19.990
+then fill down so that each row has a sum in the column.
+
+00:00:19.989 --> 00:00:22.094
+Taking a closer look at the cells,
+
+00:00:22.094 --> 00:00:30.838
+it turns out that filled formulas have different addresses for each row.
+
+00:00:30.838 --> 00:00:38.649
+These addresses are relative addresses.
+
+00:00:38.649 --> 00:00:42.714
+They are relative because I'm adding together the cell two to the left,
+
+00:00:42.715 --> 00:00:46.120
+plus the cell one to the left for my answer cell.
+
+00:00:46.119 --> 00:00:48.280
+If I copy it or fill it down,
+
+00:00:48.280 --> 00:00:50.859
+the answer cell will always look at the cell two to
+
+00:00:50.859 --> 00:00:54.725
+the left plus the cell one to the left and add them.
+
+00:00:54.725 --> 00:00:58.375
+What if I copy the fruit sum cell to some random place?
+
+00:00:58.375 --> 00:01:02.045
+The cells referenced are still relative to the answer cell,
+
+00:01:02.045 --> 00:01:05.585
+two to the left and one to the left.
+
+00:01:05.584 --> 00:01:07.989
+It's important to be aware of this default behavior in
+
+00:01:07.989 --> 00:01:11.459
+spreadsheets because it's not always what we want.
+
+00:01:11.459 --> 00:01:12.789
+Let's try a different problem.
+
+00:01:12.790 --> 00:01:15.925
+Suppose I have some prices set up for our apples and oranges,
+
+00:01:15.924 --> 00:01:19.524
+and now I want to know the total income for each order.
+
+00:01:19.525 --> 00:01:21.265
+The formula is pretty straightforward.
+
+00:01:21.265 --> 00:01:23.034
+The number of apples times the price,
+
+00:01:23.034 --> 00:01:25.709
+plus the number of oranges times the price.
+
+00:01:25.709 --> 00:01:31.524
+There that looks right. Now, just fill it down.
+
+00:01:31.525 --> 00:01:33.545
+Well, something went wrong.
+
+00:01:33.545 --> 00:01:35.260
+If we look at the formula,
+
+00:01:35.260 --> 00:01:37.075
+we can see what it was.
+
+00:01:37.075 --> 00:01:42.504
+The relative address was assumed for the price as well as the daily fruit totals.
+
+00:01:42.504 --> 00:01:46.579
+So the price reference for the apples is always three cells to the right,
+
+00:01:46.579 --> 00:01:50.792
+and the price reference for the oranges is always one cell down from there,
+
+00:01:50.793 --> 00:01:53.385
+and that is not what we want.
+
+00:01:53.385 --> 00:01:58.120
+What we want is to always absolutely use
+
+00:01:58.120 --> 00:02:03.475
+the cell H2 for apple prices and H3 for orange prices.
+
+00:02:03.474 --> 00:02:06.699
+What we need is an absolute address for the prices.
+
+00:02:06.700 --> 00:02:11.795
+An absolute address is fixed and won't change when it's copied or filled.
+
+00:02:11.794 --> 00:02:15.099
+And that is accomplished by entering a dollar sign in
+
+00:02:15.099 --> 00:02:18.759
+front of both the column and row in the address.
+
+00:02:18.759 --> 00:02:24.084
+The dollar sign in front of the letter tells Excel that the column is fixed,
+
+00:02:24.085 --> 00:02:29.305
+and the dollar sign in front of the number tells Excel that the row is fixed.
+
+00:02:29.305 --> 00:02:31.060
+For the price references,
+
+00:02:31.060 --> 00:02:34.645
+I'll put a dollar sign in front of both the column letter and the row number.
+
+00:02:34.645 --> 00:02:38.743
+So both the column and row for the price cells are absolute addresses.
+
+00:02:38.743 --> 00:02:40.044
+When I fill down,
+
+00:02:40.044 --> 00:02:43.194
+the price addresses for the formulas won't change.
+
+00:02:43.194 --> 00:02:47.340
+They'll stay H2 and H3.
+
+00:02:47.340 --> 00:02:48.650
+Now, looking at the formulas,
+
+00:02:48.650 --> 00:02:52.000
+we can see that the cells referenced are the ones we want.
+

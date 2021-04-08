@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.200
+The main menu bar includes a number of sub menus,
+
+00:00:04.200 --> 00:00:07.290
+on tabs containing the operations and tools that are
+
+00:00:07.290 --> 00:00:10.910
+particular to the spreadsheet application you are using.
+
+00:00:10.910 --> 00:00:16.199
+These are even configurable in Excel as you become more experienced.
+
+00:00:16.199 --> 00:00:18.599
+I'm going to go through only a few of these in
+
+00:00:18.600 --> 00:00:22.565
+Excel to give you an idea of what is available.
+
+00:00:22.565 --> 00:00:26.940
+Google Sheets and Apple Numbers have similar operations to the ones I'm mentioning.
+
+00:00:26.940 --> 00:00:32.274
+But they may be called something different and they may be found in a different location.
+
+00:00:32.274 --> 00:00:36.929
+There are a lot of features available in Excel that you won't find in other spreadsheets.
+
+00:00:36.929 --> 00:00:43.594
+But our intent here is to focus on the features that most spreadsheets have in common.
+
+00:00:43.594 --> 00:00:45.585
+The more you work with an application,
+
+00:00:45.585 --> 00:00:49.120
+the easier its features are to find and use.
+
+00:00:49.119 --> 00:00:52.184
+But if you aren't sure, there's always help.
+
+00:00:52.185 --> 00:00:55.035
+Here it is right on the Home menu.
+
+00:00:55.034 --> 00:00:58.941
+Type in your search or just click F1.
+
+00:00:58.942 --> 00:01:04.492
+If I'm looking for something I think might be there or just want more information,
+
+00:01:04.492 --> 00:01:06.479
+that's where I go first.
+
+00:01:06.480 --> 00:01:10.710
+File operations are commands that operate between
+
+00:01:10.709 --> 00:01:16.250
+spreadsheets and your computer operating system or online environment.
+
+00:01:16.250 --> 00:01:21.765
+New, we've already used to create a blank spreadsheet but we can also open
+
+00:01:21.765 --> 00:01:28.659
+an existing spreadsheet or use Save As to save a sheet with a new name or format.
+
+00:01:28.659 --> 00:01:32.003
+Edit operations are found in a few different places,
+
+00:01:32.003 --> 00:01:34.625
+but the major ones are in the Home menu.
+
+00:01:34.625 --> 00:01:40.260
+Undo and Redo are always visible in the Quick Access Toolbar in the upper left corner,
+
+00:01:40.260 --> 00:01:43.085
+which is also configurable.
+
+00:01:43.084 --> 00:01:46.664
+The Home menu includes the clipboard functions,
+
+00:01:46.665 --> 00:01:48.330
+Cut, Copy and Paste.
+
+00:01:48.329 --> 00:01:53.060
+A number of formatting options are also available in the Home menu.
+
+00:01:53.060 --> 00:01:54.240
+We can set fonts,
+
+00:01:54.239 --> 00:01:56.159
+data type and more.
+
+00:01:56.159 --> 00:02:01.674
+There are also shortcuts for table formatting and adding and deleting rows and columns.
+
+00:02:01.674 --> 00:02:05.819
+We'll use these features as we need them in the lessons.
+
+00:02:05.819 --> 00:02:07.769
+Formatting your data appropriately,
+
+00:02:07.769 --> 00:02:11.219
+helps you document and communicate your analysis.
+
+00:02:11.219 --> 00:02:16.599
+This is also where you'll find Search and Replace operations or Find and Select.
+
+00:02:16.599 --> 00:02:18.539
+One tip on this one.
+
+00:02:18.539 --> 00:02:22.564
+Be sure you know the scope of your search or replace.
+
+00:02:22.564 --> 00:02:25.092
+Is it just the selected cell or range,
+
+00:02:25.092 --> 00:02:27.764
+the whole sheet or multiple sheets?
+
+00:02:27.764 --> 00:02:29.849
+This is one of those details that may work
+
+00:02:29.849 --> 00:02:32.729
+differently on different spreadsheet applications.
+
+00:02:32.729 --> 00:02:36.389
+For Excel, a dialog box appears when you
+
+00:02:36.389 --> 00:02:41.739
+click options that you can use to specify the scope.
+
+00:02:43.389 --> 00:02:49.629
+Insert menu includes some special items such as hyperlinks.
+
+00:02:49.629 --> 00:02:54.764
+One very important insert function we'll be using a lot is the chart.
+
+00:02:54.764 --> 00:02:57.059
+Creating a chart in spreadsheets is
+
+00:02:57.060 --> 00:03:00.375
+an Insert operation because the chart will by default,
+
+00:03:00.375 --> 00:03:03.344
+be inserted into the page you're working on.
+
+00:03:03.344 --> 00:03:07.615
+We will also cover Pivot Tables in a later lesson.
+
+00:03:07.615 --> 00:03:09.560
+The Data menu, as you might guess,
+
+00:03:09.560 --> 00:03:12.879
+includes some important features for data scientists.
+
+00:03:12.879 --> 00:03:15.995
+These commands allow us to filter our data files,
+
+00:03:15.995 --> 00:03:19.414
+sort lists, and split columns.
+
+00:03:19.414 --> 00:03:23.000
+We'll use these data tools in later lessons.
+

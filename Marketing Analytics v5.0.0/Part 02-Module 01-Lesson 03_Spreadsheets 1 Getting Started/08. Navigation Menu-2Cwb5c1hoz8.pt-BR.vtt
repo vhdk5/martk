@@ -1,0 +1,249 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.567 --> 00:00:04.338
+A barra do menu principal
+inclui diversos submenus.
+
+00:00:04.371 --> 00:00:07.174
+As abas contêm operações
+e ferramentas
+
+00:00:07.207 --> 00:00:11.645
+particulares à aplicação de planilha
+que você está usando.
+
+00:00:11.678 --> 00:00:14.081
+Estas podem ser configuradas
+no Excel,
+
+00:00:14.147 --> 00:00:16.283
+conforme você
+ganha experiência.
+
+00:00:16.316 --> 00:00:19.453
+Eu vou passar por apenas
+algumas delas no Excel,
+
+00:00:19.486 --> 00:00:22.789
+para lhe dar uma ideia
+do que está disponível.
+
+00:00:22.823 --> 00:00:25.759
+Google Sheets e Apple Numbers
+têm operações similares
+
+00:00:25.792 --> 00:00:29.196
+às que estou mencionando, mas
+elas podem ter nomes diferentes
+
+00:00:29.229 --> 00:00:32.266
+e ser encontradas
+em outras localizações.
+
+00:00:32.299 --> 00:00:35.702
+Há outros recursos disponíveis
+no Excel que você não verá
+
+00:00:35.736 --> 00:00:39.573
+em outras planilhas, mas
+a intenção aqui é nos concentrarmos
+
+00:00:39.606 --> 00:00:43.777
+nos recursos que a maioria
+das planilhas tem em comum.
+
+00:00:43.810 --> 00:00:45.846
+Quanto mais você trabalha
+com um aplicativo,
+
+00:00:45.913 --> 00:00:49.449
+mais fácil se torna encontrar
+e usar seus recursos.
+
+00:00:49.483 --> 00:00:52.619
+Mas, se você não tem certeza,
+sempre existe ajuda.
+
+00:00:52.653 --> 00:00:59.126
+Aqui está, no menu "Página Inicial".
+Digite na busca ou apenas clique F1.
+
+00:00:59.159 --> 00:01:02.429
+Se estou procurando algo que acho
+que pode estar lá,
+
+00:01:02.462 --> 00:01:07.134
+ou apenas quero mais informações,
+é onde devo procurar primeiro.
+
+00:01:07.167 --> 00:01:10.037
+Operações em "Arquivo"
+são comandos que operam
+
+00:01:10.070 --> 00:01:14.341
+entre planilhas e o sistema
+operacional do seu computador
+
+00:01:14.374 --> 00:01:16.543
+ou o ambiente on-line.
+
+00:01:16.577 --> 00:01:20.013
+"Novo" já foi usado para criar
+uma planilha em branco.
+
+00:01:20.047 --> 00:01:23.217
+Mas também podemos abrir
+uma planilha já existente
+
+00:01:23.250 --> 00:01:26.854
+ou usar "Salvar como"
+para salvar uma folha
+
+00:01:26.887 --> 00:01:29.189
+com um novo nome
+ou formato.
+
+00:01:29.223 --> 00:01:32.125
+Operações com "Editar" são vistas
+em alguns locais diferentes,
+
+00:01:32.125 --> 00:01:34.995
+mas as principais estão
+no menu "Página inicial".
+
+00:01:35.028 --> 00:01:37.297
+"Refazer" e "Desfazer" estão
+sempre visíveis
+
+00:01:37.297 --> 00:01:39.066
+na barra de ferramentas
+de acesso rápido,
+
+00:01:39.099 --> 00:01:43.370
+no canto esquerdo superior,
+que também pode ser configurado.
+
+00:01:43.437 --> 00:01:46.840
+"Página inicial" também inclui
+a "Área de transferência",
+
+00:01:46.874 --> 00:01:48.909
+com "cortar", "copiar"
+e "colar".
+
+00:01:48.942 --> 00:01:51.545
+Várias opções de formatação
+também estão disponíveis
+
+00:01:51.578 --> 00:01:56.250
+na Página inicial, onde ajustamos
+fontes, tipos de dados e outros.
+
+00:01:56.283 --> 00:01:58.819
+Também há atalhos
+para formatação
+
+00:01:58.852 --> 00:02:02.222
+e adicionar e apagar
+linhas e colunas.
+
+00:02:02.256 --> 00:02:05.893
+Vamos usar esses recursos conforme
+precisarmos deles nas aulas.
+
+00:02:05.926 --> 00:02:09.596
+Formatar seus dados adequadamente
+ajuda a documentar e comunicar
+
+00:02:09.630 --> 00:02:11.431
+sua análise.
+
+00:02:11.465 --> 00:02:14.601
+Aqui também você vai achar
+as operações de localizar
+
+00:02:14.635 --> 00:02:17.237
+e substituir ou achar
+e selecionar.
+
+00:02:17.271 --> 00:02:21.041
+Uma dica sobre esta função:
+saiba o escopo da sua busca
+
+00:02:21.074 --> 00:02:22.509
+ou substituição,
+
+00:02:22.543 --> 00:02:26.146
+se é apenas a célula selecionada
+ou o intervalo,
+
+00:02:26.180 --> 00:02:28.148
+toda a folha
+ou múltiplas folhas.
+
+00:02:28.148 --> 00:02:30.551
+Esse é um daqueles detalhes
+que funcionam de modo diferente
+
+00:02:30.617 --> 00:02:35.956
+em aplicativos diferentes. No Excel,
+aparece uma caixa de diálogo
+
+00:02:35.989 --> 00:02:38.525
+quando se clica em "opções",
+e você a usa
+
+00:02:38.559 --> 00:02:41.862
+para especificar o escopo.
+
+00:02:45.299 --> 00:02:50.070
+O menu "Inserir" inclui
+itens especiais, como hyperlinks.
+
+00:02:50.103 --> 00:02:53.640
+Uma função muito importante
+do "Inserir", que usaremos muito,
+
+00:02:53.674 --> 00:02:55.275
+é a dos gráficos.
+
+00:02:55.309 --> 00:02:58.579
+Criar gráficos em planilhas
+é uma operação de inserção,
+
+00:02:58.612 --> 00:03:01.882
+porque o gráfico, por padrão,
+será inserido na página
+
+00:03:01.882 --> 00:03:03.984
+em que estamos trabalhando.
+
+00:03:03.984 --> 00:03:07.788
+Também faremos tabelas dinâmicas
+em uma próxima aula.
+
+00:03:07.821 --> 00:03:10.023
+O menu "Dados", como você
+pode imaginar, inclui
+
+00:03:10.057 --> 00:03:12.793
+recursos importantes
+para cientistas de dados.
+
+00:03:12.826 --> 00:03:16.330
+Esses comandos nos permitem
+filtrar arquivos de dados,
+
+00:03:16.363 --> 00:03:20.033
+separar listas
+e dividir colunas.
+
+00:03:20.067 --> 00:03:23.370
+Vamos usar essas ferramentas
+de dados nas próximas aulas.
+
+00:03:23.370 --> 00:03:24.370
+*END*
+

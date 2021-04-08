@@ -1,0 +1,209 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.400 --> 00:00:03.237
+Vamos observar esse exemplo
+da barraca de frutas.
+
+00:00:03.270 --> 00:00:06.373
+Tenho uma coluna para as vendas
+de maçã e outra para as de laranja.
+
+00:00:06.406 --> 00:00:09.243
+Para descobrir quantas frutas
+eu vendi e em qual ordem,
+
+00:00:09.276 --> 00:00:11.778
+vou criar uma nova coluna
+chamada "frutas".
+
+00:00:11.812 --> 00:00:15.082
+Vou fazer uma fórmula que adiciona
+maçãs e laranjas à ordem
+
+00:00:15.115 --> 00:00:17.651
+e preencher para baixo,
+para cada linha
+
+00:00:17.684 --> 00:00:20.187
+ter uma soma
+na coluna.
+
+00:00:20.220 --> 00:00:22.289
+Olhando as células
+mais de perto,
+
+00:00:22.322 --> 00:00:24.558
+acontece que as fórmulas
+preenchidas
+
+00:00:24.591 --> 00:00:27.961
+têm endereços diferentes
+em cada linha.
+
+00:00:35.903 --> 00:00:38.739
+Esses endereços são
+endereços relativos.
+
+00:00:38.739 --> 00:00:41.975
+Eles são relativos porque eu estou
+adicionando juntos às células
+
+00:00:42.009 --> 00:00:45.279
+duas à esquerda mais
+uma célula à esquerda
+
+00:00:45.279 --> 00:00:46.980
+para a célula que será
+a minha resposta.
+
+00:00:47.047 --> 00:00:49.616
+Se eu copiar ou preenchê-la,
+a célula com a resposta
+
+00:00:49.616 --> 00:00:51.652
+sempre irá olhar para a célula
+dois para a esquerda
+
+00:00:51.685 --> 00:00:54.755
+e para a célula um à esquerda
+e adicioná-las.
+
+00:00:54.788 --> 00:00:56.757
+E se eu copiar a célula
+com a soma das frutas
+
+00:00:56.790 --> 00:00:58.892
+para um local aleatório?
+
+00:00:58.926 --> 00:01:02.529
+As células referidas ainda são
+relativas à célula com a resposta.
+
+00:01:02.563 --> 00:01:05.632
+Duas à esquerda
+e uma à esquerda.
+
+00:01:05.666 --> 00:01:07.968
+É importante saber deste
+comportamento padrão
+
+00:01:08.001 --> 00:01:11.505
+em planilhas porque nem sempre
+é o que queremos.
+
+00:01:11.538 --> 00:01:13.841
+Vamos a outro problema.
+Digamos que eu tenha
+
+00:01:13.874 --> 00:01:16.743
+preços fixos para maçãs
+e laranjas e agora
+
+00:01:16.777 --> 00:01:19.947
+eu queira saber a renda total
+para as duas frutas.
+
+00:01:19.980 --> 00:01:23.217
+A fórmula é bem direta:
+o número de maçãs vezes o preço,
+
+00:01:23.250 --> 00:01:27.788
+mais o número de laranjas
+vezes o preço. Parece certo.
+
+00:01:27.821 --> 00:01:31.825
+Agora vamos preencher.
+
+00:01:31.859 --> 00:01:35.362
+Bom, algo deu errado.
+se olharmos para a fórmula
+
+00:01:35.362 --> 00:01:40.067
+e vermos como era, o endereço
+relativo era tido como o preço
+
+00:01:40.100 --> 00:01:42.503
+assim como o total diário
+de frutas.
+
+00:01:42.536 --> 00:01:46.039
+Então, o preço de referência para
+as maçãs é sempre três células
+
+00:01:46.073 --> 00:01:48.876
+para a direita, e o de referência
+para as laranjas é sempre
+
+00:01:48.909 --> 00:01:50.911
+uma célula para para baixo.
+
+00:01:50.944 --> 00:01:53.847
+E não é isso que queremos.
+
+00:01:53.847 --> 00:01:59.653
+O que queremos é sempre,
+toda vez, usar a célula H2
+
+00:01:59.686 --> 00:02:03.857
+para o preço das maçãs,
+e a H3 para o das laranjas.
+
+00:02:03.891 --> 00:02:07.194
+Precisamos de um endereço
+absoluto para os preços.
+
+00:02:07.227 --> 00:02:12.266
+Um preço absoluto é fixo e não vai
+mudar se copiado ou preenchido.
+
+00:02:12.299 --> 00:02:15.335
+Isso se consegue ao inserir
+um cifrão em frente
+
+00:02:15.369 --> 00:02:19.173
+das duas colunas e da linha
+no endereço.
+
+00:02:19.206 --> 00:02:24.211
+O cifrão em frente à letra
+diz ao Excel que a coluna é fixa,
+
+00:02:24.244 --> 00:02:29.583
+e o cifrão em frente ao número diz
+ao Excel que a linha é fixa.
+
+00:02:29.616 --> 00:02:32.419
+Para as referências de preço,
+eu vou pôr um cifrão
+
+00:02:32.452 --> 00:02:34.821
+em frente à letra da coluna
+e do número da linha.
+
+00:02:34.855 --> 00:02:37.424
+Então tanto a coluna quanto a linha
+para as células dos preços
+
+00:02:37.457 --> 00:02:39.126
+são endereços absolutos.
+
+00:02:39.126 --> 00:02:42.062
+Quando eu preencho, o endereço
+dos preços para as fórmulas
+
+00:02:42.095 --> 00:02:47.067
+não vai mudar.
+Eles vão permanecer H2 e H3.
+
+00:02:47.100 --> 00:02:50.637
+Agora, olhando as fórmulas,
+vemos que as células referidas
+
+00:02:50.671 --> 00:02:51.738
+são as que queremos.
+
+00:02:51.738 --> 00:02:52.738
+*END*
+

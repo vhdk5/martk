@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+Let's work through some specific manipulation skills.
+
+00:00:03.600 --> 00:00:06.269
+First step, copy data and open
+
+00:00:06.269 --> 00:00:09.959
+a Google Finance web page of Apple historical stock prices.
+
+00:00:09.960 --> 00:00:12.780
+With spreadsheets, we can copy whole tables.
+
+00:00:12.779 --> 00:00:15.179
+This works well when a website is set up in
+
+00:00:15.179 --> 00:00:19.649
+a format that spreadsheets recognize such as this financial data.
+
+00:00:19.649 --> 00:00:22.994
+When I copy and paste this table from the financial website,
+
+00:00:22.995 --> 00:00:25.530
+it's copied and pasted as cells.
+
+00:00:25.530 --> 00:00:29.160
+Each cell has a separate value. Now you try.
+
