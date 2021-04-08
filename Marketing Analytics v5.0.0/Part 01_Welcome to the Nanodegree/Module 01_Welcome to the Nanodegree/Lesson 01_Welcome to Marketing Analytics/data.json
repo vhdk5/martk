@@ -1,0 +1,396 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817233,
+      "key": "b03aad52-5b6c-4f1e-a8e9-287a16ffd2c1",
+      "title": "Welcome to Marketing Analytics",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/b03aad52-5b6c-4f1e-a8e9-287a16ffd2c1/817233/1557245466229/Welcome+to+Marketing+Analytics+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/b03aad52-5b6c-4f1e-a8e9-287a16ffd2c1/817233/1557245463405/Welcome+to+Marketing+Analytics+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 817234,
+          "key": "d53f88db-57ea-4db1-9242-6f213cc5d3e2",
+          "title": "Welcome to the Marketing Analytics Nanodegree",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d53f88db-57ea-4db1-9242-6f213cc5d3e2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827390,
+              "key": "b2aeccc0-a4e1-482c-8bf0-b75aa6256b2a",
+              "title": "MA00 COURSE INTRO",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "9xC5bJUPRS0",
+                "china_cdn_id": "9xC5bJUPRS0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 817238,
+          "key": "6704e3b0-3d40-4b8d-ac02-871c69c2251d",
+          "title": "Program Structure",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6704e3b0-3d40-4b8d-ac02-871c69c2251d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 817250,
+              "key": "ebdfacce-6090-4861-bcb9-80d1c48a0d8a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "<iframe width =740 height = 900 src=\"https://d20vrrgs8k4bvw.cloudfront.net/documents/en-US/Marketing+Analytics+Nanodegree+Program+Syllabus.pdf\"></iframe>",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 841175,
+          "key": "4e685eab-5b75-40ff-913f-edcb405e4de1",
+          "title": "Meet your Instructors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4e685eab-5b75-40ff-913f-edcb405e4de1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 841176,
+              "key": "a107fd1a-43c0-4e60-9fe8-60f3f0ac5a72",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Meet the Instructors!\n\nThere are several instructors  to support your journey into data science. Here are a few of them! \n\n**Josh Bernhard**<br>\nJosh will introduce you to practical statistics and how to conduct statistical analysis using python libraries. Josh has a graduate degree in statistics and has extensive experience as a data scientist in the industry. He has worked for several firms, including KPMG and Galvanize.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 841177,
+              "key": "927617af-f8a5-44e4-a053-5cb70a0fd8c2",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/August/5b61fbce_josh-bernhard/josh-bernhard.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/927617af-f8a5-44e4-a053-5cb70a0fd8c2",
+              "caption": "",
+              "alt": "",
+              "width": 320,
+              "height": 320,
+              "instructor_notes": null
+            },
+            {
+              "id": 841181,
+              "key": "71ccea5b-540c-4ad8-9348-d0fccc2dbb42",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Dana Sheahen**<br>\nDana will introduce you to data analysis in Microsoft Excel. She has a background in electrical engineering and computer science. She's taught courses on data analysis, artificial intelligence, robotics, and autonomous machines",
+              "instructor_notes": ""
+            },
+            {
+              "id": 841180,
+              "key": "90ba1ed9-d59e-428d-8adb-2043d1790272",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/March/5c956d2b_dana/dana.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/90ba1ed9-d59e-428d-8adb-2043d1790272",
+              "caption": "",
+              "alt": "",
+              "width": 320,
+              "height": 320,
+              "instructor_notes": null
+            },
+            {
+              "id": 841178,
+              "key": "b5130cde-78c8-423f-a557-3ca88180f07e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "** Mat Leonard **<br>\nMat Leonard is a former physicist, research neuroscientist, and data scientist. He did his PhD and Postdoctoral Fellowship at the University of California, Berkeley.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 841179,
+              "key": "86f9d59b-2ca3-449d-9e71-b79a0b713bbf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c3d20a5_mat-leonard/mat-leonard.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/86f9d59b-2ca3-449d-9e71-b79a0b713bbf",
+              "caption": "",
+              "alt": "",
+              "width": 300,
+              "height": 300,
+              "instructor_notes": null
+            },
+            {
+              "id": 841182,
+              "key": "6c761dd7-b147-4278-b6eb-3386f97058cf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Brad Batesole**<br>\nBrad is a marketing executive who has led teams of top marketers at top companies: Lynda.com, TMZ, LegalZoom, and LinkedIn. He has extensive experience from every angle, from marketing strategy and user experience to social media, paid media, and SEO.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 841183,
+              "key": "66165a33-8e6e-40c0-9d04-18f10f465b40",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/March/5c956f13_brad/brad.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/66165a33-8e6e-40c0-9d04-18f10f465b40",
+              "caption": "",
+              "alt": "",
+              "width": 320,
+              "height": 320,
+              "instructor_notes": null
+            },
+            {
+              "id": 841185,
+              "key": "8003e24d-5246-4ae2-a081-f896de588f58",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Anke Audenaert**<br>\nAnke led the development of Digital Marketing programs at Udacity. She previously ran Market Research at Yahoo!, co-founded two companies, and is on the marketing faculty at UCLA Anderson.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 841184,
+              "key": "90d60f03-9607-42b4-80ce-f7af0e095a88",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/January/5a71411e_anke-a-600x600/anke-a-600x600.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/90d60f03-9607-42b4-80ce-f7af0e095a88",
+              "caption": "",
+              "alt": "",
+              "width": 320,
+              "height": 320,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 229392,
+          "key": "792f0fd7-68f7-4843-aefd-abf5cc43490d",
+          "title": "Meet the Careers Team",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "792f0fd7-68f7-4843-aefd-abf5cc43490d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 442242,
+              "key": "a48839d1-f8d5-4fb5-8076-88d24c716e33",
+              "title": "Meet the Careers Team",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "#### Resources\n\n* Explore [Your Career Portal](https://classroom.udacity.com/career/)\n* Find Your [Career Services](https://www.udacity.com/career-services)",
+              "video": {
+                "youtube_id": "cuKecPpZ7PM",
+                "china_cdn_id": "cuKecPpZ7PM.mp4"
+              }
+            },
+            {
+              "id": 728556,
+              "key": "993520a7-40e1-4534-bbf6-62e0fa8113d0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Career Service: No Resubmission Required\n\nIn this Nanodegree program, you can get personalized feedback on your LinkedIn and GitHub profiles. **Unlike other Nanodegree projects, you submit to a Career Service once to get feedback and do not need to meet specifications to continue on in your program.** \n\nThe value of Career Service reviews is not in meeting specifications on subjective rubric items, but in getting honest, personalized guidance from a Career Mentor. Learning from this guidance is what will guide you on the path to truly improving your job search materials. \n\n We highly encourage you to take advantage of this guidance. Most Alumni who report jobs and other opportunities (such as collaboration) attribute their success to networking.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 440370,
+          "key": "6c7f9ba9-b49e-4915-ae23-050bacff6326",
+          "title": "Access Your Career Portal",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6c7f9ba9-b49e-4915-ae23-050bacff6326",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 440384,
+              "key": "d9034285-f932-4a33-bd00-a3193c80b7c8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# The Career Portal: Your Path to Getting Hired\nIn your **Career Portal**, you'll find a personalized job search guide that includes 1:1 reviews of your resume, LinkedIn profile, and more.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 440383,
+              "key": "a4856ff4-9db2-4d35-a1a3-81c70543916d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/October/59f3a027_get-hired-with-the-udacity-career-portal/get-hired-with-the-udacity-career-portal.gif",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a4856ff4-9db2-4d35-a1a3-81c70543916d",
+              "caption": "",
+              "alt": "Career Portal",
+              "width": 1040,
+              "height": 640,
+              "instructor_notes": null
+            },
+            {
+              "id": 440381,
+              "key": "82ae1cf8-98d5-4906-9c20-845948d480a0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How Do I Get To My Career Portal?\nTo access the Career Portal, look for the briefcase icon in your left-hand sidebar when you're logged into your [Udacity classroom](https://classroom.udacity.com/me).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 440373,
+              "key": "d43325be-ae2a-4637-9890-ffa00eb71360",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/October/59f39c10_screen-shot-2017-10-27-at-1.49.58-pm/screen-shot-2017-10-27-at-1.49.58-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d43325be-ae2a-4637-9890-ffa00eb71360",
+              "caption": "",
+              "alt": "Udacity classroom left-hand sidebar",
+              "width": 203,
+              "height": 281,
+              "instructor_notes": null
+            },
+            {
+              "id": 440382,
+              "key": "d60fb33c-f423-4647-95ea-5d3fe1d9d50d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Unable to find your Career Portal?\nNot seeing the Career Portal icon? Write into [career-support@udacity.com](mailto:career-support@udacity.com) for help getting access.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 593946,
+          "key": "1610c6b5-bffe-4771-aeeb-fc8575e62c6e",
+          "title": "How to Succeed",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1610c6b5-bffe-4771-aeeb-fc8575e62c6e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752749,
+              "key": "832b28db-6ba7-47a8-8086-b433a0ce1c98",
+              "title": "L1 06学习建议",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JRnZOZR97QQ",
+                "china_cdn_id": "JRnZOZR97QQ.mp4"
+              }
+            },
+            {
+              "id": 967248,
+              "key": "53ab1211-d885-4445-8153-e11f4fcc966e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "At ~1:20 Juno mentions mobile apps - while there is no current iOS or Android Udacity app, Udacity does have a mobile web app optimized for viewing on a mobile device (which you reach by going to the main Udacity website on your phone).",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "data": {
+    "lesson": {
+      "id": 728725,
+      "key": "b19f40d7-8ac7-42b2-912c-5c146cfa777d",
+      "title": "Nanodegree Career Services",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "The Careers team at Udacity is here to help you move forward in your career - whether it's finding a new job, exploring a new career path, or applying new skills to your current job.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 831981,
+          "key": "99232e4b-299c-40f5-a985-3162da96288e",
+          "title": "Career Services",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99232e4b-299c-40f5-a985-3162da96288e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 831984,
+              "key": "56b803ea-52ec-4803-99d5-41aa3fef76c4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You’re probably in this Nanodegree program to advance your career - whether looking for a new job, learning new skills for your current job, or just exploring.\n\nIf you want career support during your program, career coaches provide personalized feedback on your LinkedIn profile and GitHub as optional projects. \n\nIf you are actively looking for a new role, you can also submit your resume and cover letter in the sidebar under Help > Career Services.\n\nYou'll get honest, concise feedback from career coaches, including industry professionals.\n\nThe Udacity Careers team is here to help you figure out what you're looking for, plan for it, and work with you to move forward in your career. You can always contact us at <a href=\"mailto:career-support@udacity.com\" target=\"_blank\">career-support@udacity.com</a>.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
