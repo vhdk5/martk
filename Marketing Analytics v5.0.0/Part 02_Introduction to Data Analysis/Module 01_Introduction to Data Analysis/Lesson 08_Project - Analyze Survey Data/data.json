@@ -1,0 +1,1062 @@
+{
+  "data": {
+    "lesson": {
+      "id": 827326,
+      "key": "b0d8979a-dc71-4081-a7da-3aec13d2fd74",
+      "title": "Project - Analyze Survey Data",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": {
+        "key": "49cb17b7-f54a-436a-a9fa-0b65d46a06c2",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 14400,
+        "semantic_type": "Project",
+        "title": "Analyze Survey Data",
+        "description": "For the final project, you will conduct your own data analysis and create a file to share that documents your findings.  Go through the data analysis process, starting by posing a question and finishing by sharing your findings.\n\n## Evaluation\n\nUse the [**Project Rubric**](https://review.udacity.com/#!/projects/49cb17b7-f54a-436a-a9fa-0b65d46a06c2/rubric) to review your project. If you are happy with your submission, then you are ready to submit! If you see room for improvement in **any** category in which you do not meet specifications, keep working! \n\nYour project will be evaluated by a Udacity reviewer according to the same [**Project Rubric**](https://review.udacity.com/#!/projects/49cb17b7-f54a-436a-a9fa-0b65d46a06c2/rubric). Your project must \"meet specifications\" or \"exceed specifications\" in each category in order for your submission to pass.\n\n## Submission\n\n### What to include in your submission###\n\n1. A slide show presentation.  This file should include:\n    * A statement of the question(s) you posed\n    * Documentation of any data cleaning you did via an Excel workbook\n    * Summary statistics and plots communicating your final results\n    * Use our template to assist\n\n2. A list of Web sites, books, forums, blog posts, etc. that you referred to or used in creating your submission (add N/A if you did not use any such resources).\n**In order to review your presentation, you will need to save your slides as a `PDF`.**  You can do this from within Google Slides by selecting **File > Download as > PDF Document**.\n\n3.  You can also download the .xlsx format of your workbook if you are using Google Sheets by selecting **File > Download as > Microsoft Excel (.xlsx)**.\n\n\n**In order to review your presentation, you will need to save your slides as a `PDF` and your workbook as `xlsx`.\n\n* You should have a workbook with the data and visualizations used for each slide in your presentation.\n* Save the presentation as a PDF and the workbook.<br><br>\n![folder](https://d17h27t6h515a5.cloudfront.net/topher/2017/December/5a272b64_screen-shot-2017-12-05-at-3.23.31-pm/screen-shot-2017-12-05-at-3.23.31-pm.png)<br><br>\n\n\n* Zip (compress) the folder and submit this zipped folder with both files in it.<br><br>\n![zip](https://d17h27t6h515a5.cloudfront.net/topher/2017/December/5a272b65_screen-shot-2017-12-05-at-3.23.43-pm/screen-shot-2017-12-05-at-3.23.43-pm.png)<br><br>\n* Submit the zipped file.<br><br>\n![submission](https://d17h27t6h515a5.cloudfront.net/topher/2017/December/5a272b65_screen-shot-2017-12-05-at-3.23.43-pm/screen-shot-2017-12-05-at-3.23.43-pm.png)<br><br>\n\n\n### Ready to submit your project?###\n\nClick on the \"Submit Project\" button and follow the instructions to submit!\n\nIt can take us up to a week to grade the project, but in most cases it is much faster. You will get an email when your submission has been reviewed.\n\n### Project Submission Checklist\n\n**Before submitting your project, please review and confirm the following items.** \n<input type=\"checkbox\"> I am confident all rubric items have been met and my project will pass as submitted. \n<input type=\"checkbox\"> Project builds correctly without errors and runs.\n<input type=\"checkbox\"> All required functionality exists and my project behaves as expected per the project's specifications.\n\n**Once you have checked all these items, you are ready to submit!**",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "975",
+        "terminal_project_id": null,
+        "resources": {
+          "files": [
+            {
+              "name": "Surveydata3",
+              "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2017/December/5a32c431_surveydata3/surveydata3.csv"
+            }
+          ],
+          "google_plus_link": null,
+          "career_resource_center_link": null,
+          "coaching_appointments_link": null,
+          "office_hours_link": null,
+          "aws_provisioning_link": null
+        },
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 330596,
+          "key": "764907fe-137d-4738-b691-b55474837624",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "764907fe-137d-4738-b691-b55474837624",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "surveydata3.csv",
+                "uri": "https://video.udacity-data.com/topher/2020/February/5e468b05_surveydata3/surveydata3.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 330618,
+              "key": "afeb4a36-36ad-47a6-b6d2-0dd059ce3d92",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Project Overview\n\nIn this project, you will analyze a  **real** dataset about current Udacity students across a number of programs, so it isn't perfect.  It is a little messy (some things are input incorrectly, others are missing).  You will need to decide how to analyze the data and then communicate your findings about it. You will use spreadsheets to make your analysis easier (please do not analyze by hand - it will take forever!).\n\nPrepare with the descriptive statistics and spreadsheets lessons leading up to the project.\n\n## What do I need to install?\n\nYou may use any spreadsheet application you like. This includes Google Sheets, Microsoft Excel, etc.\nPlease note .CSV files may not save more than the active tab you are on at the time you close the file and it is recommended to use a spreadsheet tool like the two mentioned above for your work.\n\n## Why this Project?\n\nThis project will introduce you to the data analysis process that you will be using throughout the rest of the Nanodegree program. In this project, you will go through the process of calculating summary statistics and building visual methods of spreadsheet data to find interesting information out about Udacity students - **students just like you**. The goal is that you not only can perform an analysis, but also that you can communicate the results in a way that is clear and compelling.\n\n## What skills will I use?\n\nAfter completing the lessons and the project, you should feel comfortable in your ability to:\n\n* Identify different datatypes to determine what analyses are possible.\n* Calculate measures of center and spread to describe quantitative data.\n* Use a variety of spreadsheet functionality to gain insights from data.\n* Build charts and graphs to communicate the results of your analysis\n* Be comfortable posing questions that can be answered with a given dataset and then answering those questions\n* Analyze a future dataset using Excel\n\n## Project Details\n\nThe data used for this project was collected from Udacity students who responded to a survey. This project is made of **two** parts.  For both parts you will be using the same dataset, which you can find in the **Supporting Materials** as **Surveydata3.csv** at the bottom of this page.  You will notice that some information has been removed to assure the privacy of the student respondents.\n\n1. The first part of the project is a set of quiz questions, which you will find in the upcoming concepts.  These concepts are aimed to help you get familiar with the dataset and test that you have mastered the core concepts in the previous lessons.  Correctly answering each of the quiz questions will assure you are on the right track before you dive into the second part of the project.  **This part of the project will not be submitted for review.**<br><br>\n\n2. The second part of your project is the portion you will turn in for review.  You will need to **create a presentation** to be reviewed.  The details of this submission are detailed in the last page in this lesson.  Pay attention to the details of the [Rubric](https://review.udacity.com/#!/rubrics/975/view) to assure you have all deliverables.  **In order to review your presentation, you will need to save your slides as a `PDF`.**  \n\n## Project Walkthrough\n\nThis video shows one of our instructors giving some great hints and tips for how to get started with your project: [Walkthrough Video](https://www.youtube.com/watch?v=OkpTBa4jVSQ&feature=youtu.be)",
+              "instructor_notes": ""
+            },
+            {
+              "id": 620097,
+              "key": "545368a9-308c-4174-bfd6-c530037dc470",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Common Questions and Answers:\nhttps://knowledge.udacity.com/?nanodegree=5ce69a5c-496f-11e8-b509-932e3a4da789&page=1&project=553cac4c-496f-11e8-b321-4715df65cd36",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 346573,
+          "key": "8533f53b-8a48-4937-b95c-cd1c644dbc14",
+          "title": "Exploring the Data I",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8533f53b-8a48-4937-b95c-cd1c644dbc14",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 346731,
+              "key": "5d54d95c-972a-4dfa-bb99-4f4fad721988",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "#### Cleaning Up The Data\n\nAlthough you do not need to follow these for setting up the dataset, These are some suggestions:\n\n1. All questions where the answer lives across multiple columns, combine into a single column and remove the original columns.  Keep only the combined column.<br><br>\n2. Change all the column names to have no spaces, but still be informative.  This isn't necessary, but just a recommendation.  Depending on what you do with the data in the future having spaces or special characters in the column names may not work nicely.  You will see this in the next content on SQL.<br><br>\n3.  Change the birthdate column to an age column by finding the number of days from that date to today, and then dividing by 365.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 346734,
+              "key": "5bdd9f37-53ff-406e-a502-8b57e0c97ee0",
+              "title": "Reasonability Check",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5bdd9f37-53ff-406e-a502-8b57e0c97ee0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Another imperative part of analyzing data is understanding what parts of our data are reasonable, and then using the data appropriately for answering our questions of interest.  Before looking at our data, which of the following claims seem reasonable.",
+                "answers": [
+                  {
+                    "id": "a1500055335762",
+                    "text": "The most frequent 'Highest Degree Earned' is a Nanodegree Program.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500055565187",
+                    "text": "The average number of hours of sleep for students exceeds the number of hours in a day.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500055586983",
+                    "text": "The maximum number of hours commuting in a day exceeds the number of hours in a day.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500055603423",
+                    "text": "The maximum number of hours spent sitting in a day exceeds the number of hours in a day.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500055617617",
+                    "text": "The maximum 'years of experience' is longer than the oldest person on record to ever live",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500056007977",
+                    "text": "The mean 'average hours worked' on a project exceeds the number of hours in a day.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500056039189",
+                    "text": "More than 50% of students spend more than 24 hours on 'average for projects'.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500056064124",
+                    "text": "The maximum 'number of books read or listened to in a year' exceeds the number of days in a year.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500056880761",
+                    "text": "The youngest participants are less than a year old.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 346732,
+              "key": "86f2416f-363d-42f8-89b6-18039d213e3b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "86f2416f-363d-42f8-89b6-18039d213e3b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What was the most frequent \"Highest Degree Earned\"?",
+                "answers": [
+                  {
+                    "id": "a1500052506861",
+                    "text": "High school or below",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500052561271",
+                    "text": "Associates",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500052590131",
+                    "text": "Bachelors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500052593672",
+                    "text": "Masters",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500052599008",
+                    "text": "PhD",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500052603871",
+                    "text": "Nanodegree Program",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 346733,
+              "key": "b8dbf72e-d6e8-493e-a4fb-90b0f5d5983c",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b8dbf72e-d6e8-493e-a4fb-90b0f5d5983c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "One of the most important aspects of analyzing data is being clear about what you **can** and **cannot** say.  For each of the below statements, analyze the data to see if the claim is true.  Select all of the below that are true based on the survey data.",
+                "answers": [
+                  {
+                    "id": "a1500052831700",
+                    "text": "The average number of hours of sleep of students exceeds the number of hours in a day.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500052930708",
+                    "text": "The maximum number of hours commuting in a day exceeds the number of hours in a day.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500053036597",
+                    "text": "The maximum number of hours spent sitting in a day exceeds the number of hours in a day.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500053866416",
+                    "text": "The youngest participants are less than a year old.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500053922139",
+                    "text": "The maximum 'years of experience' is longer than the oldest person on record to ever live.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500053969214",
+                    "text": "The mean 'average hours worked' on a project exceeds the number of hours in a day.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500054572525",
+                    "text": "More than 50% of students spend more than 24 hours on 'average for projects'.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500054883675",
+                    "text": "The maximum 'number of books read or listened to in a year' exceeds the number of days in a year.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 346736,
+              "key": "508a8b3a-3053-43a8-8ad0-45e3c5fd812c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "508a8b3a-3053-43a8-8ad0-45e3c5fd812c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the most common Nanodegree Program students of the survey are taking?",
+                "answers": [
+                  {
+                    "id": "a1500057810465",
+                    "text": "Artificial Intelligence",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500057982616",
+                    "text": "Data Analyst",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500057988002",
+                    "text": "Machine Learning Engineer",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500057995330",
+                    "text": "Introduction to Programming",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500058004209",
+                    "text": "Deep Learning Foundations",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 346677,
+          "key": "7337376f-0ef3-45b3-a2af-35b357837cff",
+          "title": "Exploring the Data II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7337376f-0ef3-45b3-a2af-35b357837cff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 346741,
+              "key": "8e95234e-8bfd-4d45-8ec6-6edd846e37ff",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "8e95234e-8bfd-4d45-8ec6-6edd846e37ff",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "prompt": "What proportion of the students who completed the survey are employed?  Note that a '1' represents employed, while '0' represents a student that is not employed.  Enter your answer as a decimal (18% should be reported as 0.18).",
+                "semantic_type": "CodeGradedQuestion",
+                "evaluation_id": "5519951816425472"
+              },
+              "answer": null
+            },
+            {
+              "id": 346746,
+              "key": "09a39b5c-ce34-4441-9c47-0b22306c0a38",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "09a39b5c-ce34-4441-9c47-0b22306c0a38",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "prompt": "Of students who have a Master's or PhD degree, what percent responded as **not employed**?  Enter your answer as a decimal (18% should be reported as 0.18).",
+                "semantic_type": "CodeGradedQuestion",
+                "evaluation_id": "6105957716328448"
+              },
+              "answer": null
+            },
+            {
+              "id": 346752,
+              "key": "4ae94579-30a8-434e-919f-9160ce28e805",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "4ae94579-30a8-434e-919f-9160ce28e805",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "prompt": "What is the daily commute time such that 50% of students travel longer than that time? In other words, what is the median commute time? (Round to the nearest minute.)",
+                "semantic_type": "CodeGradedQuestion",
+                "evaluation_id": "5015929376342016"
+              },
+              "answer": null
+            },
+            {
+              "id": 346768,
+              "key": "9f25ca57-f81b-41f4-9980-b74f75ac5b6a",
+              "title": "",
+              "semantic_type": "QuizAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "user_state": {
+                "node_key": "9f25ca57-f81b-41f4-9980-b74f75ac5b6a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "instruction": null,
+              "question": {
+                "title": "",
+                "prompt": "What is the mean reported number of hours of sleep? Round to the nearest whole hour.",
+                "semantic_type": "CodeGradedQuestion",
+                "evaluation_id": "6669756705931264"
+              },
+              "answer": null
+            },
+            {
+              "id": 346770,
+              "key": "c54e162d-b82b-4875-80f2-f7aff0cecd07",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c54e162d-b82b-4875-80f2-f7aff0cecd07",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the previous part we saw the mean number of hours of sleep for students. How do you think we should report this value?",
+                "answers": [
+                  {
+                    "id": "a1500067910966",
+                    "text": "Just report the value - it is the mean after all.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500068063949",
+                    "text": "Look into why we are getting this absurd value.  Clearly this cannot be right!",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500068098029",
+                    "text": "We cannot analyze anything related to sleep.  Clearly these data are all wrong.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 346678,
+          "key": "9f8164f5-c7d6-42c6-a4f1-ca83ecef949d",
+          "title": "Exploring the Data III",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9f8164f5-c7d6-42c6-a4f1-ca83ecef949d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Final Slide Example",
+                "uri": "https://video.udacity-data.com/topher/2018/May/5b102391_copy-of-survey-project-submission-template/copy-of-survey-project-submission-template.pdf"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 346782,
+              "key": "3000f141-175b-430d-bef8-25744eb4a330",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Visuals\n\nTo really understand any of the variables well, we should probably just create visuals.  A visual is so much more useful for explaining what is going on when we have variables that can take on lots of different values.  The main way we might look at the **categorical** variables is using **bar charts**, and the main method for looking at **quantitative** variables is using **histograms**.  \n\nYou will need to use software to create your own visuals, but in this section, we walk through some of the visuals I created from this dataset.  Below are histograms for many of our variables.  Some of them are not very informative because I have not done anything with outliers (something you will want to do in the second part of this project).  \n\nIn order to better view any of the below images, please click the image.  This will make the image larger for you.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 346787,
+              "key": "3a5c6bc3-d011-4891-81b7-2e33a8ee8492",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/July/596943a1_screen-shot-2017-07-14-at-3.19.25-pm/screen-shot-2017-07-14-at-3.19.25-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3a5c6bc3-d011-4891-81b7-2e33a8ee8492",
+              "caption": "Histograms for Quantitative Variables",
+              "alt": null,
+              "width": 1651,
+              "height": 1007,
+              "instructor_notes": null
+            },
+            {
+              "id": 346791,
+              "key": "d5fc094e-330f-4bff-b448-c13b82527b1c",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d5fc094e-330f-4bff-b448-c13b82527b1c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "From what you can tell in the above histograms, which variables are right-skewed?",
+                "answers": [
+                  {
+                    "id": "a1500071012269",
+                    "text": "Recommendations of Udacity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500071166004",
+                    "text": "Participant Age",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500071191823",
+                    "text": "Commute Time",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1500071193151",
+                    "text": "Years of Experience",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 346794,
+              "key": "69f3cbd4-c92a-4985-8ca9-78c5cb6409e0",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "69f3cbd4-c92a-4985-8ca9-78c5cb6409e0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The amount of sleep histogram is all one bar at 0.  What is going on here?",
+                "answers": [
+                  {
+                    "id": "a1500072303396",
+                    "text": "Everyone in the dataset slept 0 hours.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500072337261",
+                    "text": "Everyone in the dataset slept close enough to 0 hours, we just rounded down.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500072766232",
+                    "text": "There was an error in the plot, and none of the other data showed up.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1500072785717",
+                    "text": "There was an outlier in the dataset that scrunched most of the data into one bin.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 346802,
+              "key": "613dcd08-370c-4a3b-89d8-cbc19465cf42",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/July/5969572b_screen-shot-2017-07-14-at-4.43.05-pm/screen-shot-2017-07-14-at-4.43.05-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/613dcd08-370c-4a3b-89d8-cbc19465cf42",
+              "caption": "Sleep Data With and Without Outliers",
+              "alt": null,
+              "width": 1655,
+              "height": 1036,
+              "instructor_notes": null
+            },
+            {
+              "id": 346804,
+              "key": "5b3818b9-9c8f-479b-9cb8-4e0051bf6b92",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Helpful Hint:** Above are two histograms of the same sleep data.  However, one of the histograms has individuals who answered more than 12 hours removed.  Clearly one of these is more informative than the other.  Make sure you build plots that are informative when you are creating your presentation.  The plot on the left is an example of a plot you **should not build to be submitted**.\n\nAdditionally choose summary statistics that best convey your message.  An example of a final slide for the presentation is provided [here](https://docs.google.com/presentation/d/1_Ul9Dqo9t3tzreAIriGdCQ243p0Xk4NeUlWLm5FxYzQ/edit#slide=id.g1d68f83b58_0_24) (also attached below if you cannot access google slides).  You should choose different variables to look at.  Clearly and accurately convey your message to an audience of the question and finding .",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 469861,
+          "key": "62290980-a02d-401a-8ef1-2b17ce25dbc0",
+          "title": "Exploring the Data IV",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "62290980-a02d-401a-8ef1-2b17ce25dbc0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 469870,
+              "key": "9d97161e-01b6-414c-a04d-42d07f63c5df",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9d97161e-01b6-414c-a04d-42d07f63c5df",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What country is not represented in your dataset?",
+                "answers": [
+                  {
+                    "id": "a1512607267322",
+                    "text": "China",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1512607309163",
+                    "text": "Russia",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1512607314896",
+                    "text": "India",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1512607321365",
+                    "text": "US",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1512607326199",
+                    "text": "Brazil",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 469873,
+              "key": "b5fe86b7-f5cd-44a2-93bc-51614d984188",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b5fe86b7-f5cd-44a2-93bc-51614d984188",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "For each of the following programs, match the proportion of students who completed the Nanodegree to each Nanodegree Title.  You will want to find the total count of full rows for each of these columns, and divide by the 753 total rows."
+                },
+                "concepts_label": "Nanodegree",
+                "answers_label": "Percentage",
+                "concepts": [
+                  {
+                    "text": "Business Analyst",
+                    "correct_answer": {
+                      "id": "a1512607533167",
+                      "text": "0.025"
+                    }
+                  },
+                  {
+                    "text": "Data Analyst",
+                    "correct_answer": {
+                      "id": "a1512607973705",
+                      "text": "0.208"
+                    }
+                  },
+                  {
+                    "text": "Machine Learning Engineer",
+                    "correct_answer": {
+                      "id": "a1512607981096",
+                      "text": "0.312"
+                    }
+                  },
+                  {
+                    "text": "Artificial Intelligence",
+                    "correct_answer": {
+                      "id": "a1512608070863",
+                      "text": "0.147"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1512607533167",
+                    "text": "0.025"
+                  },
+                  {
+                    "id": "a1512608070863",
+                    "text": "0.147"
+                  },
+                  {
+                    "id": "a1512607981096",
+                    "text": "0.312"
+                  },
+                  {
+                    "id": "a1512607973705",
+                    "text": "0.208"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 330619,
+          "key": "0b1b17cb-dd7e-4ca3-acc6-ed6ef3307e19",
+          "title": "Project Details",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0b1b17cb-dd7e-4ca3-acc6-ed6ef3307e19",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Submission Template Power Point File",
+                "uri": "https://video.udacity-data.com/topher/2018/March/5abaf896_survey-project-submission-template/survey-project-submission-template.pptx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 330621,
+              "key": "474c8228-1001-483c-9804-fe95ccbaaef4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## How do You Complete this Project?\n\nThis project is connected with the Introduction to Data Part section of the course, but depending on your background knowledge, you may not need to take this module to complete this project.\n\n### Introduction \n\nFor the final project, you will conduct your own data analysis and create a presentation to share that documents your findings. You should start by taking a look at your dataset and brainstorming what questions you could answer using it - the questions leading to this page should have assisted in this process!  Then you should use spreadsheets or another Excel-like software to answer the questions you are most interested in, and create a report sharing the answers.  This project is open-ended in that there is not one right answer.\n\n### Step One - Understanding the Data - How the Data Were Collected\n\nIt is common practice in marketing to send surveys to learn about your audience, and build a product that best meets their needs.  The survey that this project is based of off was sent to just do that for Udacity to learn about the students across many of their programs!  Download the dataset of responses from the **Resources** to your local machine.  The dataset can also be found in the resources. \n\nPlease note .CSV files may not save more than the active tab you are on at the time you close the file and it is recommended to use a spreadsheet workbook program like Excel. Please be sure you also use a workbook file type. \n### Step Two - Get Organized\n\nWhen you complete your analysis and presentation you’ll want to submit your project (and share it with friends, family, and employers). Get organized before you begin. I recommend creating a single folder that will eventually contain:\n\n* The **report** communicating your findings\n* The original **data set** (which you will not need to submit)\n* A copy of the spreadsheet workbook you used to do the analysis for your report (which you will need to submit)\n\nPlease note, .CSV files will only save the active tab in Microsoft Excel. If needed, please export or change the file type to a workbook file that supports saving more than one tab, such as .xlsx. Some spreadsheet workbooks, like Sheets or Numbers, may do this when you import the .CSV file. \n   \n### Step Three - Analyze Your Data\n\nLook through the survey questions and brainstorm some questions you could answer, then use the `.csv` file to answer your questions. Here are some ideas to get you started:\n\n* What is the most common way people find out about Udacity?\n* What is the highest level of education for most students?\n* What is the most common Nanodegree program represented in the survey results?\n* Is there a connection between the Nanodegree certificate earned and job title?\n* What are the most common countries/cities where students live?\n* How many hours per week do students spend on projects/content?  Does this differ by program?\n* Are there any interesting findings regarding sleep, commute times, amount of time sitting per day, etc. worth mentioning?  Does this differ by where someone lives? Does this differ by Nanodegree program or job title?\n    \nTry and suggest questions that promote looking at relationships between variables, as well as questions about individual columns.\n\n### Step Four - Create Your Presentation\n\nOnce you have finished analyzing the data, create a presentation that shares the findings you found most interesting. You should clearly communicate what broad conclusions you are able to make, and provide a visual or numeric values associated with your finding. \n\n**Your presentation should include:**\n* Four slides\n* One visualization and at least one numeric summary statistic about a finding per slide.  An appropriate visual might be a **bar chart, histogram, scatterplot, box-plot** or other visual that you learned to make in spreadsheets.\n* A 1-2 sentence explanation of each slide\n\nThe submission template is a Google Slides file. Make a copy of the submission template to complete your project. We suggest you use the layout provided, though it is not a requirement.\n\n**Put your presentation and spreadsheet workbook you used to do the analysis in a folder and zip it. Then submit the zipped folder for your project**\n \n<center><a href=\"https://docs.google.com/presentation/d/1LXXNnKJxJUmH410PvbAfk0KH2pZzwOiG8esEFTQ_IBQ/edit#slide=id.g1d6d4cc2e8_0_9\" target=\"_blank\"><button style=\"box-sizing: border-box; border-radius: 4px; background: #02B3E4; border: none; height: 44px; padding: 0 25px; color: white; cursor: pointer; font-family: Open Sans,sans-serif; display: inline-block; border: none; font-size: 12px; letter-spacing: 1px; font-weight: 600; text-transform: uppercase;\">Submission Template</button></a></center>\n\n\n### Step Five - Check the Rubric\n\nUse the [**Project Rubric**](https://review.udacity.com/#!/projects/49cb17b7-f54a-436a-a9fa-0b65d46a06c2/rubric) to review your project. If you are happy with your submission, then you're ready to submit your project. If you see room for improvement, keep working to improve your project.\n\n**In order to review your presentation, you will need to save your slides as a `PDF`.**  You can do this from within Google Slides by selecting **File > Download as > PDF Document**.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 465991,
+          "key": "a7421155-4094-4700-9cdf-df87badd4973",
+          "title": "Finished Example Slide",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a7421155-4094-4700-9cdf-df87badd4973",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Surveydata3",
+                "uri": "https://d17h27t6h515a5.cloudfront.net/topher/2017/December/5a304628_surveydata3/surveydata3.csv"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 466749,
+              "key": "a7915d88-cc35-4444-9079-1428ec02def0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Finished Example Slide",
+              "instructor_notes": ""
+            },
+            {
+              "id": 466748,
+              "key": "2fecbba5-70fd-4131-94f5-f2c13ded38b8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/November/5a208327_capture1/capture1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2fecbba5-70fd-4131-94f5-f2c13ded38b8",
+              "caption": "",
+              "alt": "",
+              "width": 1296,
+              "height": 728,
+              "instructor_notes": null
+            },
+            {
+              "id": 466750,
+              "key": "9ecbadab-7d55-4c77-b5f8-93f840023211",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "These graphs were generated with different data than the survey and are meant to be an example of all the components you need in your slides for this project.\n\n1. Clear Title about what you are investigating in this slide, it should reference one of the 4 questions you came up with for this project\n2. Descriptive title on each chart describing it's contents\n3. y-axis title\n4. x-axis title\n5. Here is an example about how you can present an insight based on the Standard Deviation\n6. Example of providing summary statistics about the data\n\nIf you have more questions about what you need in your project reach out to mentors and your fellow students in Study Groups and double check the rubric: https://review.udacity.com/#!/rubrics/975/view",
+              "instructor_notes": ""
+            },
+            {
+              "id": 593828,
+              "key": "d5f8ba0a-961d-4e53-995a-2c06ef777b9a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**You may need to right click the link to the file and select save link as to download properly**",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 504243,
+          "key": "f40bf6da-185e-4480-ad3a-f67fbca883e9",
+          "title": "Helpful Ideas",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f40bf6da-185e-4480-ad3a-f67fbca883e9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 505130,
+              "key": "ed6b5ab0-9e04-421c-99e2-05606ad023fd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Helpful Ideas\n\nBased on previous project submissions, this page is meant to review some ideas that are commonly missed.  \n\n# Plots\n\nIn the last Excel lesson you were introduced to some ways to visually display your data.  However, you should know that the plots you can make are tied to different data types. We go over those once again here.\n\n#### Plots You Can Use For Categorical Variables\n\nIf you have categorical data, here is a list of the possible univariate (one variable) plots you can make:\n\n1. Bar Chart\n2. Pie Chart\n\n#### Plots You Can Use For Quantitative Variables\n\nIf you have quantitative data, here is a list of the possible univariate plots you can make:\n\n1. Histogram\n2. Box Plot\n\n#### Plots to Compare 2 Variables\n\nIf you are interested in comparing two **quantitative** variables, then the main way to perform this comparison is with a scatterplot.  However, if one of the variables is related to time, then a line plot is frequently used.  \n\n# Statistics\n\n#### Quantitative Variables\n\nWhen describing quantitative variables, it is common to use the statistics discussed earlier:\n\n1. Measures of center - mean, median, mode\n2. Measures of spread - standard deviation, range, IQR\n\n#### Categorical Variables\n\nHowever, when you are analyzing categorical variables, measures of center and spread **Do Not ** make sense.\n\nIn cases of describing categorical variables, you need to use percentages or counts.  Not means, medians, modes, standard deviations, or ranges.  \n\n#### Important Last Thought\n\nWith this in mind, think of the variable type of the columns you are analyzing, and determine which plots and statistics make sense for your analysis.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 550648,
+          "key": "4f260957-7dc0-4d5b-9432-507d6bac8cac",
+          "title": "Common Mistakes",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4f260957-7dc0-4d5b-9432-507d6bac8cac",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 550649,
+              "key": "9593ba64-13af-4b69-a825-0e8b4b4304b4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# When can you report the measures of center and spread?\n\nThe most common issue we see is students reporting measures of center and spread across categorical statistics. Here is an example graph:\n\n### The Most Common Reason for Re-Submitting",
+              "instructor_notes": ""
+            },
+            {
+              "id": 550650,
+              "key": "00929cc3-afcb-4da1-9aa7-34cf5411fe9b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a8c687c_capture1/capture1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/00929cc3-afcb-4da1-9aa7-34cf5411fe9b",
+              "caption": "",
+              "alt": "",
+              "width": 599,
+              "height": 369,
+              "instructor_notes": null
+            },
+            {
+              "id": 550669,
+              "key": "0b9d2e6b-5198-41f2-aa43-6f00d5cc9f7b",
+              "title": null,
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0b9d2e6b-5198-41f2-aa43-6f00d5cc9f7b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "For the above",
+                "answers": [
+                  {
+                    "id": "a1519151729835",
+                    "text": "The mean is 25",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1519151779751",
+                    "text": "The standard deviation is 11.18",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1519151980497",
+                    "text": "The mean is 25 and the standard deviation is 11.18",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1519152071698",
+                    "text": "You cannot compute the mean or standard deviation for the above, because education is categorical.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 550688,
+              "key": "3f2766c7-8915-4864-8ce2-5ce4c2669cb3",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a8c6e46_capture3/capture3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3f2766c7-8915-4864-8ce2-5ce4c2669cb3",
+              "caption": "",
+              "alt": "",
+              "width": 276,
+              "height": 135,
+              "instructor_notes": null
+            },
+            {
+              "id": 550656,
+              "key": "ab949aaa-0773-46b2-a050-d57d1ba658c5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The graph was based on categorical data and students are regularly reporting the mean, median, mode, standard deviation, and range of this sort of data. \n## This is incorrect\nThis data is in an arbitrary order on the x-axis so there is no definite center to this data so none of the measures of center apply. The measures of spread also rely on the data having an order and a center.\n\n### A Correct Analysis for one of the above categories is below\n\nHere is a plot where you can compute measures of center and spread.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 550657,
+              "key": "216d8fec-b870-4620-b9b5-dad379abd190",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a8c699b_capture2/capture2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/216d8fec-b870-4620-b9b5-dad379abd190",
+              "caption": "",
+              "alt": "",
+              "width": 598,
+              "height": 362,
+              "instructor_notes": null
+            },
+            {
+              "id": 550658,
+              "key": "0ed6f18b-f83b-4951-8d4a-218ea92d4b2d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Notice, the **x-axis** and **y-axis** values here, and how they compare to the previous plot.  The x-axis has your quantitative variable.  The y-axis has a count of how often that variable appears.  With this data, you can compute the mean, median, mode, standard deviation, variance, and any other numeric measure.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 550693,
+              "key": "f1c4409c-2886-4299-9739-7ea010f14a62",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/February/5a8c6ece_capture4/capture4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f1c4409c-2886-4299-9739-7ea010f14a62",
+              "caption": "",
+              "alt": "",
+              "width": 244,
+              "height": 471,
+              "instructor_notes": null
+            },
+            {
+              "id": 550701,
+              "key": "f639da21-572a-49cb-991f-496432e03a3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here we have the full quantitative distribution for commutes times for survey respondents who have completed a Nanodegree. We then visualized this distribution of commute times with a Histogram and can calculate all the measures of center and spread on it.\n\nPlease make use of histograms in your project submission.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

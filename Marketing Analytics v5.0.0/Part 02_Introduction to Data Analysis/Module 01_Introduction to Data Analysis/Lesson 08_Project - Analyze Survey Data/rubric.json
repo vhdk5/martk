@@ -1,0 +1,195 @@
+{
+  "id": 975,
+  "project_id": 317,
+  "upload_types": [
+    "file",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": true,
+  "stand_out": "- The visuals go above and beyond to be appealing and informative.\n- Questions are interesting and provide insight into the individuals who provided data.\n- Considered potential issues with data collection process when discussing results.\n\n",
+  "hide_criteria": false,
+  "created_at": "2017-05-19T22:05:38.283Z",
+  "updated_at": "2020-11-27T16:02:53.411Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd100-cn-vip",
+    "nd100-cn",
+    "nd002-cn-svip",
+    "nd028-beta",
+    "nd028",
+    "nd098",
+    "nd098-ent-demo",
+    "nd098-ent",
+    "nd100",
+    "nd100-connect",
+    "nd100-ent",
+    "nd100-br",
+    "nd028-ent",
+    "nd098-cn-ent",
+    "nd028-connect"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 2793,
+      "name": "Submission Phase",
+      "created_at": "2017-12-08T23:13:26.932Z",
+      "updated_at": "2017-12-08T23:14:12.370Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 975,
+      "rubric_items": [
+        {
+          "id": 8292,
+          "section_id": 2793,
+          "passed_description": "A PDF report has been uploaded and a excel workbook has been uploaded in a single zipped folder file",
+          "exceeded_description": null,
+          "created_at": "2017-12-08T23:14:12.529Z",
+          "updated_at": "2018-01-15T19:42:01.928Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The student has uploaded all files necessary for review.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 2324,
+      "name": "Exploration Phase",
+      "created_at": "2017-06-14T03:06:39.129Z",
+      "updated_at": "2017-12-08T23:14:12.380Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 975,
+      "rubric_items": [
+        {
+          "id": 6875,
+          "section_id": 2324,
+          "passed_description": "The project clearly states four or more questions, then addresses those questions in the rest of the analysis.  The solutions to the questions should range in being found from a single column to being found using multiple columns.\n\nAt least one question/solution must make use of multiple columns.",
+          "exceeded_description": null,
+          "created_at": "2017-06-14T03:16:51.840Z",
+          "updated_at": "2018-01-15T19:57:22.348Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The student is able to pose questions and use data to answer them.",
+          "exceedable": false
+        },
+        {
+          "id": 6917,
+          "section_id": 2324,
+          "passed_description": "Student uses means, medians, and modes to generate insights.\n\nStating the mean, median, and mode is insufficient. Please include in the written description a short insight related to each one.\n\nFor example here is an insight based on median: \nThe median number of hours slept by survey respondents who were employed was 4 hours. The median number of hours slept by unemployed survey respondents was 12. It looks like those who are unemployed get much more sleep based on the median. \n(this data is fake for this example)",
+          "exceeded_description": null,
+          "created_at": "2017-06-21T23:57:08.485Z",
+          "updated_at": "2018-01-15T19:57:22.363Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The student is able to calculate measures of center for quantitative data.",
+          "exceedable": false
+        },
+        {
+          "id": 6918,
+          "section_id": 2324,
+          "passed_description": "Student uses standard deviation and range to generate insights.\n\nStating the standard deviation and range is insufficient. Please include in the written description a short insight related to each one.\n\nFor an example, please review the finished slide example in the classroom, which can be found in the Analyze Survey Data project lesson (concept 7: Finished Example Slide). ",
+          "exceeded_description": null,
+          "created_at": "2017-06-22T00:11:34.439Z",
+          "updated_at": "2018-09-07T23:09:38.626Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 2,
+          "criteria": "The student is able to calculate measures of spread for quantitative data.",
+          "exceedable": false
+        },
+        {
+          "id": 6919,
+          "section_id": 2324,
+          "passed_description": "Student uses at least two different plots to explore the data.  These plots may include  histograms, box-plots, scatterplots, and bar charts to explore data and gain insights.\n\nAll slides must contain a visualization. Screenshots of values in a table does not count.",
+          "exceeded_description": null,
+          "created_at": "2017-06-22T00:12:11.962Z",
+          "updated_at": "2018-01-15T19:57:22.383Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 3,
+          "criteria": "The student is able to build graphs for quantitative and categorical data.",
+          "exceedable": false
+        },
+        {
+          "id": 7945,
+          "section_id": 2324,
+          "passed_description": "An appropriate visual is chosen to present the data.  All labels are legible and the visual has appropriate axis labels.\n\nEvery visualization should have\n- chart title\n- x axis title\n- x axis labels\n- y axis title\n- y axis labels\n\nPlease refer to the finished slide example page in the classroom for an example.",
+          "exceeded_description": null,
+          "created_at": "2017-11-06T02:00:33.064Z",
+          "updated_at": "2018-01-17T04:38:03.229Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 4,
+          "criteria": "The student is able to present findings in an understandable way.",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 2325,
+      "name": "Communication Phase",
+      "created_at": "2017-06-14T03:06:53.574Z",
+      "updated_at": "2017-12-08T23:14:12.391Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 975,
+      "rubric_items": [
+        {
+          "id": 6873,
+          "section_id": 2325,
+          "passed_description": "The results of the analysis are presented such that any limitations are clear. The analysis does not state or imply that one change causes another based solely on a correlation.  \n\nThe results do not imply facts about a larger group of individuals based on descriptive values.  Language is only applied to the specific data provided.  Unless a correct analysis beyond the course material  is conducted that allows for inference.\n\nThis data is from Survey Respondents and is not from the entire Udacity Student population. This must be acknowledged at least once in the submission.",
+          "exceeded_description": null,
+          "created_at": "2017-06-14T03:10:31.540Z",
+          "updated_at": "2018-01-15T19:42:02.009Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "The student is able to avoid making inferential or causal statements when using descriptive statistics.",
+          "exceedable": false
+        },
+        {
+          "id": 6874,
+          "section_id": 2325,
+          "passed_description": "The analysis associated with answering a particular question uses the appropriate variables, summary statistics, and plots that could provide an answer.",
+          "exceeded_description": null,
+          "created_at": "2017-06-14T03:10:57.928Z",
+          "updated_at": "2018-01-15T19:42:02.017Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "The student is able to choose the correct analysis or plot for a given data type.",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 317,
+    "name": "Analyze Survey Results",
+    "nanodegree_key": "nd100",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": null,
+    "is_career": null,
+    "recruitment_family_id": 5,
+    "created_at": "2017-06-21T20:38:14.311Z",
+    "updated_at": "2021-04-07T16:01:19.909Z",
+    "price": "9.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

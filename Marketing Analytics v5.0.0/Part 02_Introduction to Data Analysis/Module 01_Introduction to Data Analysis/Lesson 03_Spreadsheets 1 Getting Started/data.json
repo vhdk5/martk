@@ -1,0 +1,1045 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817096,
+      "key": "27af3f2d-f591-4547-bcfb-dd8ce23f509c",
+      "title": "Spreadsheets 1: Getting Started",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "In this lesson, you will learn about the basic functionality for spreadsheet software, use cell referencing and menu shortcuts.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/27af3f2d-f591-4547-bcfb-dd8ce23f509c/817096/1556073983951/Spreadsheets+1%3A+Getting+Started+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/27af3f2d-f591-4547-bcfb-dd8ce23f509c/817096/1556073980513/Spreadsheets+1%3A+Getting+Started+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 330598,
+          "key": "d79b03f4-b4c1-4543-b8b8-3001a208180d",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d79b03f4-b4c1-4543-b8b8-3001a208180d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 378256,
+              "key": "7bf93909-5e0f-48bb-8222-f7913b219278",
+              "title": "Introduction to Getting Started",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PcBvtec4yRU",
+                "china_cdn_id": "PcBvtec4yRU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 463693,
+          "key": "b54239f0-9835-46a9-80c3-7610d271fdcc",
+          "title": "Commas vs. Decimals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b54239f0-9835-46a9-80c3-7610d271fdcc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 463694,
+              "key": "a65b6e4b-d20d-4fb1-b8cb-7f81b23d4b95",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Commas vs. Periods in Different Countries\n\nA quick note before we get started with spreadsheet applications.\n\nDepending on your location, decimals and commas may be treated differently in spreadsheet applications (mostly in European countries) than what you will see in this course.\n\nFor this course, we will be using a convention where commas separate large values - like 1,000.00 or 1,000,000.00. On the other hand, the period will be used as the decimal separator, as you can see from these previous numbers.\n\nYou may want to assure that you are following along with these same conventions, or at least be aware of the differences you may see should you be using a different convention for commas and decimals.\n\n### Potential Solutions\nPeriods and Commas\n\nhttps://www.officetooltips.com/excel_2016/tips/change_the_decimal_point_to_a_comma_or_vice_versa.html\n* Set Decimal Separator to .\n* Set Thousands Separator to ,\n\nCommas and Semicolons\n\nhttps://lockone.wordpress.com/2015/08/06/excel-now-using-semicolons-instead-of-commas-in-separating-formulas-fix-it-now/\n* Note you should Select English (United States) to have your formatting match what is shown in the course\n\n### After making any changes to the settings of Excel, you may need to restart your computer for the changes to actually go into effect",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 330899,
+          "key": "d1093112-cbb3-4a71-b399-3e5a7ec6874e",
+          "title": "Why Spreadsheets?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d1093112-cbb3-4a71-b399-3e5a7ec6874e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 385964,
+              "key": "b294825e-8925-49d1-bca5-21f671e3baf4",
+              "title": "Why Spreadsheets",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WdQJ5X85wkQ",
+                "china_cdn_id": "WdQJ5X85wkQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 347972,
+          "key": "1d83283c-8a60-4cb0-818c-fb8e09989d26",
+          "title": "Spreadsheet Benefits",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1d83283c-8a60-4cb0-818c-fb8e09989d26",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352256,
+              "key": "7311317b-9825-4c9f-8fe6-feca076cd58f",
+              "title": "Spreadsheet Benefits",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7311317b-9825-4c9f-8fe6-feca076cd58f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What benefits do spreadsheets provide? Check all that apply.",
+                "answers": [
+                  {
+                    "id": "a1501167750638",
+                    "text": "they're perfect for massively large data sets",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1501167780809",
+                    "text": "you can quickly load and visualize data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501167782402",
+                    "text": "you can add formulas to analyze data",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501167783194",
+                    "text": "they make it easy to manipulate data",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 330900,
+          "key": "8df2b57f-a477-4cf9-aa5b-9c670b1fbe98",
+          "title": "Getting Started",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8df2b57f-a477-4cf9-aa5b-9c670b1fbe98",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 347971,
+              "key": "25321afa-f038-4908-ae79-a7bdf56459ce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Getting Started with Spreadsheets\nThis course demonstrates functions, tools and techniques using the *Microsoft Excel 2016 Desktop version on Windows 10*.   If you don't have Windows Excel 2016, you can use another spreadsheet application for the quizzes and exercises.   Although functions and formulas behave the same in the various applications, there are sometimes large differences in menus and tools, and especially more advanced tools such as [box plots](https://en.wikipedia.org/wiki/Box_plot).  Sometimes it's easy to figure these differences out, but when in doubt, get in the habit of searching for your own answers in help files and on the Internet... there is a ton of information available on spreadsheets!\n\n## Excel 2016\n[Microsoft Office 365 purchasing information](https://products.office.com/en-us/compare-all-microsoft-office-products?tab=1&wt.srch=1&wt.mc_id=AID623587_SEM_5SOqeNbs)\n<br> There are several pricing options to choose from.  Whatever your circumstance, be sure to download the desktop version.   It can do a few things that the browser version can't.  Note that the Windows and Mac versions of Excel 2016 [are different](http://forums.excelcentral.com/index.php?/topic/1037-excel-2016-for-mac-vs-excel-2016-for-windows/) and the Mac version does not have built-in functionality for box plots.  Note also that the free Office Online version of Excel is limited in functionality and *not* recommended for this class.  <br> Once you have your Excel 2016 installed on a PC or Mac, you will need to load the following addin:\n* [Analysis ToolPak](https://support.office.com/en-us/article/Load-the-Analysis-ToolPak-6a63e598-cd6d-42e3-9317-6b40ba1a66b4).  \n\n\n## Google Sheets\n[Link to Open a Sheet](https://docs.google.com/spreadsheets/)\n<br>Google Sheets is a free alternative with full functionality when you enhance it with a add-on.  You'll need a free Google account to get started.  If you already have one, the link above will take you where you need to go.  If you don't have a Google account, click \"More Options\" and create one.  Once you have your account established, open a blank sheet and use the \"Add-ons\" menu to add the following to your account: \n* [Remove Duplicates](https://www.ablebits.com/google-sheets-add-ons/remove-duplicates/howto.php)\n\n## Apple Numbers\n[Information about Apple Numbers](https://www.apple.com/numbers/)\n<br> If you have a Mac, this application should already be there.  Most features we present are available in Numbers, and it is compatible with Excel files.  There does not seem to be a way to easily create box plots, however, which we will introduce in the Visualize Data lesson.\n\n## Open Source Alternatives\n[Apache Open Office Download](https://www.openoffice.org/download/)\n<br>[LibreOffice Download](https://www.libreoffice.org/download/download/)\n<br>Both Apache Open Office Calc and LibreOffice Calc are open source and freely available.  They will read Excel format and provide most of the same functionality.  There are [some important differences](https://wiki.openoffice.org/wiki/Documentation/UserGuide/Migration_Guide/Calc_and_Excel) to be aware of, however, including differences in formula syntax.  Some features, such as box plots, may require internet searches for solutions and a number of steps to implement.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 348025,
+          "key": "240f7460-074a-434f-b0d9-33fb43c7094c",
+          "title": "Navigation: Worksheet",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "240f7460-074a-434f-b0d9-33fb43c7094c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 385874,
+              "key": "e3adff97-30d3-4b99-973d-87b86b69ba93",
+              "title": "Navigation: Worksheet",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "y4cqc0txVzo",
+                "china_cdn_id": "y4cqc0txVzo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 348026,
+          "key": "1ba426b9-de68-4c0a-868d-a6337338071a",
+          "title": "Column and Row Labels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1ba426b9-de68-4c0a-868d-a6337338071a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352257,
+              "key": "9de4195f-6f9b-4b08-bf32-1bcd5fa30875",
+              "title": "Column and Row Labels",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9de4195f-6f9b-4b08-bf32-1bcd5fa30875",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What’s the label for the 28th column of a spreadsheet?",
+                "answers": [
+                  {
+                    "id": "a1501168009146",
+                    "text": "BB",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1501168063930",
+                    "text": "AB",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501168064737",
+                    "text": "28",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1501168065485",
+                    "text": "A28",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348027,
+          "key": "2c0e3156-658c-45ad-9073-ab30dbfb30a8",
+          "title": "Navigation: Menu Bar",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2c0e3156-658c-45ad-9073-ab30dbfb30a8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 385875,
+              "key": "600b7578-355a-460c-ade2-93f62bea6266",
+              "title": "Navigation: Menu",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2Cwb5c1hoz8",
+                "china_cdn_id": "2Cwb5c1hoz8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 348028,
+          "key": "a5420769-855e-4845-b503-5db9d6dbaa23",
+          "title": "Menu Bar",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a5420769-855e-4845-b503-5db9d6dbaa23",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352259,
+              "key": "c3fde826-645e-423b-bb9e-f7096c05907b",
+              "title": "Menu Bar",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c3fde826-645e-423b-bb9e-f7096c05907b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are some examples of Data menu operations?  Check all that apply.",
+                "answers": [
+                  {
+                    "id": "a1501168695223",
+                    "text": "Sort",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501168708907",
+                    "text": "Filter",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501168709668",
+                    "text": "Chart",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1501168711199",
+                    "text": "Text to Columns",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348029,
+          "key": "33489636-9377-4d22-9ece-f9df5ff5d612",
+          "title": "Navigation: Shortcuts",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "33489636-9377-4d22-9ece-f9df5ff5d612",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 385887,
+              "key": "834bb6e7-38c6-446a-9f1d-17a70ff4f8c6",
+              "title": "Navigation: Shortcuts",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "LhUneH6cEfk",
+                "china_cdn_id": "LhUneH6cEfk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 348263,
+          "key": "eed32ba2-aba0-4d67-8674-d3a37c0956d5",
+          "title": "Fill",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eed32ba2-aba0-4d67-8674-d3a37c0956d5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352260,
+              "key": "4f4f4825-1922-40c3-bf1b-091f26735c9e",
+              "title": "Fill",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4f4f4825-1922-40c3-bf1b-091f26735c9e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In which directions is it possible to “Fill” data?  Check all that apply.",
+                "answers": [
+                  {
+                    "id": "a1501168863494",
+                    "text": "Up",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501168916767",
+                    "text": "Down",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501168917551",
+                    "text": "Left",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501168918251",
+                    "text": "Right",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348264,
+          "key": "c730344b-0f57-4be0-96d3-bda18cb1d4e4",
+          "title": "Copy Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c730344b-0f57-4be0-96d3-bda18cb1d4e4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 373575,
+              "key": "c06bb209-d1b4-49e8-bebd-9f81331dfed0",
+              "title": "Copy Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KMVnA7u2cKQ",
+                "china_cdn_id": "KMVnA7u2cKQ.mp4"
+              }
+            },
+            {
+              "id": 578104,
+              "key": "ed0be5ac-8550-411a-aee1-38ba0076efc4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Note: Google no longer provides historical data on stocks. However this information can be found on Yahoo at: \nhttps://finance.yahoo.com/quote/AAPL/history?p=AAPL",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 348265,
+          "key": "de458eae-860f-4505-b684-aece84e961cc",
+          "title": "Exercise: Copy Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "de458eae-860f-4505-b684-aece84e961cc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352261,
+              "key": "d58d134f-0ee1-4dc4-adcc-ca8215a518ce",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Copy Data\n\n<add instructions here>",
+              "instructor_notes": ""
+            },
+            {
+              "id": 578105,
+              "key": "9dfc5546-b247-4db5-8d68-291393877ea0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Note: Google no longer provides historical data on stocks. However this information can be found on Yahoo at: https://finance.yahoo.com/quote/AAPL/history?p=AAPL",
+              "instructor_notes": ""
+            },
+            {
+              "id": 352262,
+              "key": "04ab0efb-32f7-4a28-abf9-4df994dc1d31",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "04ab0efb-32f7-4a28-abf9-4df994dc1d31",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Open a new spreadsheet",
+                "Open the [Apple Historical Prices webpage](https://finance.yahoo.com/quote/AAPL/history?p=AAPL) page",
+                "Select table and copy",
+                "Paste table into spreadsheet at A1 of Sheet1",
+                "Quiz: Table Paste",
+                "Add new sheet and select it",
+                "Open the [Wikipedia Spreadsheet webpage](https://en.wikipedia.org/wiki/Spreadsheet)",
+                "Select the first five paragraphs and copy",
+                "Paste the paragraphs into spreadsheet at A1 of Sheet2",
+                "Quiz: Paragraph Paste"
+              ],
+              "positive_feedback": "Great job completing the Copy Data exercise!",
+              "video_feedback": null,
+              "description": "The following list has a series of steps for this exercise.  As you complete each step, check it off the list.  The quizzes in the task list can be found below."
+            },
+            {
+              "id": 352378,
+              "key": "3e3ef855-17e0-4875-af36-480b274df07a",
+              "title": "Table Paste",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3e3ef855-17e0-4875-af36-480b274df07a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many columns were created when you pasted the AAPL Historical prices table from the website?",
+                "matchers": [
+                  {
+                    "expression": "^\\s*7\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 352379,
+              "key": "81566fdc-4e2e-4573-8a86-c31bffecf020",
+              "title": "Paragraph Paste",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "81566fdc-4e2e-4573-8a86-c31bffecf020",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many columns were created when you pasted the paragraphs from the Wikipedia website?",
+                "matchers": [
+                  {
+                    "expression": "^\\s*1\\s*$"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348267,
+          "key": "19df2337-f2b6-40d7-8fa4-9def3b74512f",
+          "title": "Range Addressing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "19df2337-f2b6-40d7-8fa4-9def3b74512f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 385888,
+              "key": "e3754361-a5ba-4610-acb0-5b9293f51623",
+              "title": "Range Addressing",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4uNhE3WI_m4",
+                "china_cdn_id": "4uNhE3WI_m4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 348269,
+          "key": "603024fd-b169-4aa9-b715-b45e68eb8505",
+          "title": "Range Addressing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "603024fd-b169-4aa9-b715-b45e68eb8505",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352389,
+              "key": "d5430b4d-29bb-4f68-a6d3-5e468355298d",
+              "title": "Range Addressing",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d5430b4d-29bb-4f68-a6d3-5e468355298d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is a valid range address?  Check all that apply.",
+                "answers": [
+                  {
+                    "id": "a1501184675252",
+                    "text": "A1:A2",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501184700829",
+                    "text": "C8:A9",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1501184702052",
+                    "text": "AA3:BB5",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501184702777",
+                    "text": "9F:9G",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1501184703404",
+                    "text": "E:G",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501184704039",
+                    "text": "16:18",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 352391,
+          "key": "db95e48d-3ba2-4107-9d49-9caeb84531f7",
+          "title": "Relative vs Absolute Addressing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "db95e48d-3ba2-4107-9d49-9caeb84531f7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 380126,
+              "key": "6510a479-31db-40d6-a46e-f06f9949e9f5",
+              "title": "Relative vs Absolute Addressing",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sZXv1HfeT04",
+                "china_cdn_id": "sZXv1HfeT04.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 352392,
+          "key": "f501119a-2c27-4c7d-a0ac-94053ef2e29e",
+          "title": "Relative vs Absolute Addressing",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f501119a-2c27-4c7d-a0ac-94053ef2e29e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352393,
+              "key": "b6982855-e88f-4e6b-91c0-b1e0cd6df572",
+              "title": "Relative vs Absolute Addressing",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b6982855-e88f-4e6b-91c0-b1e0cd6df572",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are valid cell addresses?",
+                "answers": [
+                  {
+                    "id": "a1501185452902",
+                    "text": "A1",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501185474377",
+                    "text": "$A$1",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501185475043",
+                    "text": "$A1",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501185475725",
+                    "text": "A$1",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348353,
+          "key": "6499f367-11d7-48c3-b06b-f734e6ce6ce6",
+          "title": "Insert and Delete",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6499f367-11d7-48c3-b06b-f734e6ce6ce6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 373576,
+              "key": "308bd5a2-4f09-4980-9249-4e83826fc999",
+              "title": "Insert and Delete",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yDBQ5ZawVMs",
+                "china_cdn_id": "yDBQ5ZawVMs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 348355,
+          "key": "71ece582-5ff7-4a23-8ae1-a67e2c832e25",
+          "title": "Exercise: Insert and Delete",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "71ece582-5ff7-4a23-8ae1-a67e2c832e25",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "fruit_stand.xlsx",
+                "uri": "http://video.udacity-data.com.s3.amazonaws.com/topher/2017/August/599cb088_fruit-stand/fruit-stand.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 352394,
+              "key": "724ef1d6-acf9-4938-a2f4-c5ae4d3868ed",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Exercise: Insert and Delete\nIn the exercise below, you'll combine what you've learned about **insert** and **delete** with what you've learned about **addressing** and **fill**.  To begin the exercise, you are asked to download and open `fruit_stand.xlsx`, which is provided for download at the bottom of this page.  Look for \"Supporting Materials\" with a link to `fruit_stand.xlsx` below it, and click to download.  Open the file with your spreadsheet application on your computer.  It should look something like this:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 352413,
+              "key": "dd125b8d-d6a6-4a54-9be5-a13c5b22c40a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/July/597a53a2_fruit-stand/fruit-stand.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/dd125b8d-d6a6-4a54-9be5-a13c5b22c40a",
+              "caption": "",
+              "alt": null,
+              "width": 851,
+              "height": 692,
+              "instructor_notes": null
+            },
+            {
+              "id": 352407,
+              "key": "83b6b78a-67b0-4320-a194-49faa5fee915",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Complete the tasks to complete the exercise!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 352395,
+              "key": "0c5c7c16-4ccd-4521-a675-5a3382dbda46",
+              "title": "",
+              "semantic_type": "TaskListAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0c5c7c16-4ccd-4521-a675-5a3382dbda46",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "tasks": [
+                "Download the `fruit_stand.xlsx` file from the resources (see bottom of page)",
+                "Open `fruit_stand.xlsx` in your spreadsheet application",
+                "Delete the duplicate row",
+                "Insert a column labeled **Peaches** to the right of **Oranges**",
+                "Enter values in the **Peaches** column cells as **2, 3, 4, 2, 1**",
+                "Enter a price for **Peach** of **$0.90** underneath the **Orange** price",
+                "Correct the calculation for **All Fruit** and `fill` down",
+                "Quiz: All Fruit (see below)",
+                "Correct the calculation for **Income** and `fill` down",
+                "Quiz: Income (see below)"
+              ],
+              "positive_feedback": "Way to go!  You've created a spreadsheet using a number of techniques and formulas!",
+              "video_feedback": null,
+              "description": "The following list has a series of steps for this exercise.  As you complete each step, check it off the list.  The quizzes in the task list can be found below."
+            },
+            {
+              "id": 352396,
+              "key": "4f1ac255-462b-4a24-a6ec-df084b8213e3",
+              "title": "All Fruit",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4f1ac255-462b-4a24-a6ec-df084b8213e3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the **All Fruit** value you calculated for Order number 3?",
+                "matchers": [
+                  {
+                    "expression": "^\\s*7\\s*$"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 352420,
+              "key": "5389c408-57a8-4e89-af6f-9a2290acf8c5",
+              "title": "Income",
+              "semantic_type": "ValidatedQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5389c408-57a8-4e89-af6f-9a2290acf8c5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the **Income** value you calculated for Order number 5?",
+                "matchers": [
+                  {
+                    "expression": "^\\s*\\$?\\s*3\\.70*\\s*$"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348270,
+          "key": "59a414b6-7f4e-4888-b3b9-c8bef23c6e3f",
+          "title": "Save Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "59a414b6-7f4e-4888-b3b9-c8bef23c6e3f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 378431,
+              "key": "996a012c-9959-42a2-9aba-4cde0b78282b",
+              "title": "Save Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "g4o6FCo6eIs",
+                "china_cdn_id": "g4o6FCo6eIs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 348271,
+          "key": "fad99502-4b6a-4c47-a4c4-d5d839e15352",
+          "title": "File Types",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fad99502-4b6a-4c47-a4c4-d5d839e15352",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 352455,
+              "key": "4373ebb5-5f3b-4502-8243-cbe21f95445d",
+              "title": "File Types",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4373ebb5-5f3b-4502-8243-cbe21f95445d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following file types can be usefully read by Excel and most other spreadsheet applications? ",
+                "answers": [
+                  {
+                    "id": "a1501195401632",
+                    "text": "Excel Workbook (*.xlsx)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501195424403",
+                    "text": "Comma Delimited (*.csv)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501195425432",
+                    "text": "Excel 2003 (*.xls)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1501195426140",
+                    "text": "JSON (*.json)",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 348272,
+          "key": "7e5dea11-9849-44b5-be2f-d79ceae4c0e1",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7e5dea11-9849-44b5-be2f-d79ceae4c0e1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 378257,
+              "key": "a59af5e7-3efb-4cdd-af6d-27eb4c08b0fd",
+              "title": "Recap of Getting Started",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QUE66WzMKVw",
+                "china_cdn_id": "QUE66WzMKVw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

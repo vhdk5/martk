@@ -1,0 +1,184 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817601,
+      "key": "761ec8bd-1adc-40fe-a403-388d8ba48249",
+      "title": "Project - Working with data",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/761ec8bd-1adc-40fe-a403-388d8ba48249/817601/1556073610562/Project+-+Working+with+data+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/761ec8bd-1adc-40fe-a403-388d8ba48249/817601/1556073608299/Project+-+Working+with+data+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": {
+        "key": "9acef719-fdd8-4a3c-9930-8b58c4443080",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 10080,
+        "semantic_type": "Project",
+        "title": "Interpret a Data Visualization",
+        "description": "### Project Submission\n\nWhen you feel confident with your report, double-check that you have met all of the [Rubric Specifications](https://review.udacity.com/#!/rubrics/1063/view), then share it with us below!  \n\n### Project Submission Checklist\n\n**Before submitting your project, please review and confirm the following items.** \n<input type=\"checkbox\"> I am confident all rubric items have been met and my project will pass as submitted. \n<input type=\"checkbox\"> All required functionality exists and my project behaves as expected per the project's specifications.\n\n**Once you have checked all these items, you are ready to submit!**\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "1063",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 373566,
+          "key": "0d8e8912-baeb-490c-b944-cbb91808a6f5",
+          "title": "Project Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0d8e8912-baeb-490c-b944-cbb91808a6f5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 385701,
+              "key": "725a9c29-a8e8-4849-bb1d-c2606eee04f1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Project Introduction\n\nThis project is aimed at analysis using data visualization in Tableau. Watch the video here to learn what your project is all about!  ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 390575,
+              "key": "d64fa4ea-7a3d-419e-a954-df0212b5465d",
+              "title": "Project Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VP8zNxRF-t0",
+                "china_cdn_id": "VP8zNxRF-t0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 356061,
+          "key": "cfe8c3aa-b5c3-4d99-bbbc-4a8c751debf3",
+          "title": "Project Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cfe8c3aa-b5c3-4d99-bbbc-4a8c751debf3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Madrid in Detail",
+                "uri": "https://video.udacity-data.com/topher/2019/December/5df922a2_madrid-in-detail/madrid-in-detail.png"
+              },
+              {
+                "name": "Malaria in Africa",
+                "uri": "https://video.udacity-data.com/topher/2019/December/5df922b4_malaria-in-africa/malaria-in-africa.png"
+              },
+              {
+                "name": "LinkedIn Top Skills",
+                "uri": "https://video.udacity-data.com/topher/2019/December/5df922c6_linkedin-top-skills/linkedin-top-skills.png"
+              },
+              {
+                "name": "Dashboard for Madrid in Detail",
+                "uri": "https://video.udacity-data.com/topher/2020/February/5e5801c1_madrid-in-detail/madrid-in-detail.twbx"
+              },
+              {
+                "name": "Dashboard for Malaria in Africa",
+                "uri": "https://video.udacity-data.com/topher/2020/February/5e5801de_malaria/malaria.twbx"
+              },
+              {
+                "name": "Dashboard for Linkedin top skills",
+                "uri": "https://video.udacity-data.com/topher/2020/February/5e5801f8_linkedin-top-skills-2016-makeovermonday/linkedin-top-skills-2016-makeovermonday.twbx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 356071,
+              "key": "3be39270-a9e9-4735-a083-81db13c7a41b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Project description\n\nA large part of working with data is being able to interpret data visualizations and explain your insights to others. To give you some practice with this, we’ve selected a few Tableau dashboards for you to explore. The links are below, under \"Choose from these Dashboards.\" Choose one of these dashboards, whichever one interests you the most, and find **three insights** in the visualizations. For each insight, **provide a static image** that shares what you found.  Write a short report explaining each observation and how you found the information to reach your conclusion from the dashboard.  Altogether (including images), your report should be 1-2 pages.\n\n### Project Rubric\nRubric Link for this project: [https://review.udacity.com/#!/rubrics/1063/view](https://review.udacity.com/#!/rubrics/1063/view)\n\n### Screen Capture\n\nIf you have not done a screen capture before, here are the instructions for a [Mac](https://support.apple.com/en-us/HT201361) or [PC](https://www.youtube.com/watch?v=_qcFOoNR9vI).  You can then copy and paste the image into your report.  \n\n### Example\n\nFor example one insight might look like:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 356073,
+              "key": "d0ff32f2-1b50-4a98-949a-7bec006f1b4f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2017/August/59874ebc_screen-shot-2017-08-06-at-10.14.56-am/screen-shot-2017-08-06-at-10.14.56-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d0ff32f2-1b50-4a98-949a-7bec006f1b4f",
+              "caption": "",
+              "alt": null,
+              "width": 1804,
+              "height": 1084,
+              "instructor_notes": null
+            },
+            {
+              "id": 356072,
+              "key": "5ba09e00-96a0-4948-8e27-f84cd63863dd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "“Deaths per year due to malaria in Senegal have been halved since 2007. From that dashboard, I clicked on Senegal on the map, this showed deaths due to malaria for each year from 2000 to 2014. Before 2007, there were about 1400-1500 deaths per year. After 2007, starting in 2008, deaths were reduced to about 600-700 per year.”\n\nSubmit this report as a PDF.  All the images and your summary should be in **one** PDF with each summary following the image of the insight.\n\n## Choose from these dashboards\n\n[Madrid in Detail](https://public.tableau.com/views/MadridInDetail/MadridinDetail?%3Aembed=y&%3Atoolbar=yes&%3AloadOrderID=0&%3Adisplay_count=y%3F%3Aembed&%3AshowVizHome=no)\n\n\n\n[Malaria in Africa](https://public.tableau.com/views/MakeoverMonday34Malaria_0/MalariainAfrica?:embed=y&:showVizHome=no&:display_count=y&:display_static_image=y&:bootstrapWhenNotified=true)\n\n[LinkedIn Top Skills](https://public.tableau.com/profile/matt.chambers#!/vizhome/LinkedInTopSkills2016-MakeoverMonday/LinkedInTopSkills2016-MakeoverMonday) \n\nIf you choose to work with the LinkedIn data, you may find [this article](https://blog.linkedin.com/2016/10/20/top-skills-2016-week-of-learning-linkedin) helpful for the insights that you draw.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 620096,
+              "key": "5ae4215b-5faf-4791-afe2-f9157c8937e8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Common Questions and Answers:\nhttps://knowledge.udacity.com\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

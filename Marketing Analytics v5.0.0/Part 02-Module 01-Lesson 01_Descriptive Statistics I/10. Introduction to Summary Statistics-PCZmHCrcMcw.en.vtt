@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.120
+In the next lessons,
+
+00:00:02.120 --> 00:00:07.160
+we will discuss how to use statistics to describe quantitative data.
+
+00:00:07.160 --> 00:00:10.040
+You will gain insight into a process of how data is
+
+00:00:10.040 --> 00:00:14.200
+collected and how to answer questions using your data.
+
+00:00:14.200 --> 00:00:18.080
+Throughout this lesson, I hope you learn to be critical of
+
+00:00:18.080 --> 00:00:22.980
+your analysis that happened under the hood and what the numbers actually mean.
+
+00:00:22.980 --> 00:00:26.465
+As an example of an analysis that we do here at Udacity,
+
+00:00:26.465 --> 00:00:31.765
+we look at how long a nanodegree program takes students to complete.
+
+00:00:31.765 --> 00:00:37.265
+We try to provide an estimate of the number of months or hours that students will spend.
+
+00:00:37.265 --> 00:00:40.010
+One way we might start is by reporting
+
+00:00:40.010 --> 00:00:44.030
+the average amount of time it takes to complete the nanodegree program.
+
+00:00:44.030 --> 00:00:46.470
+But that doesn't tell the whole story.
+
+00:00:46.470 --> 00:00:49.055
+I'm sure there are differences in completion
+
+00:00:49.055 --> 00:00:53.150
+depending on what students knew before entering the program.
+
+00:00:53.150 --> 00:00:54.960
+The shortest amount of time needed to complete
+
+00:00:54.960 --> 00:00:58.485
+the nanodegree program might just be a few weeks.
+
+00:00:58.485 --> 00:01:01.715
+How did those people complete the course so fast?
+
+00:01:01.715 --> 00:01:05.580
+Well, the longest might be a couple of years.
+
+00:01:05.580 --> 00:01:09.285
+What proportion of students finish fast within two months?
+
+00:01:09.285 --> 00:01:12.210
+What proportion take longer than eight months?
+
+00:01:12.210 --> 00:01:13.935
+Using a variety of measures,
+
+00:01:13.935 --> 00:01:15.465
+like measures of center,
+
+00:01:15.465 --> 00:01:18.510
+give you an idea of the average student.
+
+00:01:18.510 --> 00:01:23.220
+Measures of spread give you an idea of how students differ.
+
+00:01:23.220 --> 00:01:25.045
+Visuals can provide us
+
+00:01:25.045 --> 00:01:30.690
+a more complete picture of how long it takes any student to complete a program.
+
+00:01:30.690 --> 00:01:33.790
+The material in the next sections will show you how to use
+
+00:01:33.790 --> 00:01:39.730
+these measures in a way that is informative and understandable to others.
+
