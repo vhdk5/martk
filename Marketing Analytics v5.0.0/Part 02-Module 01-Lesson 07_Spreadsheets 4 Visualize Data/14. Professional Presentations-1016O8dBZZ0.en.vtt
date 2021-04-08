@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.540
+Excel and other spreadsheet applications can do
+
+00:00:03.540 --> 00:00:07.889
+a nice job of creating attractive tables and charts.
+
+00:00:07.889 --> 00:00:11.714
+It's up to us to make them look their absolute best though.
+
+00:00:11.714 --> 00:00:13.349
+They should be readable,
+
+00:00:13.349 --> 00:00:16.559
+interesting and show the required information,
+
+00:00:16.559 --> 00:00:21.254
+but not show extra information that doesn't matter.
+
+00:00:21.254 --> 00:00:23.489
+When you present data,
+
+00:00:23.489 --> 00:00:25.829
+think about what questions you're trying to
+
+00:00:25.829 --> 00:00:29.219
+answer and the patterns you're trying to show,
+
+00:00:29.219 --> 00:00:33.030
+then use fonts and layouts appropriately to include and
+
+00:00:33.030 --> 00:00:38.370
+emphasize the elements that matter and exclude elements that don't.
+
+00:00:38.369 --> 00:00:42.019
+Also, ask yourself who is your audience.
+
+00:00:42.020 --> 00:00:47.205
+Is this a quick overview presentation on a slide with the data backup elsewhere
+
+00:00:47.204 --> 00:00:53.864
+or is it a written technical review where more in-depth data should be presented?
+
+00:00:53.865 --> 00:00:58.859
+Let's look at some of the charts we created earlier and see if we can improve upon them.
+
+00:00:58.859 --> 00:01:01.604
+For categorical column data,
+
+00:01:01.604 --> 00:01:04.200
+like the counts of the baseball positions,
+
+00:01:04.200 --> 00:01:11.460
+the relative sizes are easier to see at a glance if the data is sorted by size.
+
+00:01:11.459 --> 00:01:14.009
+This would not be something we would want to do for
+
+00:01:14.010 --> 00:01:19.500
+sequential data like daily stock values or histogram bins,
+
+00:01:19.500 --> 00:01:22.829
+but it is more readable in this case.
+
+00:01:22.829 --> 00:01:25.814
+There should be a descriptive title,
+
+00:01:25.814 --> 00:01:30.329
+so I'll put one in that says baseball positions.
+
+00:01:30.329 --> 00:01:33.390
+It should also be big enough to read.
+
+00:01:33.390 --> 00:01:37.885
+If you need to change the font or font size,
+
+00:01:37.885 --> 00:01:44.680
+this can be done by selecting the title and changing it in the Home tab.
+
+00:01:50.219 --> 00:01:55.954
+There, does this chart need a legend?
+
+00:01:55.954 --> 00:01:59.659
+If there are more than one data series, it does,
+
+00:01:59.659 --> 00:02:04.819
+but if the labels are already showing up in the data as in this pie chart,
+
+00:02:04.819 --> 00:02:09.215
+then an extra legend is just noise, so remove it.
+
+00:02:09.215 --> 00:02:13.384
+For a graph, do you need or want grid lines?
+
+00:02:13.384 --> 00:02:15.947
+In a detailed technical presentation,
+
+00:02:15.948 --> 00:02:19.485
+it is easier to see the values if there are grid lines,
+
+00:02:19.485 --> 00:02:23.675
+but for quick overviews that are just emphasizing the trend,
+
+00:02:23.675 --> 00:02:27.050
+those extra lines look busy.
+
+00:02:27.050 --> 00:02:29.340
+What about the axis labels?
+
+00:02:29.340 --> 00:02:36.259
+I hate it when I look at a graph and can't tell what the numbers on the axis represent,
+
+00:02:36.259 --> 00:02:39.379
+so I would generally say put them there,
+
+00:02:39.379 --> 00:02:42.314
+but there are always exceptions.
+
+00:02:42.314 --> 00:02:43.759
+If the units are redundant,
+
+00:02:43.759 --> 00:02:47.084
+somehow, they can be removed.
+
+00:02:47.085 --> 00:02:51.215
+The font size is a judgement call,
+
+00:02:51.215 --> 00:02:55.715
+but bigger is easier to read and draws attention.
+
+00:02:55.715 --> 00:03:01.770
+So take a look at your chart and see if it can be improved.
+
+00:03:09.819 --> 00:03:14.109
+Color is a similar issue.
+
+00:03:14.110 --> 00:03:16.170
+It just depends.
+
+00:03:16.169 --> 00:03:19.259
+Keep in mind that your chart may be printed in
+
+00:03:19.259 --> 00:03:23.294
+grayscale or viewed by someone who's colorblind.
+
+00:03:23.294 --> 00:03:26.189
+So if it's possible to distinguish groupings in
+
+00:03:26.189 --> 00:03:30.044
+additional ways such as different shapes and scatter plots,
+
+00:03:30.044 --> 00:03:32.354
+or using dashes in lines,
+
+00:03:32.354 --> 00:03:36.179
+it's a best practice to do so.
+
+00:03:36.180 --> 00:03:38.490
+The format data series dialogue has
+
+00:03:38.490 --> 00:03:42.425
+a number of options for changing the look of your graph.
+
+00:03:42.425 --> 00:03:46.380
+This was just a sampling of some of the modifications you can make to
+
+00:03:46.379 --> 00:03:52.064
+your charts to give them the impact you want in a professional presentation.
+
+00:03:52.064 --> 00:03:57.939
+The best way to learn is to just try things, to explore.
+

@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.344
+A pie chart is used to illustrate proportionality.
+
+00:00:04.344 --> 00:00:06.615
+If we have a whole group of some sort,
+
+00:00:06.615 --> 00:00:11.294
+such as a list of all players in a baseball league and their positions,
+
+00:00:11.294 --> 00:00:17.240
+a pie chart can tell us what percentages of the whole group are in each position.
+
+00:00:17.239 --> 00:00:20.024
+Think of it as slicing the pie into pieces,
+
+00:00:20.024 --> 00:00:23.834
+where each piece matches a percentage of the whole list.
+
+00:00:23.835 --> 00:00:26.789
+In spreadsheets this is really easy,
+
+00:00:26.789 --> 00:00:29.954
+because all we need is a list of the categories
+
+00:00:29.954 --> 00:00:33.634
+and matching values such as sums or counts.
+
+00:00:33.634 --> 00:00:36.239
+Select the list of categories and values,
+
+00:00:36.240 --> 00:00:40.925
+go to the Insert menu and choose the pie chart. There it is.
+
+00:00:40.924 --> 00:00:43.320
+It might not look quite the way we want yet,
+
+00:00:43.320 --> 00:00:46.615
+but there are some easy fixes for that too.
+
+00:00:46.615 --> 00:00:47.984
+When the chart is selected,
+
+00:00:47.984 --> 00:00:51.344
+a design and format menu are available on the Excel ribbon.
+
+00:00:51.344 --> 00:00:55.015
+The design menu gives a number of choices: I'll
+
+00:00:55.015 --> 00:01:00.685
+choose this one because I like seeing the percentages on the pie.
+
+00:01:00.685 --> 00:01:05.900
+I can change the chart title to something more useful by editing it.
+
+00:01:05.900 --> 00:01:09.200
+There's more that you can do to change the appearance of the graph,
+
+00:01:09.200 --> 00:01:11.144
+but this gets it started.
+
+00:01:11.144 --> 00:01:15.899
+We'll go into more detail on how to polish the look later.
+
+00:01:15.900 --> 00:01:19.965
+For this example I already had a simple list that I highlighted,
+
+00:01:19.965 --> 00:01:25.185
+but I could have used the pivot table we created earlier with some careful selection.
+
+00:01:25.185 --> 00:01:27.075
+Here's the pivot table.
+
+00:01:27.075 --> 00:01:32.545
+The position categories are in the top row and the totals are in the bottom row.
+
+00:01:32.545 --> 00:01:37.004
+Select the categories, then either hold down the control key on Windows,
+
+00:01:37.004 --> 00:01:42.959
+or the Command key on Apple keyboards to select the bottom row with your mouse.
+
+00:01:42.959 --> 00:01:45.929
+It works most reliably to copy these and
+
+00:01:45.930 --> 00:01:49.950
+then paste this little collection somewhere else.
+
+00:01:49.950 --> 00:01:53.240
+I'm going to paste using the transpose feature.
+
+00:01:53.239 --> 00:01:55.155
+So I have columns,
+
+00:01:55.155 --> 00:02:04.281
+then select and choose the insert pie chart as before.
+
+00:02:04.281 --> 00:02:07.939
+We get the exact same thing.
+
+00:02:07.939 --> 00:02:12.169
+Now it's your turn to explore creating pie charts.
+

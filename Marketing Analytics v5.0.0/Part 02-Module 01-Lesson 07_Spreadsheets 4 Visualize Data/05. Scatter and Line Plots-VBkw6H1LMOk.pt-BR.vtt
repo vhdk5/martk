@@ -1,0 +1,172 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:00.167
+*PART 1*
+
+00:00:00.833 --> 00:00:04.933
+[Usamos gráficos pizza e de barras
+para visualizar dados categóricos.
+
+00:00:04.967 --> 00:00:07.333
+[Se temos uma lista
+de dados numéricos,
+
+00:00:07.333 --> 00:00:10.233
+[como uma lista de preços
+de ações ao longo do tempo,
+
+00:00:10.267 --> 00:00:14.667
+[um gráfico de linha representa
+melhor o conjunto de dados.
+
+00:00:14.700 --> 00:00:18.333
+[Aqui está o conjunto de dados
+que eu baixei de um site de finanças
+
+00:00:18.333 --> 00:00:21.067
+[que listava o preço
+de ações da Apple.
+
+00:00:21.100 --> 00:00:25.433
+[Ele tem colunas para data,
+abertura, alta, baixa, fechamento
+
+00:00:25.467 --> 00:00:26.833
+[e volume.
+
+00:00:26.867 --> 00:00:29.867
+[Quero selecionar as colunas
+de data e fechamento.
+
+00:00:29.867 --> 00:00:34.133
+[Então, vá ao menu "Inserir"
+e selecione um gráfico de linha.
+
+00:00:34.167 --> 00:00:36.400
+[Posso mudar o gráfico
+para sua própria folha
+
+00:00:36.433 --> 00:00:38.533
+[para ver melhor
+os detalhes.
+
+00:00:40.433 --> 00:00:45.100
+[O gráfico é um pouco simples,
+mas há vários ajustes rápidos
+
+00:00:45.133 --> 00:00:47.500
+[no menu "Design de Gráficos".
+
+00:00:47.533 --> 00:00:52.000
+[Vou escolher um e mudar o título
+para "Preços de ações da Apple".
+
+00:00:52.700 --> 00:00:56.400
+[Foi bem fácil. O eixo horizontal
+mostra as datas,
+
+00:00:56.433 --> 00:00:59.133
+[e o eixo vertical mostra
+valores em dólares.
+
+00:00:59.167 --> 00:01:01.533
+[Agora posso ver,
+em uma olhada rápida,
+
+00:01:01.567 --> 00:01:03.933
+[que, ao longo do ano anterior,
+as ações subiram,
+
+00:01:03.967 --> 00:01:06.567
+[com certa queda
+há cerca de um mês.
+
+00:01:06.600 --> 00:01:10.067
+[Se eu tenho mais de uma coluna
+de dados para as mesmas datas,
+
+00:01:10.100 --> 00:01:13.467
+[posso mostrar linhas para cada uma
+no mesmo gráfico.
+
+00:01:13.500 --> 00:01:15.200
+[Vou usar o mesmo
+conjunto de datas,
+
+00:01:15.233 --> 00:01:19.767
+[mas a data mais os valores de alta
+e baixa para as ações da Apple.
+
+00:01:19.800 --> 00:01:22.567
+[Já que a alta e a baixa
+não estão distantes,
+
+00:01:22.567 --> 00:01:24.133
+[também posso mudar o alcance
+
+00:01:24.167 --> 00:01:27.733
+[da quantidade de dólares
+à esquerda, começando em US$ 100.
+
+00:01:27.767 --> 00:01:30.467
+[Selecione o eixo vertical
+e clique com o botão direito
+
+00:01:30.500 --> 00:01:32.700
+[em "Formatar eixo".
+
+00:01:32.733 --> 00:01:35.933
+[Agora você vê tanto a linha
+da alta quanto a da baixa,
+
+00:01:35.967 --> 00:01:38.500
+[e os spreads entre elas.
+
+00:01:38.533 --> 00:01:42.867
+[Há várias formas de mudar o visual
+do mesmo gráfico de linha,
+
+00:01:42.900 --> 00:01:44.667
+[alterando o layout.
+
+00:01:45.433 --> 00:01:48.167
+[Eu também posso tentar traçar
+duas variantes diferentes
+
+00:01:48.200 --> 00:01:50.633
+[para as ações da Apple
+sem usar nenhuma data,
+
+00:01:50.667 --> 00:01:53.567
+[como o preço de fechamento
+e o volume.
+
+00:01:53.600 --> 00:01:55.467
+[Quando escolho
+o gráfico de dispersão,
+
+00:01:55.500 --> 00:01:59.000
+[vejo um gráfico com o preço
+de fechamento no eixo horizontal
+
+00:01:59.067 --> 00:02:02.433
+[e o volume de comercialização
+desse dia no eixo vertical.
+
+00:02:02.467 --> 00:02:06.000
+[Vejo que os preços parecem
+se agrupar em algumas áreas,
+
+00:02:06.033 --> 00:02:09.733
+[e que eles têm mais ou menos
+o mesmo volume, em geral,
+
+00:02:09.767 --> 00:02:13.367
+[embora haja dias de mais volume
+a um preço menor.
+
+00:02:13.367 --> 00:02:14.367
+*END*
+

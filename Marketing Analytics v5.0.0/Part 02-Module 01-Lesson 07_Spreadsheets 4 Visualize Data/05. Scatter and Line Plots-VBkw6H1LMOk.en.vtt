@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.190
+We use pie and bar charts to visualize categorical data.
+
+00:00:05.190 --> 00:00:07.200
+If we have a list of numerical data,
+
+00:00:07.200 --> 00:00:10.050
+such as the list of stock prices over time,
+
+00:00:10.050 --> 00:00:14.415
+a line chart gives us a better picture of the data set.
+
+00:00:14.414 --> 00:00:18.449
+Here's a table of data I downloaded from a financial website,
+
+00:00:18.449 --> 00:00:21.059
+listing prices for AAPL stock.
+
+00:00:21.059 --> 00:00:23.500
+It has columns for date, open,
+
+00:00:23.500 --> 00:00:26.690
+high, low, close, and volume.
+
+00:00:26.690 --> 00:00:29.670
+I want to select the date column and the close column
+
+00:00:29.670 --> 00:00:34.005
+then go to the insert menu and select a line chart.
+
+00:00:34.005 --> 00:00:40.359
+I can move the chart to its own sheet to see the detail better.
+
+00:00:40.359 --> 00:00:42.755
+The chart is a little plain,
+
+00:00:42.755 --> 00:00:47.175
+but there are several quick fixes in the chart design menu.
+
+00:00:47.174 --> 00:00:52.689
+I'll choose one and change the title to AAPL Stock Price.
+
+00:00:52.689 --> 00:00:54.185
+That was pretty easy.
+
+00:00:54.185 --> 00:00:56.424
+The horizontal axis shows the dates,
+
+00:00:56.424 --> 00:00:59.140
+and the vertical axis shows dollar values.
+
+00:00:59.140 --> 00:01:01.359
+Now I can see, at a glance,
+
+00:01:01.359 --> 00:01:06.209
+that over the past year the stock has gone up with a little hiccup about a month ago.
+
+00:01:06.209 --> 00:01:09.924
+If I have more than one column of data for the same dates,
+
+00:01:09.924 --> 00:01:13.359
+I can show lines for each on the same chart.
+
+00:01:13.359 --> 00:01:14.965
+I'll use the same data set,
+
+00:01:14.965 --> 00:01:19.715
+but I'll select the date plus the high and low values for AAPL stock.
+
+00:01:19.715 --> 00:01:22.409
+Since the high and low aren't all that far apart,
+
+00:01:22.409 --> 00:01:27.634
+I'll also change the range for the dollar amount on the left to start at 100.
+
+00:01:27.635 --> 00:01:29.335
+Select the vertical axis,
+
+00:01:29.334 --> 00:01:32.314
+right click, and format axis.
+
+00:01:32.314 --> 00:01:38.420
+You can see both the high and low value lines now and see the spreads between them.
+
+00:01:38.420 --> 00:01:45.390
+There are a lot of ways to change the look of the same line chart by altering the layout.
+
+00:01:45.390 --> 00:01:50.310
+I could also try to plot two different variables for AAPL stock without dates at all,
+
+00:01:50.310 --> 00:01:53.030
+such as the closing price and volume.
+
+00:01:53.030 --> 00:01:55.269
+When I choose the scatterplot,
+
+00:01:55.269 --> 00:01:57.509
+I get a graph with the closing price on
+
+00:01:57.510 --> 00:02:02.330
+the horizontal axis and the volume of trade that day on the vertical axis.
+
+00:02:02.329 --> 00:02:07.709
+I can see that the prices seem to cluster in a couple of areas and that they have about
+
+00:02:07.709 --> 00:02:14.000
+the same volume generally though there are some high volume days at the lower price.
+

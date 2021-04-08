@@ -1,0 +1,123 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:00.467
+*PART 1*
+
+00:00:00.467 --> 00:00:02.501
+Um gráfico de caixa,
+que, no nosso caso,
+
+00:00:02.534 --> 00:00:04.834
+é uma caixa e uma reta
+com pontos,
+
+00:00:04.868 --> 00:00:07.834
+é a visualização
+do spread estatístico
+
+00:00:07.868 --> 00:00:10.434
+em um conjunto de dados
+de valores.
+
+00:00:10.467 --> 00:00:12.834
+Um gráfico de caixa tradicional
+é construído
+
+00:00:12.868 --> 00:00:15.367
+usando o sumário
+de cinco números.
+
+00:00:15.400 --> 00:00:19.067
+O sumário de cinco números
+consiste de cinco valores:
+
+00:00:19.100 --> 00:00:23.701
+o máximo, o mínimo,
+o primeiro quartil,
+
+00:00:23.734 --> 00:00:27.200
+o segundo quartil,
+também chamado de mediana,
+
+00:00:27.234 --> 00:00:29.834
+e o terceiro quartil.
+
+00:00:29.868 --> 00:00:32.901
+Se temos uma lista de números,
+separados e divididos
+
+00:00:32.968 --> 00:00:38.400
+da forma mais uniforme possível
+em quartos, temos quartis de dados.
+
+00:00:38.467 --> 00:00:40.801
+Onde fazemos a caixa
+e a reta com pontos,
+
+00:00:40.834 --> 00:00:44.501
+o máximo se torna
+a ponta mais alta da reta
+
+00:00:44.567 --> 00:00:48.400
+e o mínimo é a ponta
+mais baixa da reta.
+
+00:00:48.467 --> 00:00:53.234
+A caixa representa a metade
+dos dados, com uma linha,
+
+00:00:53.300 --> 00:00:55.667
+onde fica a mediana.
+
+00:00:55.701 --> 00:01:00.000
+O Excel nos dá um sexto número
+de bônus no sumário,
+
+00:01:00.033 --> 00:01:05.767
+posicionando um X na média,
+ou valor médio do conjunto.
+
+00:01:07.133 --> 00:01:11.501
+Criar um gráfico de caixa
+no Excel 2016 é tão fácil
+
+00:01:11.534 --> 00:01:15.567
+quanto criar outros gráficos.
+Selecione a coluna de dados.
+
+00:01:15.601 --> 00:01:18.167
+Clique em "Inserir"
+e em "Gráficos recomendados",
+
+00:01:18.200 --> 00:01:20.968
+e então no gráfico de caixa
+com reta com pontos.
+
+00:01:20.968 --> 00:01:23.901
+Lembre que um gráfico de caixa
+representa estatísticas
+
+00:01:23.934 --> 00:01:27.501
+para uma única lista de números,
+então cada lista selecionada
+
+00:01:27.534 --> 00:01:30.834
+será representada por seu
+próprio gráfico de caixa.
+
+00:01:30.868 --> 00:01:34.601
+O gráfico de caixa, visualmente,
+dá uma ideia do spread
+
+00:01:34.634 --> 00:01:36.434
+da lista de valores.
+
+00:01:37.601 --> 00:01:42.501
+Vou apenas ajustar o alcance
+para ver melhor as caixas
+
+00:01:44.900 --> 00:01:48.000
+e dar um título ao gráfico.
+

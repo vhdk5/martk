@@ -1,0 +1,156 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:00.666
+*PART 1*
+
+00:00:00.334 --> 00:00:04.167
+[Um gráfico pizza é usado
+para ilustrar proporcionalidade.
+
+00:00:04.200 --> 00:00:06.467
+[Se temos um grupo
+de algum tipo,
+
+00:00:06.501 --> 00:00:09.601
+[como a lista de todos os jogadores
+em uma liga de beisebol
+
+00:00:09.634 --> 00:00:11.234
+[e suas posições,
+
+00:00:11.267 --> 00:00:13.601
+[o gráfico pizza pode dizer
+as porcentagens
+
+00:00:13.601 --> 00:00:16.968
+[de todo o grupo
+que ocupam cada posição.
+
+00:00:17.033 --> 00:00:20.567
+[Pense em fatiar uma pizza,
+e cada pedaço conter
+
+00:00:20.601 --> 00:00:23.968
+[a porcentagem
+da lista completa.
+
+00:00:24.000 --> 00:00:26.767
+[Em planilhas, isso é
+bastante simples,
+
+00:00:26.801 --> 00:00:29.834
+[porque só precisamos
+de uma lista de categorias
+
+00:00:29.868 --> 00:00:33.567
+[e valores equivalentes,
+como somas ou contagens.
+
+00:00:33.601 --> 00:00:36.200
+[Selecione a lista
+de categorias e valores,
+
+00:00:36.234 --> 00:00:40.667
+[vá ao menu "Inserir" e escolha
+o gráfico pizza. Aí está.
+
+00:00:40.701 --> 00:00:43.334
+[Ele pode ainda não estar
+como queremos,
+
+00:00:43.400 --> 00:00:46.501
+[mas há formas simples
+de ajustá-lo.
+
+00:00:46.534 --> 00:00:49.367
+[Quando o gráfico é selecionado,
+um menu de design e formato
+
+00:00:49.434 --> 00:00:54.767
+[se abre no Excel. O menu "Design"
+oferece várias opções.
+
+00:00:54.767 --> 00:00:58.067
+[Vou escolher esta,
+porque gosto de ver
+
+00:00:58.100 --> 00:01:00.467
+[as porcentagens no gráfico.
+
+00:01:00.534 --> 00:01:04.868
+[Posso mudar o título do gráfico
+para algo mais útil, editando-o.
+
+00:01:05.868 --> 00:01:09.267
+[Você pode fazer mais coisas
+para alterar o visual do gráfico,
+
+00:01:09.300 --> 00:01:11.367
+[mas podemos começar assim.
+
+00:01:11.400 --> 00:01:15.834
+[Aprenderemos mais detalhes depois,
+para aprimorar o visual.
+
+00:01:15.868 --> 00:01:19.968
+[Para este exemplo, eu já tenho
+uma lista simples que destaquei,
+
+00:01:19.968 --> 00:01:23.234
+[mas poderia usar
+a tabela dinâmica criada antes,
+
+00:01:23.234 --> 00:01:25.601
+[selecionando-a
+cuidadosamente.
+
+00:01:25.634 --> 00:01:28.601
+[Eis a tabela dinâmica.
+As posições das categorias
+
+00:01:28.634 --> 00:01:32.367
+[estão na linha superior,
+e os totais, na linha inferior.
+
+00:01:32.400 --> 00:01:36.734
+[Selecione as categorias e segure
+a tecla "control" no Windows
+
+00:01:36.767 --> 00:01:39.767
+[ou a tecla "Command"
+em teclados Apple
+
+00:01:39.801 --> 00:01:42.667
+[para selecionar a linha inferior
+com seu mouse.
+
+00:01:42.701 --> 00:01:47.968
+[É mais confiável copiar e depois
+colar esta pequena coleção
+
+00:01:47.968 --> 00:01:49.901
+[em outro local.
+
+00:01:49.968 --> 00:01:53.300
+[Eu vou colar usando o recurso
+de transposição,
+
+00:01:53.334 --> 00:01:55.667
+[para poder ter colunas.
+
+00:01:55.701 --> 00:02:00.767
+[Então, selecione e escolha
+"inserir gráfico pizza", como antes.
+
+00:02:05.300 --> 00:02:07.734
+[Acontece a mesma coisa.
+
+00:02:07.767 --> 00:02:11.834
+[Agora, é sua vez de explorar
+a criação de gráficos pizza.
+
+00:02:11.834 --> 00:02:12.834
+*END*
+

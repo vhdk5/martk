@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.339
+A Histogram is a column chart that measures the frequency of data in
+
+00:00:04.339 --> 00:00:10.434
+a data set and specifically groups numerical values into bins, we define.
+
+00:00:10.435 --> 00:00:12.839
+Recall that we previously created
+
+00:00:12.839 --> 00:00:17.390
+a column chart to compare counts of categories within a data set.
+
+00:00:17.390 --> 00:00:19.815
+This kind of chart answers a question like,
+
+00:00:19.815 --> 00:00:25.145
+how many players are there in each playing position in the league?
+
+00:00:25.144 --> 00:00:27.884
+But what if we want to ask the question,
+
+00:00:27.885 --> 00:00:31.260
+how many players made under $1 million in salary,
+
+00:00:31.260 --> 00:00:33.000
+and between $1 and $2 million,
+
+00:00:33.000 --> 00:00:36.774
+and between $2 and $3 million in salary, et cetera?
+
+00:00:36.774 --> 00:00:39.359
+This kind of a chart is a histogram,
+
+00:00:39.359 --> 00:00:41.880
+and the groupings we choose such as,
+
+00:00:41.880 --> 00:00:46.830
+all salaries between $1 and $2 million and salaries between $2 and $3 million
+
+00:00:46.829 --> 00:00:49.239
+are the bins.
+
+00:00:49.240 --> 00:00:53.000
+There are two ways to do this in Excel.
+
+00:00:53.000 --> 00:00:56.049
+We'll start with a method that works on both Windows and
+
+00:00:56.049 --> 00:01:01.074
+Mac using the histogram tool in the analysis tool pack add-in.
+
+00:01:01.075 --> 00:01:03.910
+Instructions for loading the analysis tool pack
+
+00:01:03.909 --> 00:01:08.054
+add-in are given in the Getting Started instructions.
+
+00:01:08.055 --> 00:01:15.765
+The second way is a simple insert chart method available for Excel 2016 for PC.
+
+00:01:15.765 --> 00:01:17.469
+I'll show you that too.
+
+00:01:17.469 --> 00:01:21.010
+The tool pack histogram requires two columns of data.
+
+00:01:21.010 --> 00:01:23.920
+One for data you want to analyze and one for
+
+00:01:23.920 --> 00:01:27.215
+bin levels that represent the intervals for the bins.
+
+00:01:27.215 --> 00:01:29.409
+In this example, I'm starting at $1 million,
+
+00:01:29.409 --> 00:01:31.060
+then $2 million, et cetera,
+
+00:01:31.060 --> 00:01:32.990
+up to $15 million.
+
+00:01:32.989 --> 00:01:34.599
+When I create the histogram,
+
+00:01:34.599 --> 00:01:36.849
+the number of values in the salaries lists that are
+
+00:01:36.849 --> 00:01:39.804
+below $1 million will be in the first bin.
+
+00:01:39.805 --> 00:01:44.905
+The numbers of salaries between $1 and $2 million will be in the second bin, and so on.
+
+00:01:44.905 --> 00:01:46.625
+To create the histogram,
+
+00:01:46.625 --> 00:01:52.390
+choose data analysis from the data menu on Windows or from the tools menu on Mac.
+
+00:01:52.390 --> 00:01:55.480
+Choose histogram, which opens a dialog.
+
+00:01:55.480 --> 00:01:57.295
+For the input range,
+
+00:01:57.295 --> 00:02:00.234
+select the data from the salaries column.
+
+00:02:00.234 --> 00:02:01.569
+For the bin range,
+
+00:02:01.569 --> 00:02:04.464
+select the bin intervals you've created.
+
+00:02:04.465 --> 00:02:09.325
+If you have a label at the top of your columns as I do here, click labels.
+
+00:02:09.324 --> 00:02:10.719
+For the output options,
+
+00:02:10.719 --> 00:02:13.310
+select new worksheet and chart output,
+
+00:02:13.310 --> 00:02:17.659
+and press OK. Excel will analyze
+
+00:02:17.659 --> 00:02:22.284
+the list and create a count for the bins on a new worksheet,
+
+00:02:22.284 --> 00:02:26.405
+and then create a column chart to match it.
+
+00:02:26.405 --> 00:02:32.689
+The second method is only available in Excel 2016 on Windows.
+
+00:02:32.689 --> 00:02:35.509
+Just select your data and click insert,
+
+00:02:35.509 --> 00:02:39.004
+recommended charts and choose the histogram chart.
+
+00:02:39.004 --> 00:02:41.530
+To configure details about the bins,
+
+00:02:41.530 --> 00:02:44.272
+right click the horizontal axis of the chart,
+
+00:02:44.272 --> 00:02:49.004
+click format axis and then click axis options.
+
+00:02:49.004 --> 00:02:53.199
+The dialog provides options for choosing categorical data
+
+00:02:53.199 --> 00:02:57.284
+like the player positions or automatic for numerical data.
+
+00:02:57.284 --> 00:03:02.189
+You can specify the number of bins which you might choose to experiment with a bit.
+
+00:03:02.189 --> 00:03:04.409
+If you choose bins that are too narrow,
+
+00:03:04.409 --> 00:03:06.085
+the result can be noisy.
+
+00:03:06.085 --> 00:03:10.445
+On the other hand, too few bins will hide details.
+
+00:03:10.444 --> 00:03:16.359
+Here as always, think about what you're trying to learn and convey about the data,
+
+00:03:16.360 --> 00:03:20.430
+and use that as your guide for making these determinations.
+
+00:03:20.430 --> 00:03:22.629
+As with other charts,
+
+00:03:22.629 --> 00:03:24.460
+design and layout can be further
+
+00:03:24.460 --> 00:03:29.030
+customized from the design menu when the chart is selected.
+

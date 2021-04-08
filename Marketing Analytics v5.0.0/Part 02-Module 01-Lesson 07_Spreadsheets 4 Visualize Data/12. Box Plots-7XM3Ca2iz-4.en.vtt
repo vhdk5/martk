@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.644
+A box plot, which in our case is really a box and whisker plot,
+
+00:00:04.644 --> 00:00:10.050
+is the visualization of statistical spread in a data set of values.
+
+00:00:10.050 --> 00:00:15.150
+A traditional box plot is built using the five numbers summary.
+
+00:00:15.150 --> 00:00:18.867
+The five numbers summary consists of five values.
+
+00:00:18.867 --> 00:00:23.070
+The maximum, the minimum, the 1st quartile,
+
+00:00:23.070 --> 00:00:27.225
+the 2nd quartile, also called the median,
+
+00:00:27.225 --> 00:00:29.640
+and the 3rd quartile.
+
+00:00:29.640 --> 00:00:33.329
+If we have a list of numbers sorted and divided as
+
+00:00:33.329 --> 00:00:37.890
+evenly as possible into fourths, we have the quartiles of data.
+
+00:00:37.890 --> 00:00:40.713
+Where we make a box and whisker plot,
+
+00:00:40.713 --> 00:00:43.049
+the maximum becomes the tip of
+
+00:00:43.049 --> 00:00:48.409
+the upper whisker and the minimum becomes the tip of the lower whisker.
+
+00:00:48.409 --> 00:00:55.669
+The box represents the middle half of the data with a line where the median is.
+
+00:00:55.670 --> 00:01:00.000
+Excel will give us a bonus six number in the summary
+
+00:01:00.000 --> 00:01:06.400
+by placing an X at the mean or average value of the set.
+
+00:01:06.400 --> 00:01:13.430
+Creating a box plot in Windows Excel 2016 is as easy as any other chart.
+
+00:01:13.430 --> 00:01:15.560
+Select columns of data.
+
+00:01:15.560 --> 00:01:20.950
+Click insert in recommended charts then click the box in whisker chart.
+
+00:01:20.950 --> 00:01:25.670
+Remember that a box plot represents statistics for a single list of numbers.
+
+00:01:25.670 --> 00:01:30.484
+So, each list you select will be represented by its own box plot.
+
+00:01:30.484 --> 00:01:37.670
+The box plot now visually gives a sense of the spread of the value list.
+
+00:01:37.670 --> 00:01:43.599
+I'll just adjust the range so that I can see the plots a little better.
+
+00:01:43.599 --> 00:01:48.579
+And, give the chart a title.
+
