@@ -1,0 +1,221 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817910,
+      "key": "4c9d9714-e887-4055-83ca-af7e3b7f2407",
+      "title": "Project - Storytelling With Data",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": {
+        "key": "f08bd1fc-731c-43a2-965d-8e91c18812fe",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 10080,
+        "semantic_type": "Project",
+        "title": "Project: Storytelling With Data",
+        "description": "When you feel confident with your report, double check that you have met all of the [Rubric Specifications](https://review.udacity.com/#!/rubrics/2487/view), then share it with us below!\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2487",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 817911,
+          "key": "0b922244-8fe0-488b-af72-7ec8e6201ffd",
+          "title": "Project Prep: Storytelling With Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0b922244-8fe0-488b-af72-7ec8e6201ffd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827230,
+              "key": "a320f367-54d9-4628-b39b-9adee37cf537",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\nAs you’ve learned visually telling a story with data can help your audience understand your message and be a powerful tool. Now we are going to put that learning to practice with an Ecommerce data set provided below.\n \nFor the purpose of this project, pretend you are a marketing analyst consultant and your client is an ecommerce website that sells sells unique all-occasion gifts. The client wants to make sure it understands their data. They are relying on you to help understand their data to inform their decision making. They’ve asked you to have a look at their sales history and provide some insights. \n* **Step 1**: Have a look over the data and decide on a question or questions to explore. Here are a few options you may consider:\n   * What product or products sold the best?\n   * What product or products might they want to discontinue selling?\n   * Was there any data that suggested seasonality? \n* **Step 2**: Using the ecommerce data set provided below, explore the data in Excel or Google Sheets, and create a visual story using a graph that answers the question(s) you’ve selected to answer. \n\n [Ecommerce Data Set](https://docs.google.com/spreadsheets/d/12EPcAufhey6m0AmQ1nB4f5X1MaDdm81GAeKvCV16Dis/edit?usp=sharing) from an actual UK retailer. The data you will be using is a sample set derived from the Kaggle. *\"This is a transnational data set which contains all the transactions occurring between 01/12/2010 and 09/12/2011 for a UK-based and registered non-store online retail.The company mainly sells unique all-occasion gifts. Many customers of the company are wholesalers.\"* For more information on this data set you can visit the Kaggle repository [here](https://www.kaggle.com/carrie1/ecommerce-data/home).\n \n* **Step 3**: Take a screenshot of your graph and any supporting information that is part of your story and submit your Story as a PDF for review.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 817912,
+          "key": "5347c532-fef8-451a-b251-011603564720",
+          "title": "Project Example",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5347c532-fef8-451a-b251-011603564720",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827234,
+              "key": "bcd07fa0-d122-4dbc-a02e-7b3b78f2dc32",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Here is an example of a story using the data set from a previous lesson on the “Likey Places You Lost Your Remote Control.”\n\n\nIf you are like me, you find yourself spending a lot of time looking for your TV remote. You might be surprised to find that the most likely place to find your remote is… Your Hand! \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827235,
+              "key": "bd94d5a2-daef-4070-a21c-6c8e4b3935c8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6c3f4a_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bd94d5a2-daef-4070-a21c-6c8e4b3935c8",
+              "caption": "",
+              "alt": "",
+              "width": 789,
+              "height": 487,
+              "instructor_notes": null
+            },
+            {
+              "id": 827236,
+              "key": "f889add4-1a06-4ddd-8de4-d8a06cae692a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you remote is not in your hand, the next place to check is In or Under the Couch.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827238,
+              "key": "6552411e-2423-4acd-89ec-81e56360e9ef",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6c3f65_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6552411e-2423-4acd-89ec-81e56360e9ef",
+              "caption": "",
+              "alt": "",
+              "width": 785,
+              "height": 477,
+              "instructor_notes": null
+            },
+            {
+              "id": 827239,
+              "key": "898768df-e01e-49c4-9c51-38f6e403cc2c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "And a close third place to look is Next to the TV. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827240,
+              "key": "74c67598-2ca0-481d-8e1a-2b2b911064c6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6c3f7e_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/74c67598-2ca0-481d-8e1a-2b2b911064c6",
+              "caption": "",
+              "alt": "",
+              "width": 792,
+              "height": 486,
+              "instructor_notes": null
+            },
+            {
+              "id": 827241,
+              "key": "91553a9b-0170-4861-9b80-47b78f6072eb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If you still can’t find your remote, have a look in the Fridge, in Your Shirt Pocket, or Under the Rug. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 817913,
+          "key": "ab994bf1-aaa6-4763-a6c4-f564fd3fb4ee",
+          "title": "Reminders & Best Practices ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ab994bf1-aaa6-4763-a6c4-f564fd3fb4ee",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827246,
+              "key": "088a1932-0b51-4aa5-8210-080d1230a724",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Telling stories with data follows these steps:\n1. Start with a Question\n2. Repetition is a Good Thing\n3. Highlight the Answer\n4. Call Your Audience To Action\nBefore you start diving into the data and creating your story here are few things to keep in mind:\n \nVisuals can be **bad** if they:\n1. Don't convey the message.\n2. Are misleading.\nThis seems straightforward, but often visuals are created that do one or both of these unintentionally. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827247,
+              "key": "d3759a29-5862-4046-8f8b-3a906db225a8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Chart junk** refers to all visual elements in charts and graphs that are not necessary to comprehend the information represented on the graph or that distract the viewer from this information.\nExamples of chart junk:\n1. Heavy grid lines\n2. Unnecessary text\n3. Pictures surrounding the visual\n4. Shading or 3d components\n5. Ornamented chart axes\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827248,
+              "key": "b6d1ff2a-41a6-4c5f-862c-c6033b3cdfe3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Data-ink Ratio**\n\nThe **data-ink ratio**, credited to Edward Tufte, is directly related to the idea of chart junk. The more of the ink in your visual that is related to conveying the message in the data, the better.\n\nLimiting chart junk increases the data-ink ratio.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827250,
+              "key": "d35a2c5b-9cd7-4c8a-b96d-93fbae13a44b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Color** can both help and hurt a data visualization. Three tips for using color effectively.\n1. Before adding color to a visualization, start with black and white.\n\n\n2. When using color, use less intense colors - not all the colors of the rainbow, which is the default in many software applications.\n\n\n3. Color for communication. Use color to highlight your message and separate groups of interest. Don't add color just to have color in your visualization.\n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

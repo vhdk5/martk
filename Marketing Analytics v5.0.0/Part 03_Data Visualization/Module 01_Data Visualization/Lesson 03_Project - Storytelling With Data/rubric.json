@@ -1,0 +1,108 @@
+{
+  "id": 2487,
+  "project_id": 578,
+  "upload_types": [
+    "file",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2019-02-06T17:31:11.342Z",
+  "updated_at": "2020-11-25T14:44:57.895Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd028-beta",
+    "nd028",
+    "nd028-ent",
+    "nd028-connect"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 5362,
+      "name": "Visual Storytelling with Data ",
+      "created_at": "2019-02-19T17:47:43.169Z",
+      "updated_at": "2019-02-19T17:47:47.960Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2487,
+      "rubric_items": [
+        {
+          "id": 15474,
+          "section_id": 5362,
+          "passed_description": "The visualization centers on a specific, clear finding in the data.",
+          "exceeded_description": null,
+          "created_at": "2019-02-19T17:47:48.078Z",
+          "updated_at": "2019-02-19T17:48:17.158Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": " \nDoes the visualization have a clear question it is answering?\n",
+          "exceedable": false
+        },
+        {
+          "id": 15475,
+          "section_id": 5362,
+          "passed_description": " \nThe selected finding is clearly communicated. Design choices foster communication between the reader and the visualization.\nVisualization does not add additional colors, shapes, or other design elements in an unnecessary way. Rather, each additional element should add to the insight being made.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-19T17:48:17.264Z",
+          "updated_at": "2019-02-19T17:48:41.828Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": " \nDoes the visualization focus on its finding?\n",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5363,
+      "name": "Design",
+      "created_at": "2019-02-19T17:48:41.933Z",
+      "updated_at": "2019-02-19T17:48:50.977Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2487,
+      "rubric_items": [
+        {
+          "id": 15476,
+          "section_id": 5363,
+          "passed_description": " \nColor choices must accurately reflect the data and be chosen with accessibility in mind. For example, values that span from negative to positive numbers should be encoded with a diverging palette. Also, the color palettes should work for colorblindness.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-19T17:48:51.095Z",
+          "updated_at": "2019-02-19T17:49:37.183Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Are colors used appropriately?",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 578,
+    "name": "Storytelling with Data",
+    "nanodegree_key": "nd028",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 8,
+    "created_at": "2019-02-19T20:30:19.317Z",
+    "updated_at": "2021-04-07T17:08:27.608Z",
+    "price": "7.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}
