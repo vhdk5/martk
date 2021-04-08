@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.325
+When we think of spreadsheets,
+
+00:00:02.325 --> 00:00:05.160
+we probably think of math operations first.
+
+00:00:05.160 --> 00:00:08.414
+So it's pretty easy to imagine some applications for them,
+
+00:00:08.414 --> 00:00:10.994
+perhaps adding lists of money or items,
+
+00:00:10.994 --> 00:00:14.459
+determining average prices or maybe multiplying unit
+
+00:00:14.460 --> 00:00:18.914
+cost times the number of units as we did with the fruit stand example.
+
+00:00:18.914 --> 00:00:23.085
+There are two kinds of arithmetic operations in spreadsheets,
+
+00:00:23.085 --> 00:00:27.510
+those done with arithmetic operators and those that use functions.
+
+00:00:27.510 --> 00:00:31.364
+Arithmetic operators include addition, subtraction,
+
+00:00:31.364 --> 00:00:34.920
+multiplication and division using simple plus,
+
+00:00:34.920 --> 00:00:39.135
+minus, asterisk and slash symbols in the formula.
+
+00:00:39.134 --> 00:00:42.689
+Pretty much as you would actually write these out,
+
+00:00:42.689 --> 00:00:44.750
+as with all spreadsheet formulas,
+
+00:00:44.750 --> 00:00:48.469
+these formulas always begin with an equal sign.
+
+00:00:48.469 --> 00:00:52.739
+The second type of math operation uses functions.
+
+00:00:52.740 --> 00:00:57.675
+A couple of very useful statistical functions are sum and average.
+
+00:00:57.674 --> 00:01:03.234
+Here I'm using sum to add up a range of numbers in the fruit stand example.
+
+00:01:03.234 --> 00:01:09.340
+Previously, we did this with arithmetic operators adding each individual cell.
+
+00:01:09.340 --> 00:01:13.424
+It's much easier to just identify a range to sum.
+
+00:01:13.424 --> 00:01:15.780
+Average works the same way,
+
+00:01:15.780 --> 00:01:20.420
+just select the range to get the average of it.
+

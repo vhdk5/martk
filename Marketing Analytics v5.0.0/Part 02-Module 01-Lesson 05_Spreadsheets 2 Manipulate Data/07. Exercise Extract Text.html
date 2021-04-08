@@ -1,0 +1,485 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise: Extract Text</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Spreadsheets 2: Manipulate Data</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Intro.html">01. Intro</a>
+    </li>
+    <li class="">
+      <a href="02. Cell Formulas.html">02. Cell Formulas</a>
+    </li>
+    <li class="">
+      <a href="03. Quiz Spreadsheet Functions.html">03. Quiz: Spreadsheet Functions</a>
+    </li>
+    <li class="">
+      <a href="04. SUBSTITUTE.html">04. SUBSTITUTE</a>
+    </li>
+    <li class="">
+      <a href="05. Quiz SUBSTITUTE.html">05. Quiz: SUBSTITUTE</a>
+    </li>
+    <li class="">
+      <a href="06. Extract Text.html">06. Extract Text</a>
+    </li>
+    <li class="">
+      <a href="07. Exercise Extract Text.html">07. Exercise: Extract Text</a>
+    </li>
+    <li class="">
+      <a href="08. Reformat Text.html">08. Reformat Text</a>
+    </li>
+    <li class="">
+      <a href="09. Quiz PROPER, UPPER, LOWER.html">09. Quiz: PROPER, UPPER, LOWER</a>
+    </li>
+    <li class="">
+      <a href="10. Math Functions.html">10. Math Functions</a>
+    </li>
+    <li class="">
+      <a href="11. Exercise Math Functions.html">11. Exercise: Math Functions</a>
+    </li>
+    <li class="">
+      <a href="12. Duplicate Rows.html">12. Duplicate Rows</a>
+    </li>
+    <li class="">
+      <a href="13. Exercise Duplicate Rows.html">13. Exercise: Duplicate Rows</a>
+    </li>
+    <li class="">
+      <a href="14. Split Columns .html">14. Split Columns </a>
+    </li>
+    <li class="">
+      <a href="15. Exercise Split Columns.html">15. Exercise: Split Columns</a>
+    </li>
+    <li class="">
+      <a href="16. Sort Data.html">16. Sort Data</a>
+    </li>
+    <li class="">
+      <a href="17. Exercise Sort Data.html">17. Exercise: Sort Data</a>
+    </li>
+    <li class="">
+      <a href="18. Filter Data.html">18. Filter Data</a>
+    </li>
+    <li class="">
+      <a href="19. Exercise Filter Data.html">19. Exercise: Filter Data</a>
+    </li>
+    <li class="">
+      <a href="20. Recap.html">20. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">07. Exercise: Extract Text</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="exercise-extract-text">Exercise: Extract Text</h1>
+<p>In the exercise below, you'll combine what you've learned about the <strong>FIND</strong> and <strong>MID</strong> functions to extract the first word found <em>after</em> the first occurrences of the word "data" in a series of sentences.  For example, in the following sentence, your target word is "is":</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/extract1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Some programming languages use 0 based indexing.  However, Excel uses 1 based index.  This means that counting begins at the value of 1.  Therefore, to find the index for the word data, we would count as shown in the image below.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/screen-shot-2017-12-21-at-3.46.35-pm.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Then for the extraction for this quiz, since this extraction is in the middle of a text string, you will use the function <strong>MID</strong> with the following syntax:</p>
+<pre><code class="text language-text">MID(text, start_num, num_chars)
+text     
+         text string containing the characters you want to extract
+start_num    
+         position of the first character you want to extract in text
+num_chars
+         the number of characters you want MID to return from text</code></pre>
+<p>Think about how this can be solved.  Before you can use the <strong>MID</strong> function, you first need to <strong>FIND</strong> the word after data and the number of characters that are in it.  To figure out the number of characters in the target word, you will need to <strong>FIND</strong> the space after it as well.  The size of the target word will be equal to the position of the space after it minus the position of the start of the target word.</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/extract2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>The exercise will step you through intermediate formulas to get to the final answer.  As you figure out the correct formula in the top cell in each column, you will be able to "fill" (or copy) the cells down the column for all the cases you are given.  </p>
+<p>As a reminder, here is the syntax for using the <strong>FIND</strong> function:</p>
+<pre><code class="text language-text">FIND(find_text, within_text, [start_num])
+find_text    
+         the text you want to find
+within_text   
+         the text containing the text you want to find
+start_num    
+         OPTIONAL - character position at which to start the search</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>The following list has a series of steps for this exercise.  As you complete each step, check it off the list.  The quizzes in the task list can be found below.</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--0">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--0"><p>Download the <code>extract_text.xlsx</code> file from the resources (see "Supporting Materials" at bottom of page)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--1">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--1"><p>Open <code>extract_text.xlsx</code> in your spreadsheet application</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--2">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--2"><p>Use the <strong>FIND</strong> function to create a formula to find the position of first letter in "data" (and fill down)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--3">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--3"><p>Quiz: First "data" location (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--4">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--4"><p>Use the <strong>FIND</strong> function to create a formula to find the position of first letter in the target word (and fill down)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--5">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--5"><p>Quiz: Target word location (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--6">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--6"><p>Create a formula to find the first space after the target word (and fill down)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--7">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--7"><p>Create a formula to determine the length of the target word (and fill down)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--8">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--8"><p>Quiz: Target word length (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--9">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--9"><p>Use the <strong>MID</strong> function to create a formula to output the target word (and fill down)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--10">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--10"><p>Quiz: Target words (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--11">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--11"><p>Create a single formula that is only dependent upon the original text string (and fill down)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--12">
+        <label for="f8233ce2-5b13-42c4-9c9a-b4d3de11e8b8--12"><p>Quiz: Nested formula (see below)</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Congratulations!  This was a tough one, but you did it!!!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>First "data" location</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>What is the first "data" location for the sentence in row 6?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Target word location</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>What is the location of the first letter of the target word in row 5?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Target word length</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>How long is the target word in row 3?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Target words</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>List the nine target words found separated by spaces (no commas or other punctuation please!)</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Nested formula</p></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>Which of the following formulas for <strong>G2</strong> will calculate the target word and is only dependent upon the original sentence?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1503431267713" name="378129" id="a1503431267713">
+        <label for="a1503431267713"><p>=MID(A2,C2,D2-C2)</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1503431488858" name="378129" id="a1503431488858">
+        <label for="a1503431488858"><p>=MID(A2,FIND(" ",A2,B2)+1,E2)</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1503431536478" name="378129" id="a1503431536478">
+        <label for="a1503431536478"><p>=MID(A2,FIND(" ",A2,FIND("data",A2))+1,FIND(" ",A2,(FIND(" ",A2,FIND("data",A2))+1))-(FIND(" ",A2,FIND("data",A2))+1))</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1503431556806" name="378129" id="a1503431556806">
+        <label for="a1503431556806"><p>="this"</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    =MID(A2,FIND(" ",A2,FIND("data",A2))+1,FIND(" ",A2,(FIND(" ",A2,FIND("data",A2))+1))-(FIND(" ",A2,FIND("data",A2))+1))
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="08. Reformat Text.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('07. Exercise: Extract Text')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.089
+Filtering data is a way to group data by selecting
+
+00:00:03.089 --> 00:00:07.665
+characteristics from our data columns and not looking at the other data.
+
+00:00:07.665 --> 00:00:09.720
+Looking at a list of names,
+
+00:00:09.720 --> 00:00:13.769
+suppose we want to find every one with the first name Luis.
+
+00:00:13.769 --> 00:00:18.600
+We could sort on the first name and scroll down and find everyone named Luis.
+
+00:00:18.600 --> 00:00:22.890
+But this changes the data and maybe we don't want to do that.
+
+00:00:22.890 --> 00:00:27.484
+It seems like there's a better way and there is using filters.
+
+00:00:27.484 --> 00:00:30.344
+Select your data. On the Data menu,
+
+00:00:30.344 --> 00:00:31.754
+click the filter icon,
+
+00:00:31.754 --> 00:00:33.314
+which looks like a funnel.
+
+00:00:33.314 --> 00:00:34.949
+When the filter is on,
+
+00:00:34.950 --> 00:00:40.075
+we see little filter boxes with pull down arrows at the top of each column.
+
+00:00:40.075 --> 00:00:42.255
+This is where you choose filters.
+
+00:00:42.255 --> 00:00:45.810
+Click the filter box on the first name.
+
+00:00:45.810 --> 00:00:50.804
+There's a dialog. There are some choices for sorting which we don't want right now.
+
+00:00:50.804 --> 00:00:54.284
+And there's a list of check boxes for every value found in the column.
+
+00:00:54.284 --> 00:00:56.279
+To look at only at the Luis names,
+
+00:00:56.280 --> 00:01:00.090
+de-select all the boxes and select only the Luis box.
+
+00:01:00.090 --> 00:01:03.350
+Or you can search for it and click okay.
+
+00:01:03.350 --> 00:01:06.070
+We now see only the matches.
+
+00:01:06.069 --> 00:01:11.474
+At this point, we could add additional filters or copy our subset to somewhere else.
+
+00:01:11.474 --> 00:01:14.714
+To return your view to the full original data set,
+
+00:01:14.715 --> 00:01:17.670
+click on the clear icon or just turn filtering off
+
+00:01:17.670 --> 00:01:21.939
+altogether by clicking on the filter funnel again.
+

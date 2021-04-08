@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+Let's suppose we have a list of phrases and we want to
+
+00:00:03.600 --> 00:00:07.095
+extract the first word from each. How would we do that?
+
+00:00:07.094 --> 00:00:10.369
+Thinking this through, for the starting word,
+
+00:00:10.369 --> 00:00:16.379
+we want to extract everything from the left up until the first space character.
+
+00:00:16.379 --> 00:00:21.765
+To do that, we need two functions: Find and Left.
+
+00:00:21.765 --> 00:00:27.449
+I've exposed the formulas so that we can see what's happening more clearly.
+
+00:00:27.449 --> 00:00:33.004
+The find function searches the phrase string for whatever sub-string we give it,
+
+00:00:33.005 --> 00:00:34.664
+in this case, a space,
+
+00:00:34.664 --> 00:00:38.935
+and returns the character position where that sub-string was found.
+
+00:00:38.935 --> 00:00:40.335
+So, for Hello world,
+
+00:00:40.335 --> 00:00:44.899
+the first space is at character number six in the string.
+
+00:00:44.899 --> 00:00:51.420
+The left function extracts the number of characters we tell it to starting from the left.
+
+00:00:51.420 --> 00:00:56.910
+For Hello world, we're telling the function to extract one less than
+
+00:00:56.909 --> 00:01:03.449
+the first space count that find determined were five characters on the left.
+
+00:01:03.450 --> 00:01:05.655
+This results in the final text of,
+
+00:01:05.655 --> 00:01:09.670
+Hello, which is five characters long.
+
+00:01:09.670 --> 00:01:13.364
+This could have been done in one step, instead of two,
+
+00:01:13.364 --> 00:01:17.711
+by nesting the find function inside the left function.
+
+00:01:17.712 --> 00:01:19.064
+Once we do this,
+
+00:01:19.064 --> 00:01:23.060
+our equation is only dependent on the original data.
+
+00:01:23.060 --> 00:01:26.019
+Now the other steps don't matter.
+
+00:01:26.019 --> 00:01:28.814
+We can delete those intermediate columns.
+
+00:01:28.814 --> 00:01:32.950
+The right function works in a similar way except
+
+00:01:32.950 --> 00:01:36.909
+that right selects a number of characters from the right.
+
+00:01:36.909 --> 00:01:43.859
+In this case, the last three letters of World which are RLD.
+
+00:01:43.859 --> 00:01:50.310
+Mid extracts from anywhere in a phrase based on some starting point,
+
+00:01:50.310 --> 00:01:53.545
+in this case, starting with the second letter,
+
+00:01:53.545 --> 00:01:58.540
+there are three letters extracted, ELL.
+

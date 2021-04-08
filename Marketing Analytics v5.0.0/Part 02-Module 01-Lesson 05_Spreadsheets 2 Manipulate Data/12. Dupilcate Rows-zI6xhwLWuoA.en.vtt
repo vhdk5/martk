@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.050 --> 00:00:06.290
+Table level data operations are useful for cleaning and manipulating lists of data.
+
+00:00:06.290 --> 00:00:10.019
+Suppose you import some data that has a lot of good information,
+
+00:00:10.019 --> 00:00:13.214
+but is not what we call clean data.
+
+00:00:13.214 --> 00:00:14.910
+When we clean our data,
+
+00:00:14.910 --> 00:00:19.769
+we're trying to rid it of corrupt and inaccurate data items.
+
+00:00:19.769 --> 00:00:22.634
+For example, in this little data set,
+
+00:00:22.635 --> 00:00:25.770
+I see some duplicate rows and there are
+
+00:00:25.769 --> 00:00:31.410
+some text anomalies that might throw off my ability to group things later.
+
+00:00:31.410 --> 00:00:35.549
+We've already learned that some text and formatting functions can be used to help
+
+00:00:35.549 --> 00:00:40.364
+clean individual cells such as how to fix this name,
+
+00:00:40.365 --> 00:00:44.440
+which seems to have its capitalization completely backwards.
+
+00:00:44.439 --> 00:00:50.195
+However, those cell level functions won't help us delete duplicate rows.
+
+00:00:50.195 --> 00:00:54.490
+There is a particular Excel operation for that.
+
+00:00:54.490 --> 00:00:56.370
+Select your data set range.
+
+00:00:56.369 --> 00:00:58.739
+Go to the Data menu and find the icon that looks
+
+00:00:58.740 --> 00:01:01.600
+like two columns with an arrow in between.
+
+00:01:01.600 --> 00:01:04.875
+You have some choices to make in the dialog that opens.
+
+00:01:04.875 --> 00:01:07.680
+If you select My data has headers,
+
+00:01:07.680 --> 00:01:10.685
+the operation will ignore the top row of your selection.
+
+00:01:10.685 --> 00:01:13.180
+If you only want to look for duplicates in certain columns, choose those columns.
+
+00:01:13.180 --> 00:01:20.005
+In this example, I'm looking for duplications that are exact matches in both columns.
+
+00:01:20.004 --> 00:01:23.209
+Click okay and the duplicate row is removed.
+

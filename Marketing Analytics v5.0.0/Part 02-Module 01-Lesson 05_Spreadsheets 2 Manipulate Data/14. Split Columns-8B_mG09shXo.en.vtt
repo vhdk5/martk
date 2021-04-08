@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.669
+Another common data cleaning operation,
+
+00:00:02.669 --> 00:00:06.015
+is splitting data, that's combined in one cell.
+
+00:00:06.014 --> 00:00:10.169
+For example, suppose we have first and last names in the cells but are
+
+00:00:10.169 --> 00:00:15.474
+going to want to sort or filter by just the first or just the last name later.
+
+00:00:15.474 --> 00:00:18.660
+In that case, we're going to need a column for each.
+
+00:00:18.660 --> 00:00:24.234
+So, it would be nice to have a first and last names split into two separate columns.
+
+00:00:24.234 --> 00:00:27.949
+We can do this with the text to columns tool.
+
+00:00:27.949 --> 00:00:32.484
+Before you start, think about how many columns you're going to end up with.
+
+00:00:32.484 --> 00:00:35.719
+In this case, it's one column turning into two.
+
+00:00:35.719 --> 00:00:39.710
+So, insert a blank column to make room.
+
+00:00:39.710 --> 00:00:42.015
+Select your data set range.
+
+00:00:42.015 --> 00:00:44.405
+It's okay to select whole columns.
+
+00:00:44.405 --> 00:00:49.230
+Go to the Data menu and find, text to columns.
+
+00:00:49.229 --> 00:00:53.162
+Once again, you'll have some choices to make in the dialog that opens.
+
+00:00:53.162 --> 00:00:55.229
+Delimited means that the text you want to
+
+00:00:55.229 --> 00:00:58.379
+separate has some character where the split should be.
+
+00:00:58.380 --> 00:01:02.420
+After clicking next, choose which delimiter to split on.
+
+00:01:02.420 --> 00:01:08.320
+We'll check the comma because our data is separated with commas.
+
+00:01:08.320 --> 00:01:10.905
+Clicking next, there are some more advanced options but for our purposes,
+
+00:01:10.905 --> 00:01:13.349
+we can just click Finish.
+

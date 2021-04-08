@@ -1,0 +1,154 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.485
+Text functions modify or provide information about text strings that we find in data.
+
+00:00:06.485 --> 00:00:10.890
+A text string is a series of characters such as letters,
+
+00:00:10.890 --> 00:00:15.570
+numbers, and punctuation that is not treated like a number.
+
+00:00:15.570 --> 00:00:19.875
+Examples of text or text strings are; names,
+
+00:00:19.875 --> 00:00:26.274
+phrases, cities, countries, not a date or a number.
+
+00:00:26.274 --> 00:00:29.739
+There are many text functions in spreadsheets.
+
+00:00:29.739 --> 00:00:34.975
+We're going to go through a useful subset of these starting with the Substitute Function.
+
+00:00:34.975 --> 00:00:40.020
+This is different from the find and replace tools we looked at in the previous lesson.
+
+00:00:40.020 --> 00:00:45.070
+Those were used to make fundamental changes to values that exist in cells.
+
+00:00:45.070 --> 00:00:50.100
+In that case, the original information was destroyed and replaced.
+
+00:00:50.100 --> 00:00:52.590
+When using a substitute function,
+
+00:00:52.590 --> 00:00:55.365
+the original data remains intact.
+
+00:00:55.365 --> 00:01:00.125
+It's just transformed in a new location that we create.
+
+00:01:00.125 --> 00:01:03.174
+Let's take a closer look at how to do this.
+
+00:01:03.174 --> 00:01:04.304
+I have a string,
+
+00:01:04.305 --> 00:01:05.755
+the quick brown fox,
+
+00:01:05.754 --> 00:01:08.844
+and I want to replace brown with red.
+
+00:01:08.844 --> 00:01:13.489
+There are a couple of ways that you can enter a formula in Excel and I'll go over both.
+
+00:01:13.489 --> 00:01:15.434
+One way is to use the formula bar.
+
+00:01:15.435 --> 00:01:19.760
+Select your cell, then click the fx button on the formula bar.
+
+00:01:19.760 --> 00:01:23.765
+You notice that it automatically enters the equal sign to get you started.
+
+00:01:23.765 --> 00:01:27.799
+A dialog will appear with the menu of functions and a search box.
+
+00:01:27.799 --> 00:01:31.060
+Select the function you want and click okay.
+
+00:01:31.060 --> 00:01:35.685
+Another dialog will appear with boxes for entering the function parameters.
+
+00:01:35.685 --> 00:01:38.400
+There's also some helpful information.
+
+00:01:38.400 --> 00:01:40.377
+For the substitute function,
+
+00:01:40.376 --> 00:01:43.114
+the first parameter box is for the text,
+
+00:01:43.114 --> 00:01:45.449
+which means the text we're searching on.
+
+00:01:45.450 --> 00:01:48.719
+The sentence in A1 for this example.
+
+00:01:48.719 --> 00:01:51.989
+You can type A1 or select the cell directly.
+
+00:01:51.989 --> 00:01:55.125
+The next box is for the old text which is brown,
+
+00:01:55.125 --> 00:01:59.045
+and then a box for the new text which is red.
+
+00:01:59.045 --> 00:02:02.174
+Finally, there is a box for the instance number,
+
+00:02:02.174 --> 00:02:03.959
+which is an optional parameter.
+
+00:02:03.959 --> 00:02:09.912
+I'll leave this blank to indicate I want all occurrences to be substituted.
+
+00:02:09.913 --> 00:02:16.645
+And we see that my new result is a sentence where brown has been replaced with red.
+
+00:02:16.645 --> 00:02:22.365
+Notice that this dialog also automatically put my old and new values in quotes.
+
+00:02:22.365 --> 00:02:26.490
+The second way to do this is more direct and a little faster.
+
+00:02:26.490 --> 00:02:30.210
+Select the cell you want and just start typing the formula,
+
+00:02:30.210 --> 00:02:32.375
+starting with the equal sign.
+
+00:02:32.375 --> 00:02:36.430
+A list appears trying to autocomplete what you've typed.
+
+00:02:36.430 --> 00:02:40.045
+Click tab to select the highlighted function.
+
+00:02:40.044 --> 00:02:43.664
+Now we see a helpful prompt showing function parameters
+
+00:02:43.664 --> 00:02:48.329
+with the first parameter highlighted and optional parameters shown in brackets.
+
+00:02:48.330 --> 00:02:50.415
+Click the cell for the first parameter then
+
+00:02:50.414 --> 00:02:53.759
+type the comma to move onto the next parameter.
+
+00:02:53.759 --> 00:02:55.530
+Notice that you need to type the double quotes
+
+00:02:55.530 --> 00:02:58.729
+yourself for the text values with this method.
+
+00:02:58.729 --> 00:03:00.840
+Just close the print seize and click enter,
+
+00:03:00.840 --> 00:03:04.780
+and you've entered all the required parameters.
+

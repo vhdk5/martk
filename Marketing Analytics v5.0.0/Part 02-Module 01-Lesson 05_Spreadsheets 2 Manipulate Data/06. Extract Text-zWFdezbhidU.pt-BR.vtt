@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.666 --> 00:00:02.799
+Vamos supor que temos
+uma lista de expressões,
+
+00:00:03.199 --> 00:00:05.733
+e queremos extrair
+a primeira palavra de cada uma.
+
+00:00:05.999 --> 00:00:07.266
+Como faremos isso?
+
+00:00:07.533 --> 00:00:10.233
+Pensando assim,
+para a palavra inicial,
+
+00:00:10.399 --> 00:00:13.266
+queremos extrair tudo da esquerda
+
+00:00:13.866 --> 00:00:16.266
+até o primeiro caractere de espaço.
+
+00:00:16.899 --> 00:00:19.166
+Para fazer isso,
+precisamos de duas funções:
+
+00:00:19.499 --> 00:00:20.866
+"Localizar" e "Esquerda".
+
+00:00:21.966 --> 00:00:23.466
+Eu mostrei as fórmulas
+
+00:00:23.533 --> 00:00:26.299
+para que possamos ver o que está
+acontecendo com mais clareza.
+
+00:00:27.533 --> 00:00:30.899
+A função Localizar
+procura a cadeia de frase
+
+00:00:30.966 --> 00:00:32.933
+para qualquer subcadeia
+que nós fornecemos,
+
+00:00:33.233 --> 00:00:34.666
+neste caso, um espaço,
+
+00:00:34.933 --> 00:00:38.666
+e retorna à posição do caractere
+onde essa subcadeia foi encontrada.
+
+00:00:39.099 --> 00:00:40.399
+Então, para "hello world",
+
+00:00:40.466 --> 00:00:44.099
+o primeiro espaço
+é o caractere número seis na cadeia.
+
+00:00:45.366 --> 00:00:49.466
+A função Esquerda extrai o número
+de caracteres que informamos,
+
+00:00:49.733 --> 00:00:51.333
+começando pela esquerda.
+
+00:00:51.899 --> 00:00:53.099
+Para "hello world",
+
+00:00:53.166 --> 00:00:55.299
+estamos dizendo à função
+para extrair
+
+00:00:55.366 --> 00:00:59.733
+um a menos que a primeira contagem
+de espaço que Localizar determinou,
+
+00:01:00.133 --> 00:01:02.566
+que era de cinco caracteres
+à esquerda.
+
+00:01:03.566 --> 00:01:06.399
+Isso resulta
+no texto final "Hello",
+
+00:01:06.833 --> 00:01:08.866
+que tem cinco caracteres.
+
+00:01:09.766 --> 00:01:13.299
+Isso poderia ter sido feito
+em uma etapa em vez de duas,
+
+00:01:13.599 --> 00:01:17.466
+aninhando a função Localizar
+dentro da função Esquerda.
+
+00:01:17.899 --> 00:01:19.133
+Assim que fazemos isso,
+
+00:01:19.233 --> 00:01:22.366
+nossa equação depende apenas
+dos dados originais.
+
+00:01:23.933 --> 00:01:25.866
+As outras etapas
+não são importantes.
+
+00:01:26.099 --> 00:01:28.333
+Podemos excluir
+essas colunas intermediárias.
+
+00:01:29.666 --> 00:01:32.266
+A função Direita funciona
+de forma semelhante,
+
+00:01:32.533 --> 00:01:36.599
+exceto que Direita seleciona
+um número de caracteres da direita.
+
+00:01:37.033 --> 00:01:42.966
+Neste caso, as últimas três letras
+de WORLD que são RLD.
+
+00:01:44.899 --> 00:01:48.133
+Ext.Texto extrai de qualquer lugar
+em uma frase
+
+00:01:48.433 --> 00:01:50.399
+com base em algum ponto de partida,
+
+00:01:50.666 --> 00:01:53.399
+neste caso,
+começando com a segunda letra,
+
+00:01:53.766 --> 00:01:57.699
+há três letras extraídas, ELL.
+

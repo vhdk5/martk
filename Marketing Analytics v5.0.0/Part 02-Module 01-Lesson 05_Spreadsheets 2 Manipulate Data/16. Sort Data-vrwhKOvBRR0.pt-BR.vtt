@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.566 --> 00:00:02.633
+Agora que o nome e sobrenome
+estão separados,
+
+00:00:02.866 --> 00:00:05.399
+vamos tentar classificar
+a lista pelo nome.
+
+00:00:05.933 --> 00:00:07.133
+Selecione todos os dados.
+
+00:00:07.266 --> 00:00:08.866
+É mais fácil selecionar
+colunas inteiras,
+
+00:00:08.966 --> 00:00:10.066
+mas não é necessário.
+
+00:00:10.299 --> 00:00:12.433
+As funções de classificação
+estão no menu "Dados".
+
+00:00:12.499 --> 00:00:14.466
+Há um pequeno ícone "A a Z".
+
+00:00:14.533 --> 00:00:17.233
+Por padrão, a classificação será
+na primeira coluna.
+
+00:00:18.233 --> 00:00:20.133
+Isso não funcionou muito bem
+no nosso caso
+
+00:00:20.199 --> 00:00:22.799
+porque queremos classificar
+pelo nome,
+
+00:00:22.866 --> 00:00:25.666
+que está na segunda coluna.
+Vamos tentar de novo.
+
+00:00:26.233 --> 00:00:28.599
+Escolha a opção de classificação,
+e há uma caixa de diálogo
+
+00:00:28.599 --> 00:00:30.766
+para especificar colunas
+e outros detalhes.
+
+00:00:30.833 --> 00:00:34.433
+Aqui podemos escolher classificar
+pela coluna do nome, A a Z.
+
+00:00:35.333 --> 00:00:36.366
+Mas espere,
+
+00:00:36.466 --> 00:00:39.633
+eu tenho alguns nomes
+que são iguais,
+
+00:00:39.699 --> 00:00:41.733
+mas o sobrenome está
+fora de ordem.
+
+00:00:42.033 --> 00:00:44.233
+Vamos voltar à caixa de diálogo.
+
+00:00:45.066 --> 00:00:46.833
+Precisamos adicionar um nível.
+
+00:00:47.333 --> 00:00:50.566
+Agora vamos classificar pelo nome,
+depois por sobrenome
+
+00:00:50.733 --> 00:00:53.499
+e agora os dois estão
+na ordem correta.
+

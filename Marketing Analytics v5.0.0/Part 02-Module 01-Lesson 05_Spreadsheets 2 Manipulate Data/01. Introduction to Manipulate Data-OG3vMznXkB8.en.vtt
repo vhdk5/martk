@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.309
+In this lesson, you'll learn to manipulate data in your spreadsheet.
+
+00:00:04.309 --> 00:00:07.424
+You already know how to paste data into your spreadsheet,
+
+00:00:07.424 --> 00:00:10.125
+and delete and insert rows and columns.
+
+00:00:10.125 --> 00:00:12.435
+But in this lesson, we'll go farther.
+
+00:00:12.435 --> 00:00:15.615
+We'll start at the cell level with cell formulas.
+
+00:00:15.615 --> 00:00:18.990
+A typical use case in working with spreadsheets is to put
+
+00:00:18.989 --> 00:00:23.820
+together a formula in a cell and then duplicated in more rows.
+
+00:00:23.820 --> 00:00:26.745
+It all starts with getting the first cell formula right,
+
+00:00:26.745 --> 00:00:29.464
+and you're going to learn how to do that.
+
+00:00:29.464 --> 00:00:31.980
+You'll learn to manipulate text data with functions and
+
+00:00:31.980 --> 00:00:34.859
+combine and split text in various ways.
+
+00:00:34.859 --> 00:00:36.630
+Then, you'll learn to manipulate
+
+00:00:36.630 --> 00:00:41.094
+numerical data using basic math and statistical functions.
+
+00:00:41.094 --> 00:00:43.004
+After working at the cell level,
+
+00:00:43.005 --> 00:00:46.495
+we'll move on to table level data manipulations.
+
+00:00:46.494 --> 00:00:51.209
+You'll learn how to remove duplicate rows and how to split columns.
+
+00:00:51.210 --> 00:00:55.134
+These procedures are useful for cleaning your data.
+
+00:00:55.134 --> 00:00:58.159
+You'll learn how to sort and filter your data.
+
+00:00:58.159 --> 00:01:02.819
+The filtering tools have a number of powerful information features built in.
+
+00:01:02.820 --> 00:01:05.780
+So, we'll take time to explore these features.
+
+00:01:05.780 --> 00:01:12.150
+As always, be sure to do the quizzes and exercises in your own spreadsheet application,
+
+00:01:12.150 --> 00:01:16.245
+because this is how you will best retain what's presented,
+
+00:01:16.245 --> 00:01:19.000
+by doing it yourself. Here we go.
+

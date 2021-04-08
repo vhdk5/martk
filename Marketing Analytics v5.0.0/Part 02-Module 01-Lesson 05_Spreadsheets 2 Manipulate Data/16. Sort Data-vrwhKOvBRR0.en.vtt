@@ -1,0 +1,55 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.669
+Now that the first and last names are separated,
+
+00:00:02.669 --> 00:00:05.714
+let's try sorting the list by first name.
+
+00:00:05.714 --> 00:00:07.070
+Select all the data.
+
+00:00:07.070 --> 00:00:10.005
+It's easiest to select whole columns but not required.
+
+00:00:10.005 --> 00:00:12.295
+The sort functions are in the Data menu.
+
+00:00:12.294 --> 00:00:14.230
+There's a little A to Z icon.
+
+00:00:14.230 --> 00:00:17.894
+By default, the sort will be on the first column.
+
+00:00:17.894 --> 00:00:21.600
+Well, this didn't work very well in our case because we want to sort
+
+00:00:21.600 --> 00:00:26.020
+by first name which happens to be in the second column. Let's try again.
+
+00:00:26.019 --> 00:00:30.585
+Choose the sort option and then there's a dialog to specify columns and other details.
+
+00:00:30.585 --> 00:00:34.969
+Here we can choose to sort by the first name column, A to Z.
+
+00:00:34.969 --> 00:00:38.129
+But wait, I have a couple of first names
+
+00:00:38.130 --> 00:00:41.885
+that are the same yet the last name is out of order.
+
+00:00:41.884 --> 00:00:44.570
+Let's go back to that dialog again.
+
+00:00:44.570 --> 00:00:47.289
+We need to add a level.
+
+00:00:47.289 --> 00:00:51.549
+Now, we'll sort by first name then last and now,
+
+00:00:51.549 --> 00:00:54.269
+both are in the right order.
+

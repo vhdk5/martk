@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.180 --> 00:00:03.400
+In addition to extracting text,
+
+00:00:03.399 --> 00:00:08.380
+there are some useful functions for changing how your text is displayed.
+
+00:00:08.380 --> 00:00:10.690
+One of these is concatenate.
+
+00:00:10.689 --> 00:00:17.214
+Concatenate gives us a way to combine a list of text items from multiple cells easily.
+
+00:00:17.214 --> 00:00:21.204
+Let's see how that looks with some very simple examples.
+
+00:00:21.204 --> 00:00:25.659
+In this example, I have some tabular information: first name,
+
+00:00:25.660 --> 00:00:27.754
+last name and location.
+
+00:00:27.754 --> 00:00:32.579
+I can use concatenate to create sentences with this information.
+
+00:00:32.579 --> 00:00:34.554
+The first name, then a space,
+
+00:00:34.554 --> 00:00:36.979
+the last name, then a phrase,
+
+00:00:36.979 --> 00:00:39.144
+lives in, with spaces,
+
+00:00:39.145 --> 00:00:43.265
+then the location and a period.
+
+00:00:43.265 --> 00:00:47.649
+Fill it down and I have my sentences.
+
+00:00:47.649 --> 00:00:49.810
+They look a little funny though,
+
+00:00:49.810 --> 00:00:53.175
+I think there may have been some spaces I didn't see in the data.
+
+00:00:53.174 --> 00:00:54.445
+That happens a lot,
+
+00:00:54.445 --> 00:00:57.645
+which is why the trim function is so helpful.
+
+00:00:57.645 --> 00:01:00.775
+I can just put it right at the front of my other function,
+
+00:01:00.774 --> 00:01:04.200
+with a closing parenthesis on the end, fill it down.
+
+00:01:04.200 --> 00:01:06.564
+There, that fixed it.
+
+00:01:06.564 --> 00:01:10.584
+A few more easy functions that can clean up data.
+
+00:01:10.584 --> 00:01:15.703
+To ensure that names and places are properly capitalized,
+
+00:01:15.703 --> 00:01:18.119
+the proper function works great.
+
+00:01:18.120 --> 00:01:21.520
+Upper makes all letters upper case,
+
+00:01:21.519 --> 00:01:24.510
+and lower does the opposite,
+
+00:01:24.510 --> 00:01:27.769
+makes all letters lowercase.
+

@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:02.366 --> 00:00:04.533
+É comum,
+ao trabalhar com planilhas,
+
+00:00:04.799 --> 00:00:07.033
+criar uma fórmula
+em uma única célula
+
+00:00:07.333 --> 00:00:11.166
+e então duplicar com preenchimento
+para criar uma coluna ou linha.
+
+00:00:11.466 --> 00:00:13.899
+Então, é importante obter
+a primeira fórmula corretamente.
+
+00:00:14.533 --> 00:00:16.699
+Uma fórmula de célula
+é uma expressão
+
+00:00:16.766 --> 00:00:20.599
+que define as operações
+para calcular o valor dessa célula.
+
+00:00:21.133 --> 00:00:22.466
+Pode ser uma constante
+
+00:00:22.666 --> 00:00:25.833
+ou conter operadores matemáticos
+ou funções,
+
+00:00:26.333 --> 00:00:28.766
+e pode fazer referência
+a uma única célula,
+
+00:00:28.833 --> 00:00:31.499
+um intervalo de células
+ou nenhuma dessas opções.
+
+00:00:33.433 --> 00:00:36.399
+Uma fórmula de célula começa
+com um sinal de igual.
+
+00:00:36.933 --> 00:00:39.599
+Agora esta célula é igual a tudo
+que escrevo
+
+00:00:39.666 --> 00:00:42.933
+à direita do sinal de igual,
+que pode ser um número.
+
+00:00:43.533 --> 00:00:44.833
+Pode ser uma operação matemática
+
+00:00:44.899 --> 00:00:47.899
+como adição ou multiplicação
+de duas constantes.
+
+00:00:48.533 --> 00:00:51.133
+Pode ser uma referência
+a alguma outra célula.
+
+00:00:51.566 --> 00:00:54.333
+Se a célula original é referenciada
+com uma fórmula,
+
+00:00:54.399 --> 00:00:56.599
+então uma mudança na célula original
+
+00:00:56.866 --> 00:01:00.299
+mudará automaticamente aquela
+que a referencia.
+
+00:01:01.166 --> 00:01:03.499
+Além de constantes e referências,
+
+00:01:03.933 --> 00:01:06.166
+as funções podem ser incluídas
+nas fórmulas,
+
+00:01:06.233 --> 00:01:08.766
+e é aí que está o verdadeiro poder.
+
+00:01:10.033 --> 00:01:12.033
+Uma função é uma rotina integrada
+
+00:01:12.099 --> 00:01:15.699
+que calcula um valor
+a partir das entradas fornecidas.
+
+00:01:16.466 --> 00:01:19.199
+As funções sempre começam
+com algumas palavras-chave,
+
+00:01:19.266 --> 00:01:24.299
+como soma, média ou arrumar
+e assim por diante,
+
+00:01:25.033 --> 00:01:26.966
+seguidas
+de um conjunto de parênteses
+
+00:01:27.199 --> 00:01:29.099
+com parâmetros entre eles.
+
+00:01:29.966 --> 00:01:32.666
+Um parâmetro pode ser
+uma constante,
+
+00:01:32.733 --> 00:01:35.033
+ou uma referência de célula,
+ou referência de intervalo,
+
+00:01:35.099 --> 00:01:38.766
+ou outra expressão necessária
+para o cálculo da função.
+
+00:01:39.766 --> 00:01:41.933
+Também é possível aninhar funções.
+
+00:01:42.399 --> 00:01:44.633
+Elas podem se tornar
+bastante complexas.
+
+00:01:45.499 --> 00:01:47.466
+Você deve olhar
+a definição da função
+
+00:01:47.533 --> 00:01:50.233
+para saber que tipo de parâmetros
+são esperados
+
+00:01:50.633 --> 00:01:53.133
+e como serão usados
+por essa função.
+
+00:01:54.533 --> 00:01:59.199
+Uma função nos permite usar dados
+que já temos de uma maneira nova.
+
+00:01:59.666 --> 00:02:01.033
+Existem muitos tipos,
+
+00:02:01.366 --> 00:02:03.166
+e você pode analisá-las
+de forma mais aprofundada
+
+00:02:03.333 --> 00:02:06.666
+na biblioteca de funções
+na guia "Menus de Fórmulas".
+
+00:02:07.499 --> 00:02:10.699
+Nestas lições iniciais, 
+você aprenderá algumas úteis.
+
+00:02:11.166 --> 00:02:13.166
+Existem mais de 400,
+
+00:02:13.233 --> 00:02:16.933
+então tenha em mente
+que há mais para explorar.
+

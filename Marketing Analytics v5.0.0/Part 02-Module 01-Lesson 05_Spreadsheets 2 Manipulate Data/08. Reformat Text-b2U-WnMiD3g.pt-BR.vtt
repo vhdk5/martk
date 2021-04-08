@@ -1,0 +1,101 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.266 --> 00:00:03.366
+Além de extrair texto,
+
+00:00:03.699 --> 00:00:05.999
+existem algumas funções úteis
+para alterar
+
+00:00:06.133 --> 00:00:08.266
+a forma como o seu texto é exibido.
+
+00:00:08.366 --> 00:00:10.333
+Uma delas é Concatenar.
+
+00:00:10.866 --> 00:00:13.466
+Concatenar fornece uma maneira
+de combinar facilmente
+
+00:00:13.499 --> 00:00:17.066
+uma lista de itens de texto
+de múltiplas células.
+
+00:00:17.466 --> 00:00:20.633
+Vamos ver como isso acontece
+com alguns exemplos muito simples.
+
+00:00:21.999 --> 00:00:24.833
+Neste exemplo,
+tenho algumas informações tabulares:
+
+00:00:25.133 --> 00:00:27.333
+nome, sobrenome e localização.
+
+00:00:28.033 --> 00:00:32.233
+Posso usar Concatenar para criar
+frases com essa informação.
+
+00:00:32.833 --> 00:00:35.599
+Nome, depois um espaço, o sobrenome,
+
+00:00:36.033 --> 00:00:39.133
+então uma frase:
+"mora em", com espaços,
+
+00:00:39.466 --> 00:00:42.566
+então localização e um ponto final.
+
+00:00:44.466 --> 00:00:47.266
+Preencho e tenho minhas frases.
+
+00:00:48.433 --> 00:00:49.899
+Parecem um pouco engraçadas,
+
+00:00:49.966 --> 00:00:53.166
+porém acho que tem alguns espaços
+que não vi nos dados.
+
+00:00:53.299 --> 00:00:54.633
+Isso acontece muito,
+
+00:00:54.699 --> 00:00:57.433
+e é por isso que a função Arrumar
+é tão útil.
+
+00:00:57.733 --> 00:01:00.633
+Posso simplesmente colocá-la
+na frente da minha outra função,
+
+00:01:01.133 --> 00:01:04.166
+com um parêntese de fechamento
+no final, preenchendo.
+
+00:01:04.433 --> 00:01:06.266
+Pronto, está corrigido.
+
+00:01:07.233 --> 00:01:10.266
+Algumas funções mais fáceis
+que podem limpar dados.
+
+00:01:11.199 --> 00:01:15.399
+Para garantir que nomes e locais
+estejam devidamente capitalizados,
+
+00:01:15.933 --> 00:01:18.133
+a função PRI.MAIÚSCULA
+funciona bem.
+
+00:01:18.666 --> 00:01:21.399
+MAIÚSCULA deixa
+todas as letras maiúsculas,
+
+00:01:21.866 --> 00:01:24.366
+e MINÚSCULA faz o oposto,
+
+00:01:24.666 --> 00:01:26.999
+deixando todas as letras
+em minúsculo.
+

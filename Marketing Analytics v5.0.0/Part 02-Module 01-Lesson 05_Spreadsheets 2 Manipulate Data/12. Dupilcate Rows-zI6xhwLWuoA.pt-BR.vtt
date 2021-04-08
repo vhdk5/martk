@@ -1,0 +1,113 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.199 --> 00:00:02.899
+As operações de dados
+de nível de tabela
+
+00:00:02.966 --> 00:00:05.933
+são úteis para limpar e manipular
+listas de dados.
+
+00:00:06.266 --> 00:00:08.133
+Suponha que você importe
+alguns dados
+
+00:00:08.199 --> 00:00:09.933
+que tenham
+muitas informações boas,
+
+00:00:10.366 --> 00:00:13.266
+mas não sejam o que chamamos
+de dados limpos.
+
+00:00:13.599 --> 00:00:14.966
+Quando limpamos nossos dados,
+
+00:00:15.033 --> 00:00:18.933
+tentamos nos livrar de itens
+de dados corruptos e imprecisos.
+
+00:00:19.899 --> 00:00:22.633
+Por exemplo,
+neste pequeno conjunto de dados,
+
+00:00:22.899 --> 00:00:27.499
+vejo algumas linhas duplicadas,
+e há algumas anomalias no texto
+
+00:00:27.766 --> 00:00:30.933
+que podem descartar minha capacidade
+de agrupar coisas mais tarde.
+
+00:00:31.466 --> 00:00:34.633
+Já aprendemos que algumas funções
+de texto e formatação
+
+00:00:34.699 --> 00:00:37.499
+podem ser usadas para ajudar
+a limpar as células individuais,
+
+00:00:38.199 --> 00:00:40.366
+como consertar esse nome,
+
+00:00:40.699 --> 00:00:44.133
+que parece ter sua capitalização
+invertida.
+
+00:00:44.833 --> 00:00:47.099
+No entanto,
+essas funções de nível de célula
+
+00:00:47.499 --> 00:00:49.966
+não nos ajudarão a excluir
+linhas duplicadas.
+
+00:00:50.266 --> 00:00:52.966
+Há uma operação específica do Excel
+para isso.
+
+00:00:54.899 --> 00:00:56.499
+Selecione o intervalo
+do conjunto de dados.
+
+00:00:56.566 --> 00:00:58.499
+Vá para o menu "Dados"
+e encontre o ícone
+
+00:00:58.566 --> 00:01:01.499
+que se parece com duas colunas
+com uma flecha no meio.
+
+00:01:01.699 --> 00:01:04.733
+Você tem algumas escolhas a fazer
+na caixa de diálogo que abre.
+
+00:01:04.866 --> 00:01:07.533
+Se você selecionar
+"Meus dados contêm cabeçalhos",
+
+00:01:07.799 --> 00:01:10.566
+a operação irá ignorar
+a linha superior da sua seleção.
+
+00:01:10.866 --> 00:01:13.666
+Se quiser procurar apenas duplicatas
+em determinadas colunas,
+
+00:01:13.766 --> 00:01:15.266
+escolha essas colunas.
+
+00:01:15.333 --> 00:01:17.499
+Neste exemplo,
+procuro duplicatas
+
+00:01:17.566 --> 00:01:19.966
+que são correspondências exatas
+nas duas colunas.
+
+00:01:20.266 --> 00:01:22.933
+Clique em OK,
+e a linha duplicada é removida.
+

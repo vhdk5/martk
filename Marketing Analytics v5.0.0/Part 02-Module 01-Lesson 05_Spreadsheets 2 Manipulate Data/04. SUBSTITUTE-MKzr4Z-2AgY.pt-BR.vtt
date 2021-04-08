@@ -1,0 +1,242 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.466 --> 00:00:03.133
+As funções de texto modificam
+ou fornecem informações
+
+00:00:03.166 --> 00:00:06.533
+sobre cadeias de texto
+que encontramos nos dados.
+
+00:00:06.833 --> 00:00:09.966
+Uma cadeia de texto
+é uma série de caracteres
+
+00:00:10.233 --> 00:00:14.966
+como letras, números e pontuação
+que não são tratados como um número.
+
+00:00:15.933 --> 00:00:18.866
+Exemplos de texto
+ou cadeias de texto são:
+
+00:00:19.033 --> 00:00:22.633
+nomes, expressões,
+cidades, países,
+
+00:00:22.966 --> 00:00:25.399
+mas não uma data
+ou um número.
+
+00:00:26.399 --> 00:00:29.099
+Existem várias funções de texto
+nas planilhas.
+
+00:00:30.066 --> 00:00:32.533
+Vamos passar
+por um subconjunto útil delas,
+
+00:00:32.633 --> 00:00:34.933
+que começa
+com a função Substituir.
+
+00:00:35.133 --> 00:00:37.433
+Isso é diferente das ferramentas
+Localizar e Substituir
+
+00:00:37.533 --> 00:00:40.233
+que analisamos na lição anterior.
+
+00:00:40.333 --> 00:00:42.799
+Aquelas foram usadas para fazer
+mudanças básicas
+
+00:00:42.866 --> 00:00:44.799
+nos valores que existem
+nas células.
+
+00:00:45.199 --> 00:00:49.399
+Nesse caso, a informação original
+foi destruída e substituída.
+
+00:00:50.499 --> 00:00:52.533
+Ao usar a função Substituir,
+
+00:00:52.833 --> 00:00:55.199
+os dados originais
+permanecem intactos.
+
+00:00:55.533 --> 00:00:59.366
+São apenas transformados
+em um novo local que criamos.
+
+00:01:00.599 --> 00:01:03.133
+Vamos dar uma olhada
+em como fazer isso.
+
+00:01:03.266 --> 00:01:05.599
+Eu tenho uma cadeia,
+"the quick brown fox",
+
+00:01:05.933 --> 00:01:08.566
+e quero substituir
+"brown" por "red".
+
+00:01:08.966 --> 00:01:11.999
+Há duas maneiras de inserir
+uma fórmula no Excel,
+
+00:01:12.066 --> 00:01:13.133
+e mostrarei as duas.
+
+00:01:13.599 --> 00:01:15.533
+Uma maneira é usar
+a barra de fórmulas.
+
+00:01:15.566 --> 00:01:19.466
+Selecione a célula e clique
+no botão "fx" na barra de fórmulas.
+
+00:01:19.866 --> 00:01:22.333
+Observe que ela insere
+automaticamente o símbolo "igual"
+
+00:01:22.399 --> 00:01:23.399
+para que você comece.
+
+00:01:23.933 --> 00:01:26.399
+Uma caixa de diálogo
+com o menu de funções abrirá
+
+00:01:26.566 --> 00:01:27.899
+e uma caixa de pesquisa.
+
+00:01:27.966 --> 00:01:30.866
+Selecione a função desejada
+e clique em OK.
+
+00:01:31.299 --> 00:01:32.899
+Outra caixa de diálogo aparecerá
+
+00:01:32.966 --> 00:01:35.499
+com caixas para inserir
+os parâmetros da função.
+
+00:01:35.766 --> 00:01:37.999
+Também há algumas informações úteis.
+
+00:01:39.233 --> 00:01:40.433
+Para a função Substituir,
+
+00:01:40.499 --> 00:01:42.899
+a caixa do primeiro parâmetro
+é para o texto,
+
+00:01:43.099 --> 00:01:45.633
+ou seja, o texto
+que estamos pesquisando.
+
+00:01:45.699 --> 00:01:48.699
+A frase de A1,
+para este exemplo.
+
+00:01:48.766 --> 00:01:51.799
+Você pode digitar A1
+ou selecionar diretamente a célula.
+
+00:01:52.133 --> 00:01:55.166
+A próxima caixa
+é para o texto antigo, que é "brown",
+
+00:01:55.366 --> 00:01:58.199
+e depois há uma caixa
+para o texto novo, que é "red".
+
+00:01:59.533 --> 00:02:01.999
+Por fim, há uma caixa
+para o número de instância,
+
+00:02:02.666 --> 00:02:04.066
+que é um parâmetro opcional.
+
+00:02:04.133 --> 00:02:05.299
+Vou deixar em branco
+
+00:02:05.599 --> 00:02:09.266
+para indicar que quero que todas
+as ocorrências sejam substituídas.
+
+00:02:09.966 --> 00:02:12.033
+E vemos que o meu novo resultado
+
+00:02:12.366 --> 00:02:15.133
+é uma frase em que "brown"
+foi substituído por "red".
+
+00:02:16.766 --> 00:02:19.433
+Observe que esta caixa de diálogo
+também coloca automaticamente
+
+00:02:19.499 --> 00:02:21.499
+meus valores antigos
+e novos entre aspas.
+
+00:02:22.566 --> 00:02:24.866
+A segunda maneira de fazer isso
+é mais direta
+
+00:02:24.999 --> 00:02:26.333
+e um pouco mais rápida.
+
+00:02:26.666 --> 00:02:29.999
+Selecione a célula desejada
+e comece a digitar a fórmula,
+
+00:02:30.566 --> 00:02:32.399
+começando com o sinal de igual.
+
+00:02:32.499 --> 00:02:36.266
+Aparece uma lista tentando preencher
+automaticamente o que você digitou.
+
+00:02:36.533 --> 00:02:39.299
+Aperte a tecla tab para selecionar
+a função destacada.
+
+00:02:40.166 --> 00:02:43.499
+Agora, vemos um aviso útil
+que mostra os parâmetros da função
+
+00:02:43.933 --> 00:02:45.699
+com o primeiro parâmetro destacado
+
+00:02:45.766 --> 00:02:48.299
+e os parâmetros opcionais mostrados
+entre colchetes.
+
+00:02:48.366 --> 00:02:50.366
+Clique na célula
+para o primeiro parâmetro
+
+00:02:50.399 --> 00:02:53.266
+e digite a vírgula para ir
+para o próximo parâmetro.
+
+00:02:53.833 --> 00:02:56.366
+Observe que você precisa digitar
+as aspas duplas
+
+00:02:56.433 --> 00:02:58.499
+para os valores de texto
+com este método.
+
+00:02:58.966 --> 00:03:00.899
+Feche a tela suspensa
+e aperte "enter",
+
+00:03:00.999 --> 00:03:03.566
+e você terá inserido
+todos os parâmetros necessários.
+

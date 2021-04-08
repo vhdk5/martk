@@ -1,0 +1,103 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.290 --> 00:00:04.525
+It is common when working with spreadsheets,
+
+00:00:04.525 --> 00:00:07.600
+to create a single cell formula and then
+
+00:00:07.599 --> 00:00:11.224
+duplicate it with a fill to create a column or row.
+
+00:00:11.224 --> 00:00:14.314
+So, it's important to get that first formula right.
+
+00:00:14.314 --> 00:00:17.230
+A cell formula is an expression that defines
+
+00:00:17.230 --> 00:00:21.060
+the operations for calculating the value of a cell.
+
+00:00:21.059 --> 00:00:26.000
+It might be a constant or contain mathematical operators or functions,
+
+00:00:26.000 --> 00:00:28.750
+and it can reference a single cell,
+
+00:00:28.750 --> 00:00:32.320
+a range of cells or none at all.
+
+00:00:32.320 --> 00:00:36.835
+A cell formula begins with an equal sign.
+
+00:00:36.835 --> 00:00:41.365
+This cell is now equal to whatever I type to the right of the equal sign,
+
+00:00:41.365 --> 00:00:43.310
+that can be a number.
+
+00:00:43.310 --> 00:00:48.375
+It could be a math operation like addition or multiplication of two constants.
+
+00:00:48.375 --> 00:00:51.465
+It could be a reference to some other cell.
+
+00:00:51.465 --> 00:00:54.340
+If the original cell is referenced with a formula,
+
+00:00:54.340 --> 00:01:01.090
+then a change to the original cell will automatically change the one that references it.
+
+00:01:01.090 --> 00:01:03.550
+Besides constants and references,
+
+00:01:03.549 --> 00:01:08.670
+functions can be included in formulas and that's where the true power lies.
+
+00:01:08.670 --> 00:01:15.840
+A function is a builtin routine that calculates a value from inputs provided.
+
+00:01:15.840 --> 00:01:24.090
+Functions always start with some key words such as sum or average or trim and so on,
+
+00:01:24.090 --> 00:01:29.900
+followed by a set of parentheses with parameters in between.
+
+00:01:29.900 --> 00:01:34.170
+A parameter might be a constant or a cell reference or range
+
+00:01:34.170 --> 00:01:39.659
+reference or other expression that is required for the function calculation.
+
+00:01:39.659 --> 00:01:42.269
+It's even possible to nest functions.
+
+00:01:42.269 --> 00:01:45.239
+They can become quite complex.
+
+00:01:45.239 --> 00:01:48.839
+You have to look at the function definition to know what kind of
+
+00:01:48.840 --> 00:01:53.939
+parameters are expected and how they will be used by the function.
+
+00:01:53.939 --> 00:01:59.454
+A function allows us to use data we already have in a new way.
+
+00:01:59.454 --> 00:02:01.094
+There are many types,
+
+00:02:01.094 --> 00:02:06.944
+and you can take a closer look at them in the function library on the formula menus tab.
+
+00:02:06.944 --> 00:02:11.060
+You'll learn some useful ones in these introductory lessons.
+
+00:02:11.060 --> 00:02:13.080
+There are over 400 though,
+
+00:02:13.080 --> 00:02:17.590
+so keep in mind that there are more to explore.
+

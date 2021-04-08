@@ -1,0 +1,100 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.599 --> 00:00:02.766
+Outra operação comum
+para limpar dados
+
+00:00:02.833 --> 00:00:05.666
+é dividir os dados
+que estão combinados em uma célula.
+
+00:00:06.166 --> 00:00:09.699
+Por exemplo, suponha que tenhamos
+nome e sobrenome nas células,
+
+00:00:09.966 --> 00:00:11.933
+mas que desejemos classificar
+ou filtrar
+
+00:00:12.033 --> 00:00:15.066
+apenas o nome ou apenas o sobrenome
+mais tarde.
+
+00:00:15.666 --> 00:00:18.533
+Nesse caso, vamos precisar
+de uma coluna para cada um.
+
+00:00:18.933 --> 00:00:21.699
+Então seria bom ter
+o nome e o sobrenome
+
+00:00:21.799 --> 00:00:23.599
+divididos em duas colunas separadas.
+
+00:00:24.366 --> 00:00:27.366
+Nós podemos fazer isso
+com a ferramenta Coluna para Texto.
+
+00:00:28.866 --> 00:00:29.899
+Antes de começar,
+
+00:00:29.966 --> 00:00:32.433
+pense em quantas colunas
+você terá no final.
+
+00:00:32.666 --> 00:00:35.499
+Neste caso, é uma coluna
+que se transforma em duas.
+
+00:00:35.833 --> 00:00:39.366
+Então, insira uma coluna em branco
+para ter espaço.
+
+00:00:40.599 --> 00:00:42.199
+Selecione o intervalo
+do conjunto de dados.
+
+00:00:42.266 --> 00:00:44.466
+Está certo selecionar
+colunas inteiras.
+
+00:00:44.866 --> 00:00:48.366
+Vá para o menu Dados
+e encontre, Texto para Colunas.
+
+00:00:49.299 --> 00:00:51.733
+Mais uma vez, você terá
+que fazer algumas opções
+
+00:00:51.799 --> 00:00:52.966
+na caixa de diálogo que abre.
+
+00:00:53.199 --> 00:00:55.899
+Delimitado significa que o texto
+que você deseja separar
+
+00:00:56.133 --> 00:00:58.433
+tem algum caractere
+onde a divisão deve estar.
+
+00:00:58.733 --> 00:01:02.199
+Depois de clicar em avançar,
+escolha o delimitador para dividir.
+
+00:01:02.533 --> 00:01:03.699
+Marcamos a vírgula
+
+00:01:03.766 --> 00:01:06.566
+porque nossos dados
+são separados por vírgulas.
+
+00:01:07.333 --> 00:01:09.699
+Ao clicar em avançar,
+há algumas opções mais avançadas,
+
+00:01:09.766 --> 00:01:12.466
+mas para nossos propósitos,
+podemos clicar em Concluir.
+
