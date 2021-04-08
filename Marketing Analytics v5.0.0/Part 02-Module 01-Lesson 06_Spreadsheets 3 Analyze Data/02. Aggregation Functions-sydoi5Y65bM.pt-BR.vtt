@@ -1,0 +1,162 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.533 --> 00:00:02.599
+Lembre-se de que
+em uma aula anterior
+
+00:00:02.633 --> 00:00:04.933
+você aprendeu duas maneiras
+de somar números,
+
+00:00:04.966 --> 00:00:08.066
+com o sinal de mais
+e com a função SOMA.
+
+00:00:08.099 --> 00:00:09.799
+Quando usamos
+o sinal de mais,
+
+00:00:09.833 --> 00:00:12.899
+precisamos mencionar
+cada célula individualmente,
+
+00:00:12.933 --> 00:00:17.533
+mas, com a SOMA, todos os intervalos
+podem ser mencionados.
+
+00:00:17.933 --> 00:00:20.433
+SOMA é uma função
+de agregação,
+
+00:00:20.466 --> 00:00:23.133
+é assim que funções
+de agregação funcionam.
+
+00:00:23.166 --> 00:00:25.866
+Elas operam sobre um grupo inteiro
+de dados de uma vez
+
+00:00:25.899 --> 00:00:28.699
+e geram um único valor.
+
+00:00:28.733 --> 00:00:32.833
+Estamos interessados nas funções
+estatísticas por natureza.
+
+00:00:32.866 --> 00:00:36.299
+SOMA, MÉDIA, MAX, MIN,
+
+00:00:36.333 --> 00:00:39.899
+MEDIANA e DESVIO PADRÃO.
+
+00:00:40.366 --> 00:00:43.233
+Por exemplo, aqui está
+nossa barraca de frutas novamente
+
+00:00:43.266 --> 00:00:45.099
+com alguns produtos novos.
+
+00:00:45.133 --> 00:00:47.266
+Se quero obter a soma
+de todas as frutas
+
+00:00:47.299 --> 00:00:50.366
+posso somar cada linha de frutas
+e depois somar as somas
+
+00:00:50.399 --> 00:00:52.066
+para obter
+um montante geral.
+
+00:00:52.099 --> 00:00:56.733
+Mas também poderia ter solicitado
+a soma do intervalo inteiro.
+
+00:00:56.766 --> 00:00:57.899
+Que tal outras questões,
+
+00:00:57.933 --> 00:01:01.399
+como, qual é a fruta mais vendida
+em qualquer pedido?
+
+00:01:01.433 --> 00:01:04.566
+Queremos o valor máximo
+da coluna de total de frutas,
+
+00:01:04.599 --> 00:01:07.366
+e essa é uma função
+de agregação, MAX.
+
+00:01:07.399 --> 00:01:11.899
+MIN funciona de forma parecida
+para encontrar o menor valor.
+
+00:01:11.933 --> 00:01:13.366
+E a MEDIANA?
+
+00:01:13.399 --> 00:01:16.733
+É diferente da média,
+é o valor do meio,
+
+00:01:16.766 --> 00:01:19.666
+mas também é
+uma função de agregação.
+
+00:01:19.699 --> 00:01:22.999
+Finalmente,
+com a MÉDIA e o DESVIO PADRÃO,
+
+00:01:22.999 --> 00:01:27.233
+podemos obter o valor total
+de pedidos ao longo do tempo.
+
+00:01:36.399 --> 00:01:39.766
+Há mais funções de agregação
+para quando precisar
+
+00:01:39.799 --> 00:01:41.166
+nos arquivos de ajuda.
+
+00:01:41.199 --> 00:01:42.199
+Por enquanto,
+
+00:01:42.233 --> 00:01:45.166
+darei uma pequena amostra
+de como usar gráficos.
+
+00:01:45.199 --> 00:01:48.599
+Olhando as somas de todas a frutas,
+sabemos quais vendem melhor,
+
+00:01:48.633 --> 00:01:53.299
+mas posso destacar a informação,
+clicar em inserir gráfico.
+
+00:01:53.333 --> 00:01:55.299
+Seleciono gráfico de barras,
+neste caso,
+
+00:01:55.333 --> 00:01:57.133
+para ter uma visão disso.
+
+00:01:57.499 --> 00:02:00.699
+Entraremos em detalhes
+na aula sobre dados visualizados
+
+00:02:00.733 --> 00:02:03.133
+para saber quando usar
+cada tipo de gráfico.
+
+00:02:03.166 --> 00:02:06.833
+Mas já é fácil perceber
+como visualizar dados agregados
+
+00:02:06.866 --> 00:02:08.366
+é tão impressionante.
+
+00:02:08.399 --> 00:02:11.099
+Certo, está na hora
+de testar isso.
+

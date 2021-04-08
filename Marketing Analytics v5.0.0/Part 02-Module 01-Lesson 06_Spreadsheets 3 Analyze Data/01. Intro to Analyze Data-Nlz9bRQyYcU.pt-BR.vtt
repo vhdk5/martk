@@ -1,0 +1,200 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.299 --> 00:00:01.566
+Na aula anterior,
+
+00:00:01.599 --> 00:00:04.266
+você aprendeu algumas técnicas
+para manipular dados.
+
+00:00:04.299 --> 00:00:08.099
+Nesta aula, você aprenderá
+algumas funções e técnicas a mais
+
+00:00:08.133 --> 00:00:11.666
+que são úteis para analisar
+os dados de sua planilha.
+
+00:00:11.699 --> 00:00:16.066
+O que queremos dizer quando falamos
+sobre analisar dados?
+
+00:00:16.099 --> 00:00:19.999
+Começamos com muitas informações
+sobre alguma coisa, nossos dados.
+
+00:00:20.033 --> 00:00:22.799
+Coisas como quantas maçãs e laranjas
+foram encomendadas
+
+00:00:22.833 --> 00:00:24.666
+no exemplo
+da barraca de frutas
+
+00:00:24.699 --> 00:00:28.733
+ou escalas e salários no exemplo
+dos jogadores de beisebol.
+
+00:00:28.766 --> 00:00:31.299
+Estes dados por si só
+não significam muita coisa
+
+00:00:31.333 --> 00:00:35.066
+até nos perguntarmos
+e respondermos questões sobre eles.
+
+00:00:35.099 --> 00:00:36.666
+Por exemplo,
+
+00:00:36.699 --> 00:00:40.399
+quantas frutas em média
+havia em cada pedido?
+
+00:00:40.433 --> 00:00:42.699
+Ou qual é a média salarial
+
+00:00:42.733 --> 00:00:46.399
+de um jogador da Liga Americana
+de Beisebol em 2003?
+
+00:00:46.433 --> 00:00:50.966
+Podemos encontrar essas informações
+usando funções de agregação.
+
+00:00:50.999 --> 00:00:54.766
+Você já usou duas delas,
+soma é média,
+
+00:00:54.799 --> 00:00:56.399
+para responder
+a algumas questões.
+
+00:00:56.433 --> 00:00:58.566
+Ou seja, você já começou
+a analisar dados
+
+00:00:58.599 --> 00:01:01.799
+com funções de agregação
+na aula anterior.
+
+00:01:01.833 --> 00:01:04.233
+Há algumas outras
+funções de agregação,
+
+00:01:04.266 --> 00:01:06.466
+e você vai aprender
+algumas delas.
+
+00:01:06.499 --> 00:01:10.066
+Mas estas funções podem
+não responder a todas as questões.
+
+00:01:10.099 --> 00:01:15.199
+Queremos sempre saber se uma célula
+satisfaz certas condições.
+
+00:01:15.233 --> 00:01:16.499
+Por exemplo,
+
+00:01:16.533 --> 00:01:18.999
+se uma aluno teve uma nota
+acima de um certo valor
+
+00:01:19.033 --> 00:01:21.499
+em uma prova,
+dê a ela um A.
+
+00:01:21.533 --> 00:01:23.433
+Para estas dependências
+condicionais,
+
+00:01:23.466 --> 00:01:25.866
+funções lógicas são
+o que precisamos.
+
+00:01:25.899 --> 00:01:31.066
+Daremos uma olhada na função SE
+e nos seus operadores de comparação.
+
+00:01:31.099 --> 00:01:36.599
+Depois examinaremos
+as funções lógicas E, OU e NÃO.
+
+00:01:36.633 --> 00:01:39.399
+O último grupo de funções lógicas
+que exploraremos
+
+00:01:39.433 --> 00:01:42.466
+combina agregação
+com lógica.
+
+00:01:42.499 --> 00:01:46.899
+Chamamos de funções
+de agregação condicional.
+
+00:01:46.933 --> 00:01:49.799
+Em seguida, você aprenderá
+a criar tabelas dinâmicas.
+
+00:01:49.833 --> 00:01:53.166
+A tabela dinâmica é
+uma ferramenta que permite
+
+00:01:53.199 --> 00:01:57.299
+resumir e agregar dados
+em um passo só.
+
+00:01:57.333 --> 00:01:59.299
+Depois disso,
+mudaremos um pouco a direção
+
+00:01:59.333 --> 00:02:01.499
+e apresentaremos
+os intervalos nomeados,
+
+00:02:01.533 --> 00:02:04.966
+que são úteis quando reutilizamos
+os mesmos intervalos repetidamente
+
+00:02:04.999 --> 00:02:06.566
+nas nossas planilhas.
+
+00:02:06.599 --> 00:02:10.666
+É muito mais fácil se lembrar
+de escalas de alunos
+
+00:02:10.699 --> 00:02:12.833
+do que um endereço
+criptografado
+
+00:02:12.866 --> 00:02:17.499
+como sheet3!A1:J94
+
+00:02:17.533 --> 00:02:19.366
+ou algo do tipo.
+
+00:02:19.399 --> 00:02:22.566
+Nomes descritivos para intervalos
+também reduzem erros
+
+00:02:22.599 --> 00:02:25.166
+e aumentam o entendimento
+das fórmulas
+
+00:02:25.199 --> 00:02:27.499
+à medida que se tornam
+mais complexas.
+
+00:02:27.533 --> 00:02:30.599
+Os intervalos nomeados serão
+especialmente úteis
+
+00:02:30.633 --> 00:02:34.166
+em funções de pesquisa,
+no final do curso.
+
+00:02:34.199 --> 00:02:35.966
+Certo, vamos começar.
+

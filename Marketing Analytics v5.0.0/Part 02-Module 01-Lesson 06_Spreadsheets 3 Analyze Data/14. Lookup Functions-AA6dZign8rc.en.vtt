@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.910
+Suppose we have a list of part numbers or
+
+00:00:02.910 --> 00:00:07.270
+abbreviations that correspond to prices or descriptions,
+
+00:00:07.269 --> 00:00:09.765
+we might have the short version in one table
+
+00:00:09.765 --> 00:00:13.169
+but need to be able to look up more information elsewhere.
+
+00:00:13.169 --> 00:00:15.525
+That's what Lookup up functions do.
+
+00:00:15.525 --> 00:00:21.480
+They provide a way to use a keyword to look some other information up in a table.
+
+00:00:21.480 --> 00:00:24.937
+There are both horizontal and vertical lookup functions,
+
+00:00:24.937 --> 00:00:28.365
+but we'll focus on just one, VLOOKUP.
+
+00:00:28.364 --> 00:00:30.959
+I have a list of airport codes.
+
+00:00:30.960 --> 00:00:34.125
+Suppose I want to know which airport is code MCI.
+
+00:00:34.125 --> 00:00:38.424
+The leftmost column is the key and the second column in this case is the answer.
+
+00:00:38.424 --> 00:00:42.279
+Scrolling down, I find out MCI is Kansas City.
+
+00:00:42.280 --> 00:00:44.200
+The function that does this is VLOOKUP.
+
+00:00:44.200 --> 00:00:48.715
+I use =vlo, the value I'm looking up,
+
+00:00:48.715 --> 00:00:51.085
+which is, ATL in this first case,
+
+00:00:51.085 --> 00:00:52.700
+then the data range.
+
+00:00:52.700 --> 00:00:54.880
+I'll select the two columns.
+
+00:00:54.880 --> 00:00:57.415
+Then, the index of the column,
+
+00:00:57.414 --> 00:00:59.399
+which is the second.
+
+00:00:59.399 --> 00:01:04.105
+Now, I'm going to type false and close parentheses.
+
+00:01:04.105 --> 00:01:06.054
+This worked great.
+
+00:01:06.054 --> 00:01:09.900
+I'll do it for the second destination as well.
+
+00:01:09.900 --> 00:01:13.380
+I have the two columns,
+
+00:01:13.379 --> 00:01:16.920
+and the second column is the answer,
+
+00:01:16.920 --> 00:01:18.850
+and false. Here we go.
+
+00:01:18.849 --> 00:01:23.959
+Good. What if the airport code hadn't been in the list?
+
+00:01:23.959 --> 00:01:28.444
+Let's try that. ZZZ is not in the list.
+
+00:01:28.444 --> 00:01:32.529
+We get an error. We get an error because I put false
+
+00:01:32.530 --> 00:01:36.704
+in the formula to indicate I only want to find an exact match.
+
+00:01:36.704 --> 00:01:39.370
+What if I didn't put false in the formula?
+
+00:01:39.370 --> 00:01:44.215
+Excel would return the closest match which for this problem is just wrong.
+
+00:01:44.215 --> 00:01:45.640
+A rule of thumb is,
+
+00:01:45.640 --> 00:01:48.248
+that when looking up information with VLOOKUP,
+
+00:01:48.248 --> 00:01:51.666
+enter false in this optional parameter.
+
+00:01:51.665 --> 00:01:56.750
+Finding the wrong airport in this case is worse than getting an error.
+
+00:01:56.750 --> 00:01:58.605
+Okay, one more thing.
+
+00:01:58.605 --> 00:02:00.924
+Instead of using columns as my range,
+
+00:02:00.924 --> 00:02:02.739
+which did work just fine,
+
+00:02:02.739 --> 00:02:06.204
+it's really better practice to use a named range.
+
+00:02:06.204 --> 00:02:09.129
+It's more readable and less prone to errors.
+
+00:02:09.129 --> 00:02:12.396
+I'll just name this one airport_lookup.
+
+00:02:12.396 --> 00:02:15.120
+And it works the same.
+
+00:02:15.120 --> 00:02:21.615
+I can even fill without worrying about losing my absolute address.
+
+00:02:21.615 --> 00:02:24.000
+Okay, your turn.
+

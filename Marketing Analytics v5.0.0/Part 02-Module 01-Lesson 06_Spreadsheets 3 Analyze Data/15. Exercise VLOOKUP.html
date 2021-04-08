@@ -1,0 +1,332 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Exercise: VLOOKUP</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Spreadsheets 3: Analyze Data</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Intro.html">01. Intro</a>
+    </li>
+    <li class="">
+      <a href="02. Aggregation Functions.html">02. Aggregation Functions</a>
+    </li>
+    <li class="">
+      <a href="03. Aggregation Functions.html">03. Aggregation Functions</a>
+    </li>
+    <li class="">
+      <a href="04. Logical Functions IF.html">04. Logical Functions: IF</a>
+    </li>
+    <li class="">
+      <a href="05. Quiz Comparison Operators.html">05. Quiz: Comparison Operators</a>
+    </li>
+    <li class="">
+      <a href="06. Logical Functions AND, OR, NOT.html">06. Logical Functions: AND, OR, NOT</a>
+    </li>
+    <li class="">
+      <a href="07. Quiz Logical Functions.html">07. Quiz: Logical Functions</a>
+    </li>
+    <li class="">
+      <a href="08. Conditional Aggregation Functions.html">08. Conditional Aggregation Functions</a>
+    </li>
+    <li class="">
+      <a href="09. Exercise COUNTIF, SUMIF.html">09. Exercise: COUNTIF, SUMIF</a>
+    </li>
+    <li class="">
+      <a href="10. Pivot Tables.html">10. Pivot Tables</a>
+    </li>
+    <li class="">
+      <a href="11. Exercise Pivot Tables.html">11. Exercise: Pivot Tables</a>
+    </li>
+    <li class="">
+      <a href="12. Named Ranges.html">12. Named Ranges</a>
+    </li>
+    <li class="">
+      <a href="13. Named Ranges.html">13. Named Ranges</a>
+    </li>
+    <li class="">
+      <a href="14. Lookup Functions.html">14. Lookup Functions</a>
+    </li>
+    <li class="">
+      <a href="15. Exercise VLOOKUP.html">15. Exercise: VLOOKUP</a>
+    </li>
+    <li class="">
+      <a href="16. Recap.html">16. Recap</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">15. Exercise: VLOOKUP</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h1 id="exercise-vlookup">Exercise: VLOOKUP</h1>
+<p>In this exercise, you'll start with a spreadsheet of all airline routes out of  the San Francisco airport, <code>air_routes_SFO.xlsx</code>.  The routes are listed by the airline and airport codes, so they aren't very user friendly to those that don't know the codes.  Your task will be to use <a href="https://support.office.com/en-us/article/Define-and-use-names-in-formulas-4d0f13ac-53b7-422e-afd2-abd7ff379c64#bmcreate_a_name_by_using_the_create_nam" rel="noopener noreferrer" target="_blank">Named Ranges</a> and <a href="https://support.office.com/en-us/article/VLOOKUP-function-0bbc8083-26fe-4963-8ab8-93a18ad188a1" rel="noopener noreferrer" target="_blank">VLOOKUP</a> to add columns that provide the full names of the airlines and destination airports. Your airline and airport lookup codes are on separate sheets within the workbook provided.</p>
+<p>To answer the quiz questions, you may want to use some of the other functions you've learned as well.  There are several ways to solve the problems presented, but some ways are easier than others.</p>
+<p>For example,  the first few rows should look like this once you've inserted the correct formulas:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/vlookup-sol-example.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <div>
+    <h4>Task Description:</h4>
+    <p>The following list has a series of steps for this exercise.  As you complete each step, check it off the list.  The quizzes in the task list can be found below.</p>
+  </div>
+
+  <form>
+    <fieldset>
+      <legend>Task List:</legend>
+
+      <div>
+        <input type="checkbox" id="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--0">
+        <label for="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--0"><p>Download the <code>air_routes_SFO.xlsx</code> file (bottom of page) and open it in your spreadsheet application</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--1">
+        <label for="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--1"><p>Name ranges for each lookup table: <code>airline_lookup</code> and <code>airport_lookup</code>.  These tables are located in the <strong>Airlines</strong> and <strong>Airports</strong> sheets, respectively</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--2">
+        <label for="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--2"><p>Add lookups using <strong>VLOOKUP</strong> to the <strong>Airline Name</strong> and <strong>Destination Airport</strong> columns</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--3">
+        <label for="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--3"><p>Quiz: London (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--4">
+        <label for="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--4"><p>Quiz: Unique Airlines (see below)</p></label>
+      </div>
+      <div>
+        <input type="checkbox" id="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--5">
+        <label for="6c9ce5ea-c1e4-404b-9f8b-b86d1a3966f3--5"><p>Quiz: 2nd Most Routes (see below)</p></label>
+      </div>
+    </fieldset>
+  </form>
+
+  <div>
+    <h4>Task Feedback:</h4>
+
+
+    <p>Congratulations!</p>
+  </div>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>London</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>How many routes to London Heathrow in the list?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Unique Airlines</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>How many different airlines are there in the list?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>2nd Most Routes</p></h3>
+  <div>
+  <div>
+    <p><strong>QUESTION:</strong> <p>United Airlines has the most routes in the list… but who has the 2nd most?</p></p>
+    <div class="" form-group">
+      <label for="answer"><strong>ANSWER:</strong></label>
+      <textarea class="form-control" id="answer"></textarea>
+    </div>
+  </div>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    <p><i>These answers need to be solved by yourself, I believe you can do it</i></p>
+
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="16. Recap.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('15. Exercise: VLOOKUP')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

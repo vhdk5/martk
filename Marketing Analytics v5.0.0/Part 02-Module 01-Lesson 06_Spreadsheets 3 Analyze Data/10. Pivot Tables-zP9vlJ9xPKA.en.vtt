@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.424
+Pivot tables summarize an aggregate all in one step.
+
+00:00:04.424 --> 00:00:06.229
+In a baseball dataset,
+
+00:00:06.230 --> 00:00:11.710
+we see several rows of each team and several rows for each playing position.
+
+00:00:11.710 --> 00:00:16.080
+A pivot will let us group all the teams and all the positions.
+
+00:00:16.079 --> 00:00:19.875
+Select the dataset and go to insert pivot table.
+
+00:00:19.875 --> 00:00:24.589
+The default is to put it in a new sheet and that's what we want.
+
+00:00:24.589 --> 00:00:27.210
+Now, we have some drag and drop dialogs.
+
+00:00:27.210 --> 00:00:29.769
+We're looking for the rows and columns to be
+
+00:00:29.769 --> 00:00:32.820
+the grouped categories of teams and positions,
+
+00:00:32.820 --> 00:00:35.670
+and the cells in between to be the aggregations of
+
+00:00:35.670 --> 00:00:40.179
+those groups such as a count of how many pitchers on each team.
+
+00:00:40.179 --> 00:00:43.994
+So let's slide the team values to rows and here they are now listed,
+
+00:00:43.994 --> 00:00:46.184
+one for each unique team,
+
+00:00:46.185 --> 00:00:52.310
+and the playing positions to columns and here they are, unique positions listed.
+
+00:00:52.310 --> 00:00:56.240
+Now, we have salaries and names left to choose from for the aggregation.
+
+00:00:56.240 --> 00:01:00.585
+Since we just want to know how many players in each position for each team,
+
+00:01:00.585 --> 00:01:03.380
+it makes sense to just add the names.
+
+00:01:03.380 --> 00:01:06.930
+The default aggregation function is count.
+
+00:01:06.930 --> 00:01:09.510
+Now, we can look at the table and see how many players
+
+00:01:09.510 --> 00:01:12.295
+in each position each team has on their roster,
+
+00:01:12.295 --> 00:01:14.625
+and how many players are on each team,
+
+00:01:14.625 --> 00:01:16.224
+and how many catchers,
+
+00:01:16.224 --> 00:01:20.089
+first baseman and pitchers there are in the entire league.
+
+00:01:20.090 --> 00:01:24.344
+We just found all of that out in a few clicks.
+
+00:01:24.344 --> 00:01:29.890
+What if we wanted to know how much money each team spends on which positions?
+
+00:01:29.890 --> 00:01:32.325
+In that case our rows and columns can stay the same,
+
+00:01:32.325 --> 00:01:34.250
+but the data we need is the salaries,
+
+00:01:34.250 --> 00:01:37.364
+so replace the names with the salary information.
+
+00:01:37.364 --> 00:01:39.799
+Nothing really changed because we're still counting
+
+00:01:39.799 --> 00:01:42.974
+the number of salaries not summing them.
+
+00:01:42.974 --> 00:01:45.049
+To use a different aggregation function,
+
+00:01:45.049 --> 00:01:48.384
+click the pull down menu and select field settings.
+
+00:01:48.385 --> 00:01:52.265
+There are several that we learned about earlier.
+
+00:01:52.265 --> 00:01:55.370
+Select the Sum aggregation.
+
+00:01:55.370 --> 00:01:58.550
+Now we have the salary sums for each team in position,
+
+00:01:58.549 --> 00:02:01.834
+as well as the subtotals and the grand total.
+
+00:02:01.834 --> 00:02:04.494
+To make this more readable,
+
+00:02:04.495 --> 00:02:12.375
+select the whole area and change the data type to either accounting or currency.
+
+00:02:12.375 --> 00:02:15.000
+Okay, now you try.
+

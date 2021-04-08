@@ -1,0 +1,73 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.110 --> 00:00:03.359
+Conditional aggregation functions are
+
+00:00:03.359 --> 00:00:08.750
+statistical functions that combine aggregation with logical conditions.
+
+00:00:08.750 --> 00:00:12.730
+They operate across a group of data with some logical conditions.
+
+00:00:12.730 --> 00:00:17.844
+We'll focus on two of these: COUNTIF and SUMIF.
+
+00:00:17.844 --> 00:00:22.695
+Let's say, you have a baseball data set and that your analysis question is,
+
+00:00:22.695 --> 00:00:25.585
+how many pitchers are there on the roster?
+
+00:00:25.585 --> 00:00:28.980
+We could filter the data by pitcher and count the number of
+
+00:00:28.980 --> 00:00:33.420
+lines showing or we could just use a formula.
+
+00:00:33.420 --> 00:00:40.189
+With COUNTIF, we can get this information with a single function: equal, COUNTIF,
+
+00:00:40.189 --> 00:00:43.649
+parentheses, then the range we want to count over,
+
+00:00:43.649 --> 00:00:47.179
+which is the whole column of positions, then the criterion.
+
+00:00:47.179 --> 00:00:52.524
+The criterion can be a text string or a number or an expression.
+
+00:00:52.524 --> 00:00:55.504
+In this case, we want the text string pitcher.
+
+00:00:55.505 --> 00:00:58.950
+So, it goes in double quotes because it's text.
+
+00:00:58.950 --> 00:01:01.295
+And there we have our answer.
+
+00:01:01.295 --> 00:01:05.655
+If we wanted to count the number of salaries greater than 10 million,
+
+00:01:05.655 --> 00:01:11.609
+we would need an expression with the comparison operator greater than 10 million.
+
+00:01:11.609 --> 00:01:16.525
+An expression must also be in double quotes.
+
+00:01:16.525 --> 00:01:18.800
+And there we have our answer.
+
+00:01:18.799 --> 00:01:25.120
+SUMIF works similarly but adds values if the criteria is true rather than counting them.
+
+00:01:25.120 --> 00:01:28.599
+If we changed the last example from COUNTIF to SUMIF,
+
+00:01:28.599 --> 00:01:33.890
+we get a sum of all the salaries greater than 10 million,
+
+00:01:33.890 --> 00:01:36.750
+which will be a pretty big number.
+

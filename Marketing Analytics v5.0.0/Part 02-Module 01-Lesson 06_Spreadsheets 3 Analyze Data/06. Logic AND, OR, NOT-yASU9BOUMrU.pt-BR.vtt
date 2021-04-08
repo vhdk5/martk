@@ -1,0 +1,116 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.666 --> 00:00:03.166
+E se quisermos saber
+se há mais maçãs
+
+00:00:03.199 --> 00:00:05.699
+do que qualquer
+outra fruta da lista?
+
+00:00:05.733 --> 00:00:09.533
+Nesse caso, a frase
+seria mais ou menos assim:
+
+00:00:09.566 --> 00:00:12.899
+"Se houver mais maçãs
+do que laranjas no pedido,
+
+00:00:12.933 --> 00:00:16.633
+e mais maçãs
+do que peras no pedido,
+
+00:00:16.666 --> 00:00:19.199
+faça um print
+'maçãs são demais!'."
+
+00:00:19.233 --> 00:00:22.599
+E é outra função lógica
+do Excel,
+
+00:00:22.633 --> 00:00:26.833
+e só são verdadeiras
+se as condições forem verdadeiras.
+
+00:00:26.866 --> 00:00:29.633
+Veja que E,
+assim como SE,
+
+00:00:29.666 --> 00:00:32.333
+é uma função,
+não um operador.
+
+00:00:32.366 --> 00:00:35.666
+Ela precisa vir
+com a palavra-chave E
+
+00:00:35.699 --> 00:00:38.799
+seguida de parênteses
+com seus parâmetros,
+
+00:00:38.833 --> 00:00:41.599
+que são instruções
+condicionais.
+
+00:00:41.633 --> 00:00:44.766
+Para usar a função E
+em uma instrução SE,
+
+00:00:44.799 --> 00:00:48.566
+precisamos acomodá-la
+dentro da função SE.
+
+00:00:48.599 --> 00:00:54.433
+A função E inteira é agora
+a parte condicional da função SE.
+
+00:00:54.833 --> 00:00:56.166
+Recapitulando,
+
+00:00:56.199 --> 00:00:59.699
+o resultado da função E
+será verdadeiro
+
+00:00:59.733 --> 00:01:02.366
+se todas as condições
+forem verdadeiras.
+
+00:01:02.399 --> 00:01:04.533
+E falsas, caso contrário.
+
+00:01:04.566 --> 00:01:07.233
+A função OU funciona
+da mesma maneira,
+
+00:01:07.266 --> 00:01:09.433
+só que avalia
+como verdadeira
+
+00:01:09.466 --> 00:01:12.499
+se todos os parâmetros
+forem verdadeiros.
+
+00:01:12.533 --> 00:01:14.233
+E mais uma para você.
+
+00:01:14.266 --> 00:01:17.966
+A função NÃO
+simplesmente reverte a lógica.
+
+00:01:17.999 --> 00:01:22.499
+ela troca verdadeiro por falso
+e falso por verdadeiro.
+
+00:01:22.533 --> 00:01:26.233
+Pode parecer complicado,
+mas melhora com a prática.
+
+00:01:26.266 --> 00:01:27.299
+Falando nisso,
+
+00:01:27.333 --> 00:01:29.766
+é a sua vez de testar
+algumas combinações.
+

@@ -1,0 +1,185 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.633 --> 00:00:02.699
+Funções condicionais
+e planilhas
+
+00:00:02.699 --> 00:00:05.233
+fazem parte
+do grupo de funções lógicas.
+
+00:00:05.266 --> 00:00:07.666
+Começaremos com a SE.
+
+00:00:07.699 --> 00:00:10.433
+A função SE,
+como outras funções,
+
+00:00:10.466 --> 00:00:14.066
+começa com um sinal de igual,
+depois SE,
+
+00:00:14.099 --> 00:00:17.366
+e alguns parâmetros,
+que são uma condição,
+
+00:00:17.399 --> 00:00:19.699
+o que fazer se a condição
+for verdadeira
+
+00:00:19.733 --> 00:00:22.966
+e, opcionalmente,
+o que fazer se for falsa.
+
+00:00:23.233 --> 00:00:25.533
+Estes parâmetros
+podem ser constantes
+
+00:00:25.566 --> 00:00:28.433
+referências a células
+ou outras funções.
+
+00:00:28.466 --> 00:00:30.199
+Aqui está um exemplo.
+
+00:00:30.233 --> 00:00:32.366
+Uma fórmula condicional
+escrita em português
+
+00:00:32.399 --> 00:00:34.133
+seria mais ou menos assim:
+
+00:00:34.166 --> 00:00:37.599
+"Se houver mais maçãs
+do que laranjas no pedido,
+
+00:00:37.633 --> 00:00:40.299
+faça um print
+'maçãs são demais!'."
+
+00:00:40.333 --> 00:00:44.366
+A condição é que haja
+mais maçãs do que laranjas,
+
+00:00:44.399 --> 00:00:46.266
+e o valor,
+se for verdadeiro,
+
+00:00:46.299 --> 00:00:49.133
+receberá a afirmação
+"maçãs são demais!".
+
+00:00:50.533 --> 00:00:53.733
+Como faríamos isso
+na planilha da barraca de frutas?
+
+00:00:53.766 --> 00:00:56.799
+É uma função,
+então começamos com =SE,
+
+00:00:56.833 --> 00:00:59.899
+abrimos parênteses,
+as maçãs vendidas,
+
+00:00:59.933 --> 00:01:02.866
+um operador de comparação
+maior que,
+
+00:01:02.899 --> 00:01:05.733
+as laranjas vendidas,
+vírgula
+
+00:01:05.766 --> 00:01:09.666
+e do que fazer um print entre aspas:
+"maçãs são demais!"
+
+00:01:09.699 --> 00:01:12.933
+Fechamos os parênteses
+e arrastamos para baixo.
+
+00:01:14.366 --> 00:01:17.999
+Veja que apenas diz FALSO
+quando as maçãs "não são demais"
+
+00:01:17.999 --> 00:01:22.033
+porque não disse o que fazer
+se o valor for falso.
+
+00:01:22.066 --> 00:01:24.199
+Posso consertar isso
+mudando minha instrução,
+
+00:01:24.233 --> 00:01:27.233
+incluindo uma saída como
+"laranjas são iradas!"
+
+00:01:27.266 --> 00:01:28.966
+para a situação falsa.
+
+00:01:28.999 --> 00:01:31.533
+Minha nova instrução seria:
+
+00:01:31.566 --> 00:01:34.433
+se houver mais maçãs
+do que laranjas no pedido,
+
+00:01:34.466 --> 00:01:36.033
+faça um print
+"maçãs são demais!".
+
+00:01:36.066 --> 00:01:38.899
+Caso contrário, faça um print
+"laranjas são iradas!".
+
+00:01:40.766 --> 00:01:42.066
+Neste pequeno exemplo,
+
+00:01:42.099 --> 00:01:46.433
+usei o sinal de maior que
+como um operador de comparação.
+
+00:01:46.466 --> 00:01:49.899
+Operadores de comparação
+são usados em instruções lógicas
+
+00:01:49.933 --> 00:01:52.266
+para comparar dois valores.
+
+00:01:52.299 --> 00:01:54.799
+Além do maior que,
+
+00:01:54.833 --> 00:01:57.333
+há os operadores menor que,
+
+00:01:57.366 --> 00:01:59.999
+igual a, maior que ou igual,
+
+00:02:00.033 --> 00:02:03.466
+menor que ou igual,
+e diferente de.
+
+00:02:03.933 --> 00:02:07.899
+Eles estão aqui com o símbolo
+de operador do Excel.
+
+00:02:07.933 --> 00:02:10.666
+Todos esses operadores de comparação
+podem ser usados
+
+00:02:10.699 --> 00:02:13.799
+para criar uma condição
+verdadeira ou falsa,
+
+00:02:13.833 --> 00:02:17.199
+e é isso o que
+a instrução SE avaliará,
+
+00:02:17.233 --> 00:02:19.999
+seguindo suas instruções
+para cada uma.
+
+00:02:20.033 --> 00:02:22.566
+Está na hora de você tentar.
+

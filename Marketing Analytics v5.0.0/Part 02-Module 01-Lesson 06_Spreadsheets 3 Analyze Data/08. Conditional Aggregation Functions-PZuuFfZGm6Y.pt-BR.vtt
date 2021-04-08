@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:01.033 --> 00:00:04.733
+Funções de agregação condicional
+são funções estatísticas
+
+00:00:04.766 --> 00:00:08.766
+que combinam agregações
+com condições lógicas.
+
+00:00:08.799 --> 00:00:10.566
+Elas operam
+através de grupos de dados
+
+00:00:10.599 --> 00:00:13.099
+com algumas
+condições lógicas.
+
+00:00:13.133 --> 00:00:15.399
+Focaremos em duas delas:
+
+00:00:15.433 --> 00:00:18.166
+CONTAR.SE E SOMA.SE.
+
+00:00:18.199 --> 00:00:20.866
+Digamos que temos
+o conjunto de dados de beisebol
+
+00:00:20.899 --> 00:00:22.966
+e que a questão
+de análise seja
+
+00:00:22.999 --> 00:00:25.533
+quantos arremessadores
+existem na escala?
+
+00:00:25.566 --> 00:00:27.766
+Podemos filtrar os dados
+por arremessador
+
+00:00:27.799 --> 00:00:30.833
+e contar o número
+de linhas exibidas
+
+00:00:30.866 --> 00:00:33.866
+ou podemos usar uma fórmula.
+
+00:00:33.899 --> 00:00:35.199
+Com CONTAR.SE,
+
+00:00:35.233 --> 00:00:38.499
+podemos obter essa informação
+com uma simples função:
+
+00:00:38.533 --> 00:00:43.666
+=CONTAR.SE, parênteses,
+o intervalo que queremos calcular,
+
+00:00:43.699 --> 00:00:47.299
+que é toda a coluna de posições,
+e o critério.
+
+00:00:47.333 --> 00:00:50.399
+O critério pode ser
+um elemento de texto,
+
+00:00:50.433 --> 00:00:52.433
+um número
+ou uma expressão.
+
+00:00:52.466 --> 00:00:55.466
+Neste caso, queremos
+o elemento de texto arremessador.
+
+00:00:55.499 --> 00:00:59.299
+Fica entre aspas
+porque é um texto.
+
+00:00:59.333 --> 00:01:01.466
+E temos nossa resposta.
+
+00:01:01.499 --> 00:01:03.833
+Se quiséssemos contar
+o número de salários
+
+00:01:03.866 --> 00:01:05.766
+maiores que 10 milhões,
+
+00:01:05.799 --> 00:01:09.533
+precisaríamos de uma expressão
+com o operador de comparação
+
+00:01:09.566 --> 00:01:11.899
+maior que 10 milhões.
+
+00:01:11.933 --> 00:01:16.199
+Uma expressão deve estar
+também entre aspas.
+
+00:01:16.233 --> 00:01:18.999
+E temos nossa resposta.
+
+00:01:19.033 --> 00:01:20.933
+SOMA.SE funciona
+de forma parecida,
+
+00:01:20.966 --> 00:01:23.866
+mas adiciona valores
+se os critérios forem verdadeiros
+
+00:01:23.899 --> 00:01:25.133
+em vez de contá-los.
+
+00:01:25.166 --> 00:01:29.766
+Se mudarmos o último exemplo
+de CONTAR.SE para SOMA.SE,
+
+00:01:29.799 --> 00:01:32.199
+teremos uma soma
+de todos os salários
+
+00:01:32.233 --> 00:01:33.933
+maiores de 10 milhões,
+
+00:01:33.966 --> 00:01:36.399
+o que será
+um número bem grande.
+

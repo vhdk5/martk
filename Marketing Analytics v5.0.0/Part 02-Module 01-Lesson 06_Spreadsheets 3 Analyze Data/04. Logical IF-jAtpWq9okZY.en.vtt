@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.964
+Conditional functions and spreadsheets are part of the logical functions group.
+
+00:00:04.964 --> 00:00:07.455
+We'll start with If.
+
+00:00:07.455 --> 00:00:10.620
+The function If, like other functions,
+
+00:00:10.619 --> 00:00:14.039
+starts out with an equal sign, then if,
+
+00:00:14.039 --> 00:00:17.364
+then some parameters which are a condition,
+
+00:00:17.364 --> 00:00:19.754
+what to do if the condition is true,
+
+00:00:19.754 --> 00:00:23.314
+and optionally what to do if it's false.
+
+00:00:23.315 --> 00:00:25.740
+These parameters can be constants or
+
+00:00:25.739 --> 00:00:30.259
+cell references or other functions. Here's an example.
+
+00:00:30.260 --> 00:00:34.005
+A conditional sentence written in English might be something like,
+
+00:00:34.005 --> 00:00:40.560
+if there were more apples than oranges in the order, print Apples Rule.
+
+00:00:40.560 --> 00:00:44.435
+The condition is that there are more apples than oranges,
+
+00:00:44.435 --> 00:00:46.320
+and the value, if true,
+
+00:00:46.320 --> 00:00:49.890
+is the statement, Apples Rule.
+
+00:00:49.890 --> 00:00:53.884
+How would we do this in a fruit stand spreadsheet?
+
+00:00:53.884 --> 00:00:56.969
+It's a function, so start with equal, if,
+
+00:00:56.969 --> 00:00:59.789
+open parentheses, the apples sell,
+
+00:00:59.789 --> 00:01:02.820
+now a comparison operator meaning greater than,
+
+00:01:02.820 --> 00:01:05.730
+then the oranges sell, comma,
+
+00:01:05.730 --> 00:01:09.350
+and what to print in double quotes: Apples Rule,
+
+00:01:09.350 --> 00:01:13.331
+close parentheses and fill down.
+
+00:01:13.331 --> 00:01:16.340
+Notice that it just says false,
+
+00:01:16.340 --> 00:01:21.945
+if apples don't rule because I didn't fill in what to do if the value is false.
+
+00:01:21.944 --> 00:01:24.989
+I can fix that by changing my statement to include
+
+00:01:24.989 --> 00:01:28.814
+an output such as Oranges Rock for the false situation.
+
+00:01:28.814 --> 00:01:31.560
+So my new statement in English would be,
+
+00:01:31.560 --> 00:01:34.429
+if there are more apples than oranges in the order,
+
+00:01:34.429 --> 00:01:39.555
+print Apples Rule, else, print Oranges Rock.
+
+00:01:39.555 --> 00:01:42.293
+For this little example,
+
+00:01:42.293 --> 00:01:46.245
+I use the greater than sign as a comparison operator.
+
+00:01:46.245 --> 00:01:52.210
+Comparison operators are used in logic statements to compare two values.
+
+00:01:52.209 --> 00:01:54.674
+In addition to greater than,
+
+00:01:54.674 --> 00:01:57.329
+there are operators for less than,
+
+00:01:57.329 --> 00:02:00.105
+equal, greater than or equal,
+
+00:02:00.105 --> 00:02:03.374
+less than or equal, and not equal.
+
+00:02:03.373 --> 00:02:08.064
+They're shown here with an operator symbol in Excel.
+
+00:02:08.064 --> 00:02:14.030
+Any of these comparison operators can be used to create a true or false condition,
+
+00:02:14.030 --> 00:02:20.340
+and that's what the if statement will evaluate following your instructions for each.
+
+00:02:20.340 --> 00:02:23.000
+It's time for you to give this a try.
+

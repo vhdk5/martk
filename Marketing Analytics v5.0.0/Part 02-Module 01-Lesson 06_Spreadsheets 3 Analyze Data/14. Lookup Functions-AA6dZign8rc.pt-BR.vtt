@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.466 --> 00:00:02.633
+Suponhamos que temos
+uma lista de números de peças
+
+00:00:02.666 --> 00:00:07.033
+ou abreviações que correspondam
+aos preços ou descrições.
+
+00:00:07.066 --> 00:00:09.666
+Devemos ter a versão curta
+em uma tabela,
+
+00:00:09.699 --> 00:00:13.133
+mas temos que poder pesquisar
+mais informações em outro lugar.
+
+00:00:13.166 --> 00:00:15.366
+É o que as funções
+de pesquisa fazem.
+
+00:00:15.399 --> 00:00:17.833
+Elas oferecem uma maneira
+de usar uma palavra-chave
+
+00:00:17.866 --> 00:00:21.199
+para procurar outra informação
+em uma tabela.
+
+00:00:21.233 --> 00:00:24.866
+Há tanto funções de pesquisa
+horizontais quanto verticais,
+
+00:00:24.899 --> 00:00:28.233
+mas focaremos em apenas uma,
+a PROCV.
+
+00:00:28.933 --> 00:00:30.966
+Tenho uma lista
+de códigos de aeroportos.
+
+00:00:30.999 --> 00:00:34.066
+Digamos que eu queira saber
+qual aeroporto é o código MCI.
+
+00:00:34.099 --> 00:00:35.799
+A coluna mais à esquerda
+é a chave,
+
+00:00:35.833 --> 00:00:38.466
+e a segunda coluna,
+neste caso, é a resposta.
+
+00:00:38.499 --> 00:00:42.099
+Rolando para baixo,
+descubro de MCI é Kansas City.
+
+00:00:42.133 --> 00:00:44.966
+A função que faz isso
+é a PROCV.
+
+00:00:44.999 --> 00:00:48.633
+Uso =PROCV,
+o valor que estou procurando,
+
+00:00:48.666 --> 00:00:51.033
+que é ATL,
+neste primeiro caso,
+
+00:00:51.066 --> 00:00:53.033
+e o intervalo de dados.
+
+00:00:53.066 --> 00:00:55.266
+Seleciono as duas colunas.
+
+00:00:55.299 --> 00:00:59.233
+Depois o índice da coluna,
+que é a segunda.
+
+00:00:59.266 --> 00:01:03.733
+Agora digito falso
+e fecho os parênteses.
+
+00:01:03.966 --> 00:01:05.933
+Funcionou muito bem.
+
+00:01:06.799 --> 00:01:09.866
+Faço isso com o segundo destino
+também.
+
+00:01:09.899 --> 00:01:13.599
+Tenho as duas colunas,
+
+00:01:13.633 --> 00:01:17.966
+e a segunda é a reposta,
+que é falso.
+
+00:01:17.999 --> 00:01:20.299
+Pronto.
+Ótimo.
+
+00:01:20.333 --> 00:01:23.799
+E se o código do aeroporto
+não estivesse na lista?
+
+00:01:23.833 --> 00:01:24.966
+Vamos tentar isso.
+
+00:01:24.999 --> 00:01:28.399
+ZZZ não está na lista.
+
+00:01:28.933 --> 00:01:30.266
+Temos um erro.
+
+00:01:30.299 --> 00:01:33.366
+Temos um erro
+porque coloquei falso na fórmula
+
+00:01:33.399 --> 00:01:36.633
+para indicar que só quero encontrar
+uma correspondência exata.
+
+00:01:36.666 --> 00:01:39.199
+E se não colocasse falso
+na fórmula?
+
+00:01:39.233 --> 00:01:41.233
+O Excel retornaria
+a correspondência mais próxima,
+
+00:01:41.266 --> 00:01:44.233
+o que para este problema
+seria incorreto.
+
+00:01:44.266 --> 00:01:45.599
+A regra geral é,
+
+00:01:45.633 --> 00:01:48.333
+ao pesquisar informações
+com PROCV,
+
+00:01:48.366 --> 00:01:51.433
+coloque falso
+neste parâmetro opcional.
+
+00:01:51.466 --> 00:01:53.666
+Encontrar o aeroporto errado,
+neste caso,
+
+00:01:53.699 --> 00:01:56.433
+é pior do que ter um erro.
+
+00:01:56.466 --> 00:01:58.533
+Certo, mais uma coisa.
+
+00:01:58.566 --> 00:02:00.966
+Em vez de usar colunas
+como intervalo,
+
+00:02:00.999 --> 00:02:02.666
+o que funcionou muito bem,
+
+00:02:02.699 --> 00:02:06.099
+é bem melhor praticar
+usando um intervalo nomeado.
+
+00:02:06.133 --> 00:02:09.099
+É melhor de ler
+e menos propenso a erros.
+
+00:02:09.133 --> 00:02:12.266
+Chamarei este aqui
+de pesquisa_aeroporto.
+
+00:02:12.633 --> 00:02:14.499
+E funciona igual.
+
+00:02:15.099 --> 00:02:20.433
+Posso até preencher sem me preocupar
+em perder o endereço absoluto.
+
+00:02:21.466 --> 00:02:23.499
+Certo, sua vez.
+

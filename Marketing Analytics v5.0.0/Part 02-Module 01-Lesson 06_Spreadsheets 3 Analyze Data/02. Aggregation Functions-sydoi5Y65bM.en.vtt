@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.700
+Recall that in an earlier lesson,
+
+00:00:02.700 --> 00:00:04.890
+you learn two ways to add numbers.
+
+00:00:04.889 --> 00:00:07.934
+With the plus sign and with the sum function.
+
+00:00:07.934 --> 00:00:09.855
+When you use the plus sign,
+
+00:00:09.855 --> 00:00:12.910
+you have to reference each cell individually.
+
+00:00:12.910 --> 00:00:18.121
+But, with sum, a whole range can be referenced.
+
+00:00:18.121 --> 00:00:20.495
+Sum is an aggregation function,
+
+00:00:20.495 --> 00:00:23.400
+that's how aggregation functions work.
+
+00:00:23.399 --> 00:00:28.859
+They operate over a whole group of data at once and result in a single value.
+
+00:00:28.859 --> 00:00:33.013
+The ones we're interested in are statistical in nature.
+
+00:00:33.014 --> 00:00:36.450
+Sum, average, max, min,
+
+00:00:36.450 --> 00:00:40.365
+median, and standard deviation.
+
+00:00:40.365 --> 00:00:43.392
+For example, here's our fruit stand again,
+
+00:00:43.392 --> 00:00:45.240
+with a few new products.
+
+00:00:45.240 --> 00:00:47.325
+If I want to get a sum of all the fruit,
+
+00:00:47.325 --> 00:00:52.140
+I can add each row of fruit then add those sums together to get a grand total.
+
+00:00:52.140 --> 00:00:56.770
+But, I could also have just asked for the sum of the whole range.
+
+00:00:56.770 --> 00:00:58.410
+What about some other questions like,
+
+00:00:58.409 --> 00:01:01.209
+what was the most fruit sold in any order?
+
+00:01:01.210 --> 00:01:04.545
+Well, we want the maximum number of the fruit total column,
+
+00:01:04.545 --> 00:01:07.170
+and that's an aggregation function, max.
+
+00:01:07.170 --> 00:01:13.195
+Min works in much the same way for finding the smallest number. What about median?
+
+00:01:13.194 --> 00:01:16.509
+That's different than average it's the middle value,
+
+00:01:16.510 --> 00:01:19.755
+but it too is an aggregation function.
+
+00:01:19.754 --> 00:01:22.964
+Finally, with average and standard deviation,
+
+00:01:22.965 --> 00:01:26.270
+we can get the spread of order totals over time.
+
+00:01:26.269 --> 00:01:38.090
+There are more aggregation functions
+
+00:01:38.090 --> 00:01:41.250
+that you can find when you need them in the Help files.
+
+00:01:41.250 --> 00:01:45.045
+For now though, I'm going to give you a quick teaser for using charts.
+
+00:01:45.045 --> 00:01:47.239
+Looking at the sums for all the fruit,
+
+00:01:47.239 --> 00:01:48.674
+we know which sells the best,
+
+00:01:48.674 --> 00:01:53.432
+but I could just highlight the information and click, insert chart.
+
+00:01:53.432 --> 00:01:54.439
+Selecting the bar chart,
+
+00:01:54.439 --> 00:01:56.924
+in this case, to see it visually.
+
+00:01:56.924 --> 00:02:03.259
+We'll go into detail in the visualized data lesson on when to use which kind of chart.
+
+00:02:03.260 --> 00:02:08.763
+But it's easy to see already why visualizing aggregated data is so impactful.
+
+00:02:08.763 --> 00:02:12.000
+Okay, time for you to give this a try.
+

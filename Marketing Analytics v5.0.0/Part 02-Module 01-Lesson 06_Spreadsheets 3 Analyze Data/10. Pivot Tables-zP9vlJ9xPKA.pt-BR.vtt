@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.399 --> 00:00:04.533
+Tabelas dinâmicas
+somam e agregam em um passo só.
+
+00:00:04.566 --> 00:00:06.166
+Em um conjunto de dados
+de beisebol,
+
+00:00:06.199 --> 00:00:08.666
+vemos várias linhas
+para cada time
+
+00:00:08.699 --> 00:00:11.666
+e várias linhas
+para cada posição.
+
+00:00:11.699 --> 00:00:16.399
+A tabela dinâmica nos permite
+agrupar todos os times e posições.
+
+00:00:16.433 --> 00:00:19.766
+Selecione o conjunto de dados
+e insira uma tabela dinâmica.
+
+00:00:19.799 --> 00:00:21.999
+O padrão é colocar isso
+em uma nova folha,
+
+00:00:22.033 --> 00:00:24.433
+e é isso o que queremos.
+
+00:00:24.466 --> 00:00:27.266
+Agora temos caixas de diálogo
+de arrastar e soltar.
+
+00:00:27.299 --> 00:00:29.299
+Queremos
+que as linhas e colunas
+
+00:00:29.333 --> 00:00:32.933
+fiquem agrupadas
+por categorias de times e posições
+
+00:00:32.966 --> 00:00:36.499
+e que as células entre elas
+sejam a agregação desses grupos,
+
+00:00:36.533 --> 00:00:40.199
+como a contagem
+dos arremessadores de cada time.
+
+00:00:40.233 --> 00:00:42.333
+Vamos arrastar os valores
+dos times paras as linhas,
+
+00:00:42.366 --> 00:00:46.299
+e agora eles estão listados,
+um para cada time específico.
+
+00:00:46.333 --> 00:00:48.566
+E as posições
+para as colunas.
+
+00:00:48.599 --> 00:00:51.866
+E pronto,
+posições específicas listadas.
+
+00:00:52.266 --> 00:00:56.366
+Agora temos que escolher entre
+salários e nomes para a agregação.
+
+00:00:56.399 --> 00:00:58.533
+Como apenas queremos saber
+quantos jogadores existem
+
+00:00:58.566 --> 00:01:00.466
+em cada posição,
+em cada time,
+
+00:01:00.499 --> 00:01:03.299
+faz mais sentido
+apenas adicionar os nomes.
+
+00:01:03.333 --> 00:01:06.699
+A função de agregação padrão
+é CONTAR.
+
+00:01:06.733 --> 00:01:08.299
+Podemos olhar a tabela
+
+00:01:08.333 --> 00:01:10.466
+e ver quantos jogares
+de cada posição
+
+00:01:10.499 --> 00:01:12.366
+cada time tem na escala
+
+00:01:12.399 --> 00:01:14.633
+e quanto jogadores
+existem em cada time,
+
+00:01:14.666 --> 00:01:16.333
+e quantos apanhadores,
+
+00:01:16.366 --> 00:01:20.433
+primeiras base e arremessadores
+existem na liga inteira.
+
+00:01:20.466 --> 00:01:24.499
+Acabei de descobrir tudo isso
+com apenas alguns cliques.
+
+00:01:24.533 --> 00:01:26.066
+E se quiséssemos saber
+
+00:01:26.099 --> 00:01:29.966
+quanto dinheiro cada time gasta
+em cada posição?
+
+00:01:29.999 --> 00:01:32.233
+Nesse caso, nossas linhas e colunas
+permanecem as mesmas,
+
+00:01:32.266 --> 00:01:34.466
+mas os dados
+precisam ser os salários.
+
+00:01:34.499 --> 00:01:37.233
+Então substitua os nomes
+pela informação de salário.
+
+00:01:37.266 --> 00:01:38.599
+Nada mudou de verdade
+
+00:01:38.633 --> 00:01:40.699
+porque ainda estamos contando
+o número de salários,
+
+00:01:40.733 --> 00:01:42.966
+e não somando.
+
+00:01:42.999 --> 00:01:45.033
+Para usar uma função
+de agregação diferente,
+
+00:01:45.066 --> 00:01:48.166
+clique na lista suspensa
+e selecione configurações de campo.
+
+00:01:48.199 --> 00:01:52.466
+Muitas delas
+aprendemos mais cedo.
+
+00:01:52.499 --> 00:01:55.166
+Selecione
+a agregação SOMA.
+
+00:01:55.199 --> 00:01:58.599
+Agora temos as somas dos salários
+de cada time por posição,
+
+00:01:58.633 --> 00:02:02.366
+assim como os subtotais
+e o total final.
+
+00:02:02.399 --> 00:02:04.499
+Para que fique
+de mais fácil leitura,
+
+00:02:04.533 --> 00:02:08.166
+selecione a área completa
+e mude o tipo de dados
+
+00:02:08.199 --> 00:02:11.833
+para cada contagem
+ou moeda.
+
+00:02:13.199 --> 00:02:15.099
+Certo, agora é sua vez.
+

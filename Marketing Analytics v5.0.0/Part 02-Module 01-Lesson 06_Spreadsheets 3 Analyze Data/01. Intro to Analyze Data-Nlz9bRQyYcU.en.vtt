@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.590
+In the previous lesson,
+
+00:00:01.590 --> 00:00:04.379
+you learnt some techniques for manipulating data.
+
+00:00:04.379 --> 00:00:07.469
+In this lesson, you'll learn some additional functions and
+
+00:00:07.469 --> 00:00:11.724
+techniques useful for analyzing the data in your spreadsheet.
+
+00:00:11.724 --> 00:00:15.969
+What do we really mean when we say analyze the data?
+
+00:00:15.970 --> 00:00:20.024
+Well, we start with a lot of information about something, our data.
+
+00:00:20.024 --> 00:00:24.524
+Such as how many apples and oranges were ordered in the fruit stand example,
+
+00:00:24.524 --> 00:00:28.799
+or rosters and salaries in the baseball players example.
+
+00:00:28.800 --> 00:00:31.455
+This data by itself doesn't mean much
+
+00:00:31.454 --> 00:00:35.049
+until we start asking and answering questions about it.
+
+00:00:35.049 --> 00:00:40.209
+For example, how many pieces of fruit on average were in each order,
+
+00:00:40.210 --> 00:00:46.155
+or what's the average salary for an American League Baseball player in 2003?
+
+00:00:46.155 --> 00:00:50.820
+We can find out some of this information using aggregation functions.
+
+00:00:50.820 --> 00:00:52.875
+You've already used two of these,
+
+00:00:52.875 --> 00:00:56.424
+sum and average to answer some questions.
+
+00:00:56.424 --> 00:00:58.695
+So you've already started analyzing data
+
+00:00:58.695 --> 00:01:01.914
+with aggregation functions in the previous lesson.
+
+00:01:01.914 --> 00:01:06.329
+There are quite a few more aggregation functions and you're going to learn some of these.
+
+00:01:06.329 --> 00:01:10.049
+These functions may not answer all the questions we have though.
+
+00:01:10.049 --> 00:01:15.310
+We often want to find out if a cell meets certain conditions.
+
+00:01:15.310 --> 00:01:21.375
+For example, if a student scored above a certain value on a test give them an A.
+
+00:01:21.375 --> 00:01:23.459
+For these conditional dependencies,
+
+00:01:23.459 --> 00:01:25.799
+logical functions are what is needed.
+
+00:01:25.799 --> 00:01:30.884
+We'll go over the IF function and the comparison operators that go with it.
+
+00:01:30.885 --> 00:01:36.330
+Then, examine logical functions And Or, and Not.
+
+00:01:36.329 --> 00:01:39.484
+The last group of logical functions we'll explore,
+
+00:01:39.484 --> 00:01:42.355
+combine aggregation with logic.
+
+00:01:42.355 --> 00:01:47.005
+We refer to these as conditional aggregation functions.
+
+00:01:47.004 --> 00:01:49.729
+Next, you'll learn to create pivot tables.
+
+00:01:49.730 --> 00:01:53.010
+A pivot table is a tool that will allow you to
+
+00:01:53.010 --> 00:01:57.255
+summarize and aggregate data all in one step.
+
+00:01:57.254 --> 00:02:01.364
+After that, we'll shift directions a bit and introduce named ranges,
+
+00:02:01.364 --> 00:02:06.254
+which are helpful when we reuse the same ranges over and over in our spreadsheets.
+
+00:02:06.254 --> 00:02:10.514
+It's much easier to remember something like, student roster,
+
+00:02:10.514 --> 00:02:19.250
+than some cryptic address like sheet3!A1:J943 or some such thing.
+
+00:02:19.250 --> 00:02:22.800
+Using descriptive names for ranges will also reduce errors and
+
+00:02:22.800 --> 00:02:27.300
+increase understanding of the formulas as they become more complex.
+
+00:02:27.300 --> 00:02:32.768
+The named ranges are going to be especially helpful in working with lookup functions,
+
+00:02:32.768 --> 00:02:34.219
+at the end of the lesson.
+
+00:02:34.219 --> 00:02:36.229
+Okay let's get started.
+
