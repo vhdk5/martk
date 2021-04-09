@@ -1,0 +1,237 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817869,
+      "key": "4864bbd8-1a76-4992-9812-ea837cc2a4f8",
+      "title": "Project - Navigating, Reports, & Dashboards ",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": {
+        "key": "a82f4c33-a268-4b25-8254-4b4645ad8d6d",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 14400,
+        "semantic_type": "Project",
+        "title": "Project - Navigating, Reports, & Dashboards ",
+        "description": "### Navigating, Reports, & Dashboards \n\nMake a copy of this [Google doc template](https://docs.google.com/presentation/d/1lg7VKmzawj-C2H1RMT4utnmC_uDs7jxvOBXQv2PfsNQ/edit?usp=sharing), and be sure to complete each section.\n\na) To copy the template as a Google Slide: Open the template in Google. Then, click on File --> Make a copy... --> and select \"My Drive\" as the destination. This will allow you to edit the template in Google.\n\nb) To copy the template as a Microsoft Powerpoint file: Open the template in Google. Then, click on File >> Download as... >> Microsoft Powerpoint. This will allow you to edit the template as a .pptx file.\n\nWhen you are ready, save your file as a PDF and submit it.\n\nFinally, be sure to convert your answers document into a PDF and submit it below. It's straightforward to convert a Microsoft Word document into a pdf on a PC or Mac. If you used a Google Doc, in Google Docs, simply click on File >> Download as… >> and choose PDF Document.\n\n### Rubric\nYou can reference this project's [rubric](https://review.udacity.com/#!/rubrics/2485/view) to review what your submission should include.\n\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2485",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 817870,
+          "key": "aedb7174-bd54-4831-86f1-17c17e842b10",
+          "title": "Getting Started",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aedb7174-bd54-4831-86f1-17c17e842b10",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818150,
+              "key": "66cc2916-2e68-431b-a504-37464b1e9e5e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Welcome to your Google Analytics project!\nFor anyone looking at Google Analytics data for the first time, the scope and depth can quickly become overwhelming. In this project, you’ll use readily available tools in Google Analytics to bridge the gap between raw data and actionable insight. Using best practices for working in GA, you will explore data, and applying segmentation techniques to answer questions. The focus of your work will be on demonstrating your mastery of forming and answering questions based on raw data. After you complete the mastery section of the project you further explore the data in Google Analytics by building and designing a dashboard for the Google Merchandise Store using Data Studios. \n\n## Getting Started\n\nIn this project, your key goal will be to get a strong grasp of the wide array of reports available in Google Analytics, and what types of insights they offer. \n\nTo get started, spend some time looking through this comprehensive [reporting guide](https://www.e-nor.com/wp-content/uploads/pubs/checklists/google-analytics-reporting-guide.pdf) of all the reports that Google Analytics offers. Strive to build an understanding of the pros and cons of each type of report type, and keep in mind that not every report in Google Analytics will be useful for all the types of insights you may be looking for.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 817871,
+          "key": "7a16b340-f3f4-4223-8ce3-606258325313",
+          "title": "Project Instructions: Part One",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7a16b340-f3f4-4223-8ce3-606258325313",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818151,
+              "key": "4523299a-004d-4021-826c-b87a8d05fbbf",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Part One: Use Advanced Displays, Create Segments & Apply View Settings\n \n### A. Primary Views\nAn industry best practice is to ensure that there are three different views for whatever property you are working in:\n* unfiltered (all the data, never mess with it)\n* test (where you can try things out before making them live)\n* working (where you’ll implement your work once it’s been tested and it’s getting the results you want) (This is a best practice and should be applied to any Google Analytics property you're working with.)\n\n**To demonstrate your knowledge:**\n* If these views already exist, take a screenshot, and insert it on the page 5 slide after removing all text except the title of the slide.\n* If you have access to create these views, do so, and then take a screenshot. Next, insert your screenshot on the page 5 slide after removing all text except the title of the slide.\n* If you don’t have access to create these views and they do not already exist, take a screenshot of where these views can be added, paste it above after removing all text except the title of the slide, and provide the steps necessary to create the views.\n* Excluding internal traffic: Determine if the property you’re working in is excluding internal traffic in one of its views. If not, create a filter to do so. In either case, take a screenshot to show that you were here.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818152,
+              "key": "390754e7-724c-4cac-a46c-e6ab0bdb9ac9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### B. Filter\nAnother industry best practice is to make sure that the property you’re working in is excluding internal traffic in at least one of its views (ideally, the Production view or a copy of it.)\n\n**To demonstrate your knowledge:**\n\n* If the filter is already in place, take a screenshot and insert it on this slide after removing all other text except the slide title.\n* If you have access and the appropriate information to create this filter, do so, take a screenshot, and insert it on this slide after removing all text except the title of the slide.\n* If you don’t have access to create this filter and it does not already exist, take a screenshot of where this filter could be added and paste it on this slide after removing all text except the title of the slide. Then, provide the steps necessary to create the filter.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818153,
+              "key": "05dabce3-fbab-4d4d-ac29-a3cee80d8687",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### C. Data Exploration\n\nUsing the best practices above, explore the data and form questions.\n\n1. Start in the Overview Report in each of these GA Reporting Areas: Audience, Acquisition, Behavior, & Conversion. Formulate questions that come to mind for each section, taking screenshots to help illustrate your questions. Also, make note of the path you take - when looking at one set of data, what question came to mind, and what did you do to try and answer it?\n2. Change the default display of some standard reports in each of the GA Reporting Areas: Audience, Acquisition, Behavior, & Conversion, from Data to the following displays: Performance, Percentage, Comparison, and Pivot. Do any of these displays answer questions, provide insight, or require follow-up? Make notes to communicate what you find and again, take screenshots to demonstrate what your exploration.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818154,
+              "key": "da669749-6d63-4d5e-9344-cf4cf05d00c0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### D. Segmentation\n\nUsing the technique of segmentation, attempt to answer the questions posed in part two.\nBased on your questions, identify and show three different audience segments that could help to answer the question(s).\n\n* One based on audience characteristic (such as technology or demographics)\n* One based on geography\n* One based on user behavior\n\nIf applicable, change the scope for the behavior segment between Sessions and Users to see how this impacts metrics such as goal conversion rate.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 818155,
+          "key": "e328c6a0-acbe-4fd7-8739-606c9cb5d716",
+          "title": "Project Instructions: Part Two",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e328c6a0-acbe-4fd7-8739-606c9cb5d716",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818156,
+              "key": "2e15ef9b-e2f5-43c5-ab91-4e05a61fa111",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Part Two: Creating Custom Reports, Dashboards, and Custom Alerts\n\nNow, it’s time to get to work! Let's pretend for the purpose of this project that the CMO of the Google Merchandise Store is having a contest to generate design ideas for a dashboard to be used by a group of managers.\nThe dashboard must be built in Data Studio and meet the following specifications:\n\n1. Be built on the Master View.\n2. Contain a Time Series chart: configured to show unique pageviews, sessions, and users.\n3. Contain a Pie chart, 7 slices: configured to show revenue, broken down by product categories. The Google  Merchandise Store has used multiple Product Category Groups and for this chart, you are being asked to use the dimension called Product Category - Previous Content Group.\n4. Contain a Pie chart, 5 slices: configured to show what sources are driving new users to the site.\n5. Contain a Scorecard: configured to display average order value.\n6. Contain a Date Range Control that governs all of the charts, set to the range of August 1st-September 5th, 2018.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 818157,
+          "key": "67f145ab-2494-419d-8efd-47b2094ee2ae",
+          "title": "Data Studio Instructions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "67f145ab-2494-419d-8efd-47b2094ee2ae",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 818158,
+              "key": "8cdda347-e8ad-4f2b-bd17-9a21bcc86232",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Getting Started: Data Sudios\n\nThe first step here is to go into [Data Studio](https://datastudio.google.com/u/0/navigation/reporting) and familiarize yourself with the myriad of options available there for data visualization. The best way to do this, if you haven’t used DS before, is to take advantage of the ‘Start here’ link & and ‘Video tutorials’.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818159,
+              "key": "5e92f8aa-7d35-4bba-883d-7ea4a215aa9a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c5bae00_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5e92f8aa-7d35-4bba-883d-7ea4a215aa9a",
+              "caption": "",
+              "alt": "",
+              "width": 1999,
+              "height": 825,
+              "instructor_notes": null
+            },
+            {
+              "id": 818160,
+              "key": "ff88026c-0dcc-445c-8982-54b3159dc29a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c5bae0c_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ff88026c-0dcc-445c-8982-54b3159dc29a",
+              "caption": "",
+              "alt": "",
+              "width": 772,
+              "height": 1190,
+              "instructor_notes": null
+            },
+            {
+              "id": 818161,
+              "key": "45a9d359-628e-4282-8645-4c0b61c6f51a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you’re going through this discovery, ask how what you are seeing might be helpful to present to others or keep for your own reference and baselining purposes. It might take some time for you to get a handle on what elements would work well for this project and which you may want to save for further exploration down the road. For now, settle on a set of 5 or 6 elements you can configure to give some visual impact to your work. These elements can work together to tell a story about a particular discovery or insight, or each one may support its own unique facet of your data story. While you are involved in this exploration, new questions and ideas will occur to you; make note of them, as they may be helpful later in this project or in a future project. Often when working with data, you make discoveries on the journey to where you actually intended to go. Enjoy this aspect of working with data! As a matter of fact, the best place to share these notes, discoveries, and new questions is in the ‘annotations’ function of GA, so go ahead and start making those notations there and continue to do so for the duration of the project.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818162,
+              "key": "ad28659d-e1ea-48ea-931f-fa3727472bd7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Linking to the Google Merchandise Store Demo Account Google Analytics to Data Studio\nLink the Master View of the Google Merchandise Store Demo Account Google Analytics Data to Data Studio, using the Google Analytics Connector found in Data Studio.\n\nTo connect:\n1. Sign in to [Data Studio](https://datastudio.google.com/) . After signing in, you'll see the Home page, with the REPORTS tool selected.\n2. On the left, navigate to the [DATA SOURCES](https://datastudio.google.com/#/navigation/datasources) Home page.\n3. In the bottom right, click +\n4. Create new report or data source.\n5. Select the Analytics connector.\n6. If prompted to grant Data Studio access to your account, click AUTHORIZE.\n7. Select an account, property, and view.\n8. In the upper right, click CONNECT.\n9. The data source fields panel appears.\n10. The data source is now connected to your data set.\n\nTake a screenshot showing the Master View as a Data Source in Data Studio, and place it on the slide. which should look the screenshot below:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 818163,
+              "key": "339004ea-057c-476f-a9ab-8a47031b1f84",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c5baef0_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/339004ea-057c-476f-a9ab-8a47031b1f84",
+              "caption": "",
+              "alt": "",
+              "width": 844,
+              "height": 286,
+              "instructor_notes": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

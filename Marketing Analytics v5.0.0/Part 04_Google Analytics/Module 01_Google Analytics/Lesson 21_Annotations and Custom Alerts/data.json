@@ -1,0 +1,611 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817173,
+      "key": "909e32b8-a2da-4868-ae71-1fc8154750ab",
+      "title": "Annotations and Custom Alerts",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/909e32b8-a2da-4868-ae71-1fc8154750ab/817173/1556073776897/Annotations+and+Custom+Alerts+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/909e32b8-a2da-4868-ae71-1fc8154750ab/817173/1556073774376/Annotations+and+Custom+Alerts+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 791521,
+          "key": "661dc4eb-5c4d-475e-9319-83f1f7eedaae",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "661dc4eb-5c4d-475e-9319-83f1f7eedaae",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791522,
+              "key": "9b477235-801e-4be5-9f4d-2326f7f82135",
+              "title": "C4 L4 0 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "RRqouzynsQ4",
+                "china_cdn_id": "RRqouzynsQ4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704522,
+          "key": "524e4a78-0fa2-4a04-9ac2-d1a73774ea64",
+          "title": "Overview & When to Use",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "524e4a78-0fa2-4a04-9ac2-d1a73774ea64",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791523,
+              "key": "05be3c8b-4b00-4c36-91d6-34f62c6a8bd6",
+              "title": "C4 L4 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "md35zM4q5ys",
+                "china_cdn_id": "md35zM4q5ys.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704523,
+          "key": "2db4b7bc-d68f-4fef-94e6-9680c06221d4",
+          "title": "Annotations - How To",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2db4b7bc-d68f-4fef-94e6-9680c06221d4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791524,
+              "key": "4070de1a-325a-4c56-bc4f-09afddffa88c",
+              "title": "C4 L4 02 Annotations How To",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0g7RKG4DTcE",
+                "china_cdn_id": "0g7RKG4DTcE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704524,
+          "key": "74e4595a-5f93-4f49-aa4d-6b5d9a7fe5fc",
+          "title": "Annotations - How To II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "74e4595a-5f93-4f49-aa4d-6b5d9a7fe5fc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791525,
+              "key": "07eb2f5b-de09-4410-a127-9f8e85d96cba",
+              "title": "C4 L4 03 Annotations How To II",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "demCunTHu54",
+                "china_cdn_id": "demCunTHu54.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 790757,
+          "key": "034b6701-9d2a-46f5-b508-94d47763d995",
+          "title": "Annotation Clarifies Metrics After Site Launch",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "034b6701-9d2a-46f5-b508-94d47763d995",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790758,
+              "key": "3713be7b-b9b6-4355-8e7c-8d7712a2b478",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When we were discussing time metrics in a previous lesson, we saw that July 2016 was not the best month for the Google Merchandise Store: Average Session Duration was up, while Ecommerce Conversion Rate was down, which probably indicates user frustration.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 790760,
+              "key": "6589f4ea-851f-4d06-81a3-749bdb057134",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/December/5c06cad9_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6589f4ea-851f-4d06-81a3-749bdb057134",
+              "caption": "",
+              "alt": "",
+              "width": 1226,
+              "height": 533,
+              "instructor_notes": null
+            },
+            {
+              "id": 790759,
+              "key": "0bd63aaa-ac58-42d3-91ce-70f020a3ef6a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "If we click into the annotations, we see the very likely reason for the changes: a new site launch on a new domain.\n\n*Did the launch go completely smoothly?*  \n\nProbably not.\n\n*Do you need to drill down?*\n\nProbably not.  We see that that performance recovered in the following month.  It's always your prerogative as an analyst to further investigate, but it's reasonable to attribute the month of soft performance to the site relaunch and to focus your energies on other analysis and optimization tasks.\n\nIn this way, a simple annotation has provided clarity and saved time.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 791918,
+          "key": "5aba1532-ee14-4142-a7d9-7d83027bb20e",
+          "title": "Quiz: Annotations visibility",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5aba1532-ee14-4142-a7d9-7d83027bb20e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791919,
+              "key": "cd695b79-acb8-4d4c-bffa-2e17d9cbc004",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cd695b79-acb8-4d4c-bffa-2e17d9cbc004",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In GA, annotations can exist in  reports that contain a ```____________________.```\n",
+                "answers": [
+                  {
+                    "id": "a1544572610093",
+                    "text": "Data table",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572639546",
+                    "text": "Timeline",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544572646642",
+                    "text": "Location chart",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572652738",
+                    "text": "Funnel chart",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 793364,
+              "key": "a512e328-d8da-4e01-aa99-6ee1e0de302a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a512e328-d8da-4e01-aa99-6ee1e0de302a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these isn’t an occurrence worthy of putting an annotation in GA?\n",
+                "answers": [
+                  {
+                    "id": "a1544572734701",
+                    "text": "Adding a user to your GA account ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544572753867",
+                    "text": "Making a change to your homepage",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572754545",
+                    "text": "Launching a new campaign ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572775114",
+                    "text": "An annotation should be created for all of the occurrences above.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 793365,
+              "key": "5bbcdedb-c5ad-4e72-b5b7-4f709e76497b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5bbcdedb-c5ad-4e72-b5b7-4f709e76497b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** It’s a best practice to enter annotations into GA on a weekly or bi-weekly basis. ",
+                "answers": [
+                  {
+                    "id": "a1544573116125",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573129682",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 793366,
+              "key": "881bf740-e344-4b0e-9731-cdfc0cfc2bd3",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "881bf740-e344-4b0e-9731-cdfc0cfc2bd3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In order to view annotations for a given date, what condition must exist?\n",
+                "answers": [
+                  {
+                    "id": "a1544573183933",
+                    "text": "It must be the **first date selected** in the date range selector",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573193833",
+                    "text": "It must be the **last date selected** in the date range selector",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573209466",
+                    "text": "It must be a date within the range of dates selected in the date range selector",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544573234043",
+                    "text": "None of these conditions needs to be met because annotations are always visible.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 793367,
+              "key": "fe122d3a-c6d1-413b-bbda-e4e0820c5457",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fe122d3a-c6d1-413b-bbda-e4e0820c5457",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Annotations are only visible to the person who creates them.\n",
+                "answers": [
+                  {
+                    "id": "a1544573280853",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573295850",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704525,
+          "key": "36e09259-6f69-4a6f-bb2e-01a592400194",
+          "title": "Custom Alerts - Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "36e09259-6f69-4a6f-bb2e-01a592400194",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791526,
+              "key": "0ef7be8c-75e0-4433-ac4b-efdcbeda5206",
+              "title": "C4 L4 04 Custom Alerts - Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Bkn3O1-INHc",
+                "china_cdn_id": "Bkn3O1-INHc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704526,
+          "key": "5614316e-ea8a-4004-8883-aaea3ed250e4",
+          "title": "Custom Alerts - Overview II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5614316e-ea8a-4004-8883-aaea3ed250e4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791527,
+              "key": "456769ef-dddb-46a2-bbb1-dc634574fbb8",
+              "title": "C4 L4 05 Custom Alerts - Overview II",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rkVplcsO79A",
+                "china_cdn_id": "rkVplcsO79A.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704527,
+          "key": "35fe4414-be06-4740-9310-7cf74212d2aa",
+          "title": "Custom Alerts - How To",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35fe4414-be06-4740-9310-7cf74212d2aa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791528,
+              "key": "fb1b5324-c4cb-46c0-90a2-e6e23bc70281",
+              "title": "C4 L4 06 Custom Alerts - How To",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ppjDmsQM5OI",
+                "china_cdn_id": "ppjDmsQM5OI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 793368,
+          "key": "6a3694b2-ff2d-4184-bdd4-0385f3fe3abe",
+          "title": "Quiz: Annotations Part 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6a3694b2-ff2d-4184-bdd4-0385f3fe3abe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 793369,
+              "key": "19c3819d-eeda-488b-891f-e7b4553831c5",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "19c3819d-eeda-488b-891f-e7b4553831c5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Annotations in GA are limited to what number of characters?\n",
+                "answers": [
+                  {
+                    "id": "a1544573390814",
+                    "text": "140",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573424705",
+                    "text": "160",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544573428034",
+                    "text": "180",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573431066",
+                    "text": "200",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 793370,
+              "key": "3a2f10c4-106c-4bdf-97ce-28d13e31cdd7",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3a2f10c4-106c-4bdf-97ce-28d13e31cdd7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When you export a report from GA that contains annotations, the annotations:\n",
+                "answers": [
+                  {
+                    "id": "a1544573494077",
+                    "text": "Are included in separate sheet",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573506242",
+                    "text": "Are included at the bottom of the report’s last page ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573507281",
+                    "text": "Are denoted only by the text bubbles that appear along the report’s timeline. ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544573522530",
+                    "text": "Are not included or denoted in any way. ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 793371,
+              "key": "f00f939b-1d59-4428-a0f7-d636bdb40669",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f00f939b-1d59-4428-a0f7-d636bdb40669",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What time data is included on an annotation in GA?\n",
+                "answers": [
+                  {
+                    "id": "a1544573601611",
+                    "text": "Single date ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544573610538",
+                    "text": "Single date and day of week",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573617179",
+                    "text": "Single date, hour, and minute created ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544573629074",
+                    "text": "Date range",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

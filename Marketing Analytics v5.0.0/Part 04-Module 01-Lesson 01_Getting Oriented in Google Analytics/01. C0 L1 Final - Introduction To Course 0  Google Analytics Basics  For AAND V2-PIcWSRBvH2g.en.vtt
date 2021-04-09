@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.019
+Google Analytics, is an essential platform that can help you to
+
+00:00:04.019 --> 00:00:07.934
+understand and track how users interact with your website.
+
+00:00:07.934 --> 00:00:09.869
+In this introductory course,
+
+00:00:09.869 --> 00:00:13.320
+we will walk you through the basics of using Google Analytics data.
+
+00:00:13.320 --> 00:00:14.820
+At the end of this course,
+
+00:00:14.820 --> 00:00:18.329
+you will have a good working knowledge of Google Analytics and how it
+
+00:00:18.329 --> 00:00:22.349
+can help you evaluate a website's performance and audience.
+
+00:00:22.350 --> 00:00:24.179
+In the courses that follow,
+
+00:00:24.179 --> 00:00:28.184
+we will go deeper into how you set up your Google Analytics instance,
+
+00:00:28.184 --> 00:00:31.919
+segmentation, as well as specialized aspects of the tool.
+
+00:00:31.920 --> 00:00:34.079
+Before we jump in and dive deep,
+
+00:00:34.079 --> 00:00:36.500
+let's first gets oriented on the basics.
+
+00:00:36.500 --> 00:00:39.020
+If you're already familiar with Google Analytics,
+
+00:00:39.020 --> 00:00:43.625
+you may find that you can go through the lessons in this first course pretty quickly.
+
+00:00:43.625 --> 00:00:46.490
+Google Analytics, is a powerful platform that
+
+00:00:46.490 --> 00:00:49.359
+can inform everything from the health of your product,
+
+00:00:49.359 --> 00:00:52.399
+to how best to market to a particular audience.
+
+00:00:52.399 --> 00:00:56.030
+To get a true sense and appreciation of the power of this tool,
+
+00:00:56.030 --> 00:00:58.054
+you need to dig in and use it.
+
+00:00:58.054 --> 00:01:01.759
+In this course, you will have the opportunity to get your hands
+
+00:01:01.759 --> 00:01:05.914
+dirty in actual data in a real Google Analytics account.
+
+00:01:05.915 --> 00:01:11.180
+This course is designed for students with or without experience in Google Analytics.
+
+00:01:11.180 --> 00:01:14.179
+We've positioned the course from a digital marketers perspective,
+
+00:01:14.179 --> 00:01:18.079
+to ground the experience in practical applications.
+
+00:01:18.079 --> 00:01:24.069
+We will approach this in a few steps that will help you not to get lost in the data.
+
+00:01:24.069 --> 00:01:26.294
+Here is what you'll learn.
+
+00:01:26.295 --> 00:01:30.200
+First, we will look at how a Google Analytics account is set up,
+
+00:01:30.200 --> 00:01:32.495
+as well as some common definitions.
+
+00:01:32.495 --> 00:01:36.775
+Then, you'll learn how to evaluate the visitors that come to your site.
+
+00:01:36.775 --> 00:01:39.430
+Who are they and how many of them are coming?
+
+00:01:39.430 --> 00:01:43.220
+Next, we'll focus on where those visitors came from.
+
+00:01:43.219 --> 00:01:45.920
+Which marketing channels helped you to attract them to
+
+00:01:45.920 --> 00:01:49.585
+your site and how to find all of this information.
+
+00:01:49.584 --> 00:01:52.669
+Then, you'll learn how to evaluate user behavior on
+
+00:01:52.670 --> 00:01:56.780
+your site and to determine if it aligns with your business goals.
+
+00:01:56.780 --> 00:02:00.724
+Finally, you'll learn how to measure whether you were successful
+
+00:02:00.724 --> 00:02:05.044
+at getting people to the action or conversion you wanted from them.
+
+00:02:05.045 --> 00:02:06.965
+As you go through the scores,
+
+00:02:06.965 --> 00:02:12.409
+you'll see that these steps align with how Google Analytics is structured.
+
+00:02:12.409 --> 00:02:15.620
+We will practice everything along the way in
+
+00:02:15.620 --> 00:02:19.819
+an actual Google Analytics account for the Google Merchandise Store.
+
+00:02:19.819 --> 00:02:21.394
+The Google Merchandise Store,
+
+00:02:21.395 --> 00:02:25.235
+is an online store where you can buy Google branded goods.
+
+00:02:25.235 --> 00:02:30.120
+Google allows us to access the Google Analytics account for training and education.
+
+00:02:30.120 --> 00:02:32.719
+Let's have a look at how you can access this account
+
+00:02:32.719 --> 00:02:35.289
+yourself and start evaluating the data.
+
+00:02:35.289 --> 00:02:37.719
+To get the most out of this course,
+
+00:02:37.719 --> 00:02:42.004
+you will need to get access to the Google Analytics Merchandise Store account.
+
+00:02:42.004 --> 00:02:46.359
+Don't worry, accessing the account is easy and it's free.
+

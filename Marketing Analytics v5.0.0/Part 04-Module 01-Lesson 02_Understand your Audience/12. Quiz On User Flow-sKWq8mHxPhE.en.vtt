@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.710
+The first statement is correct.
+
+00:00:02.710 --> 00:00:08.129
+We see indeed that of the users that land on the home page in the second interaction,
+
+00:00:08.130 --> 00:00:11.445
+32.1 percent of the sessions drop off.
+
+00:00:11.445 --> 00:00:14.009
+That's what the red line here indicates.
+
+00:00:14.009 --> 00:00:16.500
+Let's take a look at the second statement.
+
+00:00:16.500 --> 00:00:20.730
+This statement is about user sessions from users on Chrome.
+
+00:00:20.730 --> 00:00:24.440
+So let's isolate that group by looking at the flow by browser.
+
+00:00:24.440 --> 00:00:28.525
+Now, let's take a look at a Chrome users that visits the homepage.
+
+00:00:28.524 --> 00:00:31.379
+We can do that by clicking on this part of
+
+00:00:31.379 --> 00:00:36.030
+the user flow and when we follow this group to the next interaction,
+
+00:00:36.030 --> 00:00:42.865
+we see that 2.6K of the sessions end up on the T-shirt page not 2.3K.
+
+00:00:42.865 --> 00:00:44.539
+So this statement is false.
+

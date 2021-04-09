@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.559
+Now, let's take a look at where in Google Analytics you define segments.
+
+00:00:04.559 --> 00:00:08.399
+We're back in the Google Analytics account for the Google merchandise store.
+
+00:00:08.400 --> 00:00:09.810
+We're in the master view,
+
+00:00:09.810 --> 00:00:12.855
+and we see the default audience overview page.
+
+00:00:12.855 --> 00:00:15.359
+By default, Google shows us the data for
+
+00:00:15.359 --> 00:00:19.184
+all the traffic that passes through your site for the time-frame selected.
+
+00:00:19.184 --> 00:00:23.294
+You'll see here that the default segment is, All Users.
+
+00:00:23.295 --> 00:00:25.155
+But I can add a new segment here,
+
+00:00:25.155 --> 00:00:27.990
+where I specify the sub-group I'd like to look at.
+
+00:00:27.989 --> 00:00:29.609
+As you'll see here,
+
+00:00:29.609 --> 00:00:32.369
+there are some segments that have already been defined.
+
+00:00:32.369 --> 00:00:33.989
+This is a live account,
+
+00:00:33.990 --> 00:00:35.969
+and many students have access to this account.
+
+00:00:35.969 --> 00:00:38.284
+So, some segments have already been created,
+
+00:00:38.284 --> 00:00:41.254
+but we can go ahead and create a new segment.
+
+00:00:41.255 --> 00:00:44.060
+You can now select the shared characteristics
+
+00:00:44.060 --> 00:00:46.445
+you want the people in your segment to have.
+
+00:00:46.445 --> 00:00:50.090
+You may want to select people of a certain gender and age.
+
+00:00:50.090 --> 00:00:54.859
+You can distinguish groups on the basis of the technology they use to access your site,
+
+00:00:54.859 --> 00:00:56.539
+you can specify behavior,
+
+00:00:56.539 --> 00:00:58.534
+you can choose the traffic sources.
+
+00:00:58.534 --> 00:01:00.949
+For example, people that found you through Facebook.
+
+00:01:00.950 --> 00:01:05.975
+You can also distinguish groups of people based on certain shopping related behaviors.
+
+00:01:05.974 --> 00:01:09.469
+Basically, you can describe the segment of users you'd like to see
+
+00:01:09.469 --> 00:01:13.189
+data for with any dimensions that Google Analytics uses.
+
+00:01:13.189 --> 00:01:14.539
+In the advanced section,
+
+00:01:14.540 --> 00:01:17.840
+you can define even more granular segments.
+
+00:01:17.840 --> 00:01:20.329
+Let's say you're interested in the behavior of people
+
+00:01:20.329 --> 00:01:24.590
+under 35 years old that access the site on a mobile device,
+
+00:01:24.590 --> 00:01:28.850
+because you want to understand how young users accessing the site on mobile,
+
+00:01:28.849 --> 00:01:31.024
+navigate through your product pages.
+
+00:01:31.025 --> 00:01:32.900
+You can select those conditions,
+
+00:01:32.900 --> 00:01:36.350
+and you can call this segment, Young mobile users.
+
+00:01:36.349 --> 00:01:41.539
+Google gives you a sense here on the right of just how big my segment is,
+
+00:01:41.540 --> 00:01:44.315
+and now you can use a segment throughout your analysis.
+
+00:01:44.314 --> 00:01:46.189
+Now, when you go back to your report,
+
+00:01:46.189 --> 00:01:48.965
+you see the data for your new segment only.
+
+00:01:48.965 --> 00:01:52.385
+You can compare that to any other segment you may have saved,
+
+00:01:52.385 --> 00:01:57.870
+or you can select the All User segment to compare the total population.
+

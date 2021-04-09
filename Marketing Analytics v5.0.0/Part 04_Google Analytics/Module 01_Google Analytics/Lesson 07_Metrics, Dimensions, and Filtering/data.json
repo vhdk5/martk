@@ -1,0 +1,533 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817159,
+      "key": "03242535-34dd-47b7-9ffe-58ccb8d06f15",
+      "title": "Metrics, Dimensions, and Filtering",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/03242535-34dd-47b7-9ffe-58ccb8d06f15/817159/1556073817137/Metrics%2C+Dimensions%2C+and+Filtering+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/03242535-34dd-47b7-9ffe-58ccb8d06f15/817159/1556073814715/Metrics%2C+Dimensions%2C+and+Filtering+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 704626,
+          "key": "f3e38463-1b96-49c0-8b42-dad575efbad4",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f3e38463-1b96-49c0-8b42-dad575efbad4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782059,
+              "key": "6c99671d-9d0f-4f8a-a8a0-825fb7d69367",
+              "title": "C2 L2 00-Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "w_hSL8B2t9U",
+                "china_cdn_id": "w_hSL8B2t9U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 782058,
+          "key": "cff03ba9-8fe5-409d-883e-aae3c3e2fbd6",
+          "title": "Metrics, Dimensions and Filtering Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cff03ba9-8fe5-409d-883e-aae3c3e2fbd6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782060,
+              "key": "578d9f4e-996f-49a6-b875-4cdf4a79c404",
+              "title": "C2 L2 00a Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "usAN0vmA_DY",
+                "china_cdn_id": "usAN0vmA_DY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 766957,
+          "key": "9c6f4322-6b7f-42ac-b337-cdd3c212d6ff",
+          "title": "Dimensions and Metrics Definitions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9c6f4322-6b7f-42ac-b337-cdd3c212d6ff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766958,
+              "key": "8c82d5a8-85d1-4e7c-9b3b-cec17a0fb35c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are two important building blocks that underly all the Google Analytics Reports, the **Dimensions** and the **Metrics**.  Before moving on, let’s take a quick look at the definitions. \n\nHere is [how they are defined in Google Analytics](https://support.google.com/analytics/answer/1033861?hl=en&ref_topic=2709827): \n\n(*from our partners at Google Analytics*)\n\nDimensions are attributes of your data. For example, the dimension City indicates the city, for example, \"Paris\" or \"New York\", from which a session originates. The dimension Page indicates the URL of a page that is viewed.\nMetrics are quantitative measurements. The metric Sessions is the total number of sessions. The metric Pages/Session is the average number of pages viewed per session.\nThe tables in most Analytics reports organize dimension values into rows and metrics into columns. For example, this table shows one dimension (City) and two metrics (Sessions and Pages/Session).\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766959,
+              "key": "638c0bc4-205b-49f7-b9eb-529a2fb04852",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bcfac01_screen-shot-2018-10-23-at-4.17.06-pm/screen-shot-2018-10-23-at-4.17.06-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/638c0bc4-205b-49f7-b9eb-529a2fb04852",
+              "caption": "",
+              "alt": "",
+              "width": 1456,
+              "height": 294,
+              "instructor_notes": null
+            },
+            {
+              "id": 766960,
+              "key": "63e4846f-e89a-4366-adb8-dc7cee60ac56",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In most Analytics reports, you can change the dimension and/or add a secondary dimension. For example, adding Browser as a secondary dimension to the above table would result in the following:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766961,
+              "key": "5293dcd1-81cc-49a7-8755-152c0e3de14d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bcfac2a_screen-shot-2018-10-23-at-4.07.05-pm/screen-shot-2018-10-23-at-4.07.05-pm.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5293dcd1-81cc-49a7-8755-152c0e3de14d",
+              "caption": "",
+              "alt": "",
+              "width": 721,
+              "height": 231,
+              "instructor_notes": null
+            },
+            {
+              "id": 766962,
+              "key": "0c43348b-0194-4c26-9b67-21ac1e5ccdf7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You will find the dimension above the data table, and that is where you can change the dimension and/or add a secondary dimension\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766963,
+              "key": "66b27a61-4211-4403-8af2-be03f4ccc306",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bcfac82_primary-dimension-pic/primary-dimension-pic.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/66b27a61-4211-4403-8af2-be03f4ccc306",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 527501,
+          "key": "3220a736-88c0-4d5a-ae8c-d21487eef2ff",
+          "title": "Understanding Dimension and Metric Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3220a736-88c0-4d5a-ae8c-d21487eef2ff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782061,
+              "key": "f6280dfc-9b4e-466b-8e1f-6796d95fe39c",
+              "title": "C2 L2 01 Understanding Dimension And Metric Data",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rQauDv3jIJM",
+                "china_cdn_id": "rQauDv3jIJM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527504,
+          "key": "d490ad13-9a50-4c8b-bbed-f894dee94550",
+          "title": "Applying a Secondary Dimension",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d490ad13-9a50-4c8b-bbed-f894dee94550",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782062,
+              "key": "e5d1cff7-dae3-4050-896c-31728a05e9db",
+              "title": "C2 L2 02 Applying A Secondary Dimension",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "vdf9rnbY-Cc",
+                "china_cdn_id": "vdf9rnbY-Cc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527505,
+          "key": "4d653f66-6866-4d43-b98b-0e69f8997a85",
+          "title": "Basic and Advanced Table Filters",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4d653f66-6866-4d43-b98b-0e69f8997a85",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782063,
+              "key": "d9a2a910-d8f9-4a94-baf4-b515d57467f6",
+              "title": "C2 L2 03 Basic And Advanced Table Filters",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Oo8G6DdVvcA",
+                "china_cdn_id": "Oo8G6DdVvcA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 780324,
+          "key": "92ba3b64-376f-4fe8-a35d-1a9562eb6041",
+          "title": "Quiz: Metrics, Dimensions, and Filtering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "92ba3b64-376f-4fe8-a35d-1a9562eb6041",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 780325,
+              "key": "993cd9d2-c38e-4a7a-a639-b223458365ab",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "993cd9d2-c38e-4a7a-a639-b223458365ab",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** GA can sometimes take the same data points and process them as both metrics and dimensions.",
+                "answers": [
+                  {
+                    "id": "a1541544989913",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541545022240",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780326,
+              "key": "6138383a-5c25-49ac-977b-921a8525873b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6138383a-5c25-49ac-977b-921a8525873b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Fill in this blank:**  To tell better stories in our GA reports, we can apply` ____________ `to the standard reports we are given.\n",
+                "answers": [
+                  {
+                    "id": "a1541545094098",
+                    "text": "Table Filters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541545116624",
+                    "text": "Secondary dimensions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541545123064",
+                    "text": "Both of these",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541545130800",
+                    "text": "Neither of these",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780328,
+              "key": "d333acce-13e7-4da7-9c4d-b6afb52dc8ce",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d333acce-13e7-4da7-9c4d-b6afb52dc8ce",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Table filters can be broken up into these two major categories:",
+                "answers": [
+                  {
+                    "id": "a1541545241362",
+                    "text": "Basic and Advanced ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541545258272",
+                    "text": "Include and Exclude",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541545265936",
+                    "text": "Primary and Secondary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541545283160",
+                    "text": "Ecommerce and Traffic",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780353,
+              "key": "e104ea65-d036-4e06-8aae-bd7d80722e12",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e104ea65-d036-4e06-8aae-bd7d80722e12",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Select all that apply)** Which of the following are typically true of a low cardinality report:\n",
+                "answers": [
+                  {
+                    "id": "a1541547655766",
+                    "text": "Tends to have fewer rows of data ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541547693556",
+                    "text": "Tends to have the detail you need",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541547694444",
+                    "text": "Tends to have so many rows of data it can be hard to use",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541547719797",
+                    "text": "Tends to lack in the detail you need ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780358,
+              "key": "76c64e29-d396-42c3-9aa7-ee38e6fd2c04",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "76c64e29-d396-42c3-9aa7-ee38e6fd2c04",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Regular Expressions consists of text and special characters called:\n",
+                "answers": [
+                  {
+                    "id": "a1541549518638",
+                    "text": "Subscript characters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541549527773",
+                    "text": "Hyperscript characters",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541549535021",
+                    "text": "Meta characters",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541549542566",
+                    "text": "Java characters",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 527506,
+          "key": "3113625d-605e-456b-9a45-3ac853aee028",
+          "title": "Advanced Pattern Matching with Regular Expressions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3113625d-605e-456b-9a45-3ac853aee028",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782064,
+              "key": "82803db1-b942-4c8b-9ca9-0af32f9f89a2",
+              "title": "C2 L2 04 Advanced Pattern Matching With Regular Expressions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[Here is more information on the use of regular expressions in Google Analytics](https://support.google.com/analytics/answer/1034324?hl=en)",
+              "video": {
+                "youtube_id": "dqb64juFWPI",
+                "china_cdn_id": "dqb64juFWPI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 782065,
+          "key": "7e4785d8-4d70-4c3e-93aa-a8bfa9bfe3b5",
+          "title": "Another Example with Regular Expressions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7e4785d8-4d70-4c3e-93aa-a8bfa9bfe3b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782066,
+              "key": "9e7fb3f8-69d9-4362-91f4-452f96142cec",
+              "title": "C2 L2 05 Another Example With Regular Expressions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "In this video, Eric uses [regex101.com](https://regex101.com/) to test out the regular expressions.  You can use this website anytime you would like to test your regular expressions. ",
+              "video": {
+                "youtube_id": "9MWnGdZBUvs",
+                "china_cdn_id": "9MWnGdZBUvs.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

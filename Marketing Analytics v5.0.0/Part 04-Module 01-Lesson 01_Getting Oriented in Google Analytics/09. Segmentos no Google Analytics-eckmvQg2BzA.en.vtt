@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.640
+So far we looked at Google Analytics data
+
+00:00:02.640 --> 00:00:05.450
+for all the visitors of the Google merchandise store.
+
+00:00:05.450 --> 00:00:08.865
+But it is possible that you're particularly interested in one group of users,
+
+00:00:08.865 --> 00:00:10.993
+say women that visit your site.
+
+00:00:10.993 --> 00:00:14.009
+You would want to see the data for just that group of people.
+
+00:00:14.009 --> 00:00:17.524
+You can do this by using segments in Google Analytics.
+
+00:00:17.524 --> 00:00:20.745
+A segment refers to a part of the total and, in this case,
+
+00:00:20.745 --> 00:00:22.410
+it refers to a part of the sessions,
+
+00:00:22.410 --> 00:00:24.989
+the users or the interactions on the site.
+
+00:00:24.989 --> 00:00:28.289
+When we look at the Google merchandise store analytics account,
+
+00:00:28.289 --> 00:00:31.835
+the default will give you a view on all of the traffic to the site.
+
+00:00:31.835 --> 00:00:33.164
+In some cases, however,
+
+00:00:33.164 --> 00:00:37.060
+you'll want to see the numbers for just a subset of the traffic.
+
+00:00:37.060 --> 00:00:42.030
+There are three types of subsets or segments you can look at in Google Analytics.
+
+00:00:42.030 --> 00:00:44.801
+Segments based on certain characteristics of the user,
+
+00:00:44.801 --> 00:00:48.554
+for instance, you may want to compare the behavior of men versus women,
+
+00:00:48.554 --> 00:00:52.140
+segments based on the observed interaction with the site,
+
+00:00:52.140 --> 00:00:55.350
+for instance, people who came to the checkout page,
+
+00:00:55.350 --> 00:00:58.210
+and segments based on how a session started,
+
+00:00:58.210 --> 00:01:00.539
+more specifically, where the users came from,
+
+00:01:00.539 --> 00:01:03.289
+through which channel they were acquired,
+
+00:01:03.289 --> 00:01:07.000
+for instance, users landing on the site through a search ad.
+

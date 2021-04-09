@@ -1,0 +1,872 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817157,
+      "key": "ca558bec-b72c-40e4-8711-ea4f73e4bdd3",
+      "title": "Evaluate Conversion",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/ca558bec-b72c-40e4-8711-ea4f73e4bdd3/817157/1556073723287/Evaluate+Conversion+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/ca558bec-b72c-40e4-8711-ea4f73e4bdd3/817157/1556073719664/Evaluate+Conversion+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 751786,
+          "key": "72fb1338-3c5a-41d7-9e23-904e4550201b",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "72fb1338-3c5a-41d7-9e23-904e4550201b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766713,
+              "key": "a991d7b1-d87c-4027-8e79-3b9998df79a6",
+              "title": "C0 L5 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sLnGULZTD_8",
+                "china_cdn_id": "sLnGULZTD_8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751787,
+          "key": "eddd198a-668d-44f9-ab71-6985b112f6bf",
+          "title": "Definitions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "eddd198a-668d-44f9-ab71-6985b112f6bf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751804,
+              "key": "5fa62448-950a-46f3-8748-1111c5afbcc6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Definitions in Google Analytics#\n\n### Conversion\nA completed activity, online or offline, that is important to the success of your business.  \nExamples: completed sign-up for your email newsletter, a purchase, a download etc. \n\nA conversion can be a macro conversion or a micro conversion.  \nA macro conversion is typically a completed purchase transaction\nA micro conversion is a completed activity that indicates that the user is moving towards a macro conversion.  \n\n### Goal\nA configuration setting that allows you to track the valuable actions, or conversions, that happen on your site or mobile app. Each time a user completes a goal, a conversion is logged in your analytics account\n\n\n### Goal Completions\nThe total number of conversions, or the total number of visitors who have completed all steps defined as part of this goal. \n\n\n### Goal Value\nThe Value produced by goal conversions on your site. This value is calculated by multiplying the number of goal conversions with the value you assigned to each goal\n\n\n### Goal conversion rate\nThe sum of all individual goal completion rates.  It is the percent of sessions that resulted in a goal completion. \n\n\n### Total Abandonment rate\nThe rate at which goals were abandoned.  Defined as total abandoned funnels divided by total goal starts. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 751788,
+          "key": "d1bf6d26-341c-44b9-9955-276c13e1a7dd",
+          "title": "Understanding Goals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d1bf6d26-341c-44b9-9955-276c13e1a7dd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752209,
+              "key": "947841c2-e5fe-4f28-a858-e1ac7d2bd577",
+              "title": "Entendendo as metas",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JgVnQxh-hbE",
+                "china_cdn_id": "JgVnQxh-hbE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751789,
+          "key": "ac290263-7361-4dbc-89e7-2c6b11e654e7",
+          "title": "Goal Types",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ac290263-7361-4dbc-89e7-2c6b11e654e7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751805,
+              "key": "9114e013-5c87-4e34-a306-306c46d66012",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Goal Types\nGoals fall into one of 4 types, listed in the table below:\n\n| **Goal Type** | **Description** | **Example**  | \n|---------|---------|------------|\n| Destination | A specific location loads | Thank you for registering! web page or app screen |\n| Duration | Sessions that lasts a specific amount of time or longer | 10 minutes or longer spent on a support site |\n| Pages/Screens per session | A user views a specific number of pages or screens | 5 pages or screens have been loaded |\n| Event | An action defined as an Event is triggered | Social recommendation, video play, ad click |\n\n\n## Smart Goals\nIn addition to the goal types described above, Analytics provides an alternative conversion tracking method called Smart Goals. Smart Goals are specifically designed to help AdWords advertisers who may not have enough conversions to use the AdWords optimization tools, such as automated bidding. When you have Smart Goals enabled, Analytics automatically evaluates your website or app visits and assigns each a score, with the \"best\" visits being translated into Smart Goals.  \n**Note**: Keep in mind that smart goals are based on what a conversion algorithm thinks your goals are.  Sometimes, the smart goals that Google Analytics comes up with are not exactly intuitive and unless your site has lots of transactions, the smart goals are not always completely aligned with your business objectives. \n[Learn more about Smart Goals](https://support.google.com/analytics/answer/6153083).\n\n\n### In our example: \nThe goals we described for Betabrand, BambooHR and Ezequiel Farca are all destination goals.  The destination would be: \n* Betabrand: the ‘thank you for your purchase’ page\n* BambooHR: the ‘thank you for asking for the demo page’\n* Ezequiel Farca: the ‘contact page’ (where people can see the architect’s contact information)\n\nIn the case of BambooHR, the goal could also be an event goal if you enable the ‘submit’ button as an event. \n\n\nE-commerce brands like Betabrand will typically choose to use the e-commerce reports to evaluate goals.  We will learn more about that later. \nEven though we will talk about destination goals a fair bit in what follows, the other goal types can come in very handy too.  For instance, if you are an advertising supported site, the duration goal, or the pages/session goal are at least as important.  The longer a user stays on your site, the more ads you can show to that user, generating you more money. ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 751790,
+          "key": "99fc7c9d-49a0-4508-9077-bfc4e39b1bd7",
+          "title": "Setting up Goals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99fc7c9d-49a0-4508-9077-bfc4e39b1bd7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759826,
+              "key": "faa3c58f-ed6f-47bf-a0c6-9898f2016f27",
+              "title": "Estabelecendo metas",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[Setting up goals in Google Analytics](https://support.google.com/analytics/answer/1032415?hl=en#create_or_edit_goals)",
+              "video": {
+                "youtube_id": "GRKl5SNijHo",
+                "china_cdn_id": "GRKl5SNijHo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751791,
+          "key": "5765befa-42bf-4b7e-9dc9-eed6f370a686",
+          "title": "Quiz: Setting up Goals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5765befa-42bf-4b7e-9dc9-eed6f370a686",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759827,
+              "key": "68f96f74-06de-4b5e-bdcf-95e322789900",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "So, we learned about how goals are set up.  Let’s take a look at the Goals in the Google Merchandise account, and see what we can find there. \n\nA few goals have been set up, one of them is the “Purchase Completed” goal.  \n\nIn the Google Analytics Demo account for the Google Online Merchandise Store, take a look at the “purchase Completed” goal.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759828,
+              "key": "395e6c4c-de98-44b0-88df-ac2ad0effd19",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "395e6c4c-de98-44b0-88df-ac2ad0effd19",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which goal type is the ‘purchase completed’ goal:",
+                "answers": [
+                  {
+                    "id": "a1539975277111",
+                    "text": "Destination Goal",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539975282922",
+                    "text": "Duration Goal",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539975283876",
+                    "text": "Pages/Screens per session goal",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539975284468",
+                    "text": "Event Goal",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759831,
+              "key": "77716041-5c6f-4949-9c36-e903687bba59",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "77716041-5c6f-4949-9c36-e903687bba59",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following pages is not listed as part of the funnel that leads up to the ‘purchase completed goal’?",
+                "answers": [
+                  {
+                    "id": "a1539975338062",
+                    "text": "Cart",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539975346212",
+                    "text": "Billing and Shipping",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539975346858",
+                    "text": "Coupons and Promotions",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539975347472",
+                    "text": "Payment",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539975348183",
+                    "text": "Review",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 751792,
+          "key": "9df2db74-d8de-4d84-b80d-99578e6da408",
+          "title": "Goal Conversion Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9df2db74-d8de-4d84-b80d-99578e6da408",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759747,
+              "key": "44f56de3-4c43-4187-ae5d-9358aa91a7d4",
+              "title": "C0 L5 07 Goal Conversion Reporting",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xgFrzCQ5zSc",
+                "china_cdn_id": "xgFrzCQ5zSc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751793,
+          "key": "2422fbac-9977-4db8-aed7-eac38aadd9df",
+          "title": "Goal Funnel Visualization Report",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2422fbac-9977-4db8-aed7-eac38aadd9df",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752210,
+              "key": "eb01dbc4-730a-4d83-bb30-d44a81176999",
+              "title": "Relatório de visualização do funil de objetivos",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cQT2fRO1Mhs",
+                "china_cdn_id": "cQT2fRO1Mhs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751794,
+          "key": "d49382fa-641d-4f03-8c49-04f85a8ccdfa",
+          "title": "Quiz: Goal Visualization Report",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d49382fa-641d-4f03-8c49-04f85a8ccdfa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759835,
+              "key": "0d73dea7-079e-4ae1-8d52-b68e4d2cd6c5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We looked at the ‘Purchase Completed’ goal in the Google Merchandise Store analytics account.  Let’s take another look at this and see what we can learn about the potential effects of site design on the checkout funnel. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759834,
+              "key": "63c4785c-d852-4bb6-853a-2c26ba635ce1",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "63c4785c-d852-4bb6-853a-2c26ba635ce1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "During the month of July, the Google Merchandise Store site went through a design change.  Take a look at the “Purchase Conversion” goal and the associated funnel visualization report and evaluate the following statement:\n\nThe percent of cart abandonment was a lot larger during the month of August 2016 than it was during the month of May 2016",
+                "answers": [
+                  {
+                    "id": "a1539975480754",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539975504284",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 751795,
+          "key": "15f6187e-0e05-41c9-b4d6-b5060606474d",
+          "title": "Goal Flow",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "15f6187e-0e05-41c9-b4d6-b5060606474d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759748,
+              "key": "f122ccba-b4ce-4e3c-b270-f3c3589a5a46",
+              "title": "C0 L5 10 Goal Flow",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "I1Q0KxjcKfw",
+                "china_cdn_id": "I1Q0KxjcKfw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751796,
+          "key": "38922bc9-e51f-4077-9be8-68b900a00dc4",
+          "title": "E-commerce Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "38922bc9-e51f-4077-9be8-68b900a00dc4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759749,
+              "key": "994a2427-11eb-4f33-9aac-b2b01ff097c2",
+              "title": "C0 L5 11 E-Commerce Reports",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[e-commerce tracking in Google analytics](https://support.google.com/analytics/answer/1009612)\n \n[adding UTM links](https://support.google.com/analytics/answer/1033867?hl=en)\n",
+              "video": {
+                "youtube_id": "ykwEME-t8Kw",
+                "china_cdn_id": "ykwEME-t8Kw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751797,
+          "key": "4382e509-56b9-4e6b-8ce7-dbc8c78566f6",
+          "title": "Shopping and Checkout Behavior",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4382e509-56b9-4e6b-8ce7-dbc8c78566f6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751806,
+              "key": "45815a5d-4ddb-4d7d-a622-abf148e83ecd",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Shopping Behavior Report\n\nThe Shopping Behavior Analysis report lets you see the number of sessions that included each stage of your purchase funnel, how many sessions continued from one step to the next, and how many abandoned the funnel at each stage. Where the funnel indicates abandonment (a red arrow at the bottom of a step), those users did not complete any additional steps of the funnel during the same session. Users can reenter the funnel at any stage (indicated by the separate blue bar at the top of a step); for example, if a user added something to the cart during one session, and then came back to complete the purchase in a subsequent session, the funnel visualization would count the user as reentering at the Checkout step.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751807,
+              "key": "4f6b60c5-ae35-491b-9e27-82e10b9d25e8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc52751_1-shopping-behavior-analysis/1-shopping-behavior-analysis.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4f6b60c5-ae35-491b-9e27-82e10b9d25e8",
+              "caption": "",
+              "alt": "",
+              "width": 1448,
+              "height": 818,
+              "instructor_notes": null
+            },
+            {
+              "id": 751808,
+              "key": "30b208e8-5ce1-4a58-a8a9-5e73ec99ee2c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You can evaluate your users’ shopping experience from product impression to transaction.\nIn this report, it is possible to look at only a subset of the sessions and create an associated segment for that.  For instance, if you are interested in studying the sessions that had product views, and not look at the other sessions.  You can isolate these sessions by creating a segment right in this report, by clicking on the blue bar that represents these sessions.  It is a shortcut to creating a segment.  Once created, you can then use the segment in all other reports. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751809,
+              "key": "dfbd476b-422c-4e43-b063-c146d29f07c2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Checkout Behavior Report\n\nThe checkout behavior report is similar to the shopping behavior report, but isolates the checkout funnel only, the last steps in the process to a transaction\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751810,
+              "key": "0dde00f3-7221-40ad-8bdc-fbe1777158c9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc5279a_lesson-5-google-analytics-conversion/lesson-5-google-analytics-conversion.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0dde00f3-7221-40ad-8bdc-fbe1777158c9",
+              "caption": "",
+              "alt": "",
+              "width": 1280,
+              "height": 960,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 751798,
+          "key": "cb4821c8-fb59-4d82-a6be-23eba64e8304",
+          "title": "Product and Sales Performance",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "cb4821c8-fb59-4d82-a6be-23eba64e8304",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751811,
+              "key": "540c02f6-a554-4319-89ed-53cadd90498d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Product Performance Report\n\nThe Product Performance report lets you see how your products performed from two different points of view:\nYou can get a good overview of which products were sold most, generated most revenue etc. \nThis report can be very helpful if you are trying to decide on what types of products to sell more of, which products to promote etc. \n\nHere is an example for the Google Online Merchandise Store: ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751812,
+              "key": "eb34d019-ae73-4b93-8cab-558b5736f917",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc5283c_lesson-5-google-analytics-conversion-1/lesson-5-google-analytics-conversion-1.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/eb34d019-ae73-4b93-8cab-558b5736f917",
+              "caption": "",
+              "alt": "",
+              "width": 1280,
+              "height": 960,
+              "instructor_notes": null
+            },
+            {
+              "id": 751813,
+              "key": "a0dfbd04-f13e-43bb-8cc8-50304623ba67",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "It looks like the insulated water bottle generated most revenue for the store during the month of August. \n\nNote that the report shows unique purchases - this is the number of times this product was part of a transaction.  If a user buys 2 products in one transaction, it would be only 1 unique purchase.  As you can see in this report, the average quantity, which is the average number of this kind of product sold in one transaction is relatively high, so it looks like there are some purchases on this site that are for events, where people buy in larger quantities.\n\n\n# Sales Performance Report\n\nThe sales performance report is very similar to the product performance report, but in this case, the report focuses on the transactions, not the products. This report can help to understand the average transaction value and the number of products bought in a transaction.  \n\nHere is an example for the Google Online Merchandise Store \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751814,
+              "key": "6745635b-c626-4985-b88c-af2a724b4b99",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc52883_screen-shot-2017-05-31-at-11.53.00-am/screen-shot-2017-05-31-at-11.53.00-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6745635b-c626-4985-b88c-af2a724b4b99",
+              "caption": "",
+              "alt": "",
+              "width": 2486,
+              "height": 1114,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 751799,
+          "key": "99d7efc0-d48e-44de-9723-9a5787bac14e",
+          "title": "Quiz: Understanding Shopping Behavior by Segment",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "99d7efc0-d48e-44de-9723-9a5787bac14e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759837,
+              "key": "274de1fb-8eff-4346-8a9d-272bcd9f2cbb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You have seen how to evaluate shopping behavior, and as a marketer, you will want to go further than the average evaluation.  You will want to know whether the way users found your site has an influence on their behavior in the shopping funnel. \n\nImagine presenting the shopping funnel observations for the month of August 2016 for the Google Merchandise store to management, and they ask you the following question: “Do you know whether users who come to the site and look at products but then don’t add them to their cart were acquired through different sources than the users who look at our products and end up buying them, in other words, which channels are more likely to deliver us window shoppers versus actual buyers?”",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759838,
+              "key": "f4c94fa5-0713-43a4-a599-35c59f026f9a",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f4c94fa5-0713-43a4-a599-35c59f026f9a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using Google Analytics for the month of August 2016, you try to answer the question above.\nWhich of these findings are correct?",
+                "answers": [
+                  {
+                    "id": "a1539975679854",
+                    "text": "You find that window shoppers are more likely acquired through organic search than buyers are",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539975682670",
+                    "text": "You find that direct traffic is more likely to buy than just window shop",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539975683580",
+                    "text": "Buyers are primarily acquired through referrals, more so than the window shoppers. ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 751800,
+          "key": "f8a6029f-2220-49d7-a31d-3a266c894a5a",
+          "title": "Multi Channel Conversion Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f8a6029f-2220-49d7-a31d-3a266c894a5a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759750,
+              "key": "05a710d1-6dce-4a77-9446-dad0ab8ba12d",
+              "title": "C0 L5 15 Multi Channel Conversion Reports I",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zIXHabO6s9I",
+                "china_cdn_id": "zIXHabO6s9I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751801,
+          "key": "7a39cc21-3e67-4a33-9883-b0ea11732b8e",
+          "title": "Multi Channel Conversion Reports II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7a39cc21-3e67-4a33-9883-b0ea11732b8e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759751,
+              "key": "272b40a6-7b80-4fd6-b16d-d90bcb820824",
+              "title": "C0 L5 16 Multi Channel Conversion Reports II",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "This video from Google Analytics explains [multi channel conversion reports](https://youtu.be/Cz4yHOKE5j8)",
+              "video": {
+                "youtube_id": "oup0k3Ach1E",
+                "china_cdn_id": "oup0k3Ach1E.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751802,
+          "key": "b3619fd4-cd74-4e0a-afd3-c0ca0a25eb67",
+          "title": "Multi Channel Funnels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b3619fd4-cd74-4e0a-afd3-c0ca0a25eb67",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751815,
+              "key": "71df5462-cf80-4a28-a401-2f4cf959a407",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The multi channel conversion reports are generated from conversion paths, which contain the sequences of visits that lead to each conversion and transaction.  \n\n\nExample Conversion Path:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751816,
+              "key": "53c63e35-072e-4d0c-be3a-03b8e54fb622",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc52952_example-conversion-path/example-conversion-path.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/53c63e35-072e-4d0c-be3a-03b8e54fb622",
+              "caption": "",
+              "alt": "",
+              "width": 1130,
+              "height": 190,
+              "instructor_notes": null
+            },
+            {
+              "id": 751817,
+              "key": "b0e7249f-b616-41c2-98d0-d191b115e016",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "By default, only interactions within the last 30 days are included in conversion paths, but you can adjust this time period from 1 to 90 days by adjusting the time period in the lookback window, which you can find on top of the multi channel conversion reports. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751818,
+              "key": "762ee6c1-0992-49d0-9d67-b380f32b13e1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc52982_lookback-window/lookback-window.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/762ee6c1-0992-49d0-9d67-b380f32b13e1",
+              "caption": "",
+              "alt": "",
+              "width": 834,
+              "height": 238,
+              "instructor_notes": null
+            },
+            {
+              "id": 751819,
+              "key": "36f15cb4-12c6-4aaf-8c4e-1a19cd7780aa",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Assisted Conversions Report\n\n\nThe Assisted Conversions report summarizes the roles and contributions of your channels.\nThe Assist metrics summarize the number and monetary value of sales and conversions that a channel assisted.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751820,
+              "key": "e7577fff-6879-4e31-bba7-f6259b0e73c7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc529b2_assisted-conversions-report/assisted-conversions-report.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e7577fff-6879-4e31-bba7-f6259b0e73c7",
+              "caption": "",
+              "alt": "",
+              "width": 2558,
+              "height": 1066,
+              "instructor_notes": null
+            },
+            {
+              "id": 751821,
+              "key": "2378146b-26b9-4bba-b489-89759f5da1a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "- The Last Click (direct) metrics show conversions and revenue that the channel closed or completed.\n- The Assisted Click metrics show the number and value of sales and conversions a channel assisted.\n- The  ratio of assisted conversions to last click or direct conversions for each channel summarizes a channel’s overall role in the conversion process.\n  - A value close to 0 indicates that a channel completed more sales and conversions than it assisted or initiated.\n  - A value close to 1 indicates that the channel equally assisted and completed sales and conversions.\n  - The more this value exceeds 1, the more the channel assisted sales and conversions.\n\n\n## Top Conversion Paths report\nThe Top Conversion Paths report shows all of the unique sequences of channel interactions that led to conversions, as well as the number of conversions from each path, and the value of those conversions. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751822,
+              "key": "8f7b29ad-48da-4496-9ec8-3f4728ff4bed",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc529e4_top-conversion-paths-report/top-conversion-paths-report.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/8f7b29ad-48da-4496-9ec8-3f4728ff4bed",
+              "caption": "",
+              "alt": "",
+              "width": 2556,
+              "height": 1126,
+              "instructor_notes": null
+            },
+            {
+              "id": 751823,
+              "key": "4713e3d1-4084-4ac8-935c-5ac0ba9cb7ea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Understanding conversion paths of your users can help you understand which combinations of channels seem to lead to purchases.  That information may be helpful when you decide on the marketing channels to use at different stages of the customer journey. \n\n\n## The Time Lag Report\nThe Time Lag report shows how many days pass between the first interaction and last interaction for your users’ conversion paths. This can give you insight into the length of your online sales cycle.\n\n## The Path Length report \nThis report breaks out your conversions by the number of channel interactions contained in your users’ conversion paths. This can tell you how many times a user typically returns to your site before converting.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 751803,
+          "key": "e64f4dc1-bcf5-4205-b152-3e946a392d7b",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e64f4dc1-bcf5-4205-b152-3e946a392d7b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827330,
+              "key": "0d104ed0-f027-4caf-8006-378174734383",
+              "title": "MAND Course3 Conclusion FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "CYQmvR2MHuI",
+                "china_cdn_id": "CYQmvR2MHuI.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

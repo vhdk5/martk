@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.850
+When you first set up your Google Analytics account,
+
+00:00:02.850 --> 00:00:07.380
+you'll be asked to choose whether you want to track a website or a mobile application.
+
+00:00:07.379 --> 00:00:09.089
+Depending on your choice,
+
+00:00:09.089 --> 00:00:13.800
+Google Analytics will display instructions to add the correct code to collect your data.
+
+00:00:13.800 --> 00:00:15.600
+If you're tracking a website,
+
+00:00:15.599 --> 00:00:17.939
+you receive a piece of JavaScript code that you
+
+00:00:17.940 --> 00:00:21.240
+must add to every page on the site you want to track.
+
+00:00:21.239 --> 00:00:26.744
+It's best to add this code to the top of the page before the closing head tag.
+
+00:00:26.745 --> 00:00:28.859
+If your website uses a template,
+
+00:00:28.859 --> 00:00:31.949
+you can add the code directly to the site template.
+
+00:00:31.949 --> 00:00:35.115
+If you're tracking a mobile application you will download
+
+00:00:35.115 --> 00:00:40.730
+a mobile software development kit or SDK and share it with your development team.
+
+00:00:40.729 --> 00:00:44.944
+There's an SDK for the Android platform as well as iOS.
+
+00:00:44.945 --> 00:00:49.594
+You can learn more about tracking apps in our developer documentation.
+
+00:00:49.594 --> 00:00:52.039
+Once you add the code to your site,
+
+00:00:52.039 --> 00:00:55.744
+you should start to see data immediately in the real-time reports.
+
+00:00:55.744 --> 00:01:00.019
+But there are other ways to add the Google Analytics tracking code to a site.
+
+00:01:00.020 --> 00:01:03.200
+One way is using a tag management tool.
+
+00:01:03.200 --> 00:01:05.840
+If you're unfamiliar with tag management it's
+
+00:01:05.840 --> 00:01:08.390
+a fairly new technology that makes it easy to
+
+00:01:08.390 --> 00:01:13.655
+control and implement different types of JavaScript tags like the Google AdWords tag,
+
+00:01:13.655 --> 00:01:16.885
+DoubleClick tags or the Google Analytics tag.
+
+00:01:16.885 --> 00:01:21.380
+Visit the Google Tag Manager Help Center to learn more about this technology.
+
+00:01:21.379 --> 00:01:23.420
+In addition to tag management,
+
+00:01:23.420 --> 00:01:25.594
+some platforms also make implementation
+
+00:01:25.593 --> 00:01:29.509
+easier by providing plug-ins to simplify the tagging process.
+
+00:01:29.510 --> 00:01:31.850
+Plug-ins on sites like Blogger,
+
+00:01:31.849 --> 00:01:34.879
+WordPress or Drupal simply require you to input
+
+00:01:34.879 --> 00:01:36.229
+your Analytics ID into
+
+00:01:36.230 --> 00:01:40.555
+the administrative settings and the platform takes care of the tagging from there.
+
+00:01:40.555 --> 00:01:43.990
+So as you just heard from Justin,
+
+00:01:43.989 --> 00:01:48.259
+in order for Google Analytics to track and monitor behavior in your site,
+
+00:01:48.260 --> 00:01:52.390
+you need to add Google Analytics tracking code to your website.
+
+00:01:52.390 --> 00:01:54.680
+Justin explained how there are
+
+00:01:54.680 --> 00:01:59.280
+three different ways of getting the code implemented on your site.
+
+00:01:59.709 --> 00:02:05.449
+First, you can paste the tracking code straight into the code of your site.
+
+00:02:05.450 --> 00:02:10.129
+Or you can add the tracking code to the Google Tag Manager.
+
+00:02:10.129 --> 00:02:14.344
+Google Tag Manager is basically a container that you implement on your site.
+
+00:02:14.344 --> 00:02:16.034
+Once the container is there,
+
+00:02:16.034 --> 00:02:18.044
+you can add tags to it.
+
+00:02:18.044 --> 00:02:21.049
+Google Analytics code creates tags and you can
+
+00:02:21.050 --> 00:02:24.140
+let Tag Manager manage this process for you.
+
+00:02:24.139 --> 00:02:25.399
+In our next course,
+
+00:02:25.400 --> 00:02:28.569
+you will learn more about how precisely this works.
+
+00:02:28.569 --> 00:02:32.810
+Lastly, some platforms allow you to use plugins.
+
+00:02:32.810 --> 00:02:36.724
+For instance, if you are creating a website in WordPress,
+
+00:02:36.724 --> 00:02:41.939
+WordPress will do the tagging for you through a few easy steps.
+

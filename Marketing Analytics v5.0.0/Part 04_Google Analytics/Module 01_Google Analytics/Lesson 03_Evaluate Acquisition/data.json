@@ -1,0 +1,632 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817155,
+      "key": "26e00e65-76a5-4a33-9b7c-dd665b5a6629",
+      "title": "Evaluate Acquisition",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/26e00e65-76a5-4a33-9b7c-dd665b5a6629/817155/1556073790886/Evaluate+Acquisition+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/26e00e65-76a5-4a33-9b7c-dd665b5a6629/817155/1556073787470/Evaluate+Acquisition+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 751672,
+          "key": "de3c4a14-4f6d-43c9-8bd7-3313489412eb",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "de3c4a14-4f6d-43c9-8bd7-3313489412eb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766708,
+              "key": "fa475d8d-892f-499d-bbe5-98252e61a184",
+              "title": "C0 L3 Intro ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ExC3p317FMw",
+                "china_cdn_id": "ExC3p317FMw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751673,
+          "key": "e59a63a8-8197-487a-abde-42703cb9d203",
+          "title": "Acquisition Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e59a63a8-8197-487a-abde-42703cb9d203",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752205,
+              "key": "4153c437-6ed6-4ac6-8f59-b2b9975a52e6",
+              "title": "Acquisition Overview in Google Analytics",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[Adding UTM codes to your landing page URLs to track your campaigns](https://support.google.com/analytics/answer/1033863?hl=en)",
+              "video": {
+                "youtube_id": "hnNJVs6dpeY",
+                "china_cdn_id": "hnNJVs6dpeY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751674,
+          "key": "2126cd33-0d0b-4389-8006-984195344aa6",
+          "title": "Definitions Used in Acquisition Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2126cd33-0d0b-4389-8006-984195344aa6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751685,
+              "key": "e92a3be1-d5b6-4827-988d-0ed8a167eb45",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Definitions Used in Acquisition Reports#\nGoogle Analytics uses different dimensions in the acquisition reports. Here is how they are defined: \n\n### 1. Channel\nChannel (or Channel Grouping) is the roll up of traffic sources that groups several marketing activities. \n\nDefault channels used in the reports: \n- Social\n- Organic Search\n- Paid Search\n- Direct\n- Referral\n- Affiliates\n- eMail\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751686,
+              "key": "335aed69-3c09-4206-a75d-b6914d774ee8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc4fa79_acquisition-by-channel/acquisition-by-channel.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/335aed69-3c09-4206-a75d-b6914d774ee8",
+              "caption": "Figure 1: Example Acquisition Report by Channel",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 751687,
+              "key": "4c141264-6a76-4379-944d-e0ef521c0f8e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 2. Source\n\"Source\" is the origin of the traffic, such as the actual search engine (e.g. Google), the web domain, etc. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751694,
+              "key": "f6058ae2-844c-4ad9-8b68-762b2386042a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc4fb2d_acquisition-by-source/acquisition-by-source.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f6058ae2-844c-4ad9-8b68-762b2386042a",
+              "caption": "Figure 2. Example Acquisition Report by Source",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 751695,
+              "key": "e153241a-1d46-42c0-a29e-fea9d6bf1916",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### 3. Medium\n\"Medium\" is the general category of the source, for example organic search (organic), cost per click (CPC), web referral (referral) etc. \n\n_Note: Medium is often reported together with source to provide more info on the nature of the traffic. \nE.g. source can be Google, medium can be organic or CPC (Google/organic or Google/CPC)_\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751697,
+              "key": "76e3706c-197e-4603-b076-a2d7dcf0c7cd",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc4fc0f_acquisition-by-medium/acquisition-by-medium.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/76e3706c-197e-4603-b076-a2d7dcf0c7cd",
+              "caption": "Figure 3. Example Acquisition Report by Medium",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 751675,
+          "key": "c2a98bd5-12d1-4220-b8f0-571dc6fd754c",
+          "title": "Acquisition by Channel - Social ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c2a98bd5-12d1-4220-b8f0-571dc6fd754c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759735,
+              "key": "2b07d339-3c89-48d6-9ec3-3d6f68d8cd4b",
+              "title": "C0 L3 04 Acquisition By Channel - Social",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "pxVrJjgT8tE",
+                "china_cdn_id": "pxVrJjgT8tE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751676,
+          "key": "7658a3e0-5f20-4bee-b365-5be8dacbc5bb",
+          "title": "Quiz: Acquisition by Channel ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7658a3e0-5f20-4bee-b365-5be8dacbc5bb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759816,
+              "key": "93c46388-bb95-4e4e-9e4e-257ae91b38b9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s dig a bit deeper into another source of social traffic for the Google Online Merchandise Store. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759817,
+              "key": "7accb483-c145-4c85-8246-235c0c87da14",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7accb483-c145-4c85-8246-235c0c87da14",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "When looking at the traffic coming in to the Google Online Merchandise Store through the social channel, during the month of August 2016 we learn that a number of sessions are from users coming from Reddit.  Can you find out what is going on in Reddit, which top post is responsible for the traffic? Copy and paste the URL of that post below"
+              },
+              "answer": {
+                "text": "Great! You can find more information in the video below",
+                "video": null
+              }
+            },
+            {
+              "id": 759736,
+              "key": "e45ceabe-5fad-488c-a28d-77f95fb7a9b3",
+              "title": "C0 L3 05 Quiz - Acquisition By Channel - Social",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "AnzbD3Gb1R4",
+                "china_cdn_id": "AnzbD3Gb1R4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751677,
+          "key": "531fc987-ba27-4042-9dea-603253da0efc",
+          "title": "Acquisition by Channel - Organic Search",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "531fc987-ba27-4042-9dea-603253da0efc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759818,
+              "key": "1f24117a-8b19-4df4-8116-5d68f5b1a8df",
+              "title": "Aquisições por canal - busca orgânica",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "INgMTxfOZe4",
+                "china_cdn_id": "INgMTxfOZe4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751678,
+          "key": "3ace73b9-0340-419a-bb0c-1800597ecc4b",
+          "title": "Acquisition by Channel - Paid Search",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3ace73b9-0340-419a-bb0c-1800597ecc4b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759738,
+              "key": "08614a15-fec5-4c53-ab4f-1875aca05cc6",
+              "title": "C0 L3 07 Acquisition By Channel - Paid Search",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[Linking your Adwords and your Google Analytics accounts](https://support.google.com/adwords/answer/1704341?hl=en\n)",
+              "video": {
+                "youtube_id": "_VuuLC8DZsQ",
+                "china_cdn_id": "_VuuLC8DZsQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751679,
+          "key": "ab73f858-d4f9-4735-9d05-e62f45467646",
+          "title": "Acquisition by Channel - Direct Traffic",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ab73f858-d4f9-4735-9d05-e62f45467646",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759739,
+              "key": "024e21c0-f45d-4c0d-bfe5-27d33738683f",
+              "title": "C0 L3 08 Acquisition By Channel - Direct",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cpoOLdEX9iU",
+                "china_cdn_id": "cpoOLdEX9iU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751680,
+          "key": "8445d7db-cd6e-4573-ae43-8ea32383cac7",
+          "title": "Direct Traffic Trend",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8445d7db-cd6e-4573-ae43-8ea32383cac7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759819,
+              "key": "f5db3c51-7136-4611-a828-ea5afcd8c45c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f5db3c51-7136-4611-a828-ea5afcd8c45c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Let’s take another look at the direct traffic for the Google Online Merchandise Store.\nJudging from the number of sessions from users that came directly to the site, would you say the Google Merchandise Store brand awareness got stronger, weaker or stayed the same between April 1st 2016 and August 31st 2016? ",
+                "answers": [
+                  {
+                    "id": "a1539974446756",
+                    "text": "Stronger",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539974450750",
+                    "text": "Weaker",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539974457185",
+                    "text": "Stayed the same",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 751681,
+          "key": "11ebbbe6-8e1c-4d4a-81f5-56f1a7288a93",
+          "title": "Acquisition by Channel - Referrals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "11ebbbe6-8e1c-4d4a-81f5-56f1a7288a93",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759740,
+              "key": "d8ffdcfc-501a-4820-8d3b-99400319721c",
+              "title": "C0 L3 10 Acquisition By Channel - Referral",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mYk1ZSZPO7M",
+                "china_cdn_id": "mYk1ZSZPO7M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751682,
+          "key": "375de910-b177-4091-b655-349ff3e589c3",
+          "title": "Other Acquisition Resources",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "375de910-b177-4091-b655-349ff3e589c3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759741,
+              "key": "80783c5c-e892-4fae-9463-8417e3183852",
+              "title": "C0 L3 11 Other Acquisition Sources - Email, Affiliates, And Display",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wEq3izUIXFo",
+                "china_cdn_id": "wEq3izUIXFo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751683,
+          "key": "e3da0cec-2992-4b41-894c-625a6f38ecfc",
+          "title": "A few more things to consider",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e3da0cec-2992-4b41-894c-625a6f38ecfc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751703,
+              "key": "1dbde1cb-7ea7-4412-a5f6-0a6446d14926",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We looked at the different acquisition channels at a high level.  There is a lot more detail you could look into for some of these channels. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751762,
+              "key": "e2e881cf-389b-46d1-bc2b-ec31d8e0406a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc521cd_a-few-more-things-google-ads/a-few-more-things-google-ads.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e2e881cf-389b-46d1-bc2b-ec31d8e0406a",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 751763,
+              "key": "bd5a6722-23dc-4512-9e51-1091a643f4e5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Google Ads Report**\n\nWe already pointed out that you can link your **Google Ads** account to Google Analytics so you can study more detail behind the traffic coming in from your pay per click campaigns and include costs in that assessment. \n\n[Click here](https://support.google.com/google-ads/answer/1704341?hl=en) for more information on how this works!",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751764,
+              "key": "aaf73060-fdb6-43f6-b077-5bde273074bf",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc5228c_a-few-more-things-google-ads-1/a-few-more-things-google-ads-1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/aaf73060-fdb6-43f6-b077-5bde273074bf",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 751765,
+              "key": "4c0911ae-3808-4a29-8fa2-8f3c68b11c13",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Search Console Report**\n\nThe **Search Console report** gives you more information related to your organic search traffic.  For any given landing page on your site, this report tells you how often a link to this landing page was viewed in search results and it gives you an idea of the associated keywords and the clicks on them.  \nIn order to see these data, you need to enable the integration of your search data in your analytics reports.   You can take this step in the property settings.  \n\nHelpful Links: \n- [Search Console Report](https://support.google.com/analytics/answer/1308621?hl=en)\n- [Setting up Search Console in Google Analytics](https://support.google.com/analytics/answer/1308621?hl=en)\n- [More information on the Search Console reports](https://support.google.com/analytics/answer/1308626?hl=en&ref_topic=1308589)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751766,
+              "key": "e76a7df2-c958-4f12-99c4-9a4870cbea0b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc522ee_a-few-more-things-google-ads-2/a-few-more-things-google-ads-2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/e76a7df2-c958-4f12-99c4-9a4870cbea0b",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 751767,
+              "key": "970e7568-5b5d-491e-95ec-61ab306e4ad5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Social Report**\n\nThe Social report allows you to dig a bit deeper into the social referral traffic.  What networks do people come from, and which URLs were shared? That is the type of information you can find out here.  It can be a first helpful step in understanding which of your social marketing efforts pay off most.  For instance, if you are very active on Twitter, but very little traffic comes to your site via the posts you share on Twitter, you may want to assess whether this is worth your time.  On the other hand, you may get surprised about certain social networks working better for you than you expected. \n\n[Click here](https://support.google.com/analytics/answer/1683971?hl=en&ref_topic=1316551) for more information on social reports:\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751768,
+              "key": "5463134f-bba6-4157-9ea1-ae49f2fef9da",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc5232f_a-few-more-things-google-ads-3/a-few-more-things-google-ads-3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5463134f-bba6-4157-9ea1-ae49f2fef9da",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 751769,
+              "key": "dc8d573d-3ba4-42bf-b18a-c1348bde8881",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Campaigns**\n\nThe campaigns report puts all of your paid marketing efforts in one place, at least, as long as you have tagged them all with UTM codes.  This report can come in handy when you are running a campaign for which you are using different channels.  In that case, you can find all the traffic for that campaign bundled together in these reports.  Say, for instance that Beta Brand is launching a new Down jacket that was just released.  They may do this with display ads, some search ads and an e-mail campaign.  This report will allow Beta brand to see all the incoming traffic together under the name of the campaign. \n\n[Click here](https://support.google.com/analytics/answer/1033863?hl=en&ref_topic=1032998) for more info on campaign reports: ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 751684,
+          "key": "2bf7f58f-0712-4940-8821-5527b3b99bf8",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2bf7f58f-0712-4940-8821-5527b3b99bf8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766709,
+              "key": "6bb5af62-3bfa-40f6-bf7f-10518099db79",
+              "title": "C0 L3 Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "w75PmKzaGAs",
+                "china_cdn_id": "w75PmKzaGAs.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

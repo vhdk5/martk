@@ -1,0 +1,544 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817172,
+      "key": "0e570e18-6653-484c-957a-2e95b07b3271",
+      "title": "Visualizing GA Data in Data Studio",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/0e570e18-6653-484c-957a-2e95b07b3271/817172/1556073827584/Visualizing+GA+Data+in+Data+Studio+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/0e570e18-6653-484c-957a-2e95b07b3271/817172/1556073824930/Visualizing+GA+Data+in+Data+Studio+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 791514,
+          "key": "58649fa3-5957-4af8-a0df-954e976854fe",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "58649fa3-5957-4af8-a0df-954e976854fe",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791515,
+              "key": "0b0d52db-2edd-4afb-a219-543ac46f39db",
+              "title": "C4 L3 0 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HHcPzyadFEc",
+                "china_cdn_id": "HHcPzyadFEc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704517,
+          "key": "34b49ff8-e04d-4d1c-bb5e-f206386b41bb",
+          "title": "Visualizing GA Data in Data Studio Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34b49ff8-e04d-4d1c-bb5e-f206386b41bb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791516,
+              "key": "79e08cdf-fe44-4695-87b9-f6e2aba06803",
+              "title": "C4 L3 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6k1--OZcX40",
+                "china_cdn_id": "6k1--OZcX40.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704518,
+          "key": "8c615f0c-6857-4892-9733-c32300940dae",
+          "title": "Linking GA to DS with a Data Connector",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8c615f0c-6857-4892-9733-c32300940dae",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791517,
+              "key": "82dfc087-1314-4816-90d6-58b571d2fc4b",
+              "title": "C4 L3 02 Linking GA To DS With A Data Connector",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rmiQF3BVZSg",
+                "china_cdn_id": "rmiQF3BVZSg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 791904,
+          "key": "7212637b-6817-4cfa-ae74-bdbdc0d97f59",
+          "title": "Quiz: Creating dashboards, data connectors",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7212637b-6817-4cfa-ae74-bdbdc0d97f59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791906,
+              "key": "a552772b-687d-4d2f-a324-bc36250a9853",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a552772b-687d-4d2f-a324-bc36250a9853",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is **not** a way to create a new dashboard in Data Studio?\n",
+                "answers": [
+                  {
+                    "id": "a1544571645407",
+                    "text": "From a saved report",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544571660683",
+                    "text": "From scratch",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571661771",
+                    "text": "From a template",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571662859",
+                    "text": "These are all ways to create a new dashboard ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791909,
+              "key": "a8f8cc32-37fc-4ef8-82dc-ab0f2232a64c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a8f8cc32-37fc-4ef8-82dc-ab0f2232a64c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In order to get data from GA into Data Studio, we:\n",
+                "answers": [
+                  {
+                    "id": "a1544571732701",
+                    "text": "need to perform a data export",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571749754",
+                    "text": "need to use a data link ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571750546",
+                    "text": "need to use a data conduit",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571751210",
+                    "text": "need to use a data connector",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544571772451",
+                    "text": "don’t need to do anything because Data Studio is designed to work with Google Analytics",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791910,
+              "key": "e2ad840f-cab0-4b84-9dde-92ba68f0babc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e2ad840f-cab0-4b84-9dde-92ba68f0babc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following categories of data connectors for Data Studio has connectors that may require payment for use?\n",
+                "answers": [
+                  {
+                    "id": "a1544571859350",
+                    "text": "Google connectors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571875355",
+                    "text": "Partner connecters",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544571881475",
+                    "text": "Beta connectors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571887394",
+                    "text": "All of these are monetized",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791911,
+              "key": "de0136ec-2ea2-4798-a378-55dde72f8434",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "de0136ec-2ea2-4798-a378-55dde72f8434",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Google provides support for connectors in all three of these categories: Google Connectors, Partner Connectors, Open Source Connectors\n",
+                "answers": [
+                  {
+                    "id": "a1544571972701",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571988619",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704519,
+          "key": "73b71182-16fa-45ff-9f1a-3a641bf79733",
+          "title": "Chart Types",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "73b71182-16fa-45ff-9f1a-3a641bf79733",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791518,
+              "key": "a4ec9e95-a1e5-40bb-808c-ff7585a0c43a",
+              "title": "C4 L3 03 Chart Types",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "60AA1qrFgjk",
+                "china_cdn_id": "60AA1qrFgjk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704520,
+          "key": "60b76e36-aa66-4383-a934-cf25a661b109",
+          "title": "Dynamic Filtering & View Swapping",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "60b76e36-aa66-4383-a934-cf25a661b109",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791519,
+              "key": "1cd690b6-1499-4d39-bd25-e7b600c037cd",
+              "title": "C4 L3 04 Dynamic Filtering & View Swapping",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cHUWg083OE8",
+                "china_cdn_id": "cHUWg083OE8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704521,
+          "key": "ef434b20-404b-4e52-84f8-81f7ce8dec0d",
+          "title": "DS vs. GA for Dashboarding",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ef434b20-404b-4e52-84f8-81f7ce8dec0d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791520,
+              "key": "d51af8d7-0819-46d5-aa98-d9b37ba9927a",
+              "title": "C4 L3 05 DS Vs GA For Dashboarding",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "E01iROw_yt4",
+                "china_cdn_id": "E01iROw_yt4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 791912,
+          "key": "bc9d0936-9ed9-4118-a449-07d47651fb43",
+          "title": "Quiz: Chart types, default dimensions, & more ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bc9d0936-9ed9-4118-a449-07d47651fb43",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791913,
+              "key": "c51a6768-2cce-44d4-85d8-2195c75a76e6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c51a6768-2cce-44d4-85d8-2195c75a76e6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many different kinds of charts are available in Data Studio?\n",
+                "answers": [
+                  {
+                    "id": "a1544572093749",
+                    "text": "5",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572106474",
+                    "text": "7",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572109203",
+                    "text": "9",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572113162",
+                    "text": "11",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791915,
+              "key": "05775948-d122-48c9-931f-e2bcdc02c13d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "05775948-d122-48c9-931f-e2bcdc02c13d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What chart-type displays a summary of a single metric?  \n",
+                "answers": [
+                  {
+                    "id": "a1544572166405",
+                    "text": "Pie chart ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572205026",
+                    "text": "Bar chart ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572211187",
+                    "text": "Scorecard",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544572217738",
+                    "text": "Time series chart ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791916,
+              "key": "1ee0cd0a-6ecd-4506-b5ae-a078fd887321",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1ee0cd0a-6ecd-4506-b5ae-a078fd887321",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "According to the lesson, it’s best to begin building your dashboard by determining:\n",
+                "answers": [
+                  {
+                    "id": "a1544572307134",
+                    "text": "The sizes of the charts you want to use",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572320970",
+                    "text": "How many pages and charts are needed for your audience ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572327762",
+                    "text": "What colors, fonts, and other brand elements you want to use",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572335034",
+                    "text": "Which dimensions and metrics you want to display",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791917,
+              "key": "aebe9667-7061-4bb4-b796-faec09708283",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "aebe9667-7061-4bb4-b796-faec09708283",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Once you’ve created charts that you really like, the best way to use them in another view in the same property is to:\n",
+                "answers": [
+                  {
+                    "id": "a1544572424045",
+                    "text": "Use the data control to apply the charts to the other view",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544572444250",
+                    "text": "Copy and paste them into a dashboard in the other view",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572452842",
+                    "text": "Export them and then import them into the other view ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544572460323",
+                    "text": "You can’t use any of these methods and need to just recreate them",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1107 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817165,
+      "key": "b8d8450e-90aa-4500-b4da-f27fbc8e86a9",
+      "title": "Acquisition, Conversion, and Attribution",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/b8d8450e-90aa-4500-b4da-f27fbc8e86a9/817165/1556073639217/Acquisition%2C+Conversion%2C+and+Attribution+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/b8d8450e-90aa-4500-b4da-f27fbc8e86a9/817165/1556073634281/Acquisition%2C+Conversion%2C+and+Attribution+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 784307,
+          "key": "498fbb1c-4607-481d-8f46-c6663c7af627",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "498fbb1c-4607-481d-8f46-c6663c7af627",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784308,
+              "key": "abcccc1b-2620-4f85-a24d-45ab3f762b06",
+              "title": "C3 L1 00 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nO31xzC3TDc",
+                "china_cdn_id": "nO31xzC3TDc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 682532,
+          "key": "d0cd6446-fd11-4d4e-92c4-89a934633cdd",
+          "title": "UTM Tagging for Campaigns Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d0cd6446-fd11-4d4e-92c4-89a934633cdd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784309,
+              "key": "bd3c91c6-99cc-46b0-8a71-73b6b2852b82",
+              "title": "C3 L1 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "e2FF81AdloI",
+                "china_cdn_id": "e2FF81AdloI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704428,
+          "key": "a8517100-61b4-4c0a-b44a-75ced6343aa9",
+          "title": "Using Campaign Tags for Display, Remarketing & PPC Campaigns",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a8517100-61b4-4c0a-b44a-75ced6343aa9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784310,
+              "key": "b3d25100-3aa8-46ee-977c-3603b113eace",
+              "title": "C3 L1 02 Using Campaign Tags For For Display, Remarketing, And PPC Campaigns",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "scAEY1p-aso",
+                "china_cdn_id": "scAEY1p-aso.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 787562,
+          "key": "bf1cb3c7-ac6d-4804-8b2d-bb2226e23092",
+          "title": "Maintaining Document Referrer",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bf1cb3c7-ac6d-4804-8b2d-bb2226e23092",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787563,
+              "key": "c31da1d5-351d-4929-bd39-d1bb0b3e6069",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As beneficial as campaign tracking is for clean acquisition reporting, it forces us to make a sacrifice: utm_source overwrites the actual referrer, which could be good for us to maintain in some cases.\n\nLet's consider the example of press releases and affiliates, for which we have configured campaign parameters as follows:\n\n\nhttps://www.mysite.com/?<mark>utm_source=prwire</mark>&utm_medium=press-release&utm_campaign=office-expansion\n\nhttps://www.mysite.com/?<mark>utm_source=affiate-network</mark>&utm_medium=affiliate&utm_campaign=revshare20\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787565,
+              "key": "6ad69cdf-a004-4d1a-9c76-8a6a3ab63566",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The source for sessions that originated with clickthroughs on these links would only have prwire or *affiliate*-network as the source, but what if we wanted to see where the clickthroughs actually originated?\n\nAs in many other cases that we've seen, Custom Dimensions offer a solution that will allow us to display the actual document referrer as below:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787566,
+              "key": "1a1571d0-b36b-4da4-ad29-acc883e2f14d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bfda583_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1a1571d0-b36b-4da4-ad29-acc883e2f14d",
+              "caption": "",
+              "alt": "",
+              "width": 1352,
+              "height": 472,
+              "instructor_notes": null
+            },
+            {
+              "id": 787568,
+              "key": "d4ce7d45-7788-4c6e-b975-a7dc274a727b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To record document.referrer as a Custom Dimension:\n\n1. Allocate the Custom Dimension slot in Google Analytics, at session scope:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787569,
+              "key": "7e0a4df5-26aa-4122-a792-3e2a0b995f19",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bfda5bd_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7e0a4df5-26aa-4122-a792-3e2a0b995f19",
+              "caption": "",
+              "alt": "",
+              "width": 443,
+              "height": 471,
+              "instructor_notes": null
+            },
+            {
+              "id": 787570,
+              "key": "82f78bcc-78b9-4e97-8c68-2da05f478bcb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "`2. In GTM, create a Custom JavaScript variable to read in document.referrer.'''",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787571,
+              "key": "544a1a48-cd7e-4377-ade8-1767dd9aabfc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bfda5e9_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/544a1a48-cd7e-4377-ade8-1767dd9aabfc",
+              "caption": "",
+              "alt": "",
+              "width": 784,
+              "height": 513,
+              "instructor_notes": null
+            },
+            {
+              "id": 787573,
+              "key": "ed72a2f3-0324-4365-a4e2-fbfc768f324b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "`3. Record the Custom Dimension with the Google Analytics pageview.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 787574,
+              "key": "16ae9644-30ce-4179-997f-380031426917",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bfda629_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/16ae9644-30ce-4179-997f-380031426917",
+              "caption": "",
+              "alt": "",
+              "width": 1147,
+              "height": 919,
+              "instructor_notes": null
+            },
+            {
+              "id": 787575,
+              "key": "24807605-b6a9-401d-ab79-84b443c39e3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In this way, you'll have a document.referrer as a Custom Dimension that you can apply as a secondary dimension to any of your reports or use as the basis of a custom segment or custom report.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 704430,
+          "key": "e87b6175-2b2f-4ff1-9cdb-737b8e15261f",
+          "title": "Autotagging for Adwords",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e87b6175-2b2f-4ff1-9cdb-737b8e15261f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784311,
+              "key": "e0e0bc46-727d-4920-b3ef-6298ed679769",
+              "title": "C3 L1 03 Autotagging For Adwords",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PdsN6IVxJMs",
+                "china_cdn_id": "PdsN6IVxJMs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 787612,
+          "key": "8b93a0f9-b0cb-4e16-9a41-fe61734d9825",
+          "title": "Quiz: UTM Campaign Tags",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b93a0f9-b0cb-4e16-9a41-fe61734d9825",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 787613,
+              "key": "06b6131b-cecd-4fce-9a70-3b98757b7e7c",
+              "title": "UTM Campaign Tags, Auto-tagging Google Ads, GCLID",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "06b6131b-cecd-4fce-9a70-3b98757b7e7c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** More accuracy in your Channel reports is the only benefit of using UTM campaign tags.\n",
+                "answers": [
+                  {
+                    "id": "a1543365179132",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365227129",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 787615,
+              "key": "0d165d67-8b38-420b-a59a-9838b3eacea9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0d165d67-8b38-420b-a59a-9838b3eacea9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are required parameters for campaign tracking?\n",
+                "answers": [
+                  {
+                    "id": "a1543365276940",
+                    "text": "A. Source",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365296329",
+                    "text": "B. Medium",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365301297",
+                    "text": "C. Campaign ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365306169",
+                    "text": "D. Both A & B are required ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543365440233",
+                    "text": "E. Both A. & C. are required ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 787616,
+              "key": "deadc9f0-78f2-4616-8b92-0095b217fbdb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "deadc9f0-78f2-4616-8b92-0095b217fbdb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Auto-tagging is turned off by default in Google Ads and requires being turned on and some minor set-up if you want to use it for tracking your paid searches.\n",
+                "answers": [
+                  {
+                    "id": "a1543365495971",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365535521",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 787617,
+              "key": "a8158ec5-6df0-430a-b83e-3ef07956d35a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a8158ec5-6df0-430a-b83e-3ef07956d35a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Fill in this blank:** Linking your ```___________ ```to Google Analytics property will allow GA to ingest values collected using GCLID.  \n",
+                "answers": [
+                  {
+                    "id": "a1543365590426",
+                    "text": "Google Search Console",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365601145",
+                    "text": "Google Ads account ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543365619217",
+                    "text": "GCLID Identifier",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543365627634",
+                    "text": "None of these",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704431,
+          "key": "3d4250e1-01a0-4a79-ac2d-8c59cb4a2d45",
+          "title": "When UTM Tagging is not Needed",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3d4250e1-01a0-4a79-ac2d-8c59cb4a2d45",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784312,
+              "key": "b203b4b6-24e0-42ab-8c65-84c28140a6fd",
+              "title": "C3 L1 04 When UTM Tagging Is Not Needed",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "P_oZrojn6Ew",
+                "china_cdn_id": "P_oZrojn6Ew.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704433,
+          "key": "29211500-a202-4ca1-a936-16ba8a0f9377",
+          "title": "Consistency in Tag Naming",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29211500-a202-4ca1-a936-16ba8a0f9377",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784313,
+              "key": "cc7ff692-139f-431e-8ca9-fc875e8401cd",
+              "title": "C3 L1 05 Consistency In Tag Naming",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WotuYy7hm70",
+                "china_cdn_id": "WotuYy7hm70.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704436,
+          "key": "dac7f99f-61af-4c69-868c-4b10d276a675",
+          "title": "Strategies For Tagging Across Team",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dac7f99f-61af-4c69-868c-4b10d276a675",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784314,
+              "key": "56abc213-b948-4fc9-9e21-4716e8daddba",
+              "title": "C3 L1 06 Strategies For Tagging Across Team",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xnwlLgKIpQI",
+                "china_cdn_id": "xnwlLgKIpQI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704440,
+          "key": "6bf5eb01-db60-4537-8df5-853463f349b4",
+          "title": "Alternatives to Campaign Tags on Internal Links",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6bf5eb01-db60-4537-8df5-853463f349b4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784315,
+              "key": "3fa3a9c2-9398-4aeb-8847-b7814c5be4ee",
+              "title": "C3 L1 07 Alternatives To Campaign Tags On Internal Links",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "e1YJKdo89OM",
+                "china_cdn_id": "e1YJKdo89OM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704443,
+          "key": "1b72512f-bca5-40d9-9a94-d5e559bbfdf4",
+          "title": "Using Campaign Tags for Mobile Apps (Legacy SDKs)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b72512f-bca5-40d9-9a94-d5e559bbfdf4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 809772,
+              "key": "cc4e3fe2-6657-4563-bcc6-e58c12170864",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Tracking mobile app install campaigns and general app usage campaigns is not difficult, but it does require some coordination with your app developers and some attention to configurations within GTM, Google Analytics, and Firebase. Let’s take a look at mobile app campaign tracking in both legacy SDKs for IOS and Android as well as using GTM + Firebase SDK.\n\nThere are two types of mobile app campaign tracking:\n\n1. **Install Campaigns**: campaigns that drive users to install your mobile app from either the Google Play Store or the Apple Store\n\n2. **General Campaigns**: you can use marketing campaigns to drive users, who have already installed your mobile app to engage with your. These campaigns directly open or deep link into an already-installed app.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809778,
+              "key": "c3a2e3cf-5580-4af7-b10c-29cc7040ad91",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "*Legacy SDK and GTM + Firebase Mobile App Tracking Require Some Developer Support*\n\n|  |   **Install campaigns**  |**General campaigns**   |   | \n|---|---|---|---|---|\n|**Legacy (GA SDK or GTM & GA SDK)**  | utm_ param clicks tracked automatically in GA with property setting enabled for iOS and manifest file configured for Android  | custom code needed to track utm_ param clicks in GA  |   |   |\n| ** GTM & Firebase SDK** | custom code needed to track utm_ clicks into Firebase Analytics, and custom tagging needed to map Firebase event params into GA campaign params | custom code needed to track utm_ clicks into Firebase Analytics, and custom tagging needed to map Firebase event params into GA campaign params  |   |   |\n|   |   |   |   |   | \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809779,
+              "key": "f2d95384-26a8-44a9-9a30-9bca03ae9fad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**GTM + Firebase SDK Tracking**\n\nOne significant advantage of using GTM + Firebase SDK for tracking mobile apps is the dynamic linking and deep linking functionality this enables.\n\n**Deep-linking**: deep linking are web links that take a user into the screen hierarchy of your mobile apps. In other words, they drop a user directly on app content/functionality beyond the homescreen of your app and can increase in-app conversion rates, for example by bringing users closer to the actions they desire (placing an order, e.g.)\n\n**Dynamic Linking**: if you are tracking mobile app usage in both Google Analytics and Firebase (a practice we recommend), then a very useful functionality is dynamic links. Dynamic links allow you to create a single campaign URL that automatically directs users to the appropriate app version or appropriate app store if they do not have your app installed already. This is extremely useful. For users that already have your app installed, it can take them to the respective iOS or Android deep-link you specify in the dynamic link setup. If they don’t have your app installed, you can have it take them to the Apple Store or the Google Play Store respectively to your app download/install option.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 809781,
+          "key": "f13833c5-0adc-4c2e-a0de-7aa8f64b94b6",
+          "title": "Using campaign tags for mobile apps- Legacy SDKs & Firebase ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f13833c5-0adc-4c2e-a0de-7aa8f64b94b6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 809786,
+              "key": "72638a26-a4ce-4bb0-9a5f-ff5164724f7c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In Firebase Console you can easily create dynamic links for your mobile app campaigns:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809787,
+              "key": "a8073609-fdb5-4e9c-adf8-e68cabea4464",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c367437_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a8073609-fdb5-4e9c-adf8-e68cabea4464",
+              "caption": "",
+              "alt": "",
+              "width": 1999,
+              "height": 1114,
+              "instructor_notes": null
+            },
+            {
+              "id": 809789,
+              "key": "1dcdc070-40da-4aec-b485-d07beb503146",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c36746d_image7/image7.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1dcdc070-40da-4aec-b485-d07beb503146",
+              "caption": "",
+              "alt": "",
+              "width": 937,
+              "height": 242,
+              "instructor_notes": null
+            },
+            {
+              "id": 809790,
+              "key": "7fcd3cff-c4d2-4778-b2de-dd7221cd547b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c367498_image9/image9.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7fcd3cff-c4d2-4778-b2de-dd7221cd547b",
+              "caption": "",
+              "alt": "",
+              "width": 701,
+              "height": 810,
+              "instructor_notes": null
+            },
+            {
+              "id": 809791,
+              "key": "f1b811a1-34b0-46a2-bf28-9e33e039c527",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Once configured, use your dynamic links in your app campaigns to ensure your users are always taken to the appropriate destination from your app campaigns.\f\nFor campaign tracking using GTM + Firebase SDK, work with your app developer to add the following code to your app build:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809792,
+              "key": "06a7ad0e-6d3a-4497-a492-3d82d136267e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "``` FirebaseDynamicLinks.getInstance()\n \n.getDynamicLink(getIntent())\n .addOnSuccessListener(this, new\n \nOnSuccessListener() { \n \n@Override\n \npublic void onSuccess(PendingDynamicLinkData pendingDynamicLinkData) { \n \n// Get deep link from result (may be null if no link is found) \n \nUri deepLink = null;\n \nif (pendingDynamicLinkData != null) {\n \ndeepLink = pendingDynamicLinkData.getLink(); \n \n} \n \n// Handle the deep link. For example, open the linked \n \n// content, or apply promotional credit to the user’s \n \n// account. \n \n// ... \n \nString cs = String.valueOf(deepLink. getQueryParameters(“utm_source”)); \n \nString cn = String.valueOf(deepLink. getQueryParameters(“utm_campaign”)); \n \nString cm = String.valueOf(deepLink. getQueryParameters(“utm_medium”)); \n \nif(cs !=null && cn !=null){ \nBundle params = new Bundle(); \nparams.PutString(FirebaseAnalytics.param. SOURCE, cs); \n \nparams.PutString(FirebaseAnalytics.param. MEDIUM, cm); \n \nparams.PutString(FirebaseAnalytics.param. CAMPAIGN, cn); \n \nmFirebaseAnalytics.logEvent(FirebaseAnalytics. Event.CAMPAIGN_DETAILS, params); \n \nmFirebaseAnalytics.logEvent(FirebaseAnalytics. Event.APP_OPEN, params);\n \n}\n \n// ... \n \n}\n \n})\n \n.addOnFailureListener(this, new OnFailureListener() {\n \n@Override\n \npublic void onFailure(@NonNull Exception e) {\n \nLog.w(TAG, “getDynamicLink:onFailure”, e);\n \n}\n \n}); ```\n\t\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809793,
+              "key": "7d72031e-fcef-4f05-89e5-2b961968d635",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Parallel Tracking in Firebase and Google Analytics\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809794,
+              "key": "3cb2e33d-a55f-43ca-bcec-6adcb9b28091",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c367540_image5/image5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3cb2e33d-a55f-43ca-bcec-6adcb9b28091",
+              "caption": "",
+              "alt": "",
+              "width": 918,
+              "height": 681,
+              "instructor_notes": null
+            },
+            {
+              "id": 809795,
+              "key": "b42eabfb-05c9-4e71-bd3c-6c5e9bcb7e52",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Android Install Campaign with Legacy SDK\n\nAdd the Google Analytics receiver to your **AndroidManifest.xml** file. To add the\nGoogle Analytics receiver to the manifest, copy and paste the following markup:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809796,
+              "key": "397f4d77-540f-44cf-960c-644807e618b4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```<application>\n <!-- Used for Google Play Store Campaign Measurement-->\n <receiver android:name=”com.google.android.gms.analytics.\nCampaignTrackingReceiver”\n android:enabled=”true”\n android:exported=”true”>\n <intent-filter>\n <action android:name=”com.android.vending.INSTALL_\nREFERRER” />\n </intent-filter>\n </receiver>\n <service android:name=”com.google.android.gms.analytics.\nCampaignTrackingService”\n android:enabled=”true”\n android:exported=”false” />\n</application>\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809797,
+              "key": "96b7b8de-2a7b-4dcd-847b-11587a1c81a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "2. Add Google Analytics Campaign Parameters to Google Play URLs\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809798,
+              "key": "9cd16808-bf8e-4630-a0da-3430f7d1eff2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "```\nhttps://play.google.com/store/apps/details?id=com.example.\napplication\n&referrer=utm_source%3Dtwitter\n%26utm_medium%3Dpaid-social\n%26utm_content%3Dlogolink\n%26utm_campaign%3Dspring_sale\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809800,
+              "key": "11fce4a0-7a0c-45e9-84fc-7337e3de0efe",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Android General Campaign with Legacy SDK\n\n1.  Set the campaign parameters on a tracker directly by\nusing the setCampaignParamsFromURL method as\nshown below.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809801,
+              "key": "4f84ee94-7377-4171-a007-70c92cf800d5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "``` \n// Get tracker.\nTracker t = ((AnalyticsSampleApp) getActivity().getApplication()).\ngetTracker(\n\tTrackerName.APP_TRACKER);\n\n\n// Set screen name.\nt.setScreenName(screenName);\n\n\n// In this example, campaign information is set using\n// a url string with Google Analytics campaign parameters.\n// Note: This is for illustrative purposes. In most cases campaign\n// information would come from an incoming Intent.\nString campaignData = getUrl();\n//getUrl is our own method that would populate the campaignData\nstring\n//as in this example: “http://examplepetstore.com/index.html?” +\n// “utm_source=email&utm_medium=email_marketing&utm_\ncampaign=summer” +\n// “&utm_content=email_variation_1”;\n// Campaign data sent with this hit.\nt.send(new HitBuilders.ScreenViewBuilder()\n .setCampaignParamsFromUrl(campaignData)\n .build()\n);\n\n\n```",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809803,
+              "key": "6aaf9b4d-b329-4e54-be74-0f9cbf801187",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "2. Add Google Analytics Campaign Parameters to using the Google Analytics URL\nBuilder for Android.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809804,
+              "key": "3788ab70-d0cb-4e3d-8674-eade93519941",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c36763c_image6/image6.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3788ab70-d0cb-4e3d-8674-eade93519941",
+              "caption": "",
+              "alt": "",
+              "width": 1579,
+              "height": 1171,
+              "instructor_notes": null
+            },
+            {
+              "id": 809805,
+              "key": "06ec4991-5526-4c0f-a2d2-841294728435",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## iOS Install Campaign with Legacy SDK\n\nMake sure you meet the prerequisites for iOS campaign tracking before you begin:\n* You must have already implemented Google Analytics in your iOS app (through\nthe legacy Google Analytics SDK or the Google Tag Manager/Google Analytics\nSDK, which we discuss in this section, or the Google Tag Manager + Firebase SDK,\nwhich we discuss in a later section).\n* You need to enable collection of the Identifier for Advertisers (IDF).\n* You need to be tracking one or more screenviews or events in your app.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809806,
+              "key": "dbd6ee7a-0bfd-4311-85ef-adf5eeb19e6d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "1. Confirm iOS campaign tracking is enabled in Google\nAnalytics user interface.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809807,
+              "key": "6600db04-5213-4884-8f2a-e7e92fe6747b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c3676a0_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6600db04-5213-4884-8f2a-e7e92fe6747b",
+              "caption": "",
+              "alt": "",
+              "width": 1057,
+              "height": 349,
+              "instructor_notes": null
+            },
+            {
+              "id": 809808,
+              "key": "a4b95fec-2cb9-4a03-ab9b-9ef5317c108b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "2. Confirm application ID matches.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809809,
+              "key": "1b3fe49f-1ad6-499f-927b-92fb74ffd95d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c3676c9_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/1b3fe49f-1ad6-499f-927b-92fb74ffd95d",
+              "caption": "",
+              "alt": "",
+              "width": 1121,
+              "height": 200,
+              "instructor_notes": null
+            },
+            {
+              "id": 809810,
+              "key": "019c2f1b-0fe2-497c-8d79-65873d3a0c67",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "3. Confirm that the GA or GTM/GA SDK is sending the identifier for Advertisers.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809811,
+              "key": "c1a4df1f-0bd7-4770-b179-d1bdcb93b395",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c3676e8_image8/image8.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c1a4df1f-0bd7-4770-b179-d1bdcb93b395",
+              "caption": "",
+              "alt": "",
+              "width": 934,
+              "height": 690,
+              "instructor_notes": null
+            },
+            {
+              "id": 809812,
+              "key": "3126aa40-aa7e-4e59-9762-edc423609c56",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "4. Add Google Analytics Campaign Parameters using the Google Analytics URL Builder\nfor iOS.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809813,
+              "key": "6a9bf6c3-8d94-45e6-a577-7b8851da892c",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c36770d_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6a9bf6c3-8d94-45e6-a577-7b8851da892c",
+              "caption": "",
+              "alt": "",
+              "width": 1570,
+              "height": 1230,
+              "instructor_notes": null
+            },
+            {
+              "id": 809814,
+              "key": "2e7dd440-739e-4b79-8de7-e707e3f7fa7a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## iOS General Campaign with Legacy SDK\n\n1. Install the following code in your iOS app build:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 809815,
+              "key": "2c86ed5d-c3a9-42f0-b7b6-1b7ef1a0227c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "``` \n/*\n * MyAppDelegate.m\n *\n * An example of how to implement campaign and referral\nattribution.\n * If no Google Analytics campaign parameters are set in the\nreferring URL,\n * use the hostname as a referrer instead.\n */\n// For iOS 9.0 and later\n- (BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)\nurl\n \t\toptions:(nonnull NSDictionary<NSString *,id> *)options\n{\n\n\n// For iOS versions prior to 9.0\n//- (BOOL)application:(UIApplication *)application openURL:(NSURL\n*)url\n// sourceApplication:(NSString *)sourceApplication\nannotation:(id)annotation {\n\n\nNSString *urlString = [url absoluteString];\n \nid<GAITracker> tracker = [[GAI sharedInstance]\ntrackerWithName:@”tracker”\n\ntrackingId:@”UA-XXXX-Y”];\n\n// setCampaignParametersFromUrl: parses Google Analytics\ncampaign (“UTM”)\n// parameters from a string url into a Map that can be set on a\nTracker.\nGAIDictionaryBuilder *hitParams = [[GAIDictionaryBuilder alloc]\ninit];\n// Set campaign data on the map, not the tracker directly\nbecause it only\n// needs to be sent once.\n [hitParams setCampaignParametersFromUrl:urlString];\n// Campaign source is the only required campaign field. If\nprevious call\n// did not set a campaign source, use the hostname as a referrer\ninstead.\nif(![hitParams get:kGAICampaignSource] && [url host].length !=0)\n{\n// Set campaign data on the map, not the tracker.\n [hitParams set:@”referrer” forKey:kGAICampaignMedium];\n [hitParams set:[url host] forKey:kGAICampaignSource];\n }\n NSDictionary *hitParamsDict = [hitParams build];\n // A screen name is required for a screen view.\n [tracker set:kGAIScreenName value:@”screen name”];\n // Previous V3 SDK versions.\n // [tracker send:[[[GAIDictionaryBuilder createAppView]\nsetAll:hitParamsDict] build]];\n // SDK Version 3.08 and up.\n [tracker send:[[[GAIDictionaryBuilder createScreenView]\nsetAll:hitParamsDict] build]];\n```",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 790615,
+          "key": "ed70969f-045e-4065-8918-a0d8bd815205",
+          "title": "Quiz: When UTMs aren’t needed",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ed70969f-045e-4065-8918-a0d8bd815205",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790616,
+              "key": "a6733b11-8cac-4b27-b989-efb74ce32cde",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a6733b11-8cac-4b27-b989-efb74ce32cde",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** It’s a good idea to use UTM parameters on internal links of your website.\n",
+                "answers": [
+                  {
+                    "id": "a1543875411548",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875439818",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790617,
+              "key": "fb30119f-0cc7-4f29-b551-b717b9ab8484",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fb30119f-0cc7-4f29-b551-b717b9ab8484",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "```_________ ```traffic doesn’t need UTM parameters in order to properly attributed in GA.\n",
+                "answers": [
+                  {
+                    "id": "a1543875520980",
+                    "text": "Email ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875540594",
+                    "text": "Referral",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543875547089",
+                    "text": "Banner",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875553305",
+                    "text": "Display",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790618,
+              "key": "71b08439-7f2e-4f9a-beb9-3af94de2c220",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "71b08439-7f2e-4f9a-beb9-3af94de2c220",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The naming convention we recommend helps maintain consistency by using what symbol between words?\n",
+                "answers": [
+                  {
+                    "id": "a1543875661124",
+                    "text": "Underscore ( _ )",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875676770",
+                    "text": "Question mark ( ? )",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875683145",
+                    "text": "Ampersand (&)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875692577",
+                    "text": "Dash ( - )",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790619,
+              "key": "6ec94393-32b2-4607-88b5-9911936333e6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6ec94393-32b2-4607-88b5-9911936333e6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is not well suited to help maintain consistency in your naming convention for UTM parameters/campaign tags for your team?\n",
+                "answers": [
+                  {
+                    "id": "a1543875841083",
+                    "text": "Shared Spreadsheet ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875856675",
+                    "text": "Regular meetings",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875857754",
+                    "text": "URL building tool",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543875873561",
+                    "text": "Newsletter",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

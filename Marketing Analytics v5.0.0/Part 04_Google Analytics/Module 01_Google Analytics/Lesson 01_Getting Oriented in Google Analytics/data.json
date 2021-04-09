@@ -1,0 +1,607 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817153,
+      "key": "1f3938b0-a773-4882-bfd8-fd800f87bd2c",
+      "title": "Getting Oriented in Google Analytics",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/1f3938b0-a773-4882-bfd8-fd800f87bd2c/817153/1556073956909/Getting+Oriented+in+Google+Analytics+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/1f3938b0-a773-4882-bfd8-fd800f87bd2c/817153/1556073952248/Getting+Oriented+in+Google+Analytics+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 737224,
+          "key": "dda5e0aa-84af-4465-85f4-55e38b415c00",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dda5e0aa-84af-4465-85f4-55e38b415c00",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766702,
+              "key": "921783a6-f3fd-4c1c-979d-8e10aea79b7c",
+              "title": "C0 L1 Final - Introduction To Course 0  Google Analytics Basics  For AAND V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PIcWSRBvH2g",
+                "china_cdn_id": "PIcWSRBvH2g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827315,
+          "key": "9d61e412-a27a-437b-8fb1-1994d32260d5",
+          "title": "Meet the Team",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9d61e412-a27a-437b-8fb1-1994d32260d5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827316,
+              "key": "a7a0b323-f58f-4375-a3dd-8e4419b9cd14",
+              "title": "MAND C1 L0 02 Introduction To The Team",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5yPJQwN_C2c",
+                "china_cdn_id": "5yPJQwN_C2c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737266,
+          "key": "dbb934bd-25d4-4807-804f-59dc3b2e1405",
+          "title": "Accessing the Google Analytics Account",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dbb934bd-25d4-4807-804f-59dc3b2e1405",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751627,
+              "key": "30556697-77e2-4452-8d0f-cc75a4e0db59",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Accessing Google Analytics Account\n\nThe Google Analytics account for the Merchandise Store is a fully functional account, and as a student, you can access it, so you can get hands-on experience analyzing the data. Access is very simple and this process simultaneously sets up a Google Analytics for you if you don't already have one. \n\n1. You’ll need a Google account (you may have this if you use Gmail, etc.). If you don’t have one, [click here](https://accounts.google.com/SignUp?hl=en) and sign up. \n\n2. Sign in to your [Google Account](https://accounts.google.com/Login)\n\n3. Click this link to Google’s page with an overview of the demo account:\n[Sign Up to Access Demo Account](https://support.google.com/analytics/answer/6367342?hl=en)\n\n4. On this page, click on the link “Access Demo Account” (circled in red)\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751630,
+              "key": "0dd4c07b-ece3-4729-916f-5a0b91436eed",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bc4e47f_access-ga-account/access-ga-account.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0dd4c07b-ece3-4729-916f-5a0b91436eed",
+              "caption": "",
+              "alt": "Access Demo Google Analytics Account",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 737268,
+          "key": "90bdfc05-c04b-4942-bd3c-6e31915ef6db",
+          "title": "What is Required to use Google Analytics?",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90bdfc05-c04b-4942-bd3c-6e31915ef6db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 737270,
+              "key": "16cc0c57-9a44-49cd-93ce-5725fb8d662c",
+              "title": "What Is Required To Use Google Analytics?",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[How to set up Google Analytics on a site?](https://support.google.com/analytics/answer/1008080?hl=en)",
+              "video": {
+                "youtube_id": "-DknR8TqhBQ",
+                "china_cdn_id": "-DknR8TqhBQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737272,
+          "key": "ebe85956-4fc6-40f7-a79f-00984c964b44",
+          "title": "How to Implement Code",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ebe85956-4fc6-40f7-a79f-00984c964b44",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 760155,
+              "key": "47193859-60d5-4d48-b787-9c6ece73906a",
+              "title": "C0 L1 04 How To Implement Google Analytics On A Site Or App",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[How to create a new Google Analytics Account](https://support.google.com/analytics/answer/1009694)\n\n[About Mobile App Tracking](https://support.google.com/analytics/answer/2587086)\n\n[About Google Tag Manager](https://www.google.com/analytics/tag-manager/)\n",
+              "video": {
+                "youtube_id": "OPkMsZJ_rNQ",
+                "china_cdn_id": "OPkMsZJ_rNQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737273,
+          "key": "7d8d11f0-a09b-47d8-a8b3-001b1229c440",
+          "title": "Basic Principles in Google Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7d8d11f0-a09b-47d8-a8b3-001b1229c440",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759722,
+              "key": "4729e44f-2a23-4c27-8197-a11bf8253420",
+              "title": "C0 L1 05 Basic Principles In Google Analytics",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[How to set up Google Analytics on a site?](https://support.google.com/analytics/answer/1008080?hl=en)",
+              "video": {
+                "youtube_id": "4sVzDp2UdtY",
+                "china_cdn_id": "4sVzDp2UdtY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737280,
+          "key": "da381e21-027a-4800-a1ff-6f63c84667a0",
+          "title": "Getting Oriented in Google Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "da381e21-027a-4800-a1ff-6f63c84667a0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751631,
+              "key": "e2231c85-c1ce-4a44-8ed6-5dae98ba2761",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Getting oriented in Google Analytics\n\nHere is a snapshot of the default landing page for Google Analytics for the Google Online Merchandise Store.  By default, the analytics account opens up on the master view, you can change the view in the top left corner.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751632,
+              "key": "5454942d-f10b-4341-ab9d-406722376c63",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce3523_ga-change-views/ga-change-views.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5454942d-f10b-4341-ab9d-406722376c63",
+              "caption": "",
+              "alt": "Default View Google Analytics",
+              "width": 2880,
+              "height": 1374,
+              "instructor_notes": null
+            },
+            {
+              "id": 751634,
+              "key": "5f865f90-3617-4163-8d3e-d91bce6a51b6",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Navigation bar\nOn the left-hand side you will always find the navigation bar, which is helpful to find the right report or to re-orient yourself if you don’t remember which report you were looking at. Click each report type to expand the section, and then click on each headline to reveal additional details. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751635,
+              "key": "bacfe4f8-540e-4df9-a4e0-bf8728f8cb06",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce6222_untitled-design-1/untitled-design-1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/bacfe4f8-540e-4df9-a4e0-bf8728f8cb06",
+              "caption": "",
+              "alt": "Google Analytics Navigation Bar",
+              "width": 1014,
+              "height": 892,
+              "instructor_notes": null
+            },
+            {
+              "id": 751636,
+              "key": "d380d1a4-95c8-4635-88c3-c5488c83aeb2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The navigation is organized in a few sections.  We will primarily focus on Audience, Acquisition, Behavior and Conversion.  These 4 sections align with the 4 lessons that follow.  Each lesson, we will dig deeper into the reports in each one of these sections. \n\nOn the right of the navigation bar, you will find the reports.  In this screenshot you are looking at the general overview report.  There are a few other things to note that will help you get oriented:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 751642,
+              "key": "383855c2-1e20-4bfe-b38a-64bcc06c521a",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce346e_ga-navigation/ga-navigation.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/383855c2-1e20-4bfe-b38a-64bcc06c521a",
+              "caption": "",
+              "alt": "General Overview Report of Google Analytics",
+              "width": 2878,
+              "height": 1576,
+              "instructor_notes": null
+            },
+            {
+              "id": 751644,
+              "key": "4c32a5b4-32d2-4ba2-ba2e-338bc4168e9e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Date Range\nIn the top right corner  you will find the date range for your report.  You can change this date range depending on what you are evaluating. \n\n### Graph Display\nThe graph on the page displays one metric by default, but you have the option to display a second metric and compare.  By default, the graph will show you data day by day, but you can choose to make that more granular by choosing to display hourly data points on the graph, or less granular by choosing for instance weekly data. \n\n### Annotations\nThere is a little arrow under the graph.  When you click that, you will see a space for annotations.  You can add annotations, or notes to every data point in the graph.  That may help you to remember later if something special happened at that particular time.  For instance you could say: “big story in the NYTimes about the Merchandise store’.  You can add annotations by double clicking on a datapoint. \n\n### Segments\nThe data are always reported for a certain audience.  By default, Google Analytics shows you your total audience overview.  But, it is possible to select a narrower segment you are interested in.  You see the segment selection on top of the graph. \n\nAs you are navigating around Google Analytics, it is a good idea to always check for which segment you are displaying data.  Once you select a particular segment, Google Analytics will display the data for just that segment unless you change it again.  Google Analytics is sticky that way, and when you get deep into navigation, you may forget that you had selected a subset of your population, so keep that in mind._\n\n## Metrics\nBelow the graph, different metrics are shown.  In this screenshot, the graph displays sessions.  But, you could display any of these other metrics too. Note that you get a little teaser of what a trend graph for any of these metrics will look like, in a micro chart next to the metric.  We will explain what the metrics mean in a little bit. \n\n## Dimensions\nBelow you will find some interesting dimensions that you can use to describe your data, or to get more insights into what is going on on your site.  You see demographics, some information on the systems people use to access your site, and more info on the mobile platforms they access from. \n\n## New vs. Returning visitors\nNote that there is also a graph that shows you the proportion of new vs. returning visitors for the time frame you are looking at. \n\nAt any point when you feel lost in Google Analytics, you can hover over the labels and Google Analytics will give you a definition.  As you navigate through reports, you will also see question marks spread around which you can click to get some help or info on a report.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 737275,
+          "key": "f96355bc-3dad-490c-a7e9-8b0095ea55f2",
+          "title": "Quiz: Getting Oriented in Google Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f96355bc-3dad-490c-a7e9-8b0095ea55f2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759791,
+              "key": "9b1ff1d2-3e8e-4934-9c9a-32d43f1fc8a7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Your Turn: Getting Oriented in Google Analytics#\n\nNow that we have a bit of an idea of how the Google Analytics interface is structured, let’s take a look at the data.  \n\nYou can play around on the overview page of the Google Merchandise store and check out each statement that follows.  Then select whether the statements are true or false.  We will walk through the answers one by one. We will go through 4 statements to practice.\n\n**Note that in order to answer these questions, you will need to work with the Google Analytics account for the Google Merchandise Store you just got access to.**  I strongly suggest you try this out as you will find that the best way to learn how Google Analytics works is by practicing in a real account. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759793,
+              "key": "dac9bbaa-df84-45c7-91c7-ca6892a1ea8b",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dac9bbaa-df84-45c7-91c7-ca6892a1ea8b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "From January 1st until June 30th of 2016, the average number of sessions per month increased.",
+                "answers": [
+                  {
+                    "id": "a1539971751368",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539971760533",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759794,
+              "key": "ed775b51-41f5-498d-8bc6-272077695ee5",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ed775b51-41f5-498d-8bc6-272077695ee5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The proportion of new users (vs. returning users) was lower in June 2016 than it was in January 2016.",
+                "answers": [
+                  {
+                    "id": "a1539971863248",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539971874527",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759795,
+              "key": "25ed058f-a32b-467a-9787-7bf374eed6ef",
+              "title": "Question 3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "25ed058f-a32b-467a-9787-7bf374eed6ef",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the first half of 2016, excluding \"(not set)\", most sessions on the site were from visitors from New York.",
+                "answers": [
+                  {
+                    "id": "a1539971928326",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539971936931",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759796,
+              "key": "c42f93fc-bcaa-4642-a78a-201d5b431ebf",
+              "title": "Question 4",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c42f93fc-bcaa-4642-a78a-201d5b431ebf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "44.84% of the sessions from mobile in the first half of the year were through devices with an iOS operating system.",
+                "answers": [
+                  {
+                    "id": "a1539972012157",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539972022447",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 737276,
+          "key": "7488a5ba-551b-472e-a32f-6f6bfc179059",
+          "title": "Segments in Google Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7488a5ba-551b-472e-a32f-6f6bfc179059",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 737278,
+              "key": "ffbcdb54-cfa3-4799-8790-5c4d6b1c5b7f",
+              "title": "Segmentos no Google Analytics",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "eckmvQg2BzA",
+                "china_cdn_id": "eckmvQg2BzA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737277,
+          "key": "3910341c-a4c6-4d6b-af25-a0eb8edfed54",
+          "title": "Segments in Google Analytics Walkthrough",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3910341c-a4c6-4d6b-af25-a0eb8edfed54",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759727,
+              "key": "b64849ae-ddc3-417d-9273-c396632b42ad",
+              "title": "C0 L1 09 Segments In Google Analytics Walkthrough",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3xynZetY_ew",
+                "china_cdn_id": "3xynZetY_ew.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737279,
+          "key": "f7b3d853-e199-40af-ae81-29af5ce02228",
+          "title": "Quiz: Testing Segments",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7b3d853-e199-40af-ae81-29af5ce02228",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759789,
+              "key": "02d0e7fe-3a05-4816-886d-3e6f94b781be",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Your Turn#\n\nLet’s try out our segmenting skills.  Go ahead and build and save the required segments in the Google Analytics account to answer the following questions",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759790,
+              "key": "567040d6-2c67-46ba-aeca-f623534940e3",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "567040d6-2c67-46ba-aeca-f623534940e3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Among Mobile users of the Google merchandise site, women spend on average more time per session than men, between August 22 and September 21, 2016.",
+                "answers": [
+                  {
+                    "id": "a1539971414619",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539971428875",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 737281,
+          "key": "31c8b686-c155-43a2-a855-0a37455111eb",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "31c8b686-c155-43a2-a855-0a37455111eb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827324,
+              "key": "50ba2c5a-0e58-4aa6-a39f-c4b15266621f",
+              "title": "MAND Conclusion And What Follows V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ib-goTKtrIw",
+                "china_cdn_id": "ib-goTKtrIw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

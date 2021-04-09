@@ -1,0 +1,519 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817170,
+      "key": "36ae8b6b-2fa8-4c9a-b553-301407801bbd",
+      "title": "Custom Reports",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/36ae8b6b-2fa8-4c9a-b553-301407801bbd/817170/1556073802375/Custom+Reports+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/36ae8b6b-2fa8-4c9a-b553-301407801bbd/817170/1556073799875/Custom+Reports+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 791499,
+          "key": "9b16a7d1-b16a-4960-aba0-167c126c0cee",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b16a7d1-b16a-4960-aba0-167c126c0cee",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791500,
+              "key": "5f598f7b-a4f3-4dcc-9a5f-5956d466c427",
+              "title": "C4 L1 0 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "88IEM3TmpYQ",
+                "china_cdn_id": "88IEM3TmpYQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704500,
+          "key": "6840e8b7-852f-49da-81fe-123ca8a1c905",
+          "title": "Custom Reports Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6840e8b7-852f-49da-81fe-123ca8a1c905",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791501,
+              "key": "7e0cb9a9-53f6-484a-95c0-908f7a765c02",
+              "title": "C4 L1 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dMzAXyWMogY",
+                "china_cdn_id": "dMzAXyWMogY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704501,
+          "key": "672ed5b2-749c-4f7c-b9ad-b5cae050585f",
+          "title": "Streamlined, Customized Reporting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "672ed5b2-749c-4f7c-b9ad-b5cae050585f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791502,
+              "key": "a05af59c-a6c3-4113-89f9-fc941e7ae7d9",
+              "title": "C4 L1 02 Streamlined, Customized Reporting",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rDna3vF9D0M",
+                "china_cdn_id": "rDna3vF9D0M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 791878,
+          "key": "2b98b30c-38ed-4d30-9eab-b526de02ab3f",
+          "title": "Quiz: Custom Reports overview, contents, & access levels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2b98b30c-38ed-4d30-9eab-b526de02ab3f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791880,
+              "key": "425ffa8c-6e90-40fb-8b9d-2f7ce126f772",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "425ffa8c-6e90-40fb-8b9d-2f7ce126f772",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not true of Custom Reports in Google Analytics?\n",
+                "answers": [
+                  {
+                    "id": "a1544568333753",
+                    "text": "They allow you to show combinations of metrics and dimensions you won’t see in Standard Reports",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544568348486",
+                    "text": "You can only use Custom Dimensions in Custom Reports ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544568355166",
+                    "text": "They are an excellent way to streamline your reporting",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544568362910",
+                    "text": "These are all true statements ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791882,
+              "key": "8eff2050-eb19-403d-8d89-da0f56065fa7",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8eff2050-eb19-403d-8d89-da0f56065fa7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Custom Reports can be seen by anyone with access to the view in which they are created.\n",
+                "answers": [
+                  {
+                    "id": "a1544568431816",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544568453894",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791883,
+              "key": "3aca5466-866e-4c3a-a350-e7795495a47f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3aca5466-866e-4c3a-a350-e7795495a47f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "To create and view a Custom Report, what level of access rights do you need?\n",
+                "answers": [
+                  {
+                    "id": "a1544568503224",
+                    "text": "Collaborate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544568517382",
+                    "text": "Create and Analyze",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544568523406",
+                    "text": "Edit",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544568530126",
+                    "text": "Manage Users",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791884,
+              "key": "fb5041f3-d2c7-4fe4-8d9a-f1dd008bc17a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fb5041f3-d2c7-4fe4-8d9a-f1dd008bc17a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Custom Reports alter the underlying data on which they are based.\n",
+                "answers": [
+                  {
+                    "id": "a1544568922089",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544568951496",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704502,
+          "key": "dea5eb3f-1545-44a7-ba5a-cca77b5d8ed8",
+          "title": "Specialized Dimensions and Metrics in Custom Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dea5eb3f-1545-44a7-ba5a-cca77b5d8ed8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791503,
+              "key": "d340b239-37da-448d-a81e-05fe63ad3ba4",
+              "title": "C4 L1 03 Specialized Dimensions And Metrics In Custom Reports",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KPFsUF_UYvo",
+                "china_cdn_id": "KPFsUF_UYvo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704509,
+          "key": "ea130635-dc41-4dea-9e0e-4b1aea8595f1",
+          "title": "Formatting and Filtering",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea130635-dc41-4dea-9e0e-4b1aea8595f1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791504,
+              "key": "1f1a4c20-067c-40f6-8424-ed784579f537",
+              "title": "C4 L1 04 Formatting And Filtering",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "wzw0QGA0EKA",
+                "china_cdn_id": "wzw0QGA0EKA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704510,
+          "key": "a6ee3abb-0fcd-4786-a594-eed3f8917c39",
+          "title": "Sampling",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a6ee3abb-0fcd-4786-a594-eed3f8917c39",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791505,
+              "key": "8a1ce1aa-6561-4b24-9607-e36b9370dfbf",
+              "title": "C4 L1 05 Sampling",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "DRscmhgfHX8",
+                "china_cdn_id": "DRscmhgfHX8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 791885,
+          "key": "c42870f8-5fac-42c9-9e0d-2185459e64ea",
+          "title": "Quiz: Specialized Dimensions and Metrics in Custom Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c42870f8-5fac-42c9-9e0d-2185459e64ea",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791886,
+              "key": "b4a8e9df-8ab9-47bf-ab1c-4b6012885675",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b4a8e9df-8ab9-47bf-ab1c-4b6012885675",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True Or False)** There are dimensions that exist in GA that don’t appear as primary dimensions anywhere in its Standard Reports.\n",
+                "answers": [
+                  {
+                    "id": "a1544569053889",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544569074495",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791887,
+              "key": "a72571f5-2a6d-491e-a0a2-e31797a13410",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a72571f5-2a6d-491e-a0a2-e31797a13410",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these can only be shown by including them in Custom Reports?\n",
+                "answers": [
+                  {
+                    "id": "a1544569114474",
+                    "text": "a. Custom & Calculated Metrics ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544569132527",
+                    "text": "b. Custom & Secondary Dimensions ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544569141687",
+                    "text": "Both a. and b.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544569148847",
+                    "text": "Neither a. nor b",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791888,
+              "key": "0c2c9575-b520-42d1-818f-98bc0b1d07c8",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0c2c9575-b520-42d1-818f-98bc0b1d07c8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "If you are using the free version of GA and want to avoid sampling in your reports, both Standard and Custom, you should ensure the date range for the report contains:\n",
+                "answers": [
+                  {
+                    "id": "a1544569251299",
+                    "text": "Less than 50,000 sessions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544569265281",
+                    "text": "Less than 100,000 sessions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544569271344",
+                    "text": "Less than 250,000 sessions",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544569280056",
+                    "text": "Less than 500,000 sessions",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791891,
+              "key": "2717005a-ecfe-475a-a83c-825f492ac7d2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2717005a-ecfe-475a-a83c-825f492ac7d2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is not a way to help ensure you are working with unsampled data in your reports?\n",
+                "answers": [
+                  {
+                    "id": "a1544570088864",
+                    "text": "Keep total sessions under 500,000 in the date range of a single report ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570097522",
+                    "text": "Export the data in a number of smaller reports, each containing less than 500,00 sessions, then reassemble them in another environment ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570107674",
+                    "text": "Extract the data from GA using a specialized tool like Analytics Canvas ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570194323",
+                    "text": "All of these are methods to help ensure you work with unsampled data.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

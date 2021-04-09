@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.180
+Now, that we know who the users are that are coming to the site,
+
+00:00:03.180 --> 00:00:06.269
+let's take a look at how they typically navigate through the site.
+
+00:00:06.269 --> 00:00:09.809
+The user flow report helps with that, so let's take a look.
+
+00:00:09.810 --> 00:00:12.359
+This is a very interesting report with a lot of
+
+00:00:12.359 --> 00:00:15.389
+information about what users do on your site,
+
+00:00:15.390 --> 00:00:18.780
+let's look at the basics and then you can play around with it yourself.
+
+00:00:18.780 --> 00:00:23.865
+At a high level, you get a sense of what the user's typical entry point is to the site.
+
+00:00:23.864 --> 00:00:25.904
+The most common, first interaction,
+
+00:00:25.905 --> 00:00:28.260
+second interaction, third interaction,
+
+00:00:28.260 --> 00:00:30.839
+and you could even get more information on interactions
+
+00:00:30.838 --> 00:00:33.409
+that follow by clicking on the plus sign.
+
+00:00:33.409 --> 00:00:38.104
+The interactions talked about here are really clicks, so let's take a look.
+
+00:00:38.104 --> 00:00:40.009
+The report by default,
+
+00:00:40.009 --> 00:00:42.710
+groups people by country they're coming from.
+
+00:00:42.710 --> 00:00:45.620
+You can choose different ways to segment your audience.
+
+00:00:45.619 --> 00:00:47.599
+So, you can look at the user flow by
+
+00:00:47.600 --> 00:00:51.454
+browser version for instance or some other dimension you want to study.
+
+00:00:51.454 --> 00:00:53.494
+For now, let's stick with the default.
+
+00:00:53.494 --> 00:00:56.254
+You can look at the most common starting pages,
+
+00:00:56.255 --> 00:00:57.635
+clearly in this case,
+
+00:00:57.634 --> 00:01:00.214
+the most common starting page is the homepage.
+
+00:01:00.215 --> 00:01:02.615
+For all the traffic that lands on the homepage,
+
+00:01:02.615 --> 00:01:05.405
+there's a group of sessions where users exit.
+
+00:01:05.405 --> 00:01:08.314
+This is where the red flow line indicates.
+
+00:01:08.314 --> 00:01:10.444
+When I hover over the homepage block,
+
+00:01:10.444 --> 00:01:15.259
+I learned that about 61,000 sessions started at the homepage and of those,
+
+00:01:15.260 --> 00:01:17.750
+37,000 resulted in an exit.
+
+00:01:17.750 --> 00:01:21.230
+Of the sessions that continue to a next interaction,
+
+00:01:21.230 --> 00:01:24.980
+the most popular link clicked was the link to the t-shirt page,
+
+00:01:24.980 --> 00:01:27.859
+over 3,000 of the sessions from the homepage.
+
+00:01:27.859 --> 00:01:29.359
+When you click on this link,
+
+00:01:29.359 --> 00:01:33.694
+you can highlight the path and see what the next most popular interaction was.
+
+00:01:33.694 --> 00:01:37.144
+It looks like a group of sessions went back to the homepage,
+
+00:01:37.144 --> 00:01:39.709
+others started a checkout process through the store,
+
+00:01:39.709 --> 00:01:42.769
+and some sessions started browsing for other products.
+
+00:01:42.769 --> 00:01:45.289
+You also see a block of sessions here that went
+
+00:01:45.290 --> 00:01:47.750
+to other pages that are not specified here.
+
+00:01:47.750 --> 00:01:49.609
+It's a large group of pages,
+
+00:01:49.609 --> 00:01:52.239
+all receiving a small percentage of traffic.
+
+00:01:52.239 --> 00:01:56.209
+Ultimately, it looks like some users continue to the checkout and all along,
+
+00:01:56.209 --> 00:02:00.140
+I can see people exiting through the red flow lines we see throughout.
+
+00:02:00.140 --> 00:02:02.030
+When I look at the first interaction,
+
+00:02:02.030 --> 00:02:03.950
+I learned that for each product page,
+
+00:02:03.950 --> 00:02:06.655
+the drop-offs hover around 20 percent.
+
+00:02:06.655 --> 00:02:08.990
+However, it looks like some people end up on
+
+00:02:08.990 --> 00:02:12.770
+the sign-up page and over 50 percent drops off there.
+
+00:02:12.770 --> 00:02:15.005
+That's much higher than you might expect.
+
+00:02:15.004 --> 00:02:19.405
+Let's check out what's really going on here by trying to mimic what the users do.
+
+00:02:19.405 --> 00:02:24.064
+So, a user lands on the home page and then they click on the sign-up link.
+
+00:02:24.064 --> 00:02:28.189
+Let's do it. So, this is the landing page I get.
+
+00:02:28.189 --> 00:02:33.655
+I was shopping, not sure exactly why I'm signing up here or why I should sign in.
+
+00:02:33.655 --> 00:02:37.430
+Yes, that may be confusing for the user experience and that could have
+
+00:02:37.430 --> 00:02:41.569
+resulted in over 55 percent of the sessions dropping off here.
+
+00:02:41.569 --> 00:02:43.269
+If I were managing the store,
+
+00:02:43.270 --> 00:02:44.810
+I might want to look into this.
+
+00:02:44.810 --> 00:02:47.210
+Do we really need to sign up link so prominently
+
+00:02:47.210 --> 00:02:49.895
+features on the Google Merchandise Store page?
+
+00:02:49.895 --> 00:02:53.990
+The flow report can help you recognize some of these flow issues.
+
+00:02:53.990 --> 00:02:58.550
+It can reveal some of the barriers users encountered in flowing through your site,
+
+00:02:58.550 --> 00:03:01.130
+and it's worth it to try to explore a bit more of what
+
+00:03:01.129 --> 00:03:05.199
+these barriers are and whether you can avoid them altogether in your site.
+

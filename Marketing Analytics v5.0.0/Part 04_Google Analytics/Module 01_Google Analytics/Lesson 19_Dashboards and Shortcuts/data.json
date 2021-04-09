@@ -1,0 +1,620 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817171,
+      "key": "65af6957-0c87-4969-a1a9-fdba40d7208f",
+      "title": "Dashboards and Shortcuts",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/65af6957-0c87-4969-a1a9-fdba40d7208f/817171/1556074135772/Dashboards+and+Shortcuts+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/65af6957-0c87-4969-a1a9-fdba40d7208f/817171/1556074133280/Dashboards+and+Shortcuts+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 791506,
+          "key": "17e0e3a9-28d1-48c3-8365-0716af85bad5",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "17e0e3a9-28d1-48c3-8365-0716af85bad5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791507,
+              "key": "7be7dbd6-d252-482d-826a-f7f9030c21db",
+              "title": "C4 L2 0 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oSxBjZcK95g",
+                "china_cdn_id": "oSxBjZcK95g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704511,
+          "key": "1fc5ff98-4cf0-45a6-ba6b-2facb1db6933",
+          "title": "Dashboards and Shortcuts Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1fc5ff98-4cf0-45a6-ba6b-2facb1db6933",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791508,
+              "key": "ddd77f16-d222-4834-80e1-defe59fb0c7f",
+              "title": "C4 L2 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-GiEi1_qG2g",
+                "china_cdn_id": "-GiEi1_qG2g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704512,
+          "key": "c59b840a-ffb3-4444-b678-ed344bc75de9",
+          "title": "Google Analytics Dashboard Configuration",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c59b840a-ffb3-4444-b678-ed344bc75de9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791509,
+              "key": "15c40a6c-3cae-40f0-9698-db7d9d985e01",
+              "title": "C4 L2 02 Google Analytics Dashboard Configuration",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Jg86YL0vjCo",
+                "china_cdn_id": "Jg86YL0vjCo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 791892,
+          "key": "92a4e159-e1e5-4cc1-9c24-8a132593acb8",
+          "title": "Quiz: Dashboard creation, data sets, and limits in GA",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "92a4e159-e1e5-4cc1-9c24-8a132593acb8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791893,
+              "key": "cb4c19bc-9fc0-401d-8758-d78757768f15",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cb4c19bc-9fc0-401d-8758-d78757768f15",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Within GA, how many different ways are there to create a dashboard?\n",
+                "answers": [
+                  {
+                    "id": "a1544570419404",
+                    "text": "One",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570428505",
+                    "text": "Two",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570431418",
+                    "text": "Three",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544570437898",
+                    "text": "Four",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791894,
+              "key": "4aed75c8-defd-4596-8ac8-931192c180de",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4aed75c8-defd-4596-8ac8-931192c180de",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Both GA Dashboards and Data Studio Dashboards can incorporate data that doesn’t come directly through Google Analytics.\n",
+                "answers": [
+                  {
+                    "id": "a1544570483108",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570512553",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791895,
+              "key": "1a43c611-e902-4060-abbe-0bc3353a7397",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1a43c611-e902-4060-abbe-0bc3353a7397",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many shared dashboards can you have for each view in GA?",
+                "answers": [
+                  {
+                    "id": "a1544570551117",
+                    "text": "25",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570713858",
+                    "text": "50",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544570717841",
+                    "text": "75",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570722977",
+                    "text": "100",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791896,
+              "key": "00148b5a-437d-4067-8614-dd66a9d7bb54",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "00148b5a-437d-4067-8614-dd66a9d7bb54",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many widgets can each of your GA dashboard widgets contain?\n",
+                "answers": [
+                  {
+                    "id": "a1544570830877",
+                    "text": "3",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570844577",
+                    "text": "6",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570846961",
+                    "text": "9",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570850080",
+                    "text": "12",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704513,
+          "key": "d633e75a-35d1-479b-9c74-75c5096ddfb2",
+          "title": "Importing from Solutions Gallery",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d633e75a-35d1-479b-9c74-75c5096ddfb2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791510,
+              "key": "a03117e7-d469-4693-a642-acddbc032819",
+              "title": "C4 L2 03 Importing From Solutions Gallery",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cWxJIbuCsPA",
+                "china_cdn_id": "cWxJIbuCsPA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704514,
+          "key": "9cba269e-8b57-4a71-bf6e-13f59d32df66",
+          "title": "Sharing and Exporting Dashboards and Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9cba269e-8b57-4a71-bf6e-13f59d32df66",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791511,
+              "key": "b7aeac39-0b0d-4061-8a57-9e8240385899",
+              "title": "C4 L2 04 Sharing And Exporting Dashboards And Reports",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "skFV5RWyiwU",
+                "china_cdn_id": "skFV5RWyiwU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704515,
+          "key": "1b8c9e08-92a0-4415-af6e-9c1bd86a6ca1",
+          "title": "Sharing Configurations",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b8c9e08-92a0-4415-af6e-9c1bd86a6ca1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791512,
+              "key": "d9a58e25-e7ef-48af-b2c7-79d1055ca06a",
+              "title": "C4 L2 05 Sharing Configurations",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ydYk8KZDjdw",
+                "china_cdn_id": "ydYk8KZDjdw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704516,
+          "key": "6a1a7f6a-841c-4dd7-8282-18d62f2eb430",
+          "title": "Saved Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6a1a7f6a-841c-4dd7-8282-18d62f2eb430",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791513,
+              "key": "488677bd-098a-4ab9-9247-67c43a4cffeb",
+              "title": "C4 L2 06 Saved Reports",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PKmZxs7D7wM",
+                "china_cdn_id": "PKmZxs7D7wM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 791897,
+          "key": "6974b6e6-39b4-4898-810c-ae0c9836fc0b",
+          "title": "Quiz: Sharing dashboards, custom reports, assets, and saved ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6974b6e6-39b4-4898-810c-ae0c9836fc0b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 791898,
+              "key": "fc310943-be21-4880-a9ff-f4a9a6393419",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fc310943-be21-4880-a9ff-f4a9a6393419",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** When importing dashboards from the Solutions Gallery, special care needs to be taken because it’s possible that the solution you begin with may alter the underlying reporting data that is displaying. ",
+                "answers": [
+                  {
+                    "id": "a1544570964868",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544570995441",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791899,
+              "key": "36ba5267-8ff7-4e1f-bbce-a052e3a42081",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "36ba5267-8ff7-4e1f-bbce-a052e3a42081",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** In order to share a dashboard, you need ``` ________________ ```access at the ``` ________________ ```level.",
+                "answers": [
+                  {
+                    "id": "a1544571092643",
+                    "text": "edit, property ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571144880",
+                    "text": "collaborate, property",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571151648",
+                    "text": "edit, view",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571160664",
+                    "text": "collaborate, view",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791900,
+              "key": "7273c69e-78f9-4d59-83c5-6fe43cd2c042",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7273c69e-78f9-4d59-83c5-6fe43cd2c042",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Custom reports and dashboards cannot be shared outside the view in which they are created.\n",
+                "answers": [
+                  {
+                    "id": "a1544571242523",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571257352",
+                    "text": "False ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791901,
+              "key": "6233de86-6cf9-4443-a7d8-d0688ca9b71b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6233de86-6cf9-4443-a7d8-d0688ca9b71b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is *not* a native format option for exporting reports from GA?\n",
+                "answers": [
+                  {
+                    "id": "a1544571300715",
+                    "text": "CSV",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571323495",
+                    "text": "DBS",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544571329783",
+                    "text": "PDF ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571336265",
+                    "text": "Excel",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571342864",
+                    "text": "Google Sheets",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791902,
+              "key": "81c69c72-c9d3-4179-b93a-14eb0ffe4470",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "81c69c72-c9d3-4179-b93a-14eb0ffe4470",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A great way to share assets (like custom reports, configurations, and channel groupings) across accounts is to:\n",
+                "answers": [
+                  {
+                    "id": "a1544571409270",
+                    "text": "Share them with another user than have them shared back to you",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571419515",
+                    "text": "Share them with yourself from one account then open them in the other account",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544571426106",
+                    "text": "Export them to a share drive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1544571439689",
+                    "text": "These assets cannot be shared and you just need to recreate them. ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 791903,
+              "key": "41e47892-06fe-44d1-8cb8-13011c660638",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "41e47892-06fe-44d1-8cb8-13011c660638",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Saved reports cannot be shared in GA.\n",
+                "answers": [
+                  {
+                    "id": "a1544571524359",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1544571541523",
+                    "text": "False ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

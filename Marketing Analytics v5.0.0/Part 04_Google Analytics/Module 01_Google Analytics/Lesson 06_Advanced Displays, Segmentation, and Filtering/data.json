@@ -1,0 +1,1089 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817158,
+      "key": "fcc42fd6-8db0-4276-a880-4b2aa8cd1126",
+      "title": "Advanced Displays, Segmentation, and Filtering",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/fcc42fd6-8db0-4276-a880-4b2aa8cd1126/817158/1556074118897/Advanced+Displays%2C+Segmentation%2C+and+Filtering+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/fcc42fd6-8db0-4276-a880-4b2aa8cd1126/817158/1556074115525/Advanced+Displays%2C+Segmentation%2C+and+Filtering+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 782041,
+          "key": "9ec6d055-5281-48f4-9537-ce5a7d7b91aa",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9ec6d055-5281-48f4-9537-ce5a7d7b91aa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782045,
+              "key": "1f191ef8-44da-4b26-8c3f-e88bc9d922ed",
+              "title": "C2 L1 0-Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "KYVmV4xyqxE",
+                "china_cdn_id": "KYVmV4xyqxE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704371,
+          "key": "fd9a52b9-848f-4baa-a6ee-b8206a4fb1ab",
+          "title": "Report Displays Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fd9a52b9-848f-4baa-a6ee-b8206a4fb1ab",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782047,
+              "key": "d92a794e-2846-407e-8412-257f71eaabd7",
+              "title": "C2 L1 01 Introduction",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "H3i7Oh9V6qs",
+                "china_cdn_id": "H3i7Oh9V6qs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 780157,
+          "key": "590f4d06-56d8-470b-846e-cf8050a808a9",
+          "title": "Displays in Google Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "590f4d06-56d8-470b-846e-cf8050a808a9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 780158,
+              "key": "a9e92028-d3ad-4626-b401-dbf88f815970",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In what follows, we will discuss the different display types one by one and give examples.  Here is where you can switch between the different displays we will discuss in your Google Analytics Reports. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 780162,
+              "key": "cee66d3e-2c88-4650-9678-ad5c5ac62b77",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5be2075e_c2l1-1bis-text-node/c2l1-1bis-text-node.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cee66d3e-2c88-4650-9678-ad5c5ac62b77",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 780163,
+              "key": "d3ac8baf-efdf-40bd-8fac-2a7184ce96c7",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5be20768_c2l1-1bis-text-node-1/c2l1-1bis-text-node-1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/d3ac8baf-efdf-40bd-8fac-2a7184ce96c7",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 704370,
+          "key": "fd60d50f-23a6-4cf5-954f-f8b75b04e503",
+          "title": "Data Display",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fd60d50f-23a6-4cf5-954f-f8b75b04e503",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782049,
+              "key": "ee4d6c99-f9da-402e-a86e-38a0cff24ff7",
+              "title": "C2 L1 02 Data Display (Default Table View)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "a4eKhVSS9fM",
+                "china_cdn_id": "a4eKhVSS9fM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527510,
+          "key": "a8dfd739-1857-41b3-9864-3573079dbf7e",
+          "title": "Percentage Display",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a8dfd739-1857-41b3-9864-3573079dbf7e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782050,
+              "key": "a82eccdb-2cd2-4428-9b72-3b57bf225090",
+              "title": "C2 L1 03 Percentage Display (Example)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "9YHaLzJwxCI",
+                "china_cdn_id": "9YHaLzJwxCI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 780166,
+          "key": "a035a018-f2f0-441b-83a6-a989b69b013b",
+          "title": "Quiz: Displays in Google Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a035a018-f2f0-441b-83a6-a989b69b013b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 780169,
+              "key": "c25fec5a-4009-4eca-b5d8-0bfee8cedc83",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c25fec5a-4009-4eca-b5d8-0bfee8cedc83",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Fill in this blank:**` ______` can help make complex information more accessible, especially for users who aren’t familiar with analytics. ",
+                "answers": [
+                  {
+                    "id": "a1541539779746",
+                    "text": "The discovery process",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541539874336",
+                    "text": "Emailed PDFs",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541539881631",
+                    "text": "User groups",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541539888648",
+                    "text": "Data visualization",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780172,
+              "key": "5f898627-933e-4726-8c69-5c4ea0e820d8",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5be20997_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5f898627-933e-4726-8c69-5c4ea0e820d8",
+              "caption": "",
+              "alt": "",
+              "width": 1700,
+              "height": 1034,
+              "instructor_notes": null
+            },
+            {
+              "id": 780171,
+              "key": "a26aec9a-0e60-4da1-9a0f-e29aa1f8fb1f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a26aec9a-0e60-4da1-9a0f-e29aa1f8fb1f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Fill in this blank:**  The report shown above, obtained by clicking the icon that’s highlighted, is the default for many of the standard reports in GA and is referred to as the `____________`\n",
+                "answers": [
+                  {
+                    "id": "a1541540064137",
+                    "text": "Comparison Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540153184",
+                    "text": "Data Display",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541540161088",
+                    "text": "Percentage Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540168503",
+                    "text": "Performance Display",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780174,
+              "key": "7a64641d-03ad-4811-adc1-60636cea635e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7a64641d-03ad-4811-adc1-60636cea635e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Fill in this blank:** The `________________` display presents your data using pie charts, to show numerical proportion.\n",
+                "answers": [
+                  {
+                    "id": "a1541540282313",
+                    "text": "Percentage display",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541540299679",
+                    "text": "Data Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540300431",
+                    "text": "Performance Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540301471",
+                    "text": "None of these",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780180,
+              "key": "18b1976c-e616-481a-b858-5ae061b148eb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "18b1976c-e616-481a-b858-5ae061b148eb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "As we showed in two different examples so far, changing this shifts the focus of your reports to different metric groups while staying in the same report type:\n",
+                "answers": [
+                  {
+                    "id": "a1541540448665",
+                    "text": "Primary Dimension",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541540471695",
+                    "text": "Date Range",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540481167",
+                    "text": "Both of these",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540488358",
+                    "text": "None of theses",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 527511,
+          "key": "3e8dcad3-b14d-4fd5-9e66-b23429c9e28c",
+          "title": "Performance Display",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3e8dcad3-b14d-4fd5-9e66-b23429c9e28c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782051,
+              "key": "6cd33ca5-8d7d-47ff-89e0-44cfa54da8ee",
+              "title": "C2 L1 04 Performance Display (Example)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3Dd8zV9EtpY",
+                "china_cdn_id": "3Dd8zV9EtpY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527512,
+          "key": "f7c44784-fed7-4e8a-a87a-a91a1c0e39c6",
+          "title": "Comparison Display",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7c44784-fed7-4e8a-a87a-a91a1c0e39c6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782052,
+              "key": "19b11064-7c60-4aef-8f71-31701fab2e6c",
+              "title": "C2 L1 05 Comparison Display (Example)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qSDq3OdjH74",
+                "china_cdn_id": "qSDq3OdjH74.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527513,
+          "key": "aa69e850-d53c-47c0-aee4-1146b1b043eb",
+          "title": "Pivot Display",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aa69e850-d53c-47c0-aee4-1146b1b043eb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782053,
+              "key": "e244c5e4-0419-454b-99f7-dbd050a22933",
+              "title": "C2 L1 06 Pivot Display",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nseToTH-Y7k",
+                "china_cdn_id": "nseToTH-Y7k.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 780182,
+          "key": "90de6796-d55e-4b6f-a414-6efb285a087f",
+          "title": "Quiz: Displays in Google Analytics 2",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90de6796-d55e-4b6f-a414-6efb285a087f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 780193,
+              "key": "99dfeaa8-1e74-4ccc-8fdd-e1b7d08347dc",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5be20c31_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/99dfeaa8-1e74-4ccc-8fdd-e1b7d08347dc",
+              "caption": "",
+              "alt": "",
+              "width": 1682,
+              "height": 942,
+              "instructor_notes": null
+            },
+            {
+              "id": 780191,
+              "key": "34d53deb-50d4-4ce1-acd5-b591ff61f0e2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "34d53deb-50d4-4ce1-acd5-b591ff61f0e2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the name of the report shown above, obtained by clicking the icon that’s highlighted and that uses a horizontal bar chart to  to show discrete numerical comparisons across categories?\n",
+                "answers": [
+                  {
+                    "id": "a1541540731551",
+                    "text": "Comparison Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540753855",
+                    "text": "Data Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540754598",
+                    "text": "Percentage Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541540769798",
+                    "text": "Performance Display",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780184,
+              "key": "a1ecd1e9-fa06-4668-915f-f7699cb26c72",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5be20b71_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a1ecd1e9-fa06-4668-915f-f7699cb26c72",
+              "caption": "",
+              "alt": "",
+              "width": 1693,
+              "height": 998,
+              "instructor_notes": null
+            },
+            {
+              "id": 780200,
+              "key": "994191af-1617-45d3-b6b2-9e2c2c229a98",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "994191af-1617-45d3-b6b2-9e2c2c229a98",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the name of the report shown below, obtained by clicking the icon that’s highlighted and that uses a horizontal bar chart to  to show relative performance for selected metrics?numerical comparisons across categories?",
+                "answers": [
+                  {
+                    "id": "a1541541101696",
+                    "text": "Comparison Display",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541541122406",
+                    "text": "Pivot Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541541123142",
+                    "text": "Advanced Filter",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541541124078",
+                    "text": "Default Display",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780259,
+              "key": "df177fc7-28e2-40f6-b29f-90b69b40fbc7",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "df177fc7-28e2-40f6-b29f-90b69b40fbc7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are among the benefits of using the Pivot Display in GA reports?\n",
+                "answers": [
+                  {
+                    "id": "a1541543127695",
+                    "text": "A. It allows you to rearrange your data with a tabled view, allowing for different comparisons to be visualized ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543139708",
+                    "text": "B. You can adjust the colors of the slices that make up the pie charts",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543148068",
+                    "text": "C. Multiple dimensions can be layered, allowing for more specific analysis ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543157973",
+                    "text": "Both A. and B.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543213964",
+                    "text": "Both B. and C.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543227668",
+                    "text": "Both A. and C.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780264,
+              "key": "4a28ef0a-282a-4b3a-9b17-f68e9ea4fafc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4a28ef0a-282a-4b3a-9b17-f68e9ea4fafc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Both the Percentage Display and the Comparison Display feature data represented in horizontal bar charts.\n",
+                "answers": [
+                  {
+                    "id": "a1541543349797",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543363452",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 527514,
+          "key": "c895e22e-c21c-4d98-839e-0f284c777041",
+          "title": "Navigation Summary",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c895e22e-c21c-4d98-839e-0f284c777041",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782054,
+              "key": "92718fcd-cea9-43cd-9bdb-e26b65fd9796",
+              "title": "C2 L1 07 Navigation Summary (Example)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "auapmNvgz40",
+                "china_cdn_id": "auapmNvgz40.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527515,
+          "key": "0dcedc18-d631-4b1d-9df7-809ce2dbdb82",
+          "title": "Changing the Metrics Displayed in the Main Graph",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0dcedc18-d631-4b1d-9df7-809ce2dbdb82",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782055,
+              "key": "6b79ad87-0a82-43ea-b2c4-0b74a994c5f5",
+              "title": "C2 L1 08 Changing The Metrics Displayed In The Main Graph",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3rUrZeFez2c",
+                "china_cdn_id": "3rUrZeFez2c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527516,
+          "key": "16f63851-b968-4163-9736-c1e49cc81ef2",
+          "title": "Plot Rows",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "16f63851-b968-4163-9736-c1e49cc81ef2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782056,
+              "key": "fbbffb59-b01a-4fb4-9779-d5b46bf68cba",
+              "title": "C2 L1 09 Plot Rows (Example)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "yB8RXy2cANE",
+                "china_cdn_id": "yB8RXy2cANE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 783656,
+          "key": "a622d326-c00d-47ac-a71d-1f69b23804de",
+          "title": "Key Terms ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a622d326-c00d-47ac-a71d-1f69b23804de",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 783659,
+              "key": "f2dd36c5-d39d-48b4-8d12-8b6c908336a7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Key Terms",
+              "instructor_notes": ""
+            },
+            {
+              "id": 783658,
+              "key": "3c8f39d7-5cfb-4d64-8c6c-077999313b72",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "|Term   |   Definition|   |   |   |\n|---|---|---|---|---|\n|  Linear scale |   A range of values where the value between two consecutive points on the line does not change no matter how high or low you are on the scale. It shows the absolute values.|   |   |   |\n| Logarithmic scale  | A range of values where the value between two consecutive points not only changes, but also has a distinct pattern. This shows the rate of change over time.  |   |   |   |\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 783660,
+              "key": "bedc823b-61a3-45a7-a9ba-3db1a0209bf5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are two main reasons to use logarithmic scales in charts and graphs. The first is to respond to skewness towards large values; i.e., cases in which one or a few points are much larger than the bulk of the data. The second is to show percent change or multiplicative factors.\n\nIn the example, the linear scale graph shows the absolute number of users by default channel grouping over time. The large value dwarfs the smaller values, in other words, users from organic search dwarf users from paid search and affiliates. \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 783661,
+              "key": "41dd53e8-389a-4aef-a052-d1fb4946d376",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bec7f2f_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/41dd53e8-389a-4aef-a052-d1fb4946d376",
+              "caption": "",
+              "alt": "",
+              "width": 1369,
+              "height": 428,
+              "instructor_notes": null
+            },
+            {
+              "id": 783662,
+              "key": "6e9b8fe9-a146-4112-bd32-5a079e1e56a9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When you switch from the linear scale graph to the logarithmic scale graph, the logarithmic scale graph shows the rate of change of the number of users by default channel group over time.  Each tick mark on the y axis is the previous tick mark multiplied by 10. On a logarithmic scale, the distance between each power of 10 is the same. So the distance from 1 to 10 on the graph is the same as the distance from 10 to 100, which is the same as the distance from 100 to 1000. \n\nThe logarithmic graph makes the rate of change of users from each default channel group clear in the visualization.  The values themselves don’t change, they are displayed on a different scale.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 783663,
+              "key": "cec8cbbf-cc7d-4ceb-867d-83232dcaccc5",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bec7f46_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cec8cbbf-cc7d-4ceb-867d-83232dcaccc5",
+              "caption": "",
+              "alt": "",
+              "width": 1383,
+              "height": 473,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 527517,
+          "key": "3376f14c-9b0a-45bf-a39d-f26784c6620d",
+          "title": "Sparklines",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3376f14c-9b0a-45bf-a39d-f26784c6620d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782057,
+              "key": "c0aa436a-786c-4733-94f2-286e4e5bb1f2",
+              "title": "C2 L1 10 Sparklines",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "a-j4YuVIB0Q",
+                "china_cdn_id": "a-j4YuVIB0Q.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 780276,
+          "key": "f37ce900-3384-44ed-bc1b-4905b7afeb0c",
+          "title": "Quiz: Display Navigation ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f37ce900-3384-44ed-bc1b-4905b7afeb0c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 780279,
+              "key": "3594ca40-1f84-42a2-9ee8-ef38704292cd",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3594ca40-1f84-42a2-9ee8-ef38704292cd",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Fill in these blanks:**  In situations where you want to drill down into specific metrics and dimension and analyze trends in data over time, the `_______` and `_______ `are ideally suited to this process.\n",
+                "answers": [
+                  {
+                    "id": "a1541543713757",
+                    "text": "Navigation Summary and Plot Rows",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543746787",
+                    "text": "Plot Rows feature and Motion Chart Display",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541543755555",
+                    "text": "Navigation Summary and Motion Chart Display",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543763331",
+                    "text": "Sparklines Display and Navigation Summary",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780300,
+              "key": "98f069ba-bc00-44c4-a447-784233d925ec",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5be21896_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/98f069ba-bc00-44c4-a447-784233d925ec",
+              "caption": "",
+              "alt": "",
+              "width": 1403,
+              "height": 750,
+              "instructor_notes": null
+            },
+            {
+              "id": 780289,
+              "key": "10cf5375-0d15-4231-b308-288e03765960",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "10cf5375-0d15-4231-b308-288e03765960",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the name of the report shown above, available in the Behavior tab of the reporting interface?\n",
+                "answers": [
+                  {
+                    "id": "a1541543873112",
+                    "text": "Sparklines Report",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543887440",
+                    "text": "Navigation Summary",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541543895496",
+                    "text": "Plot Rows Report",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541543903255",
+                    "text": "None of these ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780308,
+              "key": "fc5dc095-29bd-482f-b1b2-a51285aa0fe6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fc5dc095-29bd-482f-b1b2-a51285aa0fe6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Fill in this blank: ` _________` are small graphics designed to provide a quick representation of numerical or statistical information.\n",
+                "answers": [
+                  {
+                    "id": "a1541544105641",
+                    "text": "Plot Rows",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541544132968",
+                    "text": "Navigation Summaries",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541544140376",
+                    "text": "Sparklines",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541544147911",
+                    "text": "Any of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 780322,
+              "key": "7cd7c1d4-aee6-4450-bca3-d8611e60b56e",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7cd7c1d4-aee6-4450-bca3-d8611e60b56e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Select all that apply)** Which of these are a type of Motion Chart in GA? \n",
+                "answers": [
+                  {
+                    "id": "a1541544261226",
+                    "text": "Line based ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541544316255",
+                    "text": "Dot based",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1541544329456",
+                    "text": "Axis based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541544330223",
+                    "text": "Slice based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1541544343647",
+                    "text": "Bar based",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

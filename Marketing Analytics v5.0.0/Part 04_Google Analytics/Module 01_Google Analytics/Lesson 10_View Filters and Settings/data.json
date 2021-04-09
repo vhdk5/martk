@@ -1,0 +1,884 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817162,
+      "key": "4f843d29-4714-44e8-8907-c1cad5ed4c0b",
+      "title": "View Filters and Settings",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn how to clean, subset, and enrich the raw property feed through view filters and settings.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/4f843d29-4714-44e8-8907-c1cad5ed4c0b/817162/1556073652160/View+Filters+and+Settings+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/4f843d29-4714-44e8-8907-c1cad5ed4c0b/817162/1556073648496/View+Filters+and+Settings+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 704386,
+          "key": "42cdfbd4-bc1f-4b14-b97f-1300485dbf29",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "42cdfbd4-bc1f-4b14-b97f-1300485dbf29",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782087,
+              "key": "d6c7c828-7070-4249-aa7c-f48d652cc4cc",
+              "title": "C2 L5 00 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "be1sMz-vZrc",
+                "china_cdn_id": "be1sMz-vZrc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 782086,
+          "key": "e4ef9fa3-1f63-4d53-9f48-219b9884bdf0",
+          "title": "View Filters and Settings Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e4ef9fa3-1f63-4d53-9f48-219b9884bdf0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827331,
+              "key": "244aced8-d5d1-444c-8122-3b3caf1dcc15",
+              "title": "MAND Course3 Introduction FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Xi5nvA-cIvU",
+                "china_cdn_id": "Xi5nvA-cIvU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527530,
+          "key": "ca1a4825-6fcf-4ecf-80a0-819924a51b59",
+          "title": "View Settings vs. Custom Segments",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ca1a4825-6fcf-4ecf-80a0-819924a51b59",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782089,
+              "key": "3f035092-6f6e-4a93-a577-0277da9fcea7",
+              "title": "C2 L5 02 View Settings Vs. Custom Segments",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6inlUlvgw-s",
+                "china_cdn_id": "6inlUlvgw-s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704388,
+          "key": "f127fccc-d5c9-4f6c-91ff-0f7bc6903bb2",
+          "title": "Baseline Three Views Per Property",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f127fccc-d5c9-4f6c-91ff-0f7bc6903bb2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 783037,
+              "key": "1ea69fcf-efad-4ab9-ac29-900056610e79",
+              "title": "C2 L5 03 Baseline Three Views Per Property V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mr4LVt2u2_0",
+                "china_cdn_id": "mr4LVt2u2_0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704390,
+          "key": "ea923f6f-d9c7-4ffe-9892-de1f0fac46cd",
+          "title": "Excluding Internal Traffic",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ea923f6f-d9c7-4ffe-9892-de1f0fac46cd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782096,
+              "key": "695d3ab1-1aeb-4207-baa4-79c7a20e8a10",
+              "title": "C2 L5 04 Excluding Internal Traffic",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "In this video, Eric uses [RegexIP](http://www.regexip.com/) to generate the regular expression to enable filtering of a range of IP addresses. You can use this tool at any time.",
+              "video": {
+                "youtube_id": "QqHtygCMg_4",
+                "china_cdn_id": "QqHtygCMg_4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 783639,
+          "key": "3b1ee042-1d1c-4c5a-b797-9cbae78eda6b",
+          "title": "Quiz: Filters & Settings",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3b1ee042-1d1c-4c5a-b797-9cbae78eda6b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 783642,
+              "key": "63384166-f3aa-4717-8fa2-78e3bfd402ec",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "63384166-f3aa-4717-8fa2-78e3bfd402ec",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "As a minimum, you should have at least how many views for each for each of your GA properties?\n",
+                "answers": [
+                  {
+                    "id": "a1542224110444",
+                    "text": "8",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224125585",
+                    "text": "6",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224128456",
+                    "text": "5",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224131329",
+                    "text": "3",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1542224233673",
+                    "text": "2",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 783643,
+              "key": "986ce5ad-b0ed-4793-ad19-def9d4d6776f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "986ce5ad-b0ed-4793-ad19-def9d4d6776f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** One of the primary differences between a custom segment and a dedicated, filtered view is that the filtered view is retroactive while the custom segment can only show data from the point of it’s creation onward.\n",
+                "answers": [
+                  {
+                    "id": "a1542224270643",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224295385",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 783644,
+              "key": "7aa8508d-cc10-4397-8361-c83dc14da8ef",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7aa8508d-cc10-4397-8361-c83dc14da8ef",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** GA automatically filters out your organization’s internal data based on IP addresses.\n",
+                "answers": [
+                  {
+                    "id": "a1542224344643",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224369753",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 783646,
+              "key": "383bd2c7-75bf-44b9-ba39-9475a9f14dce",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "383bd2c7-75bf-44b9-ba39-9475a9f14dce",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is not a good reason to consider filtering your organization’s internal traffic out of your GA dataset?  \n",
+                "answers": [
+                  {
+                    "id": "a1542224410202",
+                    "text": "Your internal data is likely going to generate noise in your GA data that’s not actionable",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224420193",
+                    "text": "Your internal data will likely inflate some of your metrics, like sessions and users ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1542224427944",
+                    "text": "Your internal data should always live in a dedicated view ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1542224438232",
+                    "text": "Your internal data will likely artificially mask the bounce rate and session duration of your actual users ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704391,
+          "key": "454d248d-c3bc-48c0-b5f2-723eed7e7b7c",
+          "title": "Lowercasing Dimension Values",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "454d248d-c3bc-48c0-b5f2-723eed7e7b7c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782097,
+              "key": "4497b04e-a12a-45f8-8862-17eafedcf5f5",
+              "title": "C2 L5 05 Lowercasing Dimension Values",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "G7CiSc0eLt0",
+                "china_cdn_id": "G7CiSc0eLt0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527533,
+          "key": "5b72d08f-934e-48dd-b516-977c0d8aa214",
+          "title": "Default Page",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5b72d08f-934e-48dd-b516-977c0d8aa214",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782099,
+              "key": "e8121425-882f-47a3-8cbc-4fe55999edf8",
+              "title": "C2 L5 06 Default Page",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Y304bgRpQEU",
+                "china_cdn_id": "Y304bgRpQEU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 783045,
+          "key": "8251afbf-c934-41ac-a232-059f4d0c0cfb",
+          "title": "Conslolidating Pages with Trailing Forward Slash",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8251afbf-c934-41ac-a232-059f4d0c0cfb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 783048,
+              "key": "921cf482-7cd0-4229-93ce-882e7479de43",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let's review one of the challenges presented in the previous section.\n\nIf you have identical pages that users can access with or without a forward slash in the URL as in the examples below, your Pages report will be fragmented:\n\n/catalog\n\n/catalog/\n\n/about\n\n/about/\n\n/news\n\n/news/\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 783049,
+              "key": "986cb556-438d-4935-9ed3-62782317254b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/November/5bea3e0a_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/986cb556-438d-4935-9ed3-62782317254b",
+              "caption": "*This advanced view filter allows us to consolidate the Page dimensions that differ by a trailing forward slash.*",
+              "alt": "This advanced view filter allows us to consolidate the Page dimensions that differ by a trailing forward slash.",
+              "width": 693,
+              "height": 1114,
+              "instructor_notes": null
+            },
+            {
+              "id": 783051,
+              "key": "dcb9f5a0-4508-455a-a619-336efd11c287",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let's closely review each aspect of the filter.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 783052,
+              "key": "8cb56ead-82a8-4721-a94e-7afe8894dba0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\n\n\n\n\n|   |   |   |   |   |\n|---|---|---|---|---|\n|  Request URI | This refers to the Page dimension.  (For some reason, the Page dimension appears under a different name in the view configuration panel.)  |   |   |   |\n| .  | The . regex metacharacter matches any literal character.  |   |   |   |\n| .+  | The + regex quantifier means one or more of the preceding character, so .+ means match any portion of text with a minimum length of 1.  |   |   |   |\n| (.+)  | The parentheses create a matching group that allow the match to be output in the Output to->Constructor field.  |   |   |   |\n| (.+)/  | This regex matches any text string that ends in / and has at least one other character preceding the /.  |  |   |   |\n| $A1  | $A1 means output the first matching group from the regex in Field A.  Since the regular expression matches Request URIs that end in 1 but the matching group within the regex only pulls in the characters preceding the /, we can output the first matching group to strip the / from the end of the Request URI. If the regex in field A contained two matching groups, we could reference the second as $A2.  |   |   |   |\n\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 827449,
+          "key": "5d7570f4-cad4-4603-a3c3-5a49db7c0eeb",
+          "title": "Page Consolidation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5d7570f4-cad4-4603-a3c3-5a49db7c0eeb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827451,
+              "key": "3bab1fb9-c7b7-4307-ae33-aab543b1addd",
+              "title": "C2 L5 07 Page Consolidation V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3E8u5PZ0798",
+                "china_cdn_id": "3E8u5PZ0798.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827450,
+          "key": "8af5f01d-fc67-4c7d-a0d8-2ad2b53ee37f",
+          "title": "Page Consolidation Continued",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8af5f01d-fc67-4c7d-a0d8-2ad2b53ee37f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827452,
+              "key": "a081d6cf-2a3e-475d-acf9-d843d6ecd166",
+              "title": "C2 L5 07b Page Consolidation Pt 2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aQ39q_q1r_o",
+                "china_cdn_id": "aQ39q_q1r_o.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 766675,
+          "key": "95d2c871-789d-47c6-999e-1f09635cad20",
+          "title": "Track URL Parameters as Custom Dimensions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "95d2c871-789d-47c6-999e-1f09635cad20",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766676,
+              "key": "8c6584d5-f243-4d48-984d-0d83a7e92ede",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the previous discussion about consolidating the Page dimension, we saw a clear example of a query parameter that did determine different page content that we should therefore not strip out of the Page dimension:\n\n```\n/article.php?id=123 - Rocky Mountains\n/article.php?id=456 - Copenhagen\n```\nIn the other example, it would be good to strip out the query parameter because it does not determine page content:\n\n```\n/welcome.php?id=123 - Welcome, Vijay\n/welcome.php?id=456 - Welcome, Deborah\n```\nBut what about a query parameter that only partially determines different page content? Let's consider a news aggregation site that allows users to display news category pages as a plain list or with thumbnail images.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766678,
+              "key": "ce797b9d-a867-4ee6-a7cc-2fcadd8c1f67",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce5f5b_untitled-design/untitled-design.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/ce797b9d-a867-4ee6-a7cc-2fcadd8c1f67",
+              "caption": "*Should we strip out the display parameter?*",
+              "alt": "Should we strip out the display parameter?",
+              "width": 944,
+              "height": 502,
+              "instructor_notes": null
+            },
+            {
+              "id": 766681,
+              "key": "a1693154-cceb-4d0f-9ff4-8596b34a6c27",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In many cases, we might want to see metrics such as Pageviews, Exit Rate, and Average Time on Page for all views of category pages such as the *economy page*, whether or not it was displayed as list or thumbnail.  This would be a reason to strip out the query parameter.\n\nOn the other hand, what if we wanted to see these same metrics for the two different displays of the economy page, or aggregated (as in the custom report below) for all category pages viewed as lists and all category pages viewed as thumbnails?  If we just eliminated the display parameter from the Google Analytics Page dimension without taking any further implementation steps, this potentially significant display information would be lost.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766684,
+              "key": "7fed72c0-6cb6-4679-bab3-dfa38c9fa945",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce5fd4_image7/image7.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7fed72c0-6cb6-4679-bab3-dfa38c9fa945",
+              "caption": "*Google Analytics custom report using Display as the primary dimension*",
+              "alt": "Google Analytics custom report using Display as the primary dimension",
+              "width": 1044,
+              "height": 250,
+              "instructor_notes": null
+            },
+            {
+              "id": 766686,
+              "key": "13a5c986-614b-41a2-bc72-8c69500f3230",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Consolidate Pages by Maintain Query Parameter Data with Google Analytics Custom Dimensions and Google Tag Manager URL Variables**\n\nThe good news is that we can take the following steps to have reporting consolidation where we need it, while also retaining and reporting on the *display* field when this would be useful.\n\n1. Add display to the Strip URL Query Parameters field in the Google Analytics view setting (remember: in a test view first):\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766687,
+              "key": "c71f284d-6fb0-4791-b4fb-e158232a39a1",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce6037_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c71f284d-6fb0-4791-b4fb-e158232a39a1",
+              "caption": "",
+              "alt": "",
+              "width": 506,
+              "height": 511,
+              "instructor_notes": null
+            },
+            {
+              "id": 766688,
+              "key": "3cd8b5b2-cea9-400b-a92a-aa1da10130ae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "    2. Create a hit-scope Custom Dimension named Display:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766689,
+              "key": "11362f35-6310-4e38-a035-1439e8a0fc12",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce606a_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/11362f35-6310-4e38-a035-1439e8a0fc12",
+              "caption": "",
+              "alt": "",
+              "width": 433,
+              "height": 448,
+              "instructor_notes": null
+            },
+            {
+              "id": 766690,
+              "key": "551f460b-66ac-4df4-9449-96348fd828b5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "    3. Create a Google Tag Manager URL variable to read the value of the display query parameter:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766691,
+              "key": "2e729fbf-cd74-4687-a82a-b393f4e70add",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce60aa_image5/image5.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2e729fbf-cd74-4687-a82a-b393f4e70add",
+              "caption": "",
+              "alt": "",
+              "width": 565,
+              "height": 517,
+              "instructor_notes": null
+            },
+            {
+              "id": 766692,
+              "key": "bef87233-46c4-467b-9702-5bfd0e982886",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "    4. In your Google Analytics pageview tag within GTM, populate the Custom Dimension slot with the URL variable:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766693,
+              "key": "03679a9f-bcbb-41ba-822a-972df332f165",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce60d4_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/03679a9f-bcbb-41ba-822a-972df332f165",
+              "caption": "",
+              "alt": "",
+              "width": 1184,
+              "height": 909,
+              "instructor_notes": null
+            },
+            {
+              "id": 766694,
+              "key": "732aa96f-76bf-4759-9519-739de554c13f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "    5. If your pageview consolidation looks good in the Google Analytics test view after a few days, add display to the Strip URL Query Parameters field in the settings of your main Google Analytics view.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766695,
+              "key": "3ba87b01-157f-44d3-8009-b1b778d532f5",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "\nThis solution provides the best of both worlds:\n* The news category Page dimensions are consolidated, regardless of list or thumbnail display.\n* We have captured the display option as a Custom Dimension, so we're able to report metrics according to list or thumbnail display, for individual news category pages, or for all page URLs in what that parameter appears.\n\nIn the custom report above, we can observe that the thumbnail display is generating fewer pageviews than the list display, but it's showing a higher average time on page and, importantly, a lower exit rate.  A possible optimization step could be to make thumbnail the default display for the news category pages.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 766701,
+          "key": "b0831c97-3931-4ae1-817e-064e201c3a36",
+          "title": "Query Parameter Utility",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b0831c97-3931-4ae1-817e-064e201c3a36",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766705,
+              "key": "952444de-a2f4-46b4-bbb4-5301f0f4bd48",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In additional to using the URL Parameter report in Google Search Console to list the query parameters in a website's URLs, you can use this [Google Sheets utility](https://docs.google.com/spreadsheets/d/1qn0JQdTFQ6BaWClYrQt0SseVD8s1X8qGs30XW7OWmoI/edit) for the same purpose:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766711,
+              "key": "cebae2c8-0bae-4b4b-8491-5d52573f1f3f",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce62fc_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cebae2c8-0bae-4b4b-8491-5d52573f1f3f",
+              "caption": "*You can use the Google Sheets utility to list out the query parameters present in the Page dimension of the specified Google Analytics view.*",
+              "alt": "You can use the Google Sheets utility to list out the query parameters present in the Page dimension of the specified Google Analytics view.",
+              "width": 481,
+              "height": 472,
+              "instructor_notes": null
+            },
+            {
+              "id": 766712,
+              "key": "edb5bb94-901a-4eb2-928a-1bebff070f75",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The advantage of this utility is that it will parse values in the Page dimension whether or not the corresponding page resides behind a login, while Google Search Console reports only on URLs that Googlebot can reach, i.e., unauthenticated pages.\n\nDetailed instructions are provided in the Google Sheet utility.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 527532,
+          "key": "5c59857d-21d9-4b49-b130-1a852226ff49",
+          "title": "Site Search Configuration",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c59857d-21d9-4b49-b130-1a852226ff49",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782103,
+              "key": "f259ed7e-361f-4fc5-bca1-5cd19ed5a01b",
+              "title": "C2 L5 08 Site Search Configuration",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BTcZtOgDQl8",
+                "china_cdn_id": "BTcZtOgDQl8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704395,
+          "key": "f864e3fb-fe2a-4029-9647-37d8cebb01f7",
+          "title": "Tracking Country-Specific Search Engine Clickthroughs",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f864e3fb-fe2a-4029-9647-37d8cebb01f7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782105,
+              "key": "edb7438f-d6c5-4bf3-82c0-61a915a7c9f4",
+              "title": "C2 L5 09 Tracking Country-Specific Search Engine Clickthroughs",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "io3amhn66pw",
+                "china_cdn_id": "io3amhn66pw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704396,
+          "key": "ef52970c-d5e5-4aa6-8bba-9a57ea5ef60f",
+          "title": "Specialized Views For Data Subsets",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ef52970c-d5e5-4aa6-8bba-9a57ea5ef60f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782106,
+              "key": "efe847cf-42e0-41b9-a252-84dda13900d0",
+              "title": "C2 L5 10 Specialized Views For Data Subsets",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1bmDkjoQYuQ",
+                "china_cdn_id": "1bmDkjoQYuQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 766715,
+          "key": "46b6ada5-9411-405e-803b-b205e996f549",
+          "title": "Time Zone Settings for Google Analytics Views",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "46b6ada5-9411-405e-803b-b205e996f549",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766716,
+              "key": "19e14304-7ffb-4962-80df-9ec84d921304",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the view that we created in the previous example, we set the time zone to align to the physical location of the organization.  This is one of several approaches that you can take in setting the time zone in a new view, including:\n\n**Option 1: Align with the Time Zone Set in Your Google Ads Account**\n\nIf you are using Google Ads, aligning your Google Analytics view time zone with the timezone of your Google Ads (previously called AdWords) account is important for synching day-level metrics across the platforms. This should perhaps be the overriding consideration when you're specifying the time zone for your Google Analytics view.\n\n**Option 2: Align with Your Organization's Physical Location**\n\nThis could be a good option for a multinational organization that has country-specific subdomains or subdirectories tracked into the same Google Analytics property.  In this case, you could create views filtered by hostname or subdirectory for each of the countries, and then apply the time zone that corresponds most closely with that country.\n\n**Option 3: Align with the Physical Location of the Majority of Your Users**\n\nThis could be a suitable approach if the majority of your visitors are located within a single time zone.  As another approach, you could choose option 1 or 2 above, and capture the time zone of your visitors as a session-scope custom dimension.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 766717,
+              "key": "5e708b6f-f282-40fb-85b5-bfb9499c0c25",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2018/October/5bce645a_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5e708b6f-f282-40fb-85b5-bfb9499c0c25",
+              "caption": "*Among the several considerations in determining the time zone that you specify for a new view, alignment with AdWords is perhaps the most important.*",
+              "alt": "Among the several considerations in determining the time zone that you specify for a new view, alignment with AdWords is perhaps the most important.",
+              "width": 970,
+              "height": 563,
+              "instructor_notes": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

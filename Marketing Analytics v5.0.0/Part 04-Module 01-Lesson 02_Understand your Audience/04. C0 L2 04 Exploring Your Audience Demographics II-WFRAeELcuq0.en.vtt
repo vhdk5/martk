@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.024
+You may wonder how Google would have any information on the gender and age of the users,
+
+00:00:05.024 --> 00:00:08.995
+after all, they don't give us that information when they come to the site.
+
+00:00:08.994 --> 00:00:14.189
+Google Analytics infers the demographic data based on the known user profile.
+
+00:00:14.189 --> 00:00:17.669
+For instance, if the user is logged in to other Google products,
+
+00:00:17.670 --> 00:00:22.035
+or based on the user's past browsing behavior that may reveal something about gender.
+
+00:00:22.035 --> 00:00:25.605
+For some users, Google cannot get this demographic data.
+
+00:00:25.605 --> 00:00:29.175
+As a result, you'll see a percentage at the top of each report
+
+00:00:29.175 --> 00:00:33.420
+that indicates the percent of total users the data is based on.
+
+00:00:33.420 --> 00:00:39.150
+The yellow shield will also tell you the percentage of sessions the data is based on.
+

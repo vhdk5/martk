@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.100 --> 00:00:02.400
+A primeira afirmação está correta.
+
+00:00:02.465 --> 00:00:06.300
+Vemos mesmo que, dos usuários
+que chegam à página inicial
+
+00:00:06.300 --> 00:00:07.985
+na segunda interação,
+
+00:00:07.985 --> 00:00:11.165
+32,1% abandonam a sessão.
+
+00:00:11.195 --> 00:00:13.755
+É isso o que essa linha vermelha indica.
+
+00:00:13.755 --> 00:00:16.245
+Vamos dar uma olhada
+na segunda afirmação.
+
+00:00:16.245 --> 00:00:20.200
+Esta afirmação é sobre as sessões
+de usuários que usam o Chrome.
+
+00:00:20.200 --> 00:00:24.100
+Então, vamos isolar esse grupo
+analisando o fluxo por navegador.
+
+00:00:24.100 --> 00:00:28.200
+Agora, vamos observar os usuários
+de Chrome que acessam a página inicial.
+
+00:00:28.200 --> 00:00:32.425
+Podemos fazer isso clicando
+nesta parte do fluxo do usuário.
+
+00:00:32.425 --> 00:00:35.815
+E, ao seguirmos esse grupo
+até a interação seguinte,
+
+00:00:35.815 --> 00:00:40.900
+vemos que 2.600 sessões
+acabam indo à página de camisetas,
+
+00:00:40.900 --> 00:00:44.785
+não 2.300. Então,
+a afirmação é falsa.
+

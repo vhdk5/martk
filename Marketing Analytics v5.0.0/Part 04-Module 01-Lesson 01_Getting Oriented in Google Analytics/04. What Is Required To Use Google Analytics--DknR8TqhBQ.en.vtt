@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.780
+Google Analytics reports on all the interactions of users with a site or an app.
+
+00:00:05.780 --> 00:00:09.403
+However, in order for that to happen the owner of a site
+
+00:00:09.403 --> 00:00:13.640
+needs to integrate Google Analytics code in the web site or app.
+
+00:00:13.640 --> 00:00:16.039
+Google Analytics code is a piece of
+
+00:00:16.039 --> 00:00:19.969
+Javascript that gets integrated in the rest of the code of the site.
+
+00:00:19.969 --> 00:00:23.480
+Every page of a website needs to have that code in order
+
+00:00:23.480 --> 00:00:27.454
+for Google Analytics to track the activity on that page.
+
+00:00:27.454 --> 00:00:31.129
+This piece of Javascript will then instruct to that page to send
+
+00:00:31.129 --> 00:00:35.990
+relevant data to Google Analytics so that it can be included for reporting.
+
+00:00:35.990 --> 00:00:39.454
+For mobile apps the general principle is the same, however,
+
+00:00:39.454 --> 00:00:44.825
+instead of Javascript the app owner needs to integrate the code via an SDK,
+
+00:00:44.825 --> 00:00:47.689
+which stands for Software Development Kit,
+
+00:00:47.689 --> 00:00:49.429
+a special piece of software,
+
+00:00:49.429 --> 00:00:54.017
+app developers can integrate in their app to connect it to other platforms,
+
+00:00:54.017 --> 00:00:56.219
+in this case Google Analytics.
+
+00:00:56.219 --> 00:00:59.719
+Also, mobile apps don't really work with pages so
+
+00:00:59.719 --> 00:01:03.274
+instead we track activities in Mobile and thus,
+
+00:01:03.274 --> 00:01:08.515
+some code needs to be added to every possible activity.
+
+00:01:08.515 --> 00:01:12.108
+Once the Google Analytics code is integrated in a site or an app,
+
+00:01:12.108 --> 00:01:14.208
+Google will start collecting data on
+
+00:01:14.209 --> 00:01:18.890
+the interaction of the users with the site or the app.
+
+00:01:18.890 --> 00:01:22.239
+Google makes it very easy to integrate this code in your site.
+
+00:01:22.239 --> 00:01:25.969
+In most cases a website developer will take care of that for you.
+
+00:01:25.968 --> 00:01:29.208
+In case you have a website that's built in a platform like,
+
+00:01:29.209 --> 00:01:32.314
+for instance, Squarespace, Wix, WordPress, etc.
+
+00:01:32.313 --> 00:01:36.083
+integration with Google Analytics is usually already built in.
+
+00:01:36.084 --> 00:01:38.780
+In case you need to do this yourself for your site,
+
+00:01:38.780 --> 00:01:42.950
+you will find the following walk through by just in controlling at Google helpful.
+
+00:01:42.950 --> 00:01:46.489
+If you won't be the one setting this up you can skip the next video.
+

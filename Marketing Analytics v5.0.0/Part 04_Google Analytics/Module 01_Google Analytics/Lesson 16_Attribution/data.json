@@ -1,0 +1,672 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817168,
+      "key": "afa79038-d73b-47dc-9d49-9f475f487449",
+      "title": "Attribution",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/afa79038-d73b-47dc-9d49-9f475f487449/817168/1556074147493/Attribution+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/afa79038-d73b-47dc-9d49-9f475f487449/817168/1556074144279/Attribution+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 784337,
+          "key": "70f5d908-4994-49ce-aaf0-ee175e30a5f2",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "70f5d908-4994-49ce-aaf0-ee175e30a5f2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784338,
+              "key": "bf368243-5226-408e-a231-53eaaffc7c22",
+              "title": "C3 L4 00 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Qirufn4RC8w",
+                "china_cdn_id": "Qirufn4RC8w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 682535,
+          "key": "48e7fde0-97f7-4a55-b3b6-ec7653d122ba",
+          "title": "Attribution Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "48e7fde0-97f7-4a55-b3b6-ec7653d122ba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784339,
+              "key": "c74f2241-caad-4ba6-9ca4-5ed540504e31",
+              "title": "C3 L4 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "nWr3LpBG1nA",
+                "china_cdn_id": "nWr3LpBG1nA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704489,
+          "key": "0b80c79f-dbd5-4e81-b4f6-5a6e9f5af46d",
+          "title": "Last Non-Direct Click Attribution Model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0b80c79f-dbd5-4e81-b4f6-5a6e9f5af46d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784340,
+              "key": "92cc57e6-9198-4957-996a-b5a3bf1da697",
+              "title": "C3 L4 02 Last Non-Direct Click Attribution Model",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "GfA_RwEHZPQ",
+                "china_cdn_id": "GfA_RwEHZPQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704490,
+          "key": "5c233490-00ea-499a-b93c-7d8de2cef0a5",
+          "title": "How Google Analytics Reports Direct Traffic",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5c233490-00ea-499a-b93c-7d8de2cef0a5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784341,
+              "key": "3a679399-30ab-4da2-9a15-da240aeeeecb",
+              "title": "C3 L4 03 How Google Analytics Reports Direct Traffic",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ODUnZCRlRMM",
+                "china_cdn_id": "ODUnZCRlRMM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 790641,
+          "key": "1e64b6a0-5cc6-49e1-9d17-272b6da5de93",
+          "title": "Quiz: Attribution",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1e64b6a0-5cc6-49e1-9d17-272b6da5de93",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790642,
+              "key": "bab25daa-ccbc-4c58-9ad9-190d2462a59b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bab25daa-ccbc-4c58-9ad9-190d2462a59b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is the default, standard attribution model in Google Analytics?\n",
+                "answers": [
+                  {
+                    "id": "a1543882551553",
+                    "text": "First non-direct click",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543882569519",
+                    "text": "Last non-direct click",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543882578766",
+                    "text": "First interaction",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543882586487",
+                    "text": "Last interaction",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790643,
+              "key": "d7b9fa36-d92c-4f68-9961-865b6fab3255",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d7b9fa36-d92c-4f68-9961-865b6fab3255",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the default length of the campaign time-out window?\n",
+                "answers": [
+                  {
+                    "id": "a1543882695488",
+                    "text": "One month",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543882705422",
+                    "text": "Three months",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543882712318",
+                    "text": "Six months",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543882718774",
+                    "text": "One year",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790644,
+              "key": "1b193767-25aa-42e5-b751-fd81b5e20f63",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1b193767-25aa-42e5-b751-fd81b5e20f63",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** If a user’s first session is attributed to Paid Search, their next session will also be attributed to Paid Search if no no new referral or campaign is present and the timing of the session falls within the campaign timeout window.\n",
+                "answers": [
+                  {
+                    "id": "a1543882885438",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543882904757",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790645,
+              "key": "748d6d6e-de3b-4f36-a9d5-cd6175982af2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "748d6d6e-de3b-4f36-a9d5-cd6175982af2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "To get a clearer breakdown of the original sessions attributed to a channel versus the the subsequent direct sessions that channel is also receiving attribution credit for, which secondary dimensions should you apply to a channel report?\n",
+                "answers": [
+                  {
+                    "id": "a1543882968790",
+                    "text": "Secondary Session",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543882986917",
+                    "text": "Direct Session ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543882994355",
+                    "text": "Referral Path",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543883001316",
+                    "text": "Source/Medium",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790646,
+              "key": "11b27fcf-4d83-4073-8d08-fec734cdfe12",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "11b27fcf-4d83-4073-8d08-fec734cdfe12",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "If  no referring data is present on the inbound session and no campaign data is associated with the user within the campaign expiration window, the traffic will be counted in which channel?\n",
+                "answers": [
+                  {
+                    "id": "a1543883094445",
+                    "text": "Referral",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543883105164",
+                    "text": "Social",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543883112444",
+                    "text": "Organic Search",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543883120004",
+                    "text": "Direct ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704491,
+          "key": "a66b55bd-4e74-4d33-b099-16c294c72918",
+          "title": "Revisit the Multi-Channel Funnel Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a66b55bd-4e74-4d33-b099-16c294c72918",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784342,
+              "key": "5970116a-6213-4f31-8cf3-a540bd869e60",
+              "title": "C3 L4 04 Revisit The Multi-Channel Funnel Reports",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3NiAxenAI5I",
+                "china_cdn_id": "3NiAxenAI5I.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704492,
+          "key": "56692ad7-51f7-43e8-b38c-d4d8c4d5d48a",
+          "title": "Conversion Segments",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "56692ad7-51f7-43e8-b38c-d4d8c4d5d48a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784343,
+              "key": "d346cd79-2906-473f-be31-bcfb9b404e24",
+              "title": "C3 L4 05 Conversion Segments",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Gn2tBm9yk7M",
+                "china_cdn_id": "Gn2tBm9yk7M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704493,
+          "key": "fdc354cb-7c3f-4709-ad2b-82fed8261de8",
+          "title": "Model Comparison Tool in the Google Analytics UI",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fdc354cb-7c3f-4709-ad2b-82fed8261de8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784344,
+              "key": "dbf94ef5-fba5-4634-85e7-187a060103d8",
+              "title": "C3 L4 06 Model Comparison Tool In The Google Analytics UI",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6a-Fb7eIYuw",
+                "china_cdn_id": "6a-Fb7eIYuw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704494,
+          "key": "068d6df7-0181-4f6d-87d1-2415efab28c1",
+          "title": "Viewing Ad Impression Data in GA",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "068d6df7-0181-4f6d-87d1-2415efab28c1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784345,
+              "key": "86b19b51-a415-4bd4-b22f-9043de522211",
+              "title": "C3 L4 07 Viewing Ad Impression Data In GA",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "E8pPu7Y068Y",
+                "china_cdn_id": "E8pPu7Y068Y.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 790661,
+          "key": "1b09b6db-aa4a-470b-93b8-4103ccbb53f7",
+          "title": "Quiz: MCF Reports",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1b09b6db-aa4a-470b-93b8-4103ccbb53f7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790662,
+              "key": "62081bd6-1a19-410f-8467-cef3ec9d7e3a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "62081bd6-1a19-410f-8467-cef3ec9d7e3a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** The Multi-Channel Funnel Reports in GA can help show how different marketing efforts overlap and support each other\n",
+                "answers": [
+                  {
+                    "id": "a1543884532675",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543884940221",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790665,
+              "key": "5a115295-1c48-484c-ada1-bbf4d07ea3fc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5a115295-1c48-484c-ada1-bbf4d07ea3fc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** When using the MCF reports to try and determine what’s driving conversions, it’s a good idea to look at multiple kinds of conversions at the same time.  What is the default length of the campaign time-out window?\n",
+                "answers": [
+                  {
+                    "id": "a1543884983793",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543885014164",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790670,
+              "key": "87cde9a4-819a-4c7c-90f8-ba0fb7f8f865",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "87cde9a4-819a-4c7c-90f8-ba0fb7f8f865",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In order to examine the time-lag of conversion, what can you adjust in the MCF report?\n",
+                "answers": [
+                  {
+                    "id": "a1543885057550",
+                    "text": "Campaign time-out",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543885074420",
+                    "text": "Lookback window ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543885080693",
+                    "text": "Both of these",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543885087220",
+                    "text": "Neither of these",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790672,
+              "key": "c384dffe-2bcb-4d0d-9a91-81b3ead1f74f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c384dffe-2bcb-4d0d-9a91-81b3ead1f74f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** To compare how specific attributes of a conversion compare to one another, as as to your overall conversions characteristics, you can apply Conversion Segments to the MCF reports.\n",
+                "answers": [
+                  {
+                    "id": "a1543885173966",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543885188436",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790678,
+              "key": "4fbb02b3-20b7-466c-bc42-03858a6be69f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4fbb02b3-20b7-466c-bc42-03858a6be69f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which attribution model, available in the Model Comparison Tool, gives proportional credit across all touch points within the look-back window, equally and with no consideration to position or recency?\n",
+                "answers": [
+                  {
+                    "id": "a1543885244293",
+                    "text": "Last interaction",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543885246341",
+                    "text": "Time decay",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543885266300",
+                    "text": "Linear",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543885275379",
+                    "text": "None of the above",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790679,
+              "key": "5d2fa4e8-0eae-4517-ad77-2b87019ea482",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5d2fa4e8-0eae-4517-ad77-2b87019ea482",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** In the position-based attribution model, the first interactions are given more credit for conversions than the rest of the interactions that led to it.  \n",
+                "answers": [
+                  {
+                    "id": "a1543885343133",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543885365562",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

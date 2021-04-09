@@ -1,0 +1,37 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.750
+Since you want to prioritize the bugs that affect most people,
+
+00:00:03.750 --> 00:00:07.620
+you would fix the bugs related to Chrome first in this scenario.
+
+00:00:07.620 --> 00:00:09.750
+Most of the sessions on the side are from
+
+00:00:09.750 --> 00:00:12.945
+Chrome users as you can see in this browser report.
+
+00:00:12.945 --> 00:00:17.335
+In the second scenario, it seems wise to first fix the iOS issue,
+
+00:00:17.335 --> 00:00:19.969
+since many more sessions are from iOS users,
+
+00:00:19.969 --> 00:00:24.554
+then from users of the Google Nexus phone as this device report shows.
+
+00:00:24.554 --> 00:00:25.859
+Of course in reality,
+
+00:00:25.859 --> 00:00:29.475
+there may be many more considerations that go into this prioritization.
+
+00:00:29.475 --> 00:00:33.630
+For instance, how much effort will it take to fix each one of these bugs?
+
+00:00:33.630 --> 00:00:39.170
+Nonetheless, understanding how many people are affected by these issues is very helpful.
+

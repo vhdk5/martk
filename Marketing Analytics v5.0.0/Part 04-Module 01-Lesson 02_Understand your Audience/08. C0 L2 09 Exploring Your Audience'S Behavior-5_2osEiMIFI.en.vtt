@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.940
+Google Analytics also allows you to profile users based on their behavior on your site.
+
+00:00:05.940 --> 00:00:07.919
+As we indicated before,
+
+00:00:07.919 --> 00:00:10.169
+you can check how many of the sessions on
+
+00:00:10.169 --> 00:00:13.140
+your website were from people who visited you before,
+
+00:00:13.140 --> 00:00:16.890
+returning visitors, or from people who are new to the site.
+
+00:00:16.890 --> 00:00:21.660
+Related to this, you can also learn how often your users come to your site.
+
+00:00:21.660 --> 00:00:25.050
+In this case, most users only come once.
+
+00:00:25.050 --> 00:00:29.565
+We see that because there is only a relatively small group of returning visitors.
+
+00:00:29.565 --> 00:00:34.035
+When reading these data, keep in mind that you're looking at a particular time frame.
+
+00:00:34.034 --> 00:00:36.479
+In this example, it's the month of August.
+
+00:00:36.479 --> 00:00:39.509
+But previous visits are counted for all time.
+
+00:00:39.509 --> 00:00:43.869
+So, in this case, you can see that of the users that came to the site in August,
+
+00:00:43.869 --> 00:00:48.304
+there are over 7,000 users that are visiting for the second time.
+
+00:00:48.304 --> 00:00:51.320
+These users visited the site before,
+
+00:00:51.320 --> 00:00:55.475
+but before may mean six months ago or it could mean earlier today.
+
+00:00:55.475 --> 00:00:59.495
+If you'd like to get a sense of how long ago a previous visit of the user was,
+
+00:00:59.494 --> 00:01:02.209
+you can use the recency part of this report
+
+00:01:02.210 --> 00:01:05.525
+by clicking on the Days Since Last Session link.
+
+00:01:05.525 --> 00:01:09.035
+This report tells you how many sessions came from users
+
+00:01:09.034 --> 00:01:14.164
+whose last visit to your site was one day ago or two days ago, et cetera.
+
+00:01:14.165 --> 00:01:15.560
+Of course in this case,
+
+00:01:15.560 --> 00:01:17.450
+since we have so many new visitors,
+
+00:01:17.450 --> 00:01:22.189
+most sessions fall into the bucket of users who visited zero days ago.
+
+00:01:22.189 --> 00:01:26.409
+You can also take a look at your audience based on their engagement with the site.
+
+00:01:26.409 --> 00:01:27.939
+When we talk about engagement,
+
+00:01:27.939 --> 00:01:32.299
+we mean how engaged or interested the audience seems to be with the content.
+
+00:01:32.299 --> 00:01:33.890
+When using analytics tools,
+
+00:01:33.890 --> 00:01:37.805
+engagement will typically be expressed in terms of the amount of time
+
+00:01:37.805 --> 00:01:42.440
+a user spends on the site or the number of page views the user's views.
+
+00:01:42.439 --> 00:01:44.870
+The time spent metric is best because
+
+00:01:44.870 --> 00:01:47.930
+page views are often dependent on how the site is built.
+
+00:01:47.930 --> 00:01:52.180
+Say for example that the site has a blog with relatively lengthy posts,
+
+00:01:52.180 --> 00:01:55.100
+yet users visit the blog and read the posts.
+
+00:01:55.099 --> 00:01:56.809
+They would spend some time doing that,
+
+00:01:56.810 --> 00:02:00.004
+but there would only be one associated page view.
+
+00:02:00.004 --> 00:02:04.670
+You'll also find that an increasing number of sites rely on users scrolling down on
+
+00:02:04.670 --> 00:02:09.349
+a page to see a lot of information rather than clicking from page to page.
+
+00:02:09.349 --> 00:02:13.370
+This is often considered a better user experience on a mobile device.
+
+00:02:13.370 --> 00:02:15.980
+Let's look at, Betabrand.com.
+
+00:02:15.979 --> 00:02:21.155
+You can get a lot of information on cool new stuff they sell just by scrolling down.
+
+00:02:21.155 --> 00:02:22.430
+In a case like this,
+
+00:02:22.430 --> 00:02:26.180
+page views are not the best metric to evaluate user engagement.
+
+00:02:26.180 --> 00:02:29.000
+I suggest we focus on the time spent metric to
+
+00:02:29.000 --> 00:02:32.254
+categorize users into buckets of how they engaged.
+
+00:02:32.254 --> 00:02:33.694
+As we can see here,
+
+00:02:33.694 --> 00:02:35.389
+there is a large group of users on
+
+00:02:35.389 --> 00:02:38.964
+the Google Merchandise Store who visit for less than 10 seconds.
+
+00:02:38.965 --> 00:02:41.789
+That's not really enough time to explore products,
+
+00:02:41.789 --> 00:02:43.294
+let alone buy anything.
+
+00:02:43.294 --> 00:02:46.819
+That's too bad. Later, we should explore what's going on here.
+
+00:02:46.819 --> 00:02:50.959
+It looks like this group of users may not be satisfied with what they find on the site.
+
+00:02:50.960 --> 00:02:55.129
+So, it is worth isolating them as a segment to try to figure out that this group has
+
+00:02:55.129 --> 00:02:57.139
+other different characteristics that may help us
+
+00:02:57.139 --> 00:03:01.229
+understand why they're leaving after less than 10 seconds.
+

@@ -1,0 +1,396 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817166,
+      "key": "3b755c32-b72f-4d5b-8193-45016bc2c1f8",
+      "title": "Channel Customization",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/3b755c32-b72f-4d5b-8193-45016bc2c1f8/817166/1556074097344/Channel+Customization+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/3b755c32-b72f-4d5b-8193-45016bc2c1f8/817166/1556074093318/Channel+Customization+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 784317,
+          "key": "f7b2afea-9cec-485a-be03-d0475f13ed2b",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f7b2afea-9cec-485a-be03-d0475f13ed2b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784318,
+              "key": "e1189d56-f12d-4973-8852-8e1930c07b89",
+              "title": "C3 L2 00 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oaDO_oGrhBU",
+                "china_cdn_id": "oaDO_oGrhBU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 682533,
+          "key": "b1e38c2b-9c59-41df-8047-edb6cae281ce",
+          "title": "Channel Customization Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b1e38c2b-9c59-41df-8047-edb6cae281ce",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784319,
+              "key": "c28a6e89-9a73-4fd6-85dd-ffa4018657aa",
+              "title": "C3 L2 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "X7eCdWPafFc",
+                "china_cdn_id": "X7eCdWPafFc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704456,
+          "key": "bda89f7f-5524-4d0f-9aed-e220818f4379",
+          "title": "Understanding the Default Channel Definitions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bda89f7f-5524-4d0f-9aed-e220818f4379",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784320,
+              "key": "dc6cbcfa-a49d-4b37-a705-5dac5844e06a",
+              "title": "C3 L2 02 Understanding The Default Channel Definitions",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "lurIX0ZMrYg",
+                "china_cdn_id": "lurIX0ZMrYg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704457,
+          "key": "db270ea5-b722-4128-97e3-14ebc0b3a25f",
+          "title": "Custom Channels: Remarketing, Paid Social, Redirects & SMS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "db270ea5-b722-4128-97e3-14ebc0b3a25f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784321,
+              "key": "0006a84c-2233-4247-a2d3-c61674ebf809",
+              "title": "C3 L2 03 Custom Channels For Remarketing, Paid Social, Redirects, And SMS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ASrdVdZcb04",
+                "china_cdn_id": "ASrdVdZcb04.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704474,
+          "key": "8f940ffd-ddcd-4e31-b062-b45e8d1ed88f",
+          "title": "Minimizing the (other) channel",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8f940ffd-ddcd-4e31-b062-b45e8d1ed88f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784322,
+              "key": "b796e6b9-e2f2-4057-9ae8-22588ee0b124",
+              "title": "C3 L2 04 Minimizing The (Other) Channel",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Z3-ceCzQm-E",
+                "china_cdn_id": "Z3-ceCzQm-E.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704475,
+          "key": "4f04f031-b3dd-4039-ad68-147f9af8f16a",
+          "title": "Retroactive and personal channels",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4f04f031-b3dd-4039-ad68-147f9af8f16a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784323,
+              "key": "3980b234-daff-46f7-ad4b-9fc183c86e3f",
+              "title": "C3 L2 05 Retroactive And Personal Channels",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "TolPSrOC_4s",
+                "china_cdn_id": "TolPSrOC_4s.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 790620,
+          "key": "d7fa4ca1-d8f9-4cf1-b25d-b223b04fbc85",
+          "title": "Quiz: Everything about Channel definitions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d7fa4ca1-d8f9-4cf1-b25d-b223b04fbc85",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790621,
+              "key": "8d93704b-2b9e-46ec-a7cd-3cf108581e1e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8d93704b-2b9e-46ec-a7cd-3cf108581e1e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is the most important reference for understanding channel definitions in Google Analytics?\n",
+                "answers": [
+                  {
+                    "id": "a1543876210748",
+                    "text": "Default",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543876225289",
+                    "text": "My organization’s notes about their channel definitions ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543876232738",
+                    "text": "The Channels report in GA",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543876254618",
+                    "text": "The Channels report in GTM",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790622,
+              "key": "08cdd754-2462-49a5-8a68-a3918841c87c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "08cdd754-2462-49a5-8a68-a3918841c87c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "By default, how many channel groupings are defined in GA?\n",
+                "answers": [
+                  {
+                    "id": "a1543879063017",
+                    "text": "3",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879078359",
+                    "text": "6",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879081343",
+                    "text": "9",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543879083998",
+                    "text": "12",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790624,
+              "key": "d3bd1587-35b7-4875-93e3-3deb2c678cc9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d3bd1587-35b7-4875-93e3-3deb2c678cc9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** There are no retroactive channel groupings that can be defined in GA\n",
+                "answers": [
+                  {
+                    "id": "a1543879192321",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879222919",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790625,
+              "key": "ee97b652-18d8-4fb7-9453-1b3ce95978b0",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ee97b652-18d8-4fb7-9453-1b3ce95978b0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is a catch-all label, applied to the grouping of sessions that do not match any of the default or custom channel definitions?\n",
+                "answers": [
+                  {
+                    "id": "a1543879264386",
+                    "text": "Not set ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879285616",
+                    "text": "Not provided ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879292063",
+                    "text": "Miscellaneous",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879299592",
+                    "text": "Other",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790626,
+              "key": "61530796-a44a-484a-929e-f9b876893e07",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "61530796-a44a-484a-929e-f9b876893e07",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Channel definitions can only be based on source and medium values\n",
+                "answers": [
+                  {
+                    "id": "a1543879386930",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879415624",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "id": 2485,
+  "project_id": 579,
+  "upload_types": [
+    "file",
+    "zip"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(css|docx|gradle|htm|html|java|js|markdown|md|pdf|py|rmd|rst|sql|swift|txt|xml|yaml|yml)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "Using your own Google Analytics data, create the assets described above. Configure one or more dashboards or custom reports to be delivered on a weekly or monthly basis to another stakeholder, explaining why the dashboard or report would be the most interesting and engaging for the recipient. List the specific types of annotations that would be the most relevant for your organization.\n",
+  "hide_criteria": false,
+  "created_at": "2019-02-06T16:51:40.617Z",
+  "updated_at": "2020-12-16T12:18:55.385Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd028-beta",
+    "nd028",
+    "nd028-ent",
+    "nd028-cn",
+    "nd028-connect"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 5309,
+      "name": "Part One: Use Advanced Displays, Segments & Views",
+      "created_at": "2019-02-07T04:21:49.647Z",
+      "updated_at": "2019-02-07T04:22:26.768Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2485,
+      "rubric_items": []
+    },
+    {
+      "id": 5310,
+      "name": "Three Views Best Practice",
+      "created_at": "2019-02-07T04:22:37.977Z",
+      "updated_at": "2019-02-07T04:22:54.114Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15370,
+          "section_id": 5310,
+          "passed_description": "Your screenshot should clearly show all three views created in the same property or show where this would be done by providing clear, ordered steps to follow. Providing a rationale for the creation of the views is also important.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:22:54.228Z",
+          "updated_at": "2019-02-07T04:23:30.975Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": " \nDid the student create three views in keeping with the best practice, demonstrate that it had already been done, or show where and explain how to do it?\n",
+          "exceedable": false
+        },
+        {
+          "id": 15371,
+          "section_id": 5310,
+          "passed_description": "The student has clearly documented whether they are using the Google Merchandise Store Demo Account or their own business for this project.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:23:31.170Z",
+          "updated_at": "2019-02-07T04:23:54.021Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Did the student document on the page whether they are using the Google Merchandise Store Demo Account, or their own business?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5311,
+      "name": "Filtering Out Internal Traffic",
+      "created_at": "2019-02-07T04:23:54.145Z",
+      "updated_at": "2019-02-07T04:24:08.147Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15372,
+          "section_id": 5311,
+          "passed_description": "The filter captures internal traffic, even if it comes in from various locations, IP addresses, etc.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:24:08.273Z",
+          "updated_at": "2019-02-07T04:24:36.854Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student show evidence of building a filter to exclude internal traffic from reporting or show that one was already in place?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5312,
+      "name": "Switching Displays to Try and Answer Questions",
+      "created_at": "2019-02-07T04:24:37.047Z",
+      "updated_at": "2019-02-07T04:24:42.046Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15373,
+          "section_id": 5312,
+          "passed_description": "Insights and findings that have been uncovered from each reporting view have been documented and explained. If specific questions have been asked in the template, they are answered by the student.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:24:42.180Z",
+          "updated_at": "2019-02-07T04:25:16.241Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Does the student provide additional notes or questions where relevant to demonstrate an understanding of the report types?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5313,
+      "name": "Creating Segments",
+      "created_at": "2019-02-07T04:25:16.664Z",
+      "updated_at": "2019-02-07T04:25:21.286Z",
+      "deleted_at": null,
+      "position": 4,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15374,
+          "section_id": 5313,
+          "passed_description": "Audience segments include screenshots of each: Characteristic, Geography, and User Behavior.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:25:21.671Z",
+          "updated_at": "2019-02-07T04:25:43.783Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student show evidence of creating an audience-based segment?",
+          "exceedable": false
+        },
+        {
+          "id": 15375,
+          "section_id": 5313,
+          "passed_description": "For each segment, clear and detailed notes should explain what type of data each segment is providing, and what results/insights can be found from the segment.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:25:43.901Z",
+          "updated_at": "2019-02-07T04:26:14.357Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Has the student provided a written explanation of each segment and the results they have found?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5314,
+      "name": "Part Two: Creating Custom Reports, Dashboards, and Alerts",
+      "created_at": "2019-02-07T04:26:14.479Z",
+      "updated_at": "2019-02-07T04:26:41.835Z",
+      "deleted_at": null,
+      "position": 5,
+      "rubric_id": 2485,
+      "rubric_items": []
+    },
+    {
+      "id": 5315,
+      "name": "Master View Connected",
+      "created_at": "2019-02-07T04:26:41.956Z",
+      "updated_at": "2019-02-07T04:26:53.927Z",
+      "deleted_at": null,
+      "position": 6,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15376,
+          "section_id": 5315,
+          "passed_description": "Provide a screenshot in the template provided that demonstrates that you have successfully linked the Google Merchandise Store Demo Account Google Analytics to your instance of Data Studios.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:26:54.058Z",
+          "updated_at": "2019-02-07T04:27:35.290Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student successfully connect the Master View?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5316,
+      "name": "Time Series Chart",
+      "created_at": "2019-02-07T04:27:35.416Z",
+      "updated_at": "2019-02-07T04:27:40.488Z",
+      "deleted_at": null,
+      "position": 7,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15377,
+          "section_id": 5316,
+          "passed_description": "Provide a screenshot in the template provided that demonstrates that you have successfully created Time Series chart: configured to show unique pageviews, sessions, and users",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:27:41.120Z",
+          "updated_at": "2019-02-07T04:28:21.256Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student successfully create a Time Series chart: configured to show unique pageviews, sessions, and users?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5317,
+      "name": "Pie Chart, 7 Slices",
+      "created_at": "2019-02-07T04:28:21.403Z",
+      "updated_at": "2019-02-07T04:28:30.610Z",
+      "deleted_at": null,
+      "position": 8,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15378,
+          "section_id": 5317,
+          "passed_description": "Provide a screenshot in the template provided that demonstrates that you have successfully created a Pie chart with 7 slices configured to show revenue, broken down by product categories.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:28:30.752Z",
+          "updated_at": "2019-02-07T04:29:16.594Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student successfully create a Pie chart with 7 slices configured to show revenue, broken down by product categories. The Google Merchandise Store has used multiple Product Category Groups and for this chart, you are being asked to use the dimension called Product Category - Previous Content Group?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5318,
+      "name": "Pie Chart, 5 Slices",
+      "created_at": "2019-02-07T04:28:24.562Z",
+      "updated_at": "2019-02-07T04:29:16.604Z",
+      "deleted_at": null,
+      "position": 9,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15379,
+          "section_id": 5318,
+          "passed_description": "Provide a screenshot in the template provided that demonstrates that you have successfully created a Pie chart, 5 slices: configured to show what sources are driving new users to the site",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:29:16.743Z",
+          "updated_at": "2019-02-07T04:29:51.867Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student successfully create a Pie chart, 5 slices: configured to show what sources are driving new users to the site?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5319,
+      "name": "Scorecard",
+      "created_at": "2019-02-07T04:28:25.274Z",
+      "updated_at": "2019-02-07T04:30:04.408Z",
+      "deleted_at": null,
+      "position": 10,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15380,
+          "section_id": 5319,
+          "passed_description": "Provide a screenshot in the template provided that demonstrates that you have successfully created a Scorecard: configured to display average order value",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:30:04.586Z",
+          "updated_at": "2019-02-07T04:30:39.047Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student successfully create a Scorecard: configured to display average order value?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5320,
+      "name": "Date Range Control",
+      "created_at": "2019-02-07T04:29:52.033Z",
+      "updated_at": "2019-02-07T04:30:39.054Z",
+      "deleted_at": null,
+      "position": 11,
+      "rubric_id": 2485,
+      "rubric_items": [
+        {
+          "id": 15381,
+          "section_id": 5320,
+          "passed_description": "Provide a screenshot in the template provided that demonstrates that you have successfully created a Date Range Control that governs all of the charts, set to the range of August 1st-September 5th, 2018",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:30:39.220Z",
+          "updated_at": "2019-02-07T04:31:20.943Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student successfully create a Date Range Control that governs all of the charts, set to the range of August 1st-September 5th, 2018?",
+          "exceedable": false
+        },
+        {
+          "id": 15382,
+          "section_id": 5320,
+          "passed_description": "The student has provided a screenshot with a clearly annotated Date Range Control as described above.",
+          "exceeded_description": null,
+          "created_at": "2019-02-07T04:31:21.094Z",
+          "updated_at": "2019-02-07T04:31:49.352Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Has the student provided a professional looking, clear screenshot, with annotations?",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 579,
+    "name": "Navigating, Reports, and Dashboards",
+    "nanodegree_key": "nd028",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 8,
+    "created_at": "2019-02-19T20:37:12.286Z",
+    "updated_at": "2021-04-07T12:44:12.000Z",
+    "price": "7.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

@@ -1,0 +1,650 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817154,
+      "key": "30f390d0-4ce9-4b10-bb0f-31e14d9310e9",
+      "title": "Understand your Audience",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/30f390d0-4ce9-4b10-bb0f-31e14d9310e9/817154/1556074038387/Understand+your+Audience+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/30f390d0-4ce9-4b10-bb0f-31e14d9310e9/817154/1556074035088/Understand+your+Audience+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 737371,
+          "key": "448bffe1-ff1b-4e3c-affb-e9f6a62c0e7f",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "448bffe1-ff1b-4e3c-affb-e9f6a62c0e7f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766704,
+              "key": "d7412af6-1c41-47ac-8d89-4bd42b0c96ba",
+              "title": "C0 L2 Intro 00-Introduction-Hs-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jp-4jQwSEhg",
+                "china_cdn_id": "jp-4jQwSEhg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737372,
+          "key": "0091ca50-aa27-49e9-a128-e894a39e9eb3",
+          "title": "An Overview of your Audience",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "0091ca50-aa27-49e9-a128-e894a39e9eb3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759728,
+              "key": "1752429f-78fb-4bf0-b634-cea6212e14cb",
+              "title": "C0 L2 02 An Overview Of Your Audience",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PX4oW1vtvqY",
+                "china_cdn_id": "PX4oW1vtvqY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737373,
+          "key": "e7870fcc-7b41-4e2d-83f9-fff981792f72",
+          "title": "Your Audience",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e7870fcc-7b41-4e2d-83f9-fff981792f72",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759797,
+              "key": "3e5e17ef-9e0c-4245-bc58-bc3e7baa1cf1",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3e5e17ef-9e0c-4245-bc58-bc3e7baa1cf1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "“The Google Merchandise Store wants its products to appeal to male and female audiences alike.  They have a wide selection of women’s and men’s apparel”.  \nDoes it look like they were attracting both audiences equally during the month of August 2016? ",
+                "answers": [
+                  {
+                    "id": "a1539972734698",
+                    "text": "Yes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539972741448",
+                    "text": "No",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 737374,
+          "key": "26ad4c2c-ff20-4ed4-b2e5-3060dca4a231",
+          "title": "Exploring your Audience Demographics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "26ad4c2c-ff20-4ed4-b2e5-3060dca4a231",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759729,
+              "key": "323b9f97-4908-43e3-a4fa-df2c5ae34c18",
+              "title": "C0 L2 04 Exploring Your Audience Demographics II",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WFRAeELcuq0",
+                "china_cdn_id": "WFRAeELcuq0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737401,
+          "key": "5e6a62be-26a0-4c5c-967d-a4feb0cf9aba",
+          "title": "Exploring your Audience's Interests",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5e6a62be-26a0-4c5c-967d-a4feb0cf9aba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759730,
+              "key": "f0a0f6bb-ef79-43a7-8f03-0bd7d25f6321",
+              "title": "C0 L2 05 Exploring Your Audience'S Interests",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Z_BLGq1-UjE",
+                "china_cdn_id": "Z_BLGq1-UjE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737403,
+          "key": "2277243e-91a1-4584-aa43-02fb9b62edc3",
+          "title": "Quiz: Exploring your Audience's Interests",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2277243e-91a1-4584-aa43-02fb9b62edc3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759799,
+              "key": "f97be8b6-01c2-4a98-8be6-5ee48a414a93",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Ok, your turn.  In the demo account, let’s again take a look at the data for the month of August 2016. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759798,
+              "key": "d7ce9b73-ebef-450d-a3ba-1784ff2ec4d9",
+              "title": "Question 1",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d7ce9b73-ebef-450d-a3ba-1784ff2ec4d9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "3.25% of the user sessions on the Google Merchandise store were from users who are TV lovers",
+                "answers": [
+                  {
+                    "id": "a1539972876458",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539972901952",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759800,
+              "key": "e993ad98-aff9-46b6-b3a2-27d3a74db18c",
+              "title": "Question 2",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e993ad98-aff9-46b6-b3a2-27d3a74db18c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "2.69% of the user sessions on the Google Merchandise store were from users who are in the market for employment.",
+                "answers": [
+                  {
+                    "id": "a1539973035745",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539973050688",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759801,
+              "key": "8b0445d7-2dd1-41f0-8e0c-10f64f1f05de",
+              "title": "Question 3",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8b0445d7-2dd1-41f0-8e0c-10f64f1f05de",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "For what percentage of total sessions do we have the in-market segment data for the Google Online Merchandise Store.",
+                "answers": [
+                  {
+                    "id": "a1539973100480",
+                    "text": "72.15%",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539973107803",
+                    "text": "100%",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539973108577",
+                    "text": "66.57%",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 737404,
+          "key": "e28c5516-8026-4766-a51b-e1e050081d6d",
+          "title": "Exploring your Audience's Geography",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e28c5516-8026-4766-a51b-e1e050081d6d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759806,
+              "key": "d2207c6a-9115-4dad-b1cd-dcfcb819d975",
+              "title": "Conhecendo a região geográfica e o idioma do seu público",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "t5SycKiG4y8",
+                "china_cdn_id": "t5SycKiG4y8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737406,
+          "key": "edd37115-0395-4d5f-9b8e-dc2fe3090362",
+          "title": "Exploring your Audience's Behavior",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "edd37115-0395-4d5f-9b8e-dc2fe3090362",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759731,
+              "key": "9c3f3569-3fc1-4e18-92a2-9339cf9e9c9b",
+              "title": "C0 L2 09 Exploring Your Audience'S Behavior",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "5_2osEiMIFI",
+                "china_cdn_id": "5_2osEiMIFI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737407,
+          "key": "3a7e8592-132e-459e-a973-09b1f6c91277",
+          "title": "Exploring your Audience's Technology",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3a7e8592-132e-459e-a973-09b1f6c91277",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759732,
+              "key": "d9c9d1f0-6d1d-4f0d-b502-581ec47f5b4c",
+              "title": "C0 L2 10 Exploring Your Audience'S Technology And Mobile",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-885s4NZwJA",
+                "china_cdn_id": "-885s4NZwJA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737408,
+          "key": "2eeee6ba-429b-4244-85ca-9c78a0c720e5",
+          "title": "Quiz: Exploring your Audience's Technology",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2eeee6ba-429b-4244-85ca-9c78a0c720e5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759807,
+              "key": "2e7db495-4021-4495-beab-c82f5f0ef68c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Information about technology and mobile devices used by your audience can come in handy when you are faced with a long developer to-do list.  Let’s consider these two scenarios.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759808,
+              "key": "dbd6bb0c-1dcb-4b9f-9018-2eab12a8fd0b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "dbd6bb0c-1dcb-4b9f-9018-2eab12a8fd0b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Imagine you are managing the Google online Merchandise Store and you are trying to prioritize a list of bugs (or software issues) that need to be fixed.  You plan to prioritize based on which issues affect most of your users. \nWhich one of the following bugs would you prioritize: ",
+                "answers": [
+                  {
+                    "id": "a1539973384474",
+                    "text": "In the Firefox browser, the load time of the check-out page is very long because there is a bug in populating the data gathered in the previous page",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539973398083",
+                    "text": "When using Chrome, the brand filter is not sticky when choosing apparel category (e.g. if you filter for Youtube branded merchandise only and then select women’s T-shirts, the Youtube filter does not stick and you see all kinds of merchandise). ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759809,
+              "key": "a3230cac-8aa1-47ea-9117-03b3c5f4fecf",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a3230cac-8aa1-47ea-9117-03b3c5f4fecf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Using the same principle, how would you prioritize these tasks: ",
+                "answers": [
+                  {
+                    "id": "a1539973447803",
+                    "text": "iOS 10 just launched and users on IOS 10 are reporting a problem with the images on the homepage, they are not loading properly.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539973458312",
+                    "text": "Users of Google Nexus 6P phone report problems with the checkout page - it loads very slowly.",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759810,
+              "key": "7cc63547-af7f-4a29-a39a-ed458294d8df",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let's see what we thought about it:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759733,
+              "key": "ac0c1394-5960-4e89-9b2c-a65592abb084",
+              "title": "C0 L2 11 Quiz - Exploring Your Audience'S Technology And Mobile",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UjBGqY6j89M",
+                "china_cdn_id": "UjBGqY6j89M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737409,
+          "key": "8f761ebf-a052-4d3c-9d80-275cbf5eeaf3",
+          "title": "User Flow",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8f761ebf-a052-4d3c-9d80-275cbf5eeaf3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759734,
+              "key": "6151887d-88a6-4ca9-bba7-601118cfe7e8",
+              "title": "C0 L2 12 User Flow",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "UQ2_aXYaLEM",
+                "china_cdn_id": "UQ2_aXYaLEM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737410,
+          "key": "18637ffd-b752-44ec-a1d7-c1477182b719",
+          "title": "Quiz: User Flow",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "18637ffd-b752-44ec-a1d7-c1477182b719",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759811,
+              "key": "35f473e8-6435-4c73-978d-6432e6c54e03",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s get a little more familiar with the user flow report by evaluating the following statements using the report for the Google Merchandise store. Considering the month of August 2016, are the following information on user flow True or False:",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759812,
+              "key": "5ce8f005-7f71-4883-9e00-b34d58b39522",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5ce8f005-7f71-4883-9e00-b34d58b39522",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When a user lands on the homepage in the second interaction, there is a 32.1% chance that the user session will end. ",
+                "answers": [
+                  {
+                    "id": "a1539973761280",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539973766284",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759813,
+              "key": "1dc096f3-c060-496b-89bf-fd915b746f4f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1dc096f3-c060-496b-89bf-fd915b746f4f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Of all sessions from Chrome users, 2.3K end up on the T-shirt page as the second interaction, after visiting the homepage",
+                "answers": [
+                  {
+                    "id": "a1539973853093",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1539973874335",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 759814,
+              "key": "0bf6813e-74bc-40ce-aa12-770ac4150c6d",
+              "title": "Quiz On User Flow",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sKWq8mHxPhE",
+                "china_cdn_id": "sKWq8mHxPhE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 737411,
+          "key": "64311543-8502-497d-b25b-07ceb4371d5e",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "64311543-8502-497d-b25b-07ceb4371d5e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766722,
+              "key": "ba470c23-1a31-441e-a781-de319b7cf16c",
+              "title": "C0 L2 Recap",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-T9bvqoBzvQ",
+                "china_cdn_id": "-T9bvqoBzvQ.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

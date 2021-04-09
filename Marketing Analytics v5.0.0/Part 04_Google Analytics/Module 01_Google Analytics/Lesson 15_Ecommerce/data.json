@@ -1,0 +1,683 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817167,
+      "key": "001be9c0-0a04-464a-8ddf-c420ede821bc",
+      "title": "Ecommerce",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/001be9c0-0a04-464a-8ddf-c420ede821bc/817167/1556073911146/Ecommerce+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/001be9c0-0a04-464a-8ddf-c420ede821bc/817167/1556073908556/Ecommerce+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 784327,
+          "key": "81454d6e-52e4-49e4-8176-9a7b18846f2b",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "81454d6e-52e4-49e4-8176-9a7b18846f2b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784330,
+              "key": "32035f15-0f08-4005-9387-15a233d58a1b",
+              "title": "C3 L3 00 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6Jn_iDeh33M",
+                "china_cdn_id": "6Jn_iDeh33M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 682534,
+          "key": "aa2b6510-e870-4222-8a98-cc5ad3553b6a",
+          "title": "Ecommerce Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aa2b6510-e870-4222-8a98-cc5ad3553b6a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784331,
+              "key": "42e64f30-b190-430b-a029-5ab602c74d58",
+              "title": "C3 L3 01 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "AH7Wf9OMC0g",
+                "china_cdn_id": "AH7Wf9OMC0g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704478,
+          "key": "8a26021a-53de-4e2b-bd3a-7b09e9a34cb9",
+          "title": "Overview of Basic vs. EEC",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8a26021a-53de-4e2b-bd3a-7b09e9a34cb9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784332,
+              "key": "c981a9db-4d2e-422a-a401-b3f1ae25135a",
+              "title": "C3 L3 02 Overview Of Basic Vs. EEC",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "BYMjEZDvBgM",
+                "china_cdn_id": "BYMjEZDvBgM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704479,
+          "key": "63b6195a-6e6f-40a1-8589-6d5a5cb5fd83",
+          "title": "Configuration (Basic EC)",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "63b6195a-6e6f-40a1-8589-6d5a5cb5fd83",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784333,
+              "key": "e47f9a48-2371-450c-8ad0-601aa74a8c33",
+              "title": "C3 L3 03 Configuration (Basic EC)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OHDAUG_banQ",
+                "china_cdn_id": "OHDAUG_banQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 790627,
+          "key": "90e9035f-0ccc-4820-ba30-d3806164dea0",
+          "title": "Quiz: Ecommerce Configuration",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90e9035f-0ccc-4820-ba30-d3806164dea0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790628,
+              "key": "255cc86f-e86e-4361-8360-316832f36511",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "255cc86f-e86e-4361-8360-316832f36511",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Standard ecommerce tracking can be configured in GTM, but enhanced ecommerce requires inline tracking code to be placed on your pages manually.\n",
+                "answers": [
+                  {
+                    "id": "a1543879547634",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879564536",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790629,
+              "key": "36d4fa73-c075-4878-854a-6b3087b04499",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "36d4fa73-c075-4878-854a-6b3087b04499",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these is not an example of a product-scope custom dimension you could use in your ecommerce implementation? \n",
+                "answers": [
+                  {
+                    "id": "a1543879835466",
+                    "text": "Campaign",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543879858848",
+                    "text": "Color",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879865505",
+                    "text": "Size",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879868607",
+                    "text": "Model",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790630,
+              "key": "07392216-aaa1-4e7f-a069-4cd36353a20d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "07392216-aaa1-4e7f-a069-4cd36353a20d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Implementing both standard and enhanced ecommerce require only the toggle of button for each in the view setting where you wish to have it activated.\n",
+                "answers": [
+                  {
+                    "id": "a1543879925810",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543879954880",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790631,
+              "key": "fdae0177-dc37-4bee-8eeb-d7c3aa97772b",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fdae0177-dc37-4bee-8eeb-d7c3aa97772b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are required fields in standard ecommerce tracking? \n**(Select all that apply.)**\n",
+                "answers": [
+                  {
+                    "id": "a1543880022466",
+                    "text": "Customer ID ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880042208",
+                    "text": "Transaction ID",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543880048944",
+                    "text": "Product ID",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543880055240",
+                    "text": "Session ID ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790632,
+              "key": "a1b51ec0-cf83-4e5c-9c7a-9480b7f17f25",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a1b51ec0-cf83-4e5c-9c7a-9480b7f17f25",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or Fasle)** All of the enhanced ecommerce reports are also available in basic ecommerce reporting.\n",
+                "answers": [
+                  {
+                    "id": "a1543880129963",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880155087",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790633,
+              "key": "f3c325f8-c752-4efe-8650-281db411de8e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f3c325f8-c752-4efe-8650-281db411de8e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What can allow you to identify drop-off points in the shopping process so you can retarget those shoppers that were lost?\n",
+                "answers": [
+                  {
+                    "id": "a1543880200978",
+                    "text": "a. Checkout funnel ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880215216",
+                    "text": "b. Shopping funnel ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880221264",
+                    "text": "Neither a. or b.",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880228576",
+                    "text": "Both a. and b.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790634,
+              "key": "d4363a23-a4bf-4a4e-9078-b51a4ea3cae8",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d4363a23-a4bf-4a4e-9078-b51a4ea3cae8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Once you’ve created a retargeting audience in GA, you can share it with which of these other Google products with one click?\n",
+                "answers": [
+                  {
+                    "id": "a1543880307257",
+                    "text": "It can be shared with any of these below with just one click. ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543880321896",
+                    "text": "Ads",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880326808",
+                    "text": "Display Network ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880333102",
+                    "text": "Display and Video 360",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880351792",
+                    "text": "It can’t be shared to any of these above using just one click",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790635,
+              "key": "b08629e9-461f-424d-9455-5c28a2bb86a9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b08629e9-461f-424d-9455-5c28a2bb86a9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Firebase Analytics natively supports enhanced ecommerce reporting.\n",
+                "answers": [
+                  {
+                    "id": "a1543880509794",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880545016",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 704480,
+          "key": "edfc0730-3867-4ae9-a821-d0cbcfd972b3",
+          "title": "EEC",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "edfc0730-3867-4ae9-a821-d0cbcfd972b3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784334,
+              "key": "f5a3724f-ef80-4be7-a890-4a98ce69264c",
+              "title": "C3 L3 04 EEC",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "S9VN16LXWmY",
+                "china_cdn_id": "S9VN16LXWmY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704481,
+          "key": "f922742f-393c-4b0f-a95b-c512ab85400c",
+          "title": "Using Behavioral Funnels to segment & Remarket to Users",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f922742f-393c-4b0f-a95b-c512ab85400c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784335,
+              "key": "cdc9bb04-362a-47f9-bc94-f858a7cbb8a3",
+              "title": "C3 L3 05 Using Behavioral Funnels To Segment & Remarket To Users",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kb8amoHAtVY",
+                "china_cdn_id": "kb8amoHAtVY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 704484,
+          "key": "3056f5c5-82f7-4b03-bf92-889d36cc6c19",
+          "title": "EC/EEC in Mobile Apps",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3056f5c5-82f7-4b03-bf92-889d36cc6c19",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784336,
+              "key": "6989dfe5-12bc-470a-9947-d017b1044e7b",
+              "title": "C3 L3 06 EC-EEC In Mobile Apps",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "PJ7i-KcnVFA",
+                "china_cdn_id": "PJ7i-KcnVFA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 790636,
+          "key": "4501f306-adf6-493f-8cc4-fd88cc53e312",
+          "title": "Quiz: Ecommerce Reporting, Funnels, Retargeting, Mobile App",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4501f306-adf6-493f-8cc4-fd88cc53e312",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 790637,
+              "key": "f92a028c-aa75-465a-9559-8bfd1fbf1d77",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f92a028c-aa75-465a-9559-8bfd1fbf1d77",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** All of the enhanced ecommerce reports are also available in basic ecommerce reporting.\n",
+                "answers": [
+                  {
+                    "id": "a1543880717609",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880792704",
+                    "text": "False ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790638,
+              "key": "c4343547-7476-4ee2-901b-8715e73c29d0",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c4343547-7476-4ee2-901b-8715e73c29d0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What can allow you to identify drop-off points in the shopping process so you can retarget those shoppers that were lost?\n",
+                "answers": [
+                  {
+                    "id": "a1543880835410",
+                    "text": "a. Checkout funnel",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880852687",
+                    "text": "b. Shopping funnel",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880859169",
+                    "text": "Neither a. or b. ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543880866432",
+                    "text": "Both a. and b.",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790639,
+              "key": "bb77e22a-a590-4fbc-af64-dffee18aa60d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bb77e22a-a590-4fbc-af64-dffee18aa60d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Once you’ve created a retargeting audience in GA, you can share it with which of these other Google products with one click?\n",
+                "answers": [
+                  {
+                    "id": "a1543880972353",
+                    "text": "It can be shared with any of these below with just one click.",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1543881012871",
+                    "text": "Ads",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543881027711",
+                    "text": "Display Network",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543881035262",
+                    "text": "Display and Video 360",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543881045103",
+                    "text": "It **can’t** be shared to any of these above using just one click",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 790640,
+              "key": "d0e226de-d8e8-4527-8faa-813387b18326",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d0e226de-d8e8-4527-8faa-813387b18326",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** Firebase Analytics natively supports enhanced ecommerce reporting.\n",
+                "answers": [
+                  {
+                    "id": "a1543881350206",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1543881365906",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

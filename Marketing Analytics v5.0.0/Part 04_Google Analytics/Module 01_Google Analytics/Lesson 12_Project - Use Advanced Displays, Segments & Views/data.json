@@ -1,0 +1,86 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817164,
+      "key": "3b823dc7-9092-4fa3-a101-ff84424166e7",
+      "title": "Project - Use Advanced Displays, Segments & Views",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": null,
+      "project": {
+        "key": "2dfeec30-c7c1-4743-9e5f-5dee12ee7ee2",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 10080,
+        "semantic_type": "Project",
+        "title": "Use Advanced Displays, Create Segments & Apply View Settings",
+        "description": "# Project 2: Use Advanced Displays, Create Segments & Apply View Settings\n\nMake a copy of this **[Google doc template](https://docs.google.com/presentation/d/1om61nMkz7FzleMUwx1qylQnXVpCgj9zTHTxXuQ7X1wg/edit?usp=sharing)**, and be sure to complete each section. \n\na) To copy the template as a Google Slide:\nOpen the template in Google. Then, click on File --> Make a copy... --> and select \"My Drive\" as the destination. This will allow you to edit the template in Google. \n\nb) To copy the template as a Microsoft Powerpoint file:\nOpen the template in Google. Then, click on File >> Download as... >> Microsoft Powerpoint. This will allow you to edit the template as a .pptx file.\n\nWhen you are ready, save your file as a PDF and submit it.\n\n### Part One: Primary Views and Filters \n#### Primary Views\nAn industry best practice is to ensure that there are three different views for whatever property you are working in:\n\n- *unfiltered* (all the data, never mess with it)\n- *test* (where you can try things out before making them live) \n- *working* (where you’ll implement your work once it’s been tested and it’s getting the results you want)\n(This is a best practice and should be applied to any Google Analytics property you're working with.)  \n\n**To demonstrate your knowledge:**\n- If these views already exist, take a screenshot, and insert it on the page 5 slide after removing all text except the title of the slide.\n- If you have access to create these views, do so, and then take a screenshot. Next, insert your screenshot on the page 5 slide after removing all text except the title of the slide.\n- If you don’t have access to create these views and they do not already exist, take a screenshot of where these views can be added, paste it above after removing all text except the title of the slide, and provide the steps necessary to create the views.\n- Excluding internal traffic: Determine if the property you’re working in is excluding internal traffic in one of its views. If not, create a filter to do so.  In either case, take a screenshot to show that you were here.\n\n#### Filter\nAnother industry best practice is to make sure that the property you’re working in is excluding internal traffic in at least one of its views (ideally, the Production view or a copy of it)\n\n**To demonstrate your knowledge:**\n- If the filter is already in place, take a screenshot and insert it on this slide after removing all other text except the slide title.\n- If you have access and the appropriate information to create this filter, do so, take a screenshot, and insert it on this slide after removing all text except the title of the slide\n- If you don’t have access to create this filter and it does not already exist, take a screenshot of where this filter could be added and paste it on this slide after removing all text except the title of the slide. Then, provide the steps necessary to create the filter.\n\n### Part Two: Data Exploration\nUsing the best practices above, explore the data and form questions.\n\n 1.  Start in the Overview Report in each of these GA Reporting Areas: Audience, Acquisition, Behavior, & Conversion.  Formulate questions that come to mind for each section, taking screenshots to help illustrate your questions.  Also, make note of the path you take - when looking at one set of data, what question came to mind, and what did you do to try and answer it?\n\n2. Change the default display of some standard reports in each of the GA Reporting Areas: Audience, Acquisition, Behavior, & Conversion, from Data to the following displays: Performance, Percentage, Comparison, and Pivot.  Do any of these displays answer questions, provide insight, or require follow-up?  Make notes to communicate what you find and again, take screenshots to demonstrate what your exploration.\n\n### Part Three: Segmentation\nUsing the technique of segmentation, attempt to answer the questions posed in part two.\n \nBased on your questions, identify and show three different audience segments that could help to answer the question(s)\n\n- One based on audience characteristic (such as technology or demographics)\n- One based on geography\n- One based on user behavior\n\nIf applicable, change the scope for the behavior segment between Sessions and Users to see how this impacts metrics such as goal conversion rate.\n\n### Submission Instructions\nFirst, check that parts one through three of the project template have been answered completely. \n- Part One: Best Practices\n- Part Two: Data Exploration\n- Part Three: Segmentation\n\nFinally, be sure to convert your answers document into a PDF and submit it below. It's straightforward to convert a Microsoft Word document into a pdf on a PC or Mac. If you used a Google Doc, in Google Docs, simply click on File >> Download as… >> and choose PDF Document.\n\n### Rubric\nYou can reference this project's [rubric](https://review.udacity.com/#!/rubrics/2110/view) to review what your submission should include. \n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2110",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 681752,
+          "key": "ad12d6f3-7ce6-48a7-8150-6f836761e701",
+          "title": "Getting Started",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ad12d6f3-7ce6-48a7-8150-6f836761e701",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 681753,
+              "key": "c0fa16be-1601-411f-b772-78ae3ca38b4d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Welcome to your Google Analytics project!\n\nFor anyone looking at Google Analytics data for the first time, the scope and depth can quickly become overwhelming. In this project, you’ll use readily available tools in Google Analytics to bridge the gap between raw data and actionable insight. Using best practices for working in GA, you will explore data, and applying segmentation techniques to answer questions. The focus of your work will be on demonstrating your mastery of forming and answering questions based on raw data.\n\n### Getting Started\n\nIn this project, your key goal will be to get a strong grasp of the wide array of reports available in Google Analytics, and what types of insights they offer. \n\nTo get started, spend some time looking through the following resources for all the reports that Google Analytics offers.\n* [Hubspot's article on Google Analytics Reports](https://blog.hubspot.com/marketing/google-analytics). Scroll to the section **Google Analytics Reports**.\n* [Creating and Managing custom reports](https://support.google.com/analytics/answer/1151300?hl=en)\n\nStrive to build an understanding of the pros and cons of each type of report type, and keep in mind that not every report in Google Analytics will be useful for all the types of insights you may be looking for.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 714078,
+          "key": "e52765e0-7015-42a6-9393-b46ac3c01412",
+          "title": "Project Instructions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e52765e0-7015-42a6-9393-b46ac3c01412",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 729674,
+              "key": "e7e104c2-af1c-4443-8a67-04575e19228c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Part One: Primary Views and Filters \n\n#### Primary Views\nAn industry best practice is to ensure that there are three different views for whatever property you are working in:\n\n- *unfiltered* (all the data, never mess with it)\n- *test* (where you can try things out before making them live) \n- *working* (where you’ll implement your work once it’s been tested and it’s getting the results you want)\n(This is a best practice and should be applied to any Google Analytics property you're working with.)  \n\n**To demonstrate your knowledge:**\n- If these views already exist, take a screenshot, and insert it on the page 5 slide after removing all text except the title of the slide.\n- If you have access to create these views, do so, and then take a screenshot. Next, insert your screenshot on the page 5 slide after removing all text except the title of the slide.\n- If you don’t have access to create these views and they do not already exist, take a screenshot of where these views can be added, paste it above after removing all text except the title of the slide, and provide the steps necessary to create the views.\n- Excluding internal traffic: Determine if the property you’re working in is excluding internal traffic in one of its views. If not, create a filter to do so.  In either case, take a screenshot to show that you were here.\n\n#### Filter\nAnother industry best practice is to make sure that the property you’re working in is excluding internal traffic in at least one of its views (ideally, the Production view or a copy of it)\n\n**To demonstrate your knowledge:**\n- If the filter is already in place, take a screenshot and insert it on this slide after removing all other text except the slide title.\n- If you have access and the appropriate information to create this filter, do so, take a screenshot, and insert it on this slide after removing all text except the title of the slide\n- If you don’t have access to create this filter and it does not already exist, take a screenshot of where this filter could be added and paste it on this slide after removing all text except the title of the slide. Then, provide the steps necessary to create the filter.\n\n### Part Two: Data Exploration\nUsing the best practices above, explore the data and form questions.\n\n 1.  Start in the Overview Report in each of these GA Reporting Areas: Audience, Acquisition, Behavior, & Conversion.  Formulate questions that come to mind for each section, taking screenshots to help illustrate your questions.  Also, make note of the path you take - when looking at one set of data, what question came to mind, and what did you do to try and answer it?\n\n2. Change the default display of some standard reports in each of the GA Reporting Areas: Audience, Acquisition, Behavior, & Conversion, from Data to the following displays: Performance, Percentage, Comparison, and Pivot.  Do any of these displays answer questions, provide insight, or require follow-up?  Make notes to communicate what you find and again, take screenshots to demonstrate what your exploration.\n\n### Part Three: Segmentation\nUsing the technique of segmentation, attempt to answer the questions posed in part two.\n \nBased on your questions, identify and show three different audience segments that could help to answer the question(s)\n\n- One based on audience characteristic (such as technology or demographics)\n- One based on geography\n- One based on user behavior\n\nIf applicable, change the scope for the behavior segment between Sessions and Users to see how this impacts metrics such as goal conversion rate.",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

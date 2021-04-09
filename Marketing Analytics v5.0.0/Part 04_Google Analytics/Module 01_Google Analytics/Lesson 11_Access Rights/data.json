@@ -1,0 +1,205 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817163,
+      "key": "c7615570-48e9-492b-8ccb-abe6a043e79d",
+      "title": "Access Rights",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": "Learn the different levels of access rights and other administrative features within Google Analytics.",
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/c7615570-48e9-492b-8ccb-abe6a043e79d/817163/1556073714653/Access+Rights+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/c7615570-48e9-492b-8ccb-abe6a043e79d/817163/1556073712539/Access+Rights+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 782108,
+          "key": "5ef9c335-e780-488c-8009-f4bb5d1cc03d",
+          "title": "Access Rights Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5ef9c335-e780-488c-8009-f4bb5d1cc03d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782109,
+              "key": "216c4dba-7ec3-4dba-a5df-cb5c0f477e95",
+              "title": "C2 L6 00-Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YRFfk7Wp--o",
+                "china_cdn_id": "YRFfk7Wp--o.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527536,
+          "key": "e31d0fe8-b86c-4d66-9bf3-5e76301a80e7",
+          "title": "Adding Users to an Account, a Property, or a View",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e31d0fe8-b86c-4d66-9bf3-5e76301a80e7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782111,
+              "key": "65b95991-8aec-4783-924a-3a8d0799cc38",
+              "title": "C2 L6 01 Adding Users To An Account, A Property, Or A View",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "e9rRTpe8Nos",
+                "china_cdn_id": "e9rRTpe8Nos.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527538,
+          "key": "da606403-b2d8-4bd0-97ab-acd5ed40bb68",
+          "title": "Features That Require Edit Rights",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "da606403-b2d8-4bd0-97ab-acd5ed40bb68",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782112,
+              "key": "6e0ba1b8-30d7-4343-91c6-0d760a010104",
+              "title": "C2 L6 02 Features That Require Edit Rights",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "loEmwy592PQ",
+                "china_cdn_id": "loEmwy592PQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527537,
+          "key": "092235bb-4c5b-438c-9d6a-ba9e136167d5",
+          "title": "Read & Analyze Privileges",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "092235bb-4c5b-438c-9d6a-ba9e136167d5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782113,
+              "key": "17cd2aa7-8afa-42ec-b1d2-4a09467cf0c5",
+              "title": "C2 L6 03 Read Analyze Privileges",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WG-0jll_wsk",
+                "china_cdn_id": "WG-0jll_wsk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527539,
+          "key": "aa30c656-1d85-4a1c-902f-69a3bc94e4f8",
+          "title": "Collaborate Access",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "aa30c656-1d85-4a1c-902f-69a3bc94e4f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782114,
+              "key": "e20eecbc-d3cf-47f0-b479-086778b252d6",
+              "title": "C2 L6 04 Collaborate Access",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "t8dhtSeo640",
+                "china_cdn_id": "t8dhtSeo640.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 527540,
+          "key": "bb6bf07c-231f-4e4a-b041-c820757218d7",
+          "title": "Viewing Change History and Restoring Deleted Access",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bb6bf07c-231f-4e4a-b041-c820757218d7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 782115,
+              "key": "f870d74c-ee81-461a-b947-0d537064b88a",
+              "title": "C2 L6 05 Viewing Change History And Restoring Deleted Assets",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kJ2z1YA3eXw",
+                "china_cdn_id": "kJ2z1YA3eXw.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

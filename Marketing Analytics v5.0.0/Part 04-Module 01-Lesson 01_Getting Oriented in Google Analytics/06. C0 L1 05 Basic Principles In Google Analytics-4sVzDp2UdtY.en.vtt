@@ -1,0 +1,169 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.790
+Now that we know how data are collected on a site,
+
+00:00:02.790 --> 00:00:05.519
+it's helpful to take a look at what Google Analytics does with
+
+00:00:05.519 --> 00:00:08.849
+that data before it appears in the Google Analytics reports.
+
+00:00:08.849 --> 00:00:12.794
+Having that background will help you work with the Google Analytics data.
+
+00:00:12.794 --> 00:00:16.634
+Here are four main components of the analytic system.
+
+00:00:16.635 --> 00:00:19.275
+The data collection, data processing,
+
+00:00:19.274 --> 00:00:21.734
+data configuration, and reporting.
+
+00:00:21.734 --> 00:00:24.719
+As we discussed, a piece of JavaScript code will
+
+00:00:24.719 --> 00:00:27.824
+send the data from a website to Google Analytics.
+
+00:00:27.824 --> 00:00:30.419
+In order to make Google Analytics work properly,
+
+00:00:30.420 --> 00:00:33.460
+you need code on every page of your website.
+
+00:00:33.460 --> 00:00:36.439
+Talk to your web developer to help you out with that.
+
+00:00:36.439 --> 00:00:41.449
+Or refer to the link below with the information on how to add the code yourself.
+
+00:00:41.450 --> 00:00:43.850
+Once the code is on your pages,
+
+00:00:43.850 --> 00:00:48.230
+data on every interaction of the user with that page will be sent to
+
+00:00:48.229 --> 00:00:53.149
+the Google servers and you will hear people refer to that data as hits.
+
+00:00:53.149 --> 00:00:55.909
+Google then processes the data it receives.
+
+00:00:55.909 --> 00:01:01.099
+It basically dissects the hit information it gets into pieces and stores
+
+00:01:01.100 --> 00:01:03.980
+the data in a structured fashion so that it can put
+
+00:01:03.979 --> 00:01:07.179
+the data back together in a useful way later on.
+
+00:01:07.180 --> 00:01:13.040
+In this step, Google Analytics applies configurations or settings from the account owner.
+
+00:01:13.040 --> 00:01:18.110
+For instance, when you or your developer sets up your account in Google Analytics,
+
+00:01:18.109 --> 00:01:19.819
+you may apply filters.
+
+00:01:19.819 --> 00:01:23.839
+An example of a filter would be one that filters out all the data that come from
+
+00:01:23.840 --> 00:01:29.240
+your internal traffic or from people who access your site from inside your company.
+
+00:01:29.239 --> 00:01:31.199
+Once this filter is applied,
+
+00:01:31.200 --> 00:01:34.745
+the data you filtered out can no longer be accessed.
+
+00:01:34.745 --> 00:01:37.820
+You will never see that data in your Google Analytics account.
+
+00:01:37.819 --> 00:01:42.229
+So, these settings or configurations that get applied here are permanent.
+
+00:01:42.230 --> 00:01:48.305
+But Google Analytics allows you to create different views with different filters applied.
+
+00:01:48.305 --> 00:01:51.260
+Then when you go to your Google Analytics account,
+
+00:01:51.260 --> 00:01:56.540
+you will see different views based on the filters you or your developer applied.
+
+00:01:56.540 --> 00:01:59.665
+In the example, for the Google merchandise store,
+
+00:01:59.665 --> 00:02:01.760
+you see three different views.
+
+00:02:01.760 --> 00:02:04.850
+Looking at the user data in these different views,
+
+00:02:04.849 --> 00:02:07.459
+it looks like there's actually no filters applied.
+
+00:02:07.459 --> 00:02:10.219
+But it's good to have different view setup in case
+
+00:02:10.219 --> 00:02:13.264
+you decide later that filters are necessary.
+
+00:02:13.264 --> 00:02:16.159
+This account setup is fairly straightforward.
+
+00:02:16.159 --> 00:02:18.349
+You have a master view, basically,
+
+00:02:18.349 --> 00:02:20.269
+the view you will access the most,
+
+00:02:20.270 --> 00:02:23.495
+that is where you would have applied the filters that are important to you.
+
+00:02:23.495 --> 00:02:25.189
+Then there is a test view.
+
+00:02:25.189 --> 00:02:27.930
+This view could be used to look at a part of your site,
+
+00:02:27.930 --> 00:02:30.605
+for instance, when you're testing a new design.
+
+00:02:30.604 --> 00:02:33.125
+Then there is the raw data view.
+
+00:02:33.125 --> 00:02:36.425
+It's a good idea to always keep a raw data view.
+
+00:02:36.425 --> 00:02:39.290
+Once you apply a filter to any data,
+
+00:02:39.289 --> 00:02:42.049
+that data you filter out is lost permanently.
+
+00:02:42.050 --> 00:02:45.830
+So, having this raw data view allows you to always come back
+
+00:02:45.830 --> 00:02:50.105
+to the data in case you accidentally filtered out something you still want to see.
+
+00:02:50.104 --> 00:02:52.629
+After processing and configuration,
+
+00:02:52.629 --> 00:02:55.969
+the data are reported in the Google Analytics interface.
+
+00:02:55.969 --> 00:02:58.189
+Now that we know what goes on behind the scenes,
+
+00:02:58.189 --> 00:03:02.099
+let's take a look at the Google Analytics interface and get oriented.
+

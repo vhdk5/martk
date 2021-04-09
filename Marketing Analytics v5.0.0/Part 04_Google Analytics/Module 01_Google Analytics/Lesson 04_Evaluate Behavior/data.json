@@ -1,0 +1,448 @@
+{
+  "data": {
+    "lesson": {
+      "id": 817156,
+      "key": "94f5025e-20d3-4dca-802e-e4d530c2e823",
+      "title": "Evaluate Behavior",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": false,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/94f5025e-20d3-4dca-802e-e4d530c2e823/817156/1556073595653/Evaluate+Behavior+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/94f5025e-20d3-4dca-802e-e4d530c2e823/817156/1556073592116/Evaluate+Behavior+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 751772,
+          "key": "4182d265-a0e9-454b-ba45-d8e3320ab1e5",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4182d265-a0e9-454b-ba45-d8e3320ab1e5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 766710,
+              "key": "0a24c83b-1297-4970-932d-398803890601",
+              "title": "C0 L4 Intro",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3b7uYtNkFPY",
+                "china_cdn_id": "3b7uYtNkFPY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751773,
+          "key": "24a192ea-e105-4eeb-b02b-6db614cc8d1a",
+          "title": "Metrics Definitions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "24a192ea-e105-4eeb-b02b-6db614cc8d1a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 751785,
+              "key": "eaa28ddd-8734-4bd0-925c-77a1aff6d214",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "# Metrics Definitions in Google Analytics#\n\n**Pageviews**\nThe total number of pages viewed.  Repeated views of a single page are counted. \n\n**Unique Pageviews**\nThe number of sessions during which the specified page was viewed at least once.  A unique pageview is counted for each page URL + Page Title combination. \n\n**Average Time on Page**\nThe average amount of time users spent viewing a particular page or screen or set of pages or screens. \n\n**Bounce Rate**\nThe percentage of single page visits (i.e. visits in which the person left your site from the entrance page without interacting with the page).\n\n**% Exits**\n(Number of exits)/(number of pageviews) for the page or set of pages. It indicates how often users exit from that page or set of pages when they view the page(s)\n\n**Entrances**\nThe number of times visitors entered your site through a specific page or set of pages\n\n**Page Value**\nThe average value of this page or set of pages.  Page Value is ((Transaction Revenue + Total Goal Value) divided by unique pageviews for the page or set of pages)) ",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 751774,
+          "key": "ef850b31-1d95-44cd-ba5c-b2874956da38",
+          "title": "Studying Behavior - Overview",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ef850b31-1d95-44cd-ba5c-b2874956da38",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759742,
+              "key": "6536cf56-d473-43a7-b554-6707439a1f1e",
+              "title": "C0 L4 03 Studying Behavior - Overview",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6F3mB4aJQ4Q",
+                "china_cdn_id": "6F3mB4aJQ4Q.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751775,
+          "key": "bad76977-1663-4c8e-9ed3-eeddfd5d9f16",
+          "title": "What Content is Popular/Engaging",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bad76977-1663-4c8e-9ed3-eeddfd5d9f16",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 760004,
+              "key": "3d8415e1-8b23-4e52-a647-4c2e95d87861",
+              "title": "C0 L4 04 Y What Content Is Popular Engaging",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[How Page Value is calculated](https://support.google.com/analytics/answer/2695658?hl=en)",
+              "video": {
+                "youtube_id": "hYR-RAI8AU8",
+                "china_cdn_id": "hYR-RAI8AU8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751776,
+          "key": "616392d2-1bb6-4da9-b46f-6ce3a65e97c9",
+          "title": "Quiz: Content Popularity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "616392d2-1bb6-4da9-b46f-6ce3a65e97c9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759821,
+              "key": "ba5f47ce-6018-4e21-af65-e7a2776e81df",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Imagine you work in the Google Merchandise Store Marketing team.  The design group comes to you to get a sense of the most popular types of items in the Google Merchandise Store.  They want to know which items visitors of the website explore most because they want to come up with a few new products to attract users’ attention. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 759822,
+              "key": "2f850a33-1383-49c5-a0ee-95a904b60f01",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2f850a33-1383-49c5-a0ee-95a904b60f01",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "You decide to provide the designers with a ranking of the product categories based on their popularity during the month of August 2016.  Which of the following two rankings of Google Product categories will you provide to the designers? ",
+                "answers": [
+                  {
+                    "id": "a1539974849349",
+                    "text": "Apparel, office, bags, electronics, drinkware, lifestyle, brands",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1539974858820",
+                    "text": "Apparel, office, electronics, drinkware, bags, brands, lifestyle",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 751777,
+          "key": "97199518-516e-400c-9a72-749ab4216fc4",
+          "title": "Main Landing Pages",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "97199518-516e-400c-9a72-749ab4216fc4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759861,
+              "key": "49d6b742-25b6-4ba8-8086-24961e4058e9",
+              "title": "C0 L4 06 What Are The Main Landing Pages And How Engaging Are They-",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "[Adding Google Analytics Code to events on a page](https://support.google.com/analytics/answer/1136960?hl=en)\n\n[Average Bounce Rates on Landing Pages, Jay Peyton, Rocketfuel](http://www.gorocketfuel.com/the-rocket-blog/whats-the-average-bounce-rate-in-google-analytics/)",
+              "video": {
+                "youtube_id": "7WYxI-88raU",
+                "china_cdn_id": "7WYxI-88raU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751778,
+          "key": "c6c2fa3d-1482-4364-a1a7-06c66e8d509d",
+          "title": "Bounce Rate and Landing Pages",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c6c2fa3d-1482-4364-a1a7-06c66e8d509d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759824,
+              "key": "ecef56fd-4441-41fa-a59c-a99c421f7f75",
+              "title": "Let’s take a look at how we could use the engagement metrics",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ecef56fd-4441-41fa-a59c-a99c421f7f75",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "You are charged with increasing engagement for the Google Merchandise Store visitors.  Using the landing page report for the month of September 2016, which pages would you prioritize for a page design evaluation?"
+              },
+              "answer": {
+                "text": "Great, the video below gives you a few more indications on what you may want to consider. ",
+                "video": null
+              }
+            },
+            {
+              "id": 759743,
+              "key": "d0ab7c1e-c2e6-47a8-81aa-b7d54ad7806c",
+              "title": "C0 L4 07 Bounce Rate And Landing Pages V3",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0kjX2DhakDY",
+                "china_cdn_id": "0kjX2DhakDY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751779,
+          "key": "772a4cb7-d504-4a4a-b842-8fc583e3ed3e",
+          "title": "Landing Pages and Acquisition",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "772a4cb7-d504-4a4a-b842-8fc583e3ed3e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759744,
+              "key": "5195078f-bfa4-46fb-aee5-737e5b26201c",
+              "title": "C0 L4 08 Landing Pages And Acquisition Channels V2",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SDXOCvwoArQ",
+                "china_cdn_id": "SDXOCvwoArQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751780,
+          "key": "291d7c7e-5368-4357-bbf9-972097375cd9",
+          "title": "A Quick Note on Exits",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "291d7c7e-5368-4357-bbf9-972097375cd9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752206,
+              "key": "01df2709-5fed-427c-a93e-694c7d6b2c29",
+              "title": "Observação rápida sobre saídas",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0gK36wMA0U4",
+                "china_cdn_id": "0gK36wMA0U4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751781,
+          "key": "d2e1007d-7f67-45af-8eb6-cd70d29df11a",
+          "title": "The Pre/Post Design Case",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d2e1007d-7f67-45af-8eb6-cd70d29df11a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752207,
+              "key": "e73cf374-457b-4cf0-aac4-1d0a3ed9220f",
+              "title": "Estudando o comportamento - antes e depois do caso de design",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mk55M5qJv3w",
+                "china_cdn_id": "mk55M5qJv3w.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751782,
+          "key": "be4264d7-b7d1-4215-84d3-7f6738d8ca4e",
+          "title": "Behavior Flow Report",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "be4264d7-b7d1-4215-84d3-7f6738d8ca4e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759745,
+              "key": "7f32d235-f4a2-45ab-a4fb-4ddc04785835",
+              "title": "C0 L4 11 Behavior Flow Report",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "7JhFNK3n-cA",
+                "china_cdn_id": "7JhFNK3n-cA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751783,
+          "key": "d7cb33fb-20f6-405e-a090-c27f6e2949d2",
+          "title": "A Few More Ways to Study Behavior",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d7cb33fb-20f6-405e-a090-c27f6e2949d2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 759746,
+              "key": "604bcff3-5382-4fff-af26-adbabb10ec4d",
+              "title": "C0 L4 12 A Few More Ways To Study Behavior",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-MwBxEpnoT8",
+                "china_cdn_id": "-MwBxEpnoT8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 751784,
+          "key": "1d7b57cc-3cbc-4e49-9be6-a3fe1c5e402a",
+          "title": "Conclusion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1d7b57cc-3cbc-4e49-9be6-a3fe1c5e402a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 752208,
+              "key": "02b76b55-793f-44ad-afa9-c08dccf89920",
+              "title": "Conclusão",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HwAgPn0mtLg",
+                "china_cdn_id": "HwAgPn0mtLg.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
