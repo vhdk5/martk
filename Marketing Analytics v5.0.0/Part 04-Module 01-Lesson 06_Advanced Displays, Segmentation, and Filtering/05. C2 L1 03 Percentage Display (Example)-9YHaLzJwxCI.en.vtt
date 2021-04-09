@@ -1,0 +1,127 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.879
+The percentage display lets you see your data in
+
+00:00:02.879 --> 00:00:05.804
+a pie chart to show numerical proportion.
+
+00:00:05.804 --> 00:00:11.519
+This type of data visualization is useful for identifying the parts of a whole quickly.
+
+00:00:11.519 --> 00:00:15.179
+Let's use this display in the product performance report to see
+
+00:00:15.179 --> 00:00:18.795
+how visitors are interacting with and purchasing products.
+
+00:00:18.795 --> 00:00:21.540
+This report is an enhanced e-commerce report in
+
+00:00:21.539 --> 00:00:25.320
+the conversion section of the Google Analytics reporting interface.
+
+00:00:25.320 --> 00:00:30.210
+You'll only see it in your account if you've implemented enhanced e-commerce.
+
+00:00:30.210 --> 00:00:35.789
+First, select the percentage display to change the way the display looks.
+
+00:00:35.789 --> 00:00:38.850
+Next, select the shopping behavior metric
+
+00:00:38.850 --> 00:00:42.300
+group to analyze how visitors are interacting with products.
+
+00:00:42.299 --> 00:00:48.289
+Let's change the primary dimension to product category to focus our analysis a bit.
+
+00:00:48.289 --> 00:00:54.079
+Change the metric to product detail views in both dropdowns.
+
+00:00:54.079 --> 00:00:59.364
+This metric tells us the number of times a product detail page was viewed.
+
+00:00:59.365 --> 00:01:04.159
+In the report, the home shot by brand YouTube product category
+
+00:01:04.159 --> 00:01:09.004
+has the largest percentage of product detail views, 16.9 percent.
+
+00:01:09.004 --> 00:01:11.390
+The pie chart makes that very clear.
+
+00:01:11.390 --> 00:01:14.000
+If we look at the site for the Google merchandise store,
+
+00:01:14.000 --> 00:01:16.295
+you can see precisely what this means.
+
+00:01:16.295 --> 00:01:18.980
+On the homepage is main navigation menu,
+
+00:01:18.980 --> 00:01:23.615
+you can shop by brand and YouTube is one of the options in the dropdown.
+
+00:01:23.614 --> 00:01:26.879
+Each YouTube product has a detail page.
+
+00:01:26.879 --> 00:01:29.464
+You can click for more information.
+
+00:01:29.465 --> 00:01:34.055
+So we know that YouTube branded products had the most detailed views.
+
+00:01:34.055 --> 00:01:36.535
+Can the same be said about checkouts?
+
+00:01:36.534 --> 00:01:39.905
+Let's go back to our report to answer that question.
+
+00:01:39.905 --> 00:01:44.885
+Change the metric here to product checkouts in both dropdowns.
+
+00:01:44.885 --> 00:01:47.750
+So the answer to that question is no.
+
+00:01:47.750 --> 00:01:51.504
+Apparel has a greater share of product checkouts.
+
+00:01:51.504 --> 00:01:53.784
+Another important question is,
+
+00:01:53.784 --> 00:01:57.979
+which product category generated the most revenue for the date range?
+
+00:01:57.980 --> 00:01:59.704
+To answer that question,
+
+00:01:59.704 --> 00:02:02.390
+select the summary metric group.
+
+00:02:02.390 --> 00:02:09.664
+The Nest-USA category generated 45 percent of their revenue during this date range.
+
+00:02:09.664 --> 00:02:15.294
+So even though YouTube products had the most views and Apparel had the most checkouts,
+
+00:02:15.294 --> 00:02:18.659
+Nest-USA products generated the most revenue.
+
+00:02:18.659 --> 00:02:24.424
+You can click on the Nest-USA primary dimension to see a breakdown by product.
+
+00:02:24.425 --> 00:02:27.110
+The percentage display makes it easy to
+
+00:02:27.110 --> 00:02:30.590
+identify the parts of the whole quickly using a pie chart.
+
+00:02:30.590 --> 00:02:33.080
+Use this display when you want to analyze a
+
+00:02:33.080 --> 00:02:37.010
+data set that has a limited number of categories.
+

@@ -1,0 +1,202 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.325
+In this section, we'll be talking about secondary dimensions, a straightforward,
+
+00:00:05.325 --> 00:00:10.980
+critical and yet underutilized feature in GA. We always want to remember that
+
+00:00:10.980 --> 00:00:16.980
+an important part of our role as analysts is to construct narratives to tell stories.
+
+00:00:16.980 --> 00:00:22.289
+The basic story that we're trying to tell is what's working and what's not.
+
+00:00:22.289 --> 00:00:27.074
+From there, we can hypothesize on what we can do to drive improvement.
+
+00:00:27.074 --> 00:00:30.899
+In many cases, to tell a better story in our GA reports,
+
+00:00:30.899 --> 00:00:33.494
+we want to apply secondary dimensions.
+
+00:00:33.494 --> 00:00:37.500
+We can bring in other pieces of data relating to technology or
+
+00:00:37.500 --> 00:00:41.960
+geography or acquisition to provide greater clarity.
+
+00:00:41.960 --> 00:00:45.185
+Let's take a look at the mobile overview report as an example.
+
+00:00:45.185 --> 00:00:50.540
+We can see that there are big differences in bounce rate and especially in
+
+00:00:50.539 --> 00:00:52.820
+e-commerce conversion rate between
+
+00:00:52.820 --> 00:00:56.994
+the three-dimension values: desktop, mobile and tablet.
+
+00:00:56.994 --> 00:00:59.689
+As a basic optimization step,
+
+00:00:59.689 --> 00:01:05.359
+I would want to see the end-user experience on these different device categories.
+
+00:01:05.359 --> 00:01:07.730
+But at this point, I still would not have
+
+00:01:07.730 --> 00:01:11.615
+quite enough information to know which device category to pick up.
+
+00:01:11.614 --> 00:01:16.750
+The mobile overview report can be referred to as a low cardinality report,
+
+00:01:16.750 --> 00:01:21.305
+meaning that there are not a lot of different values for the primary dimension,
+
+00:01:21.305 --> 00:01:23.555
+in this case, there are only three.
+
+00:01:23.555 --> 00:01:27.500
+The benefit of a low cardinality report is that we don't have to deal
+
+00:01:27.500 --> 00:01:31.489
+with a lot of different rows and the data is relatively aggregated.
+
+00:01:31.489 --> 00:01:34.009
+The downside is that we don't always have
+
+00:01:34.010 --> 00:01:37.835
+the necessary detail to make actionable observations.
+
+00:01:37.834 --> 00:01:40.369
+Now we might say, "Let's go over to the mobile
+
+00:01:40.370 --> 00:01:43.475
+devices report for more granular information."
+
+00:01:43.474 --> 00:01:45.079
+That wasn't a bad idea,
+
+00:01:45.079 --> 00:01:48.799
+but the problem is that for the time period selected,
+
+00:01:48.799 --> 00:01:52.834
+there are over 3,600 different rows in this report.
+
+00:01:52.834 --> 00:01:55.219
+This is a high-cardinality report,
+
+00:01:55.219 --> 00:01:58.670
+meaning that there are many values for a single dimension.
+
+00:01:58.670 --> 00:02:02.210
+This can be useful when we need this level of granularity.
+
+00:02:02.209 --> 00:02:05.089
+But sometimes it can be too detailed.
+
+00:02:05.090 --> 00:02:07.505
+So let's take another approach.
+
+00:02:07.504 --> 00:02:10.219
+We're going to go back to the mobile overview report.
+
+00:02:10.219 --> 00:02:13.400
+We're going to apply a secondary dimension.
+
+00:02:13.400 --> 00:02:15.510
+If we click on secondary dimension,
+
+00:02:15.509 --> 00:02:17.989
+we could take advantage of read-ahead to
+
+00:02:17.990 --> 00:02:21.620
+apply a secondary dimension that we already have in mind.
+
+00:02:21.620 --> 00:02:25.205
+Now what we're seeing is something that's quite surprising.
+
+00:02:25.205 --> 00:02:28.820
+Before we apply the operating system as a secondary dimension,
+
+00:02:28.819 --> 00:02:31.819
+it looked like the e-commerce conversion rate for
+
+00:02:31.819 --> 00:02:35.329
+desktop as a device category was healthy across the board.
+
+00:02:35.330 --> 00:02:38.680
+But now we see that there's actually a stark difference between
+
+00:02:38.680 --> 00:02:40.550
+e-commerce conversion rate for
+
+00:02:40.550 --> 00:02:45.050
+Windows desktop and e-commerce conversion rate for Macintosh desktop.
+
+00:02:45.050 --> 00:02:48.410
+Let's look at secondary dimensions in the landing pages report.
+
+00:02:48.409 --> 00:02:53.030
+The landing pages report is already useful and that we can compare the different metrics
+
+00:02:53.030 --> 00:02:57.800
+such as bounce rate and e-commerce conversion rate for the different landing pages.
+
+00:02:57.800 --> 00:03:00.260
+But here too, this report we'll become more
+
+00:03:00.259 --> 00:03:03.245
+actionable when we apply a secondary dimension.
+
+00:03:03.245 --> 00:03:06.710
+A natural marriage of secondary dimension with
+
+00:03:06.710 --> 00:03:12.290
+the landing page is one of the acquisition dimensions such as source medium.
+
+00:03:12.289 --> 00:03:17.030
+So we can see before we apply a secondary dimension that
+
+00:03:17.030 --> 00:03:23.479
+the e-commerce conversion rate for the homepage as a landing page is 2.85 percent.
+
+00:03:23.479 --> 00:03:29.379
+If we add source medium and filter for home as the primary dimension,
+
+00:03:29.379 --> 00:03:32.299
+now we're telling a much richer story.
+
+00:03:32.300 --> 00:03:35.120
+We're seeing that the different sources of traffic that are
+
+00:03:35.120 --> 00:03:37.550
+driving to the same homepage are
+
+00:03:37.550 --> 00:03:40.100
+actually performing very differently in terms
+
+00:03:40.099 --> 00:03:43.204
+of bounce rate and e-commerce conversion rate.
+
+00:03:43.205 --> 00:03:47.090
+We see that we potentially have the opportunity to drive more traffic to
+
+00:03:47.090 --> 00:03:52.670
+the homepage from those sources that are generating a high e-commerce conversion rate.
+
+00:03:52.669 --> 00:03:54.949
+On the other side of the coin,
+
+00:03:54.949 --> 00:03:59.250
+we see that Google CPC as a source medium AdWords,
+
+00:03:59.250 --> 00:04:05.229
+driving to the homepage is not really showing an outstanding e-commerce conversion rate.
+

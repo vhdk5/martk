@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.190
+The pivot display lets you rearrange data in a table for very detailed analysis.
+
+00:00:05.190 --> 00:00:08.070
+You can pivot your data by a secondary dimension to
+
+00:00:08.070 --> 00:00:11.054
+explore very specific business questions.
+
+00:00:11.054 --> 00:00:13.304
+Let's see it in the source medium report.
+
+00:00:13.304 --> 00:00:16.754
+Select the pivot display in the reporting interface,
+
+00:00:16.754 --> 00:00:18.585
+add your pivot metrics,
+
+00:00:18.585 --> 00:00:20.460
+sessions and bounce rate.
+
+00:00:20.460 --> 00:00:24.045
+You see sessions and bounce rate by source medium.
+
+00:00:24.045 --> 00:00:28.605
+Let's say you want to explore this traffic and bounce by state.
+
+00:00:28.605 --> 00:00:30.964
+Let's pivot by region.
+
+00:00:30.964 --> 00:00:34.549
+A user's region is derived from their IP addresses or you
+
+00:00:34.549 --> 00:00:38.719
+can upload geographical IDs to make it match your business data.
+
+00:00:38.719 --> 00:00:43.265
+In the US, a region is a state like California, for example.
+
+00:00:43.265 --> 00:00:44.570
+In the first column,
+
+00:00:44.570 --> 00:00:49.325
+you see the total sessions and bounce rate by the source medium as before.
+
+00:00:49.325 --> 00:00:52.645
+But the other columns break the data down by state.
+
+00:00:52.645 --> 00:01:00.430
+You see 62,805 sessions in California with a bounce rate of 31.71 percent,
+
+00:01:00.429 --> 00:01:05.034
+compared to 14,824 sessions from New York,
+
+00:01:05.034 --> 00:01:08.599
+with the bounce rate of 35.49 percent.
+
+00:01:08.599 --> 00:01:12.559
+There's a region here that is not set in column four.
+
+00:01:12.560 --> 00:01:15.439
+This could mean the IP address may not be shared by
+
+00:01:15.439 --> 00:01:19.250
+the visitor which could happen for several different reasons.
+
+00:01:19.250 --> 00:01:23.015
+If you wanted to explore this data by device category,
+
+00:01:23.015 --> 00:01:25.010
+you could add a secondary dimension,
+
+00:01:25.010 --> 00:01:27.910
+this display to get even more specific.
+
+00:01:27.909 --> 00:01:31.280
+Now, you see desktop sessions and bounce rate from
+
+00:01:31.280 --> 00:01:35.030
+California versus mobile sessions and bounce rate,
+
+00:01:35.030 --> 00:01:38.060
+and you can do the same analysis for other regions.
+
+00:01:38.060 --> 00:01:41.299
+The pivot display lets you interact with your data and
+
+00:01:41.299 --> 00:01:44.719
+layer on dimensions for very specific analysis.
+
+00:01:44.719 --> 00:01:50.489
+Use this display in Google Analytics to help you find insights fast.
+

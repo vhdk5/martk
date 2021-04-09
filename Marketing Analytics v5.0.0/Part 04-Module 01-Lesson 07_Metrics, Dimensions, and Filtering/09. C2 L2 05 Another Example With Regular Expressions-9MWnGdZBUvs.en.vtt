@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.404
+Let's look at another example of regular expressions.
+
+00:00:03.404 --> 00:00:06.285
+In our very first Google Analytics course,
+
+00:00:06.285 --> 00:00:08.789
+we reviewed goal configuration.
+
+00:00:08.789 --> 00:00:13.785
+Let's consider a goal configuration that would require regular expressions.
+
+00:00:13.785 --> 00:00:18.765
+When I was working as an analyst and optimizer in the insurance industry,
+
+00:00:18.765 --> 00:00:21.300
+one of our conversion processes lead to
+
+00:00:21.300 --> 00:00:25.440
+two different versions of essentially the same conversion page,
+
+00:00:25.440 --> 00:00:28.530
+whether the customer opted for policy fulfillment by
+
+00:00:28.530 --> 00:00:32.475
+postal mail or policy fulfillment by email.
+
+00:00:32.475 --> 00:00:35.789
+For conversion purposes, both were equal.
+
+00:00:35.789 --> 00:00:41.274
+So, we needed the one goal to accommodate both versions of the "Thank you" page URL.
+
+00:00:41.274 --> 00:00:46.475
+But, there were other thank you pages that we wanted to exclude from this conversion.
+
+00:00:46.475 --> 00:00:51.390
+If we go back to the org test account from the previous course,
+
+00:00:51.390 --> 00:00:55.670
+we can test out goal configuration using regular expressions.
+
+00:00:55.670 --> 00:00:59.495
+We're in the text view where we always want to configure goals first.
+
+00:00:59.494 --> 00:01:05.715
+New goal. Let's call this goal policy Purchased.
+
+00:01:05.715 --> 00:01:08.564
+Type, destination.
+
+00:01:08.564 --> 00:01:12.444
+Notice, the three match types available: equals to,
+
+00:01:12.444 --> 00:01:15.254
+begins with and regular expression.
+
+00:01:15.254 --> 00:01:19.424
+We couldn't use equal to in this case and we couldn't use begins with either.
+
+00:01:19.424 --> 00:01:24.329
+Again, because we want to match thank-you-mail and thank-you-email,
+
+00:01:24.329 --> 00:01:29.134
+not thank-you-claim or any other page that began with "Thank you."
+
+00:01:29.135 --> 00:01:31.995
+So, to construct our regular expression.
+
+00:01:31.995 --> 00:01:34.480
+We can start with,
+
+00:01:34.760 --> 00:01:39.505
+thank-you-email, and to make sure that male also matched,
+
+00:01:39.504 --> 00:01:45.174
+we can go back to our chart and see that we can use the question mark as a quantifier,
+
+00:01:45.174 --> 00:01:49.465
+meaning, zero or one occurrences of the proceeding character.
+
+00:01:49.465 --> 00:01:52.760
+Question mark match with or without the e,
+
+00:01:52.760 --> 00:01:54.870
+and to clean things up a little bit further,
+
+00:01:54.870 --> 00:01:59.275
+we're going to apply a beginning of string anchor and an end of string anchor.
+
+00:01:59.275 --> 00:02:01.335
+Caret for beginning of string,
+
+00:02:01.334 --> 00:02:03.934
+dollar sign for end of string.
+
+00:02:03.935 --> 00:02:06.060
+To test out this regular expression,
+
+00:02:06.060 --> 00:02:08.759
+we're going to go to rejectsone-to-one.com.
+
+00:02:08.759 --> 00:02:13.319
+Copy our rejects, pasted it into the regular expression field.
+
+00:02:13.319 --> 00:02:17.870
+Rejects one-to-one likes us to escape the forward slash as well.
+
+00:02:17.870 --> 00:02:19.355
+So, we'll go ahead and do that.
+
+00:02:19.354 --> 00:02:25.534
+That won't change our regular expression in GA. Let's test out the text strings.
+
+00:02:25.534 --> 00:02:29.340
+Thank-you-mail, one match.
+
+00:02:29.349 --> 00:02:32.344
+Thank-you-email match.
+
+00:02:32.344 --> 00:02:39.734
+But thank-you-claims, no match and no other string would match this regular expression.
+
+00:02:39.735 --> 00:02:43.540
+You can use regular expressions for many purposes in GA.
+
+00:02:43.539 --> 00:02:48.629
+In table filters, in view filters, in goad definitions,
+
+00:02:48.629 --> 00:02:53.734
+in custom segments which we'll talk about coming up and in custom alerts,
+
+00:02:53.735 --> 00:02:56.690
+which we'll also talk about in an upcoming section.
+
+00:02:56.689 --> 00:02:59.780
+You can certainly use regular expressions in many cases in
+
+00:02:59.780 --> 00:03:03.050
+Google Tag Manager and in many other tools.
+
+00:03:03.050 --> 00:03:06.460
+You probably won't need regular expressions every day,
+
+00:03:06.460 --> 00:03:09.760
+but when you need them there's no replacement.
+

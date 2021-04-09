@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.870
+The comparison display uses a horizontal bar chart to let
+
+00:00:03.870 --> 00:00:07.814
+you analyze relative performance for selected metrics.
+
+00:00:07.815 --> 00:00:11.835
+Let's see how you can use this display in the source medium report.
+
+00:00:11.835 --> 00:00:14.190
+In this report, you can analyze the performance of
+
+00:00:14.189 --> 00:00:16.500
+your traffic by source, like for example,
+
+00:00:16.500 --> 00:00:20.414
+a search engine like Google and medium the category of the traffic,
+
+00:00:20.414 --> 00:00:23.039
+organic, cost-per-click or referral.
+
+00:00:23.039 --> 00:00:26.820
+We're looking at the summary metric group in the performance display,
+
+00:00:26.820 --> 00:00:29.204
+and you see sessions and bounces.
+
+00:00:29.204 --> 00:00:33.954
+You can see that Google Organic drove the most traffic to the site for this day range,
+
+00:00:33.954 --> 00:00:37.445
+and the percentage of bounces for this source medium is high.
+
+00:00:37.445 --> 00:00:41.719
+This is useful information but not particularly insightful.
+
+00:00:41.719 --> 00:00:44.689
+You need to know more to really evaluate performance.
+
+00:00:44.689 --> 00:00:47.364
+So, let's switch to the comparison display.
+
+00:00:47.365 --> 00:00:49.755
+Looking at sessions and bounce rate,
+
+00:00:49.755 --> 00:00:53.359
+you can now see the bounce rate compared to the site average.
+
+00:00:53.359 --> 00:00:57.604
+Values in red and to the right are performing worse than average.
+
+00:00:57.604 --> 00:01:01.614
+Values in green and to the left are performing better than average.
+
+00:01:01.615 --> 00:01:07.504
+In row four, traffic referred from mail.googleplex.com is much better than average.
+
+00:01:07.504 --> 00:01:09.949
+But keep in mind, we're looking at bounce rate here.
+
+00:01:09.950 --> 00:01:13.564
+So, the negative 69.95 is positive.
+
+00:01:13.564 --> 00:01:16.099
+It looks like traffic from the referral medium is
+
+00:01:16.099 --> 00:01:19.155
+performing best in terms of the bounce rate metric.
+
+00:01:19.155 --> 00:01:21.454
+Maybe we need to look at landing pages for
+
+00:01:21.454 --> 00:01:24.814
+other traffic sources and mediums to see why our visitors are bouncing.
+
+00:01:24.814 --> 00:01:26.989
+You can learn more about your traffic by adding
+
+00:01:26.989 --> 00:01:30.469
+a secondary dimension like device category or CD.
+
+00:01:30.469 --> 00:01:34.775
+You could also explore other metrics using the comparison display.
+
+00:01:34.775 --> 00:01:39.140
+Understanding this report display and how it works will help you research and answer
+
+00:01:39.140 --> 00:01:44.090
+specific questions and find data that is actionable and useful.
+

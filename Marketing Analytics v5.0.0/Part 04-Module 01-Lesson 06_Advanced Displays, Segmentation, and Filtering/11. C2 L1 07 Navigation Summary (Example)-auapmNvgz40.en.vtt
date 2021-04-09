@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.509
+The navigation summary lets you see what happens when users
+
+00:00:03.509 --> 00:00:07.410
+start on a particular page where they go next and how they exit.
+
+00:00:07.410 --> 00:00:10.455
+You'll find the navigation summary in the Behavior tab,
+
+00:00:10.455 --> 00:00:13.455
+Site Content, All Pages report.
+
+00:00:13.455 --> 00:00:17.039
+Click on Navigation Summary and select the page you want to focus
+
+00:00:17.039 --> 00:00:20.535
+on using the drop down menu next to Current Selection.
+
+00:00:20.535 --> 00:00:22.530
+Let's use the homepage.
+
+00:00:22.530 --> 00:00:25.740
+This menu also lets you see a list of your site pages
+
+00:00:25.739 --> 00:00:29.144
+and the number of page views for each page.
+
+00:00:29.144 --> 00:00:33.204
+Let's focus on the four gray boxes on the top of the display.
+
+00:00:33.204 --> 00:00:37.689
+The two gray boxes on the left hand side tells you how the page was reached,
+
+00:00:37.689 --> 00:00:40.579
+the arrows report the percentage of site users
+
+00:00:40.579 --> 00:00:43.909
+who reached the site directly with entrances.
+
+00:00:43.909 --> 00:00:50.029
+You also see the percentage who come to the page via another page with previous pages.
+
+00:00:50.030 --> 00:00:56.185
+In this case, nearly 58 percent of users viewing the homepage reached the page directly,
+
+00:00:56.185 --> 00:01:00.560
+42 percent come from a previous page on the site.
+
+00:01:00.560 --> 00:01:03.679
+The two great boxes on the right hand side tell you what
+
+00:01:03.679 --> 00:01:06.620
+happens when users leave the page.
+
+00:01:06.620 --> 00:01:11.075
+Exits reports the percent of users who leave the site entirely.
+
+00:01:11.075 --> 00:01:15.844
+Next Pages report the percent who remain on the site and view another page.
+
+00:01:15.844 --> 00:01:17.209
+So, in this case,
+
+00:01:17.209 --> 00:01:20.899
+a larger percentage of users continue on to another page of
+
+00:01:20.900 --> 00:01:25.760
+the site 65.52 percent which is a good thing.
+
+00:01:25.760 --> 00:01:28.310
+For this site you want users to shop and
+
+00:01:28.310 --> 00:01:31.445
+click into product categories and pages on the site.
+
+00:01:31.444 --> 00:01:35.119
+It would be good to lower their percentage of exits month over month and
+
+00:01:35.120 --> 00:01:39.760
+increase the percentage of users who go on to other pages.
+
+00:01:39.760 --> 00:01:42.344
+Beneath the arrows are two columns,
+
+00:01:42.344 --> 00:01:46.465
+one labeled Previous Page Path and the other labeled Next Page Path.
+
+00:01:46.465 --> 00:01:52.284
+These columns provide the details on pages viewed prior to and after the target page.
+
+00:01:52.284 --> 00:01:57.670
+Keep in mind that these relative numbers will change as the target page is changed.
+
+00:01:57.670 --> 00:02:00.620
+So, the information shown in the left column beneath
+
+00:02:00.620 --> 00:02:03.950
+previous page indicates that 12 percent of
+
+00:02:03.950 --> 00:02:07.144
+users who visit the homepage from another internal page
+
+00:02:07.144 --> 00:02:10.745
+arrive from the Shop By Brand YouTube page.
+
+00:02:10.745 --> 00:02:12.310
+This isn't really striking,
+
+00:02:12.310 --> 00:02:16.569
+so let's see if there's something insightful in the next page path column.
+
+00:02:16.569 --> 00:02:21.319
+So, the right-hand column under the Next Page Path indicates that
+
+00:02:21.319 --> 00:02:24.439
+the Google redesign apparel men's page
+
+00:02:24.439 --> 00:02:28.224
+is the most frequently viewed page after the homepage,
+
+00:02:28.224 --> 00:02:31.370
+20.69 percent of page views.
+
+00:02:31.370 --> 00:02:36.450
+So, it sounds like shopper behavior with some browsing going on,
+
+00:02:36.449 --> 00:02:41.314
+but why would shoppers go to the YouTube Brand Page and then to the homepage?
+
+00:02:41.314 --> 00:02:44.395
+Why wouldn't they browse into the YouTube products?
+
+00:02:44.395 --> 00:02:46.365
+Do they land there by accident?
+
+00:02:46.365 --> 00:02:48.780
+Let's make this the target page.
+
+00:02:48.780 --> 00:02:54.604
+Wow, now you see that this was an entrance page almost 80 percent of the time.
+
+00:02:54.604 --> 00:02:57.949
+That means it's the first page on the customer journey,
+
+00:02:57.949 --> 00:03:02.954
+and 54 percent of those users exit, this is something.
+
+00:03:02.955 --> 00:03:08.719
+Let's make the homepage the current selection again and look at it to test a hunch.
+
+00:03:08.719 --> 00:03:12.539
+You see the word redesign in the page URL,
+
+00:03:12.539 --> 00:03:15.454
+so a change to the page must have been made.
+
+00:03:15.455 --> 00:03:17.600
+If you click on the link in the UI,
+
+00:03:17.599 --> 00:03:20.254
+it will take you to the actual page.
+
+00:03:20.254 --> 00:03:22.384
+The page is not available,
+
+00:03:22.384 --> 00:03:24.454
+this is a major find.
+
+00:03:24.455 --> 00:03:27.670
+What is the source medium sending traffic to this page?
+
+00:03:27.669 --> 00:03:32.209
+Is there a campaign driving traffic to this page or perhaps an old link?
+
+00:03:32.210 --> 00:03:35.510
+This is something you can take action on right away.
+
+00:03:35.509 --> 00:03:39.049
+You could use the landing pages report to see what
+
+00:03:39.050 --> 00:03:43.350
+source medium is driving traffic to this page and address this issue,
+
+00:03:43.349 --> 00:03:45.919
+but more importantly, the navigation summary
+
+00:03:45.919 --> 00:03:49.369
+helped you find a high traffic page that is not available.
+
+00:03:49.370 --> 00:03:54.740
+Use the navigation summary to analyze how users interact with your pages
+
+00:03:54.740 --> 00:04:01.140
+to improve processes and flows on your site and to enhance the customer journey.
+

@@ -1,0 +1,31 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.290
+In this lesson, we'll take a close look at the dimension values that are sent in
+
+00:00:04.290 --> 00:00:06.810
+Google Analytics hits and the metrics that are
+
+00:00:06.809 --> 00:00:10.214
+calculated in the Google Analytics processing phase.
+
+00:00:10.214 --> 00:00:13.589
+We'll also review advanced table filters,
+
+00:00:13.589 --> 00:00:16.350
+and we'll see how the secondary dimension feature
+
+00:00:16.350 --> 00:00:19.755
+can help our reports reveal more meaningful stories.
+
+00:00:19.754 --> 00:00:21.824
+As a specialized topic,
+
+00:00:21.824 --> 00:00:25.949
+we'll see several use cases for essential regular expressions,
+
+00:00:25.949 --> 00:00:30.140
+or regex, for advanced text matching with NGA.
+

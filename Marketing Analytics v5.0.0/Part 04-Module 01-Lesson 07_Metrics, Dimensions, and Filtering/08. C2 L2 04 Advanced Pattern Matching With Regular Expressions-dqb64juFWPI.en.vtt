@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.000
+In this section, we're going to meet a filtering challenge using regular expressions.
+
+00:00:06.000 --> 00:00:09.240
+This discussion is going to be fairly technical,
+
+00:00:09.240 --> 00:00:12.359
+but we'll cover the basics of regular expressions,
+
+00:00:12.359 --> 00:00:15.719
+which is a skill that every GA professional should have.
+
+00:00:15.720 --> 00:00:19.484
+Regular expressions are used for advanced text matching,
+
+00:00:19.484 --> 00:00:25.155
+and they themselves consist of text and special characters called metacharacters.
+
+00:00:25.155 --> 00:00:28.500
+Let's go back to the landing pages report and see
+
+00:00:28.500 --> 00:00:32.869
+at least one case in which regular expressions are needed for filtering.
+
+00:00:32.869 --> 00:00:38.119
+We see in row two of the landing pages report that the URL contains shop by brand.
+
+00:00:38.119 --> 00:00:42.890
+If we wanted to see all of the landing pages that contained shop by brand,
+
+00:00:42.890 --> 00:00:45.590
+we may try to enter that into the basic filter field,
+
+00:00:45.590 --> 00:00:50.540
+shop plus by plus brand,
+
+00:00:50.539 --> 00:00:53.629
+Enter, and the report zeros out.
+
+00:00:53.630 --> 00:00:56.795
+Why did that happen? That happened because
+
+00:00:56.795 --> 00:01:03.410
+the basic filter field is actually interpreted as a regular expression,
+
+00:01:03.409 --> 00:01:08.700
+and the plus character is a metacharacter that is not interpreted literally.
+
+00:01:08.700 --> 00:01:12.079
+This chart may look a little funny or even intimidating
+
+00:01:12.079 --> 00:01:15.170
+if you haven't worked with regular expressions before.
+
+00:01:15.170 --> 00:01:18.650
+But this maps out the basic metacharacters that you would need for
+
+00:01:18.650 --> 00:01:22.955
+regular expressions in most situations in Google Analytics.
+
+00:01:22.954 --> 00:01:25.849
+The good news is that a little bit of rejects goes
+
+00:01:25.849 --> 00:01:30.199
+a very long way in GA. We see in row three that
+
+00:01:30.200 --> 00:01:34.265
+the plus symbol is actually a metacharacter that means match
+
+00:01:34.265 --> 00:01:39.019
+any text string that has one or many of the proceeding character.
+
+00:01:39.019 --> 00:01:41.839
+If we look at the last row of this table,
+
+00:01:41.840 --> 00:01:44.225
+we see the escape metacharacter.
+
+00:01:44.224 --> 00:01:49.879
+The escape metacharacter allows a metacharacter to be interpreted literally.
+
+00:01:49.879 --> 00:01:53.464
+If we go back to the landing pages report and we add
+
+00:01:53.465 --> 00:01:58.740
+the escape character before the plus sign and we search again.
+
+00:01:58.739 --> 00:02:02.359
+Now, we've successfully filtered by shop by brands because
+
+00:02:02.359 --> 00:02:05.659
+the plus sign is not being interpreted as a metacharacter,
+
+00:02:05.659 --> 00:02:07.189
+but as a literal character.
+
+00:02:07.189 --> 00:02:09.979
+Now in reality, we didn't actually have to use
+
+00:02:09.979 --> 00:02:13.250
+a regular expression to filter by shop by brand.
+
+00:02:13.250 --> 00:02:15.620
+We could have applied an advanced filter.
+
+00:02:15.620 --> 00:02:21.564
+Include landing page contains shop by brand.
+
+00:02:21.564 --> 00:02:27.650
+In this case, this filter would not have been interpreted as a regular expression.
+
+00:02:27.650 --> 00:02:32.000
+So, we achieve the same filtering using an advanced filter.
+
+00:02:32.000 --> 00:02:36.455
+But let's consider another scenario where we have to use a regular expression.
+
+00:02:36.455 --> 00:02:38.955
+Let's exit out this current filter,
+
+00:02:38.955 --> 00:02:45.950
+and let's say that we wanted to filter landing page by either apparel or accessories.
+
+00:02:45.949 --> 00:02:48.064
+If we click into advanced,
+
+00:02:48.064 --> 00:02:53.344
+we see that there's and option to add conditions to an advanced filter.
+
+00:02:53.344 --> 00:02:55.699
+But there's no or option.
+
+00:02:55.699 --> 00:03:00.394
+So, what do we do? This is where regular expressions come in again.
+
+00:03:00.395 --> 00:03:02.689
+If we look at the top of this table,
+
+00:03:02.689 --> 00:03:06.435
+we see the pipe symbol as a metacharacter,
+
+00:03:06.435 --> 00:03:11.269
+and if there's one metacharacter that we want to be familiar with in regular expressions,
+
+00:03:11.269 --> 00:03:14.480
+it's the pipe symbol, the or symbol.
+
+00:03:14.479 --> 00:03:21.614
+So, if we now enter a parallel pipe accessories into the filter field,
+
+00:03:21.615 --> 00:03:24.830
+we see that we have successfully filtered
+
+00:03:24.830 --> 00:03:29.730
+the learning page primary dimension by either of these values.
+
