@@ -1,0 +1,328 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.710
+Let's revisit Multi-Channel Funnel reports or MCF.
+
+00:00:04.710 --> 00:00:07.529
+The MCF reports in Google Analytics start to take
+
+00:00:07.530 --> 00:00:10.425
+us in the direction of multi-touch attribution.
+
+00:00:10.425 --> 00:00:14.730
+They don't get us all the way there like the attribution models comparison report will,
+
+00:00:14.730 --> 00:00:16.289
+but they start to let us see the way
+
+00:00:16.289 --> 00:00:20.304
+our multi-channel marketing efforts overlap and support one another.
+
+00:00:20.304 --> 00:00:23.905
+They allow us to start looking at things like assisted conversions,
+
+00:00:23.905 --> 00:00:26.539
+impression assisted conversions, and if we have
+
+00:00:26.539 --> 00:00:29.494
+the data to support it, conversion padding.
+
+00:00:29.495 --> 00:00:32.810
+They let us start playing with the look-back windows in our data
+
+00:00:32.810 --> 00:00:36.109
+and so they can be very illuminating into our marketing programs.
+
+00:00:36.109 --> 00:00:38.539
+Let's take a look in the Google Analytics interface
+
+00:00:38.539 --> 00:00:41.094
+at those Multi-Channel Funnels reports.
+
+00:00:41.094 --> 00:00:43.850
+To access Multi-Channel Funnels reports,
+
+00:00:43.850 --> 00:00:46.789
+I'm simply going to go to the conversions drop down,
+
+00:00:46.789 --> 00:00:49.280
+look for Multi-Channel Funnels,
+
+00:00:49.280 --> 00:00:52.509
+and we'll start with the overview section.
+
+00:00:52.509 --> 00:00:55.219
+Here, we can familiarize ourselves with
+
+00:00:55.219 --> 00:00:59.659
+the basic configuration controls for the Multi-Channel Funnel reports.
+
+00:00:59.659 --> 00:01:04.769
+I could select conversion type and in this case,
+
+00:01:04.769 --> 00:01:08.614
+I recommend changing this conversion selection to include
+
+00:01:08.614 --> 00:01:13.669
+only a single conversion type per analysis as I've done
+
+00:01:13.670 --> 00:01:17.900
+here so that you make sure you're not doing things like comparing a purchase
+
+00:01:17.900 --> 00:01:24.109
+completed with a conversion defined as something like a user registration.
+
+00:01:24.109 --> 00:01:26.000
+While both actions may be important,
+
+00:01:26.000 --> 00:01:28.250
+you don't necessarily want to blend them in terms of
+
+00:01:28.250 --> 00:01:32.329
+your analysis of what is driving those conversions.
+
+00:01:32.329 --> 00:01:35.179
+So, you really do want to look at them separately.
+
+00:01:35.180 --> 00:01:39.185
+In this case, I'm looking at e-commerce transactions.
+
+00:01:39.185 --> 00:01:42.710
+You can also decide what type of interactions you would
+
+00:01:42.709 --> 00:01:46.324
+like to include in your Multi-Channel Funnels reports.
+
+00:01:46.325 --> 00:01:48.515
+In this case, I want to see everything.
+
+00:01:48.515 --> 00:01:51.340
+I can also change the look-back window.
+
+00:01:51.340 --> 00:01:55.790
+So, if I have a product that is expensive and is a considered purchase,
+
+00:01:55.790 --> 00:01:59.705
+I might want to push this out to the limit of 90 days.
+
+00:01:59.704 --> 00:02:02.599
+It's going to attribute conversion activities to touch
+
+00:02:02.599 --> 00:02:05.839
+points going back 90 days prior to the conversion event.
+
+00:02:05.840 --> 00:02:10.219
+This can be very helpful especially if I want to see the overlap between
+
+00:02:10.219 --> 00:02:14.824
+different marketing channels and how they interact to drive conversions.
+
+00:02:14.824 --> 00:02:17.889
+I can see my last non-direct conversions,
+
+00:02:17.889 --> 00:02:21.349
+I can also see click assisted conversions,
+
+00:02:21.349 --> 00:02:24.789
+I can see impression assisted conversions,
+
+00:02:24.789 --> 00:02:28.329
+and also rich media assisted conversions if I have them.
+
+00:02:28.330 --> 00:02:32.825
+For my display impressions where somebody saw an ad but didn't actually click through it,
+
+00:02:32.824 --> 00:02:36.804
+that could still obviously impact conversion activity on my website.
+
+00:02:36.805 --> 00:02:43.780
+I can also see the multi-channel overlap between channels visualized in the Venn diagram.
+
+00:02:43.780 --> 00:02:47.650
+It can be a handy reference for us to see how
+
+00:02:47.650 --> 00:02:52.314
+important channels overlap and interact to drive conversions.
+
+00:02:52.314 --> 00:02:54.280
+In some cases, quite a lot,
+
+00:02:54.280 --> 00:02:55.629
+and in some cases,
+
+00:02:55.629 --> 00:02:57.359
+not very much at all.
+
+00:02:57.360 --> 00:03:00.080
+To start seeing the power of the Multi-Channel Funnels,
+
+00:03:00.080 --> 00:03:02.990
+we start digging into the specific reports.
+
+00:03:02.990 --> 00:03:06.409
+In this case, let's look at assisted conversions for a moment.
+
+00:03:06.409 --> 00:03:09.409
+The assisted conversions report is going to move us even
+
+00:03:09.409 --> 00:03:12.365
+closer to the multi-touch attribution mindset,
+
+00:03:12.365 --> 00:03:16.175
+and it's going to start showing me my channel performance.
+
+00:03:16.175 --> 00:03:17.840
+In this case, I like to use
+
+00:03:17.840 --> 00:03:22.250
+the default channel grouping because that's what I use in other reports.
+
+00:03:22.250 --> 00:03:26.360
+The report is going to default to the Multi-Channel Funnel channel groupings which
+
+00:03:26.360 --> 00:03:30.820
+will not include specific customizations you've made to your default channel grouping.
+
+00:03:30.819 --> 00:03:33.844
+So, just keep in mind that you'll want to use the appropriate
+
+00:03:33.844 --> 00:03:37.625
+channel grouping for your specific reporting purposes.
+
+00:03:37.625 --> 00:03:40.729
+I can start to see how certain channels may or may
+
+00:03:40.729 --> 00:03:44.223
+not drive a lot of value in terms of last click conversions,
+
+00:03:44.223 --> 00:03:47.899
+but maybe driving a lot of value in terms of assisted conversions,
+
+00:03:47.900 --> 00:03:51.349
+and some channels have a certain balance of each.
+
+00:03:51.349 --> 00:03:52.789
+But in this case,
+
+00:03:52.789 --> 00:03:57.620
+nearly $665,000 in conversion value
+
+00:03:57.620 --> 00:04:02.120
+was driven by assisted conversions from the referral channel,
+
+00:04:02.120 --> 00:04:09.890
+and only 409,000 from last click or direct conversion value for the referral channel.
+
+00:04:09.889 --> 00:04:14.194
+So, most of the value of that channel is coming in the form of
+
+00:04:14.194 --> 00:04:17.839
+conversion assists and not inconsiderable amount of
+
+00:04:17.839 --> 00:04:21.544
+conversions from the last click or direct conversions.
+
+00:04:21.545 --> 00:04:25.564
+When we look at the standard acquisitions reporting,
+
+00:04:25.564 --> 00:04:31.115
+some channels perform rather poorly in terms of conversion performance.
+
+00:04:31.115 --> 00:04:34.475
+So, if we get stuck in the last click mentality,
+
+00:04:34.475 --> 00:04:38.510
+we fail to see the full value of the channel
+
+00:04:38.509 --> 00:04:43.009
+and what it's driving in terms of support for other channels.
+
+00:04:43.009 --> 00:04:48.500
+Here, we can see that display is having a much more impact than it would appear just from
+
+00:04:48.500 --> 00:04:54.930
+the last click or direct conversion value with $6,200 in assisted conversions.
+
+00:04:54.930 --> 00:04:56.910
+Paid search as well,
+
+00:04:56.910 --> 00:05:00.515
+almost $15,000 in assisted conversion value
+
+00:05:00.514 --> 00:05:04.699
+and just $3,800 in last click conversion value.
+
+00:05:04.699 --> 00:05:10.295
+In fact, because of the dependency on the GA cookie or user ID,
+
+00:05:10.295 --> 00:05:15.620
+there are in reality always more assists than GA can possibly report.
+
+00:05:15.620 --> 00:05:20.225
+We can also take it a step further into the top conversion paths report.
+
+00:05:20.225 --> 00:05:22.010
+This reporting allows us to see
+
+00:05:22.009 --> 00:05:25.634
+the unique conversion paths for our website in a given time period.
+
+00:05:25.634 --> 00:05:28.534
+So, it allows us to see for example,
+
+00:05:28.535 --> 00:05:35.260
+I have 542 conversions worth $116,000 in conversion value,
+
+00:05:35.259 --> 00:05:41.800
+where the channel path was a referral session followed by a direct session.
+
+00:05:41.800 --> 00:05:46.069
+In and of itself, that's probably not the most illuminating data we can see,
+
+00:05:46.069 --> 00:05:49.459
+but if we filter to, for example,
+
+00:05:49.459 --> 00:05:51.589
+conversion paths that include
+
+00:05:51.589 --> 00:05:58.129
+display and we can see some more interesting conversion data.
+
+00:05:58.129 --> 00:06:01.639
+Now, we can see we have users that
+
+00:06:01.639 --> 00:06:05.615
+are taking very sophisticated journeys to get to the point of conversion.
+
+00:06:05.615 --> 00:06:07.790
+Here's somebody who was brought to the site
+
+00:06:07.790 --> 00:06:12.004
+originally by a direct session followed by an organic search,
+
+00:06:12.004 --> 00:06:15.439
+a display click, organic search,
+
+00:06:15.439 --> 00:06:17.125
+two more direct sessions,
+
+00:06:17.125 --> 00:06:18.660
+a paid search click,
+
+00:06:18.660 --> 00:06:20.095
+an organic search click,
+
+00:06:20.095 --> 00:06:28.720
+followed by four more direct sessions to drive conversion value of $600 on the website.
+
+00:06:28.720 --> 00:06:32.180
+So, you can start to analyze and get insights into the way that
+
+00:06:32.180 --> 00:06:36.379
+users really do interact with a variety of media,
+
+00:06:36.379 --> 00:06:41.219
+in a variety of formats before they ever click the buy button.
+

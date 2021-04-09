@@ -1,0 +1,418 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.110
+Let's talk about the model comparison tool in the Google Analytics UI.
+
+00:00:04.110 --> 00:00:06.300
+This is your opportunity to move away from
+
+00:00:06.299 --> 00:00:10.230
+single touch attribution directly within the Google Analytics interface.
+
+00:00:10.230 --> 00:00:13.740
+The model comparison tool offers several built-in models,
+
+00:00:13.740 --> 00:00:15.149
+which are last interaction,
+
+00:00:15.148 --> 00:00:17.984
+first interaction, last non-direct click,
+
+00:00:17.984 --> 00:00:20.250
+which again is the standard GA model.
+
+00:00:20.250 --> 00:00:23.684
+They have a linear model, position-based, time decay,
+
+00:00:23.684 --> 00:00:25.839
+and if you are a GA360 customer,
+
+00:00:25.839 --> 00:00:29.254
+then you could also use their data-driven attribution model.
+
+00:00:29.254 --> 00:00:32.104
+We'll look at all of these in the interface in a moment.
+
+00:00:32.104 --> 00:00:35.929
+Let's think through what each of these models represents.
+
+00:00:35.929 --> 00:00:39.320
+The first three continue to be single touch points.
+
+00:00:39.320 --> 00:00:41.780
+Last interaction is going to give 100 percent of
+
+00:00:41.780 --> 00:00:45.814
+conversion credit to the last interaction including direct traffic.
+
+00:00:45.814 --> 00:00:49.534
+So it's slightly different than the last non-direct click.
+
+00:00:49.534 --> 00:00:52.009
+First interaction is going to give 100 percent
+
+00:00:52.009 --> 00:00:54.649
+of the attribution credit to the first touch point.
+
+00:00:54.649 --> 00:00:59.795
+Then of course, last non-direct click we've gone into in some detail already.
+
+00:00:59.795 --> 00:01:03.609
+The linear model will move you into multi-touch attribution.
+
+00:01:03.609 --> 00:01:07.010
+Linear model will give proportional credit across all
+
+00:01:07.010 --> 00:01:10.460
+of the touchpoints within the look-back window for that user.
+
+00:01:10.459 --> 00:01:13.504
+It will give that credit equally across the touch points
+
+00:01:13.504 --> 00:01:16.774
+with no consideration to position or recency.
+
+00:01:16.775 --> 00:01:19.580
+Position-based model will give a disproportionate amount of
+
+00:01:19.579 --> 00:01:22.429
+credit to both the first and the last interaction,
+
+00:01:22.430 --> 00:01:24.830
+which builds on the assumption that they introducer
+
+00:01:24.829 --> 00:01:27.519
+channels and the closer channels are the most important,
+
+00:01:27.519 --> 00:01:29.750
+and then it's going to give a smaller amount of credit
+
+00:01:29.750 --> 00:01:33.424
+proportionally divided to the intermediate touchpoints.
+
+00:01:33.424 --> 00:01:36.500
+The time decay model is going to give more credit to
+
+00:01:36.500 --> 00:01:38.900
+the most recent touchpoints unless credit going
+
+00:01:38.900 --> 00:01:41.329
+back in time to the more distant touch points,
+
+00:01:41.328 --> 00:01:43.744
+but it is going to give credit to all of them.
+
+00:01:43.745 --> 00:01:46.469
+Time decay uses what's called a half-life,
+
+00:01:46.469 --> 00:01:49.025
+and the default half-life is seven days.
+
+00:01:49.025 --> 00:01:51.620
+As you go back in time, every seven days,
+
+00:01:51.620 --> 00:01:54.710
+the conversion credit diminishes by a factor of two.
+
+00:01:54.709 --> 00:01:58.369
+So let's look at these in the interface briefly just so you can see how to
+
+00:01:58.370 --> 00:02:02.600
+leverage this functionality to start moving away from a single touch universe.
+
+00:02:02.599 --> 00:02:05.194
+Within the model comparison tool now,
+
+00:02:05.194 --> 00:02:08.034
+which is accessible under conversions,
+
+00:02:08.034 --> 00:02:12.500
+then the attribution drop-down model comparison tool.
+
+00:02:12.500 --> 00:02:15.650
+It's going to default to the same settings that we have for
+
+00:02:15.650 --> 00:02:19.340
+the multi-channel funnels reports unless we change them.
+
+00:02:19.340 --> 00:02:25.865
+It's going to also populate the last interaction model as the default.
+
+00:02:25.865 --> 00:02:29.210
+Because the last non-direct click model is most
+
+00:02:29.210 --> 00:02:32.770
+familiar within the Google Analytics context,
+
+00:02:32.770 --> 00:02:36.230
+let's add that as our basis for comparison.
+
+00:02:36.229 --> 00:02:40.399
+Then let's start layering in some different models to see
+
+00:02:40.400 --> 00:02:45.500
+how different ways of approaching attribution impact conversion credit.
+
+00:02:45.500 --> 00:02:50.000
+Let's compare last non-direct click to first interaction because it's
+
+00:02:50.000 --> 00:02:54.680
+quite different while remembering that these are both single touch models.
+
+00:02:54.680 --> 00:03:00.905
+This is going to give 100 percent of credit for a given conversion to one-channel.
+
+00:03:00.905 --> 00:03:04.210
+Let's layer in the position-based Model
+
+00:03:04.210 --> 00:03:09.485
+2 because it moves us directly into multi-touch attribution.
+
+00:03:09.485 --> 00:03:12.830
+You may have noticed that the multi-channel funnels
+
+00:03:12.830 --> 00:03:16.055
+channel grouping is going to be the primary dimension by default.
+
+00:03:16.055 --> 00:03:18.830
+We know that we have customized default channel groupings.
+
+00:03:18.830 --> 00:03:21.680
+So let's use our own settings here because we want to see
+
+00:03:21.680 --> 00:03:26.224
+our channels the way we are used to reporting them.
+
+00:03:26.224 --> 00:03:30.229
+The first thing you'll notice is that each model will have columns.
+
+00:03:30.229 --> 00:03:34.004
+Now, we see last non-direct click attribution,
+
+00:03:34.004 --> 00:03:37.594
+burst interaction attribution, and position-based attribution.
+
+00:03:37.594 --> 00:03:40.009
+I want to see conversions and value.
+
+00:03:40.009 --> 00:03:43.829
+I'm interested in revenue and I'm interested in the transaction being driven,
+
+00:03:43.830 --> 00:03:47.665
+and I want to see how each model is attributing the changes in conversion value.
+
+00:03:47.664 --> 00:03:49.889
+So revenue attribution.
+
+00:03:49.889 --> 00:03:53.989
+Something that I can see here very clearly display
+
+00:03:53.990 --> 00:03:57.710
+gets treated very differently in a first interaction world or in
+
+00:03:57.710 --> 00:04:02.240
+a position-based world compared to the last non-direct click
+
+00:04:02.240 --> 00:04:07.250
+methodology that people have largely been relying on for the last half decade or more.
+
+00:04:07.250 --> 00:04:12.430
+As we start to layer in more sophisticated ways of looking at our multi-touch efforts.
+
+00:04:12.430 --> 00:04:14.640
+From a first interaction perspective,
+
+00:04:14.639 --> 00:04:17.539
+still a single touch perspective we can see that display is
+
+00:04:17.540 --> 00:04:22.100
+a very strong introducer channel in bringing people into the website.
+
+00:04:22.100 --> 00:04:24.060
+Thinking in terms of sales funnels,
+
+00:04:24.060 --> 00:04:27.050
+we can say that display in this scenario is
+
+00:04:27.050 --> 00:04:30.970
+a strong upper funnel or top of funnel channel for this advertiser.
+
+00:04:30.970 --> 00:04:33.590
+It may not be converting after those interactions,
+
+00:04:33.589 --> 00:04:35.989
+but it is nevertheless responsible for a lot of
+
+00:04:35.990 --> 00:04:39.670
+conversion activity and conversion value as a channel.
+
+00:04:39.670 --> 00:04:43.129
+We can see from the last click standpoint display is credited with
+
+00:04:43.129 --> 00:04:46.969
+just under $600 in revenue over a 90 day period.
+
+00:04:46.970 --> 00:04:49.340
+But from a first interaction standpoint,
+
+00:04:49.339 --> 00:04:53.164
+it really drove about $84,000 in revenue.
+
+00:04:53.165 --> 00:04:56.335
+From a position-based perspective,
+
+00:04:56.334 --> 00:04:58.469
+which is a multi-touch perspective,
+
+00:04:58.470 --> 00:05:02.630
+the fractional credit is given based on the attribution criteria.
+
+00:05:02.629 --> 00:05:07.834
+We can see that display is credited with nearly $60,000 in revenue.
+
+00:05:07.834 --> 00:05:13.714
+This data is suggesting that display is a really valuable channel.
+
+00:05:13.714 --> 00:05:17.239
+Another way of looking at it is to say that display is
+
+00:05:17.240 --> 00:05:21.545
+undervalued by a last touch perspective.
+
+00:05:21.545 --> 00:05:25.125
+Now would be a good opportunity to test that.
+
+00:05:25.125 --> 00:05:28.970
+Is there room to invest more in display and particularly in
+
+00:05:28.970 --> 00:05:33.920
+specific traffic sources or campaigns that are most efficient within display,
+
+00:05:33.920 --> 00:05:38.675
+that are bringing in those users and fueling the top of your conversion funnel?
+
+00:05:38.675 --> 00:05:41.990
+You would want to test this and then measure the results.
+
+00:05:41.990 --> 00:05:46.564
+If display is as valuable as this change of perspective is suggesting,
+
+00:05:46.564 --> 00:05:50.240
+then if you allocate additional percentage of budget,
+
+00:05:50.240 --> 00:05:53.675
+you should see downstream results.
+
+00:05:53.675 --> 00:05:58.850
+I just want to point out that a simple shift of perspective from last non-direct click to
+
+00:05:58.850 --> 00:06:02.000
+a multi-touch world does have significant impact on
+
+00:06:02.000 --> 00:06:05.420
+how given channels or campaigns will receive conversion credit.
+
+00:06:05.420 --> 00:06:07.379
+This may take some time and effort,
+
+00:06:07.379 --> 00:06:12.560
+but if the insights you draw from a multi-touch attribution perspective are tested,
+
+00:06:12.560 --> 00:06:18.139
+you should hypothesize seeing an increase in assisted conversions from display and
+
+00:06:18.139 --> 00:06:24.029
+a corresponding lift in last click conversions for the channels that display supports.
+
+00:06:24.029 --> 00:06:27.349
+When you make the decision to change your marketing budget to invest
+
+00:06:27.350 --> 00:06:31.520
+more in an undervalued channel.
+
+00:06:31.519 --> 00:06:33.709
+It's really up to you and your team to
+
+00:06:33.709 --> 00:06:36.875
+validate the story that these models are telling you.
+
+00:06:36.875 --> 00:06:42.589
+This is a good opportunity to discuss that these models can also be customized.
+
+00:06:42.589 --> 00:06:46.414
+Let's take a look at making customizations.
+
+00:06:46.415 --> 00:06:50.030
+We have position-based in place now,
+
+00:06:50.029 --> 00:06:53.414
+and we can just click on the down arrow,
+
+00:06:53.415 --> 00:06:57.850
+and we can make a copy of that model.
+
+00:06:57.850 --> 00:07:04.820
+So the standard model becomes the basis for customization.
+
+00:07:04.819 --> 00:07:07.540
+The standard position based model is going to get
+
+00:07:07.540 --> 00:07:10.825
+40 percent of credit to the first interaction,
+
+00:07:10.824 --> 00:07:13.254
+40 percent credit to the last interaction,
+
+00:07:13.254 --> 00:07:19.360
+and then 20 percent is going to be divided equally over intermediate interactions.
+
+00:07:19.360 --> 00:07:22.600
+Look-back window, impression, and engagement
+
+00:07:22.600 --> 00:07:26.320
+settings are not going to be used by default,
+
+00:07:26.319 --> 00:07:29.860
+but here's where customization comes into the mix.
+
+00:07:29.860 --> 00:07:37.580
+Here we can adjust the look-back window to 90 days to account for that long time lag.
+
+00:07:37.579 --> 00:07:40.370
+Here, we can adjust the credit for
+
+00:07:40.370 --> 00:07:47.209
+impressions based on what we know about the overall value of an impression.
+
+00:07:47.209 --> 00:07:53.149
+We can also adjust the credit given to a touch point based on the engagement of
+
+00:07:53.149 --> 00:07:59.614
+that user in the particular session based on time on site or page depth.
+
+00:07:59.615 --> 00:08:04.954
+User engagement then becomes a criteria for distributing attribution credit.
+
+00:08:04.954 --> 00:08:09.529
+We can also apply some custom rules to our model here based on
+
+00:08:09.529 --> 00:08:15.089
+position in the conversion path or a variety of factors.
+
+00:08:15.089 --> 00:08:21.125
+So if we start with one of these multi-touch models and we begin testing and validating,
+
+00:08:21.125 --> 00:08:27.514
+we can also start tweaking to see the impacts and try to refine these models to more
+
+00:08:27.514 --> 00:08:29.870
+accurately reflect the impact on
+
+00:08:29.870 --> 00:08:34.054
+our actual business and what we already know about our business,
+
+00:08:34.054 --> 00:08:37.429
+and our users and our marketing.
+

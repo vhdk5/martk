@@ -1,0 +1,229 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.620
+We're back in the Landing Pages Streamlined - Mobile Only custom report,
+
+00:00:04.620 --> 00:00:09.359
+and you may notice a yellow shield appearing at the top of the report.
+
+00:00:09.359 --> 00:00:11.399
+If we hover over the yellow shield,
+
+00:00:11.400 --> 00:00:17.204
+we see the message that this report is based on 43.79 percent of sessions.
+
+00:00:17.204 --> 00:00:20.004
+This means that sampling has kicked in.
+
+00:00:20.004 --> 00:00:24.589
+There are two factors that together cause sampling in Google Analytics.
+
+00:00:24.589 --> 00:00:30.454
+One is that the time period you've selected has to include more than 500,000 sessions.
+
+00:00:30.454 --> 00:00:32.464
+In the paid version of GA,
+
+00:00:32.465 --> 00:00:35.150
+the threshold for sampling is much higher,
+
+00:00:35.149 --> 00:00:41.674
+100 million sessions, and you can export unsampled data if sampling does occur in the UI.
+
+00:00:41.674 --> 00:00:43.564
+But in the free version of GA,
+
+00:00:43.564 --> 00:00:47.119
+sampling can kick in with 500,000 sessions or more.
+
+00:00:47.119 --> 00:00:51.019
+The other factor that causes sampling is when you use a feature
+
+00:00:51.020 --> 00:00:55.160
+that requires Google Analytics to do on-the-fly calculation.
+
+00:00:55.159 --> 00:00:57.964
+This could be secondary dimensions,
+
+00:00:57.965 --> 00:01:02.030
+or segments, or some custom reports.
+
+00:01:02.030 --> 00:01:04.730
+If we navigate for instance to
+
+00:01:04.730 --> 00:01:09.995
+the Mobile Overview report and we add our Australia and New Zealand segment,
+
+00:01:09.995 --> 00:01:15.280
+we can see that the same sampling rate has kicked in 43.79 percent.
+
+00:01:15.280 --> 00:01:17.588
+If we go to Mobile Devices,
+
+00:01:17.588 --> 00:01:19.879
+we still see the same level of sampling.
+
+00:01:19.879 --> 00:01:21.739
+How does sampling work in this report?
+
+00:01:21.739 --> 00:01:24.559
+For right now, let's remove the all user segment.
+
+00:01:24.560 --> 00:01:27.400
+Let's consider the Google Pixel 2 XL,
+
+00:01:27.400 --> 00:01:30.500
+and have sampling might affect how it's reported.
+
+00:01:30.500 --> 00:01:35.644
+If we apply the Australia and New Zealand segment to our Mobile Devices report,
+
+00:01:35.644 --> 00:01:38.569
+this report may not show an accurate number of
+
+00:01:38.569 --> 00:01:42.409
+pixel 2 XL sessions from Australia and New Zealand.
+
+00:01:42.409 --> 00:01:44.295
+Let's say that in reality,
+
+00:01:44.295 --> 00:01:48.094
+there were 10,000 of these sessions in the time period selected.
+
+00:01:48.094 --> 00:01:52.158
+The challenge is that Google Analytics hasn't already calculated
+
+00:01:52.159 --> 00:01:56.600
+metrics for every combination of mobile device and country.
+
+00:01:56.599 --> 00:01:59.119
+By applying a segment to the report,
+
+00:01:59.120 --> 00:02:01.775
+you're forcing on-the-fly calculation.
+
+00:02:01.775 --> 00:02:06.665
+So again, when that 500,000 session threshold is exceeded,
+
+00:02:06.665 --> 00:02:09.205
+and you add a segment to a report,
+
+00:02:09.205 --> 00:02:14.300
+GA applies that segment only to a portion of the underlying view data,
+
+00:02:14.300 --> 00:02:20.300
+and then it multiplies the resulting metrics back out to the 100 percent proportion.
+
+00:02:20.300 --> 00:02:27.380
+In this way, GA can save processing time and deliver the result in report more quickly.
+
+00:02:27.379 --> 00:02:33.574
+I don't want to suggest that the sampling would always affect accuracy to this extent.
+
+00:02:33.574 --> 00:02:37.849
+But let's further consider when sampling could have the greatest impact.
+
+00:02:37.849 --> 00:02:40.055
+When we're discussing sampling,
+
+00:02:40.055 --> 00:02:43.775
+we need to consider the concept of cardinality.
+
+00:02:43.775 --> 00:02:48.980
+Cardinality means the number of individual values for a single dimension,
+
+00:02:48.979 --> 00:02:52.594
+which manifests as the number of rows in a report.
+
+00:02:52.594 --> 00:02:57.455
+We want to be cautious of sampling in high cardinality reports.
+
+00:02:57.455 --> 00:03:02.960
+That means when we're in a reports such as mobile devices and sampling has been applied,
+
+00:03:02.960 --> 00:03:09.094
+because there are 242 rows in this report relatively high cardinality,
+
+00:03:09.094 --> 00:03:11.854
+sampling is more likely to skew the data.
+
+00:03:11.854 --> 00:03:16.039
+Now the sample size we're dealing with is 43.79 percent,
+
+00:03:16.039 --> 00:03:17.900
+so almost half of the data.
+
+00:03:17.900 --> 00:03:21.280
+So, the skewing probably still isn't too bad.
+
+00:03:21.280 --> 00:03:23.930
+Where you want to be really careful is where you have
+
+00:03:23.930 --> 00:03:26.900
+high cardinality and a very low sample rate,
+
+00:03:26.900 --> 00:03:29.284
+then your data is likely to be very skewed.
+
+00:03:29.284 --> 00:03:31.224
+Back in this report,
+
+00:03:31.224 --> 00:03:33.710
+we see that there are only three rows,
+
+00:03:33.710 --> 00:03:36.409
+this is a very low cardinality report.
+
+00:03:36.409 --> 00:03:41.750
+With a low cardinality report and a relatively high sampling rate 44 percent.
+
+00:03:41.750 --> 00:03:45.534
+In this case, we don't have to worry too much about sampling.
+
+00:03:45.534 --> 00:03:48.560
+The breakdown of desktop mobile and tablet
+
+00:03:48.560 --> 00:03:52.354
+for Australia and New Zealand is still probably fairly accurate,
+
+00:03:52.354 --> 00:03:57.799
+again, because the sample rate is relatively high and the cardinality is very low.
+
+00:03:57.800 --> 00:04:00.960
+If we want to unsampled sampled data,
+
+00:04:00.960 --> 00:04:05.120
+a couple of options could be to export shorter time periods.
+
+00:04:05.120 --> 00:04:10.855
+If the multiple time periods you select contain fewer than 500,000 sessions,
+
+00:04:10.854 --> 00:04:16.029
+you could export reports from GA and reassemble them in another environment,
+
+00:04:16.029 --> 00:04:20.409
+thereby reproducing unsampled data for a longer time period.
+
+00:04:20.410 --> 00:04:24.215
+We will be talking more about exporting in the next lesson.
+
+00:04:24.214 --> 00:04:27.560
+You can also use a specialized tool to retrieve
+
+00:04:27.560 --> 00:04:31.879
+unsampled data that would otherwise be sampled in the GA UI.
+
+00:04:31.879 --> 00:04:35.449
+Analytics Canvas is a third party tool that
+
+00:04:35.449 --> 00:04:38.979
+in particular meets this need very effectively.
+
+00:04:38.980 --> 00:04:43.370
+Most importantly, stay aware of sampling when you're using
+
+00:04:43.370 --> 00:04:49.500
+custom reports and applying secondary dimensions or segments to your report.
+

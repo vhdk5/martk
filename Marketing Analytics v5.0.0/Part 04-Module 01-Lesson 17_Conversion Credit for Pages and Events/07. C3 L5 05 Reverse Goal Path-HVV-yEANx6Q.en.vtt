@@ -1,0 +1,52 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.325
+Funnel Visualization and Goal Flow reports can be very useful but of course,
+
+00:00:05.325 --> 00:00:10.065
+we need to configure the funnels to begin with in order to report on them.
+
+00:00:10.064 --> 00:00:13.125
+For instance, if we look at row eight of this report
+
+00:00:13.125 --> 00:00:17.115
+reading basically from right to left in the report,
+
+00:00:17.114 --> 00:00:20.219
+we see that in 290 instances,
+
+00:00:20.219 --> 00:00:25.439
+the three steps leading to the goal destination were registersuccess.html,
+
+00:00:25.440 --> 00:00:29.580
+followed by store.html, followed by basket.html.
+
+00:00:29.579 --> 00:00:36.935
+The thing is, the 290 completions does not reflect abandonment.
+
+00:00:36.935 --> 00:00:41.195
+We could have had great abandonment between step three and step two,
+
+00:00:41.195 --> 00:00:43.579
+or step two and step one,
+
+00:00:43.579 --> 00:00:47.195
+or step one and the goal completion location.
+
+00:00:47.195 --> 00:00:52.250
+We can't know that unless we either do a manual analysis in
+
+00:00:52.250 --> 00:00:55.219
+the pages report which we certainly could do
+
+00:00:55.219 --> 00:00:58.954
+but it could also make sense to go ahead and set up a funnel.
+
+00:00:58.954 --> 00:01:03.799
+So as you're considering funnel configuration for goals that you have already set up,
+
+00:01:03.799 --> 00:01:09.179
+review the reverse goal path report for additional ideas for funnel configuration.
+

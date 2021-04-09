@@ -1,0 +1,421 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.469
+The rightmost column in the all pages report is
+
+00:00:04.469 --> 00:00:10.529
+the often overlooked but potentially very useful metric page value.
+
+00:00:10.529 --> 00:00:17.460
+The page value metric is designed to indicate the amount of support that pages are
+
+00:00:17.460 --> 00:00:19.995
+providing to goal and
+
+00:00:19.995 --> 00:00:25.365
+e-commerce conversions that occur after the page view has occurred in the session.
+
+00:00:25.364 --> 00:00:30.890
+To illustrate page value let's look at lifecoach.com The data that we'll
+
+00:00:30.890 --> 00:00:36.770
+see is for demo purposes only it's not real GA data from lifecoach.com.
+
+00:00:36.770 --> 00:00:39.200
+But the reason that we're referring to
+
+00:00:39.200 --> 00:00:43.969
+lifecoach.com for the page value discussion is that
+
+00:00:43.969 --> 00:00:46.579
+there are at least two conversions on
+
+00:00:46.579 --> 00:00:51.394
+lifecoach.com sign up today to sign up for a newsletter.
+
+00:00:51.395 --> 00:00:58.205
+One example of coaching that we can purchase would be one-on-one coaching book here.
+
+00:00:58.204 --> 00:01:03.439
+But you'll notice as with most other website experiences there are
+
+00:01:03.439 --> 00:01:10.204
+many other pages that don't necessarily lead directly to conversion.
+
+00:01:10.204 --> 00:01:13.834
+There's the blob. There are quizzes and tests.
+
+00:01:13.834 --> 00:01:16.324
+There are many About pages.
+
+00:01:16.325 --> 00:01:23.120
+These pages are not necessarily directly part of a conversion funnel but they are
+
+00:01:23.120 --> 00:01:26.495
+designed to support conversion If only
+
+00:01:26.495 --> 00:01:31.835
+indirectly and that's exactly what page value is designed to surface.
+
+00:01:31.834 --> 00:01:35.959
+The support that pages that are not directly
+
+00:01:35.959 --> 00:01:39.934
+in the conversion funnel are still providing two conversions.
+
+00:01:39.935 --> 00:01:46.700
+If a user accesses the what is a life coach page you want to know if this page is making
+
+00:01:46.700 --> 00:01:49.609
+the user more likely to convert in order for
+
+00:01:49.609 --> 00:01:53.569
+Google Analytics to be able to calculate page value,
+
+00:01:53.569 --> 00:01:58.069
+there has to be at least one goal with goal value configured,
+
+00:01:58.069 --> 00:02:03.784
+or e-commerce revenue or both to configure value for a goal.
+
+00:02:03.784 --> 00:02:07.609
+We can switch value on in the goal configuration.
+
+00:02:07.609 --> 00:02:12.289
+For now we're going to add an arbitrary value of one US dollar.
+
+00:02:12.289 --> 00:02:14.299
+So, let's say that we had
+
+00:02:14.300 --> 00:02:19.580
+a one dollar goal value for the newsletter sign-up goal on lifecoach.com.
+
+00:02:19.580 --> 00:02:23.000
+Let's take a look at five sample sessions.
+
+00:02:23.000 --> 00:02:25.925
+Three of the sessions had a goal conversion.
+
+00:02:25.925 --> 00:02:28.820
+Now, how would Google Analytics calculate
+
+00:02:28.819 --> 00:02:32.509
+page value relative to this one dollar goal conversion?
+
+00:02:32.509 --> 00:02:36.364
+Here are five pages that we hope are supporting conversion.
+
+00:02:36.365 --> 00:02:39.594
+We see that in the case of the press room page.
+
+00:02:39.594 --> 00:02:41.870
+There were three sessions in which the page
+
+00:02:41.870 --> 00:02:44.509
+was viewed at least once before the conversion,
+
+00:02:44.509 --> 00:02:47.120
+and five sessions total in which the page
+
+00:02:47.120 --> 00:02:50.375
+was viewed with or without a conversion following.
+
+00:02:50.375 --> 00:02:52.365
+If we go down the list,
+
+00:02:52.365 --> 00:02:56.515
+we see the goal value and the number of sessions for each of the pages.
+
+00:02:56.514 --> 00:03:00.054
+Then we could do the calculation of page value.
+
+00:03:00.055 --> 00:03:05.015
+Of course, Google Analytics would do this for us behind the scenes.
+
+00:03:05.014 --> 00:03:07.769
+Sixty cents, seventy five cents,
+
+00:03:07.770 --> 00:03:11.745
+fifty cents, zero, and thirty three cents.
+
+00:03:11.745 --> 00:03:16.990
+So, we see that the success stories pages has the highest page value.
+
+00:03:16.990 --> 00:03:20.995
+This means that the success stories page is helping us.
+
+00:03:20.995 --> 00:03:23.349
+If a page is viewed and a conversion is
+
+00:03:23.349 --> 00:03:26.259
+occurring frequently afterwards in the same session,
+
+00:03:26.259 --> 00:03:28.524
+that page is helping us.
+
+00:03:28.525 --> 00:03:30.314
+If on the other hand,
+
+00:03:30.314 --> 00:03:33.109
+a page is viewed over and over and over again,
+
+00:03:33.110 --> 00:03:36.260
+and a conversion is never happening in the same session,
+
+00:03:36.259 --> 00:03:39.215
+that page is probably not helping us.
+
+00:03:39.215 --> 00:03:42.050
+That's why the page value metric is so helpful in
+
+00:03:42.050 --> 00:03:45.155
+identifying pages that are helping convergence.
+
+00:03:45.155 --> 00:03:49.009
+As a note, the page value metric is not really designed to
+
+00:03:49.009 --> 00:03:53.524
+evaluate pages that you already know are part of the conversion funnel.
+
+00:03:53.525 --> 00:03:56.270
+Page value is intended more to identify
+
+00:03:56.270 --> 00:03:59.750
+those pages that are not directly in a conversion funnel,
+
+00:03:59.750 --> 00:04:02.930
+but still exist to support conversions.
+
+00:04:02.930 --> 00:04:06.860
+The paid value metric in relation to e-commerce revenue,
+
+00:04:06.860 --> 00:04:09.860
+works largely the same way as for goal value.
+
+00:04:09.860 --> 00:04:15.605
+The difference is page value for e-commerce is based on actual e-commerce revenue.
+
+00:04:15.604 --> 00:04:20.480
+So, when we're calculating page value based on e-commerce revenue,
+
+00:04:20.480 --> 00:04:23.180
+we're seeing the actual average revenue that
+
+00:04:23.180 --> 00:04:26.465
+is accrued after a page is viewed in a session.
+
+00:04:26.464 --> 00:04:31.449
+Here we see the page that is contributing most to revenue per session.
+
+00:04:31.449 --> 00:04:33.579
+Going back to goal value,
+
+00:04:33.579 --> 00:04:38.269
+it can sometimes be hard to decide how to specify the value of a goal.
+
+00:04:38.269 --> 00:04:40.969
+Let's consider a few different approaches.
+
+00:04:40.970 --> 00:04:45.500
+If we have one goal on our site and that goal is to sell a t-shirt,
+
+00:04:45.500 --> 00:04:48.319
+and each t-shirt costs $15.
+
+00:04:48.319 --> 00:04:52.745
+We can use the actual purchase price as the goal value.
+
+00:04:52.745 --> 00:04:55.314
+That's a straightforward scenario.
+
+00:04:55.314 --> 00:04:57.339
+If we have a lead submission,
+
+00:04:57.339 --> 00:05:01.644
+and each closed lead is worth about $2,000 to us,
+
+00:05:01.644 --> 00:05:05.454
+and we know that we close 10 percent of the leads that are submitted,
+
+00:05:05.454 --> 00:05:09.634
+we could estimate the goal value to be $200.
+
+00:05:09.634 --> 00:05:12.314
+We could also use relative value.
+
+00:05:12.314 --> 00:05:17.339
+Meaning that if we have a contact us submission, and newsletter sign-up,
+
+00:05:17.339 --> 00:05:19.729
+and we feel that the contact us submission is
+
+00:05:19.730 --> 00:05:22.595
+five times as important as the newsletter sign-up,
+
+00:05:22.595 --> 00:05:25.530
+we could assign a goal value of five dollars to
+
+00:05:25.529 --> 00:05:29.384
+contact us and one dollar to the newsletter sign-up.
+
+00:05:29.384 --> 00:05:32.569
+Coming up, we'll also see how we could evaluate
+
+00:05:32.569 --> 00:05:36.064
+page value for each of these goals independently.
+
+00:05:36.064 --> 00:05:39.589
+For goals that are hard to put a monetary value on,
+
+00:05:39.589 --> 00:05:45.500
+it's still perfectly valid to assign an arbitrary value of one dollar or $100,
+
+00:05:45.500 --> 00:05:48.475
+or of course any currency that you are using.
+
+00:05:48.475 --> 00:05:51.290
+Because even an arbitrary value for a goal,
+
+00:05:51.290 --> 00:05:55.535
+will allow Google Analytics to calculate the page value metric.
+
+00:05:55.535 --> 00:05:59.450
+We do want to keep in mind that page value is based on
+
+00:05:59.449 --> 00:06:04.089
+all e-commerce revenue and goal value that is recorded in the view.
+
+00:06:04.089 --> 00:06:07.549
+This of course is not ideal if you want to
+
+00:06:07.550 --> 00:06:12.035
+evaluate a page value for just one type of conversion.
+
+00:06:12.035 --> 00:06:18.640
+So, how could we evaluate page value for just e-commerce or a specific goal?
+
+00:06:18.639 --> 00:06:21.250
+As one potential approach,
+
+00:06:21.250 --> 00:06:24.139
+you could decide to just record revenue or
+
+00:06:24.139 --> 00:06:28.024
+goal value for your most important conversion point.
+
+00:06:28.024 --> 00:06:30.024
+If you have e-commerce,
+
+00:06:30.024 --> 00:06:33.634
+you might decide not to configure goal value let's say for
+
+00:06:33.634 --> 00:06:36.110
+a newsletter sign-up and instead use
+
+00:06:36.110 --> 00:06:40.400
+page value only in relation to the e-commerce transactions.
+
+00:06:40.399 --> 00:06:42.019
+But then of course,
+
+00:06:42.019 --> 00:06:47.149
+you would not be able to use page value relative to that other newsletter sign-up goal.
+
+00:06:47.149 --> 00:06:52.399
+As another approach, you could create separate views per conversion type.
+
+00:06:52.399 --> 00:06:54.754
+This would be very clean.
+
+00:06:54.754 --> 00:06:57.829
+You would just need to refer to the multiple views to
+
+00:06:57.829 --> 00:07:01.399
+see the page value for different conversion types.
+
+00:07:01.399 --> 00:07:05.149
+A more dynamic approach would be to create segments
+
+00:07:05.149 --> 00:07:08.974
+that excludes sessions with the other conversion types.
+
+00:07:08.975 --> 00:07:16.040
+For instance, here I've created a segment that excludes sessions in which there were
+
+00:07:16.040 --> 00:07:23.615
+transactions and also exclude sessions in which goal one and goal three were completed.
+
+00:07:23.615 --> 00:07:27.350
+This means that we can evaluate page value just
+
+00:07:27.350 --> 00:07:31.760
+four sessions in which goal two potentially took place.
+
+00:07:31.759 --> 00:07:35.944
+A downside to this approach is that we would be excluding
+
+00:07:35.944 --> 00:07:41.719
+goal two in sessions where it also occurred with one of the other conversion types.
+
+00:07:41.720 --> 00:07:45.290
+But overall, this approach will allow us to use
+
+00:07:45.290 --> 00:07:49.189
+page value in relation to goal two value and of
+
+00:07:49.189 --> 00:07:52.790
+course we would only have to exclude the other goals if
+
+00:07:52.790 --> 00:07:56.600
+there was a goal value associated with the goals to begin with.
+
+00:07:56.600 --> 00:07:59.705
+Now, with the segment applied to the pages report,
+
+00:07:59.704 --> 00:08:05.050
+we're able to see page value relative to goal two only.
+
+00:08:05.829 --> 00:08:12.139
+We also want to remember that page value has session scope not users scope,
+
+00:08:12.139 --> 00:08:14.259
+this is a limitation.
+
+00:08:14.259 --> 00:08:18.539
+This means that if I'm on lifecoach.com and I go to
+
+00:08:18.540 --> 00:08:23.924
+the free quizzes page today and they sign up for coaching tomorrow,
+
+00:08:23.923 --> 00:08:26.419
+the free quizzes page would not earn
+
+00:08:26.420 --> 00:08:30.680
+any page value for the conversion that took place the next day.
+
+00:08:30.680 --> 00:08:35.360
+So, we don't want to rule out a page that has a lower page value,
+
+00:08:35.360 --> 00:08:38.164
+especially for a more complex conversion.
+
+00:08:38.164 --> 00:08:42.559
+We'll want to use user scope sequence segments which we'll talk about coming
+
+00:08:42.559 --> 00:08:47.779
+up to fully determine if a page is helping conversions in a later session.
+
+00:08:47.779 --> 00:08:51.799
+So, certainly a higher page value is
+
+00:08:51.799 --> 00:08:55.659
+an indicator that a page is helping conversions in the same session.
+
+00:08:55.659 --> 00:08:58.504
+But a page with a lower page value
+
+00:08:58.504 --> 00:09:02.120
+may still be helping conversions in a following session.
+

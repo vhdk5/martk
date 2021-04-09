@@ -1,0 +1,178 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.134
+So far in this lesson,
+
+00:00:02.134 --> 00:00:06.099
+we've explored how to determine if pages are helping conversions.
+
+00:00:06.099 --> 00:00:11.349
+But how do we know if other behaviors tracked as events are helping conversions?
+
+00:00:11.349 --> 00:00:14.695
+Unfortunately, it's a little bit more difficult.
+
+00:00:14.695 --> 00:00:20.109
+For one thing, there's no equivalent of the page value metric for events,
+
+00:00:20.109 --> 00:00:24.625
+and we can't use events as funnel steps in goal funnels.
+
+00:00:24.625 --> 00:00:28.074
+To determine if events are assisting conversions,
+
+00:00:28.074 --> 00:00:32.905
+we're going to take advantage of segments including sequence segments.
+
+00:00:32.905 --> 00:00:39.085
+Sequence segments can be based on either page views or events or both.
+
+00:00:39.085 --> 00:00:45.929
+Importantly, you can configure sequence segments at either session-scope or users-scope.
+
+00:00:45.929 --> 00:00:51.005
+So, we can see the effect of an event on conversions in a later session.
+
+00:00:51.005 --> 00:00:54.410
+Also, unlike goals and goal funnels and
+
+00:00:54.409 --> 00:00:59.464
+page value sequence segments and all segments are retroactive.
+
+00:00:59.465 --> 00:01:04.040
+A drawback of course is that we would need to create a separate segment
+
+00:01:04.040 --> 00:01:08.825
+for each event we're trying to analyze in terms of how it's helping conversions.
+
+00:01:08.825 --> 00:01:13.594
+If we go back to the events examples that we saw in an earlier course,
+
+00:01:13.594 --> 00:01:18.364
+one of the interactions that we would want to track as an event is Live Chat.
+
+00:01:18.364 --> 00:01:22.524
+We would want to know not only how often Live Chat is occurring,
+
+00:01:22.525 --> 00:01:25.440
+but is Live Chat helping conversions?
+
+00:01:25.439 --> 00:01:29.914
+Now, of course assuming that you have captured Live Chat as an event,
+
+00:01:29.915 --> 00:01:31.609
+the process for determining
+
+00:01:31.609 --> 00:01:36.174
+if Live Chat is helping conversions would consist of three steps.
+
+00:01:36.174 --> 00:01:39.274
+As the first step, we would want to create
+
+00:01:39.275 --> 00:01:43.010
+a simple behavioral segment based on the Live Chat event,
+
+00:01:43.010 --> 00:01:46.234
+then we would want to create a sequence segment
+
+00:01:46.234 --> 00:01:49.944
+based on the Live Chat event leading up to the conversion.
+
+00:01:49.944 --> 00:01:53.059
+Then we would want to apply both of the segments to
+
+00:01:53.060 --> 00:01:56.870
+the goal overview or e-commerce overview report.
+
+00:01:56.870 --> 00:02:01.844
+We would want to view a segmented report that looked something like this.
+
+00:02:01.844 --> 00:02:05.150
+Let's see how we would define the segments to apply to
+
+00:02:05.150 --> 00:02:09.575
+this report and then we'll come back and look at some of the metrics more closely.
+
+00:02:09.574 --> 00:02:14.599
+To create a basic segment for all users who initiated
+
+00:02:14.599 --> 00:02:16.879
+a Live Chat event we could just create
+
+00:02:16.879 --> 00:02:21.319
+a basic segment based on event category and event action.
+
+00:02:21.319 --> 00:02:25.280
+Notice that we changed the scope from sessions to users.
+
+00:02:25.280 --> 00:02:29.765
+Of course, the benefit here is that we're going to be able to see the impact
+
+00:02:29.764 --> 00:02:34.399
+of an event in one session and conversions in potentially a later session.
+
+00:02:34.400 --> 00:02:39.185
+Another type of segment that we'll want to define will be the sequence segment,
+
+00:02:39.185 --> 00:02:44.104
+where we're not only saying that we want to see users who started a Live Chat,
+
+00:02:44.104 --> 00:02:47.939
+but also those users who generated a transaction.
+
+00:02:47.939 --> 00:02:53.854
+This sequence segment looks like the sequence segments that we saw in a previous lesson.
+
+00:02:53.854 --> 00:02:59.769
+Again, it's helping us to evaluate if an event is leading to conversions.
+
+00:02:59.770 --> 00:03:02.689
+As we saw previously we could also create
+
+00:03:02.689 --> 00:03:07.204
+a sequence segment based on page views leading to conversions as well.
+
+00:03:07.205 --> 00:03:11.975
+With these two segments applied to the e-commerce overview report,
+
+00:03:11.974 --> 00:03:14.090
+we see to begin with,
+
+00:03:14.090 --> 00:03:19.250
+that the conversion rate is much higher for users who initiated a Live Chat,
+
+00:03:19.250 --> 00:03:22.460
+this is good, but we need to validate
+
+00:03:22.460 --> 00:03:26.465
+if the Live Chat was occurring before the transactions.
+
+00:03:26.465 --> 00:03:29.564
+The sequence segment answers this question.
+
+00:03:29.564 --> 00:03:36.215
+We could see that of the revenue in Live Chat sessions most of that revenue
+
+00:03:36.215 --> 00:03:39.620
+came when Live Chat occurred before
+
+00:03:39.620 --> 00:03:43.730
+the e-commerce transaction and same thing for transaction count.
+
+00:03:43.729 --> 00:03:49.129
+So, while it is a little bit harder NGA to determine to
+
+00:03:49.129 --> 00:03:54.859
+support that events are providing to e-commerce transactions or to goal completions,
+
+00:03:54.860 --> 00:03:58.010
+segments and specifically sequence segments,
+
+00:03:58.009 --> 00:04:01.204
+help our analysis and they also provide
+
+00:04:01.205 --> 00:04:06.320
+a multi-session perspective that we can't get within the funnel reports.
+

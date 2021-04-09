@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.810
+Shopping and checkout behavior funnels allow you to identify drop-off points in
+
+00:00:03.810 --> 00:00:07.935
+the overall shopping process and also within specific checkout steps.
+
+00:00:07.934 --> 00:00:11.609
+These funnels also allow you to create segments and to remarket to
+
+00:00:11.609 --> 00:00:15.599
+users based on where they progress through the shopping flow or fall out.
+
+00:00:15.599 --> 00:00:19.739
+Let's use shopping behavior funnel as an example to look at how easily you can
+
+00:00:19.739 --> 00:00:24.359
+create a segment that you can then also use to create a remarketing audience.
+
+00:00:24.359 --> 00:00:28.259
+Here we are in the Shopping Behavior Analysis report in the e-commerce section of
+
+00:00:28.260 --> 00:00:33.045
+GA. You can see there are some really powerful funnel steps that are visualized here.
+
+00:00:33.045 --> 00:00:35.370
+For example, cart abandonment.
+
+00:00:35.369 --> 00:00:41.304
+These are people who added items to their cart but never made it to the checkout process.
+
+00:00:41.304 --> 00:00:47.969
+We can simply click here on cart abandonment and create a new segment.
+
+00:00:47.969 --> 00:00:50.390
+Once we do that, we can apply that segment to
+
+00:00:50.390 --> 00:00:53.840
+our other reporting in GA. Like other segments,
+
+00:00:53.840 --> 00:00:55.990
+it will persist until removed,
+
+00:00:55.990 --> 00:01:03.050
+as in this audience overview report now with cart abandoner segment applied.
+
+00:01:03.049 --> 00:01:06.409
+Once you have a segment applied to a report in Google Analytics,
+
+00:01:06.409 --> 00:01:11.854
+it's a simple matter to click the down arrow and build an audience of that segment.
+
+00:01:11.855 --> 00:01:15.799
+As long as you have linked products such as
+
+00:01:15.799 --> 00:01:20.479
+Google ads or displayed video 360 formerly double-click bid manager,
+
+00:01:20.480 --> 00:01:23.709
+where you can share retargeting audiences,
+
+00:01:23.709 --> 00:01:25.900
+it really is simple.
+
+00:01:25.900 --> 00:01:29.750
+If you want to dynamically remarket your users with
+
+00:01:29.750 --> 00:01:34.549
+product-specific ads based on the items they viewed and/or abandon in their cards,
+
+00:01:34.549 --> 00:01:39.689
+be sure to reference Eric's lesson on dynamic remarketing in course two.
+
+00:01:39.689 --> 00:01:42.319
+When I click, it's going to bring me to the audience builder,
+
+00:01:42.319 --> 00:01:46.234
+and it's going to populate the segment data into the audience tool.
+
+00:01:46.234 --> 00:01:48.819
+I can configure the membership duration,
+
+00:01:48.819 --> 00:01:51.364
+which I want to set at about two weeks.
+
+00:01:51.364 --> 00:01:54.024
+So, I'll add 14 days here.
+
+00:01:54.025 --> 00:01:56.210
+I need to give the audience a name.
+
+00:01:56.209 --> 00:01:58.414
+We'll call cart abandoners.
+
+00:01:58.415 --> 00:02:00.530
+We'll hit Next step,
+
+00:02:00.530 --> 00:02:03.109
+and then I have to select the destination.
+
+00:02:03.109 --> 00:02:06.563
+I'm going to share it with an AdWords account
+
+00:02:06.563 --> 00:02:11.504
+for using Google Display Network retargeting,
+
+00:02:11.504 --> 00:02:19.759
+and then I can publish this audience and use it for remarketing. Powerful stuff.
+

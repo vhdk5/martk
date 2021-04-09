@@ -1,0 +1,244 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.400
+Custom reports are very useful and very straightforward once you know how to use them,
+
+00:00:05.400 --> 00:00:07.380
+but they are underutilized.
+
+00:00:07.379 --> 00:00:10.769
+Custom reports allow you to combine dimensions and
+
+00:00:10.769 --> 00:00:15.524
+metrics in ways that don't always appear in the built-in reports.
+
+00:00:15.525 --> 00:00:20.760
+Very importantly, custom reports allow you to streamline your reporting.
+
+00:00:20.760 --> 00:00:24.705
+Often they're more useful for what they don't show.
+
+00:00:24.704 --> 00:00:29.579
+Let's say you're managing the Google merchandise store or another retail property,
+
+00:00:29.579 --> 00:00:31.875
+and your sales manager asks you,
+
+00:00:31.875 --> 00:00:34.274
+"How are sales doing by country?"
+
+00:00:34.274 --> 00:00:36.704
+Your first reaction might be,
+
+00:00:36.704 --> 00:00:39.234
+"I know which report I could show my manager."
+
+00:00:39.234 --> 00:00:42.649
+I can go to geo-location and here are
+
+00:00:42.649 --> 00:00:46.489
+the countries that appear as the primary dimension by default.
+
+00:00:46.490 --> 00:00:47.795
+If we scroll over,
+
+00:00:47.795 --> 00:00:50.344
+we can see several e-commerce metrics.
+
+00:00:50.344 --> 00:00:54.144
+But you actually have not done as good a job as you could do.
+
+00:00:54.145 --> 00:00:57.260
+So, what you can do instead is go to
+
+00:00:57.259 --> 00:01:01.879
+"Customisation," "Custom reports," click "New Custom Report."
+
+00:01:01.880 --> 00:01:06.094
+Now, when you first open the Create Custom Report panel,
+
+00:01:06.094 --> 00:01:07.974
+it can look a little bit busy.
+
+00:01:07.974 --> 00:01:11.000
+An important thing to remember is that you can define
+
+00:01:11.000 --> 00:01:15.519
+a custom report with just one dimension and one metric,
+
+00:01:15.519 --> 00:01:18.804
+and that's what we're going to focus on in the custom report.
+
+00:01:18.805 --> 00:01:20.585
+We'll start with our dimension.
+
+00:01:20.584 --> 00:01:22.944
+We're talking about countries.
+
+00:01:22.944 --> 00:01:27.044
+So, we'll just select "Country" as the primary dimension,
+
+00:01:27.045 --> 00:01:28.689
+and then for metrics,
+
+00:01:28.689 --> 00:01:34.579
+I always like to start with a baseline metric sessions or page views.
+
+00:01:34.579 --> 00:01:36.454
+We'll start with sessions here,
+
+00:01:36.454 --> 00:01:39.375
+then let's select "Ecommerce Conversion Rate,
+
+00:01:39.375 --> 00:01:42.599
+Transactions, Revenue," and let's surface
+
+00:01:42.599 --> 00:01:47.074
+another e-commerce metric that sometimes gets a little bit buried, average order value.
+
+00:01:47.075 --> 00:01:50.615
+For metric group, we don't have to worry about the name of that too much,
+
+00:01:50.614 --> 00:01:52.614
+we can just call this e-commerce.
+
+00:01:52.614 --> 00:01:55.099
+Report tab, we also don't have to worry about
+
+00:01:55.099 --> 00:01:57.694
+that too much unless we're adding several tabs.
+
+00:01:57.694 --> 00:01:59.899
+We'll just call this tab "Main,
+
+00:01:59.900 --> 00:02:03.335
+Custom Report Name," E-commerce by country is good.
+
+00:02:03.334 --> 00:02:04.944
+Go ahead and click "Save."
+
+00:02:04.944 --> 00:02:08.764
+Now, we have a nice streamlined Ecommerce report by country.
+
+00:02:08.764 --> 00:02:11.719
+This will provide a better way for you to communicate
+
+00:02:11.719 --> 00:02:15.275
+with your manager and answer the question that was asked of you.
+
+00:02:15.275 --> 00:02:17.450
+Let's take another example.
+
+00:02:17.449 --> 00:02:22.609
+Let's say that you have a colleague who specializes in page design and they ask you,
+
+00:02:22.610 --> 00:02:25.205
+"How are my landing pages performing?"
+
+00:02:25.205 --> 00:02:28.730
+They're aware of the concept of landing pages and they
+
+00:02:28.729 --> 00:02:32.500
+want to understand the performance of the pages they have designed.
+
+00:02:32.500 --> 00:02:35.210
+Again, you may first want to navigate to
+
+00:02:35.210 --> 00:02:37.969
+the landing pages report to show to your colleague,
+
+00:02:37.969 --> 00:02:40.460
+but some of these metrics may be a distraction.
+
+00:02:40.460 --> 00:02:43.670
+You may not want to focus as much on pages per
+
+00:02:43.669 --> 00:02:47.854
+session as on bounce rate and Ecommerce conversion rate.
+
+00:02:47.854 --> 00:02:49.489
+Again in this case,
+
+00:02:49.490 --> 00:02:53.015
+you can go to "Customisation," "Custom report"
+
+00:02:53.014 --> 00:02:57.004
+and quickly put together a more streamlined and effective report.
+
+00:02:57.004 --> 00:03:01.954
+"Add dimension, Landing Page for metrics sessions,
+
+00:03:01.955 --> 00:03:06.575
+Bounce Rate, Average Session Duration, Ecommerce Conversion Rate."
+
+00:03:06.574 --> 00:03:10.129
+We can add whichever metrics we think are important and leave out
+
+00:03:10.129 --> 00:03:14.000
+the metrics that we think are not especially relevant to the conversation.
+
+00:03:14.000 --> 00:03:20.724
+Metric Group perfomance, we can call it whatever we want, "Report Tab," "Main."
+
+00:03:20.724 --> 00:03:24.838
+Let's call this report "Landing Pages Streamlined."
+
+00:03:24.838 --> 00:03:27.590
+Here again, we have a much more effective report
+
+00:03:27.590 --> 00:03:30.560
+to respond to the question that was asked.
+
+00:03:30.560 --> 00:03:34.224
+As a few more considerations regarding custom reports,
+
+00:03:34.224 --> 00:03:39.544
+you only need read and analyze access two of you to create a custom report.
+
+00:03:39.544 --> 00:03:41.929
+You do not need edit rights.
+
+00:03:41.930 --> 00:03:46.069
+Custom reports don't alter any underlying report data.
+
+00:03:46.069 --> 00:03:51.604
+They're retroactive and they're yours only unless you decide to share them.
+
+00:03:51.604 --> 00:03:53.750
+Note that by default,
+
+00:03:53.750 --> 00:03:59.435
+customer reports are accessible only by you within the view that you've created them in.
+
+00:03:59.435 --> 00:04:03.740
+If we click into "Landing Pages Streamlined," and we click "Edit," we
+
+00:04:03.740 --> 00:04:08.555
+can see that the custom report is accessible only within this view.
+
+00:04:08.555 --> 00:04:11.629
+If we did want to make the custom report accessible to
+
+00:04:11.629 --> 00:04:15.185
+all views within this account under our login,
+
+00:04:15.185 --> 00:04:17.045
+we could change the visibility setting.
+
+00:04:17.045 --> 00:04:19.790
+Also note that if we wanted to share the configuration
+
+00:04:19.790 --> 00:04:23.045
+for any custom report with another Google Analytics user,
+
+00:04:23.045 --> 00:04:24.640
+we can click "Actions,
+
+00:04:24.639 --> 00:04:31.610
+Share," share template link and forward this URL to that other user.
+
+00:04:31.610 --> 00:04:34.710
+We'll talk more about sharing in an upcoming lesson.
+

@@ -1,0 +1,82 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.049
+You can also track e-commerce actions and data for your mobile apps.
+
+00:00:04.049 --> 00:00:06.945
+You can track this by using the Android SDK,
+
+00:00:06.945 --> 00:00:12.480
+iOS SDK and also for a Firebase SDK +GTM implementation.
+
+00:00:12.480 --> 00:00:17.445
+In fact, one of the reasons that we would opt to use Firebase SDK+ GTM,
+
+00:00:17.445 --> 00:00:20.144
+rather than the Firebase SDK on its own,
+
+00:00:20.144 --> 00:00:21.929
+is that Firebase Analytics,
+
+00:00:21.929 --> 00:00:25.019
+does not support enhanced e-commerce reporting per se.
+
+00:00:25.019 --> 00:00:27.975
+With Firebase SDK+ GTM,
+
+00:00:27.975 --> 00:00:29.970
+we can enjoy the app lifecycle and
+
+00:00:29.969 --> 00:00:33.269
+basic e-commerce event tracking that Firebase provides,
+
+00:00:33.270 --> 00:00:34.650
+and still take advantage of
+
+00:00:34.649 --> 00:00:38.619
+rich enhanced e-commerce reporting in the Google Analytics UI.
+
+00:00:38.619 --> 00:00:42.814
+You do want to consult the developer references for mobile e-commerce tracking.
+
+00:00:42.814 --> 00:00:44.509
+Just on the Firebase end,
+
+00:00:44.509 --> 00:00:48.394
+Google recommends tracking the following retail commerce related events,
+
+00:00:48.395 --> 00:00:50.465
+using the log event method.
+
+00:00:50.465 --> 00:00:52.430
+We have add payment info,
+
+00:00:52.429 --> 00:00:55.950
+add to cart, add to wishlist, begin checkout,
+
+00:00:55.950 --> 00:00:58.755
+e-commerce purchase, generate a lead,
+
+00:00:58.755 --> 00:01:01.465
+purchase refund, view item list,
+
+00:01:01.465 --> 00:01:03.320
+and view search results.
+
+00:01:03.320 --> 00:01:05.719
+I would definitely consult the Developer Guide in
+
+00:01:05.719 --> 00:01:08.045
+terms of passing that information appropriately.
+
+00:01:08.045 --> 00:01:12.670
+Keep in mind that those events can be captured as variables within the GTM environment,
+
+00:01:12.670 --> 00:01:15.450
+and used as triggers and as dimensions and metrics,
+
+00:01:15.450 --> 00:01:18.960
+to send that e-commerce data to GA simultaneously.
+

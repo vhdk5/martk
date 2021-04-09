@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.394
+Let's have a brief overview of basic compared to enhanced ecommerce tracking.
+
+00:00:04.394 --> 00:00:06.660
+Basic ecommerce tracking allows you to track
+
+00:00:06.660 --> 00:00:09.660
+transaction and product information including: revenue,
+
+00:00:09.660 --> 00:00:13.574
+quantity, tax, shipping, product ID,
+
+00:00:13.574 --> 00:00:16.244
+product name and basic category information.
+
+00:00:16.245 --> 00:00:21.120
+This gives you good insights into your revenue generation transactions on your website.
+
+00:00:21.120 --> 00:00:23.960
+Then can be coupled with your acquisition data as
+
+00:00:23.960 --> 00:00:26.885
+well as other standard Google Analytics reporting data.
+
+00:00:26.885 --> 00:00:29.660
+Enhanced ecommerce tracking allows you to see all of
+
+00:00:29.660 --> 00:00:34.130
+the basic ecommerce data along with additional insights into how promotions
+
+00:00:34.130 --> 00:00:37.160
+and product lists as well as more detailed categories and
+
+00:00:37.159 --> 00:00:41.479
+additional ecommerce actions such as Add to Cart or move from Cart,
+
+00:00:41.479 --> 00:00:45.379
+checkout funnel steps, product reviews and product clicks and
+
+00:00:45.380 --> 00:00:49.475
+how these lead to the actual transaction and revenue that you see as well.
+
+00:00:49.475 --> 00:00:52.895
+You can configure both basic and enhanced ecommerce tracking
+
+00:00:52.895 --> 00:00:54.620
+using your Tag Management System.
+
+00:00:54.619 --> 00:00:56.689
+For example, GTM or via
+
+00:00:56.689 --> 00:01:00.364
+inline tracking code if you still happen to be coding your analytics inline.
+
+00:01:00.365 --> 00:01:03.594
+Let's take a brief look at the ecommerce reporting.
+
+00:01:03.594 --> 00:01:06.939
+So, I've clicked into the conversions navigation tab on
+
+00:01:06.939 --> 00:01:11.884
+the left hand navigation and then the ecommerce drop-down and overview.
+
+00:01:11.885 --> 00:01:15.640
+Right away, I can see summary data charted by day.
+
+00:01:15.640 --> 00:01:19.195
+I can also see some high-level overview metrics such as revenue,
+
+00:01:19.194 --> 00:01:21.339
+conversion rate, transaction counts,
+
+00:01:21.340 --> 00:01:24.055
+average order value on my website.
+
+00:01:24.055 --> 00:01:26.490
+This will be basic ecommerce data and
+
+00:01:26.489 --> 00:01:29.140
+a basic ecommerce implementation will give you that data.
+
+00:01:29.140 --> 00:01:32.260
+I can also see some additional data that's being driven by
+
+00:01:32.260 --> 00:01:35.545
+the fact that this is an enhanced ecommerce implementation.
+
+00:01:35.545 --> 00:01:38.515
+I see internal promotion performance.
+
+00:01:38.515 --> 00:01:44.650
+I also see order coupons and I see that I have enhanced ecommerce product categories.
+
+00:01:44.650 --> 00:01:49.160
+I can also see some additional basic ecommerce data such as products,
+
+00:01:49.159 --> 00:01:55.429
+names and I can see product revenue by product name under the overview report.
+
+00:01:55.430 --> 00:01:58.490
+This is a nice single view report that is
+
+00:01:58.489 --> 00:02:01.774
+standard in Google Analytics when you're using ecommerce tracking.
+
+00:02:01.775 --> 00:02:06.319
+Again, depending on whether you're using basic or enhanced ecommerce,
+
+00:02:06.319 --> 00:02:08.469
+you'll see more or less data here.
+
+00:02:08.469 --> 00:02:11.344
+So, all of this data can be drilled down in
+
+00:02:11.344 --> 00:02:16.370
+greater detail in the expanded ecommerce reports.
+
+00:02:16.370 --> 00:02:20.509
+It does rely on passing this data into GA with relevant hits.
+
+00:02:20.509 --> 00:02:23.149
+So, let's take a look at how you actually configure
+
+00:02:23.150 --> 00:02:26.900
+this data to get into GA when it's relevant.
+

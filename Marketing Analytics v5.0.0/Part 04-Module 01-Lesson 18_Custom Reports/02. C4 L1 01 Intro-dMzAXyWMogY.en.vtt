@@ -1,0 +1,46 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.314
+This lesson, is all about Custom Reports.
+
+00:00:03.314 --> 00:00:06.900
+We'll see how to use custom reports to surface dimensions that don't
+
+00:00:06.900 --> 00:00:10.470
+appear as primary dimensions in any of the built-in reports.
+
+00:00:10.470 --> 00:00:15.480
+Very importantly, we'll talk about using custom dimensions in custom reports.
+
+00:00:15.480 --> 00:00:20.130
+We'll also look at custom metrics and calculated metrics and custom reports.
+
+00:00:20.129 --> 00:00:22.634
+We'll review different custom report formats,
+
+00:00:22.635 --> 00:00:25.920
+including Flat Table and Map Overlay.
+
+00:00:25.920 --> 00:00:29.970
+We'll see how to hard-filter custom reports.
+
+00:00:29.969 --> 00:00:32.429
+As an overall theme,
+
+00:00:32.429 --> 00:00:35.310
+we'll review customer reports as a means of
+
+00:00:35.310 --> 00:00:38.785
+streamlined stakeholder focused communication.
+
+00:00:38.784 --> 00:00:41.704
+You never have to use a built-in GA report
+
+00:00:41.704 --> 00:00:44.600
+when you could set up a more effective custom report.
+
+00:00:44.600 --> 00:00:47.300
+In this lesson, we'll see how.
+

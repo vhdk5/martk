@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.388
+Now that you've had a closer look under the hood,
+
+00:00:03.388 --> 00:00:07.429
+you can see what an incredibly powerful tool Google Analytics is,
+
+00:00:07.429 --> 00:00:11.009
+and how it can serve almost any of your reporting needs.
+
+00:00:11.009 --> 00:00:14.730
+You can derive insights that will help you improve your site,
+
+00:00:14.730 --> 00:00:16.949
+your marketing, and your business.
+
+00:00:16.949 --> 00:00:20.910
+But the vast possibilities and the massive amounts of data,
+
+00:00:20.910 --> 00:00:23.280
+can also become somewhat overwhelming.
+
+00:00:23.280 --> 00:00:27.089
+That's where custom reports and dashboards can help you.
+
+00:00:27.089 --> 00:00:30.975
+We will show you in this course how you can use them.
+
+00:00:30.975 --> 00:00:32.490
+Before we get started,
+
+00:00:32.490 --> 00:00:38.295
+it's a good idea for you to remember one of our earlier lessons about goals and KPIs.
+
+00:00:38.295 --> 00:00:41.355
+It's good to list your goals and the metrics that will
+
+00:00:41.354 --> 00:00:44.479
+indicate whether you are successful in reaching them.
+
+00:00:44.479 --> 00:00:50.269
+Those will be the metrics that you want to monitor and report on on an ongoing basis.
+
+00:00:50.270 --> 00:00:54.305
+They will form the basis of the custom reports and dashboards,
+
+00:00:54.304 --> 00:00:55.820
+you decide to build.
+
+00:00:55.820 --> 00:01:00.679
+As you will see, Google Analytics has a build in custom reporting option,
+
+00:01:00.679 --> 00:01:05.060
+where you can build the reports you want to see and share on an ongoing basis.
+
+00:01:05.060 --> 00:01:09.034
+But Google also offers a separate tool, Google Data studio,
+
+00:01:09.034 --> 00:01:13.354
+that lets you build dashboards or reports with your Google Analytics data.
+
+00:01:13.355 --> 00:01:15.049
+We will take a look at both,
+
+00:01:15.049 --> 00:01:16.219
+but in this first lesson,
+
+00:01:16.219 --> 00:01:20.179
+we'll focus on the build in Google Analytics custom reports.
+
+00:01:20.180 --> 00:01:21.730
+Let's get started.
+

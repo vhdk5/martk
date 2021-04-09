@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.180
+Welcome to our lesson on Google Analytics attribution.
+
+00:00:03.180 --> 00:00:06.208
+In this lesson, we'll cover last non-direct click attribution,
+
+00:00:06.208 --> 00:00:07.949
+which is the standard GA model.
+
+00:00:07.950 --> 00:00:10.919
+We'll cover how Google Analytics reports direct traffic,
+
+00:00:10.919 --> 00:00:14.025
+we'll revisit the multi-channel funnels reports,
+
+00:00:14.025 --> 00:00:16.035
+we'll look at conversion segments,
+
+00:00:16.035 --> 00:00:19.199
+the model comparison tool in the Google Analytics UI.
+
+00:00:19.199 --> 00:00:23.739
+Also, we will look at viewing ad impression data in GA reporting.
+

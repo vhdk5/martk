@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.049
+This is a lesson about e-commerce tracking in Google Analytics.
+
+00:00:04.049 --> 00:00:08.250
+We'll start with an overview of basic e-commerce compared with enhanced e-commerce.
+
+00:00:08.250 --> 00:00:10.710
+Then, we'll move into configuration settings for
+
+00:00:10.710 --> 00:00:12.900
+basic e-commerce tracking followed by
+
+00:00:12.900 --> 00:00:15.660
+configuration settings for enhanced e-commerce tracking.
+
+00:00:15.660 --> 00:00:18.179
+We'll continue the discussion of shopping and
+
+00:00:18.179 --> 00:00:21.390
+checkout behavior funnels for drop-off analysis,
+
+00:00:21.390 --> 00:00:23.969
+segmentation, and remarketing purposes.
+
+00:00:23.969 --> 00:00:27.809
+Finally, we'll wrap up with e-commerce tracking and mobile apps.
+
+00:00:27.809 --> 00:00:29.399
+As a general note,
+
+00:00:29.399 --> 00:00:32.579
+e-commerce tracking, especially enhanced e-commerce tracking,
+
+00:00:32.579 --> 00:00:35.309
+is considerably more complex than most of
+
+00:00:35.310 --> 00:00:38.530
+the implementation steps we've discussed in previous lessons.
+
+00:00:38.530 --> 00:00:41.270
+But the benefit is much richer reporting and
+
+00:00:41.270 --> 00:00:44.465
+deeper insights into your online e-commerce processes.
+
+00:00:44.465 --> 00:00:46.220
+If you're not a developer yourself,
+
+00:00:46.219 --> 00:00:48.859
+this lesson should enable you to work with your developer to take
+
+00:00:48.859 --> 00:00:52.159
+advantage of e-commerce reporting in Google Analytics.
+

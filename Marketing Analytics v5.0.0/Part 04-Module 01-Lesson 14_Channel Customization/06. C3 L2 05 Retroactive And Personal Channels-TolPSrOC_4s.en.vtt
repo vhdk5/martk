@@ -1,0 +1,304 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.384
+The custom channels that we defined,
+
+00:00:02.384 --> 00:00:04.379
+and the edits that we made to
+
+00:00:04.379 --> 00:00:09.824
+predefined channels in the last sections would not be retroactive.
+
+00:00:09.824 --> 00:00:11.429
+There are two types of
+
+00:00:11.429 --> 00:00:15.614
+retroactive channel groupings that we can define in Google Analytics.
+
+00:00:15.615 --> 00:00:19.559
+A view level channel grouping would require edit access,
+
+00:00:19.559 --> 00:00:22.964
+whereas a Google Analytics user level channel grouping
+
+00:00:22.964 --> 00:00:26.429
+would only require read and analyze access.
+
+00:00:26.429 --> 00:00:29.295
+To define a channel grouping at
+
+00:00:29.295 --> 00:00:33.255
+the view level that everyone who access the view could see,
+
+00:00:33.255 --> 00:00:35.830
+we could click into Channel Grouping,
+
+00:00:35.829 --> 00:00:38.524
+and now we would click New Channel Grouping,
+
+00:00:38.524 --> 00:00:42.604
+and here's where we would start the process of defining a channel grouping
+
+00:00:42.604 --> 00:00:47.604
+at the view level that all users could apply when accessing the view.
+
+00:00:47.604 --> 00:00:51.709
+To look at defining a channel grouping at the user level,
+
+00:00:51.710 --> 00:00:54.814
+let's go over to the Google Merchandise Store account.
+
+00:00:54.814 --> 00:00:58.429
+Let's say that you managed analytics for Google Merchandise Store,
+
+00:00:58.429 --> 00:01:04.099
+and you wanted to break out traffic from mall.googleplex.com as its own channel.
+
+00:01:04.099 --> 00:01:09.189
+No problem, we could definitely do that retroactively with a new channel grouping.
+
+00:01:09.189 --> 00:01:15.120
+Click into admin, and now instead of clicking the Channel Grouping Settings on top,
+
+00:01:15.120 --> 00:01:18.204
+in the view admin, we'd click Custom Channel Grouping.
+
+00:01:18.204 --> 00:01:22.579
+Since this channel grouping is in the personal tools and asset section of
+
+00:01:22.579 --> 00:01:27.079
+the view admin it does only require read and analyze access,
+
+00:01:27.079 --> 00:01:31.039
+and would only be accessible to the user who created it.
+
+00:01:31.040 --> 00:01:33.125
+Let's click New Channel Grouping here.
+
+00:01:33.125 --> 00:01:37.805
+Notice that when we begin to create the channel grouping it is empty.
+
+00:01:37.805 --> 00:01:40.160
+You have a blank slate to start with.
+
+00:01:40.159 --> 00:01:44.659
+But what's considered to be normal practice is to recreate
+
+00:01:44.659 --> 00:01:50.435
+the nine default channels and then create customizations on top of those nine channels.
+
+00:01:50.435 --> 00:01:55.715
+Fortunately, we don't have to manually recreate all of these channel definitions.
+
+00:01:55.715 --> 00:01:58.189
+Google Analytics does provide a shortcut.
+
+00:01:58.189 --> 00:02:00.399
+If we click "Define a new channel",
+
+00:02:00.400 --> 00:02:03.695
+and let's say that we wanted to create the email channel.
+
+00:02:03.694 --> 00:02:08.419
+We could select, System Defined Channel matches,
+
+00:02:08.419 --> 00:02:14.839
+Email, and notice the nine default channels are available as options from this dropdown.
+
+00:02:14.840 --> 00:02:18.500
+So we do have to recreate the nine channels if that's what we choose,
+
+00:02:18.500 --> 00:02:22.819
+but we do not have to define the channels at a granular level.
+
+00:02:22.819 --> 00:02:27.364
+The definitions are encapsulated in these system defined channels.
+
+00:02:27.365 --> 00:02:31.670
+I'm going to go ahead now and recreate the other eight channels.
+
+00:02:31.669 --> 00:02:37.699
+Since there is not overlap between the definitions of the nine default channels,
+
+00:02:37.699 --> 00:02:41.644
+the order of the channels actually does not matter in this case.
+
+00:02:41.645 --> 00:02:45.920
+So now that we have recreated the nine default channels,
+
+00:02:45.919 --> 00:02:47.914
+we can start with our customizations.
+
+00:02:47.914 --> 00:02:53.674
+In this case, we're just going to be adding one new channel for mall.googleplex.com.
+
+00:02:53.675 --> 00:02:55.435
+We'll click Define New Channel,
+
+00:02:55.435 --> 00:02:58.694
+call the new channel Googleplex Mall.
+
+00:02:58.694 --> 00:03:03.974
+Source exactly matches mail.googleplex.com.
+
+00:03:03.974 --> 00:03:08.060
+Now, of course, it is important in this case that
+
+00:03:08.060 --> 00:03:12.439
+this channel definition appear before the referral definition or
+
+00:03:12.439 --> 00:03:16.879
+else the mall.googleplex.com traffic would match
+
+00:03:16.879 --> 00:03:19.969
+the referral definition and the session would never
+
+00:03:19.969 --> 00:03:23.300
+reach the Googleplex Mall channel definition.
+
+00:03:23.300 --> 00:03:27.935
+Click Done. Let's call this channel grouping Default and Googleplex Mall.
+
+00:03:27.935 --> 00:03:32.090
+Click Save. Now let's check this new channel grouping out in our reports.
+
+00:03:32.090 --> 00:03:35.375
+We'll go to Acquisition, All Traffic Channels,
+
+00:03:35.375 --> 00:03:40.870
+and note that we can now apply the Default and Googleplex Mall Channel Grouping,
+
+00:03:40.870 --> 00:03:46.340
+and also another channel grouping that was defined for us at the View level.
+
+00:03:46.340 --> 00:03:50.000
+But let's go ahead and apply our Googleplex Mall Channel Grouping,
+
+00:03:50.000 --> 00:03:55.139
+and now we see Googleplex Mall broken out retroactively.
+
+00:03:55.139 --> 00:03:58.789
+Similarly, if we went to the Multi-Channel Funnel reports,
+
+00:03:58.789 --> 00:04:02.229
+which Patrick is going to be discussing in an upcoming lesson,
+
+00:04:02.229 --> 00:04:05.639
+we see that the Default and Googleplex Mall Channel Grouping
+
+00:04:05.639 --> 00:04:07.149
+that we defined is available,
+
+00:04:07.150 --> 00:04:12.140
+as well as the other channel grouping that was defined for us at the View level.
+
+00:04:12.139 --> 00:04:16.074
+If we go ahead and apply the Googleplex Mall Channel Grouping,
+
+00:04:16.074 --> 00:04:18.795
+we see in fact Googleplex Mall broken out.
+
+00:04:18.795 --> 00:04:23.420
+Also if we check out the model comparison tool in the Attribution section,
+
+00:04:23.420 --> 00:04:26.675
+which Patrick will also be discussing in an upcoming lesson,
+
+00:04:26.675 --> 00:04:30.485
+we see our channel groupings available here as well.
+
+00:04:30.485 --> 00:04:34.340
+Now I myself do not have edit rights
+
+00:04:34.339 --> 00:04:37.984
+to any of the views within the Google Merchandise Store account.
+
+00:04:37.985 --> 00:04:44.600
+So, I have recreated the Default and Googleplex Mall Channel Grouping in a test account,
+
+00:04:44.600 --> 00:04:46.865
+where I do have edit access.
+
+00:04:46.865 --> 00:04:52.400
+Because if I do have edit access what I can do is promote the channel.
+
+00:04:52.399 --> 00:04:58.294
+What this means is that this personal channel now becomes a view-level channel,
+
+00:04:58.295 --> 00:05:03.740
+that anyone accessing the view can apply in any of the reports that we just reviewed.
+
+00:05:03.740 --> 00:05:06.829
+Between the Default Channel Grouping and
+
+00:05:06.829 --> 00:05:11.724
+the View-level and Individual-user Channel groupings that we've seen in this section,
+
+00:05:11.725 --> 00:05:16.205
+it can get a little complicated to keep track of what applies where.
+
+00:05:16.204 --> 00:05:19.490
+This table summarizes that information.
+
+00:05:19.490 --> 00:05:21.545
+As a final thought,
+
+00:05:21.545 --> 00:05:24.230
+the New Channel Groupings that we can create at
+
+00:05:24.230 --> 00:05:29.064
+the View-level and at the GA-User-level are certainly very useful,
+
+00:05:29.064 --> 00:05:31.805
+especially because they are retroactive.
+
+00:05:31.805 --> 00:05:35.150
+But they are not considered replacements for customizing
+
+00:05:35.149 --> 00:05:37.459
+the Default Channel Grouping in the way that makes
+
+00:05:37.459 --> 00:05:40.829
+the most sense for you and for your organization,
+
+00:05:40.829 --> 00:05:43.149
+because there are situations in which
+
+00:05:43.149 --> 00:05:46.959
+the alternative retroactive channel groupings don't apply.
+
+00:05:46.959 --> 00:05:50.829
+So, make sure that you do customize your default channel grouping,
+
+00:05:50.829 --> 00:05:53.509
+however, it makes the most sense for you.
+
+00:05:53.509 --> 00:05:55.714
+As another final note,
+
+00:05:55.714 --> 00:05:58.929
+even after you customize the default channel grouping,
+
+00:05:58.930 --> 00:06:03.115
+you don't necessarily have to rename it from Default Channel Grouping
+
+00:06:03.115 --> 00:06:05.860
+because it still is the default channel grouping
+
+00:06:05.860 --> 00:06:08.514
+that appears in your reports as the default,
+
+00:06:08.514 --> 00:06:14.089
+and is available as the default in other contexts even when you have customized it.
+
+00:06:14.089 --> 00:06:16.924
+So, it is default in multiple ways,
+
+00:06:16.925 --> 00:06:20.245
+so it's okay to leave the name as Default Channel Grouping,
+
+00:06:20.245 --> 00:06:23.780
+although you are, of course, free to change the name.
+

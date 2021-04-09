@@ -1,0 +1,88 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.490
+Let's talk about conversion segments briefly.
+
+00:00:02.490 --> 00:00:06.600
+Conversion segments allow you to compare how specific attributes of a conversion,
+
+00:00:06.599 --> 00:00:11.294
+compared to one another as well as to your overall conversion characteristics.
+
+00:00:11.294 --> 00:00:14.160
+This is useful to see how specific channels or
+
+00:00:14.160 --> 00:00:16.890
+specific user journeys may differ between say,
+
+00:00:16.890 --> 00:00:20.010
+your overall customer base and your high value customers,
+
+00:00:20.010 --> 00:00:23.429
+or for journeys that started with a paid search session compared to those that
+
+00:00:23.429 --> 00:00:27.375
+originated from display or rich media or some other source.
+
+00:00:27.375 --> 00:00:30.824
+It can be a useful way to start looking at differences in behavior
+
+00:00:30.824 --> 00:00:34.339
+and attributes according to meaningful segmentation of your users.
+
+00:00:34.340 --> 00:00:36.575
+Let's jump into the interface and take a quick look
+
+00:00:36.575 --> 00:00:39.320
+at how that actually applies in reports.
+
+00:00:39.320 --> 00:00:43.070
+Here in the multi-channel funnels reports for the top conversion paths,
+
+00:00:43.070 --> 00:00:45.545
+I've added a couple of conversion segments.
+
+00:00:45.545 --> 00:00:47.990
+You can see in the top navigation here I've added
+
+00:00:47.990 --> 00:00:52.940
+the all conversion segments so that I have a meaningful basis of comparison.
+
+00:00:52.939 --> 00:00:57.559
+I've also created this custom user-defined segment of conversion value
+
+00:00:57.560 --> 00:01:02.975
+greater than 300 which is one and a half times my average conversion value.
+
+00:01:02.975 --> 00:01:06.109
+These would be my higher value conversions.
+
+00:01:06.109 --> 00:01:10.614
+I can see that conversion value over 300 is about,
+
+00:01:10.614 --> 00:01:16.424
+a little over 1,200 conversions or about $670,000 in revenue.
+
+00:01:16.424 --> 00:01:18.649
+So, these are not quite 20 percent of
+
+00:01:18.650 --> 00:01:22.340
+my transactions and about half of my conversion revenue.
+
+00:01:22.340 --> 00:01:28.370
+This is a small slice of transactions that's making up a big percentage of value.
+
+00:01:28.370 --> 00:01:33.920
+So, I might want to know how these users behave differently on my site as well as
+
+00:01:33.920 --> 00:01:39.710
+to mine for insights into differences in how I am acquiring these high-value converters,
+
+00:01:39.709 --> 00:01:42.664
+to help me better identify target,
+
+00:01:42.665 --> 00:01:46.580
+re-market, and message these users.
+

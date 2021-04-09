@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.080
+Let's talk about how Google Analytics reports direct traffic for a moment.
+
+00:00:04.080 --> 00:00:07.919
+Direct is an actual default channel grouping in Google Analytics,
+
+00:00:07.919 --> 00:00:11.250
+but let's understand how it is really a channel of last resort.
+
+00:00:11.250 --> 00:00:14.970
+Only if no referring data is present on the inbound session and
+
+00:00:14.970 --> 00:00:17.370
+no campaign data is associated with the user
+
+00:00:17.370 --> 00:00:19.800
+that is within the campaign exploration window,
+
+00:00:19.800 --> 00:00:22.755
+only in that case will the traffic be countered as direct.
+
+00:00:22.754 --> 00:00:26.039
+Let's take a look at a couple of examples to see how that actually
+
+00:00:26.039 --> 00:00:29.519
+plays out from a data capture standpoint and reporting.
+
+00:00:29.519 --> 00:00:31.230
+In this first example,
+
+00:00:31.230 --> 00:00:33.075
+looking at one user's journey,
+
+00:00:33.075 --> 00:00:35.655
+we're going to look at the time lag between sessions,
+
+00:00:35.655 --> 00:00:39.000
+the source medium, the way a session will get attributed,
+
+00:00:39.000 --> 00:00:42.215
+and then whether or not it would be considered a direct session.
+
+00:00:42.215 --> 00:00:43.955
+So, let's take a look here.
+
+00:00:43.954 --> 00:00:48.174
+Session one comes in with the source medium Google CPC.
+
+00:00:48.174 --> 00:00:51.759
+It gets paid such as the attributed channel for that session,
+
+00:00:51.759 --> 00:00:54.695
+and if you were to add the direct sessions dimension to a report,
+
+00:00:54.695 --> 00:00:56.570
+you would see the value was no.
+
+00:00:56.570 --> 00:01:01.134
+Thirty days later, that same user comes back to the website through a bookmark link,
+
+00:01:01.134 --> 00:01:03.909
+with no source medium data present.
+
+00:01:03.909 --> 00:01:07.354
+This session again would get attributed to paid search.
+
+00:01:07.355 --> 00:01:09.695
+It's within the campaign exploration window,
+
+00:01:09.694 --> 00:01:13.164
+and you can see it, would get direct session flag as yes.
+
+00:01:13.165 --> 00:01:16.850
+Sixty days the user comes back on that same bookmark link,
+
+00:01:16.849 --> 00:01:20.234
+no source no medium value present for the session.
+
+00:01:20.234 --> 00:01:22.370
+Again, the session would be attributed to
+
+00:01:22.370 --> 00:01:25.675
+paid search and the direct session flag would be yes.
+
+00:01:25.674 --> 00:01:28.664
+Ninety days later, the user comes back,
+
+00:01:28.665 --> 00:01:32.135
+the sources facebook.com and the medium is referral.
+
+00:01:32.135 --> 00:01:36.035
+This was from an untagged link on someone's personal Facebook post.
+
+00:01:36.034 --> 00:01:39.979
+So, that session would actually be attributed to referral.
+
+00:01:39.980 --> 00:01:42.829
+In this case, we have new referral information
+
+00:01:42.829 --> 00:01:45.370
+and it will overwrite the existing cookie value,
+
+00:01:45.370 --> 00:01:49.189
+and we will get an attribution to the Facebook referral source.
+
+00:01:49.189 --> 00:01:51.649
+Let's take a look at a second example with
+
+00:01:51.650 --> 00:01:55.415
+a little bit longer time windows and slightly different user journey.
+
+00:01:55.415 --> 00:01:57.365
+Session one on day one,
+
+00:01:57.364 --> 00:01:59.884
+we have no source, no medium data.
+
+00:01:59.885 --> 00:02:02.075
+It gets captured in the direct channel,
+
+00:02:02.075 --> 00:02:04.269
+as a true direct session.
+
+00:02:04.269 --> 00:02:07.200
+Thirty days later, they click on a paid search ad,
+
+00:02:07.200 --> 00:02:09.905
+so they come in with Google CPC.
+
+00:02:09.905 --> 00:02:12.560
+The session gets credited with paid search,
+
+00:02:12.560 --> 00:02:15.349
+and the direct session flag would be no.
+
+00:02:15.349 --> 00:02:18.609
+Eight months later, they returned to the site directly,
+
+00:02:18.610 --> 00:02:20.705
+source medium is none.
+
+00:02:20.705 --> 00:02:24.860
+Because it's outside the six-month campaign exploration window,
+
+00:02:24.860 --> 00:02:28.030
+again this is going to be a direct session.
+
+00:02:28.030 --> 00:02:32.525
+Ninety days later, the user comes in from a facebook.com referral.
+
+00:02:32.525 --> 00:02:34.564
+The medium is referral.
+
+00:02:34.564 --> 00:02:38.150
+In that case, it gets written as referral and Google Analytics.
+
+00:02:38.150 --> 00:02:39.605
+It is a referral session.
+
+00:02:39.604 --> 00:02:41.514
+It is not a direct session.
+
+00:02:41.514 --> 00:02:44.299
+Thirty days later that person comes back to the site,
+
+00:02:44.300 --> 00:02:46.430
+directly from an untagged link,
+
+00:02:46.430 --> 00:02:49.219
+none for source, none for medium,
+
+00:02:49.219 --> 00:02:53.259
+referral will get credit and direct session will be yes.
+
+00:02:53.259 --> 00:02:55.969
+Hopefully, this gives you a better understanding of
+
+00:02:55.969 --> 00:03:00.349
+how direct traffic is actually captured in Google Analytics and why.
+

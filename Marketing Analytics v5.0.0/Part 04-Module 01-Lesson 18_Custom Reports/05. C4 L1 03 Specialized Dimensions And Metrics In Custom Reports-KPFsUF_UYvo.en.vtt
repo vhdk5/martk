@@ -1,0 +1,325 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.344
+There are things we can do in custom reports that we cannot do in the built-in reports.
+
+00:00:06.344 --> 00:00:10.919
+For one thing, there are some dimensions that exist in GA but
+
+00:00:10.919 --> 00:00:15.480
+do not appear as primary dimensions anywhere in the built-in reports.
+
+00:00:15.480 --> 00:00:20.640
+We can set these dimensions as the primary dimensions in custom reports.
+
+00:00:20.640 --> 00:00:24.179
+Another very important use of custom reports is
+
+00:00:24.179 --> 00:00:27.975
+setting our own custom dimensions as primary dimensions.
+
+00:00:27.975 --> 00:00:31.140
+We'll see several examples of custom dimensions as
+
+00:00:31.140 --> 00:00:35.594
+primary dimensions in the custom reports that we're going to review coming up.
+
+00:00:35.594 --> 00:00:39.405
+If we've created any custom metrics in our implementation,
+
+00:00:39.405 --> 00:00:42.230
+we can include those in our custom reports.
+
+00:00:42.229 --> 00:00:45.559
+If we have created any calculated metrics,
+
+00:00:45.560 --> 00:00:48.770
+we can include those in our custom reports as well.
+
+00:00:48.770 --> 00:00:54.410
+In fact, custom reports are the only way in the Google Analytics UI to
+
+00:00:54.409 --> 00:00:56.209
+show the custom metrics that you have
+
+00:00:56.210 --> 00:01:00.170
+populated or the calculated metrics that you have defined.
+
+00:01:00.170 --> 00:01:02.304
+Just as a reminder,
+
+00:01:02.304 --> 00:01:05.855
+you do have to create and populate any custom dimensions,
+
+00:01:05.855 --> 00:01:08.795
+any custom metrics as part of your implementation.
+
+00:01:08.795 --> 00:01:11.150
+You can't set up custom dimensions and
+
+00:01:11.150 --> 00:01:14.885
+custom metrics at the same time that you're setting up your custom report.
+
+00:01:14.885 --> 00:01:18.770
+You have to define and populate them beforehand in
+
+00:01:18.769 --> 00:01:23.269
+your implementation for you to be able to use them in a custom report.
+
+00:01:23.269 --> 00:01:26.179
+Same thing for calculated metrics.
+
+00:01:26.180 --> 00:01:31.055
+You do have to set up calculated metrics before you use them in a custom report,
+
+00:01:31.055 --> 00:01:35.585
+but you can't create a calculated metric anytime after implementation.
+
+00:01:35.584 --> 00:01:40.579
+Let's start by defining a couple of custom reports with built-in dimensions that
+
+00:01:40.579 --> 00:01:46.054
+don't appear as primary dimensions anywhere in the Google Analytics built-in reports.
+
+00:01:46.055 --> 00:01:50.045
+The dimension that we'll select will be week of year for metric.
+
+00:01:50.045 --> 00:01:54.540
+Let's add Sessions, bounce, e-commerce conversion rate,
+
+00:01:54.540 --> 00:01:57.330
+revenue, metric group, performance,
+
+00:01:57.329 --> 00:01:59.010
+main, week of year,
+
+00:01:59.010 --> 00:02:00.420
+as the name of the report.
+
+00:02:00.420 --> 00:02:04.325
+Now, notice that we're only seeing two weeks represented.
+
+00:02:04.325 --> 00:02:07.894
+That's because we only have a week of data selected.
+
+00:02:07.894 --> 00:02:11.719
+If we went back to let's say January 14th,
+
+00:02:11.719 --> 00:02:13.819
+we would see many more weeks are presented.
+
+00:02:13.819 --> 00:02:18.409
+Let's define a new custom report that shows performance by day of week,
+
+00:02:18.409 --> 00:02:20.465
+always an interesting report to define,
+
+00:02:20.465 --> 00:02:24.319
+dimension, Day of Week Name, Metric,
+
+00:02:24.319 --> 00:02:29.269
+Sessions, bounce, and let's add Goal three conversion rate.
+
+00:02:29.270 --> 00:02:31.040
+Before we review our metrics,
+
+00:02:31.039 --> 00:02:34.639
+we'll want to make sure that we do have full
+
+00:02:34.639 --> 00:02:39.064
+week selected so that we're not favoring any day of the week.
+
+00:02:39.064 --> 00:02:43.865
+In this case, we are starting on a Sunday and ending on a Saturday.
+
+00:02:43.865 --> 00:02:47.670
+Or you could start on a Wednesday and end on a Tuesday,
+
+00:02:47.669 --> 00:02:51.189
+you just want to make sure not to favor any day of the week.
+
+00:02:51.189 --> 00:02:54.439
+The day of the week with the highest number of sessions is Tuesday,
+
+00:02:54.439 --> 00:02:59.430
+the day of the week with the highest Goal three conversion rate is also Tuesday,
+
+00:02:59.430 --> 00:03:03.034
+and the day of the week with the lowest bounce rate is Thursday.
+
+00:03:03.034 --> 00:03:07.849
+This could potentially influenced some of your marketing campaigns such as pay-per-click.
+
+00:03:07.849 --> 00:03:10.819
+Let's review several examples of custom dimensions
+
+00:03:10.819 --> 00:03:14.435
+used as primary dimensions in custom reports.
+
+00:03:14.435 --> 00:03:18.259
+Here's an example of a hit scope Custom Dimension about
+
+00:03:18.259 --> 00:03:22.884
+page subject that's used as the primary dimension in a custom report.
+
+00:03:22.884 --> 00:03:27.469
+Again, the reason this is so important is that you don't want to just apply
+
+00:03:27.469 --> 00:03:32.224
+subject as a secondary dimension in let's say the pages report.
+
+00:03:32.224 --> 00:03:36.469
+There are times when you'll want to directly report on your custom dimensions as
+
+00:03:36.469 --> 00:03:40.935
+the primary reporting dimension and draw the attention to that level.
+
+00:03:40.935 --> 00:03:43.215
+Using a news site as an example,
+
+00:03:43.215 --> 00:03:47.900
+if you included a simple yes-no indicator in your content management system,
+
+00:03:47.900 --> 00:03:50.635
+for whether or not the page contained images,
+
+00:03:50.634 --> 00:03:53.435
+you could write a variable to the data layer,
+
+00:03:53.435 --> 00:03:55.745
+read it in as a custom dimension,
+
+00:03:55.745 --> 00:03:59.425
+and configure a report based on this one factor.
+
+00:03:59.425 --> 00:04:02.480
+Here, we see that pages that do have images are
+
+00:04:02.479 --> 00:04:05.899
+performing significantly better in terms of bounce rate,
+
+00:04:05.900 --> 00:04:09.455
+percent exit, and average session duration.
+
+00:04:09.455 --> 00:04:13.610
+Let's now define a custom report within the Google merchandise store account.
+
+00:04:13.610 --> 00:04:17.254
+Using a session scope custom dimension that's been defined there.
+
+00:04:17.254 --> 00:04:25.795
+Sales region, Metrics, Sessions, Transactions, Revenue.
+
+00:04:25.795 --> 00:04:28.610
+Again, we can include whatever metrics are most suitable,
+
+00:04:28.610 --> 00:04:31.639
+we certainly don't have to include the same metrics each time,
+
+00:04:31.639 --> 00:04:33.409
+that's why these are custom reports.
+
+00:04:33.410 --> 00:04:35.630
+Ecommerce is the metric group name.
+
+00:04:35.629 --> 00:04:37.534
+Sales regions is the name,
+
+00:04:37.535 --> 00:04:39.875
+and now we can see performance by
+
+00:04:39.875 --> 00:04:44.750
+a sales region dimension that is relevant for the Google merchandise store team.
+
+00:04:44.750 --> 00:04:48.769
+Other examples of possible session scope custom dimensions to be used in
+
+00:04:48.769 --> 00:04:53.875
+custom reports are payment method or shipping method.
+
+00:04:53.875 --> 00:05:00.964
+Examples of product scope custom dimensions in custom reports could be size or color.
+
+00:05:00.964 --> 00:05:04.429
+Again, remember that you would need to define and
+
+00:05:04.430 --> 00:05:08.069
+populate these custom dimensions as part of your implementation,
+
+00:05:08.069 --> 00:05:12.605
+you can't invent custom dimensions at the time you're creating a custom report.
+
+00:05:12.605 --> 00:05:16.460
+But once you do have custom dimensions populated,
+
+00:05:16.459 --> 00:05:20.750
+custom reports are a great way to present an analyze them.
+
+00:05:20.750 --> 00:05:23.899
+As examples of users scope custom dimensions,
+
+00:05:23.899 --> 00:05:27.484
+we could define our custom reports with industry
+
+00:05:27.485 --> 00:05:31.340
+if a user selects an industry from a drop-down on a form,
+
+00:05:31.339 --> 00:05:36.334
+or you're reading it n from the backend through the data layer when a user authenticates.
+
+00:05:36.334 --> 00:05:41.074
+As an example of a custom metric that we could include in a custom report,
+
+00:05:41.074 --> 00:05:46.430
+let's say that the National Arbor Day Foundation is having a tree-planting pledge drive,
+
+00:05:46.430 --> 00:05:50.555
+and they're capturing the number of trees that site visitors are pledging to plant.
+
+00:05:50.555 --> 00:05:54.259
+We could include this custom metric in a custom report.
+
+00:05:54.259 --> 00:05:58.759
+To see an example of calculated metrics in a custom report,
+
+00:05:58.759 --> 00:06:01.310
+we're back in the Google merchandise store account.
+
+00:06:01.310 --> 00:06:06.245
+For dimension, we'll add device category Metrics,
+
+00:06:06.245 --> 00:06:11.110
+Sessions, E-commerce Conversion rate, Revenue.
+
+00:06:11.110 --> 00:06:15.560
+Then, under other which actually means calculated metrics,
+
+00:06:15.560 --> 00:06:18.545
+we're going to add revenue per user.
+
+00:06:18.545 --> 00:06:23.765
+So, now we can see not only is conversion rate much lower on mobile and tablet,
+
+00:06:23.764 --> 00:06:25.699
+even relative to conversion rate,
+
+00:06:25.699 --> 00:06:28.550
+the revenue per user is very low.
+
+00:06:28.550 --> 00:06:31.100
+Now, we do want to remember that user is
+
+00:06:31.100 --> 00:06:34.610
+a little bit of an elusive metric in Google analytics
+
+00:06:34.610 --> 00:06:41.014
+based on cookies or the user ID field that's populated when a user authenticates.
+
+00:06:41.014 --> 00:06:47.659
+But it's still a striking to see how low revenue per user is on mobile and on tablet.
+
+00:06:47.660 --> 00:06:55.680
+This could be a starting point for additional analysis and a potential for optimization.
+

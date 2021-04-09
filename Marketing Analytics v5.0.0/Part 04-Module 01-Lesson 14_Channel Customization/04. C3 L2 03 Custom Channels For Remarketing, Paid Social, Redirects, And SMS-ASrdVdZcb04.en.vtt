@@ -1,0 +1,301 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.649
+Let's go back to some of
+
+00:00:01.649 --> 00:00:06.269
+our more specialized and potentially difficult candidates for custom channels.
+
+00:00:06.269 --> 00:00:10.710
+There are remarketing and prospecting display campaigns.
+
+00:00:10.710 --> 00:00:14.460
+There is RLSA, which is another form of remarketing,
+
+00:00:14.460 --> 00:00:18.060
+but specifically for search ads within Google Ads.
+
+00:00:18.059 --> 00:00:22.739
+There are brand and generic paid search channels that we can break out.
+
+00:00:22.739 --> 00:00:25.274
+There are YouTube remarketing,
+
+00:00:25.274 --> 00:00:28.529
+instream and discovery campaigns.
+
+00:00:28.530 --> 00:00:33.850
+There are click-throughs from YouTube cards and YouTube end screens.
+
+00:00:33.850 --> 00:00:37.085
+Let's first consider remarketing as a custom channel.
+
+00:00:37.085 --> 00:00:40.535
+A great custom channel to define, but a difficult one.
+
+00:00:40.534 --> 00:00:45.169
+There are potentially a couple of challenges with defining a remarketing channel.
+
+00:00:45.170 --> 00:00:49.265
+First, if you're using Google Ads or YouTube remarketing,
+
+00:00:49.265 --> 00:00:54.880
+your remarketing campaigns are recorded with the source medium value of Google cpc.
+
+00:00:54.880 --> 00:00:57.120
+Which would mean by default,
+
+00:00:57.119 --> 00:01:01.384
+your remarketing click-throughs would be matched to the paid search channel.
+
+00:01:01.384 --> 00:01:05.719
+Another potential challenge with your remarketing channel definition is that
+
+00:01:05.719 --> 00:01:09.849
+you may have remarketing that is not administered through Google Ads.
+
+00:01:09.849 --> 00:01:12.574
+If we went into the AdWords campaigns report,
+
+00:01:12.575 --> 00:01:18.034
+or the all campaigns report and we added source medium as a secondary dimension,
+
+00:01:18.034 --> 00:01:20.390
+we would see in fact,
+
+00:01:20.390 --> 00:01:25.230
+that our AdWords remarketing campaigns are coming through with Google cpc,
+
+00:01:25.230 --> 00:01:26.954
+as the source medium value.
+
+00:01:26.954 --> 00:01:29.659
+Again, the problem here is that
+
+00:01:29.659 --> 00:01:34.009
+this source medium value would match the paid search channel definition.
+
+00:01:34.010 --> 00:01:37.430
+If that is specific enough for you, that's okay.
+
+00:01:37.430 --> 00:01:41.480
+But I know that I would want to break out remarketing as its own channel.
+
+00:01:41.480 --> 00:01:45.185
+But how are we going to define this remarketing channel?
+
+00:01:45.185 --> 00:01:47.900
+We can't use source medium value as we
+
+00:01:47.900 --> 00:01:50.840
+saw in the channel definitions in the last section.
+
+00:01:50.840 --> 00:01:54.950
+But since we can't control the names of our campaigns within AdWords,
+
+00:01:54.950 --> 00:01:56.790
+this will be the key.
+
+00:01:56.790 --> 00:02:00.280
+As long as we remember to include remarketing at
+
+00:02:00.280 --> 00:02:04.114
+the beginning of our actual remarketing campaign names within AdWords,
+
+00:02:04.114 --> 00:02:06.309
+we'll have what we need to define a channel.
+
+00:02:06.310 --> 00:02:08.784
+We're back in the channel definition screen.
+
+00:02:08.784 --> 00:02:13.764
+In the Test view, we'll click new channel, Remarketing, Campaign,
+
+00:02:13.764 --> 00:02:18.250
+starts with remarketing or campaign starts
+
+00:02:18.250 --> 00:02:23.110
+with remarketing with a small r. We could've also used a regular expression in this case.
+
+00:02:23.110 --> 00:02:28.930
+But what about our non-Google ads remarketing campaigns on networks such as AdRoll?
+
+00:02:28.930 --> 00:02:32.395
+In that case, we're not using auto tagging.
+
+00:02:32.395 --> 00:02:35.710
+We can define our own UTM medium value,
+
+00:02:35.710 --> 00:02:40.180
+and we would define that UTM medium value as remarketing.
+
+00:02:40.180 --> 00:02:45.340
+So, what we could do in this case is expand the remarketing channel definition.
+
+00:02:45.340 --> 00:02:48.390
+We'll add another or statement; or,
+
+00:02:48.389 --> 00:02:52.214
+medium, exactly matches, remarketing.
+
+00:02:52.215 --> 00:02:56.020
+So now, we have a hybrid remarketing channel definition
+
+00:02:56.020 --> 00:02:59.320
+that will pull in all of our remarketing campaigns.
+
+00:02:59.319 --> 00:03:03.594
+If we wanted to create a custom channel definition for prospecting,
+
+00:03:03.594 --> 00:03:05.740
+we could follow the same process.
+
+00:03:05.740 --> 00:03:11.465
+Make sure to include prospecting at the beginning of the campaign names in Google Ads,
+
+00:03:11.465 --> 00:03:18.400
+and that would mean we could define the prospecting channel as campaign starts with
+
+00:03:18.400 --> 00:03:23.050
+prospecting or campaign starts with prospecting
+
+00:03:23.050 --> 00:03:27.605
+with a little p. If you are running prospect and campaigns on other networks,
+
+00:03:27.604 --> 00:03:32.284
+and you can use UTM medium equals prospecting on those networks
+
+00:03:32.284 --> 00:03:37.719
+or medium, exactly matches, prospecting.
+
+00:03:37.719 --> 00:03:44.960
+Similarly, if we wanted to define a channel for our RLSA campaigns to find a new channel;
+
+00:03:44.960 --> 00:03:51.020
+RLSA, campaign, starts with RLSA.
+
+00:03:51.020 --> 00:03:55.805
+We would need to make sure to begin all of our RLSA campaigns with
+
+00:03:55.805 --> 00:03:58.685
+RLSA in the AdWords interface
+
+00:03:58.685 --> 00:04:01.930
+and then we could define the channel within Google Analytics.
+
+00:04:01.930 --> 00:04:07.159
+Lets consider the special case of Brand Paid Search and Generic Paid Search.
+
+00:04:07.159 --> 00:04:11.419
+Google Analytics provides some help to us in defining these channels.
+
+00:04:11.419 --> 00:04:13.824
+We'll click in to Manage Brand Terms.
+
+00:04:13.824 --> 00:04:18.529
+Let's say that you are working with the Acme Company and the Acme Company is
+
+00:04:18.529 --> 00:04:23.209
+marketing a special combination hammer and wrench called the hammewrench.
+
+00:04:23.209 --> 00:04:26.704
+So, enter acme as a brand term.
+
+00:04:26.704 --> 00:04:32.594
+We'll also enter URL variations and we'll enter hammewrench.
+
+00:04:32.595 --> 00:04:37.100
+Save the brand terms and we're automatically prompted to set up channels.
+
+00:04:37.100 --> 00:04:38.660
+We see the confirmation that
+
+00:04:38.660 --> 00:04:42.970
+the Generic Paid Search and Brand Paid Search channels have been set up for us.
+
+00:04:42.970 --> 00:04:45.075
+Let's talk about custom channels for
+
+00:04:45.074 --> 00:04:49.250
+YouTube remarketing instream and discovery campaigns.
+
+00:04:49.250 --> 00:04:52.939
+YouTube campaigns are administered through AdWords.
+
+00:04:52.939 --> 00:04:55.475
+Like other AdWords campaigns,
+
+00:04:55.475 --> 00:04:59.285
+they come through with the source medium value of Google cpc.
+
+00:04:59.285 --> 00:05:04.745
+So, if we did want to define a channel for any of these types of YouTube remarketing,
+
+00:05:04.745 --> 00:05:09.530
+we could again make sure that we included an identifier in the beginning of
+
+00:05:09.529 --> 00:05:12.109
+the campaign name within AdWords and
+
+00:05:12.110 --> 00:05:15.365
+then we would have what we needed to define our channel.
+
+00:05:15.365 --> 00:05:19.269
+So for instance in the case of YouTube discovery ads,
+
+00:05:19.269 --> 00:05:24.549
+if we included YT Discovery at the beginning of all of our campaigns,
+
+00:05:24.550 --> 00:05:27.420
+we could go into our channel definitions to find
+
+00:05:27.420 --> 00:05:30.730
+a new channel; YouTube discovery, campaign,
+
+00:05:30.730 --> 00:05:34.540
+starts with YT Discovery and
+
+00:05:34.540 --> 00:05:38.170
+you could enter any other additional conditions for case variations.
+
+00:05:38.170 --> 00:05:40.990
+Let's consider other types of custom channels within
+
+00:05:40.990 --> 00:05:45.535
+Google Analytics that we could define for YouTube click-throughs.
+
+00:05:45.535 --> 00:05:49.135
+If you are a part of the YouTube Partner Program,
+
+00:05:49.134 --> 00:05:51.939
+you can include cards in your video to include
+
+00:05:51.939 --> 00:05:55.134
+actions such as clicking through to your website.
+
+00:05:55.134 --> 00:05:58.074
+Same thing for end screens.
+
+00:05:58.074 --> 00:06:03.170
+In these cases, you would be able to control UTM medium and
+
+00:06:03.170 --> 00:06:06.049
+UTM source because they're not administered
+
+00:06:06.048 --> 00:06:09.504
+through AdWords and they aren't governed by auto tagging.
+
+00:06:09.504 --> 00:06:11.269
+So, in these cases,
+
+00:06:11.269 --> 00:06:13.849
+you would be able to define a custom channel,
+
+00:06:13.850 --> 00:06:15.695
+the so-called normal way,
+
+00:06:15.694 --> 00:06:19.159
+just based on medium value and source value.
+

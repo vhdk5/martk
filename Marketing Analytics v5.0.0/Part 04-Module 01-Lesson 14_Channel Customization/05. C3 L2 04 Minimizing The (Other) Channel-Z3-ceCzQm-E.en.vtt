@@ -1,0 +1,235 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.160
+We can't talk about channel cleanup without considering the other channel.
+
+00:00:05.160 --> 00:00:08.099
+The other channel really is not a channel.
+
+00:00:08.099 --> 00:00:11.910
+It's just a catch-all for any sessions that do not
+
+00:00:11.910 --> 00:00:16.019
+match any of the default or custom channel definitions.
+
+00:00:16.019 --> 00:00:21.989
+Ideally, you want the other channel to be as close to zero as possible.
+
+00:00:21.989 --> 00:00:24.629
+In this case, we don't have
+
+00:00:24.629 --> 00:00:28.424
+a huge number of sessions that are going into the other channel.
+
+00:00:28.425 --> 00:00:33.304
+But there still are 0.75 percent of sessions that are ending up in other.
+
+00:00:33.304 --> 00:00:36.454
+So, it's certainly enough for us to investigate.
+
+00:00:36.454 --> 00:00:39.769
+How are we going to clean out the other channel?
+
+00:00:39.770 --> 00:00:42.740
+In some cases, we'll be able to change
+
+00:00:42.740 --> 00:00:45.980
+the campaign parameters going forward to match one of
+
+00:00:45.979 --> 00:00:49.219
+the channel definitions or we could potentially
+
+00:00:49.219 --> 00:00:52.774
+deal with it within the channel definitions themselves.
+
+00:00:52.774 --> 00:00:55.489
+We can revise default channel definitions.
+
+00:00:55.490 --> 00:00:58.820
+We could revise custom channel definitions that we've already
+
+00:00:58.820 --> 00:01:02.390
+created or we could create a new custom channel.
+
+00:01:02.390 --> 00:01:06.590
+If we add source medium as a secondary dimension
+
+00:01:06.590 --> 00:01:11.090
+to the channels report and we filter on other for the primary dimension,
+
+00:01:11.090 --> 00:01:13.234
+we start to see some of the culprits.
+
+00:01:13.234 --> 00:01:14.795
+In the case of not set,
+
+00:01:14.795 --> 00:01:19.924
+this means that UTM medium is not being passed with other campaign parameters.
+
+00:01:19.924 --> 00:01:23.944
+We would probably just want to correct the campaign parameters themselves.
+
+00:01:23.944 --> 00:01:25.549
+What's going on here?
+
+00:01:25.549 --> 00:01:29.959
+Why isn't the source medium value matching the paid search channel definition?
+
+00:01:29.959 --> 00:01:32.388
+If we go back to our channel definitions,
+
+00:01:32.388 --> 00:01:36.530
+we see that the conditions for paid search are media matches regular
+
+00:01:36.530 --> 00:01:42.260
+expression cpc or ppc or paid search all lowercase.
+
+00:01:42.260 --> 00:01:45.875
+Capital CPC would not match this rule.
+
+00:01:45.875 --> 00:01:51.620
+So, our two approaches could be to either change UTM medium to lowercase cpc
+
+00:01:51.620 --> 00:01:57.230
+or if for some reason we could not change UTM medium to lowercase cpc,
+
+00:01:57.230 --> 00:02:01.704
+we would also have the choice to edit a default channel definition.
+
+00:02:01.704 --> 00:02:03.109
+We'd be able to go into
+
+00:02:03.109 --> 00:02:08.330
+the paid search default channel definition and add another condition defined rules,
+
+00:02:08.330 --> 00:02:16.814
+system define channel matches paid search or medium exactly matches uppercase CPC.
+
+00:02:16.814 --> 00:02:22.115
+There is a special note regarding our uppercase CPC medium value.
+
+00:02:22.115 --> 00:02:26.600
+Even if we added a lowercase medium filter to our view,
+
+00:02:26.599 --> 00:02:28.474
+this would not help channel matching.
+
+00:02:28.474 --> 00:02:31.099
+If we were lower casing the medium value,
+
+00:02:31.099 --> 00:02:35.555
+this filter would be applied after channel matching has already occurred.
+
+00:02:35.555 --> 00:02:38.930
+In the case of prospecting as a medium,
+
+00:02:38.930 --> 00:02:43.955
+the prospecting channel that we set up in the previous example would actually capture
+
+00:02:43.955 --> 00:02:50.000
+all of these sessions because one of the rules was medium exactly matches prospecting.
+
+00:02:50.000 --> 00:02:52.564
+In the case of medium equals survey,
+
+00:02:52.564 --> 00:02:55.150
+this seems like a specialized click-through.
+
+00:02:55.150 --> 00:02:58.819
+We'd also want to create a survey custom channel.
+
+00:02:58.819 --> 00:03:03.814
+Just to emphasize the overall procedure of channel customization and matching,
+
+00:03:03.814 --> 00:03:09.175
+remember that you control your channel customizations as an implementation step.
+
+00:03:09.175 --> 00:03:12.800
+Then, you can control your campaign parameters on
+
+00:03:12.800 --> 00:03:16.460
+an ongoing basis to match the channels as needed.
+
+00:03:16.460 --> 00:03:19.370
+It's hard to overemphasize the benefits of
+
+00:03:19.370 --> 00:03:23.740
+clean acquisition data on the campaigning and on the channel end.
+
+00:03:23.740 --> 00:03:26.439
+First, at a basic level,
+
+00:03:26.439 --> 00:03:28.939
+it cleans up your acquisition reports.
+
+00:03:28.939 --> 00:03:31.759
+Since you can apply the default channel grouping to
+
+00:03:31.759 --> 00:03:36.009
+the multi-channel funnel reports that Patrick we'll discuss in an upcoming lesson,
+
+00:03:36.009 --> 00:03:41.149
+we also get the benefit of clean acquisition data in the MCF reports.
+
+00:03:41.150 --> 00:03:44.090
+For any type of attribution modelling,
+
+00:03:44.090 --> 00:03:47.245
+clean acquisition data is going to be critical.
+
+00:03:47.245 --> 00:03:52.490
+Similarly, for any advanced analysis that involves acquisition data,
+
+00:03:52.490 --> 00:03:55.400
+the original data quality will be key.
+
+00:03:55.400 --> 00:03:57.814
+As we saw in a previous lesson,
+
+00:03:57.814 --> 00:04:03.829
+integration with other data sources including CRM data will help for analysis such as
+
+00:04:03.830 --> 00:04:05.719
+customer lifetime value by
+
+00:04:05.719 --> 00:04:11.284
+original marketing channel and also re-qualification by original marketing channel.
+
+00:04:11.284 --> 00:04:15.139
+Now, Patrick and I have gone through a lot of detail about
+
+00:04:15.139 --> 00:04:19.844
+campaign tracking and channel customization in the last two lessons.
+
+00:04:19.845 --> 00:04:22.520
+It's important to understand that there's not
+
+00:04:22.519 --> 00:04:26.629
+one correct way to approach campaigns and channel customization.
+
+00:04:26.629 --> 00:04:30.259
+But you do want to decide on a way that makes the most sense
+
+00:04:30.259 --> 00:04:34.115
+for you and your stakeholders and to stick with it.
+
+00:04:34.115 --> 00:04:36.620
+There are very few organizations that
+
+00:04:36.620 --> 00:04:39.894
+actually have a great handle on their acquisition data.
+
+00:04:39.894 --> 00:04:44.719
+So, if you can make sure to define the custom channels that make the most sense for
+
+00:04:44.720 --> 00:04:50.860
+you and then maintain your campaign tracking on an ongoing basis in a coherent way,
+
+00:04:50.860 --> 00:04:54.500
+you're going to be in a great position for analysis and
+
+00:04:54.500 --> 00:04:58.430
+optimization and you'll be at a competitive advantage.
+

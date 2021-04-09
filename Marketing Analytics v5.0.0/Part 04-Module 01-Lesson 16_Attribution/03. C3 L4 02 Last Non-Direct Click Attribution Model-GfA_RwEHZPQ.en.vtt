@@ -1,0 +1,166 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.165
+Let's take a look at last non-direct click attribution.
+
+00:00:03.165 --> 00:00:06.929
+This is the standard attribution model used in Google Analytics reporting.
+
+00:00:06.929 --> 00:00:11.699
+Keep in mind, Google will give attribution precedence to the last identifiable source
+
+00:00:11.699 --> 00:00:17.160
+medium campaign data for a user within the six-month campaign exploration window.
+
+00:00:17.160 --> 00:00:21.285
+Google will always favor known campaign or source medium data over
+
+00:00:21.285 --> 00:00:26.269
+unknown data and direct traffic will be the data without incoming source medium,
+
+00:00:26.269 --> 00:00:29.149
+campaign data for the current session and also
+
+00:00:29.149 --> 00:00:32.899
+with non-known campaign data within the expiration window.
+
+00:00:32.899 --> 00:00:37.429
+If you want to see the direct sessions driven by preceding campaign activity,
+
+00:00:37.429 --> 00:00:40.789
+there is a dimension called Direct Session in Google Analytics
+
+00:00:40.789 --> 00:00:44.524
+reporting that will expose direct-session data very clearly.
+
+00:00:44.524 --> 00:00:49.429
+Even though we have the ability to do multi-touch attribution in other places within GA,
+
+00:00:49.429 --> 00:00:55.130
+most standard GA reporting does rely on this known last non-direct click model.
+
+00:00:55.130 --> 00:00:58.365
+Let's take a look. Within the GA interface,
+
+00:00:58.365 --> 00:01:01.789
+we're looking here at standard default channel grouping report
+
+00:01:01.789 --> 00:01:05.554
+under acquisition, all traffic, channels.
+
+00:01:05.555 --> 00:01:08.240
+Let's just take a look at this data for a moment and
+
+00:01:08.239 --> 00:01:10.864
+make sure we understand what this data is telling us.
+
+00:01:10.864 --> 00:01:14.554
+We see here are various channels that have driven traffic to the website.
+
+00:01:14.555 --> 00:01:17.030
+Let's pick for example paid-search.
+
+00:01:17.030 --> 00:01:21.064
+This would be your search engine marketing traffic and I'm seeing here that I have
+
+00:01:21.064 --> 00:01:25.450
+7,579 sessions attributed to this channel for the period,
+
+00:01:25.450 --> 00:01:28.109
+January 1, through March 31st.
+
+00:01:28.109 --> 00:01:30.700
+What you may be thinking is, "Well this is great,
+
+00:01:30.700 --> 00:01:35.525
+about 7500 people clicked on one of my generic paid search ads and came to the website".
+
+00:01:35.525 --> 00:01:39.740
+This would be a reasonable assumption but it's not exactly how last
+
+00:01:39.739 --> 00:01:44.155
+non-direct attribution works in GA and let's think about why.
+
+00:01:44.155 --> 00:01:47.299
+Because of the six-month campaign window and because of
+
+00:01:47.299 --> 00:01:50.450
+how last non-direct attribution works,
+
+00:01:50.450 --> 00:01:54.710
+the 7500 session count includes both inbound sessions,
+
+00:01:54.709 --> 00:02:00.734
+where the source media campaign data indicated it was paid-search but
+
+00:02:00.734 --> 00:02:04.370
+also paid search receives attribution credit for
+
+00:02:04.370 --> 00:02:08.495
+all subsequent sessions with the following rule;
+
+00:02:08.495 --> 00:02:11.675
+that we are within the campaign exploration window
+
+00:02:11.675 --> 00:02:15.155
+and there is no new campaign data present.
+
+00:02:15.155 --> 00:02:17.900
+I've added here the secondary dimension called
+
+00:02:17.900 --> 00:02:23.995
+direct-sessions and it's going to have two different potential values, yes or no.
+
+00:02:23.995 --> 00:02:27.890
+What's helpful about this dimension in your acquisition reports is that,
+
+00:02:27.889 --> 00:02:32.149
+now I can see a clear breakdown of the original sessions attributed to a channel and
+
+00:02:32.150 --> 00:02:37.205
+also subsequent direct sessions that channel is receiving attribution credit for.
+
+00:02:37.205 --> 00:02:41.315
+This is going to help us clarify what we were talking about earlier.
+
+00:02:41.314 --> 00:02:44.210
+These direct-sessions are cases where a person had originally
+
+00:02:44.210 --> 00:02:47.165
+come to the website with this paid-search campaign data,
+
+00:02:47.164 --> 00:02:50.689
+and then they had subsequently visited the website without any new campaign data
+
+00:02:50.689 --> 00:02:54.139
+present and within the campaign exploration window.
+
+00:02:54.139 --> 00:02:58.639
+So, I can see that little over 5,400 of
+
+00:02:58.639 --> 00:03:03.199
+those 7,500 sessions were direct sessions that received
+
+00:03:03.199 --> 00:03:08.209
+attribution for paid search and about 2100 of those sessions were
+
+00:03:08.210 --> 00:03:14.195
+original visits to the website with the campaign data that got classified as paid search.
+
+00:03:14.194 --> 00:03:17.044
+It's an interesting way to break down the data.
+
+00:03:17.044 --> 00:03:18.474
+The good news is that,
+
+00:03:18.474 --> 00:03:21.359
+5,400 of those paid search sessions,
+
+00:03:21.360 --> 00:03:25.100
+were not actually paid-clicks and you're getting a lot of traction and
+
+00:03:25.099 --> 00:03:29.389
+residual benefit from the original clicks you paid for.
+

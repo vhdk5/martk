@@ -1,0 +1,145 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.955
+For enhanced Ecommerce implementation,
+
+00:00:02.955 --> 00:00:06.884
+you have to follow some of the same steps for basic E-commerce.
+
+00:00:06.884 --> 00:00:09.629
+But there's potentially a lot more work that you'll need to do
+
+00:00:09.630 --> 00:00:13.110
+depending on which enhanced E-commerce features you want to populate.
+
+00:00:13.109 --> 00:00:17.939
+There will be additional configuration for defining your checkout funnel steps as well.
+
+00:00:17.940 --> 00:00:21.330
+Note that while basic E-commerce uses a Google Analytics tag
+
+00:00:21.329 --> 00:00:24.599
+in GTM with tag type set to transaction.
+
+00:00:24.600 --> 00:00:29.400
+Enhanced Ecommerce data piggybacks on a regular page view or event tag.
+
+00:00:29.399 --> 00:00:32.100
+So, you'll need to configure your page view or
+
+00:00:32.100 --> 00:00:36.135
+event tag with the enable enhanced ecommerce functionality checkbox.
+
+00:00:36.134 --> 00:00:38.439
+I would recommend selecting use data layer,
+
+00:00:38.439 --> 00:00:40.689
+which is also a checkbox setting.
+
+00:00:40.689 --> 00:00:44.609
+This will allow GTM to pick up the enhanced E-commerce dimensions
+
+00:00:44.609 --> 00:00:48.530
+and metrics that you or your developers have written to the data layer,
+
+00:00:48.530 --> 00:00:53.335
+and we'll pass appropriately formatted Google Analytics E-commerce hit data.
+
+00:00:53.335 --> 00:00:58.549
+So here, we're looking at a data layer push for an event addToCart.
+
+00:00:58.549 --> 00:01:00.679
+When somebody adds an item to their cart,
+
+00:01:00.679 --> 00:01:02.700
+you push this information in the data layer,
+
+00:01:02.700 --> 00:01:05.340
+and you want to include the E-commerce action,
+
+00:01:05.340 --> 00:01:06.615
+which is the addToCart,
+
+00:01:06.614 --> 00:01:09.379
+and then you also want to include that data for
+
+00:01:09.379 --> 00:01:11.209
+the individual product that is being added to
+
+00:01:11.209 --> 00:01:14.004
+the cart that's highlighted in yellow below.
+
+00:01:14.004 --> 00:01:18.679
+Here's what an E-commerce purchase data layer pushed might look like.
+
+00:01:18.680 --> 00:01:21.220
+This is a perfectly working example.
+
+00:01:21.219 --> 00:01:26.004
+Again, you can consult the documentation and pick what works best for you,
+
+00:01:26.004 --> 00:01:29.284
+in terms of what data you want to send in and in what format,
+
+00:01:29.284 --> 00:01:33.709
+but this is a standard data layer.push for E-commerce purchase.
+
+00:01:33.709 --> 00:01:35.664
+It has the transaction ID,
+
+00:01:35.665 --> 00:01:38.880
+and it has the notations here from the support documentation of
+
+00:01:38.879 --> 00:01:42.974
+recommended data to include as well as items that are required,
+
+00:01:42.974 --> 00:01:45.890
+so a transaction ID is required.
+
+00:01:45.890 --> 00:01:48.004
+Again, for a product,
+
+00:01:48.004 --> 00:01:50.619
+you either have to have a name or ID.
+
+00:01:50.620 --> 00:01:52.200
+We recommend both.
+
+00:01:52.200 --> 00:01:54.365
+You can send multiple products,
+
+00:01:54.364 --> 00:01:58.009
+and each product would be listed in its own data layer object.
+
+00:01:58.010 --> 00:02:01.490
+So, just make sure that you follow the proper formatting guidelines for
+
+00:02:01.489 --> 00:02:06.214
+this hit information in order for it to get picked up by Google Tag Manager properly.
+
+00:02:06.215 --> 00:02:09.710
+Let's just circle back to the GA admin settings that you'll
+
+00:02:09.710 --> 00:02:13.235
+need to populate Enhanced Ecommerce data into your view.
+
+00:02:13.235 --> 00:02:16.264
+Briefly, in the analytics interface,
+
+00:02:16.264 --> 00:02:19.730
+under View Settings, Ecommerce Settings,
+
+00:02:19.729 --> 00:02:23.824
+you can see that there's a slider for enable E-commerce on or off,
+
+00:02:23.824 --> 00:02:28.125
+and then enable enhanced E-commerce reporting on and off.
+
+00:02:28.125 --> 00:02:30.935
+With enhanced E-commerce reporting on,
+
+00:02:30.935 --> 00:02:36.900
+you also have the ability to define the funnel steps for your checkout behavior.
+

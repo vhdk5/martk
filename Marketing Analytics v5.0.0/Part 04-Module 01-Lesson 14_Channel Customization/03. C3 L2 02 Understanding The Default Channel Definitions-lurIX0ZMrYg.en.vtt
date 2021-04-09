@@ -1,0 +1,310 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.314
+Before we begin talking about channel customization,
+
+00:00:03.314 --> 00:00:06.644
+let's look at the source medium report and the channels report.
+
+00:00:06.644 --> 00:00:09.539
+We're back into Google merchandise store demo account.
+
+00:00:09.539 --> 00:00:14.279
+All Google Analytics sessions that are recorded in the property and that are not
+
+00:00:14.279 --> 00:00:19.634
+filtered out at the view level are accounted for in the source medium report.
+
+00:00:19.635 --> 00:00:22.620
+If we navigate to the channels report,
+
+00:00:22.620 --> 00:00:26.414
+all of the same sessions appear in the channels report.
+
+00:00:26.414 --> 00:00:29.969
+However, the channels report is designed to provide
+
+00:00:29.969 --> 00:00:35.609
+a higher level slightly more human-readable classification of our traffic.
+
+00:00:35.609 --> 00:00:40.784
+How does Google Analytics map the source medium values to the channel values?
+
+00:00:40.784 --> 00:00:44.419
+Let's consider an example of a click-through from AdWords,
+
+00:00:44.420 --> 00:00:48.380
+now known as Google Ads or from Bing Ads.
+
+00:00:48.380 --> 00:00:50.675
+For either of those click-throughs,
+
+00:00:50.674 --> 00:00:53.209
+if we do have auto tagging enable,
+
+00:00:53.210 --> 00:00:56.524
+the medium would be recorded as CPC.
+
+00:00:56.524 --> 00:01:00.214
+That would match the rule for the paid search channel.
+
+00:01:00.215 --> 00:01:02.855
+In the case of an email click-through,
+
+00:01:02.854 --> 00:01:05.465
+if we've manually tagged our links or we've
+
+00:01:05.465 --> 00:01:08.689
+automated campaign tagging in our email program,
+
+00:01:08.689 --> 00:01:11.944
+the medium should be recorded as email.
+
+00:01:11.944 --> 00:01:16.634
+In this case, we would match the rule for the email channel.
+
+00:01:16.635 --> 00:01:19.525
+But how do we know what these rules are?
+
+00:01:19.525 --> 00:01:24.520
+There is a very important Google Analytics Help doc that we can refer to,
+
+00:01:24.519 --> 00:01:26.844
+the default channel definitions.
+
+00:01:26.844 --> 00:01:28.495
+If we search for
+
+00:01:28.495 --> 00:01:33.564
+Google Analytics default channel definitions and click through on the first result,
+
+00:01:33.564 --> 00:01:38.185
+we'll see the nine channels that your traffic can match by default.
+
+00:01:38.185 --> 00:01:41.019
+When we're reviewing these channel definitions,
+
+00:01:41.019 --> 00:01:44.780
+there are some important considerations that we'll want to keep in mind.
+
+00:01:44.780 --> 00:01:48.909
+First, is that we can edit a default channel definition as needed.
+
+00:01:48.909 --> 00:01:54.459
+Also, very importantly you can define your own custom channels as needed.
+
+00:01:54.459 --> 00:01:57.444
+You do not have to stick with the nine default channels.
+
+00:01:57.444 --> 00:02:00.500
+Also, critically you can take
+
+00:02:00.500 --> 00:02:02.870
+the campaign parameters that Patrick discussed in
+
+00:02:02.870 --> 00:02:05.329
+the last lesson and you can make sure that
+
+00:02:05.329 --> 00:02:07.474
+your campaign parameters are matching
+
+00:02:07.474 --> 00:02:14.030
+the default definitions or edited channel definitions or your own custom channels.
+
+00:02:14.030 --> 00:02:19.310
+Your campaign parameters and your channel definitions are going to work hand in hand.
+
+00:02:19.310 --> 00:02:23.555
+There are many good candidates for custom channels that you can define.
+
+00:02:23.555 --> 00:02:28.025
+Paid social, redirects, QR codes,
+
+00:02:28.025 --> 00:02:31.550
+press releases, SMS marketing,
+
+00:02:31.550 --> 00:02:34.219
+push notifications in your browser,
+
+00:02:34.219 --> 00:02:38.060
+push notifications for Mobile App Campaign Tracking,
+
+00:02:38.060 --> 00:02:40.675
+Click through some email signatures,
+
+00:02:40.675 --> 00:02:45.520
+click throughs on display campaigns that are either remarketing or prospecting,
+
+00:02:45.520 --> 00:02:49.310
+RLSA, brand or generic paid search
+
+00:02:49.310 --> 00:02:53.710
+click-throughs and several different types of YouTube Click-throughs.
+
+00:02:53.710 --> 00:02:55.260
+In this channels report,
+
+00:02:55.259 --> 00:02:58.414
+we see paid social broken out as a separate channel.
+
+00:02:58.414 --> 00:03:01.609
+Paid social is a great candidate for its own channel
+
+00:03:01.610 --> 00:03:05.030
+because it's really not like organic social click-throughs.
+
+00:03:05.030 --> 00:03:06.724
+It's really it's own thing.
+
+00:03:06.724 --> 00:03:12.724
+Let's remember again that we want to control both ends of clean acquisition data.
+
+00:03:12.724 --> 00:03:15.724
+We're going to define our own channels.
+
+00:03:15.724 --> 00:03:18.469
+Then, on an ongoing basis,
+
+00:03:18.469 --> 00:03:23.465
+we're going to control the campaign parameters that feed into those channels.
+
+00:03:23.465 --> 00:03:26.164
+In the case of paid social campaigns,
+
+00:03:26.164 --> 00:03:31.519
+we can make sure to use paid dash social as UTM medium.
+
+00:03:31.520 --> 00:03:34.520
+If we go back to our default channel definitions,
+
+00:03:34.520 --> 00:03:42.140
+and we see which of these channels UTM underscore medium equals paid social would match,
+
+00:03:42.139 --> 00:03:45.009
+the answer is it would match none of them,
+
+00:03:45.009 --> 00:03:47.539
+and that's okay because that means that we have
+
+00:03:47.539 --> 00:03:51.079
+the opportunity to define our own custom channel.
+
+00:03:51.080 --> 00:03:57.530
+We're back in our org test account specifically in the test view within the property.
+
+00:03:57.530 --> 00:04:01.370
+When we're editing the default channel grouping
+
+00:04:01.370 --> 00:04:03.800
+that will affect what everyone else sees in the view.
+
+00:04:03.800 --> 00:04:05.810
+So, we don't want to edit
+
+00:04:05.810 --> 00:04:10.534
+the default channel grouping directly in our main working view right away.
+
+00:04:10.534 --> 00:04:14.704
+We'll click into Channel Settings, channel grouping.
+
+00:04:14.705 --> 00:04:19.324
+For right now we're actually not going to click on "New channel grouping."
+
+00:04:19.324 --> 00:04:21.589
+That seems like the most important call to
+
+00:04:21.589 --> 00:04:25.489
+action but we're going to click into default channel grouping.
+
+00:04:25.490 --> 00:04:28.165
+Will click "Define a new channel."
+
+00:04:28.165 --> 00:04:32.220
+We'll call this channel Paid social.
+
+00:04:32.220 --> 00:04:35.310
+Our rule will be based on the medium value.
+
+00:04:35.310 --> 00:04:41.045
+Medium, exactly matches Paid social.
+
+00:04:41.045 --> 00:04:45.754
+You could let this channel run in your test view for a period of days.
+
+00:04:45.754 --> 00:04:49.129
+If the paid social channel is populating correctly,
+
+00:04:49.129 --> 00:04:53.105
+you could create the same channel within your main view.
+
+00:04:53.105 --> 00:04:57.410
+Here are some of the candidates for custom channels that we saw previously.
+
+00:04:57.410 --> 00:05:01.400
+In most cases, the channel is going to be defined based on
+
+00:05:01.399 --> 00:05:05.689
+the medium value that we provide in our campaign parameters.
+
+00:05:05.689 --> 00:05:11.509
+In one case, the channel will be defined based on medium and source value.
+
+00:05:11.509 --> 00:05:15.844
+You can define your own channels based on any number of dimensions.
+
+00:05:15.845 --> 00:05:21.760
+But usually, channels are defined based on medium or medium and source.
+
+00:05:21.759 --> 00:05:24.089
+As an important consideration,
+
+00:05:24.089 --> 00:05:26.079
+when you're defining your channels,
+
+00:05:26.079 --> 00:05:31.550
+make sure to add the more specific channel definitions to the top of the channels list.
+
+00:05:31.550 --> 00:05:36.560
+If we consider a custom channel definition for email signature that is
+
+00:05:36.560 --> 00:05:41.689
+based on medium matching email and source matching signature,
+
+00:05:41.689 --> 00:05:46.745
+we want to always keep in mind which channel is click-through would match first.
+
+00:05:46.745 --> 00:05:51.800
+If we have the email channel defined before the email signature channel,
+
+00:05:51.800 --> 00:05:56.750
+that will not give us our desired result because this click-through would satisfy
+
+00:05:56.750 --> 00:05:59.629
+the email channel definition and it would never
+
+00:05:59.629 --> 00:06:02.975
+get to the email signature channel definition.
+
+00:06:02.975 --> 00:06:07.385
+All sessions appear only one time each within the channels report.
+
+00:06:07.384 --> 00:06:11.185
+Once a definition is satisfied, the matching stops.
+
+00:06:11.185 --> 00:06:14.105
+So, this is not the scenario that we would want.
+
+00:06:14.105 --> 00:06:19.925
+What we would want is the more specific channel definition to appear first in the list.
+
+00:06:19.925 --> 00:06:23.795
+In this case, the email signature channel would be matched.
+
+00:06:23.795 --> 00:06:26.509
+The matching would stop at that point and
+
+00:06:26.509 --> 00:06:29.930
+our session would be recorded in the correct channel.
+

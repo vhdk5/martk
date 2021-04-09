@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.180
+All of the custom reports that we have created so
+
+00:00:03.180 --> 00:00:07.050
+far have used the default explorer type.
+
+00:00:07.049 --> 00:00:12.254
+The Explorer format, looks like most of the built-in reports that we're used to seeing.
+
+00:00:12.255 --> 00:00:14.130
+In the explorer format,
+
+00:00:14.130 --> 00:00:17.355
+if we wanted to we could create dimension drill-downs.
+
+00:00:17.355 --> 00:00:20.265
+For instance, we could select operating system,
+
+00:00:20.265 --> 00:00:22.740
+and then drill-down to browser.
+
+00:00:22.739 --> 00:00:26.339
+But, if we wanted to display these dimension side-by-side,
+
+00:00:26.339 --> 00:00:28.664
+we could use the flat table format.
+
+00:00:28.664 --> 00:00:32.399
+Now, if we add some metrics, sessions,
+
+00:00:32.399 --> 00:00:36.765
+average session duration, main again for the Report Tab name,
+
+00:00:36.765 --> 00:00:42.164
+we'll call this report OS and Browser Flat,
+
+00:00:42.164 --> 00:00:44.554
+and now we could see the combinations of
+
+00:00:44.554 --> 00:00:49.085
+operating system and browser laid out in the flat table format.
+
+00:00:49.085 --> 00:00:51.740
+We're back in the custom report that we defined
+
+00:00:51.740 --> 00:00:54.920
+previously for e-commerce performance by country.
+
+00:00:54.920 --> 00:00:57.660
+This report is very useful, and very streamlined.
+
+00:00:57.659 --> 00:01:01.534
+But, we may want to take advantage of the map overlay format
+
+00:01:01.534 --> 00:01:05.765
+for additional visual appeal, and effective communication.
+
+00:01:05.765 --> 00:01:10.784
+Click "Edit", and we'll switch over to map overlay as the report type.
+
+00:01:10.784 --> 00:01:13.754
+For zoom level, we'll keep that at world.
+
+00:01:13.754 --> 00:01:16.795
+For dimension, we'll select country,
+
+00:01:16.795 --> 00:01:20.465
+and now we have the same data plus the map overlay.
+
+00:01:20.465 --> 00:01:26.060
+We're back in our Landing Pages Streamlined Custom Report that we defined previously.
+
+00:01:26.060 --> 00:01:28.115
+Let's filter for mobile only.
+
+00:01:28.114 --> 00:01:30.199
+At the bottom of every customer report,
+
+00:01:30.200 --> 00:01:31.670
+we have filters available.
+
+00:01:31.670 --> 00:01:34.730
+This is actually another important advantage of custom reports.
+
+00:01:34.730 --> 00:01:40.730
+We can build filters right in device category, exactly matches mobile.
+
+00:01:40.730 --> 00:01:45.835
+Notice that the other option is our friend rejects.
+
+00:01:45.834 --> 00:01:50.659
+So, if we wanted to filter for mobile and tablet we could pipe tablet in,
+
+00:01:50.659 --> 00:01:54.829
+mobile pipe tablet, mobile or tablet.
+
+00:01:54.829 --> 00:01:58.219
+But for now, let's just filter for mobile,
+
+00:01:58.219 --> 00:02:03.519
+and let's rename the report Landing Pages Streamlined-Mobile Only.
+
+00:02:03.519 --> 00:02:08.525
+Now, we have a nice streamlined report showing only the metrics that we want to show,
+
+00:02:08.525 --> 00:02:12.590
+and with a built-in filter for a specific dimension value.
+

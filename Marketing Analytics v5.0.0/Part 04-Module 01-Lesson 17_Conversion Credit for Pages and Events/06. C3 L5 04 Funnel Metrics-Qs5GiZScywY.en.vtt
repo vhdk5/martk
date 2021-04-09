@@ -1,0 +1,418 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.195
+In this section, we'll be focusing on three metrics related to Goals and Goal Funnels.
+
+00:00:06.195 --> 00:00:11.519
+We'll revisit Goal Conversion Rate sometimes just referred to as Conversion Rate.
+
+00:00:11.519 --> 00:00:16.634
+We'll also explore Funnel Conversion Rate and Abandonment Rate.
+
+00:00:16.635 --> 00:00:20.250
+If you're in the Google Merchandise Store account,
+
+00:00:20.250 --> 00:00:21.839
+in the Master View,
+
+00:00:21.839 --> 00:00:26.320
+you can navigate to the Funnel Visualization report.
+
+00:00:26.320 --> 00:00:28.885
+If you select Goal one,
+
+00:00:28.885 --> 00:00:31.880
+you'll see a Funnel Visualization that looks like this.
+
+00:00:31.879 --> 00:00:34.534
+At the bottom of the Funnel Visualization,
+
+00:00:34.534 --> 00:00:38.509
+we see Funnel Conversion Rate as its own metric.
+
+00:00:38.509 --> 00:00:42.769
+Funnel Conversion Rate refers to the number of sessions in which
+
+00:00:42.770 --> 00:00:47.585
+the funnel was entered and the goal destination page reached.
+
+00:00:47.585 --> 00:00:50.585
+Funnel Conversion Rate is, by definition,
+
+00:00:50.585 --> 00:00:53.005
+pretty much always higher than
+
+00:00:53.005 --> 00:00:57.050
+Goal Conversion Rate because we're dealing with a smaller number of sessions.
+
+00:00:57.049 --> 00:01:00.034
+Funnel Conversion Rate is calculated based only
+
+00:01:00.034 --> 00:01:03.919
+on the sessions in which the user entered the funnel.
+
+00:01:03.920 --> 00:01:06.099
+Whereas, if we go to
+
+00:01:06.099 --> 00:01:11.780
+the Goal Overview report and we select a single Goal, the Conversion Rate,
+
+00:01:11.780 --> 00:01:14.644
+as we've seen before in previous discussions,
+
+00:01:14.644 --> 00:01:19.744
+is calculated based on goal completions relative to all sessions.
+
+00:01:19.745 --> 00:01:21.975
+We also see Abandonment Rate.
+
+00:01:21.974 --> 00:01:24.379
+Abandonment Rate is calculated only for
+
+00:01:24.379 --> 00:01:28.789
+those goals for which a Goal Funnel has been configured.
+
+00:01:28.790 --> 00:01:31.355
+Going back to Goal Conversion Rate,
+
+00:01:31.355 --> 00:01:38.350
+it may not be intuitive that the Goal Funnel does not affect the Goal Conversion Rate.
+
+00:01:38.349 --> 00:01:40.339
+Let's look at an illustration.
+
+00:01:40.340 --> 00:01:44.795
+Let's say we have one goal that has a funnel starting on the News page,
+
+00:01:44.795 --> 00:01:48.420
+then going to the Newsletter Sign-up page and then going to
+
+00:01:48.420 --> 00:01:53.710
+the Goal URL which corresponds to the Newsletter Sign-up Confirmation page.
+
+00:01:53.709 --> 00:01:58.539
+Let's say that we have another goal that starts on the About Us page,
+
+00:01:58.540 --> 00:02:04.550
+goes to the Newsletter Sign-up page as well and then ends up on the same Goal URL.
+
+00:02:04.549 --> 00:02:06.629
+We therefore have two goals,
+
+00:02:06.629 --> 00:02:11.585
+both pointing to the same Goal URL but with different funnels.
+
+00:02:11.585 --> 00:02:15.540
+In this case, Goals one and two would have
+
+00:02:15.539 --> 00:02:17.954
+a different Funnel Conversion Rate and
+
+00:02:17.955 --> 00:02:23.260
+a different Abandonment Rate but the Conversion Rate would be the same.
+
+00:02:23.330 --> 00:02:27.515
+The funnel does not affect Conversion Rate.
+
+00:02:27.514 --> 00:02:30.759
+Let's consider a little bit of a riddle.
+
+00:02:30.759 --> 00:02:37.074
+Why isn't Abandonment Rate always the exact inverse of Funnel Conversion Rate?
+
+00:02:37.074 --> 00:02:42.424
+We're seeing here an Abandonment Rate of 71.48 percent.
+
+00:02:42.425 --> 00:02:45.090
+If we go to Funnel Visualization,
+
+00:02:45.090 --> 00:02:49.965
+we see a Funnel Conversion Rate of 28.44 percent.
+
+00:02:49.965 --> 00:02:53.620
+That almost adds up to a 100 percent between
+
+00:02:53.620 --> 00:02:57.504
+Funnel Conversion Rate and Abandonment Rate but not exactly.
+
+00:02:57.504 --> 00:03:01.299
+Why don't they always equal 100 percent together?
+
+00:03:01.300 --> 00:03:04.930
+Now, this discussion is going to get a little bit
+
+00:03:04.930 --> 00:03:09.990
+detailed but it will help us really understand how these two metrics are calculated.
+
+00:03:09.990 --> 00:03:12.515
+The first thing that we'll want to be aware of
+
+00:03:12.514 --> 00:03:15.259
+is if the first step of the Funnel is marked
+
+00:03:15.259 --> 00:03:20.614
+as required in the Funnel configuration that you or someone else set up in the Goal.
+
+00:03:20.615 --> 00:03:23.060
+Let's go to the Goal Configuration from
+
+00:03:23.060 --> 00:03:27.360
+the admin screen of the Master View in the Google Merchandise Store account,
+
+00:03:27.360 --> 00:03:29.835
+Purchase Completed is our Goal.
+
+00:03:29.835 --> 00:03:35.030
+We see here that the funnel was defined with the first step required.
+
+00:03:35.030 --> 00:03:38.150
+That means that this Funnel Configuration will only
+
+00:03:38.150 --> 00:03:42.140
+recognize users who entered the funnel at the first step.
+
+00:03:42.139 --> 00:03:46.279
+If there's a chance that users will enter the funnel at a lower step,
+
+00:03:46.280 --> 00:03:48.965
+this funnel will not recognize those sessions.
+
+00:03:48.965 --> 00:03:52.140
+This is why the Funnel Visualization that we see for
+
+00:03:52.139 --> 00:03:55.904
+the Purchase Completed goal in the Merchandise Store Master View,
+
+00:03:55.905 --> 00:03:59.569
+only shows entries at the first step of the funnel.
+
+00:03:59.569 --> 00:04:02.269
+So, that's one variable.
+
+00:04:02.270 --> 00:04:06.380
+You can configure funnels to require the first step or not.
+
+00:04:06.379 --> 00:04:09.544
+It depends on the type of funnel that you want to build.
+
+00:04:09.544 --> 00:04:13.234
+You could define two Goals with the same Funnel Configuration,
+
+00:04:13.235 --> 00:04:18.634
+the only difference being that the first step is required in one and not in the other.
+
+00:04:18.634 --> 00:04:23.689
+But let's get back to the calculation of Funnel Conversion Rate and Abandonment Rate.
+
+00:04:23.689 --> 00:04:26.225
+The reason that they don't always add up to
+
+00:04:26.225 --> 00:04:30.560
+100 percent is that the Funnel Conversion Rate, as expected,
+
+00:04:30.560 --> 00:04:34.535
+does recognize the first step required setting when it's specified,
+
+00:04:34.535 --> 00:04:38.645
+whereas Abandonment Rate disregards that setting.
+
+00:04:38.644 --> 00:04:43.414
+So, they're not always calculated based on the same factors.
+
+00:04:43.415 --> 00:04:48.500
+This means that if you do have a Goal Funnel set up where the first step is not required,
+
+00:04:48.500 --> 00:04:54.175
+the Funnel Conversion Rate and the Abandonment Rate will always equal 100 percent.
+
+00:04:54.175 --> 00:04:56.020
+Because in this case,
+
+00:04:56.019 --> 00:05:00.664
+both metrics are calculated based on entries at all steps in the funnel.
+
+00:05:00.665 --> 00:05:05.465
+However, if you instead configured a funnel to require the first step,
+
+00:05:05.464 --> 00:05:08.089
+that's where the discrepancy can happen
+
+00:05:08.089 --> 00:05:12.259
+because Abandonment Rate will still be calculated based on
+
+00:05:12.259 --> 00:05:14.855
+all entries in the funnel whereas
+
+00:05:14.855 --> 00:05:16.879
+Funnel Conversion Rate will only be
+
+00:05:16.879 --> 00:05:20.259
+calculated based on entries in the top step of the funnel.
+
+00:05:20.259 --> 00:05:24.849
+So, you may end up with a situation where Funnel Conversion Rate plus
+
+00:05:24.850 --> 00:05:30.175
+Abandonment Rate equal more than 100 percent or less than 100 percent.
+
+00:05:30.175 --> 00:05:36.295
+In fact, if we look at the Funnel Conversion Rate for the funnel in the Master View,
+
+00:05:36.295 --> 00:05:39.390
+we see that it's 28.44 percent.
+
+00:05:39.389 --> 00:05:41.834
+If we go to the Goal Overview report,
+
+00:05:41.834 --> 00:05:47.599
+we see that the Abandonment Rate for Goal one is 71.48 percent.
+
+00:05:47.600 --> 00:05:51.200
+So, close to a 100 percent but not exactly.
+
+00:05:51.199 --> 00:05:54.560
+This is because the first step of this funnel is required,
+
+00:05:54.560 --> 00:05:59.629
+the Funnel Conversion Rate is recognizing entries only in the first step of the funnel,
+
+00:05:59.629 --> 00:06:01.759
+whereas the Abandonment Rate is still
+
+00:06:01.759 --> 00:06:06.334
+recognizing the few entries that happened at a lower step in the funnel.
+
+00:06:06.334 --> 00:06:12.349
+As one more aspect of Goal Funnels in GA that is probably quite unexpected for all of us,
+
+00:06:12.350 --> 00:06:15.040
+there is the phenomenon of backfilling.
+
+00:06:15.040 --> 00:06:18.425
+Backfilling means that a higher funnel step in a funnel
+
+00:06:18.425 --> 00:06:22.460
+always reports at least as many completions as a lower step,
+
+00:06:22.459 --> 00:06:26.509
+even if all of those funnel step completions did not occur.
+
+00:06:26.509 --> 00:06:29.750
+So, when we're reviewing the Funnel Visualization report,
+
+00:06:29.750 --> 00:06:35.689
+it's a good idea to also validate the flow with the Goal Flow report and even to validate
+
+00:06:35.689 --> 00:06:39.110
+Unique Pageview in the Pages report because
+
+00:06:39.110 --> 00:06:44.105
+the funnel steps correspond to Unique Page-views of that step in the session.
+
+00:06:44.105 --> 00:06:47.194
+Let's review backfill in greater detail.
+
+00:06:47.194 --> 00:06:51.439
+What backfill means is that a step that's higher in the funnel
+
+00:06:51.439 --> 00:06:56.360
+will never report lower completions than a step that's lower in the funnel.
+
+00:06:56.360 --> 00:06:59.449
+So, for instance, even if there was
+
+00:06:59.449 --> 00:07:02.149
+an Express Payment option and users were
+
+00:07:02.149 --> 00:07:05.120
+able to skip over Payment and go right to Review,
+
+00:07:05.120 --> 00:07:10.129
+Payment would still show a higher number of completions than Review.
+
+00:07:10.129 --> 00:07:13.435
+How can we validate the actual flow through the funnel?
+
+00:07:13.435 --> 00:07:16.069
+When we're viewing the Funnel Visualization report,
+
+00:07:16.069 --> 00:07:20.074
+it's always recommended to also refer to the Goal Flow report.
+
+00:07:20.074 --> 00:07:22.490
+The Goal Flow report gives
+
+00:07:22.490 --> 00:07:26.935
+a more detailed illustration of progression through steps in the funnel.
+
+00:07:26.935 --> 00:07:29.379
+In this case, we can see, in fact,
+
+00:07:29.379 --> 00:07:34.339
+that the three middle steps in the funnel are in fact being skipped in many cases and
+
+00:07:34.339 --> 00:07:39.724
+that backfill is being shown in the Funnel Visualization report.
+
+00:07:39.725 --> 00:07:44.810
+Another way that we could validate completions of funnel steps is to just look in
+
+00:07:44.810 --> 00:07:50.449
+the Pages report for the Unique Pageviews that correspond to the funnel steps.
+
+00:07:50.449 --> 00:07:54.509
+So, for instance, we could see here that
+
+00:07:54.509 --> 00:08:00.394
+payment.html is the page that corresponds to the payment step in the funnel.
+
+00:08:00.394 --> 00:08:04.324
+If we go to the All Pages report and filter for the Payment page,
+
+00:08:04.324 --> 00:08:10.375
+we could see that there were 1689 Unique Page-views of this page.
+
+00:08:10.375 --> 00:08:13.550
+So, even the Goal Flow report was somewhat
+
+00:08:13.550 --> 00:08:17.090
+inflated and the Funnel Visualization report was very inflated.
+
+00:08:17.089 --> 00:08:20.134
+Now, don't be discouraged about funnels.
+
+00:08:20.134 --> 00:08:22.730
+Goal funnels are still very useful.
+
+00:08:22.730 --> 00:08:27.140
+But we do need to remember to refer to both the Funnel Visualization
+
+00:08:27.139 --> 00:08:31.774
+and the Goal Flow reports to verify if backfill is occurring.
+
+00:08:31.774 --> 00:08:35.209
+It's also not a bad idea to further validate
+
+00:08:35.210 --> 00:08:39.845
+the funnel by checking the Unique Pageviews for all steps involved.
+
+00:08:39.845 --> 00:08:45.860
+As one more consideration about funnels and funnel metrics you may be wondering why
+
+00:08:45.860 --> 00:08:49.370
+the Merchandise Store Demo account has a Purchase goal and a funnel
+
+00:08:49.370 --> 00:08:53.674
+configured when Enhanced Ecommerce is already being captured.
+
+00:08:53.674 --> 00:08:59.479
+This is a good practice because the Goal Funnel allows us to populate Abandonment Rate,
+
+00:08:59.480 --> 00:09:05.615
+Funnel Conversion Rate and the Funnel Visualization and Goal Flow report themselves,
+
+00:09:05.615 --> 00:09:10.889
+thereby providing additional perspectives as we analyze our users path to conversion.
+
