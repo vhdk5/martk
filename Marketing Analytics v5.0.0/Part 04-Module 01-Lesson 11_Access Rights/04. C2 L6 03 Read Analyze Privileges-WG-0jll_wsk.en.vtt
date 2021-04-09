@@ -1,0 +1,43 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.299
+Let's say you want to share Google Analytics data with a user on
+
+00:00:03.299 --> 00:00:07.379
+your team or maybe even a vendor or a freelancer that works with your company,
+
+00:00:07.379 --> 00:00:11.070
+consider using Read and Analyze User Permission.
+
+00:00:11.070 --> 00:00:14.609
+Read and analyze allows the user to see report data,
+
+00:00:14.609 --> 00:00:17.820
+filter a table, add a secondary dimension,
+
+00:00:17.820 --> 00:00:23.399
+create a segment, create and share personal assets like segments or custom reports,
+
+00:00:23.399 --> 00:00:25.409
+and see shared assets.
+
+00:00:25.410 --> 00:00:29.804
+Keep in mind you can assign Read and Analyze at either the account,
+
+00:00:29.804 --> 00:00:33.310
+property or view level in the account hierarchy.
+
+00:00:33.310 --> 00:00:37.280
+The key question to ask here is do you want someone to be able to read and
+
+00:00:37.280 --> 00:00:41.920
+analyze at the entire account level including all properties and views?
+
+00:00:41.920 --> 00:00:45.635
+Do you want to limit the access to just one property or two?
+
+00:00:45.634 --> 00:00:48.829
+Or do you want to limit the access to the view level?
+

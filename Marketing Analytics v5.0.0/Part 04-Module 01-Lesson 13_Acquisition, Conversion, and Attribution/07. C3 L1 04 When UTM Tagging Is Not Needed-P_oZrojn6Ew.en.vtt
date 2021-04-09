@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.600
+Let's continue the conversation about when UTM tagging is
+
+00:00:03.600 --> 00:00:07.259
+not needed to track your campaign performance in Google Analytics.
+
+00:00:07.259 --> 00:00:08.939
+As we already discussed,
+
+00:00:08.939 --> 00:00:10.529
+when you have auto tagging enabled in
+
+00:00:10.529 --> 00:00:13.544
+AdWords and your account linked, you do not need it.
+
+00:00:13.544 --> 00:00:17.265
+If you happen to be a GA360 user and you have your double-click,
+
+00:00:17.265 --> 00:00:21.269
+now known as Google Marketing Platform or GMP accounts linked,
+
+00:00:21.269 --> 00:00:23.399
+and also auto tagging enabled,
+
+00:00:23.399 --> 00:00:27.989
+that's another instance where you do not need to use UTM parameters.
+
+00:00:27.989 --> 00:00:30.119
+Internal links within your website.
+
+00:00:30.120 --> 00:00:32.810
+We see this issue fairly frequently and it is not
+
+00:00:32.810 --> 00:00:36.620
+a good idea to use campaign tags on your internal links.
+
+00:00:36.619 --> 00:00:39.844
+It seems like a good idea to track these efforts as campaigns.
+
+00:00:39.844 --> 00:00:42.890
+The problem is that you are fragmenting your sessions.
+
+00:00:42.890 --> 00:00:45.469
+Every time campaign parameters are present in the link,
+
+00:00:45.469 --> 00:00:49.204
+you're going to break the session and you're going to start a new session.
+
+00:00:49.204 --> 00:00:51.979
+More importantly, you're going to overwrite
+
+00:00:51.979 --> 00:00:57.259
+that attributed campaign data that you already have associated with that user's cookie.
+
+00:00:57.259 --> 00:00:59.269
+So, you are in effect overriding
+
+00:00:59.270 --> 00:01:02.240
+the actual marketing activities that brought that person to you,
+
+00:01:02.240 --> 00:01:04.340
+and so you're really damaging your ability to
+
+00:01:04.340 --> 00:01:06.829
+effectively attribute conversion activities to
+
+00:01:06.829 --> 00:01:11.840
+your original marketing sources when you use campaign parameters on your internal links.
+
+00:01:11.840 --> 00:01:13.835
+So, again, don't do it.
+
+00:01:13.834 --> 00:01:17.659
+True referral traffic really does not need UTM parameters.
+
+00:01:17.659 --> 00:01:20.269
+So, if you happen to get a good review on a product
+
+00:01:20.269 --> 00:01:23.069
+just because somebody purchased your product really liked it,
+
+00:01:23.069 --> 00:01:27.244
+they decided to mention it on their personal blog or some other website that they have,
+
+00:01:27.245 --> 00:01:29.900
+you didn't devote any marketing dollars to it.
+
+00:01:29.900 --> 00:01:31.850
+You didn't cultivate that relationship.
+
+00:01:31.849 --> 00:01:34.144
+They just decided to put a link to your site.
+
+00:01:34.144 --> 00:01:36.979
+You don't need UTM parameters for that.
+
+00:01:36.980 --> 00:01:41.900
+That traffic will get captured as a referral and it really is a true referral,
+
+00:01:41.900 --> 00:01:45.260
+similar with your organic link building efforts.
+
+00:01:45.260 --> 00:01:46.875
+If your inbound links,
+
+00:01:46.875 --> 00:01:48.474
+if they're just naturally acquired,
+
+00:01:48.474 --> 00:01:50.479
+somebody liked your website and they link to you,
+
+00:01:50.480 --> 00:01:52.490
+again, that's true referral traffic.
+
+00:01:52.489 --> 00:01:54.799
+No need for UTM parameters.
+
+00:01:54.799 --> 00:01:56.759
+Your earned social media links.
+
+00:01:56.760 --> 00:02:00.400
+If somebody mentioned you on his personal Facebook profile with a post,
+
+00:02:00.400 --> 00:02:02.930
+it will get picked up as a social referral.
+
+00:02:02.930 --> 00:02:05.630
+This is true for referrals from social sites,
+
+00:02:05.629 --> 00:02:08.240
+but it won't be the case for social apps.
+

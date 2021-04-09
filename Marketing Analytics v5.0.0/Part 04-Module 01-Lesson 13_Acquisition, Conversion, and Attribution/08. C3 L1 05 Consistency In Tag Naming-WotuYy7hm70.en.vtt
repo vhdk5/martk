@@ -1,0 +1,160 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.990
+Now that we have a better idea on how UTM tags provide campaign data
+
+00:00:03.990 --> 00:00:07.740
+to Google Analytics and the cases where we don't need UTM tags,
+
+00:00:07.740 --> 00:00:12.839
+let's talk about some considerations for your campaign traffic that does need UTM tags.
+
+00:00:12.839 --> 00:00:15.929
+So in order to get the most out of your tagging,
+
+00:00:15.929 --> 00:00:18.495
+you really want to strive towards consistency.
+
+00:00:18.495 --> 00:00:24.105
+Consistency within particular channels and consistency across your channels.
+
+00:00:24.105 --> 00:00:27.120
+It is really important and it helps to improve how you
+
+00:00:27.120 --> 00:00:30.255
+can bucket your traffic into your appropriate marketing channels.
+
+00:00:30.254 --> 00:00:34.439
+It helps ensure that you have clean data that is usable in your reporting,
+
+00:00:34.439 --> 00:00:37.394
+and it's going to make your life a whole lot easier down the road.
+
+00:00:37.395 --> 00:00:40.780
+So I've just created a little chart here that we can take a look at,
+
+00:00:40.780 --> 00:00:43.804
+and it takes us down the hierarchy starting with campaign,
+
+00:00:43.804 --> 00:00:46.160
+and then medium, and then source.
+
+00:00:46.159 --> 00:00:50.644
+This chart gives you a visualization of an example where you have a unified campaign,
+
+00:00:50.645 --> 00:00:54.500
+then why not use a consistent UTM campaign value across that campaign.
+
+00:00:54.500 --> 00:00:57.560
+So in this case, your holiday free shipping promotion.
+
+00:00:57.560 --> 00:01:01.219
+Why not in any case where you're promoting that campaign use
+
+00:01:01.219 --> 00:01:05.209
+holiday-fs-2018, separated by dashes.
+
+00:01:05.209 --> 00:01:06.679
+Then going down the chain,
+
+00:01:06.680 --> 00:01:09.275
+we have in this case a medium of email,
+
+00:01:09.275 --> 00:01:13.870
+and a medium of display-rt, paid social media.
+
+00:01:13.870 --> 00:01:15.835
+So in each of these cases again,
+
+00:01:15.834 --> 00:01:18.064
+we want to have a different medium to reflect what
+
+00:01:18.064 --> 00:01:20.454
+each of those different marketing programs is.
+
+00:01:20.454 --> 00:01:25.969
+Keep in mind, once you've decided that UTM medium equals email is going to be for email,
+
+00:01:25.969 --> 00:01:29.405
+then you should use that for all of your email marketing efforts.
+
+00:01:29.405 --> 00:01:34.775
+Similar with if you are going to use display-rt anytime you have displayed retargeting,
+
+00:01:34.775 --> 00:01:38.030
+then use the same UTM medium value and so forth.
+
+00:01:38.030 --> 00:01:42.349
+One exception for retargeting is your remarketing campaigns in Google Ads,
+
+00:01:42.349 --> 00:01:46.359
+which are going to automatically come in as Google CPC.
+
+00:01:46.359 --> 00:01:48.064
+Then for source.
+
+00:01:48.064 --> 00:01:49.609
+So in the case of email here,
+
+00:01:49.609 --> 00:01:54.079
+the source of this particular email traffic is your house-file-all-subscribers.
+
+00:01:54.079 --> 00:01:56.620
+So you want to identify that source clearly.
+
+00:01:56.620 --> 00:01:59.180
+Many email platforms provide an option for
+
+00:01:59.180 --> 00:02:02.825
+automatic UTM tagging for any links contained in the email.
+
+00:02:02.825 --> 00:02:06.409
+You can take advantage of this option for consistency.
+
+00:02:06.409 --> 00:02:10.250
+Your displayed retargeting is run through a vendor criteo.
+
+00:02:10.250 --> 00:02:12.650
+So you might just simplify that with criteo.
+
+00:02:12.650 --> 00:02:15.110
+Another thing you could do is break that down to
+
+00:02:15.110 --> 00:02:19.300
+the individual publisher level line items if you had that data available.
+
+00:02:19.300 --> 00:02:22.015
+To recap briefly, for source,
+
+00:02:22.014 --> 00:02:26.314
+you should consistently reflect where particular campaign traffic is coming from;
+
+00:02:26.314 --> 00:02:29.659
+Google, Yahoo, Facebook, etc.
+
+00:02:29.659 --> 00:02:31.789
+Medium should also be consistent,
+
+00:02:31.789 --> 00:02:34.084
+but here you are striving for consistent tagging
+
+00:02:34.085 --> 00:02:36.650
+relative to particular formats of advertising;
+
+00:02:36.650 --> 00:02:41.230
+CPC, CPM, Email, Social, etc.
+
+00:02:41.229 --> 00:02:44.929
+For campaign, you want to use user-friendly naming conventions
+
+00:02:44.930 --> 00:02:48.740
+that are fairly intuitive for somebody seeing that data for the first time.
+
+00:02:48.740 --> 00:02:51.800
+You want them to be consistent and to be descriptive in
+
+00:02:51.800 --> 00:02:55.740
+an abbreviated format that's easy to digest.
+

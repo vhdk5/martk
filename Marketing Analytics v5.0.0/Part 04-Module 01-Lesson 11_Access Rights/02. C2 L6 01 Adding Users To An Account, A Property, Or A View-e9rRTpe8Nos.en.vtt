@@ -1,0 +1,133 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.770
+You can add users to
+
+00:00:01.770 --> 00:00:05.609
+your Google Analytics account at different levels of the account hierarchy.
+
+00:00:05.610 --> 00:00:07.500
+Where you add a user determines
+
+00:00:07.500 --> 00:00:11.085
+their initial access so it's important to understand the structure.
+
+00:00:11.085 --> 00:00:14.685
+The highest level of the account hierarchy is organization.
+
+00:00:14.685 --> 00:00:18.554
+Next is account, then property, and then view.
+
+00:00:18.554 --> 00:00:22.949
+You add users in the admin section in Google Analytics.
+
+00:00:22.949 --> 00:00:29.174
+You need manage users permission at the account property or view level to add users.
+
+00:00:29.175 --> 00:00:32.009
+So, for example, if you click "User Management" at
+
+00:00:32.009 --> 00:00:34.744
+the account level in the Google merchandise store,
+
+00:00:34.744 --> 00:00:37.574
+you'll see that although you have access to the account,
+
+00:00:37.575 --> 00:00:41.155
+you need the write permission level to add new users.
+
+00:00:41.155 --> 00:00:43.079
+Each time you add a new user,
+
+00:00:43.079 --> 00:00:48.589
+the key question to ask is do you want the user to have access to the entire account,
+
+00:00:48.590 --> 00:00:50.480
+certain properties in the account,
+
+00:00:50.479 --> 00:00:52.549
+or just certain views?
+
+00:00:52.549 --> 00:00:55.854
+Let's use an example to explore this question.
+
+00:00:55.854 --> 00:01:00.529
+In this example, you have a parent organization that owns a media company.
+
+00:01:00.530 --> 00:01:03.890
+The media company has several digital brands.
+
+00:01:03.890 --> 00:01:08.704
+Each brand would have its own property and each property could have specific views.
+
+00:01:08.704 --> 00:01:12.950
+Let's say one of the brands is The Huffington Post to make this more realistic.
+
+00:01:12.950 --> 00:01:16.519
+The parent organization is Verizon Communications.
+
+00:01:16.519 --> 00:01:19.609
+They have a media company called Oath Inc.
+
+00:01:19.609 --> 00:01:23.510
+If you added the user at the organization or account level,
+
+00:01:23.510 --> 00:01:26.540
+the user would have access to all of the properties and views in
+
+00:01:26.540 --> 00:01:30.185
+the account with the same set of permissions that you use.
+
+00:01:30.185 --> 00:01:34.969
+If you add the user at the property level so at The Huffington Post property,
+
+00:01:34.969 --> 00:01:36.980
+then the user would only have access to
+
+00:01:36.980 --> 00:01:39.560
+that property with the permissions that you provide.
+
+00:01:39.560 --> 00:01:43.549
+Let's say you were the analytics manager and you wanted to create a view that only had
+
+00:01:43.549 --> 00:01:47.465
+analytics data for the podcast section of The Huffington Post.
+
+00:01:47.465 --> 00:01:51.965
+You could use a filter to create that view and share it with all of your podcasters.
+
+00:01:51.965 --> 00:01:54.500
+They would only have access to analytics data for
+
+00:01:54.500 --> 00:01:57.739
+this view keeping all other analytics data private.
+
+00:01:57.739 --> 00:02:00.349
+This is one way you can leverage views.
+
+00:02:00.349 --> 00:02:03.709
+We'll explore this concept further later on in the course.
+
+00:02:03.709 --> 00:02:05.689
+Once you've selected a level,
+
+00:02:05.689 --> 00:02:08.900
+go to the desired account property or view.
+
+00:02:08.900 --> 00:02:11.034
+Click "User Management."
+
+00:02:11.034 --> 00:02:12.884
+In the account users list,
+
+00:02:12.884 --> 00:02:16.209
+you click "Plus" then click "Add new users."
+
+00:02:16.210 --> 00:02:19.730
+Enter the email address for the user's Google account,
+
+00:02:19.729 --> 00:02:23.729
+select the permissions you want, and click "Add."
+

@@ -1,0 +1,608 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Using campaign tags for mobile apps- Legacy SDKs &amp; Firebase </title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Acquisition, Conversion, and Attribution</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Intro.html">01. Intro</a>
+    </li>
+    <li class="">
+      <a href="02. UTM Tagging for Campaigns Introduction.html">02. UTM Tagging for Campaigns Introduction</a>
+    </li>
+    <li class="">
+      <a href="03. Using Campaign Tags for Display, Remarketing &amp; PPC Campaigns.html">03. Using Campaign Tags for Display, Remarketing &amp; PPC Campaigns</a>
+    </li>
+    <li class="">
+      <a href="04. Maintaining Document Referrer.html">04. Maintaining Document Referrer</a>
+    </li>
+    <li class="">
+      <a href="05. Autotagging for Adwords.html">05. Autotagging for Adwords</a>
+    </li>
+    <li class="">
+      <a href="06. Quiz UTM Campaign Tags.html">06. Quiz: UTM Campaign Tags</a>
+    </li>
+    <li class="">
+      <a href="07. When UTM Tagging is not Needed.html">07. When UTM Tagging is not Needed</a>
+    </li>
+    <li class="">
+      <a href="08. Consistency in Tag Naming.html">08. Consistency in Tag Naming</a>
+    </li>
+    <li class="">
+      <a href="09. Strategies For Tagging Across Team.html">09. Strategies For Tagging Across Team</a>
+    </li>
+    <li class="">
+      <a href="10. Alternatives to Campaign Tags on Internal Links.html">10. Alternatives to Campaign Tags on Internal Links</a>
+    </li>
+    <li class="">
+      <a href="11. Using Campaign Tags for Mobile Apps (Legacy SDKs).html">11. Using Campaign Tags for Mobile Apps (Legacy SDKs)</a>
+    </li>
+    <li class="">
+      <a href="12. Using campaign tags for mobile apps- Legacy SDKs &amp; Firebase .html">12. Using campaign tags for mobile apps- Legacy SDKs &amp; Firebase </a>
+    </li>
+    <li class="">
+      <a href="13. Quiz When UTMs aren’t needed.html">13. Quiz: When UTMs aren’t needed</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">12. Using campaign tags for mobile apps- Legacy SDKs & Firebase </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>In Firebase Console you can easily create dynamic links for your mobile app campaigns:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image1.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image7.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image9.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>Once configured, use your dynamic links in your app campaigns to ensure your users are always taken to the appropriate destination from your app campaigns.<br />
+For campaign tracking using GTM + Firebase SDK, work with your app developer to add the following code to your app build:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <p>``` FirebaseDynamicLinks.getInstance()</p>
+<p>.getDynamicLink(getIntent())<br />
+ .addOnSuccessListener(this, new</p>
+<p>OnSuccessListener() { </p>
+<p><a href="https://github.com/Override" rel="noopener noreferrer" target="_blank">@Override</a></p>
+<p>public void onSuccess(PendingDynamicLinkData pendingDynamicLinkData) { </p>
+<p>// Get deep link from result (may be null if no link is found) </p>
+<p>Uri deepLink = null;</p>
+<p>if (pendingDynamicLinkData != null) {</p>
+<p>deepLink = pendingDynamicLinkData.getLink(); </p>
+<p>} </p>
+<p>// Handle the deep link. For example, open the linked </p>
+<p>// content, or apply promotional credit to the user’s </p>
+<p>// account. </p>
+<p>// … </p>
+<p>String cs = String.valueOf(deepLink. getQueryParameters(“utm_source”)); </p>
+<p>String cn = String.valueOf(deepLink. getQueryParameters(“utm_campaign”)); </p>
+<p>String cm = String.valueOf(deepLink. getQueryParameters(“utm_medium”)); </p>
+<p>if(cs !=null &amp;&amp; cn !=null){ <br />
+Bundle params = new Bundle(); <br />
+params.PutString(FirebaseAnalytics.param. SOURCE, cs); </p>
+<p>params.PutString(FirebaseAnalytics.param. MEDIUM, cm); </p>
+<p>params.PutString(FirebaseAnalytics.param. CAMPAIGN, cn); </p>
+<p>mFirebaseAnalytics.logEvent(FirebaseAnalytics. Event.CAMPAIGN_DETAILS, params); </p>
+<p>mFirebaseAnalytics.logEvent(FirebaseAnalytics. Event.APP_OPEN, params);</p>
+<p>}</p>
+<p>// … </p>
+<p>}</p>
+<p>})</p>
+<p>.addOnFailureListener(this, new OnFailureListener() {</p>
+<p><a href="https://github.com/Override" rel="noopener noreferrer" target="_blank">@Override</a></p>
+<p>public void onFailure(@NonNull Exception e) {</p>
+<p>Log.w(TAG, “getDynamicLink:onFailure”, e);</p>
+<p>}</p>
+<p>}); ```</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="parallel-tracking-in-firebase-and-google-analytics">Parallel Tracking in Firebase and Google Analytics</h2>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image5.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="android-install-campaign-with-legacy-sdk">Android Install Campaign with Legacy SDK</h2>
+<p>Add the Google Analytics receiver to your <strong>AndroidManifest.xml</strong> file. To add the<br />
+Google Analytics receiver to the manifest, copy and paste the following markup:</p>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code class="<application> language-<application>"> &lt;!-- Used for Google Play Store Campaign Measurement--&gt;
+ &lt;receiver android:name=”com.google.android.gms.analytics.
+CampaignTrackingReceiver”
+ android:enabled=”true”
+ android:exported=”true”&gt;
+ &lt;intent-filter&gt;
+ &lt;action android:name=”com.android.vending.INSTALL_
+REFERRER” /&gt;
+ &lt;/intent-filter&gt;
+ &lt;/receiver&gt;
+ &lt;service android:name=”com.google.android.gms.analytics.
+CampaignTrackingService”
+ android:enabled=”true”
+ android:exported=”false” /&gt;
+&lt;/application&gt;</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="2">
+<li>Add Google Analytics Campaign Parameters to Google Play URLs</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code>https://play.google.com/store/apps/details?id=com.example.
+application
+&amp;referrer=utm_source%3Dtwitter
+%26utm_medium%3Dpaid-social
+%26utm_content%3Dlogolink
+%26utm_campaign%3Dspring_sale</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="android-general-campaign-with-legacy-sdk">Android General Campaign with Legacy SDK</h2>
+<ol>
+<li>Set the campaign parameters on a tracker directly by<br />
+using the setCampaignParamsFromURL method as<br />
+shown below.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code>// Get tracker.
+Tracker t = ((AnalyticsSampleApp) getActivity().getApplication()).
+getTracker(
+    TrackerName.APP_TRACKER);
+
+
+// Set screen name.
+t.setScreenName(screenName);
+
+
+// In this example, campaign information is set using
+// a url string with Google Analytics campaign parameters.
+// Note: This is for illustrative purposes. In most cases campaign
+// information would come from an incoming Intent.
+String campaignData = getUrl();
+//getUrl is our own method that would populate the campaignData
+string
+//as in this example: “http://examplepetstore.com/index.html?” +
+// “utm_source=email&amp;utm_medium=email_marketing&amp;utm_
+campaign=summer” +
+// “&amp;utm_content=email_variation_1”;
+// Campaign data sent with this hit.
+t.send(new HitBuilders.ScreenViewBuilder()
+ .setCampaignParamsFromUrl(campaignData)
+ .build()
+);</code></pre>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="2">
+<li>Add Google Analytics Campaign Parameters to using the Google Analytics URL<br />
+Builder for Android.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image6.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="ios-install-campaign-with-legacy-sdk">iOS Install Campaign with Legacy SDK</h2>
+<p>Make sure you meet the prerequisites for iOS campaign tracking before you begin:</p>
+<ul>
+<li>You must have already implemented Google Analytics in your iOS app (through<br />
+the legacy Google Analytics SDK or the Google Tag Manager/Google Analytics<br />
+SDK, which we discuss in this section, or the Google Tag Manager + Firebase SDK,<br />
+which we discuss in a later section).</li>
+<li>You need to enable collection of the Identifier for Advertisers (IDF).</li>
+<li>You need to be tracking one or more screenviews or events in your app.</li>
+</ul>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol>
+<li>Confirm iOS campaign tracking is enabled in Google<br />
+Analytics user interface.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image4.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="2">
+<li>Confirm application ID matches.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image2.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="3">
+<li>Confirm that the GA or GTM/GA SDK is sending the identifier for Advertisers.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image8.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <ol start="4">
+<li>Add Google Analytics Campaign Parameters using the Google Analytics URL Builder<br />
+for iOS.</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <figure class="figure">
+    <img src="img/image3.png" alt="" class="img img-fluid">
+    <figcaption class="figure-caption">
+      
+    </figcaption>
+  </figure>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <h2 id="ios-general-campaign-with-legacy-sdk">iOS General Campaign with Legacy SDK</h2>
+<ol>
+<li>Install the following code in your iOS app build:</li>
+</ol>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <pre><code>/*
+ * MyAppDelegate.m
+ *
+ * An example of how to implement campaign and referral
+attribution.
+ * If no Google Analytics campaign parameters are set in the
+referring URL,
+ * use the hostname as a referrer instead.
+ */
+// For iOS 9.0 and later
+- (BOOL)application:(UIApplication *)app openURL:(nonnull NSURL *)
+url
+         options:(nonnull NSDictionary&lt;NSString *,id&gt; *)options
+{
+
+
+// For iOS versions prior to 9.0
+//- (BOOL)application:(UIApplication *)application openURL:(NSURL
+*)url
+// sourceApplication:(NSString *)sourceApplication
+annotation:(id)annotation {
+
+
+NSString *urlString = [url absoluteString];
+
+id&lt;GAITracker&gt; tracker = [[GAI sharedInstance]
+trackerWithName:@”tracker”
+
+trackingId:@”UA-XXXX-Y”];
+
+// setCampaignParametersFromUrl: parses Google Analytics
+campaign (“UTM”)
+// parameters from a string url into a Map that can be set on a
+Tracker.
+GAIDictionaryBuilder *hitParams = [[GAIDictionaryBuilder alloc]
+init];
+// Set campaign data on the map, not the tracker directly
+because it only
+// needs to be sent once.
+ [hitParams setCampaignParametersFromUrl:urlString];
+// Campaign source is the only required campaign field. If
+previous call
+// did not set a campaign source, use the hostname as a referrer
+instead.
+if(![hitParams get:kGAICampaignSource] &amp;&amp; [url host].length !=0)
+{
+// Set campaign data on the map, not the tracker.
+ [hitParams set:@”referrer” forKey:kGAICampaignMedium];
+ [hitParams set:[url host] forKey:kGAICampaignSource];
+ }
+ NSDictionary *hitParamsDict = [hitParams build];
+ // A screen name is required for a screen view.
+ [tracker set:kGAIScreenName value:@”screen name”];
+ // Previous V3 SDK versions.
+ // [tracker send:[[[GAIDictionaryBuilder createAppView]
+setAll:hitParamsDict] build]];
+ // SDK Version 3.08 and up.
+ [tracker send:[[[GAIDictionaryBuilder createScreenView]
+setAll:hitParamsDict] build]];</code></pre>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="13. Quiz When UTMs aren’t needed.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('12. Using campaign tags for mobile apps- Legacy SDKs &amp; Firebase ')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.844
+Collaborate is a user permission level that allows a user to create,
+
+00:00:04.844 --> 00:00:07.619
+edit, delete, and share assets.
+
+00:00:07.620 --> 00:00:12.585
+The user can collaborate on shared assets like a dashboard or an annotation.
+
+00:00:12.585 --> 00:00:17.325
+This permission level also includes read and analyze privileges.
+
+00:00:17.324 --> 00:00:22.785
+We recommend assigning collaborate access to internal users in your business.
+
+00:00:22.785 --> 00:00:27.254
+Assets in Google Analytics include objects like annotations,
+
+00:00:27.254 --> 00:00:29.730
+attribution models, channel groupings,
+
+00:00:29.730 --> 00:00:31.964
+custom reports, and dashboards.
+
+00:00:31.964 --> 00:00:34.515
+Let's look at annotations as an example.
+
+00:00:34.515 --> 00:00:39.120
+Over time, you'll design custom assets and you're going to want to share them internally.
+
+00:00:39.119 --> 00:00:41.934
+Let's look at annotations as an example.
+
+00:00:41.935 --> 00:00:44.150
+Let's say you made a change to your site and
+
+00:00:44.149 --> 00:00:46.189
+you wanted to record the date of the change in
+
+00:00:46.189 --> 00:00:52.174
+GA. You could create a personal note for yourself or a shared note in the account.
+
+00:00:52.174 --> 00:00:54.079
+Here, you see shared notes about
+
+00:00:54.079 --> 00:00:57.530
+important changes made to the Google merchandise store account.
+
+00:00:57.530 --> 00:01:03.350
+If someone in the company is working on analysis and seeing strange trends in the data,
+
+00:01:03.350 --> 00:01:06.185
+notes like these are provide important context.
+
+00:01:06.185 --> 00:01:09.094
+We recommend giving internal users in your business
+
+00:01:09.094 --> 00:01:14.859
+collaborate access so that they can access notes like these and other shared assets.
+

@@ -1,0 +1,244 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.304
+Using campaign tags for display, re-marketing, email,
+
+00:00:04.304 --> 00:00:09.629
+PPC and other campaign types provides several benefits to your Google Analytics tracking.
+
+00:00:09.630 --> 00:00:13.170
+Properly tagging campaigns with UTM parameters,
+
+00:00:13.169 --> 00:00:15.570
+allows you more accurate channel reporting,
+
+00:00:15.570 --> 00:00:18.089
+source medium reporting, and also
+
+00:00:18.089 --> 00:00:21.975
+populates your all campaigns report with data in Google Analytics.
+
+00:00:21.975 --> 00:00:25.859
+Campaign tracking relies on the UTM tagging building walks.
+
+00:00:25.859 --> 00:00:28.769
+Source and medium are both required parameters.
+
+00:00:28.769 --> 00:00:32.729
+Campaign is technically optional but we strongly recommend that you also use
+
+00:00:32.729 --> 00:00:35.669
+the UTM campaign parameter in order to provide as
+
+00:00:35.670 --> 00:00:39.645
+much rich detail and granularity as possible to your reporting.
+
+00:00:39.645 --> 00:00:42.415
+Campaign tags, UTM tags,
+
+00:00:42.414 --> 00:00:46.744
+and UTM parameters are all terms you may hear in reference to campaign tagging,
+
+00:00:46.744 --> 00:00:49.234
+and they all mean the same thing.
+
+00:00:49.234 --> 00:00:54.590
+Source is typically the website or advertising platform that's sending you the traffic.
+
+00:00:54.590 --> 00:00:57.230
+For example, Google or Facebook.
+
+00:00:57.229 --> 00:00:59.899
+Medium is typically the ad format or
+
+00:00:59.899 --> 00:01:03.244
+the ad platform or in some cases the ad pricing format.
+
+00:01:03.244 --> 00:01:06.230
+So, for example, you might see Banner,
+
+00:01:06.230 --> 00:01:09.859
+email, or CPC as the UTM medium value.
+
+00:01:09.859 --> 00:01:13.969
+Campaign is typically an easily recognizable and abbreviated form
+
+00:01:13.969 --> 00:01:15.605
+of the larger ad campaign.
+
+00:01:15.605 --> 00:01:17.810
+Something like holiday 2018,
+
+00:01:17.810 --> 00:01:21.954
+might be a perfectly valid UTM campaign parameter value.
+
+00:01:21.954 --> 00:01:25.984
+Let's take a look at this chart put together by my colleague Eric.
+
+00:01:25.984 --> 00:01:29.359
+This chart demonstrates how Google Analytics reports data in
+
+00:01:29.359 --> 00:01:33.920
+the absence of UTM campaign tagging or other campaign tagging information.
+
+00:01:33.920 --> 00:01:36.350
+So, looking at this chart we can see there's
+
+00:01:36.349 --> 00:01:40.219
+some pretty major marketing initiatives that are essentially getting sold short.
+
+00:01:40.219 --> 00:01:43.579
+When we don't tag the campaigns properly. What do I mean?
+
+00:01:43.579 --> 00:01:47.989
+Well, at the top of the list email many organizations devote
+
+00:01:47.989 --> 00:01:50.269
+considerable resources and expect
+
+00:01:50.269 --> 00:01:53.000
+a significant return from their e-mail marketing programs.
+
+00:01:53.000 --> 00:01:58.495
+In this case if you don't tag your email marketing campaign traffic with UTM parameters,
+
+00:01:58.495 --> 00:02:03.175
+that traffic is going to get captured as either direct or referral traffic.
+
+00:02:03.174 --> 00:02:07.924
+Not very helpful if you want to actually assess your email campaign performance.
+
+00:02:07.924 --> 00:02:10.729
+Similarly, Banner display traffic as well
+
+00:02:10.729 --> 00:02:13.534
+as re-marketing display traffic comes in as referral,
+
+00:02:13.534 --> 00:02:16.039
+in the absence of campaign tracking.
+
+00:02:16.039 --> 00:02:19.069
+You can see down the list affiliates will come in
+
+00:02:19.069 --> 00:02:21.799
+as referral traffic from the affiliate websites,
+
+00:02:21.800 --> 00:02:23.450
+that's referring the traffic.
+
+00:02:23.449 --> 00:02:25.864
+Unless you tag those affiliate URLs.
+
+00:02:25.865 --> 00:02:29.870
+We see how important it is based on the default reporting behavior,
+
+00:02:29.870 --> 00:02:31.730
+that if you want granular detail into
+
+00:02:31.729 --> 00:02:34.629
+your campaign performance in the Google Analytics environment,
+
+00:02:34.629 --> 00:02:37.099
+you must ensure that you use the building blocks of
+
+00:02:37.099 --> 00:02:41.025
+UTM campaign parameters to track your traffic appropriately.
+
+00:02:41.025 --> 00:02:44.300
+Let's take a look in the Google Analytics interface for a moment,
+
+00:02:44.300 --> 00:02:47.330
+and see the reporting under the acquisitions tab,
+
+00:02:47.330 --> 00:02:51.425
+that's impacted by your campaign tagging practices.
+
+00:02:51.425 --> 00:02:52.939
+Right now we're looking at
+
+00:02:52.939 --> 00:02:56.750
+the default channel groupings report under acquisitions or traffic.
+
+00:02:56.750 --> 00:02:59.240
+Here we can see typical listings of channels,
+
+00:02:59.240 --> 00:03:02.284
+from organic search, social, direct,
+
+00:03:02.283 --> 00:03:08.509
+referral, paid search, affiliates, display and other.
+
+00:03:08.509 --> 00:03:12.459
+All of these channels rely on system configure rules,
+
+00:03:12.460 --> 00:03:17.000
+as well as customizable rules that determine what channel to group this traffic into
+
+00:03:17.000 --> 00:03:22.550
+based on the UTM parameters for source medium and in some cases campaign.
+
+00:03:22.550 --> 00:03:25.040
+So, the more accurate you are with
+
+00:03:25.039 --> 00:03:27.859
+your tagging practices and the more consistent you are,
+
+00:03:27.860 --> 00:03:29.570
+the more likely that you'll also get
+
+00:03:29.569 --> 00:03:34.924
+accurate default channel groupings without having to do a great deal of customization.
+
+00:03:34.925 --> 00:03:37.580
+Additionally, under all traffic if we
+
+00:03:37.580 --> 00:03:40.460
+look at the source medium reporting at Google Analytics,
+
+00:03:40.460 --> 00:03:46.135
+we can also see this is built on the UTM source and UTM medium parameters.
+
+00:03:46.134 --> 00:03:48.679
+So, again we do not want to short change ourselves
+
+00:03:48.680 --> 00:03:51.530
+in terms of our reporting capabilities in those arenas.
+
+00:03:51.530 --> 00:03:54.995
+Looking at the all campaigns report under the acquisitions tab,
+
+00:03:54.995 --> 00:03:57.080
+we can see a lot of rich detail,
+
+00:03:57.080 --> 00:03:59.600
+into a very specific campaigns that drove
+
+00:03:59.599 --> 00:04:03.979
+not only traffic but transaction activity to the Google merchandise store.
+
+00:04:03.979 --> 00:04:06.979
+Just to reiterate this level of campaign detail would not be
+
+00:04:06.979 --> 00:04:10.744
+possible without also using UTM source and UTM medium.
+
+00:04:10.745 --> 00:04:15.090
+If those tracking parameters are not present even if you use the UTM campaign parameter,
+
+00:04:15.090 --> 00:04:19.345
+you will not get the expected reporting and that campaign data will be missing.
+
+00:04:19.345 --> 00:04:21.860
+So, make sure that you use UTM source and
+
+00:04:21.860 --> 00:04:25.139
+UTM medium in conjunction with your UTM campaign parameter,
+
+00:04:25.139 --> 00:04:27.979
+and you can see this great level of detail for
+
+00:04:27.980 --> 00:04:33.390
+both user behavior and acquisition activity tied to that campaign traffic.
+

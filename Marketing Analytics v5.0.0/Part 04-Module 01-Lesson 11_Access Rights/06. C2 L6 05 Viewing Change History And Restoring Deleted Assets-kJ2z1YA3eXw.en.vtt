@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.605
+The power of Google Analytics lies in customizing it to suit your needs.
+
+00:00:04.605 --> 00:00:07.275
+That means, making changes to your account.
+
+00:00:07.275 --> 00:00:10.455
+Over time, you'll add properties, customized views,
+
+00:00:10.455 --> 00:00:13.650
+create filters, set up goals and add users.
+
+00:00:13.650 --> 00:00:17.144
+At some point, you may need to look back at the changes you've made.
+
+00:00:17.144 --> 00:00:20.189
+Change history gives you a record of these changes.
+
+00:00:20.190 --> 00:00:25.440
+This feature is located in the Google Analytics admin page under the account column.
+
+00:00:25.440 --> 00:00:28.020
+If you don't see change history in an account,
+
+00:00:28.019 --> 00:00:31.439
+that means you do not have edit permission in that account.
+
+00:00:31.440 --> 00:00:35.280
+You need the edit permission level to see change history.
+
+00:00:35.280 --> 00:00:37.530
+Change history has three columns of
+
+00:00:37.530 --> 00:00:42.164
+information: Column one is the date and time of the change.
+
+00:00:42.164 --> 00:00:46.609
+Column two, the email of the Analytics user who made the change,
+
+00:00:46.609 --> 00:00:50.125
+and column three is a description of the change that was made.
+
+00:00:50.125 --> 00:00:55.519
+change history keeps a record of activities for the most recent 180 days.
+
+00:00:55.520 --> 00:00:57.890
+If you delete a user from your account,
+
+00:00:57.890 --> 00:01:00.710
+you will still see that user's activity but instead
+
+00:01:00.710 --> 00:01:03.439
+of the email of the user who performed the change,
+
+00:01:03.439 --> 00:01:06.859
+you'll see the words deleted user in column two.
+
+00:01:06.859 --> 00:01:10.579
+Google cannot retrieve the deleted email address.
+
+00:01:10.579 --> 00:01:14.224
+If you delete an account, property or view,
+
+00:01:14.224 --> 00:01:16.369
+it will go into the Trash Can.
+
+00:01:16.370 --> 00:01:22.055
+You have 35 days to reverse this action before the item is permanently deleted.
+
+00:01:22.055 --> 00:01:26.860
+You need edit permission on the account to access the Trash Can.
+
+00:01:26.859 --> 00:01:28.709
+It's important to note that,
+
+00:01:28.709 --> 00:01:34.219
+restoring an account will automatically restore its properties and views.
+
+00:01:34.219 --> 00:01:38.525
+If you put a property or view in the Trash Can directly however,
+
+00:01:38.525 --> 00:01:42.455
+you have to retrieve that property or that view.
+
+00:01:42.454 --> 00:01:47.015
+When you restore an account property or view from the Trash Can,
+
+00:01:47.015 --> 00:01:49.640
+settings like goals, filters,
+
+00:01:49.640 --> 00:01:54.170
+user permissions and links to other Google products are preserved.
+
+00:01:54.170 --> 00:01:57.295
+You do however lose data.
+
+00:01:57.295 --> 00:02:00.210
+Data is not processed while accounts,
+
+00:02:00.209 --> 00:02:03.059
+properties, and views are in the Trash Can.
+
+00:02:03.060 --> 00:02:08.780
+Data processing resumes for core reports within an hour of being restored.
+
+00:02:08.780 --> 00:02:12.919
+Data for real-time reports resumes within seconds.
+
+00:02:12.919 --> 00:02:17.239
+Use change history to stay on top of the changes in your account.
+

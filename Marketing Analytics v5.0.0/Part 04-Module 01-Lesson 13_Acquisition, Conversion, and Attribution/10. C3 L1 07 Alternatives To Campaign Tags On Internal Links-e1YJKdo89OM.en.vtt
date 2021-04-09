@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.350
+We've said this once and we'll say it again,
+
+00:00:02.350 --> 00:00:06.165
+do not use UTM tags on your internal links on your website.
+
+00:00:06.165 --> 00:00:08.939
+It introduces unnecessary session breaks and it
+
+00:00:08.939 --> 00:00:12.239
+also breaks the chain of attribution for your marketing efforts.
+
+00:00:12.240 --> 00:00:15.800
+You may still want to track calls to action on your website and other kinds of
+
+00:00:15.800 --> 00:00:18.109
+merchandising activities that are driving
+
+00:00:18.109 --> 00:00:21.289
+transactions from within your own site and key pages.
+
+00:00:21.289 --> 00:00:23.449
+There are a couple of alternatives to using
+
+00:00:23.449 --> 00:00:27.140
+UTM tags on your internal links which do not break the session,
+
+00:00:27.140 --> 00:00:30.710
+and these alternatives are internal promotions and custom events.
+
+00:00:30.710 --> 00:00:33.799
+So, let's talk about internal promotions first.
+
+00:00:33.799 --> 00:00:36.739
+These are part of the enhanced e-commerce tracking feature
+
+00:00:36.740 --> 00:00:39.190
+in Google Analytics and they allow you to,
+
+00:00:39.189 --> 00:00:42.799
+when you have say a banner promotion on your own website or
+
+00:00:42.799 --> 00:00:46.969
+even just a link to a specific special offer you may be running,
+
+00:00:46.969 --> 00:00:50.899
+or you may be doing some internal merchandising to special products sets.
+
+00:00:50.899 --> 00:00:54.619
+When somebody clicks on those key links to a product for example,
+
+00:00:54.619 --> 00:00:58.714
+then you can send that along with the e-commerce data for say a product view.
+
+00:00:58.715 --> 00:01:02.150
+You can also send the internal promotion data which will then
+
+00:01:02.149 --> 00:01:06.155
+allow you to attribute shopping behaviors to that internal promotion.
+
+00:01:06.155 --> 00:01:08.974
+So, for example, if you did have, let's say,
+
+00:01:08.974 --> 00:01:12.265
+a summer sale banner on your own website on your homepage,
+
+00:01:12.265 --> 00:01:14.025
+when somebody clicks on that,
+
+00:01:14.025 --> 00:01:18.280
+you would then capture the internal promotion summer sale, 2018.
+
+00:01:18.280 --> 00:01:20.989
+This allows you to also preserve the chain of
+
+00:01:20.989 --> 00:01:23.869
+attribution to whatever marketing source brought that person into
+
+00:01:23.870 --> 00:01:29.435
+your website while seeing what kind of internal promotion drove action on your website.
+
+00:01:29.435 --> 00:01:33.109
+Similarly, if you have calls to action on your website,
+
+00:01:33.109 --> 00:01:37.640
+clicks to lead inquiry forms or a button to sign up for an account today,
+
+00:01:37.640 --> 00:01:39.769
+and you want to know if those buttons and those calls to
+
+00:01:39.769 --> 00:01:42.125
+action are actually generating interest,
+
+00:01:42.125 --> 00:01:45.064
+or driving behavior that means success for your company,
+
+00:01:45.064 --> 00:01:47.359
+you can do that with custom events.
+
+00:01:47.359 --> 00:01:49.859
+That's not the only use for custom events,
+
+00:01:49.859 --> 00:01:54.859
+but custom events are quite flexible and is one of the very good uses for those events.
+
+00:01:54.859 --> 00:01:59.284
+Custom events can help you track key button and CTA clicks on your site,
+
+00:01:59.284 --> 00:02:02.104
+whether or not you use enhanced e-commerce tracking.
+
+00:02:02.105 --> 00:02:03.500
+In an upcoming lesson,
+
+00:02:03.500 --> 00:02:05.599
+Eric will discuss techniques for seeing
+
+00:02:05.599 --> 00:02:09.319
+the supports that events provide to your conversion efforts.
+
+00:02:09.319 --> 00:02:14.000
+So, let's take a look at some internal promotion data to see how it will display,
+
+00:02:14.000 --> 00:02:16.759
+and we'll give you some sense of how that might be used as
+
+00:02:16.759 --> 00:02:20.465
+an alternative to those campaign tags on internal links.
+
+00:02:20.465 --> 00:02:25.129
+We'll get into the enhanced e-commerce reporting in greater detail later in this lesson,
+
+00:02:25.129 --> 00:02:27.799
+but take a look here under the marketing section of
+
+00:02:27.800 --> 00:02:30.620
+the e-commerce tab within Google Analytics.
+
+00:02:30.620 --> 00:02:34.340
+We can see an internal promotion name and then a variety of
+
+00:02:34.340 --> 00:02:38.379
+shopping and conversion behavior and metrics associated with those promotion names.
+
+00:02:38.379 --> 00:02:42.620
+So if it to say for now that here you can see, for example,
+
+00:02:42.620 --> 00:02:46.895
+the drink where internal promotion on the Google merchandise site was viewed
+
+00:02:46.895 --> 00:02:51.980
+approximately 29,000 times and have a handful of clicks.
+
+00:02:51.979 --> 00:02:55.310
+You can see the click-through rate for that promotion as well as
+
+00:02:55.310 --> 00:02:58.509
+how many transactions that drove and the revenue value thereof.
+
+00:02:58.509 --> 00:03:01.729
+So, this could be really valuable information, and again,
+
+00:03:01.729 --> 00:03:04.549
+it does not have to overwrite your campaign tracking in
+
+00:03:04.550 --> 00:03:07.969
+order to get this kind of information about your internal promotions.
+
+00:03:07.969 --> 00:03:10.939
+This is an important option to keep in mind.
+
+00:03:10.939 --> 00:03:14.389
+Along similar lines, custom events allows you to track
+
+00:03:14.389 --> 00:03:17.569
+some key behaviors on your site that are driving value,
+
+00:03:17.569 --> 00:03:20.704
+but you wouldn't want them to overwrite your campaign attribution.
+
+00:03:20.705 --> 00:03:22.100
+This could be, for example,
+
+00:03:22.099 --> 00:03:26.269
+a call to action on the website that drives people to a lead generation form,
+
+00:03:26.270 --> 00:03:28.980
+or some other deeper content on your site.
+

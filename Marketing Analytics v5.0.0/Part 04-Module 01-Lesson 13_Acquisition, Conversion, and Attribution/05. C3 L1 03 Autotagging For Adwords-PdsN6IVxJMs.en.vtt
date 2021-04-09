@@ -1,0 +1,220 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.690
+Let's talk briefly about an instance where you do not need to add
+
+00:00:03.690 --> 00:00:09.015
+UTM campaign parameters to your campaign URLs in order to get the best possible tracking.
+
+00:00:09.015 --> 00:00:12.315
+If you're running Google Adswords campaigns for paid search,
+
+00:00:12.314 --> 00:00:14.459
+the Google Display Network, or YouTube,
+
+00:00:14.460 --> 00:00:17.205
+you can leverage a function called auto tagging.
+
+00:00:17.204 --> 00:00:20.264
+Auto tagging is turned on by default in Google AdWords.
+
+00:00:20.265 --> 00:00:22.245
+So, unless you've turned this off at some point,
+
+00:00:22.245 --> 00:00:24.150
+it's very likely you don't need to make
+
+00:00:24.149 --> 00:00:27.449
+any configuration changes in order to use this functionality.
+
+00:00:27.449 --> 00:00:30.489
+Let's take a quick look in the AdWords interface,
+
+00:00:30.489 --> 00:00:32.399
+so you can see where that setting is.
+
+00:00:32.399 --> 00:00:36.274
+So, if I click on the account settings tab,
+
+00:00:36.274 --> 00:00:37.924
+in the top navigation,
+
+00:00:37.924 --> 00:00:41.424
+I'll be taken to the overall account settings for this AdWords account.
+
+00:00:41.424 --> 00:00:43.979
+You'll see here an auto tagging setting.
+
+00:00:43.979 --> 00:00:47.159
+I can see that it's showing yes,
+
+00:00:47.159 --> 00:00:49.894
+which means that auto tagging is turned on.
+
+00:00:49.895 --> 00:00:51.230
+If I expand this box,
+
+00:00:51.229 --> 00:00:56.559
+I can see this checkbox tagged the URL that people click through for my ad.
+
+00:00:56.560 --> 00:00:58.740
+When that check box is selected,
+
+00:00:58.740 --> 00:01:00.890
+it means that auto tagging is turned on.
+
+00:01:00.890 --> 00:01:03.994
+Again, this will be the default setting in Google AdWords,
+
+00:01:03.994 --> 00:01:08.030
+so very likely you will not need to update this configuration,
+
+00:01:08.030 --> 00:01:10.730
+but this is where you will confirm that setting.
+
+00:01:10.730 --> 00:01:12.890
+So, if auto tagging is turned on,
+
+00:01:12.890 --> 00:01:17.314
+your campaigns will automatically be appended with a parameter called gclid,
+
+00:01:17.314 --> 00:01:19.579
+this is the Google click ID.
+
+00:01:19.579 --> 00:01:23.974
+This essentially takes the place of UTM tagging for your AdWords campaigns,
+
+00:01:23.974 --> 00:01:27.813
+and it encodes a lot of rich information about your AdWords initiatives,
+
+00:01:27.813 --> 00:01:30.069
+campaign ad groups, keywords,
+
+00:01:30.069 --> 00:01:33.409
+as well as additional information such as placements and
+
+00:01:33.409 --> 00:01:38.314
+other targeting options you may have in place for your Google display network campaigns.
+
+00:01:38.314 --> 00:01:42.620
+You will also want to link your AdWords account to your Google Analytics Property.
+
+00:01:42.620 --> 00:01:44.810
+This will allow Google Analytics to automatically
+
+00:01:44.810 --> 00:01:48.310
+ingest those rich values from the gclid.
+
+00:01:48.310 --> 00:01:53.075
+Again, there's no need to tag your AdWords URLs with UTM parameters,
+
+00:01:53.075 --> 00:01:55.670
+the gclid takes care of that.
+
+00:01:55.670 --> 00:01:59.859
+You'll be able to see that rich AdWords campaign data in Google Analytics.
+
+00:01:59.859 --> 00:02:01.370
+You'll also be able to share
+
+00:02:01.370 --> 00:02:05.359
+your Google Analytics conversion goals with your Google AdWords account.
+
+00:02:05.359 --> 00:02:07.640
+Once the integration is complete and
+
+00:02:07.640 --> 00:02:10.465
+your campaigns are coming in with the auto tagging in place,
+
+00:02:10.465 --> 00:02:12.039
+let's just take a quick look.
+
+00:02:12.039 --> 00:02:15.620
+We're not going to go into detail on campaign performance reports right now,
+
+00:02:15.620 --> 00:02:19.534
+but I do want to show you really quickly in the interface where you will see
+
+00:02:19.534 --> 00:02:23.905
+that Google AdWords data populated by the gclid fed parameter.
+
+00:02:23.905 --> 00:02:25.900
+Within the Google Analytics interface,
+
+00:02:25.900 --> 00:02:28.330
+under the acquisitions tab in the left nav,
+
+00:02:28.330 --> 00:02:32.765
+you will see there is a Google ad specific drop-down section.
+
+00:02:32.764 --> 00:02:37.114
+Here you can see reporting for a number of different AdWords dimensions,
+
+00:02:37.115 --> 00:02:39.230
+including at the account level if you have
+
+00:02:39.229 --> 00:02:43.324
+multiple accounts linked, campaigns, site links,
+
+00:02:43.324 --> 00:02:47.894
+bid adjustments, keywords, search queries, day parting,
+
+00:02:47.895 --> 00:02:52.169
+final URLs, display targeting settings,
+
+00:02:52.169 --> 00:02:55.700
+video campaigns, and chopping campaigns if you're running them.
+
+00:02:55.699 --> 00:02:59.405
+In addition, your auto tagged Google AdWords traffic
+
+00:02:59.405 --> 00:03:03.515
+will also come in and populate your all traffic reports.
+
+00:03:03.514 --> 00:03:06.979
+So for example, in source medium,
+
+00:03:06.979 --> 00:03:09.379
+you will see that Google ads traffic tagged with
+
+00:03:09.379 --> 00:03:12.259
+the gclid is going to get captured within
+
+00:03:12.259 --> 00:03:19.484
+Google Analytics with the source medium pair Google CPC, line item four.
+
+00:03:19.485 --> 00:03:21.090
+Just to be clear,
+
+00:03:21.090 --> 00:03:22.875
+the source will be Google,
+
+00:03:22.875 --> 00:03:25.909
+the medium will be CPC.
+
+00:03:25.909 --> 00:03:29.060
+The traffic was captured automatically in Google Analytics
+
+00:03:29.060 --> 00:03:31.849
+as paid search traffic with the source Google,
+
+00:03:31.849 --> 00:03:36.829
+medium CPC, and will be distinguished automatically from Google organic traffic.
+
+00:03:36.830 --> 00:03:41.020
+Also, if we jump up to the channels report,
+
+00:03:41.020 --> 00:03:45.530
+we'll see that the classification rules for channels are also going to automatically
+
+00:03:45.530 --> 00:03:50.724
+classify the Google CPC traffic as paid search traffic.
+
+00:03:50.724 --> 00:03:55.189
+So, this is a case where you don't need to use UTM parameters in order to capture
+
+00:03:55.189 --> 00:04:00.319
+the data that you need to give you visibility into your marketing campaigns.
+

@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.889
+So far, we reviewed how to implement Google Analytics tracking
+
+00:00:04.889 --> 00:00:09.644
+on a website and how to study the data in your Google Analytics account.
+
+00:00:09.644 --> 00:00:15.029
+In this course, we take a more in-depth look into the insights you can get from
+
+00:00:15.029 --> 00:00:17.774
+your Google Analytics data with a focus on
+
+00:00:17.774 --> 00:00:21.884
+understanding how the traffic to your site is acquired,
+
+00:00:21.885 --> 00:00:25.530
+converts, and how you can attribute acquisition and
+
+00:00:25.530 --> 00:00:29.205
+conversion to different acquisition channels like search,
+
+00:00:29.204 --> 00:00:32.339
+social, display campaigns et cetera.
+
+00:00:32.340 --> 00:00:36.734
+In this lesson, we will take a closer look at campaign tagging.
+
+00:00:36.734 --> 00:00:41.625
+Then we will review the different channel definitions in Google Analytics.
+
+00:00:41.625 --> 00:00:45.920
+In lesson three, we will take a look at e-commerce reporting.
+
+00:00:45.920 --> 00:00:47.495
+Then in lesson four,
+
+00:00:47.494 --> 00:00:52.909
+we'll learn about the different attribution reports in GA. Lastly in lesson five,
+
+00:00:52.909 --> 00:00:56.884
+we will cover a few more advanced reports that can help you get
+
+00:00:56.884 --> 00:01:02.824
+better insights into how the pages and events on your site help users to convert.
+
+00:01:02.825 --> 00:01:06.079
+But first, let's talk about campaign tagging.
+
+00:01:06.079 --> 00:01:09.200
+In order to see what marketing action or which
+
+00:01:09.200 --> 00:01:13.210
+advertising campaigns are most successful in achieving your goals,
+
+00:01:13.209 --> 00:01:17.089
+it's important that you label your campaigns in a way that
+
+00:01:17.090 --> 00:01:21.185
+allows you to recognize them later in your Google Analytics account.
+
+00:01:21.185 --> 00:01:25.820
+That labeling is done through the use of UTM tracking codes.
+
+00:01:25.819 --> 00:01:28.059
+So, let's get started.
+
