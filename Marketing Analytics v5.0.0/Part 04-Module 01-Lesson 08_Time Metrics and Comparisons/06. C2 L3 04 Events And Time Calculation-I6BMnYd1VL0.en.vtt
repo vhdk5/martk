@@ -1,0 +1,136 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.759
+We remember from the previous course that there are
+
+00:00:02.759 --> 00:00:05.889
+many types of user behaviors that are not tracked as
+
+00:00:05.889 --> 00:00:08.294
+pageviews and that we have to track
+
+00:00:08.294 --> 00:00:11.925
+as events as part of our implementation customization.
+
+00:00:11.925 --> 00:00:14.714
+Just as pageview hits include a time stamp,
+
+00:00:14.714 --> 00:00:17.370
+event hits also include a time stamp.
+
+00:00:17.370 --> 00:00:20.804
+So, GA does have the same field to work with
+
+00:00:20.804 --> 00:00:24.719
+in pageview hits and event hits for time calculations.
+
+00:00:24.719 --> 00:00:28.875
+Let's consider an example of a time metric calculation with events.
+
+00:00:28.875 --> 00:00:32.475
+Again, this is going to get a little bit complicated,
+
+00:00:32.475 --> 00:00:34.995
+but the take-aways will be clear.
+
+00:00:34.994 --> 00:00:38.039
+Let's say the user lands on page A.
+
+00:00:38.039 --> 00:00:44.844
+After five minutes, that user views page B and we have time on page A five minutes,
+
+00:00:44.844 --> 00:00:47.030
+session duration five minutes.
+
+00:00:47.030 --> 00:00:49.160
+But let's say on page B,
+
+00:00:49.159 --> 00:00:52.429
+after two minutes, the user starts a video.
+
+00:00:52.429 --> 00:00:56.240
+At that point, we still don't have a time on page metric for
+
+00:00:56.240 --> 00:01:00.240
+page B because we have not sent another pageview hit.
+
+00:01:00.240 --> 00:01:02.115
+We've sent an event hit.
+
+00:01:02.115 --> 00:01:07.385
+Calculation for session duration is based both on event and pageview hits,
+
+00:01:07.385 --> 00:01:11.810
+but time on page takes only pageview hits into consideration.
+
+00:01:11.810 --> 00:01:17.825
+After 16 minutes, a video 25 percent viewed event is sent to GA.
+
+00:01:17.825 --> 00:01:21.620
+Session duration is now up to 23 minutes.
+
+00:01:21.620 --> 00:01:23.995
+After another 16 minutes,
+
+00:01:23.995 --> 00:01:27.814
+video 50 percent event viewed is sent to GA.
+
+00:01:27.814 --> 00:01:31.640
+Session duration is now up to 39 minutes.
+
+00:01:31.640 --> 00:01:35.450
+Let's say after another two minutes the user navigates to page
+
+00:01:35.450 --> 00:01:39.650
+C. The session has been maintained because we have not
+
+00:01:39.650 --> 00:01:42.410
+gone more than a half an hour without sending a hit to
+
+00:01:42.409 --> 00:01:47.390
+GA. GA consider sessions based not only on pageview hits,
+
+00:01:47.390 --> 00:01:51.594
+but on any hit that we send to it, including event hits.
+
+00:01:51.594 --> 00:01:54.125
+At this point, GA will calculate
+
+00:01:54.125 --> 00:02:00.950
+a 41 minutes session duration and page B will get a time on page of 36 minutes.
+
+00:02:00.950 --> 00:02:03.215
+Once we go to page D,
+
+00:02:03.215 --> 00:02:06.480
+we get a time on page for page C of
+
+00:02:06.480 --> 00:02:10.670
+three minutes and session duration goes up to 44 minutes.
+
+00:02:10.669 --> 00:02:15.589
+Average session duration is calculated much more accurately when we're sending events to
+
+00:02:15.590 --> 00:02:21.175
+GA. Time on page is also calculated more accurately in that with events,
+
+00:02:21.175 --> 00:02:24.200
+we can maintain better session continuity.
+
+00:02:24.199 --> 00:02:29.584
+We also remember from a previous course that event tracking helps GA calculate
+
+00:02:29.585 --> 00:02:32.240
+a more accurate bounce rate because if
+
+00:02:32.240 --> 00:02:35.695
+a user lands on a landing page and then generates an event,
+
+00:02:35.694 --> 00:02:40.340
+that session is not a bounce session because two hits had been sent to
+
+00:02:40.340 --> 00:02:46.140
+GA indicating that the user was engaged enough to take an additional action.
+

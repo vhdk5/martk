@@ -1,0 +1,97 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.549
+Let's now consider this question,
+
+00:00:02.549 --> 00:00:05.924
+is an increase in time metrics a positive indicator?
+
+00:00:05.924 --> 00:00:08.504
+The answer is, it depends.
+
+00:00:08.505 --> 00:00:12.255
+First, we'll want to consider different business models.
+
+00:00:12.255 --> 00:00:13.650
+If you are offering
+
+00:00:13.650 --> 00:00:18.885
+primarily a publishing model and user engagement in itself is a good thing,
+
+00:00:18.885 --> 00:00:22.140
+then an increase in time metrics would be a good thing.
+
+00:00:22.140 --> 00:00:24.300
+If your model is lead generation,
+
+00:00:24.300 --> 00:00:29.445
+an increase in time would be good if you also saw an increase in lead submissions.
+
+00:00:29.445 --> 00:00:34.380
+Similarly, if your model is e-commerce and increase in time metrics would
+
+00:00:34.380 --> 00:00:39.410
+be positive if we also saw an increase in conversion rate and revenue.
+
+00:00:39.409 --> 00:00:41.194
+In the merchandise store account,
+
+00:00:41.195 --> 00:00:46.289
+I've gone back to January 1st to December 31st of 2016
+
+00:00:46.289 --> 00:00:50.884
+for a good illustration of time metrics versus conversion metrics.
+
+00:00:50.884 --> 00:00:55.554
+First, I'm going to smooth out the time interval two month instead of day.
+
+00:00:55.554 --> 00:00:59.149
+Next, I'm going to change the metric charted in
+
+00:00:59.149 --> 00:01:03.799
+the main overtime graph from users to average session duration.
+
+00:01:03.799 --> 00:01:06.230
+Now we see considerable fluctuation in
+
+00:01:06.230 --> 00:01:08.960
+average session duration over the course of the year.
+
+00:01:08.959 --> 00:01:12.019
+How can we know if this was a good thing or a bad thing?
+
+00:01:12.019 --> 00:01:17.119
+Let's chart a second metric on the main overtime graph, e-commerce conversion rate.
+
+00:01:17.120 --> 00:01:19.655
+Now we're telling a more meaningful story.
+
+00:01:19.655 --> 00:01:21.920
+We see towards the end of the year,
+
+00:01:21.920 --> 00:01:25.055
+when average session duration went up the most sharply,
+
+00:01:25.055 --> 00:01:30.095
+we also saw a sharp increase in e-commerce conversion rate just what we'd want to see.
+
+00:01:30.094 --> 00:01:32.150
+On the other hand, we may notice that in
+
+00:01:32.150 --> 00:01:35.844
+July average session duration also went up considerably,
+
+00:01:35.844 --> 00:01:38.825
+but e-commerce conversion rate went down for the month.
+
+00:01:38.825 --> 00:01:42.844
+We'll get the scoop on this when we talk about annotations in an upcoming lesson.
+
+00:01:42.844 --> 00:01:47.090
+But for now, we want to remember that for a transactional experience,
+
+00:01:47.090 --> 00:01:52.210
+average session duration needs to be clarified with a conversion metric.
+

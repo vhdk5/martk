@@ -1,0 +1,289 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.988
+Continuing with the idea of cleaning up our dimension values,
+
+00:00:03.988 --> 00:00:07.154
+we're going to take a look at the Default page setting.
+
+00:00:07.155 --> 00:00:09.660
+The Default page setting will basically work like
+
+00:00:09.660 --> 00:00:14.445
+a rewrite filter but it surfaced as a view setting instead of a filter.
+
+00:00:14.445 --> 00:00:19.829
+We're going to use it primarily to rewrite that forward slash that shows up by default
+
+00:00:19.829 --> 00:00:25.125
+in most of our Google Analytics views to a more meaningful value for the homepage.
+
+00:00:25.125 --> 00:00:30.704
+In some cases the setting will be used to consolidate two variations of the homepage URL.
+
+00:00:30.704 --> 00:00:33.449
+If we going into the Google Analytics demo account,
+
+00:00:33.450 --> 00:00:36.255
+we'll see a homepage that has a meaningful name.
+
+00:00:36.255 --> 00:00:38.175
+This is what we want.
+
+00:00:38.174 --> 00:00:42.169
+This, however, does not occur by default on Google Analytics.
+
+00:00:42.170 --> 00:00:44.414
+This is generated from a setting,
+
+00:00:44.414 --> 00:00:46.359
+the Default page setting.
+
+00:00:46.359 --> 00:00:49.219
+Usually, when we go into Google Analytics,
+
+00:00:49.219 --> 00:00:53.839
+what we see as a top page or one of the top pages is just the forward slash.
+
+00:00:53.840 --> 00:00:57.470
+That corresponds to the homepage but it's not ideal for
+
+00:00:57.469 --> 00:01:02.019
+our own reporting and it's certainly not ideal when we're communicating with others.
+
+00:01:02.020 --> 00:01:06.875
+So, how did we rewrite this forward slash to a more meaningful value.
+
+00:01:06.875 --> 00:01:09.784
+This is where the Default page setting comes in.
+
+00:01:09.784 --> 00:01:13.924
+We're back in the Test View in our Org Test account.
+
+00:01:13.924 --> 00:01:16.299
+If we click into View Settings,
+
+00:01:16.299 --> 00:01:18.994
+we see the Default page setting.
+
+00:01:18.995 --> 00:01:23.615
+This is where we can specify how we want the forward slash to be rewritten.
+
+00:01:23.614 --> 00:01:27.079
+If we want to rewrite the forward slash as
+
+00:01:27.079 --> 00:01:30.560
+forward slash home all we have to enter is home,
+
+00:01:30.560 --> 00:01:32.195
+without the forward slash.
+
+00:01:32.194 --> 00:01:36.109
+There are some additional considerations to the Default page though.
+
+00:01:36.109 --> 00:01:40.474
+One consideration is, if your homepage appears two different ways.
+
+00:01:40.474 --> 00:01:45.079
+If you're not rewriting the Default page on the server to just the domain name,
+
+00:01:45.079 --> 00:01:48.560
+your homepage may appear in Google Analytics as both
+
+00:01:48.560 --> 00:01:54.140
+forward slash and something like index.php or default.aspx.
+
+00:01:54.140 --> 00:01:58.400
+In that case, we're not just using the Default page value to rewrite
+
+00:01:58.400 --> 00:02:00.740
+the forward slash but we're rewriting
+
+00:02:00.739 --> 00:02:04.879
+the forward slash to match the other variation of the homepage that appears.
+
+00:02:04.879 --> 00:02:07.039
+So, in this case,
+
+00:02:07.040 --> 00:02:12.560
+where we have forward slash forward and slash index.php referring to the same page,
+
+00:02:12.560 --> 00:02:17.430
+we'll want to use index.php for the Default page.
+
+00:02:17.430 --> 00:02:19.469
+So, instead of home,
+
+00:02:19.469 --> 00:02:22.784
+the Default page is determined for us.
+
+00:02:22.784 --> 00:02:24.314
+Once we did that,
+
+00:02:24.314 --> 00:02:29.794
+the forward slash and index.php would be rolled up into a single value.
+
+00:02:29.794 --> 00:02:34.039
+Now, there is a significant caveat to the Default page.
+
+00:02:34.039 --> 00:02:37.189
+The value that we specify for our Default page is
+
+00:02:37.189 --> 00:02:40.930
+added to all page dimensions that end with forward slash,
+
+00:02:40.930 --> 00:02:43.640
+not just forward slash on its own.
+
+00:02:43.639 --> 00:02:46.849
+If we had a page dimensions such as services
+
+00:02:46.849 --> 00:02:51.189
+forward slash and we added home as the Default page,
+
+00:02:51.189 --> 00:02:56.254
+services forward slash would be rewritten to services forward slash home.
+
+00:02:56.254 --> 00:03:01.400
+If we want it to just rewrite the stand alone forward slash to forward slash home,
+
+00:03:01.400 --> 00:03:03.635
+we would need to use a view filter,
+
+00:03:03.634 --> 00:03:07.504
+and again, we would take advantage of regular expressions.
+
+00:03:07.504 --> 00:03:11.644
+Under Filters we could click New Filter.
+
+00:03:11.645 --> 00:03:20.545
+Call this filter Rewrite forward slash to forward slash home,
+
+00:03:20.544 --> 00:03:24.405
+Custom, Search and Replace,
+
+00:03:24.405 --> 00:03:27.780
+Filter Field, Request URI.
+
+00:03:27.780 --> 00:03:30.974
+We're going to start with the forward slash
+
+00:03:30.974 --> 00:03:34.159
+and we're going to use Regex to say I don't want
+
+00:03:34.159 --> 00:03:40.669
+to match anything that has any characters before the forward slash,
+
+00:03:40.669 --> 00:03:42.454
+so beginning of string anchor,
+
+00:03:42.455 --> 00:03:45.340
+and nothing after the forward slash,
+
+00:03:45.340 --> 00:03:46.890
+end of string anchors.
+
+00:03:46.889 --> 00:03:49.219
+So, we're only matching the forward slash.
+
+00:03:49.219 --> 00:03:56.734
+Now, we could specify forward slash home as the Replace String and save the filter,
+
+00:03:56.735 --> 00:03:58.420
+check it out in the Test View,
+
+00:03:58.419 --> 00:04:02.284
+apply it to the Main View of it's looking good in the test after a little while.
+
+00:04:02.284 --> 00:04:06.590
+Let's consider another challenge that we sometimes have with the page dimension.
+
+00:04:06.590 --> 00:04:10.159
+Let's say that we have the same pages appearing sometimes
+
+00:04:10.159 --> 00:04:13.835
+without a forward slash and sometimes with a forward slash.
+
+00:04:13.835 --> 00:04:17.329
+How would we consolidate these so they look like this?
+
+00:04:17.329 --> 00:04:21.125
+In this case, we're going to use an advanced filter for extraction
+
+00:04:21.125 --> 00:04:25.370
+and rewrite and we'll take advantage of regular expressions again.
+
+00:04:25.370 --> 00:04:30.845
+Click into Filters, Add Filter,
+
+00:04:30.845 --> 00:04:36.200
+call this filter Strip
+
+00:04:36.199 --> 00:04:42.899
+from end of Page, Custom.
+
+00:04:42.899 --> 00:04:47.099
+Again, we're going to do an advanced filter,
+
+00:04:47.100 --> 00:04:51.210
+so we can extract and output.
+
+00:04:51.209 --> 00:04:53.729
+We're going to start with
+
+00:04:53.730 --> 00:04:57.045
+Request URI and we know we're
+
+00:04:57.045 --> 00:05:00.405
+trying to match the page dimensions that end with a forward slash,
+
+00:05:00.404 --> 00:05:04.004
+so forward slash end of string anchor.
+
+00:05:04.004 --> 00:05:11.074
+We want to match and pull in anything that precedes the final forward slash.
+
+00:05:11.074 --> 00:05:13.295
+So, we're going to start with a dot,
+
+00:05:13.295 --> 00:05:17.390
+meaning any single character and regular expression notation.
+
+00:05:17.389 --> 00:05:20.745
+We're going to use the plus sign quantifier,
+
+00:05:20.745 --> 00:05:24.550
+which means match one or more of the proceeding character,
+
+00:05:24.550 --> 00:05:27.444
+which in this case is any character.
+
+00:05:27.444 --> 00:05:32.404
+Finally, we're going to wrap that plus sign.
+
+00:05:32.404 --> 00:05:36.250
+So, it becomes a grouping that we can extract.
+
+00:05:36.250 --> 00:05:39.415
+We're going to say Output To,
+
+00:05:39.415 --> 00:05:44.080
+Request URI and the advanced filter notation for pulling
+
+00:05:44.079 --> 00:05:49.589
+in a matching group from Field A or Field B,
+
+00:05:49.589 --> 00:05:55.859
+which in this case does not mean end of string anchor, dollar sign A1.
+
+00:05:55.860 --> 00:06:00.205
+This means pull in the first matching group from Field A.
+
+00:06:00.204 --> 00:06:04.579
+So, this is a little bit involved but you see how regular expressions allow us to
+
+00:06:04.579 --> 00:06:08.919
+cleanly solve the problem and get all of our URLs consolidated.
+

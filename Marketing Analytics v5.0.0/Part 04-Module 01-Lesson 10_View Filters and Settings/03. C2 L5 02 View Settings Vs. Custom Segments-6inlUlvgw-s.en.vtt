@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.049
+Some of the view settings and filters that we discussed in this lesson
+
+00:00:04.049 --> 00:00:08.414
+may remind you of the custom segments that we built in the last lesson.
+
+00:00:08.414 --> 00:00:12.029
+In fact, view settings and filters on the one hand and
+
+00:00:12.029 --> 00:00:15.974
+custom segments on the other are quite similar in some cases,
+
+00:00:15.974 --> 00:00:19.109
+but let's make sure we understand what makes them different.
+
+00:00:19.109 --> 00:00:23.925
+Let's say that we wanted to see a subset of sessions that originated from Canada.
+
+00:00:23.925 --> 00:00:25.859
+We could do this in two ways.
+
+00:00:25.859 --> 00:00:30.824
+We could create a custom segment or we could create a dedicated filtered view.
+
+00:00:30.824 --> 00:00:35.000
+If we create a segment of visitors from Canada versus a filtered view,
+
+00:00:35.000 --> 00:00:39.075
+we want to remember that the custom segment is retroactive.
+
+00:00:39.075 --> 00:00:44.090
+By default, the custom segment is visible only to the creator of the segment.
+
+00:00:44.090 --> 00:00:47.720
+You only need to read and analyze access to create a segment,
+
+00:00:47.719 --> 00:00:49.909
+it's not an edit activity.
+
+00:00:49.909 --> 00:00:55.099
+Importantly, a segment does not alter the underlying view data,
+
+00:00:55.100 --> 00:00:59.240
+which is why we never have to hesitate to experiment with segments.
+
+00:00:59.240 --> 00:01:02.135
+View filters and view settings on the other hand,
+
+00:01:02.134 --> 00:01:04.164
+we have to be more careful with.
+
+00:01:04.165 --> 00:01:07.250
+View settings and filters apply from the moment they
+
+00:01:07.250 --> 00:01:10.265
+are configured going forward, not retroactively.
+
+00:01:10.265 --> 00:01:13.519
+They're seen by anyone who accesses the view,
+
+00:01:13.519 --> 00:01:18.439
+which is why we don't want to experiment too much with view filters and view settings.
+
+00:01:18.439 --> 00:01:21.289
+We want to have a good idea of what we're doing
+
+00:01:21.290 --> 00:01:25.115
+before we change filtering and change settings in a view.
+
+00:01:25.114 --> 00:01:30.905
+You need edit level access to the view to change a setting or to apply a filter.
+
+00:01:30.905 --> 00:01:33.799
+Importantly, any view setting or
+
+00:01:33.799 --> 00:01:37.954
+any view filter that you change will alter the underlying view data,
+
+00:01:37.954 --> 00:01:41.614
+which is why these activities do require edit access,
+
+00:01:41.614 --> 00:01:46.024
+and which is why we want to be more careful about view settings and view filters,
+
+00:01:46.025 --> 00:01:48.650
+then we do for custom segments.
+

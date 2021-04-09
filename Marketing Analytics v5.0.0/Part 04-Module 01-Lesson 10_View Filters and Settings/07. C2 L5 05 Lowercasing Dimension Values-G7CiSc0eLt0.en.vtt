@@ -1,0 +1,121 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.815
+As additional basic housekeeping for our Google Analytics data capture,
+
+00:00:04.815 --> 00:00:07.950
+we want to lowercase several dimension values.
+
+00:00:07.950 --> 00:00:10.140
+Why do we want to do this?
+
+00:00:10.140 --> 00:00:14.429
+Well, as a basic principle of Google Analytics data quality,
+
+00:00:14.429 --> 00:00:17.449
+you want to make sure that there aren't multiple fragment
+
+00:00:17.449 --> 00:00:20.849
+to dimension values that refer to the same thing.
+
+00:00:20.850 --> 00:00:22.530
+We see in this case,
+
+00:00:22.530 --> 00:00:24.195
+in the page dimension,
+
+00:00:24.195 --> 00:00:29.785
+that we have stored the smallest and the biggest referring to the same page.
+
+00:00:29.785 --> 00:00:33.515
+That could potentially happen if you have different internal links or
+
+00:00:33.515 --> 00:00:37.730
+even external links that are accessing the page with different case variations,
+
+00:00:37.729 --> 00:00:41.034
+and they are not being reconciled on the server.
+
+00:00:41.034 --> 00:00:46.084
+As a note, this is marked up from the Google merchandise store.
+
+00:00:46.085 --> 00:00:50.615
+There aren't actually case variations in the Google merchandise store account,
+
+00:00:50.615 --> 00:00:52.280
+so you won't find them there.
+
+00:00:52.280 --> 00:00:55.340
+Here's another example that crops up fairly frequently,
+
+00:00:55.340 --> 00:00:58.245
+case variations and medium values.
+
+00:00:58.244 --> 00:01:02.589
+Here we see email with a small E and a big E,
+
+00:01:02.590 --> 00:01:08.040
+that can occur very easily if case variations are included in campaign parameters,
+
+00:01:08.040 --> 00:01:11.525
+which we'll be talking about more in an upcoming lesson.
+
+00:01:11.525 --> 00:01:15.815
+The overall idea is to fight dimension fragmentation.
+
+00:01:15.814 --> 00:01:20.314
+We don't want multiple dimension values referring to the same thing.
+
+00:01:20.314 --> 00:01:24.349
+That just makes our work as analysts much harder,
+
+00:01:24.349 --> 00:01:29.134
+and forces us to focus on things other than analysis and insight.
+
+00:01:29.135 --> 00:01:33.335
+We can apply simple lowercase filters for the following dimensions,
+
+00:01:33.334 --> 00:01:36.709
+these are considered good dimensions to lowercase.
+
+00:01:36.709 --> 00:01:39.479
+We can start with Request URI,
+
+00:01:39.480 --> 00:01:43.265
+which means exactly the same thing as the page dimension.
+
+00:01:43.265 --> 00:01:45.635
+But when we're defining filters,
+
+00:01:45.635 --> 00:01:48.880
+page appears as Request URI.
+
+00:01:48.879 --> 00:01:51.884
+We'll want to lowercase campaign medium,
+
+00:01:51.885 --> 00:01:57.135
+campaign source, campaign name, and campaign content.
+
+00:01:57.135 --> 00:02:00.094
+If you're using that campaign parameter as well.
+
+00:02:00.094 --> 00:02:03.049
+Even though our event dimensions should be very
+
+00:02:03.049 --> 00:02:06.319
+consistent if we're using Google Tag Manager correctly.
+
+00:02:06.319 --> 00:02:07.969
+As a best practice,
+
+00:02:07.969 --> 00:02:11.900
+we can still lowercase event category, event action,
+
+00:02:11.900 --> 00:02:15.200
+and event label, and we'll also want to lowercase
+
+00:02:15.199 --> 00:02:19.539
+search term which we'll talk about more later in this lesson.
+

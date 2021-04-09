@@ -1,0 +1,301 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.955
+Dynamic remarketing goes beyond what can be referred to as regular remarketing.
+
+00:00:05.955 --> 00:00:10.769
+Dynamic remarketing is based on specific product or service pageviews,
+
+00:00:10.769 --> 00:00:12.330
+and the real dynamic part of
+
+00:00:12.330 --> 00:00:16.379
+dynamic remarketing is generating highly customized ad creatives.
+
+00:00:16.379 --> 00:00:18.629
+This of course comes with a price.
+
+00:00:18.629 --> 00:00:20.669
+Dynamic remarketing does require
+
+00:00:20.670 --> 00:00:24.720
+significant additional configuration versus regular remarketing,
+
+00:00:24.719 --> 00:00:27.779
+but we do get a good start with schemas for different types of
+
+00:00:27.780 --> 00:00:31.214
+verticals that we can configure dynamic remarketing for.
+
+00:00:31.214 --> 00:00:34.109
+Let's consider the example of a user who
+
+00:00:34.109 --> 00:00:38.049
+views the great Google hoodie on the Google Merchandise Store.
+
+00:00:38.049 --> 00:00:40.919
+If the merchandise store team chose to do so,
+
+00:00:40.920 --> 00:00:43.160
+they could implement dynamic remarketing.
+
+00:00:43.159 --> 00:00:46.069
+So, when that same visitor was on another property,
+
+00:00:46.070 --> 00:00:49.715
+they could see an ad creative that's specifically contains the gray hoodie.
+
+00:00:49.715 --> 00:00:52.405
+Similar for vertical such as real estate,
+
+00:00:52.405 --> 00:00:55.039
+if a visitor has viewed a specific home,
+
+00:00:55.039 --> 00:00:56.689
+you as an advertiser,
+
+00:00:56.689 --> 00:01:01.774
+could present that same home in an ad to the user when they're visiting other websites.
+
+00:01:01.774 --> 00:01:06.049
+We can see that there are several schemas available for different verticals.
+
+00:01:06.049 --> 00:01:08.284
+These schemas will allow us to configure
+
+00:01:08.284 --> 00:01:11.750
+the additional information that the dynamic ads are generated from.
+
+00:01:11.750 --> 00:01:13.549
+But before we look at the schemas,
+
+00:01:13.549 --> 00:01:16.924
+let's walk through the process of configuring dynamic remarketing.
+
+00:01:16.924 --> 00:01:19.579
+For dynamic remarketing, we're going to be working
+
+00:01:19.579 --> 00:01:22.349
+with Google Analytics and Google AdWords,
+
+00:01:22.349 --> 00:01:24.274
+and several steps will be required.
+
+00:01:24.275 --> 00:01:26.480
+First, we're going to have to create
+
+00:01:26.480 --> 00:01:29.450
+at least one custom dimension that will serve as
+
+00:01:29.450 --> 00:01:32.875
+the key for that product or service such as product ID.
+
+00:01:32.875 --> 00:01:36.379
+We'll then need to take the custom dimension or custom dimensions,
+
+00:01:36.379 --> 00:01:41.329
+and map them as dynamic attributes to be used for dynamic remarketing.
+
+00:01:41.329 --> 00:01:42.980
+We'll then need to create
+
+00:01:42.980 --> 00:01:47.659
+a remarketing audience such as the one that we saw previously for non converting users.
+
+00:01:47.659 --> 00:01:49.155
+On the AdWords' side,
+
+00:01:49.155 --> 00:01:51.570
+we'll need to create a display campaign.
+
+00:01:51.569 --> 00:01:53.299
+We'll target that campaign to
+
+00:01:53.299 --> 00:01:56.750
+the remarketing audience that we've defined in Google Analytics.
+
+00:01:56.750 --> 00:02:01.959
+We'll then need to download the feed template either from AdWords or from the help pages.
+
+00:02:01.959 --> 00:02:05.299
+We'll then need to populate that feed template with
+
+00:02:05.299 --> 00:02:08.930
+the additional information to base the ad creative on,
+
+00:02:08.930 --> 00:02:12.650
+and will need to upload that feed to AdWords for
+
+00:02:12.650 --> 00:02:17.555
+all schemas except for retail and for Merchant Center for the retail schema.
+
+00:02:17.555 --> 00:02:20.930
+Now, the magic happens when the dynamic attribute from
+
+00:02:20.930 --> 00:02:25.520
+Google Analytics is joined to the feed that AdWords is using.
+
+00:02:25.520 --> 00:02:27.230
+So, Adwords knows to display
+
+00:02:27.229 --> 00:02:30.319
+very customized ad creatives when they're
+
+00:02:30.319 --> 00:02:34.400
+retargeting to users who visit other websites after yours.
+
+00:02:34.400 --> 00:02:38.510
+Let's checkout dynamic attributes in the Google Analytics admin,
+
+00:02:38.509 --> 00:02:43.889
+and let's also take a look at the feed and the schema that's used to organize the feed.
+
+00:02:43.889 --> 00:02:45.464
+Back in the property admin,
+
+00:02:45.465 --> 00:02:49.265
+under audience definitions, we can click dynamic attributes.
+
+00:02:49.264 --> 00:02:51.169
+If we click new attribute,
+
+00:02:51.169 --> 00:02:53.239
+we'll be asked to specify which schema,
+
+00:02:53.240 --> 00:02:58.189
+which vertical, which business type as it's called here,we want to remarket for.
+
+00:02:58.189 --> 00:03:03.155
+Let's say that we're configuring dynamic remarketing for a flight booking engine.
+
+00:03:03.155 --> 00:03:08.300
+Under audience definitions, we can click dynamic attributes, new attribute.
+
+00:03:08.300 --> 00:03:11.840
+Here's where we specify the vertical referred
+
+00:03:11.840 --> 00:03:15.395
+to here as the business type, we'll select flights.
+
+00:03:15.395 --> 00:03:19.969
+We can keep the view as the main view destination account,
+
+00:03:19.969 --> 00:03:24.669
+specify the AdWords account that we want to configure dynamic remarketing in.
+
+00:03:24.669 --> 00:03:28.280
+Now, here's where we're setting the key based on the custom dimension or
+
+00:03:28.280 --> 00:03:30.020
+custom dimensions that we're passing to
+
+00:03:30.020 --> 00:03:33.365
+Google Analytics when a flight results page is viewed.
+
+00:03:33.365 --> 00:03:35.780
+Destination airport is required.
+
+00:03:35.780 --> 00:03:39.235
+So again, we would have to configure this custom dimension,
+
+00:03:39.235 --> 00:03:41.600
+send the custom dimension to Google analytics when
+
+00:03:41.599 --> 00:03:44.704
+a flight pages viewed and then this would become our key.
+
+00:03:44.705 --> 00:03:46.534
+Now, in some cases,
+
+00:03:46.533 --> 00:03:51.169
+we can have other attributes contribute to the key as well.
+
+00:03:51.169 --> 00:03:54.214
+If we roll over origin ID,
+
+00:03:54.215 --> 00:03:59.705
+we see that the origin ID must match values from the origin ID column in your feed.
+
+00:03:59.705 --> 00:04:01.490
+This is an optional attribute,
+
+00:04:01.490 --> 00:04:03.860
+but if we want it to remark it based not only on
+
+00:04:03.860 --> 00:04:06.910
+destination airport but on departure airport,
+
+00:04:06.909 --> 00:04:09.409
+and we were capturing that as a custom dimension,
+
+00:04:09.409 --> 00:04:10.699
+that would be our option,
+
+00:04:10.699 --> 00:04:14.584
+so we could have a key based on destination,
+
+00:04:14.585 --> 00:04:19.579
+airport and origin airport referred to as destination ID,
+
+00:04:19.579 --> 00:04:22.069
+origin ID for the dynamic attributes.
+
+00:04:22.069 --> 00:04:24.980
+The remaining attributes in this case allow you to
+
+00:04:24.980 --> 00:04:28.220
+specify additional information that you could use in your ad.
+
+00:04:28.220 --> 00:04:29.810
+If we roll over start date,
+
+00:04:29.810 --> 00:04:31.899
+we see that if we populate this field,
+
+00:04:31.899 --> 00:04:35.149
+the start date can be displayed right within the ad.
+
+00:04:35.149 --> 00:04:41.359
+So, some of the additional information for the dynamic ad can come from attributes,
+
+00:04:41.360 --> 00:04:45.814
+the rest of the additional information will come from the feed that we upload.
+
+00:04:45.814 --> 00:04:51.154
+If we go back to the AdWords support pages and we click into flights,
+
+00:04:51.154 --> 00:04:54.099
+we see the schema that will be reflected in
+
+00:04:54.100 --> 00:04:57.350
+the feed template that we can populate an upload.
+
+00:04:57.350 --> 00:05:00.379
+You can download the feed template from
+
+00:05:00.379 --> 00:05:03.459
+AdWords or from the support pages as we can do here.
+
+00:05:03.459 --> 00:05:05.599
+You could then populate this template with
+
+00:05:05.600 --> 00:05:09.050
+the additional information about the flight and upload it to AdWords.
+
+00:05:09.050 --> 00:05:12.275
+At that point, AdWords would be able to generate
+
+00:05:12.274 --> 00:05:16.289
+highly customized ad for your target advertising audience.
+
+00:05:16.290 --> 00:05:18.710
+With these configuration steps in place,
+
+00:05:18.709 --> 00:05:22.279
+Google AdWords can now display ads that are customized
+
+00:05:22.279 --> 00:05:26.869
+for the specific service or product that your visitor has previously viewed.
+

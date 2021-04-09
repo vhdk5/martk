@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.794
+Let's start this section by considering why we need segmentation.
+
+00:00:03.794 --> 00:00:07.500
+We need segmentation as an alternative to aggregation,
+
+00:00:07.500 --> 00:00:09.929
+meaning, analyzing all your sessions,
+
+00:00:09.929 --> 00:00:12.134
+all your users, at the same time.
+
+00:00:12.134 --> 00:00:14.460
+If we want to be a little bit dramatic,
+
+00:00:14.460 --> 00:00:17.414
+we can say that aggregation is the enemy.
+
+00:00:17.414 --> 00:00:22.289
+That is to say that if you're only viewing aggregated Google Analytics data,
+
+00:00:22.289 --> 00:00:26.355
+it is likely that you're missing insights and opportunities.
+
+00:00:26.355 --> 00:00:28.440
+Segmenting, on the other hand,
+
+00:00:28.440 --> 00:00:33.450
+focuses your analysis on meaningful subgroups of users or sessions.
+
+00:00:33.450 --> 00:00:36.995
+As a result, we should be able to surface insights that
+
+00:00:36.994 --> 00:00:40.765
+otherwise would remain obscured in the aggregated data.
+
+00:00:40.765 --> 00:00:43.369
+Within Google Analytics, segmentation includes
+
+00:00:43.369 --> 00:00:46.369
+built-in segments known as system segments,
+
+00:00:46.369 --> 00:00:49.474
+and also custom segments that we define ourselves.
+
+00:00:49.475 --> 00:00:51.785
+Let's start with system segments.
+
+00:00:51.784 --> 00:00:54.049
+Systems segments can be based on
+
+00:00:54.049 --> 00:00:58.625
+specific characteristics of your users such as mobile traffic,
+
+00:00:58.625 --> 00:01:01.219
+device category equals mobile,
+
+00:01:01.219 --> 00:01:04.700
+or based on overall behavior patterns such as
+
+00:01:04.700 --> 00:01:09.390
+single session versus multi-session users, or non-bound sessions.
+
+00:01:09.390 --> 00:01:15.650
+We can define and apply a segment in almost any report in the Google Analytics UI.
+
+00:01:15.650 --> 00:01:19.250
+Let's say that we're in our landing pages report and we wanted to
+
+00:01:19.250 --> 00:01:23.480
+evaluate bounce on landing pages for mobile device users.
+
+00:01:23.480 --> 00:01:24.890
+In a previous lesson,
+
+00:01:24.890 --> 00:01:28.489
+we saw how we could apply device category as
+
+00:01:28.489 --> 00:01:33.140
+a secondary dimension and then filter for mobile on the secondary dimension.
+
+00:01:33.140 --> 00:01:35.570
+But we could take an even more direct approach by
+
+00:01:35.569 --> 00:01:37.984
+just applying a mobile built-in segment.
+
+00:01:37.984 --> 00:01:39.590
+We'll click "Add segment."
+
+00:01:39.590 --> 00:01:44.510
+Let's click "System" to select only the built-in system segments.
+
+00:01:44.510 --> 00:01:46.940
+We'll select "Mobile Traffic," and for now,
+
+00:01:46.939 --> 00:01:49.439
+we'll deselect "All Users."
+
+00:01:49.439 --> 00:01:52.685
+Now, we see that mobile traffic is applied as a segment.
+
+00:01:52.685 --> 00:01:54.859
+We can see that at the top of the report,
+
+00:01:54.859 --> 00:01:58.745
+we can also see it within the primary dimension column in the table.
+
+00:01:58.745 --> 00:02:02.704
+Now, we can analyze all metrics in the table for mobile traffic only.
+
+00:02:02.704 --> 00:02:04.939
+Let's now go to the Exit Pages report,
+
+00:02:04.939 --> 00:02:07.549
+and to play different built-in segment.
+
+00:02:07.549 --> 00:02:12.349
+We'll remove the mobile traffic segment that we applied in our previous report.
+
+00:02:12.349 --> 00:02:16.789
+The Exit Pages report is helpful because it shows us
+
+00:02:16.789 --> 00:02:21.949
+the percentage of time a pageview was the last pageview in a session.
+
+00:02:21.949 --> 00:02:25.009
+We know that we don't want any page that's involved in
+
+00:02:25.009 --> 00:02:29.435
+a conversion process to serve as an exit page with a high percentage.
+
+00:02:29.435 --> 00:02:31.670
+That would not be a positive indicator.
+
+00:02:31.669 --> 00:02:34.354
+But as we consider Exit Pages,
+
+00:02:34.354 --> 00:02:38.014
+we want to remember that exits also include bounces.
+
+00:02:38.014 --> 00:02:42.339
+If we say to ourselves some of our visitors are always going to balance,
+
+00:02:42.340 --> 00:02:45.050
+we're never going to completely eliminate bounce rate.
+
+00:02:45.050 --> 00:02:48.770
+But what if we could segment out those visitors who do bounce?
+
+00:02:48.770 --> 00:02:52.625
+So, we could then evaluate users who were engaged enough
+
+00:02:52.625 --> 00:02:57.125
+to at least perform one additional action after landing.
+
+00:02:57.125 --> 00:03:01.759
+In this case, we can click "Add segment," we'll deselect "All
+
+00:03:01.759 --> 00:03:07.419
+Users," we'll select "System," Non bounce Sessions, Apply.
+
+00:03:07.419 --> 00:03:11.780
+Now, we're able to more meaningfully evaluate exit rate for
+
+00:03:11.780 --> 00:03:16.189
+those sessions in which users were engaged enough not to bounce to begin with.
+
+00:03:16.189 --> 00:03:21.460
+We're using segments to break down our audience into more meaningful subgroups.
+
+00:03:21.460 --> 00:03:26.930
+As a note, because segments require GA to perform on the fly calculations,
+
+00:03:26.930 --> 00:03:29.465
+they are sometimes subject to sampling,
+
+00:03:29.465 --> 00:03:32.180
+which we'll discuss in an upcoming lesson.
+

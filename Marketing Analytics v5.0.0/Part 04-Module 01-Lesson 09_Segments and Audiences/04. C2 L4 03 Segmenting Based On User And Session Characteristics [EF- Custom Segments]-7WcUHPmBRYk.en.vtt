@@ -1,0 +1,283 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.934
+The real power of segmentation in Google Analytics comes from custom segments.
+
+00:00:04.934 --> 00:00:08.474
+Custom segments can also be based on characteristics such
+
+00:00:08.474 --> 00:00:12.209
+as desktop users or users outside the United States.
+
+00:00:12.210 --> 00:00:14.160
+You can base your segments on
+
+00:00:14.160 --> 00:00:18.030
+overall user behavior such as sessions without transactions.
+
+00:00:18.030 --> 00:00:21.914
+You can also base custom segments on custom dimensions.
+
+00:00:21.914 --> 00:00:26.699
+One example of a custom dimension was customer loyalty from the back-end.
+
+00:00:26.699 --> 00:00:29.939
+You can certainly take a customer loyalty values such as
+
+00:00:29.940 --> 00:00:33.625
+platinum and use that to define a custom segment.
+
+00:00:33.625 --> 00:00:37.340
+Let's see how we could define some of these custom segments.
+
+00:00:37.340 --> 00:00:42.230
+Previously, we applied the mobile traffic segment to the landing pages report.
+
+00:00:42.229 --> 00:00:45.829
+But what if we wanted to compare the mobile traffic segment to,
+
+00:00:45.829 --> 00:00:48.004
+say, the desktop traffic segment?
+
+00:00:48.005 --> 00:00:50.780
+Comparing segments is a valuable technique.
+
+00:00:50.780 --> 00:00:52.655
+So, let's see how we can do that.
+
+00:00:52.655 --> 00:00:54.289
+We'll click Add Segment.
+
+00:00:54.289 --> 00:00:57.604
+We can add up to four segments to a single report at a time.
+
+00:00:57.604 --> 00:01:04.009
+We'll click System. Interestingly, we don't see desktop defined as a system segment.
+
+00:01:04.010 --> 00:01:08.045
+But no problem, we can create a custom segment for desktop sessions.
+
+00:01:08.045 --> 00:01:10.144
+There are a few ways to define a segment.
+
+00:01:10.144 --> 00:01:13.759
+One way is to start with a segment that's already defined or built-in.
+
+00:01:13.760 --> 00:01:18.295
+Click Copy. We'll call this segment Desktop Traffic.
+
+00:01:18.295 --> 00:01:25.490
+All we have to do is change the definition to device category exactly matches desktop.
+
+00:01:25.489 --> 00:01:30.079
+Save. Now we have both segments applied to the landing pages report.
+
+00:01:30.079 --> 00:01:36.799
+Now we can compare metrics for each landing page segmented both for mobile and desktop,
+
+00:01:36.799 --> 00:01:38.719
+and we could see where there are differences.
+
+00:01:38.719 --> 00:01:43.129
+One observation that we could already make is that the bounce rate is considerably
+
+00:01:43.129 --> 00:01:49.039
+lower for mobile traffic than desktop traffic on the YouTube shot by brand page.
+
+00:01:49.040 --> 00:01:52.520
+So, we might want to check out that user experience to see if
+
+00:01:52.519 --> 00:01:56.329
+there's some way that we could maybe improve the experience on desktop.
+
+00:01:56.329 --> 00:01:59.299
+On the other hand, for the accessories page,
+
+00:01:59.299 --> 00:02:02.899
+we see that the bounce rate is much higher on mobile than on desktop.
+
+00:02:02.900 --> 00:02:07.085
+So, there's potentially an opportunity for optimization there as well.
+
+00:02:07.084 --> 00:02:11.525
+Let's now go to the channels report and create another custom segment.
+
+00:02:11.525 --> 00:02:13.344
+We'll click Add Segment.
+
+00:02:13.344 --> 00:02:15.455
+We'll deselect all users.
+
+00:02:15.455 --> 00:02:18.545
+Let's actually start by going to system segments.
+
+00:02:18.544 --> 00:02:22.564
+We can select sessions with transactions as a built-in segment.
+
+00:02:22.564 --> 00:02:27.234
+But notice there's not a direct counterpart sessions without transactions.
+
+00:02:27.235 --> 00:02:30.235
+So, what we can do is copy this segment.
+
+00:02:30.235 --> 00:02:35.800
+We'll call this segment Sessions without Transaction.
+
+00:02:35.800 --> 00:02:39.050
+They're often a couple of ways to define the same segment.
+
+00:02:39.050 --> 00:02:43.860
+In this case, we could invert the segment by selecting exclude,
+
+00:02:43.860 --> 00:02:49.790
+or we could change transactions per session equals zero.
+
+00:02:49.789 --> 00:02:53.090
+Let's save the segment. Now we have sessions with
+
+00:02:53.090 --> 00:02:57.094
+transactions and sessions without transaction applied as segments.
+
+00:02:57.094 --> 00:03:01.025
+Notice that the user count doesn't add up quite to 100.
+
+00:03:01.025 --> 00:03:05.200
+That's okay because the segments are defined at session scope.
+
+00:03:05.199 --> 00:03:09.364
+So, the same users can actually appear in the different segments.
+
+00:03:09.365 --> 00:03:13.939
+But we can certainly still use these segments for comparison.
+
+00:03:13.939 --> 00:03:15.935
+To make this comparison clearer,
+
+00:03:15.935 --> 00:03:19.420
+we'll switch over to the percentage display.
+
+00:03:19.419 --> 00:03:22.399
+We can readily see big differences in
+
+00:03:22.400 --> 00:03:26.090
+the representation of the different channels in the two segments.
+
+00:03:26.090 --> 00:03:31.460
+We see, for instance, that referral traffic is very well represented in sessions with
+
+00:03:31.460 --> 00:03:34.040
+transactions and social traffic is
+
+00:03:34.039 --> 00:03:37.504
+disproportionately represented in sessions without transaction.
+
+00:03:37.504 --> 00:03:40.609
+Let's go ahead and click into both and get more detail.
+
+00:03:40.610 --> 00:03:42.725
+Now drill down into referral,
+
+00:03:42.724 --> 00:03:48.049
+knowing that this channel is already performing better as sessions with transactions.
+
+00:03:48.050 --> 00:03:51.469
+We could see which specific referrals are helping this channel the
+
+00:03:51.469 --> 00:03:54.905
+most if we go back up to the top level of the report.
+
+00:03:54.905 --> 00:03:57.669
+Now drill down into social which is
+
+00:03:57.669 --> 00:04:01.750
+over-represented in sessions without transaction. We see the culprit.
+
+00:04:01.750 --> 00:04:05.560
+It's our YouTube traffic that's generating very few transactions.
+
+00:04:05.560 --> 00:04:09.580
+So, there's possibly the beginning of an optimization conversation there.
+
+00:04:09.580 --> 00:04:11.400
+In the case of these segments,
+
+00:04:11.400 --> 00:04:15.909
+we've used the user's own behavior to create segments that we can
+
+00:04:15.909 --> 00:04:21.254
+then wrap back around onto other reports such as the channels report.
+
+00:04:21.254 --> 00:04:22.699
+As a special note,
+
+00:04:22.699 --> 00:04:26.495
+when Patrick and I discuss attribution in an upcoming course,
+
+00:04:26.495 --> 00:04:29.079
+we'll do some further digging to determine if any of
+
+00:04:29.079 --> 00:04:31.659
+the traffic sources that seemed to be under-performing in
+
+00:04:31.660 --> 00:04:34.150
+terms of conversion rate are in fact still
+
+00:04:34.149 --> 00:04:37.139
+helping conversions that occur in later sessions.
+
+00:04:37.139 --> 00:04:41.344
+For now, let's consider a few more aspects of custom segments.
+
+00:04:41.345 --> 00:04:43.955
+Custom segments are retroactive.
+
+00:04:43.954 --> 00:04:46.984
+They don't alter any underlying report data.
+
+00:04:46.985 --> 00:04:49.189
+You don't have to hesitate to create them,
+
+00:04:49.189 --> 00:04:52.790
+and it's fine if you create them right away in your main reporting view.
+
+00:04:52.790 --> 00:04:56.735
+You do not have to try your segments out in the test view first.
+
+00:04:56.735 --> 00:04:59.944
+Segments are also yours only by default.
+
+00:04:59.944 --> 00:05:02.360
+No one else will see your custom segments unless you
+
+00:05:02.360 --> 00:05:05.014
+change the visibility from the default setting.
+
+00:05:05.014 --> 00:05:08.990
+If we go back into edit sessions without transaction,
+
+00:05:08.990 --> 00:05:12.574
+we see that the default visibility is that I can apply
+
+00:05:12.574 --> 00:05:16.610
+or edit this segment in any view that I have access to.
+
+00:05:16.610 --> 00:05:23.509
+I can change the setting for the segment to be applicable in this view only.
+
+00:05:23.509 --> 00:05:28.849
+I don't have collaborate access to this Google Merchandise Store view.
+
+00:05:28.850 --> 00:05:33.785
+But if I did, the segment availability panel would look like this,
+
+00:05:33.785 --> 00:05:36.140
+with an additional option to share
+
+00:05:36.139 --> 00:05:38.930
+the segment with other users who are accessing the view.
+
+00:05:38.930 --> 00:05:43.079
+Tumeris will be talking more about access rights in the next lesson.
+

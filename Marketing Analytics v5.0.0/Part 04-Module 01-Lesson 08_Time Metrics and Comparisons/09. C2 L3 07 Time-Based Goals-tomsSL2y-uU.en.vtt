@@ -1,0 +1,112 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.334
+In this section, we'll continue to talk about conversions.
+
+00:00:04.334 --> 00:00:05.835
+But in this case,
+
+00:00:05.835 --> 00:00:09.509
+we'll look at goals that are themselves based on time.
+
+00:00:09.509 --> 00:00:11.289
+In the previous courses,
+
+00:00:11.289 --> 00:00:13.514
+we looked at goal configuration.
+
+00:00:13.515 --> 00:00:17.865
+The types of goals we've considered so far had been action goals,
+
+00:00:17.864 --> 00:00:21.089
+goals based on a specific user interaction.
+
+00:00:21.089 --> 00:00:24.254
+Action goals can be either destination goals,
+
+00:00:24.254 --> 00:00:26.504
+when a user reaches a certain page,
+
+00:00:26.504 --> 00:00:29.204
+or a goal based on an event.
+
+00:00:29.204 --> 00:00:33.164
+You could configure action goals for lead submission,
+
+00:00:33.164 --> 00:00:36.774
+newsletter sign-up, or video completion.
+
+00:00:36.774 --> 00:00:41.704
+The two other types of goals that you can configure are sometimes referred to as
+
+00:00:41.704 --> 00:00:46.609
+engagement goals because they're not about a specific user interaction,
+
+00:00:46.609 --> 00:00:51.200
+instead, they represent a threshold of engagement.
+
+00:00:51.200 --> 00:00:56.420
+These engagement goals are most often suitable for publisher models.
+
+00:00:56.420 --> 00:01:01.760
+Engagement goals can be based on either session duration or pages per session.
+
+00:01:01.759 --> 00:01:05.105
+Back in the test view of the org test account.
+
+00:01:05.105 --> 00:01:06.960
+If we click on Goals,
+
+00:01:06.959 --> 00:01:10.909
+New Goal, we can configure a duration based goal.
+
+00:01:10.909 --> 00:01:16.954
+We'll call this goal session greater than five minutes.
+
+00:01:16.954 --> 00:01:19.995
+Select Duration as the type, continue,
+
+00:01:19.995 --> 00:01:23.585
+Duration greater than five minutes.
+
+00:01:23.584 --> 00:01:25.265
+With this goal configured,
+
+00:01:25.265 --> 00:01:28.974
+we could use it to evaluate any of our session scope dimensions.
+
+00:01:28.974 --> 00:01:31.799
+For instance, in the channels report,
+
+00:01:31.799 --> 00:01:36.349
+we can see how the different channels are performing in terms of session duration,
+
+00:01:36.349 --> 00:01:40.849
+and specifically meeting the session greater than five-minute goal.
+
+00:01:40.849 --> 00:01:44.944
+Again, we want to keep in mind that a goal based on session duration
+
+00:01:44.944 --> 00:01:49.324
+or pages per session would be more suitable for a publisher model,
+
+00:01:49.325 --> 00:01:53.284
+than any transactional or e-commerce model.
+
+00:01:53.284 --> 00:01:57.709
+We also want to remember not to take the goal completely literally,
+
+00:01:57.709 --> 00:02:02.989
+because GA may not always be able to calculate the exact session duration.
+
+00:02:02.989 --> 00:02:05.420
+But the session duration and goal
+
+00:02:05.420 --> 00:02:09.319
+calculation are handled the same for all of our channels.
+
+00:02:09.319 --> 00:02:15.810
+Therefore, we can use this goal as a co-operative metric to evaluate channel performance.
+

@@ -1,0 +1,187 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.440
+Earlier, we said that filters can be used for cleaning up our data and
+
+00:00:04.440 --> 00:00:09.315
+also for creating dedicated subsets of our data in separate views.
+
+00:00:09.314 --> 00:00:12.449
+Let's take a look now at how we would achieve this.
+
+00:00:12.449 --> 00:00:17.399
+There are many types of filters that we could apply to create dedicated views.
+
+00:00:17.399 --> 00:00:21.254
+Again, these views are going to be hard-filtered,
+
+00:00:21.254 --> 00:00:23.864
+unlike segments which are dynamic.
+
+00:00:23.864 --> 00:00:30.945
+We could filter by geography, technology, acquisition, sub-directory,
+
+00:00:30.945 --> 00:00:35.075
+or hostname, which is especially relevant for a roll-up
+
+00:00:35.075 --> 00:00:39.820
+or cross domain scenario as far as discussed in the last course.
+
+00:00:39.820 --> 00:00:45.079
+The process for sub-setting your data into a dedicated view is straightforward.
+
+00:00:45.079 --> 00:00:50.060
+First, you can create a new view or copy your main view.
+
+00:00:50.060 --> 00:00:54.520
+In either case, the view will be empty in terms of data.
+
+00:00:54.520 --> 00:00:59.315
+Then you apply and include or potentially an exclude filter.
+
+00:00:59.314 --> 00:01:02.344
+There are 25 use per property.
+
+00:01:02.344 --> 00:01:07.489
+So, let's say that we are creating a dedicated view for our visitors from Australia.
+
+00:01:07.489 --> 00:01:10.214
+We could click Create View,
+
+00:01:10.215 --> 00:01:14.189
+View Name, Australia, that's good.
+
+00:01:14.189 --> 00:01:16.819
+In this case, for reporting time zone,
+
+00:01:16.819 --> 00:01:20.599
+we could keep that to wherever the organization is located:
+
+00:01:20.599 --> 00:01:25.079
+Create View, Filters, Add Filter.
+
+00:01:25.079 --> 00:01:29.900
+In this case, it's probably okay to add the filter directly to the view without
+
+00:01:29.900 --> 00:01:34.960
+going through a TextView because you're not altering your main view.
+
+00:01:34.959 --> 00:01:37.459
+So, if there happens to be a problem with the filter,
+
+00:01:37.459 --> 00:01:41.179
+it will only affect this dedicated Australia view and not your main view.
+
+00:01:41.180 --> 00:01:44.165
+Filter Name, Australia Only,
+
+00:01:44.165 --> 00:01:55.830
+Custom, Include, Filter Pattern, Australia, that's it.
+
+00:01:55.829 --> 00:01:58.424
+Save the filter and we should be good.
+
+00:01:58.424 --> 00:02:02.265
+As a note, exclude filters are cumulative,
+
+00:02:02.265 --> 00:02:06.125
+meaning that if we wanted a view that included all visitors
+
+00:02:06.125 --> 00:02:10.594
+except visitors from Australia and except visitors from New Zealand,
+
+00:02:10.594 --> 00:02:16.629
+we could apply an exclude Australia filter and then an exclude New Zealand filter.
+
+00:02:16.629 --> 00:02:19.835
+However, if we wanted to include visitors from
+
+00:02:19.835 --> 00:02:23.135
+Australia and New Zealand in a single-view,
+
+00:02:23.134 --> 00:02:28.354
+we could not use to succeeding include filters because they're not cumulative.
+
+00:02:28.354 --> 00:02:33.905
+If we added an include Australia filter all other countries would go away.
+
+00:02:33.905 --> 00:02:38.074
+So adding include New Zealand would serve no purpose.
+
+00:02:38.074 --> 00:02:39.589
+What we'll we need?
+
+00:02:39.590 --> 00:02:42.425
+You guessed it, a simple regular expression.
+
+00:02:42.425 --> 00:02:53.400
+If we go back to our Australia filter and modify it for Australia and New Zealand.
+
+00:02:53.530 --> 00:02:59.310
+Now, the filter pattern can be Australia or pipe symbol,
+
+00:02:59.310 --> 00:03:03.284
+New Zealand and we're good.
+
+00:03:03.284 --> 00:03:05.944
+As another note about dedicated views.
+
+00:03:05.944 --> 00:03:09.754
+In some cases they work hand in hand with access rights.
+
+00:03:09.754 --> 00:03:14.930
+Let's say that you wanted to limit access to Google Analytics just for
+
+00:03:14.930 --> 00:03:18.590
+a specific sub-directory for a department in your company
+
+00:03:18.590 --> 00:03:23.284
+or to a single traffic source for an affiliate.
+
+00:03:23.284 --> 00:03:28.689
+We could create dedicated views and then limit access rights only to those views.
+
+00:03:28.689 --> 00:03:33.050
+Again, demerits we'll be talking about access rights in the next lesson.
+
+00:03:33.050 --> 00:03:37.900
+For now, just to see how we would subset our data by sub-directory.
+
+00:03:37.900 --> 00:03:40.835
+Let's say that we wanted to create a view for
+
+00:03:40.835 --> 00:03:44.135
+only pages within the products sub-directory.
+
+00:03:44.134 --> 00:03:49.114
+We could click Create New View, Product Pages Only,
+
+00:03:49.115 --> 00:03:51.469
+go back into Filters,
+
+00:03:51.469 --> 00:03:54.884
+Add Filter, Product Pages Only,
+
+00:03:54.884 --> 00:03:56.310
+same name as the view.
+
+00:03:56.310 --> 00:03:58.210
+That's okay. In this case,
+
+00:03:58.210 --> 00:04:00.620
+we could actually use
+
+00:04:00.620 --> 00:04:08.465
+a predefined filter traffic to the sub-directories that begin with products.
+
+00:04:08.465 --> 00:04:10.235
+So we could define our view,
+
+00:04:10.235 --> 00:04:13.970
+and if we wanted to restrict the access only to this view,
+
+00:04:13.969 --> 00:04:15.960
+that's where access rights come in.
+

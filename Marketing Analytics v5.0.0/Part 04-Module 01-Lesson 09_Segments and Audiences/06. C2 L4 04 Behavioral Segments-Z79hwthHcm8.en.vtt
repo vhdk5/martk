@@ -1,0 +1,391 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.615
+In this section, we talk about behavioral segments.
+
+00:00:03.615 --> 00:00:06.360
+You won't see behavioral segments anywhere
+
+00:00:06.360 --> 00:00:09.225
+in the Google Analytics interface under that name.
+
+00:00:09.224 --> 00:00:12.629
+But we're referring to the segments as behavioral segments
+
+00:00:12.630 --> 00:00:15.929
+because they're based on very specific user behaviors.
+
+00:00:15.929 --> 00:00:17.789
+As we know in Google Analytics,
+
+00:00:17.789 --> 00:00:19.425
+when we're talking about behaviors,
+
+00:00:19.425 --> 00:00:23.265
+we're basically talking about page views and events.
+
+00:00:23.265 --> 00:00:25.914
+But before we define behavioral segments,
+
+00:00:25.914 --> 00:00:28.804
+let's consider a philosophical question.
+
+00:00:28.804 --> 00:00:31.969
+If you have a help page or an FAQ section on
+
+00:00:31.969 --> 00:00:35.140
+your website or even let's say an about us page,
+
+00:00:35.140 --> 00:00:37.189
+what's the purpose of that page?
+
+00:00:37.189 --> 00:00:42.844
+The immediate reason of course is to provide help or to provide some form of information.
+
+00:00:42.844 --> 00:00:46.159
+But the ultimate reason that we go through the trouble of developing
+
+00:00:46.159 --> 00:00:49.969
+the supplemental pages is to increase conversions.
+
+00:00:49.969 --> 00:00:53.000
+If our model is transactional in any way,
+
+00:00:53.000 --> 00:00:56.195
+we want to drive towards increased conversions.
+
+00:00:56.195 --> 00:01:00.320
+Let's say that you have included a video on your transactional website.
+
+00:01:00.320 --> 00:01:02.335
+What's the purpose of the video?
+
+00:01:02.335 --> 00:01:05.659
+The immediate reason is to inform or entertain,
+
+00:01:05.659 --> 00:01:09.140
+and we want to be able to measure how many times the video is viewed.
+
+00:01:09.140 --> 00:01:11.599
+Ultimately, the reason that we post the video on
+
+00:01:11.599 --> 00:01:16.114
+a transactional site in most cases is to increase conversions.
+
+00:01:16.114 --> 00:01:18.890
+We don't want to go through the trouble and expense of
+
+00:01:18.890 --> 00:01:22.430
+producing a video just to have visitors watch the video.
+
+00:01:22.430 --> 00:01:26.270
+We want the video to positively influence conversions.
+
+00:01:26.269 --> 00:01:29.634
+With this, let's define some behavioral segments.
+
+00:01:29.635 --> 00:01:31.575
+On the Google Merchandise Store,
+
+00:01:31.575 --> 00:01:33.284
+we see that there's a help page.
+
+00:01:33.284 --> 00:01:36.679
+Is this help page having a positive impact on conversions?
+
+00:01:36.680 --> 00:01:39.680
+Let's start by going to the all pages report in
+
+00:01:39.680 --> 00:01:44.600
+Google Analytics and seeing which page we have to base our segment on.
+
+00:01:44.599 --> 00:01:45.979
+Let's copy this value.
+
+00:01:45.980 --> 00:01:47.585
+We'll click Add Segment.
+
+00:01:47.584 --> 00:01:49.729
+In this case, we don't have a segment
+
+00:01:49.730 --> 00:01:52.070
+that's already been defined that we could start with.
+
+00:01:52.069 --> 00:01:54.889
+So, we will have to define a new segment from scratch.
+
+00:01:54.890 --> 00:01:56.560
+We'll click New Segment.
+
+00:01:56.560 --> 00:02:00.980
+What we're going to do is actually skip over all of these starting conditions.
+
+00:02:00.980 --> 00:02:04.219
+We're going to have more options if we click Conditions.
+
+00:02:04.219 --> 00:02:06.155
+So, when you're defining a new segment,
+
+00:02:06.155 --> 00:02:07.519
+go write that conditions,
+
+00:02:07.519 --> 00:02:09.889
+everything that we need will be available there.
+
+00:02:09.889 --> 00:02:13.559
+Conditions. Where we see conversion probability,
+
+00:02:13.560 --> 00:02:16.159
+this is actually just a drop down of all of
+
+00:02:16.159 --> 00:02:20.120
+the dimensions and metrics we have to work with when creating segments.
+
+00:02:20.120 --> 00:02:26.360
+Now, this segment is a behavioral segment based on a page dimension.
+
+00:02:26.360 --> 00:02:28.225
+What's important to recognize,
+
+00:02:28.224 --> 00:02:30.949
+when you're defining a segment based on page,
+
+00:02:30.949 --> 00:02:33.439
+you're not saying I only want to see that page,
+
+00:02:33.439 --> 00:02:34.909
+that wouldn't make any sense.
+
+00:02:34.909 --> 00:02:37.444
+We could do that with a regular table filter.
+
+00:02:37.444 --> 00:02:39.349
+What we're doing here is we're saying,
+
+00:02:39.349 --> 00:02:43.549
+"I want to see all sessions that included
+
+00:02:43.550 --> 00:02:48.719
+a page that exactly matches frequently asked questions."
+
+00:02:48.719 --> 00:02:50.960
+We're pulling in the entire session,
+
+00:02:50.960 --> 00:02:54.064
+not just that one page you hit within the session.
+
+00:02:54.064 --> 00:02:56.704
+The page view is characterizing this session.
+
+00:02:56.705 --> 00:02:59.495
+It's a behavioral segment based on pageview.
+
+00:02:59.495 --> 00:03:01.015
+We'll call this segment.
+
+00:03:01.014 --> 00:03:05.579
+FAQ Page Viewed, click Save.
+
+00:03:05.580 --> 00:03:08.540
+Let's also add all users.
+
+00:03:08.539 --> 00:03:13.299
+If we navigate to the goal overview page with all users in fact page
+
+00:03:13.300 --> 00:03:17.910
+viewed segments still applied and we select Goal 1: Purchase Completed,
+
+00:03:17.909 --> 00:03:19.349
+we can see that
+
+00:03:19.349 --> 00:03:25.180
+the FAQ Page Viewed conversion rate was higher than the conversion rate for all users.
+
+00:03:25.180 --> 00:03:29.860
+Now, it's not time to celebrate quite yet because we need to remember that
+
+00:03:29.860 --> 00:03:32.140
+the FAQ Page Viewed segment is including
+
+00:03:32.139 --> 00:03:36.909
+any session in which the FAQ page was viewed at any time,
+
+00:03:36.909 --> 00:03:39.189
+that could have been after the transaction as well.
+
+00:03:39.189 --> 00:03:42.219
+So, now we're going to create a different type of segment,
+
+00:03:42.219 --> 00:03:46.270
+a sequence segment to determine if the FAQ page was in
+
+00:03:46.270 --> 00:03:50.805
+fact viewed before the transaction in most cases, new segment.
+
+00:03:50.805 --> 00:03:54.064
+This time we'll define a segment based on sequences.
+
+00:03:54.064 --> 00:03:55.729
+Give ourselves some more room.
+
+00:03:55.729 --> 00:04:00.405
+Step one page, exactly matches.
+
+00:04:00.405 --> 00:04:02.594
+Frequently asked questions.
+
+00:04:02.594 --> 00:04:07.965
+Add step is followed by goal on completions.
+
+00:04:07.965 --> 00:04:11.705
+We want to choose per hit so the sequence is enforced.
+
+00:04:11.705 --> 00:04:13.100
+If we said per session,
+
+00:04:13.099 --> 00:04:16.129
+this would still mean that the goal completion could have
+
+00:04:16.129 --> 00:04:19.459
+occurred before the view of the FAQ page.
+
+00:04:19.459 --> 00:04:21.964
+Goal 1 completion is greater than zero,
+
+00:04:21.964 --> 00:04:30.644
+and we'll call the segment FAQ Page Proceeding Goal 1 Completion.
+
+00:04:30.644 --> 00:04:33.689
+We see that of the 164 goal
+
+00:04:33.689 --> 00:04:38.334
+one completions that occurred in sessions in which the FAQ page was viewed,
+
+00:04:38.334 --> 00:04:43.414
+a 120 of those goal completions occurred after the FAQ page was viewed.
+
+00:04:43.415 --> 00:04:48.235
+This is pretty good but it's not quite a smashing success for the FAQ page.
+
+00:04:48.235 --> 00:04:50.764
+So, I wouldn't recommend reorganizing
+
+00:04:50.764 --> 00:04:54.889
+the navigation to get more people to the FAQ page based on this analysis.
+
+00:04:54.889 --> 00:04:57.784
+But it was still useful to perform and certainly
+
+00:04:57.785 --> 00:05:01.314
+the FAQ page doesn't seem to be harming transactions.
+
+00:05:01.314 --> 00:05:05.344
+As an example of behavioral segments based on event data,
+
+00:05:05.345 --> 00:05:09.290
+we could build segments based on video interactions of those are captured.
+
+00:05:09.290 --> 00:05:12.330
+We don't have video data in the merchandise store account,
+
+00:05:12.329 --> 00:05:15.379
+but this is an example of the conversion improvement
+
+00:05:15.379 --> 00:05:18.870
+you could see when users watch videos in sessions.
+
+00:05:18.870 --> 00:05:22.639
+We certainly have seen this kind of difference in conversion rate in
+
+00:05:22.639 --> 00:05:26.824
+other Google Analytics accounts where video interactions are captured.
+
+00:05:26.824 --> 00:05:28.990
+How would we build these segments?
+
+00:05:28.990 --> 00:05:34.025
+Let's see. Again, starting from pretty much any report in GA,
+
+00:05:34.024 --> 00:05:36.634
+click Add Segment, new segment.
+
+00:05:36.634 --> 00:05:38.764
+We'll go right down to conditions.
+
+00:05:38.764 --> 00:05:41.824
+In this case we're going to use three different dimensions.
+
+00:05:41.824 --> 00:05:46.829
+We're going to start with event category, exactly matches video.
+
+00:05:46.829 --> 00:05:50.750
+Now, if we wanted to create a segment just for any sessions in
+
+00:05:50.750 --> 00:05:54.694
+which users interacted with any video in any way,
+
+00:05:54.694 --> 00:05:57.404
+this would suffice as the segment definition.
+
+00:05:57.404 --> 00:05:59.699
+But we're going to get more specific.
+
+00:05:59.699 --> 00:06:03.149
+Event action, exactly matches.
+
+00:06:03.149 --> 00:06:09.549
+Start on whatever you're using for your event action and event label,
+
+00:06:09.550 --> 00:06:12.829
+exactly matches whatever the name of your video is.
+
+00:06:12.829 --> 00:06:17.449
+Now, we're not getting any dynamic matching in the merchandise store account,
+
+00:06:17.449 --> 00:06:20.959
+because these events values aren't matching anything that's currently captured,
+
+00:06:20.959 --> 00:06:23.989
+but this would be the process of defining a segment for
+
+00:06:23.990 --> 00:06:27.319
+all sessions in which users started your company video.
+
+00:06:27.319 --> 00:06:29.420
+We can name this segment apply it.
+
+00:06:29.420 --> 00:06:33.319
+We could define a sequence segment in the same way with
+
+00:06:33.319 --> 00:06:38.199
+these dimensions being the first step and then transactions or goal completions,
+
+00:06:38.199 --> 00:06:40.664
+greater than zero, as a second step.
+
+00:06:40.665 --> 00:06:45.200
+Again, once we applied these segments we'd be able to see if
+
+00:06:45.199 --> 00:06:49.750
+there was a correlation between video viewing and increase conversion rate.
+
+00:06:49.750 --> 00:06:53.329
+In this case, the conversion rate for the video viewed segment
+
+00:06:53.329 --> 00:06:57.094
+is a lot higher than for all users and we do also see that
+
+00:06:57.095 --> 00:07:01.250
+891 of the 1,064 video viewed
+
+00:07:01.250 --> 00:07:06.170
+transactions did occur when the video was viewed before the transaction.
+
+00:07:06.170 --> 00:07:09.620
+So, in this case, it's probably fair to say that the video is
+
+00:07:09.620 --> 00:07:13.300
+a good thing and we want to try to get more users to watch it.
+

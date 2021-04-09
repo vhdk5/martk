@@ -1,0 +1,70 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.810
+In this section, we'll discuss average time on page
+
+00:00:03.810 --> 00:00:07.439
+and average session duration metrics in Google Analytics.
+
+00:00:07.440 --> 00:00:10.589
+We'll want to keep in mind the concept of scope.
+
+00:00:10.589 --> 00:00:12.960
+Average time on page is
+
+00:00:12.960 --> 00:00:18.450
+a hit scope metric relating specifically to page views and average session duration
+
+00:00:18.449 --> 00:00:20.519
+is a session scope metric.
+
+00:00:20.519 --> 00:00:24.449
+This will determine which reports these two metrics appear in.
+
+00:00:24.449 --> 00:00:29.789
+We're back in the merchandise store account in the all pages report of the Main View.
+
+00:00:29.789 --> 00:00:34.325
+Note that the average time on page metric appears in this report,
+
+00:00:34.325 --> 00:00:37.925
+average time on page related to page hits.
+
+00:00:37.924 --> 00:00:41.839
+However, if we navigate to the landing pages report,
+
+00:00:41.840 --> 00:00:44.990
+notice that average session duration appears.
+
+00:00:44.990 --> 00:00:48.395
+We can report on average session duration for
+
+00:00:48.395 --> 00:00:52.720
+each landing page because each landing page begins with a session.
+
+00:00:52.719 --> 00:00:57.350
+Therefore, we can report session scope metrics for landing pages.
+
+00:00:57.350 --> 00:01:00.965
+If we navigate to audience overview,
+
+00:01:00.965 --> 00:01:06.745
+we also see average session duration here for all sessions within the view.
+
+00:01:06.745 --> 00:01:11.585
+If we navigate to other reports such as the channels report,
+
+00:01:11.584 --> 00:01:15.319
+we see average session duration reported here and if
+
+00:01:15.319 --> 00:01:18.769
+we navigated to one of the technology reports,
+
+00:01:18.769 --> 00:01:20.724
+lets say browser and OS,
+
+00:01:20.724 --> 00:01:26.849
+we would also see average session duration here reported as a session scope metric.
+

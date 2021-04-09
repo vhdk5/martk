@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.629
+How does Google Analytics calculate average time on page,
+
+00:00:03.629 --> 00:00:05.400
+and average session duration?
+
+00:00:05.400 --> 00:00:08.505
+The explanation can get a little bit detailed.
+
+00:00:08.505 --> 00:00:13.050
+The moral of the story is going to be use time metrics comparatively.
+
+00:00:13.050 --> 00:00:18.045
+So, don't be overly concerned about the actual time metric calculations.
+
+00:00:18.045 --> 00:00:22.959
+We'll recall from previous sections that when a pageview is sent to Google Analytics,
+
+00:00:22.958 --> 00:00:26.429
+it contains many fields including the timestamp.
+
+00:00:26.429 --> 00:00:30.179
+The HIT timestamp is the basis of the time metrics calculation in
+
+00:00:30.179 --> 00:00:34.814
+GA. Time metrics calculation can be a little bit surprising at first.
+
+00:00:34.814 --> 00:00:36.629
+Let's walk through an example.
+
+00:00:36.630 --> 00:00:41.415
+Let's say that someone lands on page A on your website at 10 o'clock,
+
+00:00:41.414 --> 00:00:44.825
+GA actually does not start calculating time
+
+00:00:44.825 --> 00:00:48.365
+until another pageview is sent with another timestamp.
+
+00:00:48.365 --> 00:00:53.765
+GA time metrics are based on the differential between timestamps of Hits.
+
+00:00:53.765 --> 00:00:56.689
+Now that we have sent another pageview HIT into GA,
+
+00:00:56.689 --> 00:00:59.419
+the time on page A is five minutes,
+
+00:00:59.420 --> 00:01:02.240
+and session duration is now five minutes.
+
+00:01:02.240 --> 00:01:04.865
+These calculations don't happen in real-time.
+
+00:01:04.864 --> 00:01:07.549
+This of course, happens during the processing.
+
+00:01:07.549 --> 00:01:11.034
+Now, page B doesn't have a time on page,
+
+00:01:11.034 --> 00:01:17.479
+and the session duration doesn't increase until we access page C. At that point,
+
+00:01:17.480 --> 00:01:20.240
+time on page for page B is two minutes,
+
+00:01:20.239 --> 00:01:22.493
+and session duration has incremented,
+
+00:01:22.493 --> 00:01:25.230
+page D will send another timestamp.
+
+00:01:25.230 --> 00:01:28.924
+So, now we have time on page for page C,
+
+00:01:28.924 --> 00:01:31.369
+session duration is incremented.
+
+00:01:31.370 --> 00:01:37.210
+But what happens when the user gets that 31 minute phone call and the session expires?
+
+00:01:37.209 --> 00:01:43.369
+In this case, if page E is sent to Google Analytics 31 minutes after page D,
+
+00:01:43.370 --> 00:01:45.454
+a new session begins.
+
+00:01:45.454 --> 00:01:48.769
+Page D does not get any time on page,
+
+00:01:48.769 --> 00:01:50.629
+because it's considered the exit page,
+
+00:01:50.629 --> 00:01:52.045
+or the previous session.
+
+00:01:52.045 --> 00:01:55.010
+Now, the clock has started ticking on a new session.
+
+00:01:55.010 --> 00:01:57.365
+When page F is sent to GA,
+
+00:01:57.364 --> 00:02:00.589
+we have time on page of six minutes for page E,
+
+00:02:00.590 --> 00:02:04.674
+and session duration of six minutes for the second session,
+
+00:02:04.674 --> 00:02:07.149
+and the process continues.
+

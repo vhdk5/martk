@@ -1,0 +1,40 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.514
+This lesson focuses on view settings and view filters.
+
+00:00:04.514 --> 00:00:07.889
+We'll start off by considering the differences between
+
+00:00:07.889 --> 00:00:11.459
+view settings and filters, versus custom segments.
+
+00:00:11.460 --> 00:00:14.160
+We'll talk about the important best practice of
+
+00:00:14.160 --> 00:00:17.370
+maintaining at least three views per property,
+
+00:00:17.370 --> 00:00:21.015
+and then we'll get into some specific settings and filtering such
+
+00:00:21.015 --> 00:00:26.804
+as excluding your internal traffic, lowercasing several dimensions,
+
+00:00:26.804 --> 00:00:31.754
+specifying the default page to rewrite that ubiquitous forward slash,
+
+00:00:31.754 --> 00:00:35.909
+consolidating your URLs for easier analysis,
+
+00:00:35.909 --> 00:00:39.929
+configuring site search, breaking out country
+
+00:00:39.929 --> 00:00:43.960
+specific organic search sources and finally,
+
+00:00:43.960 --> 00:00:48.600
+using filters to create dedicated subsets of your data.
+

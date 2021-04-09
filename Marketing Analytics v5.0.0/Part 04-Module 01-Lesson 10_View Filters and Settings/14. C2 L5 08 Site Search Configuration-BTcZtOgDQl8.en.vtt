@@ -1,0 +1,226 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.870
+Our view settings allow us to configure Site Search tracking.
+
+00:00:03.870 --> 00:00:05.759
+In the merchandise store test account,
+
+00:00:05.759 --> 00:00:08.535
+we can access the search terms report,
+
+00:00:08.535 --> 00:00:13.964
+behaviour, site search, search terms.
+
+00:00:13.964 --> 00:00:17.910
+The search terms report is unique in Google Analytics in
+
+00:00:17.910 --> 00:00:22.800
+that it shows us specifically what users are searching for,
+
+00:00:22.800 --> 00:00:24.839
+what they're inputting on their own.
+
+00:00:24.839 --> 00:00:29.100
+So, it's a unique opportunity to understand what our visitors are seeking.
+
+00:00:29.100 --> 00:00:32.370
+Now, the search terms report won't be populated by default,
+
+00:00:32.369 --> 00:00:35.579
+but in most cases it is an easy view
+
+00:00:35.579 --> 00:00:40.144
+setting that allows us to configure the search terms report.
+
+00:00:40.145 --> 00:00:42.920
+The first thing that we want to do is to go to
+
+00:00:42.920 --> 00:00:46.355
+the website that we're tracking and perform a search.
+
+00:00:46.354 --> 00:00:48.544
+So, if we search for a hat,
+
+00:00:48.545 --> 00:00:53.064
+we see in this case that we actually have the search term appearing twice.
+
+00:00:53.064 --> 00:00:55.879
+Key equals hat and keyword equals hat.
+
+00:00:55.880 --> 00:00:59.734
+So, we have two query parameters to choose from.
+
+00:00:59.734 --> 00:01:02.314
+If we searched for a shirt,
+
+00:01:02.314 --> 00:01:06.439
+here we also see key equals shirt keyword equal shirt.
+
+00:01:06.439 --> 00:01:08.164
+Let's look at another example.
+
+00:01:08.165 --> 00:01:12.590
+If we're on eBay and we search for solar panel,
+
+00:01:12.590 --> 00:01:18.850
+we have ampersand underscore NKW, equals solar panel.
+
+00:01:18.849 --> 00:01:22.489
+So, in this case underscore NKW would be the key that
+
+00:01:22.489 --> 00:01:26.030
+we would use to identify the search parameter in the URL.
+
+00:01:26.030 --> 00:01:27.799
+What we would need to do to configure
+
+00:01:27.799 --> 00:01:30.980
+the search reports would be to go into the view settings,
+
+00:01:30.980 --> 00:01:32.620
+again first in our test view,
+
+00:01:32.620 --> 00:01:37.430
+turn on site search tracking and here's where we add the query parameter.
+
+00:01:37.430 --> 00:01:40.520
+In the case of the Google merchandise store,
+
+00:01:40.519 --> 00:01:43.939
+we saw that we could use key or keyword.
+
+00:01:43.939 --> 00:01:49.579
+It's a little bit unusual to have the search term appearing twice in the results URL,
+
+00:01:49.579 --> 00:01:53.510
+but in the case of the merchandise store we could use either and the case
+
+00:01:53.510 --> 00:01:57.945
+of eBay we would use underscore NKW.
+
+00:01:57.944 --> 00:02:00.875
+Whatever the query parameter is in the URL,
+
+00:02:00.875 --> 00:02:03.334
+that indicates the search string,
+
+00:02:03.334 --> 00:02:07.579
+that's what we use to configure site search in Google Analytics and we could
+
+00:02:07.579 --> 00:02:11.930
+also check this box for stripping the query perimeters out of the URL so
+
+00:02:11.930 --> 00:02:15.439
+we don't have to strip the query parameters out as we did in
+
+00:02:15.439 --> 00:02:21.245
+the previous section focusing on the URL query parameter consolidation.
+
+00:02:21.245 --> 00:02:23.189
+If we have site search categories,
+
+00:02:23.189 --> 00:02:24.770
+we could populate those as well,
+
+00:02:24.770 --> 00:02:26.885
+those are less common.
+
+00:02:26.884 --> 00:02:30.289
+Let's consider another case where the search term does not appear in
+
+00:02:30.289 --> 00:02:34.039
+the results page URL and the name equals value pair format,
+
+00:02:34.039 --> 00:02:37.429
+but just incorporated right into the path of the URL.
+
+00:02:37.430 --> 00:02:41.870
+In this case, we couldn't use the view setting to configure site search.
+
+00:02:41.870 --> 00:02:46.909
+Again, we would need to use a filter and a regular expression.
+
+00:02:46.909 --> 00:02:50.944
+We would specifically use an advanced filter with a matching group.
+
+00:02:50.944 --> 00:02:53.599
+We would extract that matching group and output
+
+00:02:53.599 --> 00:02:56.419
+it from the request URL to the search term.
+
+00:02:56.419 --> 00:03:00.500
+So, this scenario where the search term doesn't appear as
+
+00:03:00.500 --> 00:03:04.354
+name equals value is just a little bit more of a challenge to configure,
+
+00:03:04.354 --> 00:03:06.544
+but still completely doable.
+
+00:03:06.544 --> 00:03:09.559
+Once the site search reports are populated,
+
+00:03:09.560 --> 00:03:12.485
+there are just a few things that we'll want to consider.
+
+00:03:12.485 --> 00:03:18.245
+We can add start pages a secondary dimension to see on which page the search originated.
+
+00:03:18.245 --> 00:03:23.300
+Don't be surprised to see entrances as a start page because search results pages
+
+00:03:23.300 --> 00:03:28.685
+can be linked to directly and sometimes they can even be indexed in search engines.
+
+00:03:28.685 --> 00:03:34.909
+If we add start page as a secondary dimension we will see in fact that in
+
+00:03:34.909 --> 00:03:38.329
+many cases a search results page was accessed
+
+00:03:38.330 --> 00:03:43.325
+directly either through a link or through indexing in a search engine.
+
+00:03:43.324 --> 00:03:46.969
+Another thing that we'll want to consider with site searches is just to
+
+00:03:46.969 --> 00:03:51.305
+verify in fact that there are multiple users who are performing the searches.
+
+00:03:51.305 --> 00:03:54.849
+If we see a great number of searches for a specific term,
+
+00:03:54.849 --> 00:03:59.539
+sometimes that can originate from one person or a small number of people.
+
+00:03:59.539 --> 00:04:04.340
+We can quickly verify that the searches are being performed by different people by
+
+00:04:04.340 --> 00:04:09.275
+adding a pretty granular secondary dimension something like city or browser version.
+
+00:04:09.275 --> 00:04:11.385
+I'm going to go ahead and add city,
+
+00:04:11.384 --> 00:04:17.000
+and we do see in fact that the search terms are quite broken up over different cities.
+
+00:04:17.000 --> 00:04:19.040
+So, we could be reasonably sure that there
+
+00:04:19.040 --> 00:04:21.470
+are different people performing these searches.
+
+00:04:21.470 --> 00:04:26.030
+We can add search destination page as a secondary dimension to see where visitors are
+
+00:04:26.029 --> 00:04:30.824
+going after performing a search or if an exit occurred,
+
+00:04:30.824 --> 00:04:35.459
+in which case the search results pages themselves may need some optimization.
+

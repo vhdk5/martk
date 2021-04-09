@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.995
+In this section, we're going to continue with the theme of cleanup and consolidation,
+
+00:00:04.995 --> 00:00:07.620
+specifically for the page dimension.
+
+00:00:07.620 --> 00:00:12.600
+Because fragmentation of the page dimension can occur on a huge scale.
+
+00:00:12.599 --> 00:00:16.439
+It's not uncommon to go into an enterprise level Google Analytics data
+
+00:00:16.440 --> 00:00:21.135
+capture and sometimes see hundreds of thousands of rows in the pages report.
+
+00:00:21.135 --> 00:00:26.475
+Sometimes maxed out to a million page variations over the course of let's say, a month.
+
+00:00:26.475 --> 00:00:28.530
+This multitude of page dimensions,
+
+00:00:28.530 --> 00:00:32.910
+makes many things more difficult in GA. First of all,
+
+00:00:32.909 --> 00:00:36.579
+we just have to deal with a huge number of rows in the pages report.
+
+00:00:36.579 --> 00:00:39.439
+So any reporting we're doing within the pages report,
+
+00:00:39.439 --> 00:00:41.659
+is going to be a lot more difficult.
+
+00:00:41.659 --> 00:00:45.799
+It makes many other aspects of Google Analytics harder as well.
+
+00:00:45.799 --> 00:00:48.320
+Exit page analysis is harder.
+
+00:00:48.320 --> 00:00:52.225
+Navigation Summary, which Dimeris walked us through previously,
+
+00:00:52.225 --> 00:00:55.685
+will be much harder if we don't have our pages consolidated.
+
+00:00:55.685 --> 00:00:58.594
+Goal and funnel configuration will be harder.
+
+00:00:58.594 --> 00:01:01.100
+Any page metric including
+
+00:01:01.100 --> 00:01:04.849
+the page value metric which we will look at in an upcoming session,
+
+00:01:04.849 --> 00:01:06.559
+will be harder to interpret.
+
+00:01:06.560 --> 00:01:10.295
+The problem itself is often caused by query parameters.
+
+00:01:10.295 --> 00:01:12.890
+Just to be clear, the query parameters are
+
+00:01:12.890 --> 00:01:15.859
+not in any way bad from a development practice,
+
+00:01:15.859 --> 00:01:18.959
+but they pose a challenge for us in Google Analytics.
+
+00:01:18.959 --> 00:01:21.500
+So there's nothing that we have to change in
+
+00:01:21.500 --> 00:01:25.730
+our actual web development processes to eliminate query parameters,
+
+00:01:25.730 --> 00:01:27.140
+we just have to address
+
+00:01:27.140 --> 00:01:31.460
+the query parameter fragmentation in our Google Analytics data capture.
+
+00:01:31.459 --> 00:01:35.359
+Let's consider two very different examples of query parameters.
+
+00:01:35.359 --> 00:01:37.734
+Let's say that on our travel site,
+
+00:01:37.734 --> 00:01:44.480
+we have ARTICLE.PHP?ID=123 and that page is about Iceland.
+
+00:01:44.480 --> 00:01:51.350
+And let's say another page has ID=456 and that page is about Greenland.
+
+00:01:51.349 --> 00:01:55.594
+In this case, we don't want to strip out the ID query parameter.
+
+00:01:55.594 --> 00:01:58.670
+And we don't want to consolidate these URLs,
+
+00:01:58.670 --> 00:02:02.359
+because they represent two different end user experiences.
+
+00:02:02.359 --> 00:02:07.459
+In contrast, let's say that we have a login that leads to a welcome page.
+
+00:02:07.459 --> 00:02:10.234
+And when Rebecca logs in,
+
+00:02:10.235 --> 00:02:13.460
+ID=123 and the page says, "Welcome Rebecca."
+
+00:02:13.460 --> 00:02:16.140
+When Oscar logs in,
+
+00:02:16.139 --> 00:02:19.734
+ID=456 and a page says, "Welcome Oscar."
+
+00:02:19.735 --> 00:02:24.170
+These are two very different scenarios and we're going to deal with them differently.
+
+00:02:24.169 --> 00:02:26.058
+In the travel scenario,
+
+00:02:26.058 --> 00:02:29.465
+the query parameters determine different page content.
+
+00:02:29.465 --> 00:02:33.469
+That's critical. So, it's okay to rewrite these URLs to
+
+00:02:33.469 --> 00:02:37.775
+something more human-readable but we don't want to consolidate them.
+
+00:02:37.775 --> 00:02:41.030
+At a minimum, we want to leave them alone.
+
+00:02:41.030 --> 00:02:44.435
+The welcome page scenario is completely different.
+
+00:02:44.435 --> 00:02:49.025
+The query parameters do not determine different page content.
+
+00:02:49.025 --> 00:02:53.090
+As an analyst, we don't need to know and we in fact
+
+00:02:53.090 --> 00:02:56.990
+should not know that it was Rebecca or Oscar logging in.
+
+00:02:56.990 --> 00:02:58.520
+All we want to know,
+
+00:02:58.520 --> 00:03:01.625
+is that there were two page views of the welcome page.
+
+00:03:01.625 --> 00:03:04.909
+This is where we want to strip out the query parameters and
+
+00:03:04.909 --> 00:03:08.689
+consolidate our page dimensions just to the welcome page.
+

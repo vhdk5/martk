@@ -1,0 +1,265 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.870
+At this point, most of us are quite familiar with re-targeting,
+
+00:00:03.870 --> 00:00:07.439
+referred to as re-marketing when it's on the Google stack.
+
+00:00:07.440 --> 00:00:13.260
+With re-marketing, publishers can deliver ads based on previously visited websites.
+
+00:00:13.259 --> 00:00:18.000
+Google Analytics allows us to define these re-marketing audiences that we can then
+
+00:00:18.000 --> 00:00:22.949
+use as advertisers on other sites that are serving as the publishers.
+
+00:00:22.949 --> 00:00:25.769
+We can re-market it to non purchasers.
+
+00:00:25.769 --> 00:00:28.769
+We can also re-market for cross-selling.
+
+00:00:28.769 --> 00:00:33.810
+Though re-marketing is sometimes seen as a mechanism to bring visitors back to convert,
+
+00:00:33.810 --> 00:00:36.405
+we can also use re-marketing to offer
+
+00:00:36.405 --> 00:00:41.910
+additional information resources and engagement to users who have already converted.
+
+00:00:41.909 --> 00:00:45.289
+Re-marketing audiences allow us to connect Google Analytics
+
+00:00:45.289 --> 00:00:48.994
+behavioral data with our advertising efforts.
+
+00:00:48.994 --> 00:00:53.229
+Audiences are defined pretty much just like custom segments.
+
+00:00:53.229 --> 00:00:56.584
+We're also going to see why it's better to use users scope
+
+00:00:56.585 --> 00:01:00.454
+than session scope for most of our re-targeting audiences.
+
+00:01:00.454 --> 00:01:05.689
+We will be able to use our audiences for AdWords re-marketing, for RSA,
+
+00:01:05.689 --> 00:01:09.750
+for YouTube re-marketing, for re-marketing through DBM
+
+00:01:09.750 --> 00:01:14.879
+and also for a targeted testing if we're using optimized 360.
+
+00:01:14.879 --> 00:01:19.515
+Because Google re-marketing leverages the third-party double-click cookie,
+
+00:01:19.515 --> 00:01:24.575
+we will want to make sure it to include this fact in our websites privacy policy.
+
+00:01:24.575 --> 00:01:29.079
+Let's see how to define a re-marketing audience in Google Analytics.
+
+00:01:29.079 --> 00:01:33.879
+There are two ways to create audiences and GA. We can start with
+
+00:01:33.879 --> 00:01:38.560
+an existing segment or we can create an audience from scratch.
+
+00:01:38.560 --> 00:01:41.155
+Let's look at both examples.
+
+00:01:41.155 --> 00:01:43.570
+If we have our segments panel open,
+
+00:01:43.569 --> 00:01:48.444
+and we want to create a re-marketing audience from the non converters segment,
+
+00:01:48.444 --> 00:01:53.769
+we can click "Build audience" but we can get even more granular than that.
+
+00:01:53.769 --> 00:01:56.170
+Let's define an audience from scratch.
+
+00:01:56.170 --> 00:01:57.835
+Will go to Admin,
+
+00:01:57.834 --> 00:02:00.959
+Audience definitions, out answers.
+
+00:02:00.959 --> 00:02:03.019
+When you're first creating an audience,
+
+00:02:03.019 --> 00:02:07.000
+Google Analytics does require you to create the all users audience
+
+00:02:07.000 --> 00:02:11.784
+and verify that you have connected Google Analytics to Google AdWords,
+
+00:02:11.784 --> 00:02:15.759
+but you're probably not going to use all users for any of you re-marketing.
+
+00:02:15.759 --> 00:02:18.715
+So, let's define a more specific audience.
+
+00:02:18.715 --> 00:02:22.935
+Audience Source View will stick with are all website data view for now.
+
+00:02:22.935 --> 00:02:26.490
+Next step, create new audience definition
+
+00:02:26.490 --> 00:02:29.500
+and let's say that we are creating an audience on
+
+00:02:29.500 --> 00:02:33.789
+a lead generation site for visitors who got to the final step into
+
+00:02:33.789 --> 00:02:38.544
+lead submission process but did not actually submit the lead go to conditions.
+
+00:02:38.544 --> 00:02:44.129
+How would we designate users who got to the final step in the lead submission process?
+
+00:02:44.129 --> 00:02:46.639
+We could use the page dimension.
+
+00:02:47.159 --> 00:02:51.969
+Filters sessions include Page exactly
+
+00:02:51.969 --> 00:02:56.895
+matches and let's say that the Page Path is lead form,
+
+00:02:56.895 --> 00:03:00.180
+add filter, filter sessions exclude.
+
+00:03:00.180 --> 00:03:03.040
+Now, we could either use the page dimension
+
+00:03:03.039 --> 00:03:06.819
+of the thank you page or if we already have the goal configured,
+
+00:03:06.819 --> 00:03:08.900
+we could use goal completions.
+
+00:03:08.900 --> 00:03:14.800
+Lead submitted goal one completions per session equals zero,
+
+00:03:14.800 --> 00:03:16.780
+and we're going to make an important change.
+
+00:03:16.780 --> 00:03:21.189
+We're going to change the scope of these filters from sessions to users.
+
+00:03:21.189 --> 00:03:24.564
+Why is it important to change the scope from sessions to users?
+
+00:03:24.564 --> 00:03:28.479
+Because if we kept the scope it's sessions and a visitor started
+
+00:03:28.479 --> 00:03:32.479
+the lead process and got to the lead form on Monday,
+
+00:03:32.479 --> 00:03:36.649
+but didn't come back and convert till Tuesday and we kept the scope to
+
+00:03:36.650 --> 00:03:39.050
+sessions that user would still be
+
+00:03:39.050 --> 00:03:42.575
+included in our re-targeting audience which we wouldn't want to do.
+
+00:03:42.574 --> 00:03:49.039
+We want the scope to be set to users in three cases so
+
+00:03:49.039 --> 00:03:52.009
+that even if a user got to
+
+00:03:52.009 --> 00:03:55.834
+the lead form during one session and convert it in another session,
+
+00:03:55.835 --> 00:03:59.034
+that user would be excluded from the re-marketing Audience.
+
+00:03:59.034 --> 00:04:02.134
+We don't want to re-market to people who have already converted,
+
+00:04:02.134 --> 00:04:05.149
+unless that's the type of re-marketing campaign that you're running.
+
+00:04:05.150 --> 00:04:07.640
+Click "Apply" You can choose
+
+00:04:07.639 --> 00:04:12.384
+the membership duration depending on the type of conversion cycle that you have.
+
+00:04:12.384 --> 00:04:15.109
+For conversion that may take a long time,
+
+00:04:15.110 --> 00:04:17.285
+we could increase our membership duration,
+
+00:04:17.285 --> 00:04:19.775
+maximum is 540 days.
+
+00:04:19.774 --> 00:04:22.069
+Let's say for this lead submission process we're
+
+00:04:22.069 --> 00:04:24.469
+changing the membership duration to 90 days.
+
+00:04:24.470 --> 00:04:27.620
+Now, for the look-back days that will be
+
+00:04:27.620 --> 00:04:31.759
+the period during which the two filters can be applied.
+
+00:04:31.759 --> 00:04:35.810
+So, Google Analytics will look at seven-day intervals to evaluate
+
+00:04:35.810 --> 00:04:40.730
+views of the lead form page and whether or not goal one was completed.
+
+00:04:40.730 --> 00:04:46.129
+We could implement remarketing in AdWords without using Google Analytics Audiences.
+
+00:04:46.129 --> 00:04:51.889
+So, what's the advantage of using Google Analytics Audiences for AdWords remarketing?
+
+00:04:51.889 --> 00:04:57.064
+For one thing, AdWords remarketing does require an additional tag,
+
+00:04:57.064 --> 00:05:01.209
+whereas if we have Google Analytics on our website already,
+
+00:05:01.209 --> 00:05:03.829
+we usually have all the tagging we need.
+
+00:05:03.829 --> 00:05:08.930
+Defining your audiences in Google Analytics will provide much greater flexibility.
+
+00:05:08.930 --> 00:05:10.805
+This is the main benefit.
+
+00:05:10.805 --> 00:05:15.905
+With Google Analytics, we can define audiences based on any kind of behavior,
+
+00:05:15.904 --> 00:05:19.819
+original traffic source, or custom dimensions such as
+
+00:05:19.819 --> 00:05:24.019
+loyalty level or back end lead qualification status.
+
+00:05:24.019 --> 00:05:29.629
+The specificity we have in defining our remarketing audiences in Google Analytics is
+
+00:05:29.629 --> 00:05:32.360
+a good reason to go this route instead of
+
+00:05:32.360 --> 00:05:35.740
+using Google AdWords defined remarketing audiences.
+

@@ -1,0 +1,271 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.700
+So, we've seen that limited example,
+
+00:00:02.700 --> 00:00:06.610
+but how do we know which query parameters to strip out?
+
+00:00:06.610 --> 00:00:14.230
+First thing that we could do is filter our pages report with a filter for question mark.
+
+00:00:14.230 --> 00:00:19.899
+I'm in another Google Analytics view that has the query parameter fragmentation issue.
+
+00:00:19.899 --> 00:00:23.274
+I'm going to filter the pages report for question mark.
+
+00:00:23.274 --> 00:00:26.439
+Even though this field is normally interpreted as a regular expression,
+
+00:00:26.440 --> 00:00:31.450
+it does recognize the question mark when we filter just for question mark.
+
+00:00:31.449 --> 00:00:38.484
+So, we start to get an idea of the query parameters that are fragmenting our URLs.
+
+00:00:38.484 --> 00:00:42.710
+If we drop down to 100 rows in the report,
+
+00:00:42.710 --> 00:00:44.535
+we'll get a better idea.
+
+00:00:44.534 --> 00:00:46.759
+So, we see the same pages that are being
+
+00:00:46.759 --> 00:00:52.614
+fragmented setup score question by query parameters,
+
+00:00:52.615 --> 00:00:55.385
+and these are the pages that we need to consolidate.
+
+00:00:55.384 --> 00:00:57.859
+Another important resource for determining
+
+00:00:57.859 --> 00:01:02.060
+which query parameters to strip out is Google Search Console.
+
+00:01:02.060 --> 00:01:07.070
+If you don't have access to Google Search Console for your Google Analytics property,
+
+00:01:07.069 --> 00:01:11.789
+speak to your SEO team and they can add you to Google Search Console.
+
+00:01:11.790 --> 00:01:15.050
+Otherwise, there's a separate verification process that
+
+00:01:15.049 --> 00:01:18.140
+you can go through to get validated for Google Search Console.
+
+00:01:18.140 --> 00:01:20.480
+It's a good idea to have Google Search Console
+
+00:01:20.480 --> 00:01:24.770
+access for every Google Analytics property that you're also accessing.
+
+00:01:24.769 --> 00:01:29.899
+Google Analytics and Google Search Console are different but complementary tools.
+
+00:01:29.900 --> 00:01:34.520
+If we're in Google Search Console and we go to the URL parameters report.
+
+00:01:34.519 --> 00:01:38.329
+This report is related to search engine indexing;
+
+00:01:38.329 --> 00:01:40.474
+it's not related to analytics.
+
+00:01:40.474 --> 00:01:45.739
+But the same issues that we're addressing for search engine indexing in
+
+00:01:45.739 --> 00:01:48.334
+Google Search Console parallel
+
+00:01:48.334 --> 00:01:52.429
+the fragmentation that we have to address in Google Analytics.
+
+00:01:52.430 --> 00:01:58.040
+So, different tools, different contexts search engine indexing on one side,
+
+00:01:58.040 --> 00:01:59.600
+analytics on the other side.
+
+00:01:59.599 --> 00:02:02.809
+But the issues that we have to address are the same,
+
+00:02:02.810 --> 00:02:05.329
+how do we consolidate our URLs?
+
+00:02:05.329 --> 00:02:09.759
+In this report, where we see representative URL,
+
+00:02:09.759 --> 00:02:13.370
+that means that the Google bot thinks
+
+00:02:13.370 --> 00:02:17.390
+that the query parameters do not determine different page content,
+
+00:02:17.389 --> 00:02:21.949
+so the Google bot is just going to pull one representative URL.
+
+00:02:21.949 --> 00:02:27.464
+So, this means that we should probably strip out that parameter from Google Analytics.
+
+00:02:27.465 --> 00:02:29.533
+Where we see every URL,
+
+00:02:29.533 --> 00:02:33.019
+that means that the Google bot thinks that that query
+
+00:02:33.020 --> 00:02:37.159
+parameter does determine different page content.
+
+00:02:37.159 --> 00:02:44.805
+So, we probably should not strip it out of Google Analytics and let Google bot decide.
+
+00:02:44.805 --> 00:02:47.900
+We'll have to determine on our own if we're going to
+
+00:02:47.900 --> 00:02:51.469
+strip out those query parameters or not.
+
+00:02:51.469 --> 00:02:55.354
+In any case, after you've consulted Google Search Console,
+
+00:02:55.354 --> 00:02:58.310
+make sure that you confer with your developers.
+
+00:02:58.310 --> 00:03:03.349
+Your developers should be able to look at the list of query parameters and help determine
+
+00:03:03.349 --> 00:03:05.180
+which do and do not determine
+
+00:03:05.180 --> 00:03:09.349
+different page content and which can therefore be stripped out.
+
+00:03:09.349 --> 00:03:14.854
+So, determining which query parameters to strip out is really the hard part.
+
+00:03:14.854 --> 00:03:16.159
+Once we do that,
+
+00:03:16.159 --> 00:03:20.960
+the setting for stripping the query parameters out is very straight forward.
+
+00:03:20.960 --> 00:03:26.685
+Just to show how to do that and to show how drastic the consolidation is,
+
+00:03:26.685 --> 00:03:30.914
+we see that in this view for this time period,
+
+00:03:30.914 --> 00:03:34.064
+we have 12,000 URL variations.
+
+00:03:34.064 --> 00:03:37.819
+I'm in the view settings of the main view where
+
+00:03:37.819 --> 00:03:42.379
+the query parameter exclusions have already been applied.
+
+00:03:42.379 --> 00:03:44.750
+These have already been tested out.
+
+00:03:44.750 --> 00:03:47.719
+The name of this field can be a little bit misleading
+
+00:03:47.719 --> 00:03:51.004
+because we're not actually excluding any information.
+
+00:03:51.004 --> 00:03:55.384
+We're stripping off the query parameters and consolidating the page views.
+
+00:03:55.384 --> 00:03:58.174
+This is not an exclude filter.
+
+00:03:58.175 --> 00:03:59.510
+In the real sense,
+
+00:03:59.509 --> 00:04:01.474
+this is a consolidation filter.
+
+00:04:01.474 --> 00:04:03.439
+So, we're not losing any data,
+
+00:04:03.439 --> 00:04:06.724
+we're just consolidating the page dimension.
+
+00:04:06.724 --> 00:04:10.219
+If we now go to the pages report where these
+
+00:04:10.219 --> 00:04:14.030
+exclude URL query parameters have been applied for awhile,
+
+00:04:14.030 --> 00:04:16.084
+we'll see a huge difference.
+
+00:04:16.084 --> 00:04:23.629
+If we scroll down, we see that we have consolidated nearly 12,000 variations to just 48,
+
+00:04:23.629 --> 00:04:26.435
+obviously much easier to deal with.
+
+00:04:26.435 --> 00:04:31.149
+What if the fragmentation isn't actually occurring in a query parameter?
+
+00:04:31.149 --> 00:04:39.919
+What if instead of ID equals 123 and ID equals 456/ the URL fragmentation look like this,
+
+00:04:39.920 --> 00:04:41.735
+right within the path.
+
+00:04:41.735 --> 00:04:47.540
+In this case, we could use a search and replace filter to consolidate just to welcome.
+
+00:04:47.540 --> 00:04:51.980
+We'll click into filters, "Add filter",
+
+00:04:51.980 --> 00:04:58.650
+"strip digits from welcome page", custom.
+
+00:04:58.649 --> 00:05:03.314
+We can use a Search and Replace request URI.
+
+00:05:03.314 --> 00:05:05.829
+We'll start with welcome/,
+
+00:05:07.430 --> 00:05:09.689
+and if we wanted to make it simple,
+
+00:05:09.689 --> 00:05:17.209
+we could say match any character and one or more occurrences of any character.
+
+00:05:17.209 --> 00:05:19.604
+Or if we wanted to make it a little tighter,
+
+00:05:19.605 --> 00:05:23.750
+let's say if we knew we had only three digits that we were dealing with,
+
+00:05:23.750 --> 00:05:26.660
+we could use the regular expression notation for
+
+00:05:26.660 --> 00:05:33.345
+any number character backslash d and we could use a quantifier,
+
+00:05:33.345 --> 00:05:35.475
+in this case three,
+
+00:05:35.475 --> 00:05:37.950
+and add an end a string anchor.
+
+00:05:37.949 --> 00:05:44.500
+So, that would be our match and our replacement string could just be welcome.
+
+00:05:44.500 --> 00:05:47.629
+Make sure to consolidate your URLs,
+
+00:05:47.629 --> 00:05:50.189
+your analysis will benefit greatly.
+
