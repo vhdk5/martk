@@ -1,0 +1,363 @@
+WEBVTT
+Kind: captions
+Language: pt-BR
+
+00:00:00.000 --> 00:00:01.934
+Se quer acompanhar
+conversões,
+
+00:00:01.968 --> 00:00:04.901
+precisa dizer ao Google Analytics
+quais são seus objetivos.
+
+00:00:04.934 --> 00:00:08.801
+Pode fazer isso na seção
+"Admin" na sua conta.
+
+00:00:08.901 --> 00:00:12.300
+Aqui, o Google deixa você definir
+seus objetivos.
+
+00:00:12.334 --> 00:00:14.968
+Vamos determinar um objetivo
+como exemplo.
+
+00:00:15.000 --> 00:00:17.601
+Como há diferentes tipos
+de objetivos,
+
+00:00:17.634 --> 00:00:20.367
+as configurações irão variar
+de acordo com o objetivo.
+
+00:00:20.400 --> 00:00:23.634
+Mas isso ajudará a entender
+o processo subjacente.
+
+00:00:23.667 --> 00:00:25.534
+Se quer aprender mais,
+
+00:00:25.567 --> 00:00:29.100
+pode fazer isso em um link
+nas anotações abaixo.
+
+00:00:29.133 --> 00:00:33.367
+Vou demonstrar um objetivo
+para o site do "Udacity".
+
+00:00:33.400 --> 00:00:36.100
+Como talvez saiba,
+"Udacity" tem um Nanodegree
+
+00:00:36.133 --> 00:00:38.234
+para engenheiro
+de carro autônomo.
+
+00:00:38.267 --> 00:00:41.467
+Para este curso, estudantes
+interessados precisam se inscrever.
+
+00:00:41.767 --> 00:00:44.467
+Nosso objetivo é conseguir
+o máximo de inscrições,
+
+00:00:44.501 --> 00:00:48.701
+assim, uma inscrição para esse curso
+é uma conversão importante para nós.
+
+00:00:48.734 --> 00:00:51.634
+Deixe-me mostrar com um estudante
+pode converter.
+
+00:00:52.200 --> 00:00:54.701
+Eles chegam
+em nossa página inicial, aqui.
+
+00:00:55.100 --> 00:00:59.267
+Podem ir
+em "Explore Programs".
+
+00:00:59.434 --> 00:01:03.968
+Aqui, podem encontrar o curso
+de engenheiro de carro autônomo.
+
+00:01:04.000 --> 00:01:05.667
+Podem clicar nisso.
+
+00:01:05.701 --> 00:01:11.667
+Encontram mais informação
+e podem se inscrever.
+
+00:01:11.701 --> 00:01:14.601
+Precisam preencher
+o formulário de inscrição
+
+00:01:14.634 --> 00:01:18.367
+e clicar o botão "Submit"
+no final da página.
+
+00:01:18.400 --> 00:01:21.601
+Recebem essa página adorável
+confirmando a inscrição.
+
+00:01:22.033 --> 00:01:24.634
+Se eu verificar quantas pessoas
+viram essa página,
+
+00:01:24.667 --> 00:01:27.567
+saberei quantas se inscreveram
+e convergiram.
+
+00:01:27.601 --> 00:01:30.868
+Posso colocar isso como objetivo
+no Google Analytics
+
+00:01:30.901 --> 00:01:34.400
+e minha chegada é essa página,
+com esse URL.
+
+00:01:34.868 --> 00:01:36.934
+Vamos ver
+como o processo funciona.
+
+00:01:37.167 --> 00:01:39.734
+Objetivos são definidos
+no nível de visualização.
+
+00:01:39.868 --> 00:01:43.100
+Estou aqui
+no "All User Level"
+
+00:01:43.133 --> 00:01:45.000
+para a conta da "Udacity".
+
+00:01:45.067 --> 00:01:48.400
+Essa é uma visualização
+que configurei para tutoriais.
+
+00:01:48.801 --> 00:01:53.868
+Estou na seção "Admin",
+onde posso selecionar "Goals".
+
+00:01:53.901 --> 00:01:55.734
+Vamos criar um novo objetivo.
+
+00:01:55.767 --> 00:01:59.000
+Há três partes
+ao criar um objetivo:
+
+00:01:59.033 --> 00:02:01.133
+as configurações gerais
+do objetivo,
+
+00:02:01.167 --> 00:02:02.767
+a descrição do objetivo
+
+00:02:02.801 --> 00:02:04.734
+e os detalhes do objetivo.
+
+00:02:04.767 --> 00:02:06.167
+Ao configurar o objetivo,
+
+00:02:06.200 --> 00:02:08.868
+tenho a opção de escolher
+um template pré-definido
+
+00:02:08.901 --> 00:02:11.400
+ou posso usar configuração
+personalizada.
+
+00:02:11.434 --> 00:02:15.767
+Tem um template que descreve
+meu objetivo.
+
+00:02:15.801 --> 00:02:16.901
+"Submission".
+
+00:02:16.934 --> 00:02:20.667
+É um template que posso usar
+para uma inscrição.
+
+00:02:20.701 --> 00:02:22.634
+Vou selecionar isso.
+
+00:02:22.667 --> 00:02:24.968
+Então,
+descrevo meu objetivo.
+
+00:02:25.000 --> 00:02:28.868
+Posso nomeá-lo para saber, depois,
+do que o objetivo se trata.
+
+00:02:28.901 --> 00:02:33.200
+Vamos chamar esse
+de "Submission for the carND".
+
+00:02:34.033 --> 00:02:35.734
+O objetivo recebe um número.
+
+00:02:35.767 --> 00:02:38.734
+É o meu segundo,
+então está certo.
+
+00:02:38.767 --> 00:02:40.434
+Posso escolher
+o tipo do objetivo.
+
+00:02:40.467 --> 00:02:42.601
+Como dissemos,
+é um objetivo de chegada.
+
+00:02:42.734 --> 00:02:48.534
+Quero monitorar quantas pessoas
+efetuaram a inscrição.
+
+00:02:48.567 --> 00:02:50.901
+Então a chegada está certa.
+
+00:02:51.534 --> 00:02:54.501
+Deixe-me falar dos detalhes,
+agora.
+
+00:02:54.901 --> 00:02:59.801
+Se é um objetivo de chegada,
+precisamos dizer qual é a chegada.
+
+00:02:59.834 --> 00:03:03.734
+No nosso caso,
+a chegada é o link.
+
+00:03:03.934 --> 00:03:06.901
+Posso colocar a primeira parte
+do URL aqui,
+
+00:03:06.934 --> 00:03:09.400
+e o Google reconhecerá.
+
+00:03:09.434 --> 00:03:12.634
+Podemos adicionar um valor
+a esse URL.
+
+00:03:12.667 --> 00:03:16.968
+Hipoteticamente, vamos dizer
+que 10% das pessoas que se inscrevem
+
+00:03:17.000 --> 00:03:19.067
+começam com o curso
+
+00:03:19.100 --> 00:03:22.234
+e a taxa de inscrição
+é de US$ 800.
+
+00:03:22.267 --> 00:03:26.000
+Assim, cada inscrição
+vale US$ 80 para nós.
+
+00:03:26.234 --> 00:03:28.033
+Vamos usar isso de valor.
+
+00:03:28.067 --> 00:03:31.767
+Podemos descrever o caminho
+que esperamos que o usuário faça
+
+00:03:31.801 --> 00:03:34.534
+para chegar a esse objetivo,
+esse é o funil.
+
+00:03:34.567 --> 00:03:36.234
+Não é necessário,
+
+00:03:36.267 --> 00:03:39.167
+mas se tem um caminho tradicional
+que leva a esse objetivo,
+
+00:03:39.200 --> 00:03:42.767
+pode-se dizer ao Analytics
+qual é esse caminho.
+
+00:03:42.801 --> 00:03:45.767
+Então o Google Analytics
+poderá mostrar nos relatórios
+
+00:03:45.801 --> 00:03:48.400
+onde usuários não avançam
+e saem.
+
+00:03:48.434 --> 00:03:51.868
+Vamos colocar o caminho típico
+que fizemos até aqui.
+
+00:03:52.701 --> 00:03:55.801
+Para terminar a inscrição,
+
+00:03:55.834 --> 00:04:00.501
+assumo que os alunos começam
+na página de visão geral do curso.
+
+00:04:00.534 --> 00:04:01.767
+Vamos digitar isso.
+
+00:04:01.801 --> 00:04:04.033
+Esse é o URL associado.
+
+00:04:04.067 --> 00:04:08.033
+Lembre que não preciso
+da primeira parte do URL.
+
+00:04:08.067 --> 00:04:10.868
+Então o Google pergunta
+se essa página é obrigatória.
+
+00:04:10.901 --> 00:04:15.033
+Nesse caso, não é necessária
+para chegar no próximo passo.
+
+00:04:15.067 --> 00:04:16.868
+Vou deixar como "No".
+
+00:04:16.901 --> 00:04:19.767
+Próximo passo é a página "carND"
+e o URL.
+
+00:04:20.167 --> 00:04:23.067
+E lembro que essa era "drive".
+
+00:04:23.100 --> 00:04:26.200
+Então o usuário chega
+na página de inscrição.
+
+00:04:26.234 --> 00:04:30.267
+E o URL associado.
+Este é mais complexo.
+
+00:04:30.300 --> 00:04:32.801
+Não precisamos
+da primeira parte.
+
+00:04:32.968 --> 00:04:34.334
+Depois dessa página,
+
+00:04:34.367 --> 00:04:36.734
+o usuário chega ao destino
+do objetivo.
+
+00:04:36.767 --> 00:04:38.934
+A página
+de inscrição efetuada.
+
+00:04:38.968 --> 00:04:44.534
+Ela não precisa fazer parte do funil
+porque já é o destino final.
+
+00:04:44.567 --> 00:04:47.267
+Meu objetivo está configurado
+e posso salvá-lo.
+
+00:04:47.634 --> 00:04:50.133
+Vou conseguir verificar
+essa conversão
+
+00:04:50.167 --> 00:04:52.400
+no relatório
+do Google Analytics.
+

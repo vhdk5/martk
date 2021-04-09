@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.089 --> 00:00:07.910
+A last report in the group of site content reports is the exit report.
+
+00:00:07.910 --> 00:00:12.490
+I said before that I don't think this is the most helpful report you can find here,
+
+00:00:12.490 --> 00:00:15.410
+but now that we have talked about bounces a lot,
+
+00:00:15.410 --> 00:00:21.109
+I want to pause and make sure we get a difference between an exit and a bounce.
+
+00:00:21.109 --> 00:00:23.989
+Remember how we said that a bounce is a visit where
+
+00:00:23.989 --> 00:00:27.294
+the person left your site from the entrance page.
+
+00:00:27.295 --> 00:00:30.995
+Basically, they enter your site and immediately leave.
+
+00:00:30.995 --> 00:00:34.550
+A page is bounce rate does refers to the percentage of
+
+00:00:34.549 --> 00:00:38.404
+visits where this page is the only page in the session.
+
+00:00:38.405 --> 00:00:40.579
+An exit is different,
+
+00:00:40.579 --> 00:00:43.394
+it means the user exits from this page
+
+00:00:43.395 --> 00:00:47.895
+regardless of how many pages the user visited in that session.
+
+00:00:47.895 --> 00:00:53.620
+So a bounce would be considered an exit but not every exit is a bounce.
+
+00:00:53.619 --> 00:00:54.979
+When we study pages,
+
+00:00:54.979 --> 00:00:58.129
+we talk about the bounce suite and the percent exits,
+
+00:00:58.130 --> 00:01:02.000
+and here is a refresher on the definitions.
+
+00:01:02.000 --> 00:01:05.629
+The bounce rate is the percentage of single page visits,
+
+00:01:05.629 --> 00:01:08.594
+so visits in which the person left your site
+
+00:01:08.594 --> 00:01:12.780
+from the entrance page without interacting with the page.
+
+00:01:12.780 --> 00:01:16.835
+Percent exits is the number of exits
+
+00:01:16.834 --> 00:01:22.064
+divided by the number of page views for the page or a set of pages.
+
+00:01:22.064 --> 00:01:24.980
+It indicates how often users exit from
+
+00:01:24.980 --> 00:01:29.425
+that page or set of pages when they view the pages.
+
+00:01:29.424 --> 00:01:32.189
+Now just so we're all clear on the difference,
+
+00:01:32.189 --> 00:01:34.019
+let's take another look at an example,
+
+00:01:34.019 --> 00:01:36.399
+this time for Bamboo HR.
+
+00:01:36.400 --> 00:01:40.215
+First, let's look at what a bounce looks like.
+
+00:01:40.215 --> 00:01:42.245
+For the sake of this example,
+
+00:01:42.245 --> 00:01:45.563
+we choose the pricing page as the landing page.
+
+00:01:45.563 --> 00:01:49.260
+And because the visitor left immediately after landing on
+
+00:01:49.260 --> 00:01:53.130
+this page without any other interaction on the page,
+
+00:01:53.129 --> 00:01:55.469
+for instance, clicking on a link,
+
+00:01:55.469 --> 00:02:00.329
+discounts towards the bounce rate for the pricing page.
+
+00:02:00.329 --> 00:02:03.974
+And since the visitors came to my site and left,
+
+00:02:03.974 --> 00:02:08.549
+it also counts towards the exit rate for this pricing page.
+
+00:02:08.550 --> 00:02:13.215
+Now let's take a look at an exit that's not a bounce.
+
+00:02:13.215 --> 00:02:17.700
+In this case, the landing page is the home page and the visitor goes
+
+00:02:17.699 --> 00:02:22.579
+beyond this page interacting with it by clicking on the pricing link.
+
+00:02:22.580 --> 00:02:28.560
+The visitor that lands on the pricing page and decides to exit by typing in another URL.
+
+00:02:28.560 --> 00:02:31.879
+So discounts towards an exit for the pricing page,
+
+00:02:31.879 --> 00:02:38.229
+but this is not a bounce since there was more than one page in the session.
+
+00:02:38.229 --> 00:02:40.384
+As I said before,
+
+00:02:40.384 --> 00:02:42.564
+users need to exit at some point,
+
+00:02:42.564 --> 00:02:47.504
+it's normal and those exits are going to be distributed across your site.
+
+00:02:47.504 --> 00:02:52.560
+However, if you see disproportional exits on pages that are part of
+
+00:02:52.560 --> 00:02:57.930
+a conversion or check-out path or that represents a clear beginning of an action,
+
+00:02:57.930 --> 00:03:01.140
+then you may want to take a closer look.
+
+00:03:01.139 --> 00:03:03.314
+In the example we just walked through,
+
+00:03:03.314 --> 00:03:06.775
+if many people are exiting from this pricing page,
+
+00:03:06.775 --> 00:03:10.319
+Bamboo HR may find that it is not achieving its goals with
+
+00:03:10.319 --> 00:03:15.594
+this page as it is clearly meant to get users to submit information.
+
+00:03:15.594 --> 00:03:17.609
+In that case, they may want to test
+
+00:03:17.610 --> 00:03:21.140
+different versions of this page and see whether they would do better.
+

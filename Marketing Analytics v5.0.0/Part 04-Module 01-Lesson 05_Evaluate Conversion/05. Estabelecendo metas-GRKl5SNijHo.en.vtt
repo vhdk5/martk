@@ -1,0 +1,286 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.935
+If you want to track conversions,
+
+00:00:01.935 --> 00:00:04.910
+you need to tell Google Analytics what your goals are.
+
+00:00:04.910 --> 00:00:08.990
+You do that in the admin section of your Google Analytics account.
+
+00:00:08.990 --> 00:00:12.265
+Here, Google let's you specify your goals.
+
+00:00:12.265 --> 00:00:15.044
+Let's walk through one example of setting up a goal.
+
+00:00:15.044 --> 00:00:17.719
+Of course, since there are different types of goals,
+
+00:00:17.719 --> 00:00:20.125
+the set up will differ from goal to goal,
+
+00:00:20.125 --> 00:00:23.734
+but this will help you to understand the underlying process.
+
+00:00:23.734 --> 00:00:25.484
+If you want to learn more about this,
+
+00:00:25.484 --> 00:00:29.594
+you can do so in a link that I've added in the notes below.
+
+00:00:29.594 --> 00:00:33.475
+I'm going to walk through the set up of a goal for the Udacity website.
+
+00:00:33.475 --> 00:00:38.219
+As you may know, Udacity runs a nanodegree for self-driving car engineering.
+
+00:00:38.219 --> 00:00:41.924
+For this degree, interested students need to apply.
+
+00:00:41.924 --> 00:00:44.585
+It is our goal to get as many applications as possible,
+
+00:00:44.585 --> 00:00:48.739
+thus an application for this program is an important conversion for us.
+
+00:00:48.740 --> 00:00:52.225
+Let me show you how students might convert.
+
+00:00:52.225 --> 00:00:54.730
+They land on our home page, here,
+
+00:00:54.729 --> 00:00:59.164
+and they may go into exploring our nanodegree programs.
+
+00:00:59.164 --> 00:01:03.984
+Here, they can find the self-driving car engineering nanodegree.
+
+00:01:03.984 --> 00:01:05.655
+Then may click on that.
+
+00:01:05.655 --> 00:01:06.870
+And once they're here,
+
+00:01:06.870 --> 00:01:11.859
+they find a little bit more information and may decide to apply now.
+
+00:01:11.859 --> 00:01:16.620
+They then have to fill out the application form and hit the submit button,
+
+00:01:16.620 --> 00:01:18.060
+which is here at the bottom.
+
+00:01:18.060 --> 00:01:22.000
+Then, they get this lovely page telling them their application was submitted.
+
+00:01:22.000 --> 00:01:24.510
+If I track how many people got to see this page,
+
+00:01:24.510 --> 00:01:27.465
+then I will know how many people converted and applied.
+
+00:01:27.465 --> 00:01:30.915
+So, I can set this up as a destination goal in Google Analytics.
+
+00:01:30.915 --> 00:01:34.859
+And my destination is this exact page. With this URL.
+
+00:01:34.859 --> 00:01:37.349
+Let's see how that process works.
+
+00:01:37.349 --> 00:01:39.959
+Goals are defined at the "View" level.
+
+00:01:39.959 --> 00:01:45.280
+I'm here in the "All User Level" for the Udacity account.
+
+00:01:45.280 --> 00:01:48.870
+This is a view I've set up for walk-throughs like this one.
+
+00:01:48.870 --> 00:01:53.910
+I am in the "Admin" section here where I can select "Goals".
+
+00:01:53.909 --> 00:01:56.039
+So let's set up a new goal.
+
+00:01:56.040 --> 00:01:59.230
+There are three big chunks in the process of setting up a goal.
+
+00:01:59.230 --> 00:02:01.125
+There is the general goal set up,
+
+00:02:01.125 --> 00:02:04.709
+then there is the goal description and there are the goal details.
+
+00:02:04.709 --> 00:02:08.745
+In the goal set up, I have the option to select a preset template,
+
+00:02:08.745 --> 00:02:11.240
+or I can use a custom setup.
+
+00:02:11.240 --> 00:02:17.090
+There happens to be a template here that exactly describes my goal, submission.
+
+00:02:17.090 --> 00:02:20.961
+You see it's a template I can use for the submission of an application,
+
+00:02:20.961 --> 00:02:22.795
+so I'm going to select that.
+
+00:02:22.794 --> 00:02:25.409
+Then, I get to describe my goal.
+
+00:02:25.409 --> 00:02:29.030
+I can give it a name so I will recognize later what this goal was all about.
+
+00:02:29.030 --> 00:02:32.280
+Let's call this one "Submission for the carND".
+
+00:02:32.280 --> 00:02:35.669
+The goal gets assigned a number.
+
+00:02:35.669 --> 00:02:37.049
+This is my second goal,
+
+00:02:37.050 --> 00:02:38.814
+so this seems fine.
+
+00:02:38.814 --> 00:02:40.590
+Then I can choose the goal type.
+
+00:02:40.590 --> 00:02:42.645
+As we said this is a destination goal,
+
+00:02:42.645 --> 00:02:44.760
+because I ultimately want to monitor
+
+00:02:44.759 --> 00:02:48.560
+how many people made it to my "Application Submitted" page.
+
+00:02:48.560 --> 00:02:51.689
+So, destination here is correct.
+
+00:02:51.689 --> 00:02:54.389
+Let me go to the next step then, the "Goal details".
+
+00:02:54.389 --> 00:02:56.769
+Since this is destination goal,
+
+00:02:56.770 --> 00:03:00.090
+we have to tell Google Analytics what the destination is.
+
+00:03:00.090 --> 00:03:04.140
+In our case, the destination equals the following URL.
+
+00:03:04.139 --> 00:03:07.109
+Note how I can drop the first part the URL, here.
+
+00:03:07.110 --> 00:03:09.515
+Google will still recognize it.
+
+00:03:09.514 --> 00:03:12.750
+Then we can assign a value to this URL.
+
+00:03:12.750 --> 00:03:15.659
+Well, hypothetically, let's say that ten percent of
+
+00:03:15.659 --> 00:03:19.060
+the people that apply actually get started with the degree,
+
+00:03:19.060 --> 00:03:22.435
+and that the associated price is $800.
+
+00:03:22.435 --> 00:03:26.330
+Then, each application is worth eighty to us.
+
+00:03:26.330 --> 00:03:28.015
+Let's use that for the value.
+
+00:03:28.014 --> 00:03:30.419
+We can also describe the expected path that
+
+00:03:30.419 --> 00:03:33.144
+we believe users will take to get to this goal.
+
+00:03:33.145 --> 00:03:34.840
+That's called a funnel.
+
+00:03:34.840 --> 00:03:36.164
+You don't have to do that,
+
+00:03:36.164 --> 00:03:38.984
+but if you have a typical path that leads to this goal,
+
+00:03:38.985 --> 00:03:42.735
+it can be interesting to tell Google Analytics what that path is.
+
+00:03:42.735 --> 00:03:45.030
+Then, Google Analytics can show you in
+
+00:03:45.030 --> 00:03:48.474
+the reports where users get stuck in the path and leave.
+
+00:03:48.474 --> 00:03:52.489
+So, let's put in the typical path that we walked through.
+
+00:03:52.490 --> 00:03:55.830
+So, in order to get through the application process,
+
+00:03:55.830 --> 00:03:58.490
+I'm assuming that most of my students are starting at
+
+00:03:58.490 --> 00:04:02.070
+a nanodegree overview page. So, let's type that in.
+
+00:04:02.069 --> 00:04:04.280
+This is the associated URL.
+
+00:04:04.280 --> 00:04:08.205
+And remember, I don't need that first part of the URL.
+
+00:04:08.205 --> 00:04:10.880
+Then Google asks me whether this page is required.
+
+00:04:10.879 --> 00:04:15.055
+And in this case, it's not really required to get on to the next step.
+
+00:04:15.055 --> 00:04:16.875
+So, I'm going to leave this as "No".
+
+00:04:16.875 --> 00:04:20.199
+Next stop is the carND page, and its URL.
+
+00:04:20.199 --> 00:04:23.094
+And I remember this one was "drive".
+
+00:04:23.095 --> 00:04:28.320
+Then the user comes to the application page and the associated URL.
+
+00:04:28.319 --> 00:04:30.344
+This one is a little bit more complex.
+
+00:04:30.345 --> 00:04:32.840
+And again, we don't need the first part.
+
+00:04:32.839 --> 00:04:36.789
+After this page, the user reaches the goal destination,
+
+00:04:36.790 --> 00:04:38.915
+the applications submitted page.
+
+00:04:38.915 --> 00:04:41.480
+But that one we don't need to make part of the funnel
+
+00:04:41.480 --> 00:04:44.629
+as it is already considered as the end destination.
+
+00:04:44.629 --> 00:04:47.740
+So, now my goal is set up and I can save it.
+
+00:04:47.740 --> 00:04:52.960
+I will then be able to track this conversion in my Google Analytics reports.
+

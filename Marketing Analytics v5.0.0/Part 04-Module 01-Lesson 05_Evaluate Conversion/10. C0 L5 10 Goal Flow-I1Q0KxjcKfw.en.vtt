@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.330
+We've seen the Goal Conversion Overview report,
+
+00:00:03.330 --> 00:00:06.615
+and we learned how to use Funnel Visualization reports.
+
+00:00:06.615 --> 00:00:10.019
+That gives us a good handle on the average conversions and
+
+00:00:10.019 --> 00:00:13.664
+how people get through important steps leading up to the goals.
+
+00:00:13.664 --> 00:00:19.320
+But a lot more can be learned when we start looking beyond our average or total audience.
+
+00:00:19.320 --> 00:00:23.370
+As a marketer, you will want to evaluate your data for certain segments
+
+00:00:23.370 --> 00:00:27.630
+of your users or for the users who have shown particular behavior.
+
+00:00:27.629 --> 00:00:30.804
+That's where the Goal Flow reports come in.
+
+00:00:30.804 --> 00:00:36.859
+Let's first take a look at how we can read the information in the Goal Flow reports.
+
+00:00:36.859 --> 00:00:41.210
+First, we see our funnel represented again for the checkout goal.
+
+00:00:41.210 --> 00:00:44.195
+You can toggle to different goals here.
+
+00:00:44.195 --> 00:00:48.454
+The green boxes represent the different steps in the goal funnel.
+
+00:00:48.454 --> 00:00:51.949
+You might notice that the numbers are slightly higher.
+
+00:00:51.950 --> 00:00:53.750
+In the Goal Visualization report,
+
+00:00:53.750 --> 00:00:57.664
+we were looking at sessions that had the different specified steps.
+
+00:00:57.664 --> 00:01:03.259
+Here we're looking at how often users view the pages that represent the different steps,
+
+00:01:03.259 --> 00:01:07.280
+and it's possible for a user to view a page more than once in the session.
+
+00:01:07.280 --> 00:01:10.609
+For example, a user may decide to go back to the cart page to
+
+00:01:10.609 --> 00:01:14.269
+check again what was in the cart after seeing the price.
+
+00:01:14.269 --> 00:01:15.989
+When you hover over the green boxes,
+
+00:01:15.989 --> 00:01:18.379
+you see the information on exits again.
+
+00:01:18.379 --> 00:01:23.149
+For instance, we see that after viewing the cart page in 43 percent of the cases,
+
+00:01:23.150 --> 00:01:26.359
+the billing and shipping page is seen next.
+
+00:01:26.359 --> 00:01:29.644
+We can do the same for the other steps in the funnel.
+
+00:01:29.644 --> 00:01:34.024
+The red lines represent the number of next steps that are exits.
+
+00:01:34.025 --> 00:01:35.990
+When you hover over the red lines,
+
+00:01:35.989 --> 00:01:38.405
+you can see where people exit.
+
+00:01:38.405 --> 00:01:43.460
+That information is all very similar to what we had already seen before.
+
+00:01:43.459 --> 00:01:45.649
+But in this report, it's possible to look at
+
+00:01:45.650 --> 00:01:48.890
+this information while also considering other things.
+
+00:01:48.890 --> 00:01:52.340
+You can select what you want to look at specifically here.
+
+00:01:52.340 --> 00:01:56.045
+The default report shows us the steps taken by users
+
+00:01:56.045 --> 00:02:00.454
+depending on the source of the traffic or whether users were coming from.
+
+00:02:00.454 --> 00:02:04.534
+But there are many other lenses to look at related to acquisition,
+
+00:02:04.534 --> 00:02:07.534
+behavior, and user characteristics.
+
+00:02:07.534 --> 00:02:10.460
+All the things we've discussed in the previous lessons.
+
+00:02:10.460 --> 00:02:13.099
+Let's select the source medium lends,
+
+00:02:13.099 --> 00:02:16.204
+since we're interested in what marketing channels are working.
+
+00:02:16.205 --> 00:02:20.300
+Once you select a lends like in this case the traffic source,
+
+00:02:20.300 --> 00:02:23.045
+the report gives you a bit more information.
+
+00:02:23.044 --> 00:02:25.729
+You can click on the traffic source link you're interested
+
+00:02:25.729 --> 00:02:28.669
+in and inspect the goal flow like this.
+
+00:02:28.669 --> 00:02:32.119
+You can also get more information for a specific channel,
+
+00:02:32.120 --> 00:02:33.860
+by clicking on the channel.
+
+00:02:33.860 --> 00:02:39.665
+You can ask to just see this channel or you can ask for more information about it here.
+
+00:02:39.664 --> 00:02:43.114
+The numbers reported below are interesting as well.
+
+00:02:43.115 --> 00:02:45.844
+They allow you to check the percentage of sessions that
+
+00:02:45.844 --> 00:02:49.490
+ultimately resulted in a purchase by source medium.
+
+00:02:49.490 --> 00:02:51.590
+In this example for instance,
+
+00:02:51.590 --> 00:02:55.340
+you see that of the sessions that started from organic search traffic,
+
+00:02:55.340 --> 00:02:58.325
+14 percent completed the purchase.
+
+00:02:58.324 --> 00:03:03.604
+Compare that to the 32 percent that converted from the male channel.
+
+00:03:03.604 --> 00:03:08.269
+This happens to be referral from male that's internally at Google.
+
+00:03:08.270 --> 00:03:10.435
+So we can expect us to be higher.
+
+00:03:10.435 --> 00:03:14.000
+Overall, this report allows you to get a good sense of how
+
+00:03:14.000 --> 00:03:19.715
+different groups of users each with different characteristics convert for your goals.
+
+00:03:19.715 --> 00:03:22.594
+We've talked a lot about the purchase completed goal.
+
+00:03:22.594 --> 00:03:25.819
+Don't forget that there are other goals set up as well and you
+
+00:03:25.819 --> 00:03:30.180
+can check how those are completed by different audiences too.
+

@@ -1,0 +1,94 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.209
+Now that we know how goals are set up let's take a look at
+
+00:00:03.209 --> 00:00:07.575
+the conversion reports associated with these goals in Google Analytics.
+
+00:00:07.575 --> 00:00:10.890
+Here's the conversion section in Google Analytics.
+
+00:00:10.890 --> 00:00:13.605
+Here we're looking at the overview report.
+
+00:00:13.605 --> 00:00:17.129
+This report provides us with the basic metrics.
+
+00:00:17.129 --> 00:00:22.250
+First, the total number of goal completions in the time frame we're looking at.
+
+00:00:22.250 --> 00:00:26.355
+So, that's the total number of conversions or the total number of
+
+00:00:26.355 --> 00:00:30.670
+visitors who have completed all steps defined as part of this goal.
+
+00:00:30.670 --> 00:00:33.905
+We can also see the goal value here.
+
+00:00:33.905 --> 00:00:37.280
+In the case of the Google merchandise store the goal value has
+
+00:00:37.280 --> 00:00:40.399
+not been set because it's an e-commerce site.
+
+00:00:40.399 --> 00:00:45.274
+The value information is all part of the commerce reports section we'll cover later.
+
+00:00:45.274 --> 00:00:48.530
+The goal conversion rate is the percent of sessions
+
+00:00:48.530 --> 00:00:52.405
+during the selected time period that resulted in a goal completion.
+
+00:00:52.405 --> 00:00:55.160
+We can also see the abandonment rate.
+
+00:00:55.159 --> 00:00:59.779
+This is the total abandoned funnels divided by total goal starts.
+
+00:00:59.780 --> 00:01:03.454
+This applies for goals for which you have set up a funnel.
+
+00:01:03.454 --> 00:01:05.239
+Next to these overall metrics.
+
+00:01:05.239 --> 00:01:08.989
+You'll also see the total number of goal completions for your goals.
+
+00:01:08.989 --> 00:01:11.899
+In the case of the merchandise store five goals have
+
+00:01:11.900 --> 00:01:15.109
+been set up and these are their completion rates.
+
+00:01:15.109 --> 00:01:20.045
+It looks like the engaged user goal is the one that is most often achieved.
+
+00:01:20.045 --> 00:01:26.240
+You can see all URLs that are a goal destination in the goal completion URLs here.
+
+00:01:26.239 --> 00:01:28.640
+You can see it with their respective completions.
+
+00:01:28.640 --> 00:01:31.700
+You can also find the full report here.
+
+00:01:31.700 --> 00:01:37.280
+These URLs represent all the URLs where conversions take place based on the goals
+
+00:01:37.280 --> 00:01:39.950
+you defined as well as the smart goals that Google
+
+00:01:39.950 --> 00:01:42.760
+may have added if you're using Google AdWords.
+
+00:01:42.760 --> 00:01:46.850
+In the reverse goal path report you can get an idea of what the steps
+
+00:01:46.849 --> 00:01:51.929
+were that a user took before getting to the goal completion location.
+

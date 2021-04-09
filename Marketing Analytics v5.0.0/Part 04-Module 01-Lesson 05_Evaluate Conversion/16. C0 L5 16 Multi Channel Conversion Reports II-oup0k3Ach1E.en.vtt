@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.799
+There's one more nuance to consider when we look at conversion reports.
+
+00:00:04.799 --> 00:00:09.929
+Reports in Google Analytics use last click conversion attribution.
+
+00:00:09.929 --> 00:00:14.129
+That means that a conversion you see is attributed to
+
+00:00:14.130 --> 00:00:19.140
+the last channel the consumer interacted with before coming to your site.
+
+00:00:19.140 --> 00:00:23.910
+For instance, I see a user enter the site from a social channel,
+
+00:00:23.910 --> 00:00:26.609
+and in that session the user purchases.
+
+00:00:26.609 --> 00:00:31.094
+Google Analytics will attribute the conversion to the social channel.
+
+00:00:31.094 --> 00:00:33.914
+However, more often than not,
+
+00:00:33.914 --> 00:00:37.490
+that's not an accurate representation of what actually happens.
+
+00:00:37.490 --> 00:00:40.310
+Many times, more marketing channels are
+
+00:00:40.310 --> 00:00:43.640
+responsible for the conversion that happens on your site.
+
+00:00:43.640 --> 00:00:46.910
+For example, the user may see a search ad,
+
+00:00:46.909 --> 00:00:49.279
+click on it, and visit your site,
+
+00:00:49.280 --> 00:00:54.965
+but not buy anything then the user sees a display ad and visits again,
+
+00:00:54.965 --> 00:00:56.665
+but still does not buy.
+
+00:00:56.664 --> 00:01:01.070
+Finally, the user sees a post on social channel for your product.
+
+00:01:01.070 --> 00:01:03.170
+Seeing the last post,
+
+00:01:03.170 --> 00:01:07.835
+the user decides to click on the link in the post and buy a product on your site.
+
+00:01:07.834 --> 00:01:11.524
+The last interaction was with a post on the social channel,
+
+00:01:11.525 --> 00:01:13.344
+so Google will by default,
+
+00:01:13.344 --> 00:01:17.900
+attribute to conversion to the social channel even though the search ad in
+
+00:01:17.900 --> 00:01:20.990
+the display ad the user saw before had
+
+00:01:20.989 --> 00:01:24.920
+an influence and helped the user decide to buy the product.
+
+00:01:24.920 --> 00:01:29.329
+Channels can play different roles in helping the conversion.
+
+00:01:29.329 --> 00:01:34.265
+There are three roles defined in Google Analytics: last interaction,
+
+00:01:34.265 --> 00:01:40.034
+that's when the channel immediately precedes the conversion, and assist interaction.
+
+00:01:40.034 --> 00:01:43.189
+Any referral that's on the conversion path,
+
+00:01:43.189 --> 00:01:45.454
+but it's not a last interaction.
+
+00:01:45.454 --> 00:01:50.465
+First interaction, that is the first referral on the conversion path.
+
+00:01:50.465 --> 00:01:53.390
+The multi-channel reports allow you to take
+
+00:01:53.390 --> 00:01:57.055
+a closer look at the different channels that leads to a conversion.
+
+00:01:57.055 --> 00:01:59.810
+The top conversion paths report shows all of
+
+00:01:59.810 --> 00:02:03.935
+the unique sequences of channel interactions that led to conversions,
+
+00:02:03.935 --> 00:02:09.050
+as well as the number of conversions from each path and the value of those conversions.
+
+00:02:09.050 --> 00:02:12.680
+The time lag report shows how many days passed between
+
+00:02:12.680 --> 00:02:18.004
+the first interaction and last interaction for your users conversion paths.
+
+00:02:18.004 --> 00:02:22.444
+This can give you insight into the length of your online sales cycle.
+
+00:02:22.444 --> 00:02:26.239
+The path length report brace out your conversions by the number
+
+00:02:26.240 --> 00:02:30.350
+of channel interactions contained in your user's conversion paths.
+
+00:02:30.349 --> 00:02:36.439
+This can tell you how many times a user typically returns to your site before converting.
+

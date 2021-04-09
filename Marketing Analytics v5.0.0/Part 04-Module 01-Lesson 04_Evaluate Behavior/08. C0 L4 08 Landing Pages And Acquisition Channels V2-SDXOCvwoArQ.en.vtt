@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.810
+Now that you have a better sense of how to evaluate landing pages.
+
+00:00:03.810 --> 00:00:08.265
+It's a good idea to look back at our previous lesson about acquisition channels.
+
+00:00:08.265 --> 00:00:12.105
+Acquisition channels and landing pages go hand in hand.
+
+00:00:12.105 --> 00:00:14.714
+Imagine yourself in the shoes of a marketer.
+
+00:00:14.714 --> 00:00:18.359
+If you're making decisions around which marketing channels to use,
+
+00:00:18.359 --> 00:00:21.239
+you're going to have to think about the landing pages
+
+00:00:21.239 --> 00:00:24.794
+you will send users to when they come visit your site.
+
+00:00:24.795 --> 00:00:27.450
+Depending on the channel and your goals,
+
+00:00:27.449 --> 00:00:30.239
+you may want to pick different landing pages.
+
+00:00:30.239 --> 00:00:33.689
+Now, it is important to evaluate them together.
+
+00:00:33.689 --> 00:00:36.765
+So, how did we do that in Google Analytics?
+
+00:00:36.765 --> 00:00:41.134
+Let's go back to the landing page report for the Google Merchandise Store.
+
+00:00:41.134 --> 00:00:44.030
+Google Analytics makes it possible to bring in
+
+00:00:44.030 --> 00:00:47.134
+a secondary dimension when looking at reports.
+
+00:00:47.134 --> 00:00:49.924
+There are many dimensions to pick from.
+
+00:00:49.924 --> 00:00:53.164
+We're interested in the traffic source in this case.
+
+00:00:53.164 --> 00:00:58.325
+Now, Google will show me the traffic by landing page by source.
+
+00:00:58.325 --> 00:01:01.640
+This extra detail can reveal a few things about
+
+00:01:01.640 --> 00:01:05.930
+the match between my acquisition channel in the landing page.
+
+00:01:05.930 --> 00:01:09.800
+Let's take a look at some of the things we can learn from this report.
+
+00:01:09.799 --> 00:01:11.359
+Remember that in our quiz,
+
+00:01:11.359 --> 00:01:15.599
+we said that the bounce rates for the landing pages looked good overall.
+
+00:01:15.599 --> 00:01:17.609
+Well, let's take a look at this.
+
+00:01:17.609 --> 00:01:19.935
+While things looked good on average,
+
+00:01:19.935 --> 00:01:25.984
+we have a 69 percent bounce rate on the homepage associated with the YouTube source.
+
+00:01:25.984 --> 00:01:30.670
+This means that people who come from YouTube and land on the homepage bounce a lot.
+
+00:01:30.670 --> 00:01:33.200
+That's a problem especially since
+
+00:01:33.200 --> 00:01:37.090
+YouTube is an important source of traffic for this page.
+
+00:01:37.090 --> 00:01:40.730
+Now, I know that there is not really something wrong about page
+
+00:01:40.730 --> 00:01:45.020
+itself as it looks like the people who come from other sources do just fine.
+
+00:01:45.019 --> 00:01:47.314
+They engage, not too many bands,
+
+00:01:47.314 --> 00:01:48.935
+and their sessions are along.
+
+00:01:48.935 --> 00:01:50.795
+So, what is going on here?
+
+00:01:50.795 --> 00:01:54.739
+This is a clear case of a mismatched expectation.
+
+00:01:54.739 --> 00:01:58.339
+Let's take a look. We saw before that the traffic to
+
+00:01:58.340 --> 00:02:01.070
+the merchandise store coming from YouTube is
+
+00:02:01.069 --> 00:02:04.429
+primarily coming from the About page in YouTube.
+
+00:02:04.430 --> 00:02:06.975
+There's a link here to merchandise,
+
+00:02:06.974 --> 00:02:10.759
+and it says that there's a whole store here filled with YouTube goodies.
+
+00:02:10.759 --> 00:02:13.459
+Well, if I'm a YouTube fan, I'm excited.
+
+00:02:13.460 --> 00:02:15.094
+But when I click on the link,
+
+00:02:15.094 --> 00:02:17.500
+I find a store full of Google goodies.
+
+00:02:17.500 --> 00:02:19.349
+No YouTube brand and stuff here.
+
+00:02:19.349 --> 00:02:21.344
+So, I move on, disappointed.
+
+00:02:21.344 --> 00:02:24.590
+It's true that I could have found a YouTube apparel by clicking
+
+00:02:24.590 --> 00:02:27.830
+on the shop by brand link and then on YouTube,
+
+00:02:27.830 --> 00:02:30.430
+but you cannot rely on the user taking those steps.
+
+00:02:30.430 --> 00:02:34.655
+You should always aim to fulfill their expectation immediately.
+
+00:02:34.655 --> 00:02:36.080
+So in this case,
+
+00:02:36.080 --> 00:02:40.745
+the landing page should have been the YouTube branded merchandise page,
+
+00:02:40.745 --> 00:02:43.085
+not the homepage of the store.
+
+00:02:43.085 --> 00:02:46.310
+You see how combining the landing page report with
+
+00:02:46.310 --> 00:02:49.580
+the secondary dimensions source can help you to
+
+00:02:49.580 --> 00:02:52.640
+evaluate whether you're matched the landing pages
+
+00:02:52.639 --> 00:02:56.809
+well with your acquisition efforts in different channels.
+
+00:02:56.810 --> 00:02:59.629
+It's an important step to take in evaluating
+
+00:02:59.629 --> 00:03:03.019
+the engagement of your users from all sources.
+

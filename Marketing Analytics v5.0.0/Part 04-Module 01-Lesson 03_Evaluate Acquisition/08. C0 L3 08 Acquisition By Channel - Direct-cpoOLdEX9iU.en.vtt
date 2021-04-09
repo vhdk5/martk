@@ -1,0 +1,163 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:01.520 --> 00:00:05.730
+The direct traffic channel refers to traffic that came
+
+00:00:05.730 --> 00:00:09.000
+to your site without clicking on a link in another domain.
+
+00:00:09.000 --> 00:00:13.469
+Instead, it's the traffic that came by typing in the URL of your site,
+
+00:00:13.470 --> 00:00:18.225
+in the URL bar or by clicking on a previously saved bookmark.
+
+00:00:18.225 --> 00:00:20.850
+Monitoring direct traffic to your site can
+
+00:00:20.850 --> 00:00:23.520
+give you an indication of the strength of your brand.
+
+00:00:23.519 --> 00:00:29.024
+For instance, if I'm beta brand a lot of my traffic may come to me through my email and
+
+00:00:29.024 --> 00:00:31.754
+advertising campaigns but over time
+
+00:00:31.754 --> 00:00:34.799
+as people get to know the brand and what it stands for,
+
+00:00:34.799 --> 00:00:37.649
+they may come to decide without these triggers.
+
+00:00:37.649 --> 00:00:41.820
+If the number of people accessing your site directly increases,
+
+00:00:41.820 --> 00:00:45.575
+it may tell you that more people know and remember your brand's.
+
+00:00:45.575 --> 00:00:48.740
+However, it has become less straightforward to come to
+
+00:00:48.740 --> 00:00:53.765
+that conclusion as fewer and fewer people typing URLs in the browser bar.
+
+00:00:53.765 --> 00:00:58.159
+We've become accustomed to the search engines being super good at providing
+
+00:00:58.159 --> 00:01:02.134
+us the results fast and as a result people will often
+
+00:01:02.134 --> 00:01:05.450
+type the brand name of a sites they want to navigate to
+
+00:01:05.450 --> 00:01:07.790
+inner search engine rather than spell out
+
+00:01:07.790 --> 00:01:11.635
+a full URL in the browser bar even if they know the URL.
+
+00:01:11.635 --> 00:01:16.145
+Nonetheless, let's take a look at what we find in the direct traffic report.
+
+00:01:16.144 --> 00:01:19.459
+The detail behind that direct traffic report provides you with
+
+00:01:19.459 --> 00:01:22.819
+the landing pages where that traffic enters the site.
+
+00:01:22.819 --> 00:01:25.389
+When looking at this report for the Google merchandise store,
+
+00:01:25.390 --> 00:01:29.540
+you may be a bit surprised seeing URLs like the ones here.
+
+00:01:29.540 --> 00:01:32.795
+I'm surprised anyone recall that URL by heart.
+
+00:01:32.795 --> 00:01:36.745
+It also seems strange to assume that a lot of people would bookmark this.
+
+00:01:36.745 --> 00:01:40.700
+This actually points to one of the common issues with the direct traffic report.
+
+00:01:40.700 --> 00:01:43.640
+Google Analytics will categorize traffic as direct when it does
+
+00:01:43.640 --> 00:01:47.209
+not see a referring domain in the data it records.
+
+00:01:47.209 --> 00:01:49.594
+This happens when there's no domain to record
+
+00:01:49.594 --> 00:01:52.474
+like in the case when you type in the URL directly.
+
+00:01:52.474 --> 00:01:55.640
+But it can also happen when traffic comes in by clicking on
+
+00:01:55.640 --> 00:01:59.329
+a link in a document outside the typical browser environment.
+
+00:01:59.329 --> 00:02:01.715
+So that could be in an email for instance,
+
+00:02:01.715 --> 00:02:03.905
+in Outlook or in a PDF document.
+
+00:02:03.905 --> 00:02:07.340
+In a case like that no referring domain is passed on to Google.
+
+00:02:07.340 --> 00:02:10.805
+So, Google would bucket this traffic into the direct channel.
+
+00:02:10.805 --> 00:02:14.180
+If these links relate to an email marketing campaign for instance,
+
+00:02:14.180 --> 00:02:19.040
+you can avoid this from happening by using UTM codes as we discussed before.
+
+00:02:19.039 --> 00:02:22.009
+That way you can pass information to Google to let
+
+00:02:22.009 --> 00:02:25.144
+Google know that this link is associated with a campaign.
+
+00:02:25.145 --> 00:02:26.750
+If you forget to do this,
+
+00:02:26.750 --> 00:02:30.439
+the traffic may be labeled direct traffic and that makes it harder for
+
+00:02:30.439 --> 00:02:34.490
+you as a marketer to get a good understanding of the success of your campaigns.
+
+00:02:34.490 --> 00:02:37.400
+So, now that it looks like the direct traffic report for
+
+00:02:37.400 --> 00:02:41.980
+the merchandise store includes some traffic that does not seem to really be direct,
+
+00:02:41.979 --> 00:02:43.625
+how can you use this report?
+
+00:02:43.625 --> 00:02:47.090
+Well, if you really want to understand how many people come to the store directly,
+
+00:02:47.090 --> 00:02:51.530
+you can do so by isolating the direct traffic that lands on the homepage.
+
+00:02:51.530 --> 00:02:54.830
+You can click on the homepage link as you see in the image.
+
+00:02:54.830 --> 00:02:57.170
+While this could still include some other traffic,
+
+00:02:57.169 --> 00:03:01.179
+it will give you the best approximation of the real direct traffic that
+
+00:03:01.180 --> 00:03:06.200
+people who remember your name and brand and use the URL to get to your site.
+

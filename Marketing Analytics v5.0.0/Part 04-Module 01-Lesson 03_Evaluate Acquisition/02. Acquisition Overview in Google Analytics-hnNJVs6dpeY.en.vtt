@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.270 --> 00:00:05.910
+As we saw in the first lesson on Google Analytics,
+
+00:00:05.910 --> 00:00:08.698
+in order to see data in Google Analytics you need to
+
+00:00:08.698 --> 00:00:13.189
+insert the code Google provides on every page of your web site.
+
+00:00:13.189 --> 00:00:15.314
+This code will collect the data.
+
+00:00:15.314 --> 00:00:17.698
+For every page accessed by a user,
+
+00:00:17.699 --> 00:00:21.801
+the referring link is part of the data collected by this code.
+
+00:00:21.800 --> 00:00:25.018
+The referring link is the url of the web page that
+
+00:00:25.018 --> 00:00:29.229
+has the link to use it clicked on to get to your site.
+
+00:00:29.230 --> 00:00:33.134
+Now, that works if the link is part of content on a site.
+
+00:00:33.134 --> 00:00:37.140
+For instance, if I write a blog post and I link to a piece of
+
+00:00:37.140 --> 00:00:43.118
+clothing you can find on Betabrand you will see my blog is the referring url.
+
+00:00:43.118 --> 00:00:44.905
+That's an organic referral.
+
+00:00:44.905 --> 00:00:46.140
+No one paid for it.
+
+00:00:46.140 --> 00:00:49.215
+The link was established organically.
+
+00:00:49.215 --> 00:00:53.795
+It works a bit different for ads and marketing campaigns.
+
+00:00:53.795 --> 00:00:58.515
+The information that's automatically picked up by analytics tools like Googles
+
+00:00:58.515 --> 00:01:03.740
+is not very informative and will often show the ad platform as a referrer.
+
+00:01:03.740 --> 00:01:06.870
+Let's look at this ad for Betabrand, for example.
+
+00:01:06.870 --> 00:01:08.849
+If a user clicks on the ad,
+
+00:01:08.849 --> 00:01:11.459
+it does not really help me to know that the ad was
+
+00:01:11.459 --> 00:01:15.109
+served using Google advertising network for instance.
+
+00:01:15.108 --> 00:01:19.393
+As a marketer, I really want to know which ads the user clicked on,
+
+00:01:19.394 --> 00:01:21.920
+and which campaign this was part of.
+
+00:01:21.920 --> 00:01:24.325
+That's what I want to see in the data.
+
+00:01:24.325 --> 00:01:30.525
+Fortunately, there is a way for you as a marketer to help the reporting tools a bit.
+
+00:01:30.525 --> 00:01:35.849
+You do that by tagging every ad or campaign with information
+
+00:01:35.849 --> 00:01:41.552
+that tells the analytics tool how to classify your ad as the referrer.
+
+00:01:41.552 --> 00:01:44.079
+The way this works is as follows.
+
+00:01:44.078 --> 00:01:48.583
+When you create the ad or campaign you should add a small piece of
+
+00:01:48.584 --> 00:01:53.894
+extra text to the landing page url in the tool where you create the ad.
+
+00:01:53.894 --> 00:01:57.615
+That piece of text is called a UTM code,
+
+00:01:57.614 --> 00:02:01.199
+and it helps Google Analytics to classify the traffic
+
+00:02:01.200 --> 00:02:05.435
+coming to your Web site via campaigns in the appropriate bucket.
+
+00:02:05.435 --> 00:02:11.039
+For instance, traffic from display ads or traffic from search,
+
+00:02:11.038 --> 00:02:12.688
+pay per click ads,
+
+00:02:12.688 --> 00:02:16.644
+traffic from social ads, et cetera.
+
+00:02:16.645 --> 00:02:19.139
+Now, when a user clicks on the ads,
+
+00:02:19.139 --> 00:02:21.625
+like here in the Betabrand example,
+
+00:02:21.625 --> 00:02:25.335
+the landing page url shows the UTM code
+
+00:02:25.335 --> 00:02:29.534
+or the piece of text that you added in setting up the campaign.
+
+00:02:29.534 --> 00:02:32.549
+And that piece of text helps Google Analytics
+
+00:02:32.550 --> 00:02:36.775
+classify the traffic as coming from a display ad.
+
+00:02:36.775 --> 00:02:40.063
+If you want to learn more about how to create these links,
+
+00:02:40.063 --> 00:02:43.799
+you can find the information in the notes below.
+
+00:02:43.800 --> 00:02:49.155
+If you want to get a good understanding of which marketing campaigns are working for you,
+
+00:02:49.155 --> 00:02:54.270
+it's really important to add these UTM codes for all campaigns.
+

@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.770
+Let's first take a look at
+
+00:00:01.770 --> 00:00:05.595
+the behavior overview report for the Google online merchandise store.
+
+00:00:05.594 --> 00:00:07.139
+You can find it here.
+
+00:00:07.139 --> 00:00:11.000
+You get a general sense here of how much of your content is consumed,
+
+00:00:11.000 --> 00:00:13.845
+and how engaging your content is on average.
+
+00:00:13.845 --> 00:00:15.330
+Over the month of August,
+
+00:00:15.330 --> 00:00:18.600
+the site got a total of 362 page views,
+
+00:00:18.600 --> 00:00:21.570
+of which 242,000 were unique,
+
+00:00:21.570 --> 00:00:25.649
+meaning that they were not views of the same page during one session.
+
+00:00:25.649 --> 00:00:30.164
+If a user sees a page in a session and then later sees that page again,
+
+00:00:30.164 --> 00:00:32.844
+for instance, because they use the back button,
+
+00:00:32.844 --> 00:00:36.049
+that view would not be counted as a unique page view.
+
+00:00:36.049 --> 00:00:40.729
+We also see what the average time spent is and the average bounce rate,
+
+00:00:40.729 --> 00:00:44.989
+those are two metrics that indicate how engaging your content is to the user.
+
+00:00:44.990 --> 00:00:47.929
+Now, here we see the average time spent,
+
+00:00:47.929 --> 00:00:50.075
+which is not super informative,
+
+00:00:50.075 --> 00:00:52.085
+especially on an e-commerce site.
+
+00:00:52.085 --> 00:00:54.259
+I have a mix of pages on the site,
+
+00:00:54.259 --> 00:00:57.589
+some of them I would expect the user to take some time for,
+
+00:00:57.590 --> 00:00:59.030
+but there are others like
+
+00:00:59.030 --> 00:01:02.630
+my checkout page that I would hope don't take too long to digest.
+
+00:01:02.630 --> 00:01:04.670
+We'll come back to these engagement metrics in
+
+00:01:04.670 --> 00:01:08.195
+more detail when we study them for the individual pages.
+
+00:01:08.194 --> 00:01:12.469
+Here below we get a summary of what the behavior report cover,
+
+00:01:12.469 --> 00:01:14.989
+you can study the site content.
+
+00:01:14.989 --> 00:01:16.893
+We can look at it by the page,
+
+00:01:16.894 --> 00:01:18.050
+or by page title,
+
+00:01:18.049 --> 00:01:19.804
+or by content group.
+
+00:01:19.805 --> 00:01:22.160
+Content groups are groups that you may have
+
+00:01:22.159 --> 00:01:25.310
+assigned to certain pages in the Google Analytics set-up.
+
+00:01:25.310 --> 00:01:28.129
+You could choose to group pages by brand,
+
+00:01:28.129 --> 00:01:29.949
+by product, by type,
+
+00:01:29.950 --> 00:01:32.204
+by contents section, et cetera.
+
+00:01:32.204 --> 00:01:36.424
+Basically, these are groups that makes sense from your company's point of view.
+
+00:01:36.424 --> 00:01:42.534
+We can also study site search which relates to searches that happen on the actual site.
+
+00:01:42.534 --> 00:01:46.459
+Then there is this report that provides information on events.
+
+00:01:46.459 --> 00:01:51.739
+Events relate to user interactions that are tracked independently from a webpage.
+
+00:01:51.739 --> 00:01:53.373
+For instance, video views,
+
+00:01:53.373 --> 00:01:55.414
+PDF downloads, et cetera.
+
+00:01:55.415 --> 00:01:58.490
+If your page has these types of interactions,
+
+00:01:58.489 --> 00:02:01.250
+you can get more information about them here.
+
+00:02:01.250 --> 00:02:04.549
+Keep in mind events need extra code on top of
+
+00:02:04.549 --> 00:02:07.054
+the typical Google Analytics tracking code
+
+00:02:07.055 --> 00:02:09.715
+to be added to the site in order to track them.
+
+00:02:09.715 --> 00:02:12.349
+To get more information about how this works,
+
+00:02:12.349 --> 00:02:15.680
+visit the classroom notes for details.
+

@@ -1,0 +1,151 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.640
+There are a few more reports under the behavior section.
+
+00:00:03.640 --> 00:00:06.939
+First, there is the site speed report.
+
+00:00:06.940 --> 00:00:10.899
+Here you'll find all the information on page load times,
+
+00:00:10.898 --> 00:00:14.500
+load times of links in your pages, et cetera.
+
+00:00:14.500 --> 00:00:18.265
+Page load times are important for the user experience.
+
+00:00:18.265 --> 00:00:20.739
+Users are not patient,
+
+00:00:20.739 --> 00:00:23.350
+and if your page takes too much time to load,
+
+00:00:23.350 --> 00:00:26.695
+they'll leave the site even before they see the page.
+
+00:00:26.695 --> 00:00:30.010
+This report will help you find out which pages take
+
+00:00:30.010 --> 00:00:33.490
+too long to load so you can work on fixing them.
+
+00:00:33.490 --> 00:00:39.370
+It's often a good idea to check the load time for pages with high bounce rates,
+
+00:00:39.369 --> 00:00:44.729
+just to make sure users are not leaving because the page took too long to load.
+
+00:00:44.729 --> 00:00:49.879
+Load times are important from a search engine optimization point of view.
+
+00:00:49.880 --> 00:00:52.880
+Google judges the quality of landing pages,
+
+00:00:52.880 --> 00:00:55.700
+and if your landing pages take too long to load,
+
+00:00:55.700 --> 00:00:58.655
+they may punish you for that in the rankings.
+
+00:00:58.655 --> 00:01:02.509
+It's worth using these reports to understand which pages
+
+00:01:02.509 --> 00:01:06.289
+to prioritize for page load time reduction.
+
+00:01:06.290 --> 00:01:11.435
+You can learn more about the site speed reports at the link in the classroom.
+
+00:01:11.435 --> 00:01:16.984
+The site search report gives you more detail on the searches that happen on your site.
+
+00:01:16.984 --> 00:01:19.590
+Most sites have a search function built in,
+
+00:01:19.590 --> 00:01:22.040
+and it's interesting to take a look at what people are
+
+00:01:22.040 --> 00:01:24.955
+searching for when they're on the website.
+
+00:01:24.954 --> 00:01:29.140
+It gives you clues to what is of interest to people and it may also give
+
+00:01:29.140 --> 00:01:33.265
+you some hints about what you may want to feature on your homepage,
+
+00:01:33.265 --> 00:01:35.454
+on a product overview page,
+
+00:01:35.454 --> 00:01:39.730
+and it will make it easier for people to find the things they're looking for.
+
+00:01:39.730 --> 00:01:42.685
+We talked about events before.
+
+00:01:42.685 --> 00:01:45.129
+These are different from pages,
+
+00:01:45.129 --> 00:01:47.890
+but they are interactions with your website.
+
+00:01:47.890 --> 00:01:51.239
+Common events are; watching a video,
+
+00:01:51.239 --> 00:01:52.934
+clicking on a promo button,
+
+00:01:52.935 --> 00:01:55.840
+downloading a PDF, and others.
+
+00:01:55.840 --> 00:01:59.530
+In order for events to be tracked by Google Analytics,
+
+00:01:59.530 --> 00:02:02.890
+you need to instruct Google Analytics to do so.
+
+00:02:02.890 --> 00:02:07.530
+For that, you need to add code for the different events you want to track.
+
+00:02:07.530 --> 00:02:10.129
+They are not tracked by default.
+
+00:02:10.129 --> 00:02:15.109
+In this report, you'll find an overview of how many times your events occurred,
+
+00:02:15.110 --> 00:02:17.215
+which events are most popular,
+
+00:02:17.215 --> 00:02:19.805
+and how many sessions have an event.
+
+00:02:19.805 --> 00:02:23.825
+There's one other report link here, the publisher report.
+
+00:02:23.824 --> 00:02:29.750
+This is where you can find reports on the advertising that has been served on your site.
+
+00:02:29.750 --> 00:02:34.444
+This is a report meant for advertising supported publishers.
+
+00:02:34.444 --> 00:02:37.685
+The Google merchandise store is an e-commerce site,
+
+00:02:37.685 --> 00:02:39.485
+it does not carry ads.
+
+00:02:39.485 --> 00:02:40.625
+So in this case,
+
+00:02:40.625 --> 00:02:42.319
+we can't see the report.
+
+00:02:42.319 --> 00:02:44.840
+If you want to learn more about this report,
+
+00:02:44.840 --> 00:02:48.870
+you can find information at the link in the classroom.
+

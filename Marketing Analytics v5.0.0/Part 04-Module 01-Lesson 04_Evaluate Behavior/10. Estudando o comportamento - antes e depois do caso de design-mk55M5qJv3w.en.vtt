@@ -1,0 +1,124 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.694
+There's one more report I would like to explore in a bit more detail.
+
+00:00:03.694 --> 00:00:06.060
+But first, let me tell you a story.
+
+00:00:06.059 --> 00:00:11.314
+A while back I was consulting for a large and successful lifestyle website.
+
+00:00:11.314 --> 00:00:15.329
+They were ready to redesign their website and they wanted some help.
+
+00:00:15.330 --> 00:00:18.184
+I sat down with one of their main salespeople.
+
+00:00:18.184 --> 00:00:21.309
+He told me they had made a few decisions already.
+
+00:00:21.309 --> 00:00:24.849
+There was an area of the website with lots of pictures sent in
+
+00:00:24.850 --> 00:00:28.855
+by users of the site where they showcased their remodel.
+
+00:00:28.855 --> 00:00:32.579
+Now the sales guy did not like this part of the site at all
+
+00:00:32.579 --> 00:00:37.125
+because it was incredibly hard to sell advertising for this section.
+
+00:00:37.125 --> 00:00:39.990
+None of the big appliance brands that he talked to,
+
+00:00:39.990 --> 00:00:45.825
+wanted to have their ads appear next to someone's new but not so great looking kitchen.
+
+00:00:45.825 --> 00:00:49.484
+So they decided this area had to go.
+
+00:00:49.484 --> 00:00:51.509
+Now when we dug into Google Analytics,
+
+00:00:51.509 --> 00:00:58.329
+it became clear that this pre-post remodeling content was very popular with users.
+
+00:00:58.329 --> 00:01:02.804
+They were some of the most visited pages and these pages were engaging,
+
+00:01:02.804 --> 00:01:06.540
+low bounce rates, long time spent, et cetera.
+
+00:01:06.540 --> 00:01:08.325
+But what was more,
+
+00:01:08.325 --> 00:01:10.094
+when we looked at the page flow,
+
+00:01:10.094 --> 00:01:11.789
+we noticed that in many cases
+
+00:01:11.790 --> 00:01:15.585
+the second interaction was with content in the designer section,
+
+00:01:15.584 --> 00:01:18.564
+where designers were showcasing their remodels.
+
+00:01:18.564 --> 00:01:23.325
+Of course this area was way more slick and very popular among advertisers.
+
+00:01:23.325 --> 00:01:25.950
+So I sat down again with a salesperson and I told
+
+00:01:25.950 --> 00:01:29.385
+him I thought the user-generated content should stay.
+
+00:01:29.385 --> 00:01:34.650
+These were pages that inspired users to check out some of the designer's pages.
+
+00:01:34.650 --> 00:01:36.615
+And instead of making them disappear,
+
+00:01:36.614 --> 00:01:40.579
+we should promote them, make them more prominent and easy to find.
+
+00:01:40.579 --> 00:01:44.640
+But I also told him that he should not be worried about pushing them in a sales call.
+
+00:01:44.640 --> 00:01:46.890
+He should use them as a traffic driver to
+
+00:01:46.890 --> 00:01:50.445
+the areas that mattered more to him and to his clients,
+
+00:01:50.444 --> 00:01:53.229
+the designer showcase pages.
+
+00:01:53.230 --> 00:01:57.270
+And so the user-generated content pages were saved and they drove
+
+00:01:57.269 --> 00:02:02.500
+an increasing amount of traffic to the areas that paid off for the company.
+
+00:02:02.500 --> 00:02:07.469
+So which report in Google Analytics helped me to figure this out?
+
+00:02:07.469 --> 00:02:09.270
+The behavior flow report,
+
+00:02:09.270 --> 00:02:12.090
+in the behavior reports section helps to get
+
+00:02:12.090 --> 00:02:15.030
+a view on how people flow from one page to the
+
+00:02:15.030 --> 00:02:18.030
+next and what the role is of a page in flowing
+
+00:02:18.030 --> 00:02:22.030
+traffic to other important pages. Let's take a look.
+
