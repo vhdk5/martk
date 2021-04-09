@@ -1,0 +1,244 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.970
+This level of customization that you can see over here
+
+00:00:02.970 --> 00:00:06.210
+on the right doesn't exist in Google Analytics. We get that.
+
+00:00:06.209 --> 00:00:11.550
+But maybe, you really like the clean and consistent look of the GA reports,
+
+00:00:11.550 --> 00:00:13.710
+is your go-to for reporting.
+
+00:00:13.710 --> 00:00:15.540
+Maybe, with a little bit of time,
+
+00:00:15.539 --> 00:00:18.074
+you've just become really comfortable in them.
+
+00:00:18.074 --> 00:00:22.140
+Remember though, that you still have the data clutter and noise concerns
+
+00:00:22.140 --> 00:00:26.130
+to navigate every time you want to display the answer to a new question.
+
+00:00:26.129 --> 00:00:28.079
+You've got to find it,
+
+00:00:28.079 --> 00:00:30.719
+then you've got to try and isolate it,
+
+00:00:30.719 --> 00:00:32.699
+and then you've got to try to present it,
+
+00:00:32.700 --> 00:00:36.320
+and those can really be a challenge in Google Analytics itself.
+
+00:00:36.320 --> 00:00:39.469
+Remember too, that just because you're comfortable being
+
+00:00:39.469 --> 00:00:42.589
+surrounded by all of the data points in Google Analytics,
+
+00:00:42.590 --> 00:00:44.900
+don't make the mistake of assuming that everyone you
+
+00:00:44.899 --> 00:00:48.019
+want to share your data with will be comfortable too.
+
+00:00:48.020 --> 00:00:51.480
+If you find yourself doing work for other people who
+
+00:00:51.479 --> 00:00:54.589
+want very specific answers to specific questions,
+
+00:00:54.590 --> 00:00:59.075
+Google Analytics is probably not the interface to provide those solutions.
+
+00:00:59.075 --> 00:01:01.250
+Now, while there are many benefits to
+
+00:01:01.250 --> 00:01:04.129
+customizing your visuals as we've mentioned earlier,
+
+00:01:04.129 --> 00:01:08.120
+there are two caveats to consider and one of them we've actually illustrated here.
+
+00:01:08.120 --> 00:01:10.484
+The first is the bad visual design,
+
+00:01:10.484 --> 00:01:13.094
+can provide a poor user experience.
+
+00:01:13.094 --> 00:01:15.090
+Take a quick look at this chart.
+
+00:01:15.090 --> 00:01:19.534
+You can see that we've got too many data points to have these labels applied.
+
+00:01:19.534 --> 00:01:22.340
+If you were just to leave that as is,
+
+00:01:22.340 --> 00:01:24.500
+people are going to get confused and frustrated.
+
+00:01:24.500 --> 00:01:26.944
+So, you have to make sure that you either reduce the number of
+
+00:01:26.944 --> 00:01:30.439
+data points so that you change the display label,
+
+00:01:30.439 --> 00:01:32.420
+maybe removing the decimal points for example,
+
+00:01:32.420 --> 00:01:33.950
+to try to clean that up.
+
+00:01:33.950 --> 00:01:36.829
+Poor user experience can distract from the story
+
+00:01:36.829 --> 00:01:40.024
+that you're trying to tell if you do it carelessly.
+
+00:01:40.025 --> 00:01:42.180
+But it can also provide you,
+
+00:01:42.180 --> 00:01:43.270
+as the report maker,
+
+00:01:43.269 --> 00:01:45.739
+with a distraction that takes away from making
+
+00:01:45.739 --> 00:01:49.309
+the decisions on what data to include and how to display it.
+
+00:01:49.310 --> 00:01:52.250
+You can get so busy trying to make something pretty that you
+
+00:01:52.250 --> 00:01:55.939
+forget or lose track of whether that something is what's really important.
+
+00:01:55.939 --> 00:01:57.709
+Don't get caught in that trap.
+
+00:01:57.709 --> 00:01:58.849
+As we said earlier,
+
+00:01:58.849 --> 00:02:01.188
+select your data points first,
+
+00:02:01.188 --> 00:02:05.889
+get plain looking versions of your charts up there as we have done,
+
+00:02:05.890 --> 00:02:10.909
+and then once you're happy that the data being displayed is the data you want,
+
+00:02:10.909 --> 00:02:13.939
+then go ahead and click on each of your reports,
+
+00:02:13.939 --> 00:02:17.359
+turn to the design and style aspects over here,
+
+00:02:17.360 --> 00:02:19.450
+and make them look the way we want.
+
+00:02:19.449 --> 00:02:22.549
+Now, as we close up this examination of
+
+00:02:22.550 --> 00:02:24.590
+the relative strengths and weaknesses of
+
+00:02:24.590 --> 00:02:27.110
+Google Analytics and Data Studios for your reporting,
+
+00:02:27.110 --> 00:02:30.995
+and dashboarding needs, there's one last consideration to be made.
+
+00:02:30.995 --> 00:02:35.210
+The power of your data lies in sharing it with others.
+
+00:02:35.210 --> 00:02:39.515
+So, let's talk a little bit about sharing the results of your hard work.
+
+00:02:39.514 --> 00:02:45.759
+Sharing in Data Studio is just as simple as sharing in any other Google Doc.
+
+00:02:45.759 --> 00:02:47.745
+You go over here,
+
+00:02:47.745 --> 00:02:49.730
+click on the Plus to share the report,
+
+00:02:49.729 --> 00:02:55.429
+and this is a very familiar interface for any of you who've used Google products before.
+
+00:02:55.430 --> 00:02:57.979
+You can share with individual emails or addresses,
+
+00:02:57.979 --> 00:03:00.080
+you can go ahead and create a shareable link,
+
+00:03:00.080 --> 00:03:04.265
+and then you can determine what can people who have that link do,
+
+00:03:04.264 --> 00:03:07.199
+can they edit, can they just view in any event?
+
+00:03:07.199 --> 00:03:11.359
+It's a very clean and familiar process to share things.
+
+00:03:11.360 --> 00:03:13.580
+It's important because the right data in
+
+00:03:13.580 --> 00:03:16.600
+the right hands is where insight and innovation occur.
+
+00:03:16.599 --> 00:03:20.659
+This approach that you're seeing here is really part of the democratization of
+
+00:03:20.659 --> 00:03:25.370
+data that can make organizational buying broad and effective.
+
+00:03:25.370 --> 00:03:30.500
+Now, if we go over and we compare that to the approach that we have to take here,
+
+00:03:30.500 --> 00:03:34.414
+which is that in order to share your reports,
+
+00:03:34.414 --> 00:03:39.424
+you have to grant someone at least view access to
+
+00:03:39.425 --> 00:03:42.110
+your Analytics just to show them
+
+00:03:42.110 --> 00:03:45.410
+the few metrics and dimensions that might be of importance to them.
+
+00:03:45.409 --> 00:03:47.689
+This is not the best way to do things.
+
+00:03:47.689 --> 00:03:50.960
+It's rarely the best approach for empowering staff or
+
+00:03:50.960 --> 00:03:54.349
+anyone who doesn't want to have to learn another interface.
+
+00:03:54.349 --> 00:03:57.334
+Casual users don't want to learn how to navigate
+
+00:03:57.334 --> 00:04:01.009
+only to find those few things that are really important to them.
+
+00:04:01.009 --> 00:04:05.449
+Keep all of these things in mind and act on working to ensure that
+
+00:04:05.449 --> 00:04:10.218
+whoever you're providing and sharing your data with is going to have the easiest,
+
+00:04:10.218 --> 00:04:13.210
+cleanest, clearest journey possible.
+

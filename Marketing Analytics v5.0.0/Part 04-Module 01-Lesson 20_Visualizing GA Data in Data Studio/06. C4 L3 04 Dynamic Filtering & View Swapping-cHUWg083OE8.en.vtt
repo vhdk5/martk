@@ -1,0 +1,325 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.419
+No overview of Data Studio would be complete without
+
+00:00:03.419 --> 00:00:07.019
+looking into two more powerful key features of the product,
+
+00:00:07.019 --> 00:00:09.765
+filter control and data control.
+
+00:00:09.765 --> 00:00:12.765
+Remember how in your work in Google Analytics,
+
+00:00:12.765 --> 00:00:16.289
+you learned to enhance the built-in reports using filters to
+
+00:00:16.289 --> 00:00:19.964
+narrow the scope of the data you are working in either for display,
+
+00:00:19.964 --> 00:00:22.500
+comparison, or further exploration?
+
+00:00:22.500 --> 00:00:25.934
+That same functionality exists in Data Studio.
+
+00:00:25.934 --> 00:00:28.019
+The ability to filter your data.
+
+00:00:28.019 --> 00:00:33.644
+It also allows you to enhance and build interactivity into your dashboards and reports.
+
+00:00:33.645 --> 00:00:36.590
+Similarly, you've created multiple views in
+
+00:00:36.590 --> 00:00:39.500
+Google Analytics either for particular domains,
+
+00:00:39.500 --> 00:00:43.024
+internal audiences and for implementation purposes.
+
+00:00:43.024 --> 00:00:46.670
+Well, Data Studio was built so that you can apply
+
+00:00:46.670 --> 00:00:50.630
+your charts and filters to other views on the fly, potentially,
+
+00:00:50.630 --> 00:00:54.170
+saving you time in creating additional dashboards from scratch
+
+00:00:54.170 --> 00:00:58.775
+and further enabling data visualization across your organization.
+
+00:00:58.774 --> 00:01:03.649
+Both the filter control and data control are easily added and configured,
+
+00:01:03.649 --> 00:01:05.989
+similar to the work that we've done with charts.
+
+00:01:05.989 --> 00:01:09.920
+So let's get started by heading back into the interface and updating
+
+00:01:09.920 --> 00:01:11.570
+the sample dashboard for
+
+00:01:11.569 --> 00:01:15.819
+the Google merchandise store demo account that we've been working on.
+
+00:01:15.819 --> 00:01:20.019
+As you can see, I've taken the liberty of tidying this up just a bit,
+
+00:01:20.019 --> 00:01:23.289
+mostly just to make space for the two controls we're about to add.
+
+00:01:23.290 --> 00:01:26.690
+Just like charts, you can add these controls anywhere on the page.
+
+00:01:26.689 --> 00:01:29.649
+But I've cleared out some room at the top for ours.
+
+00:01:29.650 --> 00:01:32.410
+We're going to begin by adding the filter control.
+
+00:01:32.409 --> 00:01:35.409
+One of the more common filter controls allows you to
+
+00:01:35.409 --> 00:01:38.530
+filter the data in your charts by device type,
+
+00:01:38.530 --> 00:01:40.795
+desktop, mobile and tablet.
+
+00:01:40.795 --> 00:01:43.045
+We're going to go ahead and add this one here.
+
+00:01:43.045 --> 00:01:46.750
+We begin by selecting filter control from the toolbar,
+
+00:01:46.750 --> 00:01:50.155
+dragging to draw and letting go.
+
+00:01:50.155 --> 00:01:53.814
+Now we're going to put this one at the top here and we
+
+00:01:53.814 --> 00:01:56.804
+don't know yet if we're going to put it in the middle or on the side,
+
+00:01:56.805 --> 00:01:58.515
+but we will figure that out after.
+
+00:01:58.515 --> 00:02:00.439
+Just like our charts, when we draw this,
+
+00:02:00.439 --> 00:02:02.609
+it comes pre-populated with other choices,
+
+00:02:02.609 --> 00:02:05.959
+so we need to go in and tell it what we want it to filter.
+
+00:02:05.959 --> 00:02:07.875
+Our dimension here is source,
+
+00:02:07.875 --> 00:02:09.185
+that's not what we want.
+
+00:02:09.185 --> 00:02:15.650
+We want ours to be device type that lives under platformer device,
+
+00:02:15.650 --> 00:02:18.905
+device category. There we go.
+
+00:02:18.905 --> 00:02:20.390
+Now as soon as you click it,
+
+00:02:20.389 --> 00:02:23.269
+you'll see that the label changes on the interface letting you know that
+
+00:02:23.270 --> 00:02:26.719
+it has heard you and it's ready to make that change for you.
+
+00:02:26.719 --> 00:02:29.599
+Let's go back now and look at the metric.
+
+00:02:29.599 --> 00:02:31.504
+The metric here says sessions.
+
+00:02:31.504 --> 00:02:33.079
+We know that that's not what we want.
+
+00:02:33.080 --> 00:02:35.150
+This chart has been about revenue and we want to
+
+00:02:35.150 --> 00:02:37.550
+go ahead and continue to make it about revenue.
+
+00:02:37.550 --> 00:02:40.090
+So we're going to go ahead,
+
+00:02:40.090 --> 00:02:45.129
+add, get that right on e-commerce, revenue.
+
+00:02:45.129 --> 00:02:47.909
+Now, once we think it's done, which is now,
+
+00:02:47.909 --> 00:02:52.174
+we're going to go back into view mode and make sure that it's working.
+
+00:02:52.175 --> 00:02:53.660
+So what should it do?
+
+00:02:53.659 --> 00:03:01.939
+What it should do is allow us to select tablet and mobile and desktop in any combination.
+
+00:03:01.939 --> 00:03:06.064
+Any one individually, any two at a time, or all three at a time,
+
+00:03:06.064 --> 00:03:08.689
+and then based on that filter,
+
+00:03:08.689 --> 00:03:11.780
+reflect changes in our charts.
+
+00:03:11.780 --> 00:03:14.629
+This right now is defaulted to showing all three.
+
+00:03:14.629 --> 00:03:18.634
+Looks like tablet is the least amount of revenue,
+
+00:03:18.634 --> 00:03:21.949
+mobile next and the vast majority of sales are on desktop.
+
+00:03:21.949 --> 00:03:24.174
+Let's look at mobile by itself.
+
+00:03:24.175 --> 00:03:27.740
+Excellent. And you can see that all of our charts have
+
+00:03:27.740 --> 00:03:32.480
+updated and now are reflecting data based on this filter.
+
+00:03:32.479 --> 00:03:35.574
+We can go ahead and add mobile and tablet.
+
+00:03:35.574 --> 00:03:37.609
+Doesn't make a huge change but again,
+
+00:03:37.610 --> 00:03:40.415
+you can see that it's working dynamically.
+
+00:03:40.414 --> 00:03:42.919
+We're going to go back into edit mode,
+
+00:03:42.919 --> 00:03:45.139
+I didn't think I left quite enough room.
+
+00:03:45.139 --> 00:03:48.199
+So we're going to make this just a tad smaller and for now,
+
+00:03:48.199 --> 00:03:50.989
+we're going to put it in the middle and you can see that we can
+
+00:03:50.990 --> 00:03:53.990
+drag it and drop it and make it approximately the same size.
+
+00:03:53.990 --> 00:03:59.450
+We can go into here and look at our style and see that we have the font set to 18.
+
+00:03:59.449 --> 00:04:04.389
+We can go into here and also set the font to 18.
+
+00:04:04.389 --> 00:04:07.804
+And now, we've got this little space left on the top left.
+
+00:04:07.805 --> 00:04:09.230
+Now adding the data control,
+
+00:04:09.229 --> 00:04:12.274
+is even more straight forward than adding the filter control.
+
+00:04:12.275 --> 00:04:14.705
+You select it from the menu,
+
+00:04:14.705 --> 00:04:18.275
+drag it to draw and let go.
+
+00:04:18.274 --> 00:04:20.959
+Over here, you can see that it's already honed
+
+00:04:20.959 --> 00:04:23.659
+in on our connector type which is Google Analytics.
+
+00:04:23.660 --> 00:04:26.900
+We're going to go ahead and just drag it approximately where we think we want
+
+00:04:26.899 --> 00:04:31.069
+it and go back into view mode and see what happens.
+
+00:04:31.069 --> 00:04:33.170
+Now, if we click this arrow,
+
+00:04:33.170 --> 00:04:39.069
+it should show us all of the views that we have access to in this property, and it does.
+
+00:04:39.069 --> 00:04:41.189
+So we can go ahead and say, "Alright.
+
+00:04:41.189 --> 00:04:42.469
+We've been working in the master view,
+
+00:04:42.470 --> 00:04:43.750
+let's see if there's anything different in
+
+00:04:43.750 --> 00:04:46.600
+the raw data view for any filters have been applied."
+
+00:04:46.600 --> 00:04:48.550
+And you can see that this isn't configured to show us
+
+00:04:48.550 --> 00:04:51.150
+any significant changes and I don't
+
+00:04:51.149 --> 00:04:54.024
+think anything spent on the test view either, but that's okay.
+
+00:04:54.024 --> 00:04:55.599
+When you're using this,
+
+00:04:55.600 --> 00:04:58.750
+go ahead and check a few of the different views that you have access
+
+00:04:58.750 --> 00:05:03.360
+to to make sure that the changes are being reflected on your charts.
+
+00:05:03.360 --> 00:05:05.895
+Adding filter and view controls,
+
+00:05:05.894 --> 00:05:09.745
+is just another way to leverage the flexibility of Data Studio.
+
+00:05:09.745 --> 00:05:13.149
+Combined with the chart types and style options available,
+
+00:05:13.149 --> 00:05:16.189
+you've become empowered to create your own dashboard
+
+00:05:16.189 --> 00:05:19.548
+either based on the Google merchandise store demo account,
+
+00:05:19.548 --> 00:05:21.814
+or your own analytics account.
+
+00:05:21.814 --> 00:05:23.719
+But before you do that,
+
+00:05:23.720 --> 00:05:25.760
+let's finish this lesson by comparing and
+
+00:05:25.759 --> 00:05:29.180
+contrasting the two dashboard options you now have,
+
+00:05:29.180 --> 00:05:33.910
+the one that's native inside of Google Analytics and Data Studio.
+

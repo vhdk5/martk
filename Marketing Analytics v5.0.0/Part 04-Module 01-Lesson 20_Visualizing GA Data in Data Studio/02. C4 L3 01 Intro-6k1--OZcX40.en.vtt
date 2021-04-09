@@ -1,0 +1,181 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.759
+Even once you've mastered the built-in reports and
+
+00:00:02.759 --> 00:00:05.129
+dashboards that Google Analytics offers,
+
+00:00:05.129 --> 00:00:07.980
+you will run into situations where you just can't find the right
+
+00:00:07.980 --> 00:00:11.640
+visual to drive home the impact of a discovery you've just made.
+
+00:00:11.640 --> 00:00:13.530
+You may find yourself being asked to
+
+00:00:13.529 --> 00:00:16.500
+present data to a different audience than you have in the past.
+
+00:00:16.500 --> 00:00:18.509
+Maybe an audience that's more or less
+
+00:00:18.510 --> 00:00:21.540
+technical than the team members you're used to connecting with.
+
+00:00:21.539 --> 00:00:23.599
+Or maybe, you really want to wow,
+
+00:00:23.600 --> 00:00:27.109
+one of your clients by providing them a dashboard and reports,
+
+00:00:27.109 --> 00:00:29.045
+with custom branded components,
+
+00:00:29.045 --> 00:00:31.790
+like their unique logo and brand colors.
+
+00:00:31.789 --> 00:00:34.409
+You've got options for these situations.
+
+00:00:34.409 --> 00:00:37.819
+Because in addition to the features offered in Google Analytics,
+
+00:00:37.820 --> 00:00:40.759
+Google also offers a dedicated product designed to help you
+
+00:00:40.759 --> 00:00:44.994
+generate and present data in visually interesting and appealing ways.
+
+00:00:44.994 --> 00:00:47.354
+That product is Data Studio.
+
+00:00:47.354 --> 00:00:50.299
+It provides tremendous flexibility to design and
+
+00:00:50.299 --> 00:00:53.584
+generate live data through reports and dashboards.
+
+00:00:53.585 --> 00:00:57.910
+In this lesson, you'll learn how to connect the data source and data studio,
+
+00:00:57.909 --> 00:01:00.484
+use it to populate various types of charts,
+
+00:01:00.484 --> 00:01:03.155
+and swap views for your Google Analytics.
+
+00:01:03.155 --> 00:01:05.900
+We'll also cover the advantages and drawbacks of
+
+00:01:05.900 --> 00:01:08.330
+dashboarding in Google Analytics and Data Studio.
+
+00:01:08.329 --> 00:01:12.594
+So, you'll have a good understanding of when to use which tool.
+
+00:01:12.594 --> 00:01:15.950
+It might sound a bit overwhelming, but don't worry.
+
+00:01:15.950 --> 00:01:19.615
+Once you've connected a Google Analytics data source to Data Studio,
+
+00:01:19.614 --> 00:01:20.844
+which we'll cover next,
+
+00:01:20.844 --> 00:01:23.539
+the interface makes it easy for you to proceed
+
+00:01:23.540 --> 00:01:27.170
+regardless of how much experience you do or don't have.
+
+00:01:27.170 --> 00:01:30.094
+There are multiple options to spark your creativity,
+
+00:01:30.093 --> 00:01:34.444
+including, starting a new report from scratch on a clean white background,
+
+00:01:34.444 --> 00:01:37.323
+using or adopting one of the templates provided,
+
+00:01:37.323 --> 00:01:43.509
+and even looking at reports in a gallery where other users have uploaded their works.
+
+00:01:43.510 --> 00:01:48.480
+Of course, once you've created a masterpiece that communicates just the way you want to,
+
+00:01:48.480 --> 00:01:50.420
+you're not going to want anyone felling it up.
+
+00:01:50.420 --> 00:01:52.685
+Right? Google has you covered.
+
+00:01:52.685 --> 00:01:54.710
+Because your reports and dashboards,
+
+00:01:54.709 --> 00:01:58.359
+can be shared with others with varying levels of permission.
+
+00:01:58.359 --> 00:02:03.153
+Sometimes, you'll want to grant users only the option to view your reports,
+
+00:02:03.153 --> 00:02:07.204
+but other times you want to empower users with the option to engage the data,
+
+00:02:07.204 --> 00:02:09.590
+maybe by altering a date range including
+
+00:02:09.590 --> 00:02:12.770
+a custom dimension or applying a filter or segment.
+
+00:02:12.770 --> 00:02:15.780
+You'll be able to accomplish all of this and more.
+
+00:02:15.780 --> 00:02:18.305
+Next, we'll get started by connecting
+
+00:02:18.305 --> 00:02:22.215
+a data source to provide the data for your reports and dashboards.
+
+00:02:22.215 --> 00:02:25.710
+Before we do that, just a quick note about something.
+
+00:02:25.710 --> 00:02:29.705
+You'll notice that Google refers to Data Studio as being in beta,
+
+00:02:29.705 --> 00:02:31.445
+don't let that concern you.
+
+00:02:31.444 --> 00:02:33.799
+It has more to do with ongoing development
+
+00:02:33.800 --> 00:02:36.210
+at upgrades that are constantly being pushed out,
+
+00:02:36.210 --> 00:02:39.985
+rather than to a level of incompleteness or a lack of polish.
+
+00:02:39.985 --> 00:02:43.745
+Remember how long Google considered Gmail as being in beta,
+
+00:02:43.745 --> 00:02:46.564
+it's a similar thing with Data Studio.
+
+00:02:46.564 --> 00:02:51.384
+You may even see some features tagged with a little red label that says labs.
+
+00:02:51.384 --> 00:02:53.454
+Just like in the old gmail beta,
+
+00:02:53.455 --> 00:02:56.000
+these are the newest features under development.
+
+00:02:56.000 --> 00:02:58.324
+There are also other ways to see what's new,
+
+00:02:58.324 --> 00:03:00.349
+that we'll also get into shortly.
+
