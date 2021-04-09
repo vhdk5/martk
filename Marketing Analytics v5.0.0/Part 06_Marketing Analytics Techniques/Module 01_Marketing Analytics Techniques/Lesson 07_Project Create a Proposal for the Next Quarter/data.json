@@ -1,0 +1,61 @@
+{
+  "data": {
+    "lesson": {
+      "id": 826106,
+      "key": "b2787ce9-032d-4420-b3e6-32d67c5a13c3",
+      "title": "Project: Create a Proposal for the Next Quarter",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": {
+        "key": "3295376f-4513-48b6-8ba4-89370593f679",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 14400,
+        "semantic_type": "Project",
+        "title": "Project: Create a Proposal for the Next Quarter",
+        "description": "Project Submission\n\n\nMake a copy of this [Google doc template](https://docs.google.com/presentation/d/1KchFCWMdzfCNhja4SkM2NO7nrGojPfkbG-iuoNKhTpE/edit?usp=sharing), and be sure to complete each section.\n\na) To copy the template as a Google Slide: Open the template in Google. Then, click on File --> Make a copy... --> and select \"My Drive\" as the destination. This will allow you to edit the template in Google.\n\nb) To copy the template as a Microsoft Powerpoint file: Open the template in Google. Then, click on File >> Download as... >> Microsoft Powerpoint. This will allow you to edit the template as a .pptx file.\n\nWhen you are ready, save your file as a PDF and submit it.\n\nFinally, be sure to convert your answers document into a PDF and submit it below. It's straightforward to convert a Microsoft Word document into a pdf on a PC or Mac. If you used a Google Doc, in Google Docs, simply click on File >> Download as… >> and choose PDF Document.\n\n### Rubric\nYou can reference this project's [rubric](https://review.udacity.com/#!/rubrics/2510/view) to review what your submission should include.\n\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2510",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 830726,
+          "key": "edf282a7-cafc-4639-924e-f9c96bc2a387",
+          "title": "Project Instructions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "edf282a7-cafc-4639-924e-f9c96bc2a387",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830727,
+              "key": "3328b606-1981-441f-b2c5-63fc406e6705",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Congratulations for reaching the final project in the Marketing Analytics Nanodegree program! \nIn this project you get to make use of all of the skills you’ve developed throughout this course as you analyze marketing data and craft a Campaign Report. We’ve provided a [template](https://docs.google.com/presentation/d/1KchFCWMdzfCNhja4SkM2NO7nrGojPfkbG-iuoNKhTpE/edit?usp=sharing), note you are not required to use the template. For the purpose of this project you will be evaluating the performance of the Black Friday sales for 2017 & 2018 using the following data set on Google Sheet. Please use this dataset: https://docs.google.com/spreadsheets/d/17as-K-mNyxk5mVWW8RBuUb4Nt4rTkGEskIb7tQC1YQs/edit?usp=sharing\n\nThere are five parts to this project make sure to read the directions carefully and review the requirements in the rubric below. \n\n### Part 1 - Objective:\nThe Objectives are listed below, your job is to asses the data and report on the performance against the objectives:\n\n**Increase** total sales by 30% on Black Friday 2018 vs. Black Friday 2017.\n\n**Decrease** total ad spend by 30% from Black Friday 2017 to Black Friday 2018.\n\nFor parts 2 - 4 you will be required to do one evaluation and select a second evaluation to do from the list provided. You are required to do both evaluations for Part 5. \n\n### Part 2 - Evaluate the Audience:\n\nRequired: Demonstrate sales amount by age-range \n\nSelect one:\n* Which Age-Range generated the most sales?\n* Which City generated the most sales?\n* Which City generated the least sales?\n* Which product category was least popular to 18-25 year olds?\n* Who spent more, men or women?\n\t\nDemonstrate sales by city\n* How many repeat customers did we have? \n* Did that change between years?\n* What was the average order volume for a user? \n\n### Part 3 - Evaluate the Marketing:\n\nRequired: Was the ROI on our Paid Channel positive or negative? What was it? \n     Which age-range had the best CPA?\n\nSelect one:\n\n* Which channel was the biggest driver in sales for 2017? For 2018?\n* How did our newsletter subscriptions change between the two years?\n* What was the value of customers subscribed to the newsletter vs. not subscribed?\n* Demonstrate total sales by channel\n* What was the average CPA in 2017? In 2018?\n* Did we meet our CPA Objective?\n* Demonstrate CPA by Demographic (Age & City) \n* What was the ROI on our Paid Channel? \n\t\n\n### Part 4 - Evaluate the Sales\n\nRequired:  How much revenue did we generate in 2017? In 2018?\n\nSelect one:\n\n* What was our average order amount in 2017 vs 2018?\n* Which customer spent the most money? \n\n### Part 5 - Evaluate the Product Categories\n\nRequired: Which product category was most popular in 2017 & 2018? \n\nSelect one:\n* Demonstrate sales by product category \n* Demonstrate CPA by product category \n",
+              "instructor_notes": ""
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

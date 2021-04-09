@@ -1,0 +1,2165 @@
+{
+  "data": {
+    "lesson": {
+      "id": 826105,
+      "key": "6eac2a6e-b92a-49ab-b5d7-a6b348a23c43",
+      "title": "Macro Digital Analysis",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/6eac2a6e-b92a-49ab-b5d7-a6b348a23c43/826105/1575487146118/Macro+Digital+Analysis+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/6eac2a6e-b92a-49ab-b5d7-a6b348a23c43/826105/1575487139869/Macro+Digital+Analysis+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 826317,
+          "key": "e8ff9f7b-26fe-4edb-a0da-b73c5869222a",
+          "title": "Macro Digital Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e8ff9f7b-26fe-4edb-a0da-b73c5869222a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830662,
+              "key": "36683679-7027-4c82-abfe-b330ee834bbe",
+              "title": "MA04 01 MACRO",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "4Cm-RP1sdvg",
+                "china_cdn_id": "4Cm-RP1sdvg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826318,
+          "key": "408e0a30-905d-403f-b90a-5d3d2105ed7b",
+          "title": "Market Size & Market Share",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "408e0a30-905d-403f-b90a-5d3d2105ed7b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830652,
+              "key": "0c0ecee7-e280-4389-b214-1be0811fcb36",
+              "title": "MA04 02 MARKET SIZE",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zkrf2NAEUEM",
+                "china_cdn_id": "zkrf2NAEUEM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826319,
+          "key": "7ed3f75c-1ebf-4682-8b5c-9a213adb9203",
+          "title": "Text: Calculating Marketing Size & Market Share",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7ed3f75c-1ebf-4682-8b5c-9a213adb9203",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830430,
+              "key": "296d505e-3bb7-4072-aca5-b7cd4e052353",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Market Share is indicator of how well a company is doing compared to the competition.\n\nIt can be calculated a few ways:\n\n**By units sold:**\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830434,
+              "key": "61a9d622-5700-40a7-9527-e9206c71a314",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca422_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/61a9d622-5700-40a7-9527-e9206c71a314",
+              "caption": "",
+              "alt": "",
+              "width": 519,
+              "height": 77,
+              "instructor_notes": null
+            },
+            {
+              "id": 830436,
+              "key": "e06a1c95-f64c-404e-bb91-5c78202d06a2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**By revenue:**\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830439,
+              "key": "86031333-cec0-4783-bba2-6e701582bf26",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca43e_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/86031333-cec0-4783-bba2-6e701582bf26",
+              "caption": "",
+              "alt": "",
+              "width": 519,
+              "height": 80,
+              "instructor_notes": null
+            },
+            {
+              "id": 830440,
+              "key": "0bb47388-20b5-4a57-b9a0-4d0ed791fbde",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Market Size is a fairly complicated calculation. You can read more about Market Size calculations at [MaRS](https://www.marsdd.com/mars-library/how-to-estimate-market-size-business-and-marketing-planning-for-startups/) or use a [Market Size Calculation Spreadsheet](https://www.planprojections.com/wp-content/uploads/market-size-calculator-v-1.1.xlsx)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826320,
+          "key": "6cbd8b90-9841-454a-a534-1b1cdceef0bb",
+          "title": "Quiz: Market Size & Market Share",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6cbd8b90-9841-454a-a534-1b1cdceef0bb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827166,
+              "key": "e7af3cfc-4b07-4cf8-8c06-88d28312975f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Use the following information to answer the questions.\n\nThe 2018 Groceries Market was said to be a $800 Billion Industry. The major players are distributed as such:\n\nGroceryCo: 25% Market Share\nMrs. Grocer: 18 Billion in Sales \nGrocery Joe: 250 Billion in Sales \n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 827168,
+              "key": "d85e7a8a-0fe7-4628-bc15-0c38915004cb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d85e7a8a-0fe7-4628-bc15-0c38915004cb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many sales did GroceryCo generate in 2018?",
+                "answers": [
+                  {
+                    "id": "a1550565937106",
+                    "text": "$25 Billion",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550565956546",
+                    "text": "$25 Million",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550565962052",
+                    "text": "$200 Billion",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550565969540",
+                    "text": "$200 Million ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827169,
+              "key": "f134335a-8e5f-4cde-9121-50a89f9b8793",
+              "title": "Calculate",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f134335a-8e5f-4cde-9121-50a89f9b8793",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What is the Market Share of Mrs. Grocer? "
+              },
+              "answer": {
+                "text": "2.25% (18B/800B)\n",
+                "video": null
+              }
+            },
+            {
+              "id": 827170,
+              "key": "c8057dd5-115f-4a9f-8655-37a6bcbf0b05",
+              "title": "Calculate",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c8057dd5-115f-4a9f-8655-37a6bcbf0b05",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Which Grocery Store has the largest market share?"
+              },
+              "answer": {
+                "text": "Grocery Joe (31.25%) (250B/800B = Market Share %)\n",
+                "video": null
+              }
+            },
+            {
+              "id": 827171,
+              "key": "e9d5b225-f611-4093-aa77-34d6d5e1166b",
+              "title": "Calculate",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e9d5b225-f611-4093-aa77-34d6d5e1166b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What is the total market share of GroceryCo, Mrs. Grocer, and Grocery Joe? \n\n"
+              },
+              "answer": {
+                "text": "58.5% (Add Their Market Share’s Together) \n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 826321,
+          "key": "2a5b36bd-a5fd-46fe-8316-426d454df477",
+          "title": "Penetration",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2a5b36bd-a5fd-46fe-8316-426d454df477",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830442,
+              "key": "6284dfaf-5236-4a53-aba0-158d4663d95f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Penetration is a way of measuring the popularity of a brand, product, or the category of goods. We define it as the number of people who buy specific brand, product, or category of goods within a given time period, divided by the size of the relevant population.\n\nYou use a penetration analysis much like a market trend analysis — to determine what action to take to position the business better. An analyst may be tasked with evaluating market penetration, so that business leaders can decide what strategy to use. \n\nWe can evaluate penetration in two ways:\n\n**Market Penetration**\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830445,
+              "key": "7d7120af-6c39-4a6c-9283-d02aa120ed55",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca4c9_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/7d7120af-6c39-4a6c-9283-d02aa120ed55",
+              "caption": "",
+              "alt": "",
+              "width": 674,
+              "height": 58,
+              "instructor_notes": null
+            },
+            {
+              "id": 830444,
+              "key": "7142abd1-ec16-41e9-a4fa-4c72d4c86bff",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Brand Penetration**",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830446,
+              "key": "277c6bf6-256c-4ece-b1fb-975969e232ab",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca4d2_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/277c6bf6-256c-4ece-b1fb-975969e232ab",
+              "caption": "",
+              "alt": "",
+              "width": 627,
+              "height": 59,
+              "instructor_notes": null
+            },
+            {
+              "id": 830447,
+              "key": "c232cf30-f71a-460c-9b07-a3b0c727ff3d",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Market penetration helps understand how many people use a particular product. You can evaluate penetration after various campaigns to see how they compare to one another or to the category as a whole.\n\nLet’s create an example. Last month you targeted 50,000 households to sell StrongCharge Batteries. 1,000 households purchased StrongCharge Batteries, and 3,000 households bought any brand of battery. \n\n    StrongCharge has a 2% Brand Penetration (1,000 / 50,000)\n    The Battery Category Penetration is 6%  (3,000 / 50,000)\n    StrongCharge’s Share of Penetration is 33% (1,000/3,000)\n\nYour penetration share is the share of anyone who purchased the category of product you are selling. Consumers have choices between multiple brands, such as they do with batteries, so this penetration metric helps understand both the overall impact of the category, and your brand’s placement within it. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826322,
+          "key": "6a0cbbb3-ea7f-425b-84f2-8bba4d1ed851",
+          "title": "Quiz: Penetration",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6a0cbbb3-ea7f-425b-84f2-8bba4d1ed851",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830449,
+              "key": "af01ca68-cb58-4998-8174-4d5cce9cab5b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "af01ca68-cb58-4998-8174-4d5cce9cab5b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Penetration is a way of measuring the `___________` of a brand, product, or the category of goods.\n\n",
+                "answers": [
+                  {
+                    "id": "a1550624034011",
+                    "text": "Impact",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550624054860",
+                    "text": "Popularity",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550624061682",
+                    "text": "Value",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550624068358",
+                    "text": "Importance",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830450,
+              "key": "f63dcfa3-2aa4-452a-a854-cd39ed1b56b4",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f63dcfa3-2aa4-452a-a854-cd39ed1b56b4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Market Penetration helps understand the category your brand is positioned in.",
+                "answers": [
+                  {
+                    "id": "a1550624115764",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550624127343",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826323,
+          "key": "781c8f26-7e63-4a94-bff3-141cde9c7167",
+          "title": "Brand Equity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "781c8f26-7e63-4a94-bff3-141cde9c7167",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830654,
+              "key": "b15161d4-7b9a-473d-b60c-cff96d8cc29d",
+              "title": "MA04 03 EQUITY",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QaacmZUSm9A",
+                "china_cdn_id": "QaacmZUSm9A.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826324,
+          "key": "3658b90f-0118-4388-9372-6d661575526d",
+          "title": "Calculating Brand Equity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3658b90f-0118-4388-9372-6d661575526d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830453,
+              "key": "a3162a2d-24f9-4a25-917d-73b24eeb3dad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When conducting a brand equity survey, you can use the following questions: \n\n**Awareness:**\n\n* What brand first comes to your mind when you think about the XYZ category. \n* What other brands do you think about when you hear about the XYZ category \n\n**Preference:**\n\n* Which brand, in the XYZ, category do you prefer?\n* Which brands, in general, do you prefer? Why? \n\n**Usage:**\n\n* Which brand, in the XYZ, category do you use most often?\n* Which brands, in general, do you use most often? Why? \n\n**Accessibility:**\n\n* Where would you go to find XYZ category\n* What brand is the easiest to find and purchase for XYZ category. \n\n**Brand Value:**\n\n* What brand in XYZ category signals quality to you?\n* What brand in XYZ category signals value to you?\n* What brand in XYZ category signals affordability to you? \n\n**Brand Differentiation:**\n\n* What makes ABC Brand different from other brands in the XYZ category\n* What one or two things make XYZ category brands different from one another?\n* What benefit is most important to you? \n* How does ABC Brand deliver on that benefit? \n\n\n**Loyalty:**\n\n* Which brands in XYZ category did you buy in the last 6 months?\n* Which brands in XYZ category do you purchase most often? \n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826325,
+          "key": "945042ea-b7c7-42b2-85b9-8cf27ca6d577",
+          "title": "Quiz: Brand Equity",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "945042ea-b7c7-42b2-85b9-8cf27ca6d577",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827172,
+              "key": "bc3f2c52-8bbc-487f-b262-526575baf07f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bc3f2c52-8bbc-487f-b262-526575baf07f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does BAV stand for?\n",
+                "answers": [
+                  {
+                    "id": "a1550566283927",
+                    "text": "BrandAsset® Valuator",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550566296128",
+                    "text": "Business Analytics Vision",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566296991",
+                    "text": "Brand Awareness Validation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566297692",
+                    "text": "Brand Acquisition Valuation",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827173,
+              "key": "652d7355-b0b1-4477-872e-35b98f489f11",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "652d7355-b0b1-4477-872e-35b98f489f11",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How do you evaluate your brand equity?\n\n",
+                "answers": [
+                  {
+                    "id": "a1550566340531",
+                    "text": "By looking at market trends",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566349430",
+                    "text": "Measuring your market share",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566350108",
+                    "text": "Calculating consumer engagement ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566350810",
+                    "text": "Through a survey or customer interview",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827174,
+              "key": "99454896-a0ee-4386-b88b-281690fafe7b",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "99454896-a0ee-4386-b88b-281690fafe7b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "The four key areas of brand evaluation are: Differentiation, Relevance, Esteem and Knowledge. Match the term to the correct definition.\n"
+                },
+                "concepts_label": "Term ",
+                "answers_label": "Definition",
+                "concepts": [
+                  {
+                    "text": "Differentiation",
+                    "correct_answer": {
+                      "id": "a1550566422958",
+                      "text": "Measured by asking questions about how often consumers have encountered your brand, if they recognize it, and what makes it different from your competition."
+                    }
+                  },
+                  {
+                    "text": "Relevance",
+                    "correct_answer": {
+                      "id": "a1550566451127",
+                      "text": "Measure whether or not a consumer would purchase your product or service. Does it fit their perceptions on price, convenience, and how it fits into their lifestyle? \n"
+                    }
+                  },
+                  {
+                    "text": "Esteem",
+                    "correct_answer": {
+                      "id": "a1550566471367",
+                      "text": "Measure what a consumer feels. You’ll ask questions about your brand reputation and personality."
+                    }
+                  },
+                  {
+                    "text": "Knowledge",
+                    "correct_answer": {
+                      "id": "a1550566488532",
+                      "text": "Measure what a consumer knows about your brand - can they name your product and services?"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1550566488532",
+                    "text": "Measure what a consumer knows about your brand - can they name your product and services?"
+                  },
+                  {
+                    "id": "a1550566422958",
+                    "text": "Measured by asking questions about how often consumers have encountered your brand, if they recognize it, and what makes it different from your competition."
+                  },
+                  {
+                    "id": "a1550566471367",
+                    "text": "Measure what a consumer feels. You’ll ask questions about your brand reputation and personality."
+                  },
+                  {
+                    "id": "a1550566451127",
+                    "text": "Measure whether or not a consumer would purchase your product or service. Does it fit their perceptions on price, convenience, and how it fits into their lifestyle? \n"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826327,
+          "key": "d3705dae-dcc8-479e-b2ee-d96c50094101",
+          "title": "Trends",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d3705dae-dcc8-479e-b2ee-d96c50094101",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830655,
+              "key": "d4974d69-6070-4173-b1a1-ec598329e2cf",
+              "title": "MA04 04 TRENDS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "b635Lz0evso",
+                "china_cdn_id": "b635Lz0evso.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826326,
+          "key": "4591f2e1-0e48-4dbb-8c22-0f3a68d0d555",
+          "title": "Calculating: Trends",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4591f2e1-0e48-4dbb-8c22-0f3a68d0d555",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830454,
+              "key": "40f49cfd-98ee-4f83-8516-997d87abb2f3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To truly monitor market trends, you’ll need to run business experiments, buy industry reports, or review publicly available data. Much could be dedicated on the topic of truly evaluating market trends. \n\nBusiness categories rise, and fall, so it is important that we keep a pulse on them. A relatively easy and straightforward approach to evaluating trends is through Google Trends: [trends.google.com](trends.google.com).\n\nRather than investing in complex reporting, you can simply provide topics to Google to evaluate how interested people are in a particular topic. You can use this analysis to make assumptions about the market as a whole, as people’s interest tend to be pretty strong indicators as to what is popular and what is not.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830456,
+              "key": "838f71ea-2b43-4cc9-894b-7ec5c2a682ef",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca68b_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/838f71ea-2b43-4cc9-894b-7ec5c2a682ef",
+              "caption": "",
+              "alt": "",
+              "width": 1207,
+              "height": 515,
+              "instructor_notes": null
+            },
+            {
+              "id": 830457,
+              "key": "362348dc-0503-4d88-9095-90d8adec43c7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "With Google Trends, you simply provide a query to see its trend line. You can also compare multiple queries to one another.\n\nEach data point is divided by the total searches of the geography and time range it represents to compare relative popularity. Otherwise, places with the most search volume would always be ranked highest. This is important as you look at the trend data — this isn’t meant to tell you how many people are doing a search, but rather how that topic trends relative to all other searches. \n\n\n\nGoogle trend results scaled on a range of 0 to 100 based on a topic’s proportion to all searches on all topics.\n\n\n\n\nTrends help you understand if a market is growing, declining, or staying fairly neutral. Keep in mind, this isn’t a perfect analysis. For example, Google Trends is all about interest, and you may have a company that is spending a lot of time in the media, say Facebook for example. Would you consider social media as a trend to be in decline just because Facebook was showing a lot of interest? Of course not. So you’ll have to use your judgement when evaluating trends in this manner.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830458,
+              "key": "5c5fd1e3-06a8-448f-94b6-e8bd128b997d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca6a7_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5c5fd1e3-06a8-448f-94b6-e8bd128b997d",
+              "caption": "",
+              "alt": "",
+              "width": 1216,
+              "height": 622,
+              "instructor_notes": null
+            },
+            {
+              "id": 830459,
+              "key": "38f23808-2ea2-492f-974e-607248c85530",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Let’s say you sell sheet music online for pianos. You can evaluate the overall trend of people searching for pianos, or sheet music. Here we can see this is a relatively stable market trend.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830460,
+              "key": "04ed1433-2798-4d17-b72c-93422116926e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ca6b4_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/04ed1433-2798-4d17-b72c-93422116926e",
+              "caption": "",
+              "alt": "",
+              "width": 1174,
+              "height": 415,
+              "instructor_notes": null
+            },
+            {
+              "id": 830461,
+              "key": "626b16ef-8234-46de-b360-272af5e58f3c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "What about cryptocurrency? Significantly more volatile.  \n\n\n\nTake 10 minutes, and explore Google Trends. Evaluate trends for the following areas (or think up areas that interest you).\n* Car brands (Ford, Lexus, Toyota, Honda, Tesla, etc.)\n* Solar energy\n* Dog breeds (Poodle, Bulldog, Golden Retriever, etc.)\n* Sports (Football, Soccer, Baseball, etc.)\n* Fast food brands (McDonalds, Burger King, Wendy’s)\n* Social brands: Facebook, Twitter, LinkedIn \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826328,
+          "key": "da182513-c241-4b77-9a07-87f0f44ee34b",
+          "title": "Trends",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "da182513-c241-4b77-9a07-87f0f44ee34b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827175,
+              "key": "febfcdde-f821-4a90-8fb7-cea06c63b8e9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "febfcdde-f821-4a90-8fb7-cea06c63b8e9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Market trend analytics is all about figuring out if a market is `_________`, `__________`, or in` __________`.\n\n",
+                "answers": [
+                  {
+                    "id": "a1550566576640",
+                    "text": "growing, stagnant, decline",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550566609024",
+                    "text": "mature, immature, adolescence",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566610866",
+                    "text": "top, bottom, the middle",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566611537",
+                    "text": "flat, neutral, decline",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827176,
+              "key": "1aa5743a-4106-4000-b18a-66982959084a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1aa5743a-4106-4000-b18a-66982959084a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: You should look at your market trend every 12-18 months.\n",
+                "answers": [
+                  {
+                    "id": "a1550566708100",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566713867",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827177,
+              "key": "ac432fda-c51c-4d9b-9079-0a5d37a7bf75",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ac432fda-c51c-4d9b-9079-0a5d37a7bf75",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Change in any market is `____________`.\n\n",
+                "answers": [
+                  {
+                    "id": "a1550566745834",
+                    "text": "good",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566775378",
+                    "text": "inevitable ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550566776168",
+                    "text": "bad",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550566776838",
+                    "text": "neutral",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826329,
+          "key": "9aecab92-656d-40c0-8536-f4819bceccea",
+          "title": "Competitor Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9aecab92-656d-40c0-8536-f4819bceccea",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830656,
+              "key": "72fca2f6-ef62-4e68-b472-48b67796fac1",
+              "title": "MA04 05 COMPETITOR",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "N29XvRVsmhw",
+                "china_cdn_id": "N29XvRVsmhw.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826330,
+          "key": "d50db3d7-4c97-4852-b17a-7c4c6df0d3e6",
+          "title": "Calculating: Competitor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d50db3d7-4c97-4852-b17a-7c4c6df0d3e6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830663,
+              "key": "4d4b8c62-8830-4f56-a80f-8766f8acc50c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "A competitive analysis will help you answer important business questions including:\n\n* Who are our key competitors?\n* What are the objectives of our key competitors? How does that differ from our objective?\n* What are their strengths and weaknesses?\n* What threats do they pose?\n* What opportunities do they have?\n* What strategies are they pursuing and how would they affect us?\n* Based on their past action how are they likely to respond to changes in our business?\n\nOnce you’re ready to begin a competitive analysis, follow these steps: \n\n**Step 1: Create a list of your primary competitors**\n\nIf you aren’t familiar with who your competitors are, you can take a look on the web using Google or Google Maps. You might also look at directories for any industry groups, or the vendor directory at trade shows you would attend. \n\nThe competitor worth evaluating will operate on a similar business objective, market to a similar audience that you’re marketing to, and sell similar products. \n\nKeep your list focused to 5-7 as you want to be able to use this information in an actionable manner. A list that is too large will create too much noise. \n\n**Step 2: Create a spreadsheet**\n\nAs you gather data on your competitors, organize it in a spreadsheet. You’re looking to capture initial insights on:\n\n* Price\n* Products\n* Social Media Accounts\n* Level of Social Engagement (Frequency, Last Publishing Date, Etc)\n* Content Used\n\n\n**Step 3: Identify primary/secondary competitors**\n\nStart by making a list of your competitors, and categorizing them into one of the following: Primary Competitors, Secondary Competitors, or Tertiary Competitors. \n\nPrimary competitors are targeting the same audience or have a similar product.\n\nSecondary competitors are offering a higher or lower end version of your product, or selling something similar but to a completely different target market.\n\nTertiary competitors are any business that is related to yours. For instance, if you sell tennis rackets, a tertiary competitor may sell tennis balls. They’re not a threat, but could become one if they pivot.  \n\n**Step 4: Identify your competitor’s market positioning**.\n\nTake a look at their website and any marketing messaging and ask the following:\n\n* What is their value proposition?\n* Why would their customer buy this? Is it Price? Experience?\n* What makes them different?\n* What features do they highlight in their marketing copy?\n* What makes them unique?\n\n**Step 5: Gather information**\n\n* Sign up for their newsletter\t\t\n* Follow their blog\n* Setup Google Alerts for media mentions\n* Follow them on social media\n* Purchase a product\n* Review any of their sales collateral \n* Look through all their press releases\n* Contact their customer service team\n* Return or refund the product\t\t\n* Identify their pricing model\n\n**Step 6: Read reviews** \n\nFind as many reviews of your competitors as possible — read them, categorize them, and highlight what customers like and dislike. \n\nUse these reviews to see if you can find a strength or weakness you can capitalize on.\n\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830664,
+              "key": "a2c3383a-a684-4537-a86d-7105fd864a2a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are several tools you might find helpful as you conduct your analysis: \n\n\n\n\n[SimilarWeb](https://www.similarweb.com/)\nSimilarWeb offers insights into estimated monthly visits and key traffic sources for a website. \n\n[Mailcharts](https://www.mailcharts.com)\nMailcharts can give you insight into your competitors’ email marketing, from the frequency of email sends to their subject line tactics.\n\n[Buzzsumo](https://buzzsumo.com)\nYou can search your competitor’s domain in Buzzsumo to see their top-performing content.\n\n[Alexa](https://www.alexa.com)\nAlex helps you identify the audience demographics and search rankings related to a website.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826331,
+          "key": "a63cb96f-393e-4e65-a8e0-5530212618a1",
+          "title": "Quiz: Competitor",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a63cb96f-393e-4e65-a8e0-5530212618a1",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827178,
+              "key": "aa5a896f-9a0d-4824-8556-1ff55a55b328",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "aa5a896f-9a0d-4824-8556-1ff55a55b328",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** In business, you will always have a `___________`.\n",
+                "answers": [
+                  {
+                    "id": "a1550567139144",
+                    "text": "successful outcome",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567163145",
+                    "text": "decline",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567163855",
+                    "text": "competitor ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567164501",
+                    "text": "customer",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827179,
+              "key": "1a841aa7-4d0a-4858-88a3-06e1a6dd69bf",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1a841aa7-4d0a-4858-88a3-06e1a6dd69bf",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "List 3 questions you might ask during a competitor analysis:\n\n\t"
+              },
+              "answer": {
+                "text": "**Example:**\nWho are our key competitors?\nWhat are their objectives?\nWhat are their strengths and weakness?\nWhat are their threats?\nWhat strategies are they pursuing?\nWhere does their revenue come from?\nWhat audience overalls do we have? \n\n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 826332,
+          "key": "5aaf2acb-6a78-4a8c-82f1-0ec4a1995136",
+          "title": "Traditional Channel Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5aaf2acb-6a78-4a8c-82f1-0ec4a1995136",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830657,
+              "key": "aa14f501-8c31-4168-a3eb-be51925ea498",
+              "title": "MA04 06 TRADITIONAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "0SdrVdGzg_c",
+                "china_cdn_id": "0SdrVdGzg_c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826333,
+          "key": "fbc0abe7-fde5-4e0b-a858-b209f72beb79",
+          "title": "Channel Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fbc0abe7-fde5-4e0b-a858-b209f72beb79",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830759,
+              "key": "8950b741-b179-4a0f-9053-2d5a3f5e39ea",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "There are a lot of channels that you can market in. Truthfully, you’re not going to have the time, resources, or budget to marketing in every channel simultaneously — and even if you did have the resources, you wouldn’t want to.\n\nWhat we need to do, is evaluate the performance of each channel in relation to one another. You would do this at a granular level. For example:\n\nYou may be using television, magazines, newspapers, transit signs, billboards, celebrity endorsements and bulk mailing. You might even group sponsorships at trade shows or on podcasts. You may even be running Facebook Ads, Google Ads, and YouTube Ads. \n\nStart by making a list of all the channels you’re presently using, and identify the goals set for each of those channels. Next, gather the metrics used to determine if that goal was met. From here, you’ll need to compare the performance between each channel. In some cases, you may simply evaluate ROI or ROS on each channel. Other channels may not be tied to a revenue goal, and for that you’ll have to evaluate the effort. \n\nGather the goals that were established for each channel, and identify whether that goal was met, and how significant that goal is to the bottom line of the business. \n\nTo compare these effectively, evaluate the effort required to maintain each channel, and the value you just outlined. From there, you can plot this on a value-matrix.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830760,
+              "key": "6f2df7cf-32d4-4416-b06e-ccb8adcc381b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6cfa17_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/6f2df7cf-32d4-4416-b06e-ccb8adcc381b",
+              "caption": "",
+              "alt": "",
+              "width": 624,
+              "height": 347,
+              "instructor_notes": null
+            },
+            {
+              "id": 830761,
+              "key": "c44c8af7-edbb-452e-8607-13e8735d8da1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Plot where these channels land on this grid. If it’s easier, you can assign values (1-10) for effort, and value -- and actually plot the exact dot position on the axis. \n\nWith the complete matrix, it’s easier to decide which channels are worth investing in further. Start optimizing channels in the high value, low effort section.\n\nKeep in mind, just because something is High Effort and Low Value doesn’t mean it’s not worth exploring. You’re simply scoring these in relation to one another, low value could still mean a significant return on investment, it’s just not as significant as something in the high value section. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826334,
+          "key": "fbf4d7ea-f399-43b4-b658-79aae05ae23f",
+          "title": "Quiz: Channel Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fbf4d7ea-f399-43b4-b658-79aae05ae23f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827180,
+              "key": "258dba9b-3c72-4b27-8405-960aadbd34de",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "258dba9b-3c72-4b27-8405-960aadbd34de",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Marketing channel analytics compare channels to evaluate which ones perform the best. Which of the following would be helpful in determining if one channels performed better than another?\n",
+                "answers": [
+                  {
+                    "id": "a1550567300490",
+                    "text": "Return on Investment",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567310639",
+                    "text": "Number of Customers in the Segment ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567311423",
+                    "text": "Total Content Promoted",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567312109",
+                    "text": "Tools Available for Measuring Performance",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827181,
+              "key": "7338b283-8694-48d3-850d-a1f872d583e5",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7338b283-8694-48d3-850d-a1f872d583e5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Channel analytics can be used to determine what type of marketing is most cost effective.\n",
+                "answers": [
+                  {
+                    "id": "a1550567396047",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567401050",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826335,
+          "key": "c091ea00-1ca5-44b8-9e61-88a55b8ddbb4",
+          "title": "NPS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c091ea00-1ca5-44b8-9e61-88a55b8ddbb4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830658,
+              "key": "c903c3a1-8cac-4a59-b554-6d86d540ff82",
+              "title": "MA04 07 NPS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WOvDmWxvxZQ",
+                "china_cdn_id": "WOvDmWxvxZQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826336,
+          "key": "b76561f0-3a92-4a7a-afa1-5202cde3bf2f",
+          "title": "Calculating NPS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b76561f0-3a92-4a7a-afa1-5202cde3bf2f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830699,
+              "key": "2af5aafb-4a64-4493-ace6-5c1aeddb9539",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The Net Promoter Score® (NPS®) is calculated using a 0–10 scale as shown here:\n\n*Question: On a scale of 0–10, how likely are you to recommend BRAND to another (friend, colleague, company, etc.)?*\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830702,
+              "key": "41f341b8-3b17-41b6-8395-5d1e3fd3496d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ce92e_image4/image4.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/41f341b8-3b17-41b6-8395-5d1e3fd3496d",
+              "caption": "",
+              "alt": "",
+              "width": 652,
+              "height": 140,
+              "instructor_notes": null
+            },
+            {
+              "id": 830700,
+              "key": "a82eaa67-7694-4330-98f0-8d6784482416",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ce915_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/a82eaa67-7694-4330-98f0-8d6784482416",
+              "caption": "",
+              "alt": "",
+              "width": 623,
+              "height": 161,
+              "instructor_notes": null
+            },
+            {
+              "id": 830703,
+              "key": "db6e3736-b74d-4a19-9ecf-61e97ea0d8b0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The answers are tagged as:\n* Detractors: 0-6\n* Passive: 7-8\n* Promoters: 9-10 \n\n\nTo calculate:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830705,
+              "key": "f17468de-c11e-4c5e-93d1-5b61a065b590",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ce95e_image3/image3.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/f17468de-c11e-4c5e-93d1-5b61a065b590",
+              "caption": "",
+              "alt": "",
+              "width": 624,
+              "height": 52,
+              "instructor_notes": null
+            },
+            {
+              "id": 830706,
+              "key": "c6058575-88d5-4397-8021-dff1cb9428eb",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "To illustrate, assume marketing had 320 survey responses:\n* 80 were detractors\n* 100 were passive\n* 140 were promoters ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830707,
+              "key": "2b34be09-b818-42d2-9976-bd46454ba8c6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6ce980_image2/image2.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/2b34be09-b818-42d2-9976-bd46454ba8c6",
+              "caption": "",
+              "alt": "",
+              "width": 624,
+              "height": 191,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 826337,
+          "key": "b5b645fd-e5fb-4130-87cc-2cea5bee8b81",
+          "title": "Quiz: NPS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b5b645fd-e5fb-4130-87cc-2cea5bee8b81",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827182,
+              "key": "767fab47-e214-4414-b44d-e33bafb69cad",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "767fab47-e214-4414-b44d-e33bafb69cad",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In Marketing, NPS stands for:\n",
+                "answers": [
+                  {
+                    "id": "a1550567450896",
+                    "text": "National Product Standards ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567463611",
+                    "text": "Net Promoter Score",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567466222",
+                    "text": "Net Product Sold",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567467007",
+                    "text": "National Promotion Score",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827183,
+              "key": "d5f2c105-bfd5-4310-9c95-192729f33e34",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d5f2c105-bfd5-4310-9c95-192729f33e34",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "NPS uses a score between:\n\n",
+                "answers": [
+                  {
+                    "id": "a1550567509363",
+                    "text": "1 to 5  \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567530876",
+                    "text": "1 to 4 \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567534368",
+                    "text": "1 to 10 \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567538629",
+                    "text": "1 to 20",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827184,
+              "key": "516133ba-a894-4777-8430-ec54b52c3356",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "516133ba-a894-4777-8430-ec54b52c3356",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A score of a 9 or 10 indicates a customer is a:\n",
+                "answers": [
+                  {
+                    "id": "a1550567555183",
+                    "text": "Promoter",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567563461",
+                    "text": "Passive",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567564122",
+                    "text": "Detractor",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567564744",
+                    "text": "Proponent ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827185,
+              "key": "c32943cc-0dc4-4deb-bce7-7c07e4e48ada",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c32943cc-0dc4-4deb-bce7-7c07e4e48ada",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A score of 7 or 8 indicates a customer is a : \n\n",
+                "answers": [
+                  {
+                    "id": "a1550567634646",
+                    "text": "Promoter",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567644152",
+                    "text": "Passive",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567644766",
+                    "text": "Detractor ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567645419",
+                    "text": "Proponent",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827186,
+              "key": "54c6bded-3f7e-4771-ae32-319dc33d1f5d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "54c6bded-3f7e-4771-ae32-319dc33d1f5d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "A score of less than 6 means a customer is a: \n\n",
+                "answers": [
+                  {
+                    "id": "a1550567709486",
+                    "text": "Promoter ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567718102",
+                    "text": "Passive ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550567718760",
+                    "text": "Detractor",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550567719350",
+                    "text": "Proponent",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826338,
+          "key": "ee2301c7-72a9-4547-81eb-f56fe0988e71",
+          "title": "Customer Satisfaction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ee2301c7-72a9-4547-81eb-f56fe0988e71",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830708,
+              "key": "5f6e8e2c-a19a-43a9-a165-065af315d357",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Earlier we looked at Net Promoter Score® (NPS®), which is one method to evaluate how customers perceive your product. Another incredibly popular, and widely used model, to evaluate customer satisfaction, in the United States, is through the American Customer Satisfaction Index (ACSI). \n\nThe ACSI interviews around 180,000 customers each year and asks about their satisfaction with the goods and services they have purchased and consumed. Respondents are screened to ensure inclusion of actual customers of a wide range of business and services.\n\nYou can review benchmarks by industry on the [ACSI website](https://www.theacsi.org/acsi-benchmarks/benchmarks-by-industry) \n\nHere, you can see where your company needs to stack up to be competitive. You can evaluate the ACSI by Company, Industry, Sector, or Brand.\n\nThe ACSI can conduct research for your company, or you can closely model their survey methodology to determine your score. \n\nYou can ask three questions, along with a 10 point scale as shown: \n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830710,
+              "key": "204d38e7-4b4c-4d76-81e0-2638c8661880",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6cea07_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/204d38e7-4b4c-4d76-81e0-2638c8661880",
+              "caption": "",
+              "alt": "",
+              "width": 624,
+              "height": 313,
+              "instructor_notes": null
+            },
+            {
+              "id": 830711,
+              "key": "67d76926-7a43-4376-95d6-d65d8f394db3",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The questions, in the order shown above, cover Satisfaction, Expectancy, and Performance.\nYou then must use a weighted scale to determine your score:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830712,
+              "key": "665e3ad2-4907-454d-9ccd-0317ec430e3c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### ((Satisfaction-1) \\*.3885 + (Expectancy-1) \\*.3190 + (Performance-1) \\*.2925) / 9 x 100\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826339,
+          "key": "06798a30-25a9-4c64-b7bb-37cc3653edb6",
+          "title": "Quiz: Customer Satisfaction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "06798a30-25a9-4c64-b7bb-37cc3653edb6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830713,
+              "key": "d6597b3f-162d-4049-bf18-da52ea8bfc13",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d6597b3f-162d-4049-bf18-da52ea8bfc13",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Besides Net Promoter Score®, which is another popular model to measure customer satisfaction?\n",
+                "answers": [
+                  {
+                    "id": "a1550641866063",
+                    "text": "APRM",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550641885338",
+                    "text": "ACSI ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550641886201",
+                    "text": "PMP",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550641886880",
+                    "text": "CPM",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830714,
+              "key": "89c57cef-165e-466d-9534-971c732eee3f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "89c57cef-165e-466d-9534-971c732eee3f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many questions are used in the American Customer Satisfaction Index?\n",
+                "answers": [
+                  {
+                    "id": "a1550641948174",
+                    "text": "1",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550641951815",
+                    "text": "2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550641952543",
+                    "text": "3",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550641953173",
+                    "text": "4",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830715,
+              "key": "21a00e9b-d8cd-45d7-93a3-afbc6e992d99",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "21a00e9b-d8cd-45d7-93a3-afbc6e992d99",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: The American Customer Satisfaction Index uses a weighted average on the answers.\n",
+                "answers": [
+                  {
+                    "id": "a1550641977002",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550641988394",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826340,
+          "key": "90080f66-eb63-4238-ade0-23e963d58b6e",
+          "title": "Return on Sales",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "90080f66-eb63-4238-ade0-23e963d58b6e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830716,
+              "key": "1e3fed8e-ac82-4813-a81c-106c43f2c2e2",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Return on Sales (ROS) is how a company demonstrates if it has the ability to generate profits from its sales effort. We represent this value as a percentage, which effectively outlines the profit that results from each dollar of sales. \n\nThe math is relatively straightforward: \n\nROS = Operating Profit / Net Sales \n\nThis metric is useful because it helps you analyze the current performance of your business, and compare that performance to any other company regardless of their size. This way, you could evaluate if a small business is more efficiently turning a profit. \n\nThe return on sales equation measures the percentage of sales converted to income. This metric factors in all the overhead that goes into the sales, which is why we consider it to also be a metric of efficiency. If you have low operating expenses, you will have a higher ROS percentage. \n\nLet’s say for example our Grocery Store generated $5 million in sales, and $250,000 in profits. \n\n250,000 / 5,000,000 = 5% \n\nThis is a fairly low number, and suggests we might need to improve our margins. But, as we’ve learned together — metrics aren’t that great if they aren’t being compared. So, we could compare this metric to that of our industry, or competitors. If we find out the Grocery Industry averages 2-3% we could then consider our 5% to be far better than it looked initially. \n\nROS is most effective when it is measured multiple times, as it can vary as the company grows and as sales change. \n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826341,
+          "key": "9729c9c4-f6c6-4c46-bff9-e14073514fff",
+          "title": "Quiz: ROS",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9729c9c4-f6c6-4c46-bff9-e14073514fff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830750,
+              "key": "2ab0ae6a-70b7-47c7-843f-938bee892c22",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2ab0ae6a-70b7-47c7-843f-938bee892c22",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Return on Sales (ROS) is how a company demonstrates if it has the ability to generate profits from its sales effort. \n",
+                "answers": [
+                  {
+                    "id": "a1550644901255",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550644911489",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830751,
+              "key": "fe0a6cc5-da53-4d85-862e-0ffcf0bff179",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fe0a6cc5-da53-4d85-862e-0ffcf0bff179",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "If we generated $100 in sales and $10 in profits, what is our ROS?\n",
+                "answers": [
+                  {
+                    "id": "a1550644939468",
+                    "text": "1% ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644956297",
+                    "text": "10%",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550644965714",
+                    "text": "$10",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644972612",
+                    "text": "$1",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830752,
+              "key": "ef2ecf09-0f60-4e54-96ef-cf94af93a34f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ef2ecf09-0f60-4e54-96ef-cf94af93a34f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Measure ROS only once in the lifetime of your company.\n",
+                "answers": [
+                  {
+                    "id": "a1550645025567",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550645041753",
+                    "text": "False ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826342,
+          "key": "666da3e4-613d-4f72-be63-a15000fc3566",
+          "title": "Price Premium",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "666da3e4-613d-4f72-be63-a15000fc3566",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830717,
+              "key": "b63c1899-08c3-442b-a984-264fbb6f4886",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you’re likely beginning to see, a lot of what we do in Macro Analytics is comparing data to a benchmark. By evaluating our metrics against data set at the market, competitive, or product category level, we get a good idea of how well we are performing.\n\nThis holds true for pricing. Price premium, is the percentage by which a product’s price exceeds *(or lands short of)* a benchmark price.\n\nIt’s calculated as such:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 830719,
+              "key": "3c24fe8a-c6f3-41f9-a3cf-190d2c108017",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6cef21_image1/image1.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/3c24fe8a-c6f3-41f9-a3cf-190d2c108017",
+              "caption": "",
+              "alt": "",
+              "width": 624,
+              "height": 132,
+              "instructor_notes": null
+            },
+            {
+              "id": 830718,
+              "key": "01678b7e-b158-46fa-9a60-25a77a13fcae",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "You want to monitor price premiums to help you develop competitive strategies. By monitoring price premiums you can be made aware of changes in the market. If prices start to go up, you may identify demand has increased or product shortages exist. If prices go down, there may be a decline in the market, or surplus inventory that must be moved.  \n\nThe goal is to measure your price, against the market average price. Price Premium is sometimes referred to as Relative Price, and it is a very commonly used metric among marketers and management. \n\nIn calculating price premium, you need to define a benchmark price. You can do this by looking at the price of a competitor, or averaging the prices that are paid, displayed, or charged. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826343,
+          "key": "f84b712a-fee4-4260-8feb-1a0545875a24",
+          "title": "Quiz: Price Premium",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f84b712a-fee4-4260-8feb-1a0545875a24",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830738,
+              "key": "7660cc21-6818-4005-a722-5b94ba188a3d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7660cc21-6818-4005-a722-5b94ba188a3d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Price Premium is the percentage by which a product’s price exceeds, or land short of, a `___________` price.\n\n",
+                "answers": [
+                  {
+                    "id": "a1550644420864",
+                    "text": "Premium ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644447241",
+                    "text": "Discounted",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644456304",
+                    "text": "Modeled",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644473394",
+                    "text": "Benchmark",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830739,
+              "key": "7e527b33-9435-4d3b-8ff1-64b2290bf13e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7e527b33-9435-4d3b-8ff1-64b2290bf13e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** The goal of Price Premium is to measure your price, against the `___________` average price.\n\n",
+                "answers": [
+                  {
+                    "id": "a1550644521449",
+                    "text": "Competitors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644546402",
+                    "text": "Market",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550644553944",
+                    "text": "Modeled",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644560838",
+                    "text": "Premium",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 830740,
+              "key": "caf1463b-6920-4c9c-96b6-5dfd534f141f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "caf1463b-6920-4c9c-96b6-5dfd534f141f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Price Premium is sometimes referred to as `___________` Price\n",
+                "answers": [
+                  {
+                    "id": "a1550644616828",
+                    "text": "Reference ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644647522",
+                    "text": "Reverse ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550644648983",
+                    "text": "Relative",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550644649628",
+                    "text": "Revealed",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826344,
+          "key": "88935437-56c1-4acf-b327-851d5991b72d",
+          "title": "Baseline & Incremental Lift",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "88935437-56c1-4acf-b327-851d5991b72d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830732,
+              "key": "426f26c9-f17a-4e1b-898d-1ed9385a6496",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Baselines are important to evaluate changes in specific marketing activities. Baseline is a value that exists outside of what is being measured in the campaign — it’s what would happened had you not done anything.\n\nIf the baseline baseline is the attributed value of everything outside of the marketing campaign being measured — or in simpler terms, what would have happened anyway. \n\nEstablishing a baseline allows you to model information in a more meaningful way when you’re measuring your marketing campaigns.  \nIf you have a baseline for your sales, you can look at the big picture and evaluate if a large multi-channel campaign had an impact. For example you could say “We increased sales 10% above our baseline as a result of the television campaign we ran”. \n\nThe baseline also helps isolate sales from the effects of other influences, such as seasonality or competitive promotions. \n\nBaseline Sales or Base Volume is a function of marketing actions. Another commonly used term alongside Baseline is, Incremental Lift, which specifically means contemporaneous, immediate gains (lifts) resulting from factors such as price reductions, distribution fluctuations & seasonality. An incremental lift does not change the overall baseline. \n\nWhen it comes time to measure our baseline, ideally we would use a control group to establish a baseline. However, it’s usually not cost-effective or time-effective to do so, which means we will turn to historical sales and adjust them for our expected growth, with adjustments for seasonal influences.\n\nYou start by looking at historical data for sales. You’ll separate those sales into baseline sales and [incremental sales using a regression analysis.](https://blog.markgrowth.com/an-introduction-to-regression-analysis-for-marketers-e4ece9dce43a)\n\nFrom there, you work through forecasting growth and factoring in areas of seasonality. This is usually done by looking at areas where incremental lift happened in a predictable manner. For example, an increase in snack purchases near the super bowl.\n\nOnce you’ve evaluated just the baseline sales, and modeled how they grow, you can evaluate lift.\n\nLift % = Incremental Sales / Baseline Sales\n\nAfter running a campaign, you’ll evaluate the amount of incremental sales generated, and when compared to baseline sales, you can model the percent lift. \n\nThere’s a lot of complex theory in a true baseline, and incremental lift model. However, it’s important that you’re aware of the foundations on how this model works and why it is used. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 830659,
+          "key": "adab8611-69d3-458d-86f2-e44a39452204",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "adab8611-69d3-458d-86f2-e44a39452204",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830660,
+              "key": "0a0d5507-bc33-4126-8062-4ab383524218",
+              "title": "MA04 08 LESSON RECAP",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R1R4SqjsfZQ",
+                "china_cdn_id": "R1R4SqjsfZQ.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

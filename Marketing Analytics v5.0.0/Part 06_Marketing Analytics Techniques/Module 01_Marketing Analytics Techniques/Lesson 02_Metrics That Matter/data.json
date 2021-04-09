@@ -1,0 +1,3052 @@
+{
+  "data": {
+    "lesson": {
+      "id": 826101,
+      "key": "eb4d9743-9324-4197-ae8f-47b1b8ec2185",
+      "title": "Metrics That Matter",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/eb4d9743-9324-4197-ae8f-47b1b8ec2185/826101/1575486842132/Metrics+That+Matter+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/eb4d9743-9324-4197-ae8f-47b1b8ec2185/826101/1575486824899/Metrics+That+Matter+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 826157,
+          "key": "bfe72ff1-adde-49a4-b862-60af632c2738",
+          "title": "Intro",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bfe72ff1-adde-49a4-b862-60af632c2738",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827476,
+              "key": "a0140673-71f3-4475-b7a0-bf34acfbca1f",
+              "title": "MA02 01 INTRO",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qy_y1pO618M",
+                "china_cdn_id": "qy_y1pO618M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826137,
+          "key": "5a6a67f3-2efe-4046-bc6d-82e89b6b55db",
+          "title": "Metrics That Matter",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5a6a67f3-2efe-4046-bc6d-82e89b6b55db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827477,
+              "key": "2073fddc-7927-4678-a1f8-8886509f8234",
+              "title": "MA02 02 METRICS THAT MATTER",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "sv0aaICiwws",
+                "china_cdn_id": "sv0aaICiwws.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826138,
+          "key": "2f8704c8-bc02-4ec1-8c70-b4cb16ce6b5c",
+          "title": "Quiz: Metrics That Matter",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2f8704c8-bc02-4ec1-8c70-b4cb16ce6b5c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826747,
+              "key": "b7ae7588-523a-456c-8777-8f4daf50eac6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b7ae7588-523a-456c-8777-8f4daf50eac6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the Pirate Metrics Acronym AARRR, what does the first A refer to:\n",
+                "answers": [
+                  {
+                    "id": "a1550511834109",
+                    "text": "Awareness",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550511853057",
+                    "text": " Acquisition",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550511860495",
+                    "text": "Activation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550511867101",
+                    "text": "Advertising",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826748,
+              "key": "24813632-7b76-4ab5-84db-d94861d64b02",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "24813632-7b76-4ab5-84db-d94861d64b02",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the Pirate Metrics Acronym AARRR, what does the second A refer to:",
+                "answers": [
+                  {
+                    "id": "a1550511936536",
+                    "text": "Acquisition",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550511957552",
+                    "text": "Awareness",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550511963174",
+                    "text": "Activation",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550511971238",
+                    "text": "Advertising",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826749,
+              "key": "7f9fbb75-9224-4e75-ae40-9a2ddaa201fb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7f9fbb75-9224-4e75-ae40-9a2ddaa201fb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the Pirate Metrics Acronym AARRR, what does the first R refer to:",
+                "answers": [
+                  {
+                    "id": "a1550512032579",
+                    "text": "Revenue",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550512069231",
+                    "text": "Referral",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550512076326",
+                    "text": "Retention",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550512083316",
+                    "text": "Reward",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826750,
+              "key": "ff03e7d0-6434-4d65-83e8-a364e99d145b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ff03e7d0-6434-4d65-83e8-a364e99d145b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the Pirate Metrics Acronym AARRR, what does the second R refer to:\n",
+                "answers": [
+                  {
+                    "id": "a1550512121980",
+                    "text": "Revenue ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550512134281",
+                    "text": "Referral",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550512141150",
+                    "text": "Retention",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550512142597",
+                    "text": "Reward",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826751,
+              "key": "ffa41339-a9ee-44a0-bec2-fb221367eb76",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ffa41339-a9ee-44a0-bec2-fb221367eb76",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In the Pirate Metrics Acronym AARRR, what does the last R refer to:\n",
+                "answers": [
+                  {
+                    "id": "a1550512206415",
+                    "text": "Revenue ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550512215649",
+                    "text": "Referral ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550512222113",
+                    "text": "Retention",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550512228198",
+                    "text": "Reward",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826752,
+              "key": "12e85422-8b9f-4989-acd2-357843f95fcc",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "12e85422-8b9f-4989-acd2-357843f95fcc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the Metric to its corresponding area in AARRR:\n"
+                },
+                "concepts_label": "Metric",
+                "answers_label": "AARRR",
+                "concepts": [
+                  {
+                    "text": "Acquisition",
+                    "correct_answer": {
+                      "id": "a1550512293472",
+                      "text": "# of Conversions"
+                    }
+                  },
+                  {
+                    "text": "Activation",
+                    "correct_answer": {
+                      "id": "a1550512415248",
+                      "text": "Time in Product"
+                    }
+                  },
+                  {
+                    "text": "Revenue",
+                    "correct_answer": {
+                      "id": "a1550512462756",
+                      "text": "Monthly Revenue"
+                    }
+                  },
+                  {
+                    "text": "Referral",
+                    "correct_answer": {
+                      "id": "a1550512480462",
+                      "text": "Affiliate Growth Rate"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1550512415248",
+                    "text": "Time in Product"
+                  },
+                  {
+                    "id": "a1550512480462",
+                    "text": "Affiliate Growth Rate"
+                  },
+                  {
+                    "id": "a1550512293472",
+                    "text": "# of Conversions"
+                  },
+                  {
+                    "id": "a1550512462756",
+                    "text": "Monthly Revenue"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826753,
+              "key": "a2612cfc-ef4c-44a0-b2bc-615555432fda",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a2612cfc-ef4c-44a0-b2bc-615555432fda",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the Metric to its corresponding area in AARRR:\n"
+                },
+                "concepts_label": "Metric",
+                "answers_label": "AARRR",
+                "concepts": [
+                  {
+                    "text": "Revenue",
+                    "correct_answer": {
+                      "id": "a1550512697751",
+                      "text": "Annual Growth Rate"
+                    }
+                  },
+                  {
+                    "text": "Retention",
+                    "correct_answer": {
+                      "id": "a1550512761752",
+                      "text": "Churn Recapture"
+                    }
+                  },
+                  {
+                    "text": "Acquisition",
+                    "correct_answer": {
+                      "id": "a1550512776711",
+                      "text": "Visitors to Website"
+                    }
+                  },
+                  {
+                    "text": "Activation",
+                    "correct_answer": {
+                      "id": "a1550512795354",
+                      "text": "Customer Support Ticket Volume"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1550512776711",
+                    "text": "Visitors to Website"
+                  },
+                  {
+                    "id": "a1550512761752",
+                    "text": "Churn Recapture"
+                  },
+                  {
+                    "id": "a1550512697751",
+                    "text": "Annual Growth Rate"
+                  },
+                  {
+                    "id": "a1550512795354",
+                    "text": "Customer Support Ticket Volume"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826139,
+          "key": "b077cd3a-c493-42a5-8b45-58155dbf2ac8",
+          "title": "Measuring Across the Journey",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b077cd3a-c493-42a5-8b45-58155dbf2ac8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827480,
+              "key": "dd4f7c51-a3ce-43fc-8839-1148ef2937cf",
+              "title": "MA02 03 JOURNEY",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "WSNMSYmJWXQ",
+                "china_cdn_id": "WSNMSYmJWXQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826140,
+          "key": "ceb8d50c-1384-4492-b919-387e81e286ff",
+          "title": "Quiz: Measuring Across the Journey",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ceb8d50c-1384-4492-b919-387e81e286ff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826867,
+              "key": "e9e554a9-a11a-4bfc-a9db-5df194b8e6a9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e9e554a9-a11a-4bfc-a9db-5df194b8e6a9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When the entire value of the customer’s conversion is placed on the channel that most recently delivered that customer, it’s said to be what kind of attribution?\n",
+                "answers": [
+                  {
+                    "id": "a1550536234660",
+                    "text": "Time Decay",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536247239",
+                    "text": "Position Based",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536254905",
+                    "text": "Last Click",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550536262635",
+                    "text": "First Click",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826868,
+              "key": "7574371d-d228-4b01-bf91-7ed3f0f9852c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7574371d-d228-4b01-bf91-7ed3f0f9852c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)**: The customer journey is always a linear journey",
+                "answers": [
+                  {
+                    "id": "a1550536420423",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536446627",
+                    "text": "False ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826871,
+              "key": "0fab88f1-2d7a-44df-baa2-18ac6b04e98f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0fab88f1-2d7a-44df-baa2-18ac6b04e98f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** When we set out to measure the customer journey, our goal is to look at the most `_____________` path.\n",
+                "answers": [
+                  {
+                    "id": "a1550536492930",
+                    "text": "complicated",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536520992",
+                    "text": "unique",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536527121",
+                    "text": "common",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550536528113",
+                    "text": "precise",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826872,
+              "key": "d6f503e7-9a6d-4d04-8d9d-fe6edeeb19ff",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d6f503e7-9a6d-4d04-8d9d-fe6edeeb19ff",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What do we mean by the reference experience as it relates to the customer journey? \n\n",
+                "answers": [
+                  {
+                    "id": "a1550536579986",
+                    "text": "how the customer ideally wants to navigate ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550536598775",
+                    "text": "why the customer wants to navigate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536605924",
+                    "text": "all the ways a customer will navigate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536614159",
+                    "text": "areas we aren’t measuring in the customer journey",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826144,
+          "key": "703bd26d-4da3-4e13-838a-d951043f9881",
+          "title": "The Analytic Brief",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "703bd26d-4da3-4e13-838a-d951043f9881",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830661,
+              "key": "ec68220b-859d-4dcd-b17e-2e118d329d09",
+              "title": "MA02 04 BRIEF",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "_vVpfh7xokE",
+                "china_cdn_id": "_vVpfh7xokE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827088,
+          "key": "b1478531-ad45-450f-9820-130950a3ab4a",
+          "title": "Text: The Analytic Brief",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b1478531-ad45-450f-9820-130950a3ab4a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827089,
+              "key": "0132a2c1-8734-4a5e-a7bd-bd88bac8b854",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The format we use for the Analytic Brief is an adaptation from Cesar A Brea’s book [Pragmalytics](https://www.amazon.com/Pragmalytics-Practical-Approaches-Marketing-Analytics-ebook/dp/B0792Y8GDD/ref=sr_1_1?ie=UTF8&qid=1550539629&sr=8-1&keywords=pragmalytics). \n\nCesar’s approach is to bridge the gap between marketing campaign plans and how we measure and evaluate their performance. \n\nIn today’s marketing landscape, we have to be agile — essentially, more flexible, as we launch campaigns. We’re constantly testing and improving, which means we have to adapt how we measure. As we roll out new campaigns, we need to be ready to evaluate their performance, and we need to be sure that we truly understand what our objectives are and how our customer will come to interact with the areas of our business that guide them towards those objectives. \n\nTo keep things organized, and prevent important metrics from slipping through the cracks, we need a framework. This is where the Analytic Brief fits in. \n\nThe analytic brief outlines the various aspects of the business and does so in a way that is clear and concise so that others can understand the information as its being presented. \n\nWhen preparing the brief it’s important that you consider the following:\n\n**Keep it Simple**\n\nThere’s no need to go into extreme depth, or complicate the brief. Simply use the information that you have available and outline things as best you can. The brief creates a natural opportunity to ask questions to clarify what you’re measuring, and those conversations alone provide tremendous value.\n\n**Don’t make it a monumental task**\n\nBriefs tend to feel like burdensome projects, but the Analytic Brief is meant to be quick. You should be able to create an in-depth brief in half-a-day, and that includes the time to sit down with stakeholders if the project is beyond your team.\n\n**Fill it out**\n\nDon’t leave areas of the brief blank — the whole intent is to help you capture all the important areas of your business and the customer journey. If you find gaps, solve them. Don’t skip sections, or leave areas blank assuming you will solve for it later. The entire goal is to figure out everything ahead of time, so you don’t run into problems later. \n\nAttached to the brief is the documentation on your customer journey. Use this visual map to further evaluate all the metrics you will be capturing, and evaluate whether the customer journey has revealed any gaps in the brief itself.\n\nThe analytic brief is a valuable framework, and it’s worth exploring further because it will help create actionability out of your metrics. \n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826145,
+          "key": "3ff49662-5c4c-4f9f-963e-b4c8d5a07712",
+          "title": "Quiz: The Analytic Brief",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3ff49662-5c4c-4f9f-963e-b4c8d5a07712",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826873,
+              "key": "81b66268-d3d3-4c9b-82e5-c6d98d04a7b1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "81b66268-d3d3-4c9b-82e5-c6d98d04a7b1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)**: Frameworks help to focus your attention and serve as a reference tool to keep you confident you’re on the right path\n",
+                "answers": [
+                  {
+                    "id": "a1550536834679",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550536856766",
+                    "text": "False ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826874,
+              "key": "b0d67439-6cb9-419b-8be6-e6edc5e51eb9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "b0d67439-6cb9-419b-8be6-e6edc5e51eb9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)**: You will always refer back to the framework in every project.\n",
+                "answers": [
+                  {
+                    "id": "a1550536873408",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550536901218",
+                    "text": "False ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826876,
+              "key": "ad5c44d3-8c50-4248-8622-0884df80ebb3",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ad5c44d3-8c50-4248-8622-0884df80ebb3",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Put the steps of our analytic brief in order:\n"
+                },
+                "concepts_label": "Order ",
+                "answers_label": "Step",
+                "concepts": [
+                  {
+                    "text": "First step",
+                    "correct_answer": {
+                      "id": "a1550536984277",
+                      "text": "Business Story"
+                    }
+                  },
+                  {
+                    "text": "Second step",
+                    "correct_answer": {
+                      "id": "a1550537035130",
+                      "text": "Customer Story"
+                    }
+                  },
+                  {
+                    "text": "Last step",
+                    "correct_answer": {
+                      "id": "a1550537041618",
+                      "text": "Testing & Learning Plan"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1550537041618",
+                    "text": "Testing & Learning Plan"
+                  },
+                  {
+                    "id": "a1550537035130",
+                    "text": "Customer Story"
+                  },
+                  {
+                    "id": "a1550536984277",
+                    "text": "Business Story"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826877,
+              "key": "36a85cef-ff07-4497-bb15-cfabc1e126c6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "36a85cef-ff07-4497-bb15-cfabc1e126c6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What must we also apply to this brief in order to measure everything properly? \n",
+                "answers": [
+                  {
+                    "id": "a1550537115923",
+                    "text": "Metric summary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537126265",
+                    "text": "Customer journey map",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537162004",
+                    "text": "Effort diagram",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537162905",
+                    "text": "Cost-benefit analysis",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826146,
+          "key": "a232d375-6fd9-4341-a165-cd7cdef9b45b",
+          "title": "Business Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a232d375-6fd9-4341-a165-cd7cdef9b45b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827482,
+              "key": "89a816e5-4e8a-4f23-b69e-b6853e26596b",
+              "title": "MA02 05 BUSINESS STORY",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "JamlMu7Z-0M",
+                "china_cdn_id": "JamlMu7Z-0M.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826147,
+          "key": "f2f3ca91-b181-409c-a7dc-5d100c160037",
+          "title": "Text: Analytic Brief Business Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f2f3ca91-b181-409c-a7dc-5d100c160037",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827090,
+              "key": "1f06caac-89cd-4e21-a5eb-b46e6003df3a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The business story provides the customer segments that you want to pursue, and why. It’s important that you have an understanding of the customer segments available to you, and that you evaluate which one will be the most important segment to pursue.\n\nIf you’ve been asked to analyze a project, then it’s important you ask which customer segment was targeted for this promotion. If the marketing team cannot provide a good answer, then it’s evident there’s a larger problem that needs to be solved.\n\nThe two questions we ask on our business story:\n* What relevant, actionable segments exist?\n* Which segment should we pursue, and why? \n\t\nWhen we look at this target customer segment, you’ll want to understand all of the relevant customer attributes that identify the customer within this segment. \n\nSegments can be organized by one or more attributes. These attributes can be demographic, psychographic, behavioral, or based on needs. \n\nDemographics factor in age, gender, marital status, income, and education level. You might describe your target customers demographically as say 24 to 45 year olds who make less than $50,000 annually and are single.\n\nPsychographics classify a group of people according to psychological variables such as opinions, beliefs, values, attitudes, and interests. Demographic data can determine a segment, but each person in that segment may have radically different opinions and interests, which can only be determined by psychographic data.  \n\nPsychographic attributes tend to be more useful than demographics for many products. Instead of focusing on everyone in a demographic, you focus on the segment that has beliefs and values that align with your ideal consumer. So, you might be targeting single, 24 to 45 year olds, who make less than 50k, value environmentally conscious companies, and like reading books. \n\nYou can also use relevant behavioral attributes to describe your target customer. Here you might identify consumers based on an action they take, and how frequently they take it. This could be say, people who buy a cup of coffee every day, or those who watch at least 3 YouTube videos per week. \n\nAnother market segmentation technique is needs-based segmentation. With this approach, you divide the market into customer segments that each have distinct needs. Take the Nest Thermostat for example. For some, it’s valuable as a way to reduce their energy usage. For others, it’s useful to turn on the heater at a vacation property. And for others, it might be a way to monitor the temperature in a child’s room. Same product, but with consumers that will receive different messaging based on their need. \n\nThere’s no one-size fits all approach to this exercise — but, regardless of your objectives, you must have a clearly defined customer segment that you are targeting in order to be effective in your marketing.\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826148,
+          "key": "ca971160-5a34-4f0d-a01b-606fc1db11da",
+          "title": "Quiz: Business Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ca971160-5a34-4f0d-a01b-606fc1db11da",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826886,
+              "key": "237d6000-b6ce-4c0a-8c40-b30ea313b56f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "237d6000-b6ce-4c0a-8c40-b30ea313b56f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)**: Most importantly, our analysis must be `______________`.\n",
+                "answers": [
+                  {
+                    "id": "a1550537274303",
+                    "text": "Reported ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537302913",
+                    "text": "Calculated ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537310589",
+                    "text": "Actionable",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537319783",
+                    "text": "Precise",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826893,
+              "key": "a7f52757-7b76-41d2-8d5d-c2de8620fc19",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a7f52757-7b76-41d2-8d5d-c2de8620fc19",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which are the two questions our business story focuses on?\n",
+                "answers": [
+                  {
+                    "id": "a1550537392269",
+                    "text": "What relevant actionable segments do we have access to?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537406055",
+                    "text": "What revenue goals do we have?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537406775",
+                    "text": "What is our key objective?  ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537407592",
+                    "text": "Which segments should we pursue?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537430673",
+                    "text": "How will we change people’s behavior?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537442829",
+                    "text": "How is our funnel performing?",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826900,
+              "key": "e0accaa3-6040-4e57-8141-93430ad868ae",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e0accaa3-6040-4e57-8141-93430ad868ae",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Your company sells backpacks. It’s a month before school starts. Which customer segment would you want to pursue?",
+                "answers": [
+                  {
+                    "id": "a1550537549085",
+                    "text": "Parents of Students",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537565386",
+                    "text": "Soccer Players",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537571615",
+                    "text": "Low-Value Customers",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537578543",
+                    "text": "Business Travelers",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826902,
+              "key": "726c10f3-05d4-4912-94f9-f27a62a6d6f1",
+              "title": "Free response: ",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "726c10f3-05d4-4912-94f9-f27a62a6d6f1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Come up with three different types of customer segments for a company that sells backpacks, and describe when that customer segment is most actionable.\n\n"
+              },
+              "answer": {
+                "text": "**Examples:**\n\nHigh School Students. Students in high school likely have influence over buying decisions, and it would be important to position the product in front of them.\n\nPeople Interested in Hiking. Just before the good weather arrives, people that like to hike might be looking for new backpacks.\n\nBusiness Travelers. This segment is also very actionable, likely anytime after the school season starts because business travelers will be looking for backpacks year round. \n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 826149,
+          "key": "bd9376e6-dbba-474f-8f6b-534a7fdf5f8d",
+          "title": "Customer Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bd9376e6-dbba-474f-8f6b-534a7fdf5f8d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827485,
+              "key": "2a9bd2f4-f16b-4090-bb9f-bc56e9337aeb",
+              "title": "MA02 06 CUSTOMER STORY",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "SsZsdI_Zwds",
+                "china_cdn_id": "SsZsdI_Zwds.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826150,
+          "key": "1f296f96-3edb-41e4-8ac1-4d4093878557",
+          "title": "Text: Analytic Brief Customer Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1f296f96-3edb-41e4-8ac1-4d4093878557",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827092,
+              "key": "1d9f9a14-ea87-4fc6-8f26-eb4b46bec261",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The customer story section of the Analytic Brief outlines questions that force you to evaluate the marketing effort from the customer’s perspective. \n\nThe customer story answers the following questions, as described by Cesar A. Brea in [Pragmalytics](https://www.amazon.com/Pragmalytics-Practical-Approaches-Marketing-Analytics-ebook/dp/B0792Y8GDD/ref=sr_1_1?ie=UTF8&qid=1550539629&sr=8-1&keywords=pragmalytics): \n\n\tWhere is our consumer’s attention?\n\tWhere are we spending our effort? \n\tHow effective is this effort?\n\tWhere can we make changes?\n\tWhat should we do now, and in the future?\n\nBy answering these questions you’ll come to understand the touchpoint in the analytics project. Now, sometimes these questions bridge the gap between what marketing is doing and what an analyst is doing — but that’s always the case in Marketing. Marketing analysts are rarely presented a set of numerical data sets and asked to interpret the results. A marketing analyst must be part of the marketing team, and think through all the avenues by which data should be collected.\n\nAdditionally, by knowing the customer story you know how to interpret the metrics. The context by which you look at the data is incredibly important, and it will be the difference between a good analysis and a bad one. \n\nAs part of the customer story we put together a customer journey map, which helps us further refine where we will be collecting data, and reveals any gaps in our analysis plan.\n\nThe customer story, while mostly a narrative, is still an incredibly important piece in the analytic process. \n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826151,
+          "key": "000062f1-79bd-4689-b56b-cfa39370dc4d",
+          "title": "Quiz: Customer Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "000062f1-79bd-4689-b56b-cfa39370dc4d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826911,
+              "key": "42ba82b6-215d-44c4-8c40-df43d9cb9215",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "42ba82b6-215d-44c4-8c40-df43d9cb9215",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Where is our targets `_____________`?\n",
+                "answers": [
+                  {
+                    "id": "a1550537782496",
+                    "text": "Attention",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537819704",
+                    "text": "Effort ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537826153",
+                    "text": "Behavior ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537832603",
+                    "text": "Messaging",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826912,
+              "key": "553e5dae-3b66-404d-be71-6a8c873bdc17",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "553e5dae-3b66-404d-be71-6a8c873bdc17",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Where is our` ___________`?\n",
+                "answers": [
+                  {
+                    "id": "a1550537887917",
+                    "text": "Audience",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537916948",
+                    "text": "Effort",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550537924624",
+                    "text": "Messaging",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550537934116",
+                    "text": "Customer",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826913,
+              "key": "772a355d-0c4b-4f1d-917e-d3957f9c58d4",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "772a355d-0c4b-4f1d-917e-d3957f9c58d4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Where should we focus __________?\n",
+                "answers": [
+                  {
+                    "id": "a1550537989162",
+                    "text": "Effort ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550538009958",
+                    "text": "Messaging",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538099397",
+                    "text": "Metrics",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538111064",
+                    "text": "Changes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826915,
+              "key": "77d25b3b-e1c7-4077-be24-e85b12043a7e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "77d25b3b-e1c7-4077-be24-e85b12043a7e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** What should we do _______ and _______?",
+                "answers": [
+                  {
+                    "id": "a1550538159158",
+                    "text": "Before, after",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538181355",
+                    "text": "Now, later",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550538187625",
+                    "text": "Above, beyond ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538193535",
+                    "text": "Yesterday, tomorrow ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826916,
+              "key": "ab3e9224-a1a7-40e8-a334-883972c81f81",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ab3e9224-a1a7-40e8-a334-883972c81f81",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Describe how you might create a simple customer journey map, so you can figure out the metrics you want to capture?\n"
+              },
+              "answer": {
+                "text": "Example: An easy way to do this is to setup a grid. You can do this in excel. list all your channels as rows along the left side, and then create the funnel labels (Awareness, Interest, Desire, Action, Advocacy) as rows across the top. We can then walk through the steps the customer will take, and identify what metrics can be captured at each of those steps. \n",
+                "video": null
+              }
+            },
+            {
+              "id": 826917,
+              "key": "d599d0d7-5751-4e21-8717-18f12820dcef",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d599d0d7-5751-4e21-8717-18f12820dcef",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or  False)**: The customer journey map serves to guide not only your thinking, but to unlock the metrics you’ll capture at each step. \n",
+                "answers": [
+                  {
+                    "id": "a1550538272360",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550538295880",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826153,
+          "key": "35b5bd83-10fb-41f1-83cf-aae5ebaa2e65",
+          "title": "Text: Customer Journey",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "35b5bd83-10fb-41f1-83cf-aae5ebaa2e65",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827096,
+              "key": "1df14beb-128b-4a7b-9eda-203f4441fdb1",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "When you know the customer journey, you’ll know where you are deploying solutions and how you are measuring those solutions. The funnel has helped us understand the steps they’ll go through — but there’s still a journey within those steps. A user can have many touch-points within each stage, so it’s important that we create a reference journey. The systematic journey that we ideally want the buyer to take which reflects on the idea we are pushing this buyer down our marketing funnel. \n\nWe understand the buyer will go through the stages from Awareness to Action and hopefully to Loyalty. \n\nBut, what does the buyer journey look like within those stages?\n\nHow did the buyer become aware? Did they walk into a store and see the product on the shelf? Did they hear about it from a friend? Did they click on a social media advertisement? If they saw an item on the shelf, were their competing products alongside yours? If so, what does that do for their journey? Will they now be comparing your product to the one next to it? And if so, are they comparing it on cost? On benefit? \n\nThe buyer may be moving up and down the funnel — there’s so many variables that we are working to account for. \n\nThink about all the steps involved in the decision making process. Within each stage, the customer will define their own path, interact with various brand touch-points, and hopefully move towards the next step in the funnel.\n\nWith the increase of mobile devices and digital connectivity, consumers are exposed to too much of everything. They’ve got access to a lot of information, and they’re constantly being bombarded with messaging up & down the funnel from a plethora of brands. \n\nIt’s important that you map the consumer journey and identify where consumers will cross into your funnel. \n\nTake catalog of how a buyer navigates a funnel. This is a rather robust undertaking, and it’s often best handled by treating it in an agile manner. You must iterate on your buyer journey’s — you cannot conceivably map out every journey, every touchpoint, every interaction. \n\nSo, start by creating the current buyer journey for these two groups:\n\n* **Group A**: The buyer who is aware of their problem, not ready to purchase, and not aware of your solution.\n\n* **Group B**: The buyer who is aware of their problem, and ready to purchase.\n\nWhat does that buyer journey look like for Group A and Group B. \n\n* What steps would they take? \n* How would they go through a funnel?\n\nLook at the funnel and visualize the buyer becoming aware, becoming interested, and so on. \n\nYou can do this for your company, or any brand that you follow.\n\nAsk yourself: \n\n* How do they become aware of their problem? \n* How would they become aware of a solution?\n* How would they become interested in a brand?\n* Why would they desire a particular brand? \n* What would motivate them to convert?\n* How do you move them along in this funnel ? \n\nStart to develop this into a map, as you saw in the video. \n\nYou’ll want to outline all the ways they interact with your brand — they come into your website, visit your store, read your social media posts, receive an e-mail, etc. \n\nThis thought experiment, that will help you begin to connect the dots between your consumer and the analytics you are measuring. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826152,
+          "key": "94946879-91b6-4707-9515-7323997011db",
+          "title": "Testing & Learning Plan",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "94946879-91b6-4707-9515-7323997011db",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827487,
+              "key": "cd04ff81-7a16-4b27-808a-18403ce4eb3d",
+              "title": "MA02 07 TESTING",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kv7nfwItsLM",
+                "china_cdn_id": "kv7nfwItsLM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827098,
+          "key": "336c5fd5-d305-4b9b-98b2-dbfb67b32de9",
+          "title": "Text: Testing & Learning Plan",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "336c5fd5-d305-4b9b-98b2-dbfb67b32de9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827099,
+              "key": "93a630b4-e074-4bc9-bfa6-432c7ec81455",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "As you finalize the Analytic Brief, you come to the Testing & Learning Plan. The hope, is that through this exercise, you’ve evaluated where you have uncertainty. There may be data that is insufficient, funnel areas that are unrepresented, or shortfalls that were overlooked in the campaign planning. \n\nYou need to look at everything you’ve collected and figure out your plan for resolving uncertainty. Cesar A. Brea, in [Pragmalytics](https://www.amazon.com/Pragmalytics-Practical-Approaches-Marketing-Analytics-ebook/dp/B0792Y8GDD/ref=sr_1_1?ie=UTF8&qid=1550539629&sr=8-1&keywords=pragmalytics), has three questions we should evaluate in this section:\n\n* What should we study further?\n* What data and analysis do we need?\n* What should we try? \n\nDo not skip answering these questions. It’s easy to overlook this section, but you need to force yourself to think through these questions and truly understand the impact these answer may have on your approach.\n Oftentimes you’ll find a gap in your own analytics approach, or even gaps that the marketing campaign overlooked. No matter what you identify, you need to outline what you’ll try to remedy that gap. If time is of the essence, you might have to create a contingency plan.\n\nFor example, let’s assume you cannot install the necessary tracking. You may identify that you will need to correlate the data from other metrics, and the accuracy won’t be great but you know it’s good enough for this initial run. You’ll know that you need to socialize the deficiency in your analytics plan to key stakeholders so when you report on the findings there are not questions as to why certain data was omitted.\n\nThe Test & Learning plan is your way to cover all your bases. Use it as a tool to guide your decisions, but also guide the conversations you have with others on your team or within the company. \n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826154,
+          "key": "12863dc6-ed43-4a94-b7bd-975791d8c09d",
+          "title": "Quiz: Testing & Learning",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "12863dc6-ed43-4a94-b7bd-975791d8c09d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826918,
+              "key": "c186a8fa-edca-4752-975f-c4d33a87a341",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c186a8fa-edca-4752-975f-c4d33a87a341",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The testing & learning plan is what step in the analytic brief:\n",
+                "answers": [
+                  {
+                    "id": "a1550538369671",
+                    "text": "1st",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538491941",
+                    "text": "2nd",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538497438",
+                    "text": "3rd/Last",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550538507639",
+                    "text": "Not Part of the Brief ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826919,
+              "key": "007114ee-a50e-438d-bd90-8e125c7200d4",
+              "title": "Free Form ",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "007114ee-a50e-438d-bd90-8e125c7200d4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Describe in 2-3 sentences why we use the testing & learning plan?\n"
+              },
+              "answer": {
+                "text": "Example: The testing and learning plan helps us organize our thoughts around what we should study further, what additional data we need, and what ideas we should try. We use it to think through the marketing campaign so we understand what else we need to analyze and pull data on for the campaign to be successful. Not every analytics project is straightforward, and we might need to pull data that isn’t a metric -- such as what shows are running on a TV station, or which radio stations are most popular. \n\n",
+                "video": null
+              }
+            },
+            {
+              "id": 826920,
+              "key": "c8cde826-4632-4488-9fae-a900d6f17f34",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c8cde826-4632-4488-9fae-a900d6f17f34",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)**: You can skip the testing & learning plan stage of the analytic brief\n",
+                "answers": [
+                  {
+                    "id": "a1550538593078",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550538615464",
+                    "text": "False ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826155,
+          "key": "e5de5b1f-7ed1-48e4-bbcd-3556802ca0f7",
+          "title": "Template: Analytics Brief",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e5de5b1f-7ed1-48e4-bbcd-3556802ca0f7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827100,
+              "key": "7bb2d01f-4134-46a2-b043-cd02616dbed4",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "**Business Story**\n\n* What relevant actionable segments do we have access to?\n\n* Which ones should we pursue? \n\n\n\n**Customer Story**\n\n* Where is our consumer’s attention?\n \n* Where are we spending our effort? \n\n* How effective is this effort?\n\n* Where can we make changes?\n \n* What should we do now, and in the future?\n\n\n**Testing & Learning Plan**\n\n* What should we study further?\n \n* What data and analysis do we need?\n\n* What should we try? \n \n\n\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826156,
+          "key": "f0a38f62-2885-489f-b5f9-0557d86110cb",
+          "title": "Recap Business Story",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f0a38f62-2885-489f-b5f9-0557d86110cb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827605,
+              "key": "707f0df8-9174-40b2-a0a7-8d6bf109b3b4",
+              "title": "MA02 08 RECAP",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "aNWFlA_KelA",
+                "china_cdn_id": "aNWFlA_KelA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827101,
+          "key": "c90f3a12-03ad-40b4-a603-17856adf1639",
+          "title": "Quiz: Analytic Brief",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c90f3a12-03ad-40b4-a603-17856adf1639",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827118,
+              "key": "c0f3f08f-78aa-4470-8fed-435380fd7c10",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c0f3f08f-78aa-4470-8fed-435380fd7c10",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**TRUE/FALSE**: Frameworks help to focus your attention and serve as a reference tool to keep you confident you’re on the right path\n",
+                "answers": [
+                  {
+                    "id": "a1550561391785",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550561402771",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827119,
+              "key": "28826f27-ba17-4a75-81e0-e50b38eab77d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "28826f27-ba17-4a75-81e0-e50b38eab77d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**TRUE/FALSE**: You will always refer back to the framework in every project.\n",
+                "answers": [
+                  {
+                    "id": "a1550561429794",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561438677",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827120,
+              "key": "ba9d00b5-90c0-4d50-bb91-db5b3c9344c2",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ba9d00b5-90c0-4d50-bb91-db5b3c9344c2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Put the steps of our analytic brief in order:\n"
+                },
+                "concepts_label": "1st",
+                "answers_label": "Business Story ",
+                "concepts": [
+                  {
+                    "text": "2nd",
+                    "correct_answer": {
+                      "id": "a1550561482292",
+                      "text": "Customer Story"
+                    }
+                  },
+                  {
+                    "text": "Last Step",
+                    "correct_answer": {
+                      "id": "a1550561508673",
+                      "text": "Testing & Learning Plan"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1550561482292",
+                    "text": "Customer Story"
+                  },
+                  {
+                    "id": "a1550561508673",
+                    "text": "Testing & Learning Plan"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827121,
+              "key": "d0e7b7e5-c4ca-4efa-b2cd-5dd57df5b8f9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d0e7b7e5-c4ca-4efa-b2cd-5dd57df5b8f9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What must we also apply to this brief in order to measure everything properly? \n",
+                "answers": [
+                  {
+                    "id": "a1550561560139",
+                    "text": "Metric summary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561570900",
+                    "text": "Customer journey map",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550561571724",
+                    "text": "Effort diagram",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561572564",
+                    "text": "Cost-benefit analysis",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827102,
+          "key": "bbd10eab-8bb8-4bc8-ba8a-e6b98852dd14",
+          "title": "Customer Segmenting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "bbd10eab-8bb8-4bc8-ba8a-e6b98852dd14",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827602,
+              "key": "23b8f857-5280-4ae1-a1fe-0d305afc4cdd",
+              "title": "MA02 09 CUSTOMER SEGMENTING",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qSU8Ecf5zyY",
+                "china_cdn_id": "qSU8Ecf5zyY.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827103,
+          "key": "5f3fb7b6-93e5-4347-9d45-2894bdb17e3c",
+          "title": "Quiz: Customer Segmenting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5f3fb7b6-93e5-4347-9d45-2894bdb17e3c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827122,
+              "key": "a5f00977-fff8-4fc4-8e16-94d1339abbc1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a5f00977-fff8-4fc4-8e16-94d1339abbc1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is a consumer segment?\n",
+                "answers": [
+                  {
+                    "id": "a1550561668150",
+                    "text": "A taxonomy of every consumer in your market ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561696422",
+                    "text": "A list of consumers that are not similar ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561697197",
+                    "text": "A sub-group of consumers with many similarities ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550561698044",
+                    "text": "A taxonomy of every consumer outside of your market",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827123,
+              "key": "a02b7801-fb3a-4518-8f4d-14753e1fadc5",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a02b7801-fb3a-4518-8f4d-14753e1fadc5",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What attribute is true of a good customer segment? \n",
+                "answers": [
+                  {
+                    "id": "a1550561775498",
+                    "text": "Customers are very similar within their segment, and dissimilar to other segments",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550561786884",
+                    "text": "Customers are very dissimilar in their segment, and similar to other segments \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561787663",
+                    "text": "Customers are very similar within their segment, and similar to other segments \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561788386",
+                    "text": "Customers are very dissimilar in their segment, and dissimilar to other segments",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827124,
+              "key": "650bdb43-e904-4db0-90de-301fa81a6340",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "650bdb43-e904-4db0-90de-301fa81a6340",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** You can have segments based on `_________` of customers or based on simple business `_______`.\n",
+                "answers": [
+                  {
+                    "id": "a1550561836759",
+                    "text": "Attributes, Rules",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550561865290",
+                    "text": "Groups, Rules",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561866291",
+                    "text": "Attributes, Groups",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550561867026",
+                    "text": "Rules, Attributes",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827125,
+              "key": "544059a7-c282-4b65-8213-ece7531efcbc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "544059a7-c282-4b65-8213-ece7531efcbc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: If we can find all the people that are alike, we can assume that their behaviors are also very much alike\n",
+                "answers": [
+                  {
+                    "id": "a1550561940676",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550561960064",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827126,
+              "key": "d292c86b-b255-441c-af18-0dd9121aba7f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "d292c86b-b255-441c-af18-0dd9121aba7f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: There is a one-size-fits-all customer. \n\n\n",
+                "answers": [
+                  {
+                    "id": "a1550561976719",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550562003171",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827127,
+              "key": "8ad82213-d050-4b88-aef7-64d20efde90c",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8ad82213-d050-4b88-aef7-64d20efde90c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Explain why you think the average order value could change between different customer segments? \n\n"
+              },
+              "answer": {
+                "text": "**Example**: Because we could have high-value customers, that order lots of items from us and we could have low-value customers that only order one item. We may have high-income consumers and low-income consumers, and their behaviors will vary.\n",
+                "video": null
+              }
+            },
+            {
+              "id": 827128,
+              "key": "04494c11-468b-4839-a9f1-69bbf8eb5d80",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "04494c11-468b-4839-a9f1-69bbf8eb5d80",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Segmentation gives us granular data that is not actionable\n\n",
+                "answers": [
+                  {
+                    "id": "a1550562056347",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550562086762",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827104,
+          "key": "78afa3c2-32ea-4df3-a53a-48d4f4082e6d",
+          "title": "Common Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "78afa3c2-32ea-4df3-a53a-48d4f4082e6d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827603,
+              "key": "6f9df248-8e51-43db-9981-399a4dc93981",
+              "title": "MA02 10 COMMON TOOLS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "EKOrTE0ZxN8",
+                "china_cdn_id": "EKOrTE0ZxN8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827105,
+          "key": "c1868224-4088-475c-8387-3ea1a2fb61d3",
+          "title": "Quiz: Common Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c1868224-4088-475c-8387-3ea1a2fb61d3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827134,
+              "key": "e28b5d0c-030e-4a9a-8cf8-4db6711bf110",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e28b5d0c-030e-4a9a-8cf8-4db6711bf110",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is a common area you might use a tool to measure?\n",
+                "answers": [
+                  {
+                    "id": "a1550563160568",
+                    "text": "Fraud Risk",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563178563",
+                    "text": "Social Media",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550563187286",
+                    "text": "Day-Parting",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563194708",
+                    "text": "Real Estate",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827140,
+              "key": "7dbcd62c-e2f1-432e-976e-a65d0e8dd9bb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7dbcd62c-e2f1-432e-976e-a65d0e8dd9bb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What website provides reviews on tools available to you?\n",
+                "answers": [
+                  {
+                    "id": "a1550563300024",
+                    "text": "G2Crowd.com \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550563311363",
+                    "text": "Alexa.com \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563315755",
+                    "text": "SEMRush.com \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563319406",
+                    "text": "BrowserStack.com",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827141,
+              "key": "f98e45e4-5288-4c68-8b9c-e9483480b9e1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f98e45e4-5288-4c68-8b9c-e9483480b9e1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: It’s important to evaluate whether tools integrate with other data sources.\n",
+                "answers": [
+                  {
+                    "id": "a1550563343121",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563356369",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827106,
+          "key": "853fa7a9-75a8-4e0b-a99d-d36554a12d4d",
+          "title": "Social & Web Monitoring Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "853fa7a9-75a8-4e0b-a99d-d36554a12d4d",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827576,
+              "key": "60ec9a8f-e63b-4d76-88a8-0b71319c243c",
+              "title": "MA02 11 SOCIAL & WEB TOOLS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "bbp9t22Oi-U",
+                "china_cdn_id": "bbp9t22Oi-U.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827107,
+          "key": "37d6c7d5-897f-433d-8c6d-f25d97cc58a2",
+          "title": "Social & Web Monitoring Tools Expanded",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "37d6c7d5-897f-433d-8c6d-f25d97cc58a2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827142,
+              "key": "6bb1cdc6-8fb0-4eef-b851-8515dbf45fb8",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Social Media & Web Monitoring:\n\nReview the category description for Social Media Monitoring Software at:\nhttps://www.g2crowd.com/categories/social-media-monitoring\n\n**Read about the Top 10 Leading Social Media & Web Monitoring tools:**\n\nBe sure to explore The Profile /  Product Information / Pricing and Features Sections \n\n* [Zoho Social](https://www.g2crowd.com/products/zoho-social/reviews)\n* [Sprout Social](https://www.g2crowd.com/products/sprout-social/reviews)\n* [eClincher](https://www.g2crowd.com/products/eclincher/reviews)\n* [Hootsuite](https://www.g2crowd.com/products/hootsuite/reviews)\n* [Social Report](https://www.g2crowd.com/products/social-report/reviews)\n* [Falcon.io](https://www.g2crowd.com/products/falcon-io/reviews)\n* [Mention](https://www.g2crowd.com/products/mention/reviews)\n* [Sendible](https://www.g2crowd.com/products/sendible/reviews)\n* [Brand24](https://www.g2crowd.com/products/brand24/reviews)\n* [SentiOne](https://www.g2crowd.com/products/sentione/reviews)\n\nRelevant Articles:\n\n* [Which Social Media Monitoring Software has the Best ROI?](https://www.g2crowd.com/categories/social-media-monitoring/top/results)\n* [Which Social Media Monitoring Software has the Smoothest Implementation?](https://www.g2crowd.com/categories/social-media-monitoring/top/implementation)\n* [The Most Usable Social Media Monitoring Software](https://www.g2crowd.com/categories/social-media-monitoring/top/usability)\n* [Which Social Media Monitoring Software is the Easiest to do Business With?](https://www.g2crowd.com/categories/social-media-monitoring/top/relationship)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 827108,
+          "key": "6e4687d3-f120-4a18-8bc0-dd850082c0d2",
+          "title": "Quiz: Social & Web Monitoring Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6e4687d3-f120-4a18-8bc0-dd850082c0d2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827143,
+              "key": "0a19e167-9eb3-4c74-81ee-62d315bf24ce",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0a19e167-9eb3-4c74-81ee-62d315bf24ce",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Social & web monitoring tools can help you understand the number of `…………` your brand has online.\n\n",
+                "answers": [
+                  {
+                    "id": "a1550563772646",
+                    "text": "mentions",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550563782291",
+                    "text": "visitors",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563783027",
+                    "text": "sales",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563783761",
+                    "text": "customers ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827144,
+              "key": "0b83159c-8d58-48aa-b7d7-9ca714d11f90",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0b83159c-8d58-48aa-b7d7-9ca714d11f90",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is a sentiment analysis?",
+                "answers": [
+                  {
+                    "id": "a1550563859525",
+                    "text": "determining message penetration",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563869811",
+                    "text": "segmenting customers by their location",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563870473",
+                    "text": "calculating how many messages contained a hashtag ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563871151",
+                    "text": "identifying if a post was positive, negative, or neutral ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827145,
+              "key": "f289c336-bba3-47e1-851d-8632a405e9ff",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f289c336-bba3-47e1-851d-8632a405e9ff",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these tools would help aggregate data from multiple sources?\n",
+                "answers": [
+                  {
+                    "id": "a1550563943466",
+                    "text": "HootSuite",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550563952736",
+                    "text": "Facebook",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563958919",
+                    "text": "Twitter",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550563968314",
+                    "text": "Instagram",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827146,
+              "key": "8cc38ce8-0180-457f-9867-ab7c2b6fbbd4",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8cc38ce8-0180-457f-9867-ab7c2b6fbbd4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Social & Web Monitoring tools would be useful to see how far a campaign hashtag spread. \n",
+                "answers": [
+                  {
+                    "id": "a1550564022988",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564029203",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827109,
+          "key": "a67e8a16-f7ee-46b4-bd06-d75dd7d7bf09",
+          "title": "Search Analytics Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a67e8a16-f7ee-46b4-bd06-d75dd7d7bf09",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827578,
+              "key": "a30ab284-8945-4f08-b817-30bd301a4cb7",
+              "title": "MA02 12 SEARCH TOOLS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "MFJ0kiwVeO0",
+                "china_cdn_id": "MFJ0kiwVeO0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827110,
+          "key": "5ca4c8fe-e287-41bf-9968-27bdc728f030",
+          "title": "Search Analytics Tools Expanded",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5ca4c8fe-e287-41bf-9968-27bdc728f030",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827147,
+              "key": "64981a2b-5e24-4f62-9fb3-a207fc1b0e0e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Search Analytics Tools:\n\nReview the category description for SEO Software at:\nhttps://www.g2crowd.com/categories/seo\n\n**Read about the Top SEO / Search Analytics tools:**\n\nBe sure to explore The Profile /  Product Information / Pricing and Features Sections \n\n* [SE Ranking](https://www.g2crowd.com/products/se-ranking/reviews)\n* [Serpstat](https://www.g2crowd.com/products/serpstat/reviews)\n* [SpyFu](https://www.g2crowd.com/products/spyfu/reviews)\n* [SEMrush](https://www.g2crowd.com/products/semrush/reviews)\n* [Moz Pro](https://www.g2crowd.com/products/moz-pro/reviews)\n* [Siteimprove](https://www.g2crowd.com/products/siteimprove/reviews)\n* [AgencyAnalytics](https://www.g2crowd.com/products/agencyanalytics/reviews)\n* [Conducter Searchlight](https://www.g2crowd.com/products/conductor-searchlight/reviews)\n* [Ahrefs](https://www.g2crowd.com/products/ahrefs/reviews)\n* [Nightwatch](https://www.g2crowd.com/products/nightwatch/reviews)\n\n**Relevant Articles:**\n\n* [SEO vs SEM](https://blog.g2crowd.com/blog/seo/seo-vs-sem/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 827111,
+          "key": "4f3d09e7-ad04-4d91-840b-094ea42228f4",
+          "title": "Quiz: Search Analytics Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4f3d09e7-ad04-4d91-840b-094ea42228f4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827148,
+              "key": "441ec54f-111b-4cc8-a0f4-3b0d03df0de9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "441ec54f-111b-4cc8-a0f4-3b0d03df0de9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Search analytics tools are only useful for organic search research.\n\n\t",
+                "answers": [
+                  {
+                    "id": "a1550564292281",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564301293",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827149,
+              "key": "692abb75-fdb8-4c39-9251-475640879665",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "692abb75-fdb8-4c39-9251-475640879665",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Search analytics can reveal what’s trending online.\n\n\t",
+                "answers": [
+                  {
+                    "id": "a1550564325529",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564333407",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827150,
+              "key": "9cf9c3ec-4a6f-457b-a57f-6aa83a837b0b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9cf9c3ec-4a6f-457b-a57f-6aa83a837b0b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which tool might provide insight on what people are watching?\n",
+                "answers": [
+                  {
+                    "id": "a1550564358483",
+                    "text": "SEMRush ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564365993",
+                    "text": "AHREFS",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564366718",
+                    "text": "YouTube Trends",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564367410",
+                    "text": "HootSuite",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827151,
+              "key": "5d9d80fb-9723-48f2-af13-de21313c4b3f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5d9d80fb-9723-48f2-af13-de21313c4b3f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Google AdWords tools are only useful for paid marketing. \n\n\t",
+                "answers": [
+                  {
+                    "id": "a1550564423996",
+                    "text": "True",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564435885",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827112,
+          "key": "78ccb46d-140c-49d4-9a80-59a14271147b",
+          "title": "Audience Analytics Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "78ccb46d-140c-49d4-9a80-59a14271147b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 830893,
+              "key": "6ea23a32-b33a-4289-ba6f-0712bd9b0dd4",
+              "title": "MA02 13 AUDIENCE ANALYTICS ",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "gAINHgR_IuI",
+                "china_cdn_id": "gAINHgR_IuI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827113,
+          "key": "88c47f0a-9ae3-4191-b6f5-afde820938ac",
+          "title": "Audience Analytics Quiz",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "88c47f0a-9ae3-4191-b6f5-afde820938ac",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827152,
+              "key": "9106e482-9189-4055-82bf-63470ef26899",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9106e482-9189-4055-82bf-63470ef26899",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What could we use to gather qualitative feedback?\n",
+                "answers": [
+                  {
+                    "id": "a1550564538468",
+                    "text": "Google Analytics",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564548079",
+                    "text": "Google Surveys",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564548895",
+                    "text": "Google Trends",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564549565",
+                    "text": "Google Monkey ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827153,
+              "key": "cb2193b2-5652-4e74-9953-ca8b9e4155c4",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "cb2193b2-5652-4e74-9953-ca8b9e4155c4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Describe what data you might capture in your audience’s Demographics:\n\n"
+              },
+              "answer": {
+                "text": "Example: age, gender, location, education, and income\n\n",
+                "video": null
+              }
+            },
+            {
+              "id": 827154,
+              "key": "64024568-2403-453b-8ef3-cf2c659fa4fe",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "64024568-2403-453b-8ef3-cf2c659fa4fe",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which area of AUDIENCE covers the audience’s knowledge and attitude toward the brand? \n",
+                "answers": [
+                  {
+                    "id": "a1550564629060",
+                    "text": "Understanding",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564638377",
+                    "text": "Demographics",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564639039",
+                    "text": "Evaluate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564639653",
+                    "text": "Calculate",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827155,
+              "key": "4c215179-17d3-4114-abd4-74604b95919b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "4c215179-17d3-4114-abd4-74604b95919b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which area of AUDIENCE covers where the audience spends time?\n",
+                "answers": [
+                  {
+                    "id": "a1550564717433",
+                    "text": "Needs",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564718104",
+                    "text": "Upsells",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564718767",
+                    "text": "Analysis",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564750822",
+                    "text": "Environment",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827156,
+              "key": "0c576b9a-dfa3-40b0-bd2e-0d42ed1cd96d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "0c576b9a-dfa3-40b0-bd2e-0d42ed1cd96d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which area of AUDIENCE covers how we add value? ",
+                "answers": [
+                  {
+                    "id": "a1550564802636",
+                    "text": "Expectations",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564810144",
+                    "text": "Invoke",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550564810799",
+                    "text": "Customization",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550564811428",
+                    "text": "Unique",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827114,
+          "key": "092b2307-9c36-43e8-bc0b-da60abced395",
+          "title": "Content Analytics Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "092b2307-9c36-43e8-bc0b-da60abced395",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827631,
+              "key": "b81f788a-e85c-4031-a86a-18eb71509ced",
+              "title": "MA02 14 CONTENT ANALYSIS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "IAd5esNzopA",
+                "china_cdn_id": "IAd5esNzopA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827115,
+          "key": "2c035de1-54c7-4d8e-b11e-88f15ca9d9fd",
+          "title": "Content Analytics Tools Expanded",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2c035de1-54c7-4d8e-b11e-88f15ca9d9fd",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827159,
+              "key": "cd793a05-61dd-4398-9a33-393a6b0ba621",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Content Analytics Tools:\n\nReview the category description for Content Analytics Software at:\nhttps://www.g2crowd.com/categories/content-analytics\n\nReview the category description for Media & Influencer Software at:\nhttps://www.g2crowd.com/categories/media-and-influencer-targeting\n\n**Read about the Top Content Analytics tools:**\n\nBe sure to explore The Profile /  Product Information / Pricing and Features Sections \n\n* [Bitly](https://www.g2crowd.com/products/bitly/reviews)\n* [BuzzSumo](https://www.g2crowd.com/products/buzzsumo/reviews)\n* [Clearscope](https://www.g2crowd.com/products/clearscope/reviews)\n* [Cision Database](https://www.g2crowd.com/products/cision-database/reviews)\n* [Sumo](https://www.g2crowd.com/products/sumo-sumo/reviews)\n* [Meltwater](https://www.g2crowd.com/products/meltwater/reviews)\n\n**Relevant Articles:**\n\n* [The Future of Social Influencers and Social Media Marketing: Interview with Adam Sokolowski](https://blog.g2crowd.com/blog/media-and-influencer-targeting/social-media-marketing-interview-adam-sokolowski/)\n* [PR Software Market is Plentiful with Opportunity](https://blog.g2crowd.com/blog/pr-software-june2016/)\n* [Why are agencies embracing the review economy?](https://blog.g2crowd.com/blog/thought-leadership/agencies-embracing-review-economy/)",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 827116,
+          "key": "e9207a0b-ab0f-4912-9e6f-67f19d8b4ace",
+          "title": "Quiz: Content Analytics Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "e9207a0b-ab0f-4912-9e6f-67f19d8b4ace",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827160,
+              "key": "6e064956-fe99-48e0-986e-fd2021a2b7f4",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6e064956-fe99-48e0-986e-fd2021a2b7f4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: Content Analytics is valuable for understanding the performance of a competitors content.\n",
+                "answers": [
+                  {
+                    "id": "a1550565030161",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550565048477",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827161,
+              "key": "bc40b8c1-4159-48d8-8468-f9773589a0b2",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "bc40b8c1-4159-48d8-8468-f9773589a0b2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "List 3 questions you might answer in regards to competitive content?\n\n"
+              },
+              "answer": {
+                "text": "**Examples:**\n\nHow often is content being published?\nWho is the target for this content?\nIs this content high-quality?\nWho is linking to this content? \nWhat keywords are they targeting?\nWhat is the purpose of this content?\nHow many people engage with it? \nAre any influencers or prominent journalist associated with this content? \n",
+                "video": null
+              }
+            },
+            {
+              "id": 827162,
+              "key": "a76e1698-3fb7-4269-b0d0-ed620437cb8e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a76e1698-3fb7-4269-b0d0-ed620437cb8e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**True/False**: You do not use content analytics for content generated about your brand. You would use social monitoring instead.\n",
+                "answers": [
+                  {
+                    "id": "a1550565096772",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550565109505",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827163,
+              "key": "487cd533-0cf0-4edd-a3c8-d54eaea3180e",
+              "title": "Reflect",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "487cd533-0cf0-4edd-a3c8-d54eaea3180e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "List 2 questions you might ask about content that was generated about your brand? \n\n\t"
+              },
+              "answer": {
+                "text": "**Example**: Who is writing about us, and where is that content showing up? \n\n",
+                "video": null
+              }
+            },
+            {
+              "id": 827164,
+              "key": "15f4279e-59e3-4a2c-a876-ee7c85c103a9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "15f4279e-59e3-4a2c-a876-ee7c85c103a9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What tool might help you discover engaging content?\n",
+                "answers": [
+                  {
+                    "id": "a1550565162066",
+                    "text": "Google Adwords ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550565170770",
+                    "text": "BuzzSumo",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550565171554",
+                    "text": "JIRA",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550565172249",
+                    "text": "HotJar",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 827117,
+          "key": "5bb832d8-abe3-497c-ba45-fc6e46b76b91",
+          "title": "Summary of Lesson",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5bb832d8-abe3-497c-ba45-fc6e46b76b91",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827629,
+              "key": "6d281bdb-150a-457a-8a5d-133ebc47936f",
+              "title": "MA02 15 SUMMARY",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "oILt0QPLcFY",
+                "china_cdn_id": "oILt0QPLcFY.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2963 @@
+{
+  "data": {
+    "lesson": {
+      "id": 826100,
+      "key": "801f9e4c-93d8-4be8-aab9-2ff4f6a13fe9",
+      "title": "Introduction to Marketing Analytics",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/801f9e4c-93d8-4be8-aab9-2ff4f6a13fe9/826100/1581368163101/Introduction+to+Marketing+Analytics+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/801f9e4c-93d8-4be8-aab9-2ff4f6a13fe9/826100/1581368157598/Introduction+to+Marketing+Analytics+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 826107,
+          "key": "117c0e73-e9cd-45eb-97e6-e74ee0f5b1d4",
+          "title": "Introduction to Marketing Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "117c0e73-e9cd-45eb-97e6-e74ee0f5b1d4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827228,
+              "key": "9d10c081-7b6a-4109-9c38-8542a409b28f",
+              "title": "MA01 01 INTRO",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jXm-5dzsMYo",
+                "china_cdn_id": "jXm-5dzsMYo.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826108,
+          "key": "b33362a9-331a-45d5-b633-0b97cb1fcd97",
+          "title": "Ecosystem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b33362a9-331a-45d5-b633-0b97cb1fcd97",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827227,
+              "key": "dcda6775-1b51-4711-87df-3b4174622d5a",
+              "title": "MA01 02 ECOSYSTEM",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "_JQQPUizaGM",
+                "china_cdn_id": "_JQQPUizaGM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826109,
+          "key": "8869b7de-a9bf-45b0-8a79-2f560ae0c804",
+          "title": "Quiz: Ecosystem",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8869b7de-a9bf-45b0-8a79-2f560ae0c804",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826643,
+              "key": "59aa66ee-c527-4c96-aaf0-27cc2bcd942f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "59aa66ee-c527-4c96-aaf0-27cc2bcd942f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How many marketing analytics tools are available?\n",
+                "answers": [
+                  {
+                    "id": "a1550470595224",
+                    "text": "Between 3,001 - 4,000",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470612837",
+                    "text": "Between 4,001 - 5,000",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470619309",
+                    "text": "Between 5,001 - 6,000",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470626001",
+                    "text": "Between 6,001 - 7,000",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826644,
+              "key": "fd7d5614-4241-4134-a2f0-6445e16b55c6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fd7d5614-4241-4134-a2f0-6445e16b55c6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What do we call the collection of technology a company uses for its Marketing?\n",
+                "answers": [
+                  {
+                    "id": "a1550470655167",
+                    "text": "The Marketing Ecosystem (MarEco)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470669687",
+                    "text": "The Marketing Toolkit (MarTool)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470675553",
+                    "text": "The Marketing Technology Stack (MarTech)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550470681989",
+                    "text": "The Marketing Analytic Deck (MarDeck) ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826645,
+              "key": "9c782235-8f16-465c-9585-64ce4566a80f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9c782235-8f16-465c-9585-64ce4566a80f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are the 5 areas of the funnel we seek to measure in Marketing?\n",
+                "answers": [
+                  {
+                    "id": "a1550470706604",
+                    "text": "Acquisition, Entertainment, Desire, Advocacy, Responsibility",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470724353",
+                    "text": "Awareness, Interest, Desire, Action, Advocacy",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550470731269",
+                    "text": "Acquire, Entertain, Dedicate, Activate, Repeat",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470739279",
+                    "text": "Acquire, Interest, Dedicate, Action, Advocacy ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826650,
+              "key": "68323acc-c276-4a5b-95ec-19524bcf7025",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "68323acc-c276-4a5b-95ec-19524bcf7025",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**Select the two primary challenges** we are faced with regarding our data in Marketing Analytics:",
+                "answers": [
+                  {
+                    "id": "a1550470764276",
+                    "text": "Where should our data come from?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550470777896",
+                    "text": "How do we use that data?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550470784138",
+                    "text": "Why do we have data?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470790261",
+                    "text": "What data do we have on our customer? ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826110,
+          "key": "f880cf2c-401b-46ea-96e6-5e7d9864755c",
+          "title": "Data Collection",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f880cf2c-401b-46ea-96e6-5e7d9864755c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827344,
+              "key": "45317749-0f55-4975-94b2-b36da7a3ae62",
+              "title": "MA01 03 DATA COLLECTION",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6gvEtIiL3MA",
+                "china_cdn_id": "6gvEtIiL3MA.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826111,
+          "key": "3dcb3ae2-d20d-4a24-9782-4cf526827095",
+          "title": "Quiz: Data Collection",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3dcb3ae2-d20d-4a24-9782-4cf526827095",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826652,
+              "key": "8c292944-0bca-4657-acbb-626446ff5d36",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "8c292944-0bca-4657-acbb-626446ff5d36",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the term to its definition:\n"
+                },
+                "concepts_label": "Term ",
+                "answers_label": "Definition ",
+                "concepts": [
+                  {
+                    "text": "1st party data:",
+                    "correct_answer": {
+                      "id": "a1550470867478",
+                      "text": "Data that a company collects\n"
+                    }
+                  },
+                  {
+                    "text": "2nd party data:",
+                    "correct_answer": {
+                      "id": "a1550470897866",
+                      "text": "Resold data that was collected by a company"
+                    }
+                  },
+                  {
+                    "text": "3rd party data:",
+                    "correct_answer": {
+                      "id": "a1550470913878",
+                      "text": "Aggregate data that is combined & resold \n"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1550470867478",
+                    "text": "Data that a company collects\n"
+                  },
+                  {
+                    "id": "a1550470913878",
+                    "text": "Aggregate data that is combined & resold \n"
+                  },
+                  {
+                    "id": "a1550470897866",
+                    "text": "Resold data that was collected by a company"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826653,
+              "key": "fff39243-b12c-4729-bc5e-05ae79eec164",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fff39243-b12c-4729-bc5e-05ae79eec164",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How do we match a person to their data without the use of cookies or pixels?\n",
+                "answers": [
+                  {
+                    "id": "a1550470971007",
+                    "text": "Device Fingerprinting",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550470988626",
+                    "text": "Digital Mining",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470989417",
+                    "text": "Captured Intent",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550470998988",
+                    "text": "Metric Management ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826654,
+              "key": "7cc73637-094c-4cb9-8b62-d8cefb4bab1e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7cc73637-094c-4cb9-8b62-d8cefb4bab1e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** We can layer data from multiple sources to answer more complex questions.",
+                "answers": [
+                  {
+                    "id": "a1550471020186",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550471050849",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826112,
+          "key": "9080d5f6-bfc9-4686-a89e-1eefcd42817e",
+          "title": "Layering in Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9080d5f6-bfc9-4686-a89e-1eefcd42817e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827345,
+              "key": "8bab148f-f11a-429b-b1f0-27d9e206594a",
+              "title": "MA01 04 LAYERING IN DATA",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "OhhLxEn5HQ8",
+                "china_cdn_id": "OhhLxEn5HQ8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826113,
+          "key": "461a265d-1961-421b-b376-4de934acc5f6",
+          "title": "Quiz: Layering in Data",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "461a265d-1961-421b-b376-4de934acc5f6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826655,
+              "key": "8ca18619-93b2-4e09-a6b2-fc9c8935c140",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Free Answer:\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 826657,
+              "key": "e93f931e-4e29-4f24-b82a-8b8e5f7bf24d",
+              "title": "What data would you collect to answer the following:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e93f931e-4e29-4f24-b82a-8b8e5f7bf24d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "How popular was our store last Friday night?\n"
+              },
+              "answer": {
+                "text": "To answer this question, you likely would want to collect:\n- Number of Visitors to the store by hour\n- Revenue generated per hour \n\nYou could compare that data to historical trends to determine if the store was gaining popularity, or losing it. \n",
+                "video": null
+              }
+            },
+            {
+              "id": 826658,
+              "key": "56ee28b0-be1b-4d8c-ae70-299dbc2065b0",
+              "title": "What data would you collect to answer the following:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "56ee28b0-be1b-4d8c-ae70-299dbc2065b0",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "What items do we sell the most of in October?\n\n"
+              },
+              "answer": {
+                "text": "List of all items sold in october\nQty of items sold in October\n\nTo answer this question we would look at data for all of October. We would look at the products we sold and how many of each. We could then look at the item that had the most sales, and determine that is the product we sell the most of.\n",
+                "video": null
+              }
+            },
+            {
+              "id": 826659,
+              "key": "3d9df392-3ca1-4690-a89e-44347fe54078",
+              "title": "What data would you collect to answer the following:",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3d9df392-3ca1-4690-a89e-44347fe54078",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "How did our Sunday Paper coupon perform? \n"
+              },
+              "answer": {
+                "text": "Coupon redemptions\nAverage order amount \nAverage discount amount\nRevenue generated for that period \n\nTo answer this question, we need to layer in multiple pieces of data. We need to count how many coupons were redeemed, and we need to figure out how that coupon performed. We’d likely want to look at the average order for folks using the coupon, vs those who do not use the coupon. Or, we might look at the overall revenue generated for that period and compare it to a similar period to determine if the coupon contributed to a lift in our overall sales. We could also look at the average discount amount, so we can determine if the money we spent acquiring the customer (the cost of the discount) generated a positive ROI. \n\n",
+                "video": null
+              }
+            }
+          ]
+        },
+        {
+          "id": 826114,
+          "key": "87c217ae-bb9f-49db-95a1-fe81bfb0cde0",
+          "title": "Analytics Process",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "87c217ae-bb9f-49db-95a1-fe81bfb0cde0",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827347,
+              "key": "09dfbf8d-f23a-431a-899d-08e73f1909ee",
+              "title": "MA01 05 ANALYTICS PROCESS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "jffudZH1OI4",
+                "china_cdn_id": "jffudZH1OI4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826115,
+          "key": "5cfee644-b6e2-468b-ba0a-7516ce59af00",
+          "title": "Quiz: Analytics Process",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "5cfee644-b6e2-468b-ba0a-7516ce59af00",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826661,
+              "key": "9319ab8e-4cda-4b55-b2fc-a1b51d1bed27",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "9319ab8e-4cda-4b55-b2fc-a1b51d1bed27",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the order of the analytics process?\n",
+                "answers": [
+                  {
+                    "id": "a1550471391924",
+                    "text": "Measure, Analyze, Improve",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550471399828",
+                    "text": "Analyze, Measure, Improve",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471406264",
+                    "text": "Improve, Analyze, Measure",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471411928",
+                    "text": "Measure, Improve, Analyze ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826662,
+              "key": "e5c0a87f-0d6d-4726-93f6-0511362d875a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e5c0a87f-0d6d-4726-93f6-0511362d875a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Why do we use a process with analytics?\n",
+                "answers": [
+                  {
+                    "id": "a1550471436250",
+                    "text": "It is mandatory ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471445967",
+                    "text": "It helps us work efficiently and effectively",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550471446834",
+                    "text": "It provides more accurate data ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826663,
+              "key": "e9a3a628-1e3e-4a2a-91e9-75dc79748e40",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e9a3a628-1e3e-4a2a-91e9-75dc79748e40",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is the most important piece in the improvement step of our analytics process? \n",
+                "answers": [
+                  {
+                    "id": "a1550471495358",
+                    "text": "Figuring out if the results are accurate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471504554",
+                    "text": "Figure out what needs to be measured",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471505700",
+                    "text": "Figuring out how to measure the data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471507341",
+                    "text": "Figuring out how to take action",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826117,
+          "key": "98bf9f84-8363-4a70-b8cc-69074f83671c",
+          "title": "Analyzing Metrics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "98bf9f84-8363-4a70-b8cc-69074f83671c",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827349,
+              "key": "a192873b-744a-4521-a28b-f8ae17fb9c58",
+              "title": "MA01 06 ANALYZING METRICS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "1ebJF9gNmAg",
+                "china_cdn_id": "1ebJF9gNmAg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826116,
+          "key": "9b281642-92dd-48fa-a68f-ca1c70fc3754",
+          "title": "Quiz: Analyzing Metrics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9b281642-92dd-48fa-a68f-ca1c70fc3754",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826664,
+              "key": "7a6d73d7-3d1f-4260-bc38-12204be14da6",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7a6d73d7-3d1f-4260-bc38-12204be14da6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** It’s just as likely you’ll do a bad analysis on good data, as it is you’ll do a good analysis on bad data.\n",
+                "answers": [
+                  {
+                    "id": "a1550471860191",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550471877066",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826665,
+              "key": "ce8a9cfc-f786-4935-b2b2-845ab1945cc4",
+              "title": "Free Answer",
+              "semantic_type": "ReflectAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ce8a9cfc-f786-4935-b2b2-845ab1945cc4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "title": null,
+                "semantic_type": "TextQuestion",
+                "evaluation_id": null,
+                "text": "Free Answer: What is the difference between a visitor, and a visit? \n"
+              },
+              "answer": {
+                "text": "A visit is one person arriving, whereas as a page view is every time a page loads.\n",
+                "video": null
+              }
+            },
+            {
+              "id": 826666,
+              "key": "82c4077a-c516-4104-8cf7-31e5de0212a7",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "82c4077a-c516-4104-8cf7-31e5de0212a7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "In order to know if metrics are normal or abnormal they must be: \n",
+                "answers": [
+                  {
+                    "id": "a1550471929050",
+                    "text": "Isolated",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471941476",
+                    "text": "Compared",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550471949982",
+                    "text": "Improved",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471956005",
+                    "text": "Conditional",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826667,
+              "key": "1bb2687c-6ffc-42be-bc37-10eb177f571a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1bb2687c-6ffc-42be-bc37-10eb177f571a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How do we compare metrics?\n",
+                "answers": [
+                  {
+                    "id": "a1550471976593",
+                    "text": "Put the two data points next to one another",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471992564",
+                    "text": "Take the difference between the two data points, divided by the # of data points",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550471998272",
+                    "text": "Look at change & context over a time period",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472012164",
+                    "text": "By knowing what “feels” right because we are familiar with the data ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826668,
+              "key": "688abce3-6a21-48ef-ac37-420b0a9cbee2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "688abce3-6a21-48ef-ac37-420b0a9cbee2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "The key takeaway for analyzing metrics is:\n",
+                "answers": [
+                  {
+                    "id": "a1550472031000",
+                    "text": "We want the metrics to be isolated & compared",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472049306",
+                    "text": "We want the metrics to be accurate & compared",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472054497",
+                    "text": "We want the metrics to be correlated & distinct",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472062689",
+                    "text": "We want the metrics to be distinct & accurate",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826118,
+          "key": "144d4945-b9df-4210-b117-766f1571ee87",
+          "title": "Questions to Answer",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "144d4945-b9df-4210-b117-766f1571ee87",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827350,
+              "key": "1716450a-b892-4edb-b5b6-80bb13ad2639",
+              "title": "MA01 07 QUESTIONS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rEy1TdJ4Zd8",
+                "china_cdn_id": "rEy1TdJ4Zd8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826119,
+          "key": "a4ce3d07-abd9-41fe-a21c-642454a16384",
+          "title": "Quiz: Questions to Answer",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a4ce3d07-abd9-41fe-a21c-642454a16384",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826670,
+              "key": "540ad995-dc10-4829-a49b-6a08479187b7",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "540ad995-dc10-4829-a49b-6a08479187b7",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these are part of the 5 questions we ask when starting an analysis?\n**(Select all that apply)**",
+                "answers": [
+                  {
+                    "id": "a1550472158588",
+                    "text": "What happened?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472191104",
+                    "text": "What is the deadline?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472197585",
+                    "text": "Where am I collecting my data?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472204107",
+                    "text": "Are these results good?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472211812",
+                    "text": "Who is our customer?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472217627",
+                    "text": "Where is our customer coming from? ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472225245",
+                    "text": "Why did it happen?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472232773",
+                    "text": "What’s happening now?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472240084",
+                    "text": "How was this data collected?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472246931",
+                    "text": "Who will read this report?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472253511",
+                    "text": "Why are we working on this project? ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472260024",
+                    "text": "What’s going to happen in the future? ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472267628",
+                    "text": "How do we make this happen again?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472274504",
+                    "text": "How do we prevent this from happening?",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826120,
+          "key": "6b3dd87b-e4bf-43e6-b729-319a9bb0d372",
+          "title": "Common Questions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6b3dd87b-e4bf-43e6-b729-319a9bb0d372",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827032,
+              "key": "883cf910-4258-4bf6-9fb8-42666e14ccf9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Marketing Managers and Marketing Analysts get asked a variety of questions, some more specific than others. Here’s some of the most common questions you’ll be expected to answer when you’re part of a marketing initiative. \n\n**Who is buying your products?**\n\nWhat kind of a person is your typical consumer? There are different ways we can qualify this person and quantify how many there are of each type: ie, how many customers are within a certain age range or of a particular gender? How much money do they have? You can choose to, for example, only target customers who are above a certain financial bracket, but it is important to make this a conscious decision. \n\n**Who is not buying your products?**\n\nThis is one that may not be so obvious but when you think about it, it makes sense! Perhaps some in this group may never buy your product, but it’s those consumers in that grey area who could buy your product who might just boost your sales. \n\n**What is the behavior like of your typical consumer?**\n\nFor example, if you have an online shopping business, it may be useful to know what percentage of customers research the products, or look at customer reviews, or compare prices with your competitors. Understanding the way the buyer behaves can help you understand why they choose to buy a product or not. \n\n**What are customers not getting enough of from your product?**\n\nCollect information about what improvements should be made to your products, or what types of products to order more of, to better serve consumer demand. You can do so by pulling trends from online reviews, conducted surveys, online forums etc., but the main point is to find out what would increase customer satisfaction, which will ultimately increase sales. Trending complaints analysis is a good place to start!\n\n**What is the demand for your product?**\n\nYou should be able to determine an estimate of how many of each of your products you will be able to sell in a given time period. These analytics can be based off of old data on how many products have been sold, as well as current data from other companies with similar products. A time series analysis can offer extra insight here.\n\n**Who else is selling your products?**\n\nGet to know your competitors. What are their prices for similar products? What are their strengths and weaknesses considering both the product itself, and their marketing techniques? What do consumers say about your competitors and how they compare to you?\n\n\n**How much money can your products go for?**\n\nTo maximize on your revenue, it’s a no-brainer that you should determine how much money your customers are willing to spend on your products. Using data analytics is a much smarter way come up with price points for particular items or services. \n\n**Where should you sell your products?**\n\nThis can be quite a literal question, as in a store or any business housed in a physical place. Or we can use a looser interpretation, for online businesses, and consider which digital mediums are used. In the latter case, it may be easier to “move” the business if data analysis indicates other avenues are more viable. \n\n**How should you market your products/business?**\n\nThis question gets at the actual “marketing” strategies, like advertising and ways of getting your business known. Who should be your target audience and through which mediums can you best reach them? How can you adapt your campaign to influence your consumer most effectively?\n\n**What are current trends in my business sector?**\n\nThis question is important as it looks at external factors to your specific business. Looking at the broader industry-wide trends can better help you understand and predict consumer behavior. You can also more accurately measure your performance in comparison to your competitors.\n\n**What current economic factors affect your business?**\n\nHere is another question targeting external trends and conditions. For example, if there has been a recent market crash, people may be less likely to buy what they would consider luxury items. We can quantify how many consumers would be, how many consider your products to be luxury items, if your target consumer is less affected by the market crash... etc. \n\n**Who should you employ to be a part of your business?**\n\nMany factors go into this question, such as determining the skill-set of your workers, how rare or valuable they are, where else these kinds of people are hired, how much you need to pay them... etc. How would a different kind of employee affect the success of your business?\n\n**What other businesses will you work with?**\n\nWho will be your manufactures or suppliers? How much will their quality affect your sales? For example, if your target consumer is a “millennial” or somehow a conscientious shopper, you may not want to supply from companies that source from child sweatshops. You can research trends in the supplier’s track record.\n\n**What are people saying about your business/products on social media?**\n\nThese days social media is a key influencer on your business. People express their likes/dislikes, and it is a main avenue for advertising. Collect information on consumers’ perceptions of your products, their needs, and how your marketing strategy can shift their general attitude. Sentiment analysis is a great tool for this. \n\n**What are some future trends that you can predict about your sales?**\n\nThe best analysts need to think ahead! Information gained from the above questions can inform the predictive data generated for this question. For example, data on consumer behavior can be used to predict how likely customers are to buy a certain product or how much they are willing to spend. \n\n**Make an infographic or chart** \n\nMarketing analysts might be asked to make infographics to present their data findings and analysis in a clear way which organizes the trends and information gathered. When presenting trends to management visualization of the data is most effective.\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826121,
+          "key": "43625e65-a666-4a60-968d-13736a78c0f9",
+          "title": "Common Metrics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "43625e65-a666-4a60-968d-13736a78c0f9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827031,
+              "key": "3d938c3f-2b6d-4820-854c-b142309c771f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "The following is a list of the most popular and common terms and definitions a marketing manager or marketing analyst may come across. \n\n**A/B Testing**\n\nAn ad optimization strategy that compares the performance of multiple variations of a single ad. Some important variants to test are:\n\n**Attribution models**\n\n* First-click: assigns 100% of the conversion value to the click that initiates a conversion path.\n\n* Last-click: assigns 100% of the conversion value to the final click immediately preceding a sale or conversion event.\n\n**Bid**\n\nHow much you're willing to pay for a certain campaign engagement.\n\n**Bounce Rate**\n\nThe rate of visitors to your website that leaves without visiting more than one page of your site.\n\n**Call to Action**\n\nA word or phrase to promote an immediate response from your customers.\n\n**Click**\n\nThe act of clicking your ad. A click most often leads to a visit.\n\n**Click Through Rate (CTR)**\n \nThe percent of people that click on your ad after viewing it. The formula to determine your CTR is the total number of clicks divided by the total number of impressions.\n\n**Conversion**\n\nThe action of your customer taking the desired action as a result of your marketing/advertising. \n\n**Conversion Rate**\n\nThe average number of conversions you will see in relation to clicks or visits. \n\n\n\n\n\n\n**Cost per:**\n* Acquisition (CPA): Total spend divided by the number of new customer acquisitions.\n* Click (CPC): Total spend divided by total number of clicks.\n* Install (CPI): Total spend divided by the number of app installs.\n* Follow (CPF): Total spend divided by number of new followers.\n* Engagement (CPE): Total spend divided by total engagements \n\n**Click Through rate (CTR)**\n\nTotal click divided by impressions.\n\n**Cost-per-thousand Impressions (CPM)**\n\nThe price you pay Google every time your Display ad sees 1,000 impressions.\n\n**Cost-per-view (CPV)**\n\nThe price you pay Google every time someone views one of your video ads.\n\n**Frequency**\n\nThe average number of times a unique user sees your ad over a given time period.\n\n**Impressions**\n\nHow many times your ad was visible to a user\n\n**Lifetime Value (LTV)**\n\nCustomer lifetime value (CLV) (or often CLTV), lifetime customer value (LCV), or lifetime value (LTV) is a prediction of the net profit attributed to the entire future relationship with a customer; How much is a customer worth over time\n\n**Open Rate**\n\nThe percent of total or unique opens divided by emails sent or emails received\n\n**PPC**\n\nPay per click \n\n**Return on Investment (ROI)**\n\nThe total profit made relative to your spend.\n(Revenue – Cost of goods sold) / Cost of goods sold\n\n**Views**\n\nNumber of times people watched or engaged with your video.\n\n**Visitors**\n\nPeople that came to the site and stayed for a specific amount of time\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826122,
+          "key": "ef56ccee-e18d-4bb5-a837-f58c00bf998e",
+          "title": "Quiz: Common Metrics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ef56ccee-e18d-4bb5-a837-f58c00bf998e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826671,
+              "key": "77a06787-f743-4375-9dcb-fb0ea892f338",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "77a06787-f743-4375-9dcb-fb0ea892f338",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does CTR stand for?\n",
+                "answers": [
+                  {
+                    "id": "a1550472488556",
+                    "text": "Cost Transfer Rate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472500728",
+                    "text": "Conversion Tracking Rate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472506507",
+                    "text": "Customer Transfer Rate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472512408",
+                    "text": "Click Through Rate",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826672,
+              "key": "da5298de-0b9e-45d9-a6ef-e5629b3b4a80",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "da5298de-0b9e-45d9-a6ef-e5629b3b4a80",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How is CTR calculated?",
+                "answers": [
+                  {
+                    "id": "a1550472533408",
+                    "text": "`# of conversions divided by the # of customers`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472547403",
+                    "text": "`# of clicks divided by the # of impressions`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472555027",
+                    "text": "`# of transfers divided by the cost`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472562270",
+                    "text": "`# of impressions divided by the # of customers`",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826673,
+              "key": "694ba4a8-1a71-407e-9808-f8ede0a6284c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "694ba4a8-1a71-407e-9808-f8ede0a6284c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What is a conversion?",
+                "answers": [
+                  {
+                    "id": "a1550472650322",
+                    "text": "When a customer abandons the cart",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472665450",
+                    "text": "When a visitor takes the desired action of your marketing objective",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472672471",
+                    "text": "When a visitor receives a remarketing advertisement",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472682013",
+                    "text": "When a visitor clicks on the advertisement ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826674,
+              "key": "7753134c-47a8-4c9f-bee6-0183944d8246",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7753134c-47a8-4c9f-bee6-0183944d8246",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "How is the conversion rate calculated?\n",
+                "answers": [
+                  {
+                    "id": "a1550472704051",
+                    "text": "`# of visitors divided by # who took the desired action`",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472716126",
+                    "text": "`# of clicks divided by the # of subscribers`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472724591",
+                    "text": "`# of visitors multiplied by the # who took the desired action`",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472732490",
+                    "text": "`# of clicks multiplied by the # of subscribers`",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826675,
+              "key": "7807037d-2efc-4262-8151-c1619ed14998",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "7807037d-2efc-4262-8151-c1619ed14998",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does CPM mean? \n",
+                "answers": [
+                  {
+                    "id": "a1550472766559",
+                    "text": "Cost per million people reached",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472774560",
+                    "text": "Conversions per million people reached",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472780737",
+                    "text": "Cost per thousand people reached ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472791329",
+                    "text": "Conversions per thousand people reached",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826676,
+              "key": "07ca618a-e4e6-4f74-93ba-93d41d940cd9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "07ca618a-e4e6-4f74-93ba-93d41d940cd9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does CAC or CPA stand for?",
+                "answers": [
+                  {
+                    "id": "a1550472810633",
+                    "text": "The cost to acquire a customer ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472823751",
+                    "text": "The cost to buy an ad unit",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472829375",
+                    "text": "The cost per customer segment",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472836102",
+                    "text": "The cost to retain a customer",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826678,
+              "key": "1c7ed26d-7ba0-44e9-a8ea-59277cbbe16d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1c7ed26d-7ba0-44e9-a8ea-59277cbbe16d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does LTV or CLV stand for?\n",
+                "answers": [
+                  {
+                    "id": "a1550472858356",
+                    "text": "Limited target viability ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472873082",
+                    "text": "Customer target viability ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472878327",
+                    "text": "Customer lifetime value ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472885461",
+                    "text": "Lifetime limited value ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826679,
+              "key": "3efcf833-8109-4bc5-ab33-e2ba625d3d75",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3efcf833-8109-4bc5-ab33-e2ba625d3d75",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does ROI mean?\n",
+                "answers": [
+                  {
+                    "id": "a1550472904577",
+                    "text": "Return on Investment",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550472916623",
+                    "text": "Return on Impression",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472922486",
+                    "text": "Refund over Investment",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472927854",
+                    "text": "Refund over Impression",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826680,
+              "key": "660e7dc3-faba-41c0-862b-be721688f5a8",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "660e7dc3-faba-41c0-862b-be721688f5a8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What metric (or type of metric) would be associated with a social media post?",
+                "answers": [
+                  {
+                    "id": "a1550472954277",
+                    "text": "Bounce Rate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472960886",
+                    "text": "View Length",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472966340",
+                    "text": "VOC ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550472971061",
+                    "text": "Engagement",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826681,
+              "key": "2e6a57ba-b1b4-4170-bbad-2597cfe92c0d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2e6a57ba-b1b4-4170-bbad-2597cfe92c0d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** A referral is when a user clicks to your website from another source on the web. \n",
+                "answers": [
+                  {
+                    "id": "a1550472988772",
+                    "text": "True ",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473012450",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826682,
+              "key": "f29d74de-913d-46ca-ab96-1d294471099f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f29d74de-913d-46ca-ab96-1d294471099f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)** A session is when a visitor performs a search on your website.",
+                "answers": [
+                  {
+                    "id": "a1550473036563",
+                    "text": "True ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473055762",
+                    "text": "False",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826123,
+          "key": "29495f19-afdb-4083-9f00-3dd388500bff",
+          "title": "Business Goals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "29495f19-afdb-4083-9f00-3dd388500bff",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827351,
+              "key": "4b4032f6-832c-4962-84f5-10998449d54f",
+              "title": "MA01 08 BUSINESS GOALS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2lZiSjEJuPg",
+                "china_cdn_id": "2lZiSjEJuPg.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826124,
+          "key": "faf1f72e-af24-4a38-a104-1f26c4e3a5d6",
+          "title": "Quiz: Business Goals",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "faf1f72e-af24-4a38-a104-1f26c4e3a5d6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826683,
+              "key": "ebfe43f9-b505-4c52-8907-8806ad9e2cac",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ebfe43f9-b505-4c52-8907-8806ad9e2cac",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** All business objectives should follow the` _________ `goal format:\n",
+                "answers": [
+                  {
+                    "id": "a1550473123148",
+                    "text": "TARGET",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473154238",
+                    "text": "SMART",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473160479",
+                    "text": "BOLD",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473166584",
+                    "text": "ARROW",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826684,
+              "key": "554c71f2-0ad5-48ff-9e38-6edc2ffee34f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "554c71f2-0ad5-48ff-9e38-6edc2ffee34f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** All business objectives must be `_________:`\n",
+                "answers": [
+                  {
+                    "id": "a1550473189723",
+                    "text": "Metrics",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473224381",
+                    "text": "Bold",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473230130",
+                    "text": "Measurable",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473235964",
+                    "text": "Responsible",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826685,
+              "key": "62540da4-423a-48b4-9ffa-327489aa61d2",
+              "title": "",
+              "semantic_type": "CheckboxQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "62540da4-423a-48b4-9ffa-327489aa61d2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following are well-formed business objectives?\n **(Select all that apply)**",
+                "answers": [
+                  {
+                    "id": "a1550473262910",
+                    "text": "Generate more revenue ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473292787",
+                    "text": "Secure 20 sales by end of Q1",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473300440",
+                    "text": "Improve sales by end of the year",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473306042",
+                    "text": "Generate $50,000 in revenue by Q2",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473312809",
+                    "text": "Increase the visibility of the blog",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473318770",
+                    "text": "Generate 5,000 referral visitors in May",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473325917",
+                    "text": "Decrease the abandonment rate",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473333754",
+                    "text": "Send better e-mails",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473338832",
+                    "text": "By Q3, Reduce churn by 10%",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826686,
+              "key": "542bf809-c451-4f40-9535-1e7dd8ca4d44",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "542bf809-c451-4f40-9535-1e7dd8ca4d44",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(True or False)**: Business goals should be time-bound \n",
+                "answers": [
+                  {
+                    "id": "a1550473366987",
+                    "text": "True",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473386437",
+                    "text": "False",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826125,
+          "key": "6366ce34-3e71-4fff-9278-09962dda540a",
+          "title": "Frameworks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "6366ce34-3e71-4fff-9278-09962dda540a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827353,
+              "key": "fdc2253a-8059-4358-86d4-c2cd9b9b7ea4",
+              "title": "MA01 09 FRAMEWORKS",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "z5eIq4xcCLk",
+                "china_cdn_id": "z5eIq4xcCLk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826126,
+          "key": "a1c20c71-18f1-4eca-9767-b72f01237239",
+          "title": "Quiz: Frameworks",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a1c20c71-18f1-4eca-9767-b72f01237239",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826687,
+              "key": "6e29f732-60a0-425b-8344-8df534f7f6f8",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6e29f732-60a0-425b-8344-8df534f7f6f8",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of the following is an example of a measurement framework:\n\n",
+                "answers": [
+                  {
+                    "id": "a1550473470745",
+                    "text": "ARROW Performance Processes",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473479508",
+                    "text": "Objective & Key Results (OKR)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473485003",
+                    "text": "START Objectives",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473492639",
+                    "text": "Key Performance Responses (KPRs)",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826688,
+              "key": "ece1b31a-8dae-4316-816c-9e258a751a88",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ece1b31a-8dae-4316-816c-9e258a751a88",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What does KPI stand for? ",
+                "answers": [
+                  {
+                    "id": "a1550473514068",
+                    "text": "Key performance indicator",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473524542",
+                    "text": "Key performance initiative",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473530266",
+                    "text": "Key performance investigation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473536068",
+                    "text": "Key performance input ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826689,
+              "key": "30b8ef14-c34d-4413-b7e9-0b4f960d9d4e",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "30b8ef14-c34d-4413-b7e9-0b4f960d9d4e",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** We use frameworks to make sure that what we measure and report on is` ___________ `and that we are working on a `___________ `vision for what we want to achieve.\n",
+                "answers": [
+                  {
+                    "id": "a1550473557739",
+                    "text": "Interesting, smart",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473593809",
+                    "text": "Debated, diverse",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473599707",
+                    "text": "Meaningful, shared",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473608145",
+                    "text": "Accurate, polarized",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826127,
+          "key": "4b655ab5-b0ed-4b43-bdcf-c1128150efcf",
+          "title": "The Marketing Funnel",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "4b655ab5-b0ed-4b43-bdcf-c1128150efcf",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827071,
+              "key": "783ed9e4-78b2-49ec-8f17-96e97713304b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "We talk about funnel’s all the time in Marketing — purchase funnels, sales funnels, and inbound funnels. call it what you want, but they’re all ultimately describing the same concept. \n\nA funnel, is really just a way to represent the customer’s journey as they move towards the purchase of your product or service. \n\nAt the top, or the widest point of the funnel is where a buyer starts their journey, and the bottom, the narrowest part, is where they complete it. Our goal as marketers, is to 'funnel' prospects into buyers — moving them from the top, to the bottom of the funnel. \n\nThe shape reflects the fact that a large number of people will never complete the journey through the funnel. You’ll expose your product or service to a lot of people at the top of the funnel, but only a small fraction will actually convert.\n\nNow, it obviously gets a little more involved than this. But before we take a closer look at the funnel let’s talk about how we’ve arrived at this concept. \n\nIt’s not a new idea at all, in fact this started in 1898 when Elias St. Elmo Lewis created a model that outlined the steps within a customer’s journey. Elias was a writer, agency owner, and advertising hall-of-famer…so he had plenty of experience in this area.\n\nHe created what’s known as the AIDA Model, which is an acronym for Awareness, Interest, Desire, and Action. Since then, we’ve added Advocacy on as an additional stage. \n\nThese are the fundamental stages of a consumer’s journey. The idea proposes that marketing efforts must focus on moving the consumer through these steps sequentially — the more you understand the steps, the more effective your marketing strategies are.\n\n**Awareness**\n\n**Interest**\n\n**Desire**\n\n**Action**\n\n**Post Action/ Advocacy** \n\nAt the top, is Awareness. A prospect has to become aware of two things — their problem, and your solution. It’s in this stage that your brand is exposed to the prospect alongside competitors.\n\nBelow Awareness, we have Interest. At this stage, a consumer begins to explore the products or services available to them. \n\nNext, comes Desire — which we can also call consideration. It’s here that the prospect wants to make a purchase…but it may or may not be with your brand. They’re in the final stages of evaluating whether or not to commit. \n\nAction: They’re either going to buy or not. They may select your company, another company, or based on their findings decide they’re not making a purchase at all. \n\nAdvocacy: It’s unwise to think that just because the user has completed the sale, that their journey is over. After-the-sale is an incredibly important aspect of marketing, so it’s important the funnel reflects the notion that a customer can choose whether to purchase again, or if they’ll recommend your product to others.\n\nNow, this is the foundational funnel. We often reference these different segments as Top of the Funnel, Middle of the Funnel, and Bottom of the Funnel.\n\nThe top is awareness, the middle is evaluation, and the bottom is conversion.\n\nThis visualization of the funnel became a powerful tool in understanding the process by which your prospects become customers. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826128,
+          "key": "1dc28fa7-70c1-4355-8228-e1a6ebf87ac6",
+          "title": "Metrics by Channel",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1dc28fa7-70c1-4355-8228-e1a6ebf87ac6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827354,
+              "key": "58893dd6-8c49-479e-9e8a-95f9e87618b5",
+              "title": "MA01 10 METRICS BY CHANNEL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "I6b9kv0Kwms",
+                "china_cdn_id": "I6b9kv0Kwms.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826129,
+          "key": "88417220-9340-425c-a87c-dd702402ab07",
+          "title": "Quiz: Metrics by Channel",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "88417220-9340-425c-a87c-dd702402ab07",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826690,
+              "key": "87843b8a-ce08-4ddf-878d-07eb6a2880e2",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "87843b8a-ce08-4ddf-878d-07eb6a2880e2",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What are the 3 primary marketing channels?\n",
+                "answers": [
+                  {
+                    "id": "a1550473668717",
+                    "text": "Paid, owned, earned",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473682281",
+                    "text": "Social, digital, offline",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473687895",
+                    "text": "Primary, secondary, tertiary ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473693384",
+                    "text": "Platform, press, public ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826691,
+              "key": "43bf5758-05cc-4f5b-aa3d-7e52cdb6979b",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "43bf5758-05cc-4f5b-aa3d-7e52cdb6979b",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** The` _________` channel refers to any media that you exchange money for.\n",
+                "answers": [
+                  {
+                    "id": "a1550473714105",
+                    "text": "Primary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473746997",
+                    "text": "Paid",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473755520",
+                    "text": "Earned",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473760767",
+                    "text": "Public",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826692,
+              "key": "94b98c67-bc51-402a-a2b5-3c930a45802a",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "94b98c67-bc51-402a-a2b5-3c930a45802a",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** The` _________` channel refers to mentions on social media, and articles written about you.",
+                "answers": [
+                  {
+                    "id": "a1550473782859",
+                    "text": "Tertiary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473812632",
+                    "text": "Social",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473817876",
+                    "text": "Press",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473823607",
+                    "text": "Earned ",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826693,
+              "key": "20106aaa-d8f5-4b65-a6db-4cca8e5a8114",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "20106aaa-d8f5-4b65-a6db-4cca8e5a8114",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** The `_________ `channel refers to areas like your website, your blog, or your e-mail.\n",
+                "answers": [
+                  {
+                    "id": "a1550473845039",
+                    "text": "Digital",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473872349",
+                    "text": "Owned",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550473879474",
+                    "text": "Secondary",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550473888901",
+                    "text": "Platform",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826130,
+          "key": "3317a67f-bf4f-480d-a597-c959631a8f11",
+          "title": "Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3317a67f-bf4f-480d-a597-c959631a8f11",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827356,
+              "key": "ef71744a-775c-4a4a-8e2c-e3b08bd8cce4",
+              "title": "MA01 11 FIRST RECAP",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "dAYaHS70i_g",
+                "china_cdn_id": "dAYaHS70i_g.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826131,
+          "key": "8b8f60ed-c0c4-4b8f-8366-2801f8113b62",
+          "title": "Experimentation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "8b8f60ed-c0c4-4b8f-8366-2801f8113b62",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827357,
+              "key": "3ceb5584-6239-4d5e-94b6-569aa8440093",
+              "title": "MA01 12 EXPERIMENT V02",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "D7DIN6MA7l0",
+                "china_cdn_id": "D7DIN6MA7l0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826132,
+          "key": "54bb3aa7-91b3-470c-916d-d19d833566ec",
+          "title": "Always Think Actionably",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54bb3aa7-91b3-470c-916d-d19d833566ec",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827358,
+              "key": "36724199-80d1-4a08-88fb-87598137fde9",
+              "title": "MA01 13 ACTION",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "ewJclNlMbkE",
+                "china_cdn_id": "ewJclNlMbkE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826133,
+          "key": "ebce4984-1942-4144-b03f-43193cbf25a6",
+          "title": "Quiz: Always Think Actionably",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ebce4984-1942-4144-b03f-43193cbf25a6",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826694,
+              "key": "f1c5ecf4-06c8-40b0-b9f4-f99383afea39",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "f1c5ecf4-06c8-40b0-b9f4-f99383afea39",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** `__________` are how you share your findings and socialize the recommendations.\n",
+                "answers": [
+                  {
+                    "id": "a1550473985518",
+                    "text": "Trends",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474012200",
+                    "text": "Analytics",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474018021",
+                    "text": "Measurements",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474023649",
+                    "text": "Reports",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826695,
+              "key": "eef763aa-4ef4-4a00-aa62-c9cef4cc0d8d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "eef763aa-4ef4-4a00-aa62-c9cef4cc0d8d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "When creating slides, the first slide should contain:",
+                "answers": [
+                  {
+                    "id": "a1550474048901",
+                    "text": "Overview",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550474056246",
+                    "text": "Methodology",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474062168",
+                    "text": "Recommendation",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474067255",
+                    "text": "Data Table",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826696,
+              "key": "91636242-ccb5-4bdd-9ef5-6fffb4f6d16f",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "91636242-ccb5-4bdd-9ef5-6fffb4f6d16f",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** It’s important to include the `______________` when preparing documents for executives.",
+                "answers": [
+                  {
+                    "id": "a1550474098926",
+                    "text": "Complete list of data",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474119845",
+                    "text": "Project scope",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550474126676",
+                    "text": "List of everyone on the team",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474132652",
+                    "text": "Most recent sales data",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826697,
+              "key": "10d9c27f-48ff-43a2-8faf-87e68e1a50ea",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "10d9c27f-48ff-43a2-8faf-87e68e1a50ea",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What should be included in your methodology section?\n",
+                "answers": [
+                  {
+                    "id": "a1550474154633",
+                    "text": "What was the desired outcome?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474162746",
+                    "text": "What is the goal?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474168802",
+                    "text": "How much data was collected and from where?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550474175315",
+                    "text": "What should happen?",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826698,
+              "key": "2b5408d2-a28e-400b-b3e2-6af2da625db1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2b5408d2-a28e-400b-b3e2-6af2da625db1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What should be included in your hypothesis section?",
+                "answers": [
+                  {
+                    "id": "a1550474196835",
+                    "text": "What was the desired outcome?",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550474209438",
+                    "text": "What is the goal?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474215257",
+                    "text": "How much data was collected and from where?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474240228",
+                    "text": "What should happen?",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 826699,
+              "key": "1127eced-edfe-4742-8400-3aa01fb04bfc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "1127eced-edfe-4742-8400-3aa01fb04bfc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What should be included in your recommendations section?\n",
+                "answers": [
+                  {
+                    "id": "a1550474259428",
+                    "text": "What was the desired outcome?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474272401",
+                    "text": "What is the goal?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474277833",
+                    "text": "How much data was collected and from where?",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550474283958",
+                    "text": "What should happen?",
+                    "is_correct": true
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826134,
+          "key": "75c42e69-f2c5-4554-9195-a6f7c6f27013",
+          "title": "In Practice",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "75c42e69-f2c5-4554-9195-a6f7c6f27013",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827359,
+              "key": "a1449b6d-d499-46db-93fb-797eeeebaaa2",
+              "title": "MA01 14 PRACTICE",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "qlxmYfynlic",
+                "china_cdn_id": "qlxmYfynlic.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 827360,
+          "key": "ff382234-5e4a-4f51-b08c-c6f07fb16fa9",
+          "title": "Value of Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ff382234-5e4a-4f51-b08c-c6f07fb16fa9",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827361,
+              "key": "1432e78e-1ad2-4040-baee-557dc7b5d217",
+              "title": "MA01 15 VALUES",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "QJvUs0e9jB8",
+                "china_cdn_id": "QJvUs0e9jB8.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826135,
+          "key": "05f86b4a-ae89-4a88-8587-7fea16f4e963",
+          "title": "Quiz: Values of Analytics",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "05f86b4a-ae89-4a88-8587-7fea16f4e963",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827077,
+              "key": "e4e9b835-4069-4867-ab70-5a2a913760bb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e4e9b835-4069-4867-ab70-5a2a913760bb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Every marketing initiative will begin with your `__________` metrics. ",
+                "answers": [
+                  {
+                    "id": "a1550559458129",
+                    "text": "Success \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559494738",
+                    "text": "Repeatable \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559498643",
+                    "text": "Conversion \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559502452",
+                    "text": "Data ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827078,
+              "key": "ca9f7fe4-19f4-4067-b920-5bb4d3192eab",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ca9f7fe4-19f4-4067-b920-5bb4d3192eab",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Do not use or report metrics based on __________ or incomplete data.",
+                "answers": [
+                  {
+                    "id": "a1550559519148",
+                    "text": "Positive ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559547809",
+                    "text": "Inaccurate \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559552505",
+                    "text": "Performance \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559556985",
+                    "text": "Absolute",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827080,
+              "key": "24aba101-0960-4be9-ba7d-569a6e4ae92c",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "24aba101-0960-4be9-ba7d-569a6e4ae92c",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Don’t use `_______` metrics just look busy or because someone likes to see marketing numbers.",
+                "answers": [
+                  {
+                    "id": "a1550559736851",
+                    "text": "A/B \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559757975",
+                    "text": "Site \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559761401",
+                    "text": "Challenged \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559764766",
+                    "text": "Vanity",
+                    "is_correct": true
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827081,
+              "key": "93d6655d-1c87-44d2-a530-477362c2cabb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "93d6655d-1c87-44d2-a530-477362c2cabb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Everyone has an opinion, but `______` are the judge of results or success.",
+                "answers": [
+                  {
+                    "id": "a1550559779839",
+                    "text": "Executives \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559795379",
+                    "text": "Stakeholders ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559798857",
+                    "text": "Metrics \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559803806",
+                    "text": "You",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827082,
+              "key": "88115a89-5921-4629-82db-e6c190590cfc",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "88115a89-5921-4629-82db-e6c190590cfc",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** When the analytics output conflicts with your `______`, choose the analytics.",
+                "answers": [
+                  {
+                    "id": "a1550559823344",
+                    "text": "Beliefs \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559834063",
+                    "text": "Manager \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559837468",
+                    "text": "Performance ",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559841898",
+                    "text": "Behavior",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827083,
+              "key": "a5beb75b-61b4-4b00-9a7f-2db07847366d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a5beb75b-61b4-4b00-9a7f-2db07847366d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** When the analytics reveal `_______` results, take credit.",
+                "answers": [
+                  {
+                    "id": "a1550559870205",
+                    "text": "Good \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559882720",
+                    "text": "Bad \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559886134",
+                    "text": "Any \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559889903",
+                    "text": "Conversion",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827084,
+              "key": "3fe9a8ee-605e-42db-9796-62b27a801ceb",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "3fe9a8ee-605e-42db-9796-62b27a801ceb",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** When the analytics reveal poor results, take `_________`.",
+                "answers": [
+                  {
+                    "id": "a1550559906679",
+                    "text": " A break \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559927010",
+                    "text": "Responsibility \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559930944",
+                    "text": "New measurements \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559935447",
+                    "text": "Over",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827085,
+              "key": "c8efba62-4969-426f-b806-a7a5735546e4",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "c8efba62-4969-426f-b806-a7a5735546e4",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Don’t use the output of the analytics process punitively, only to `________`.",
+                "answers": [
+                  {
+                    "id": "a1550559950851",
+                    "text": "Stall \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559968770",
+                    "text": "Sell \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550559974494",
+                    "text": "Improve  \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550559978278",
+                    "text": "Improvise ",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827086,
+              "key": "a962d3b9-e534-40f3-bb0f-3a5562a55848",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a962d3b9-e534-40f3-bb0f-3a5562a55848",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Analytics don’t make the` _________`, they will inform the `________` we ultimately make.",
+                "answers": [
+                  {
+                    "id": "a1550559995137",
+                    "text": "Decisions, decisions \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550560013073",
+                    "text": "Team, team  \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550560017168",
+                    "text": "Sales, team \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550560020739",
+                    "text": "Decisions, sales",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 827087,
+              "key": "e8c0bec4-768b-43f9-ae40-7a2cddf71ea1",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e8c0bec4-768b-43f9-ae40-7a2cddf71ea1",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "**(Fill in the blank)** Every marketing initiative will end by` ___________` the data. ",
+                "answers": [
+                  {
+                    "id": "a1550560046373",
+                    "text": " Deleting \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550560057489",
+                    "text": "Reviewing \t",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1550560061145",
+                    "text": "Updating \t",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1550560064572",
+                    "text": "Promoting",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 826136,
+          "key": "23d5a64d-a5bd-4e2c-b465-e2025f272435",
+          "title": "Lesson Recap",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "23d5a64d-a5bd-4e2c-b465-e2025f272435",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 827362,
+              "key": "4e9fc357-e68a-4555-a7fc-f1ef6190a0af",
+              "title": "MA01 16 RECAP",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "geQuYn0LV7E",
+                "china_cdn_id": "geQuYn0LV7E.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1492 @@
+{
+  "data": {
+    "lesson": {
+      "id": 826104,
+      "key": "e3fd0363-29f3-4882-9cbe-46a0bdacdc58",
+      "title": "Excel Modeling",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": {
+        "files": [
+          {
+            "name": "Videos Zip File",
+            "uri": "https://zips.udacity-data.com/e3fd0363-29f3-4882-9cbe-46a0bdacdc58/826104/1556073742354/Excel+Modeling+Videos.zip"
+          },
+          {
+            "name": "Transcripts Zip File",
+            "uri": "https://zips.udacity-data.com/e3fd0363-29f3-4882-9cbe-46a0bdacdc58/826104/1556073737480/Excel+Modeling+Subtitles.zip"
+          }
+        ],
+        "google_plus_link": null,
+        "career_resource_center_link": null,
+        "coaching_appointments_link": null,
+        "office_hours_link": null,
+        "aws_provisioning_link": null
+      },
+      "project": null,
+      "lab": null,
+      "concepts": [
+        {
+          "id": 817989,
+          "key": "78419060-1721-4fcd-af42-132dd8d70221",
+          "title": "Introduction",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "78419060-1721-4fcd-af42-132dd8d70221",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826273,
+              "key": "daac7e58-e9ea-4e23-a059-c038e524f7a1",
+              "title": "MAND L2 01 Lesson Structure FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "xWIkJPH9YTs",
+                "china_cdn_id": "xWIkJPH9YTs.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 817990,
+          "key": "54298a7f-f399-461d-85b9-3f72d0af92f8",
+          "title": "Lesson Structure",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "54298a7f-f399-461d-85b9-3f72d0af92f8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826274,
+              "key": "f2476aff-72a1-4550-8698-ef8e3fe157b1",
+              "title": "MAND L2 02 Lesson Structure FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "cj_ZSYc7-34",
+                "china_cdn_id": "cj_ZSYc7-34.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 782032,
+          "key": "09df68d0-e71b-4e91-8910-7b2669e396f5",
+          "title": "Introduction to Modeling",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "09df68d0-e71b-4e91-8910-7b2669e396f5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784288,
+              "key": "766d5036-bfce-4f7b-bf7f-8d06042e736f",
+              "title": "Intro To Modeling",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "R_-bsrdLje0",
+                "china_cdn_id": "R_-bsrdLje0.mp4"
+              }
+            },
+            {
+              "id": 796738,
+              "key": "44e91dd3-bd63-473a-9d48-ca13d93fdc2b",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Resources on Modeling Financial Statements\n\nWe recommend the following websites that layout considerations for making assumptions for financial forecasting. \n\n- [Modeling the 3 Financial Statements](http://www.streetofwalls.com/finance-training-courses/investment-banking-technical-training/three-statement-financial-modeling/)<br>\n- [Blog on forecasting taxes and interest rates](https://www.wallstreetprep.com/knowledge/income-statement-forecasting/). Scroll down to the bottom of the page  where it talks about interest income.<br>\n- [Forecasting Revenue and Growth](https://www.entrepreneur.com/article/76418)<br>\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 817998,
+          "key": "dc11d28e-5ebc-4f25-8bf0-47a6e32fdc74",
+          "title": "Top-Down Approach",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "dc11d28e-5ebc-4f25-8bf0-47a6e32fdc74",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826275,
+              "key": "b5ce7424-1035-40f4-836b-dc7d9791ba75",
+              "title": "MAND L2 04 Top Down Approach FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "k96vBsSk5DM",
+                "china_cdn_id": "k96vBsSk5DM.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 817999,
+          "key": "3f9ec303-d9e0-48f6-a352-711ac7dd06f5",
+          "title": "Bottom-Up Approach",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3f9ec303-d9e0-48f6-a352-711ac7dd06f5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826276,
+              "key": "4b1931a5-e903-489a-b810-4499a0f1dc21",
+              "title": "MAND L2 05 Bottom Up Approach FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HhGvrJr_liE",
+                "china_cdn_id": "HhGvrJr_liE.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 818000,
+          "key": "87a8cea2-ad58-4e80-bff7-6d5ae4a455e7",
+          "title": "Components of a Model",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "87a8cea2-ad58-4e80-bff7-6d5ae4a455e7",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826277,
+              "key": "69dcdd81-e2f9-4e09-a607-ab547ad8982c",
+              "title": "MAND L2 06 Components Of A Foreccast Model FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Fa6J3dc0Tb4",
+                "china_cdn_id": "Fa6J3dc0Tb4.mp4"
+              }
+            },
+            {
+              "id": 818004,
+              "key": "cf462c6d-293a-41f4-abee-f8ab355dce45",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Components of a Forecast Model\n\n1. ** Inputs or Drivers: ** These are the inputs that drive the output of the model. \n2. ** Outputs: ** This is the metric being forecasted within the model.",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826281,
+          "key": "954646db-9335-466e-9fc1-d47f144a0895",
+          "title": "Historical Data & Assumptions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "954646db-9335-466e-9fc1-d47f144a0895",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826284,
+              "key": "64297af8-02e7-42a4-b686-26c3e783b900",
+              "title": "MAND L2 08 Assumptions In Modeling FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "3R2bjhO7Fno",
+                "china_cdn_id": "3R2bjhO7Fno.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826282,
+          "key": "7c176719-7c94-4ff9-a39c-4114f8c01d17",
+          "title": "Calculating: Historical Data & Assumptions",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "7c176719-7c94-4ff9-a39c-4114f8c01d17",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826285,
+              "key": "164c9826-8ef7-4771-a028-9b78878004da",
+              "title": "Historical Data V1 (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "7ytZKO0ycbU",
+                "china_cdn_id": "7ytZKO0ycbU.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826283,
+          "key": "fc71df12-ee6d-42be-a79d-7c7329112235",
+          "title": "Recap: Historical Data ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fc71df12-ee6d-42be-a79d-7c7329112235",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826286,
+              "key": "cea7f2b0-aef2-4332-a7c5-63b0f80664df",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Historical Data\nHistorical data is about what your performance metrics show for the past. For sales, for example, we look at prior sales data from the previous year or months. For financial modeling, we look at prior financial statements, as well as quarterly and monthly results. Above we are using prior year data (e.g., Revenue, COGS) to get our operating income, which we then use to calculate the historical operating margin.\n\n## Formulas for Calculating Historical Financial Metrics\nTypically, the historical statistics or metrics used to forecast financial metrics in an Income Statement are:\n1.  Revenue Growth\n2. Gross Margin\n- Operating Margin\n- Historical Tax Rate\n- Historical Interest Expense Rate\n\nThe following list provides more information about calculating the historical statistics. <br>\n1. __ Revenue Growth (in %) = ((Current Year's Revenue / Previous year's revenue) - 1__\n2. __ Gross Margin = (1- (Current Year's Cost of COGS/ Current Year's Total Revenue))__<BR>\nKeep in mind the two terms COGS and Cost of Revenue can be used interchangeably.\n3. __ Operating Margin = Current Year's Operating Income / Current Year's Total Revenue__\n4. __ Historical Tax Rate__ is the tax rate from the companies previous year's tax rate.\n5. __ Historical Interest Rate__ is the interest rate coming from the previous year' s Debt Schedule.\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 826287,
+              "key": "204a07f9-ab3b-436d-a97d-b48252134025",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "### Additional Resources on Developing Assumptions\n\nWe recommend the following websites that layout considerations for making assumptions for financial forecasting. \n\n\n[Forecasting Revenue and Growth](https://www.entrepreneur.com/article/76418)<br>\n[Revenue Forecasting](https://www.fundera.com/blog/revenue-forecasting-2)\n\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826288,
+          "key": "fc0cb952-101c-44cc-83c0-e66aedf438b5",
+          "title": "Sales Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "fc0cb952-101c-44cc-83c0-e66aedf438b5",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826292,
+              "key": "139377da-8097-4be4-b824-fc2cdfc715b9",
+              "title": "MAND L2 09 Sales Forecasting Model FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Tm5oLjgZdFk",
+                "china_cdn_id": "Tm5oLjgZdFk.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826289,
+          "key": "b3f5bd72-f8fc-4d93-bafc-608778f955ed",
+          "title": "Bottom-Up Approach for Sale Forcasting ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b3f5bd72-f8fc-4d93-bafc-608778f955ed",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826293,
+              "key": "7d96bc33-1c4d-490e-a515-1d8a3cc9c01e",
+              "title": "Sales Bottomup Intro V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "VKIXb4iYymQ",
+                "china_cdn_id": "VKIXb4iYymQ.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826290,
+          "key": "3227cfa4-5513-4248-b524-fad81ea7014a",
+          "title": "Calculating: Bottom-Up Approach",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3227cfa4-5513-4248-b524-fad81ea7014a",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826294,
+              "key": "705529ec-f43c-40f7-91a6-9a383aa6bf6d",
+              "title": "Sales Bottom Up Example V1 (1)",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Bx_CjCMr-Dc",
+                "china_cdn_id": "Bx_CjCMr-Dc.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826291,
+          "key": "f389db4c-b832-4ce4-8b81-4e1c56f92917",
+          "title": "Recap: Bottom-Up Approach",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "f389db4c-b832-4ce4-8b81-4e1c56f92917",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826295,
+              "key": "c0d126dd-c21b-4ce0-9dec-f3193cc0ae9f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Assumptions and KPIs \n\nHere are the formulas used in the sales forecasting example described in the video above.\n\n- ** Contract Terms** = Number of months in the contract<br>\n- ** Price per Unit (by mon)** = Units needed in 1 month X Price per Unit<br>\n- ** Bookings Forecast** = Price per Unit X Contract Term (month) <br>\n- ** Closed/Won Probability** =  Probability of Closing the deal\t<br>\n- ** Weighted Bookings Forecast** = Bookings Forecast  * Closed/Won Probability\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 826296,
+              "key": "c3a3319a-1e5e-4361-b5b1-799b59eacb68",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Additional Resources on Sales Forecasting:\nAs described in the video, there are several different ways and goal of sales forecasting. The following websites provide more examples of sales forecasting.\n\n- [Sales Hacker - Forecasting Methods](https://www.saleshacker.com/sales-forecasting-methods/)<br>\n2. [Sales Hacker - Forecasting Metrics](https://www.saleshacker.com/sales-forecasting-101/)<br>\n3. [Insight Squared](https://www.insightsquared.com/2012/08/basic-sales-forecasting-methods/)<br>\n4. [Seismic: Improving sales productivity](https://seismic.com/company/blog/how-to-improve-sales-productivity-7-helpful-hints/)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826298,
+          "key": "47ba1c17-fea3-475f-998b-88bb49c52616",
+          "title": "Top-Down Sales Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "47ba1c17-fea3-475f-998b-88bb49c52616",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826300,
+              "key": "3cffdbeb-740f-4f2a-80af-3b4eb34a66eb",
+              "title": "Sales Top Down Intro V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "Gwr2SB6Q5WI",
+                "china_cdn_id": "Gwr2SB6Q5WI.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826299,
+          "key": "d295a30a-123d-40be-aad4-b1ff3ed1839b",
+          "title": "Calculating: Top-Down Sales Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d295a30a-123d-40be-aad4-b1ff3ed1839b",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826301,
+              "key": "6b3d53d0-69ed-47d8-8b22-9df3e5330af4",
+              "title": "Sales Topdown Example V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "HjBq9d3NQ24",
+                "china_cdn_id": "HjBq9d3NQ24.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 797223,
+          "key": "b57e7223-d3d7-4f0d-9fcf-31389fdee0aa",
+          "title": "Quiz: Top-Down Sales Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b57e7223-d3d7-4f0d-9fcf-31389fdee0aa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Practice Quiz SalesForecast TopDown Data CSVfile",
+                "uri": "https://video.udacity-data.com/topher/2018/December/5c194bf0_practice-quiz-salesforecast-topdown-data-csvfile/practice-quiz-salesforecast-topdown-data-csvfile.csv"
+              },
+              {
+                "name": "Practice Quiz SalesForecast TopDown Data",
+                "uri": "https://video.udacity-data.com/topher/2018/December/5c194c01_practice-quiz-salesforecast-topdown-data/practice-quiz-salesforecast-topdown-data.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 797224,
+              "key": "a4e9c449-3460-44bf-948c-266ccfc4eb68",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Quiz\n\nIt's now time to practice top-down sales forecasting. We have provided a sample data file titled \"Practice Quiz _SalesForecast Top Down Data\" at the bottom of the page.  Both Excel and CSV formats are available.\n\nGo ahead and download the file.  And then answer the quiz questions below.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 797225,
+              "key": "e1bc8a34-8b87-4a89-86a4-42f19d84ed17",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "e1bc8a34-8b87-4a89-86a4-42f19d84ed17",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What would be your formula for calculating ** Average Opportunity Size in Bookings**?",
+                "answers": [
+                  {
+                    "id": "a1545162069012",
+                    "text": "Number of opportunities closed X Average Price Per Unit/month X Average Units per Opportunity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545162161436",
+                    "text": "Number of opportunities closed X Average Price Per Unit/month X Average Contract Months Per Opportunity",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545162213646",
+                    "text": "Average Price Per Unit/month X Average Units per Opportunity X Average Contract Months Per Opportunity",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1545162229018",
+                    "text": "Number of opportunities closed X Average Price Per Unit/month X Average Units per Opportunity X Average Contract Months Per Opportunity",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 797227,
+              "key": "6faeb13c-240d-49c4-b2bb-3cba2fa602f9",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "6faeb13c-240d-49c4-b2bb-3cba2fa602f9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What ** Excel functions** can you use to automate the ** Projected Hire Date**?",
+                "answers": [
+                  {
+                    "id": "a1545163408355",
+                    "text": "TODAY()",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1545163420408",
+                    "text": "EOMONTH()",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545163429698",
+                    "text": "SUM()",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 797228,
+              "key": "fb142c17-c72e-4f8e-82e4-55040a309c88",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "fb142c17-c72e-4f8e-82e4-55040a309c88",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "What will be the ** Total Projected Bookings** at the * end of the first month* ** when Sales Person 1 is productive**?",
+                "answers": [
+                  {
+                    "id": "a1545164153623",
+                    "text": "$2,968,000",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545165373383",
+                    "text": "$1,484,000",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1545165373998",
+                    "text": "$4,452,000",
+                    "is_correct": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 797233,
+          "key": "c155ddee-94f6-4340-a724-dd25ade698e2",
+          "title": "Solution for Quiz: Top-down Sales Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c155ddee-94f6-4340-a724-dd25ade698e2",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Solution Practice Quiz SalesForecast TopDown",
+                "uri": "https://video.udacity-data.com/topher/2018/December/5c195f0f_solution-practice-quiz-salesforecast-topdown/solution-practice-quiz-salesforecast-topdown.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 797234,
+              "key": "3d674610-6426-401b-a471-bef697db8202",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution file for Top Down Sales Forecasting\n\nClick on this link to the [Google Sheet](https://docs.google.com/spreadsheets/d/1Z_8Vn4ZKWVto54vLcuj_kpF3lYKP5VBkTatkDueMszs/edit?usp=sharing) that contains the completed Sales Forecasting Model.\n\nListed below is the link to the Excel Spreadsheet that contains the completed Sales Forecasting Model.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 782037,
+          "key": "c9ee13b9-e45e-4a74-9468-8ad1abfd4d29",
+          "title": "Scenario or Sensitivity Analysis",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "c9ee13b9-e45e-4a74-9468-8ad1abfd4d29",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784469,
+              "key": "8e32a004-3fd8-41a1-aa61-4ff205287127",
+              "title": "Scenario Analysis V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rAj0mViosD0",
+                "china_cdn_id": "rAj0mViosD0.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826303,
+          "key": "a059635f-ba75-4b63-ba18-ac07a7dbf1c4",
+          "title": "Transitioning to Spreadsheet Tools",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a059635f-ba75-4b63-ba18-ac07a7dbf1c4",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826304,
+              "key": "bfd731a3-facb-4664-a497-35492f5581d6",
+              "title": "MAND L2 12 Transitioning To Excel Tools FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "mZRS4ck_UP4",
+                "china_cdn_id": "mZRS4ck_UP4.mp4"
+              }
+            },
+            {
+              "id": 826305,
+              "key": "13a63753-5de4-4e4f-b1d4-b6dbfd7f8e55",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Transitioning to Spreadsheet Tools\n\nTo build out the financial model, let’s first take a look at some Excel functions and tools specifically for Financial modeling. As we introduce you to each of these, we will work towards a financial model, so this will set you up nicely for your final project.\n\n\n- ** Data validation** is a spreadsheet tool  that allows you to limit what values are accepted in a cell. You can create drop-down lists of items, restrict cell value to date ranges and numbers.\n- **INDEX**  function is used when you want the cell to have a value chosen from a specified array and row number indicated within the INDEX function.\n- ** MATCH** is a LOOKUP function that can locate the position of the lookup value within an array only when it meets specific criteria defined in the MATCH function.\n- ** INDEX AND MATCH** together add a powerful feature for advanced formulas. Together they can give a value from an array (the purpose of the INDEX function) based on a numeric position (which is provided by the Match function).\n- And finally...  ** OFFSET**. Here you can select a start point in the spreadsheet, and tell Excel to return a set of cells that are counted from the starting point.\n\nWe are going to work through an actual example for each of them in the coming videos.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826306,
+          "key": "b2ff95b0-abf4-41e6-8a38-e5fc98546fbc",
+          "title": "Data Validation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "b2ff95b0-abf4-41e6-8a38-e5fc98546fbc",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826310,
+              "key": "0febf88f-d498-45ae-998a-17f14b54415d",
+              "title": "Data Validation V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "2HM1UY66qe4",
+                "china_cdn_id": "2HM1UY66qe4.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826307,
+          "key": "ffbf41dc-c1d8-436b-bf25-eb0d9ad757c8",
+          "title": "Recap: Data Validation",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "ffbf41dc-c1d8-436b-bf25-eb0d9ad757c8",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826311,
+              "key": "2a15b4e4-c8e9-4a22-b5f1-6acb5bfb9623",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Excel Steps\n\n** Purpose:** The purpose of data validation tools is to confirm that the values within the cell are validated against a criterion. In other words, the values within the cell are confined to specific requirements. There are several criteria, including a provided list of values, date range, range of whole numbers or decimal values. \n\nTo access the Data Validation tool within MS Excel, you **use the Data tab** and choose ** Data Validation**.\n\n## Google Sheets Steps\n\nMuch like MS Excel, you can see the Data Validation options under the Data tab in Google Sheets. See the image below with Data Validation highlighted in gray. \n\n### Additional Resource\n\nHere is also a link to [Google's support documentation for Data Validation](https://support.google.com/docs/answer/186103?co=GENIE.Platform%3DDesktop&hl=en).",
+              "instructor_notes": ""
+            },
+            {
+              "id": 826312,
+              "key": "793060fd-321b-43a5-966d-288b1ed7aca6",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c672959_google-datavalidation/google-datavalidation.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/793060fd-321b-43a5-966d-288b1ed7aca6",
+              "caption": "",
+              "alt": "",
+              "width": 269,
+              "height": 534,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 826308,
+          "key": "a16f48d3-d71a-4cfa-80ec-6c9be2102e17",
+          "title": "Index",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "a16f48d3-d71a-4cfa-80ec-6c9be2102e17",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826313,
+              "key": "8f396389-1fe9-4c44-85b9-3f4a4d271e7c",
+              "title": "Index Function V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "h_BX-KibU_c",
+                "china_cdn_id": "h_BX-KibU_c.mp4"
+              }
+            }
+          ]
+        },
+        {
+          "id": 826309,
+          "key": "89ba234d-b4f2-453e-88be-b2072548ec54",
+          "title": "Recap: Index",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "89ba234d-b4f2-453e-88be-b2072548ec54",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826314,
+              "key": "2c4936d5-6b41-4f02-90d1-f3041795ea62",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Excel Syntax\n\n** Purpose: ** INDEX takes a range of cells and returns a cell from that range that is based on a cell count number provided within the INDEX function. \n\nThe following is the generic syntax for INDEX:\n\n** INDEX(array, row number, column number) **\n\nOnce you have entered your formula, instead of hitting enter, you need to press Ctrl+Shift+Enter. This places the curly braces around the formula. Missing this step can cause #NAME? error.\n\n## Google Sheets Syntax\n\nGoogle Sheets using the same syntax as MS Excel. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 826315,
+              "key": "a9e6ac0f-0aa1-488a-b05c-34fa97f4e7ad",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Creating Named Ranges in Google Sheets\n\nFirst select the cells that need to be assigned a name. You can then ** access the Named Ranges tool in the Data tab** . Scroll down to the ** Named ranges** option.\n\nSee the image below, which shows the Named ranges in gray color.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 826316,
+              "key": "4731cb6b-bec6-4998-95a2-5fc7bd9e8c1e",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6729ab_google-named-ranges/google-named-ranges.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/4731cb6b-bec6-4998-95a2-5fc7bd9e8c1e",
+              "caption": "",
+              "alt": "",
+              "width": 268,
+              "height": 602,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 782182,
+          "key": "3f3eb473-4abd-41bf-98dd-ffc113f2d470",
+          "title": "Match with One Criterion",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3f3eb473-4abd-41bf-98dd-ffc113f2d470",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784472,
+              "key": "1af9753a-abfd-4d94-8819-3fb2b93bd295",
+              "title": "Index Match 1criterion V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "6H3fH9Tr-xg",
+                "china_cdn_id": "6H3fH9Tr-xg.mp4"
+              }
+            },
+            {
+              "id": 784758,
+              "key": "28d6c861-b123-403b-a1c6-71282220e049",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Excel Syntax\n\n** Purpose:** The purpose of the MATCH function is to provide the location of a defined lookup value within a given lookup array. \n\nThe following is the generic syntax for INDEX:\n\n** MATCH(lookup_value, lookup_array, [match_type]) **\n\nMatch type can vary from 0 (match is an exact match), 1 (match is less than or equal to lookup value),  to -1 (match is greater than or equal to lookup value).\n\n### Additional Resources to learn about Match Function\n\nHere is the [Office support documentation to learn more about MATCH function](https://support.office.com/en-us/article/match-function-e8dffd45-c762-47d6-bf89-533f4a37673a)\n\n\n## Google Sheets Syntax\n\nGoogle Sheets uses the same syntax as MS Excel.\n\n### Additional Resource\n\nHere is the link to the [Google support documentation for using MATCH functions in Google Sheets](https://support.google.com/docs/answer/3093378?hl=en).\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 782183,
+          "key": "d2e97c1c-fb5c-4994-a7c5-e454006cac72",
+          "title": "Index and Match with Multiple Criteria",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "d2e97c1c-fb5c-4994-a7c5-e454006cac72",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784473,
+              "key": "b345b34f-ba1f-4cda-bad6-9fd3e3b8a2fc",
+              "title": "Index Matching Multiple Criteria Dashboard V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "zSyplgqpUFY",
+                "china_cdn_id": "zSyplgqpUFY.mp4"
+              }
+            },
+            {
+              "id": 784826,
+              "key": "8c7cb15f-5a08-4a98-8730-d2ed331621a7",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Excel Syntax\n\nTo combining INDEX and MATCH when you need MATCH to meet multiple criteria, Excel uses boolean logic to create the MATCH criteria. The following is the generic syntax for combining INDEX and MATCH when you need MATCH to meet multiple criteria:\n\n** INDEX(array, MATCH(1, (condition 1)*(condition 2), [match_type])) **\n\n## Google Sheets Syntax\n\nGoogle Sheets uses the same syntax as MS Excel. Once you have entered your formula, you need to press Ctrl+Shift+Enter. This places the formula within an ARRAYFORMULA to execute the function. Missing this step can cause #NAME? error.\n\nHere is the link to the [Google support documentation for using MATCH functions in Google Sheets](https://support.google.com/docs/answer/3093378?hl=en).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 782184,
+          "key": "846714ac-85d9-44b3-ad2a-624f5c9353ba",
+          "title": "Offset - Part I",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "846714ac-85d9-44b3-ad2a-624f5c9353ba",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784474,
+              "key": "3be75761-f80f-4940-bc9b-6c445ac85e74",
+              "title": "Offset Intro Scenario Step1 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "rkYu7SwZh6U",
+                "china_cdn_id": "rkYu7SwZh6U.mp4"
+              }
+            },
+            {
+              "id": 813577,
+              "key": "ac7ba8ff-eb11-451f-b2e9-fb760f5a725f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "__Correction__ : In the above videos, the formula in column D is incorrect, and should instead say __ =$F$7/$E$7 -1__.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 784475,
+              "key": "8fb68999-d9f2-437e-978e-5bebc5982f3f",
+              "title": "Offset Step2 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "kFuqliCKlmE",
+                "china_cdn_id": "kFuqliCKlmE.mp4"
+              }
+            },
+            {
+              "id": 813579,
+              "key": "ff87e514-3fa0-480c-9d03-12579b64c24e",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "In the above videos, the formula in column D is incorrect, and should instead say ** =$F$7/$E$7 -1 **. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 784833,
+              "key": "f76bc93b-fe69-4492-a754-6d78375f2445",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Excel Syntax\n\n** Purpose: ** The purpose of the OFFSET function is to return a range that is a specified number of rows and columns from a reference cell or range\n\n** OFFSET(cell_reference, number of rows to offset by, number of columns to offset by) **\n\n## Google Sheets Syntax\n\nGoogle Sheets uses the same syntax as MS Excel. \n\n### Additional Resource\n- Here is the link to the [Google support documentation for using OFFSET functions in Google Sheets](https://blog.sheetgo.com/google-sheets-formulas/offset-formula-google-sheets/).",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 782185,
+          "key": "1981d2b2-567f-48c0-96eb-a2151fc77694",
+          "title": "Offset and Match -Part II",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "1981d2b2-567f-48c0-96eb-a2151fc77694",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 784476,
+              "key": "67b2dba7-d19c-49d4-aa51-e041aa6e7373",
+              "title": "Offset Scenario Step3 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "26O7Lh0arfs",
+                "china_cdn_id": "26O7Lh0arfs.mp4"
+              }
+            },
+            {
+              "id": 784477,
+              "key": "8845db85-91ef-49d7-8e96-4a53df443a7d",
+              "title": "Offset Scenario Step4 V1",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "-RAWAeJkvyQ",
+                "china_cdn_id": "-RAWAeJkvyQ.mp4"
+              }
+            },
+            {
+              "id": 784740,
+              "key": "da3b6ea3-6b1a-4101-ad0f-05482f2ec4f0",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Formatting principles for Modeling\n\nHere is a guide to best practices for formatting financial models.\n1. All inputs to the model should be colored BLUE. These include hard-coded values.\n2. All formulas and calculations should be coded in BLACK.\n3. Any links to other sheets within the workbook should be coded in GREEN.\n4. Any links to other files should be coded in RED.\n\nHere is a good website to review the best practices:\n\n- [Formatting for Financial Modeling](https://corporatefinanceinstitute.com/resources/knowledge/modeling/financial-model-formatting/)\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 797239,
+          "key": "10bfb38f-fb5d-4254-86f0-fd6d661aeeb3",
+          "title": "Quiz: Bottom-Up Financial Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "10bfb38f-fb5d-4254-86f0-fd6d661aeeb3",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Practice Data Set FinancialForecast BottomUp CSVfile",
+                "uri": "https://video.udacity-data.com/topher/2018/December/5c19822f_practice-data-set-financialforecast-bottomup-csvfile/practice-data-set-financialforecast-bottomup-csvfile.csv"
+              },
+              {
+                "name": "Practice Data Set FinancialForecast BottomUp",
+                "uri": "https://video.udacity-data.com/topher/2018/December/5c198242_practice-data-set-financialforecast-bottomup/practice-data-set-financialforecast-bottomup.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 797243,
+              "key": "ac7d03ca-3b6b-4df3-a01e-0865c3f80e9c",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Quiz\n\nIt's now time to practice bottom-up financial forecasting. We have provided a sample data file titled \"Practice DataSet _FinancialForecast Bottom Up\" at the bottom of the page.  Both Excel and CSV formats are available.\n\nGo ahead and download the file.  And then answer the quiz questions below.\n\n",
+              "instructor_notes": ""
+            },
+            {
+              "id": 797244,
+              "key": "a2a83831-ee61-4bbc-be8b-2e3a13c65bd9",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "a2a83831-ee61-4bbc-be8b-2e3a13c65bd9",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the ** Gross Margin** for the ticker symbol NAVI for each of the 3 years we have historical data on."
+                },
+                "concepts_label": "Gross Margin",
+                "answers_label": "Year",
+                "concepts": [
+                  {
+                    "text": "0.632",
+                    "correct_answer": {
+                      "id": "a1545175644379",
+                      "text": "Year 1"
+                    }
+                  },
+                  {
+                    "text": "0.620",
+                    "correct_answer": {
+                      "id": "a1545175727179",
+                      "text": "Year 2"
+                    }
+                  },
+                  {
+                    "text": "0.646",
+                    "correct_answer": {
+                      "id": "a1545175737924",
+                      "text": "Year 3"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1545175737924",
+                    "text": "Year 3"
+                  },
+                  {
+                    "id": "a1545175727179",
+                    "text": "Year 2"
+                  },
+                  {
+                    "id": "a1545175759322",
+                    "text": "0.523"
+                  },
+                  {
+                    "id": "a1545175766181",
+                    "text": "0.499"
+                  },
+                  {
+                    "id": "a1545175771799",
+                    "text": "0.483"
+                  },
+                  {
+                    "id": "a1545175644379",
+                    "text": "Year 1"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 797245,
+              "key": "2201afa0-634c-4f9c-9f3f-ae9b5b44e0a6",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "2201afa0-634c-4f9c-9f3f-ae9b5b44e0a6",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the ** Operating Profit** for the ticker symbol WRK for each of the 3 years we have historical data on."
+                },
+                "concepts_label": "Operating Profit",
+                "answers_label": "Year",
+                "concepts": [
+                  {
+                    "text": " $910,000,000",
+                    "correct_answer": {
+                      "id": "a1545175919087",
+                      "text": "Year 1"
+                    }
+                  },
+                  {
+                    "text": "$993,300,000 ",
+                    "correct_answer": {
+                      "id": "a1545175948357",
+                      "text": "Year 2"
+                    }
+                  },
+                  {
+                    "text": " $796,700,000 ",
+                    "correct_answer": {
+                      "id": "a1545175958556",
+                      "text": "Year 3"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1545175919087",
+                    "text": "Year 1"
+                  },
+                  {
+                    "id": "a1545175948357",
+                    "text": "Year 2"
+                  },
+                  {
+                    "id": "a1545175958556",
+                    "text": "Year 3"
+                  }
+                ]
+              }
+            },
+            {
+              "id": 797247,
+              "key": "b67ac39a-8406-474c-a4a3-d2fa9766297a",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Go ahead and make the following **assumptions for the three forecasting statistics for the next two years** for the company ** Paypal (Ticker Symbol PYPL)**. ",
+              "instructor_notes": ""
+            },
+            {
+              "id": 811263,
+              "key": "55bfdfb5-cdba-4c22-a3af-2b654103b88d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/January/5c3ce6f6_assumptions-bottomupfinancial-forecasting/assumptions-bottomupfinancial-forecasting.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/55bfdfb5-cdba-4c22-a3af-2b654103b88d",
+              "caption": "",
+              "alt": "",
+              "width": 388,
+              "height": 357,
+              "instructor_notes": null
+            },
+            {
+              "id": 797250,
+              "key": "dc850416-6b4c-4f61-b341-8f1fd73411ca",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "Given these assumptions, now complete the financial forecast for PYPL's Income Statement up to the EBIT or Operating Income for Year 4 and Year 5.\n\nOnce you have completed that, please complete the remaining quiz questions.",
+              "instructor_notes": ""
+            },
+            {
+              "id": 797251,
+              "key": "01e85195-700e-4097-92dc-770b76e8051d",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "01e85195-700e-4097-92dc-770b76e8051d",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these formulas is the correct way to forecast revenues for Year 4?",
+                "answers": [
+                  {
+                    "id": "a1545176622787",
+                    "text": "Total Revenue for Year 3 x (1 - Assumption for Year 4 Revenue growth)",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545176726874",
+                    "text": "Total Revenue for Year 3 x (1 + Assumption for Year 4 Revenue growth)",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1545176734799",
+                    "text": "Total Revenue for Year 3 - Total Revenue for Year 2",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 797253,
+              "key": "ebc24026-1e8c-4095-88f1-2bcd179a7b99",
+              "title": "",
+              "semantic_type": "RadioQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "ebc24026-1e8c-4095-88f1-2bcd179a7b99",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "prompt": "Which of these formulas is the correct way to forecast operating income for Year 5?",
+                "answers": [
+                  {
+                    "id": "a1545177149590",
+                    "text": "Operating income for Year 3 X 2",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545177201553",
+                    "text": "Operating income for Year 4 * Assumption for Operating Margin for Year 4",
+                    "is_correct": false
+                  },
+                  {
+                    "id": "a1545177201996",
+                    "text": "Forecasted Revenue for Year 5 * Assumption for Operating Margin for Year 5",
+                    "is_correct": true
+                  },
+                  {
+                    "id": "a1545177252167",
+                    "text": "Forecasted Revenue for Year 4 (1 + Assumption for Operating Margin for Year 5)",
+                    "is_correct": false
+                  }
+                ]
+              }
+            },
+            {
+              "id": 797252,
+              "key": "5de22761-9a29-4008-b5d7-7be74734f715",
+              "title": "",
+              "semantic_type": "MatchingQuizAtom",
+              "is_public": true,
+              "instructor_notes": null,
+              "user_state": {
+                "node_key": "5de22761-9a29-4008-b5d7-7be74734f715",
+                "completed_at": null,
+                "last_viewed_at": null,
+                "unstructured": null
+              },
+              "question": {
+                "complex_prompt": {
+                  "text": "Match the forecast for Gross Profit and Operating Income for PYPL."
+                },
+                "concepts_label": "Forecasted metric",
+                "answers_label": "Value",
+                "concepts": [
+                  {
+                    "text": "Gross Profit for Year 4",
+                    "correct_answer": {
+                      "id": "a1545176857308",
+                      "text": " $11,520,709,200"
+                    }
+                  },
+                  {
+                    "text": "Gross Profit for Year 5",
+                    "correct_answer": {
+                      "id": "a1545176938830",
+                      "text": " $13,306,419,126"
+                    }
+                  },
+                  {
+                    "text": "Operating Income for Year 4",
+                    "correct_answer": {
+                      "id": "a1545177034932",
+                      "text": " $1,878,376,500"
+                    }
+                  },
+                  {
+                    "text": "Operating Income for Year 5",
+                    "correct_answer": {
+                      "id": "a1545177042563",
+                      "text": " $2,169,524,858"
+                    }
+                  }
+                ],
+                "answers": [
+                  {
+                    "id": "a1545177042563",
+                    "text": " $2,169,524,858"
+                  },
+                  {
+                    "id": "a1545177034932",
+                    "text": " $1,878,376,500"
+                  },
+                  {
+                    "id": "a1545176857308",
+                    "text": " $11,520,709,200"
+                  },
+                  {
+                    "id": "a1545176938830",
+                    "text": " $13,306,419,126"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "id": 797254,
+          "key": "2e859480-ca67-44dc-9f23-f39c9a7a10fa",
+          "title": "Solution for Quiz: Bottom-Up Financial Forecasting",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "2e859480-ca67-44dc-9f23-f39c9a7a10fa",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": {
+            "files": [
+              {
+                "name": "Practice Quiz Financial Model Solution",
+                "uri": "https://video.udacity-data.com/topher/2019/January/5c3ce7fa_practice-quiz-financial-model-solution/practice-quiz-financial-model-solution.xlsx"
+              }
+            ],
+            "google_plus_link": null,
+            "career_resource_center_link": null,
+            "coaching_appointments_link": null,
+            "office_hours_link": null,
+            "aws_provisioning_link": null
+          },
+          "atoms": [
+            {
+              "id": 797255,
+              "key": "a8e3a0e2-eea1-42da-92e9-d208ff7dfb0f",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Solution file for Bottom-up Financial Forecasting\n\nClick on this link to the [Google Sheet](https://docs.google.com/spreadsheets/d/1qBSsBXdXG5kYmyc_qA3nl7NQggJT5FC6Pq2COJN3M8U/edit?usp=sharing) that contains the completed Financial Forecasting Model.\n\nListed below is the link to the Excel Spreadsheet that contains the completed Financial Forecasting Model.\n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 818012,
+          "key": "9a84731b-04c2-4064-b9f9-8c43b788627f",
+          "title": "Congratulations",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "9a84731b-04c2-4064-b9f9-8c43b788627f",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826279,
+              "key": "07fde057-e14e-4163-9378-a04cd49d5d87",
+              "title": "MAND L2 20 Congrats FINAL",
+              "semantic_type": "VideoAtom",
+              "is_public": true,
+              "instructor_notes": "",
+              "video": {
+                "youtube_id": "YNkQg-FCgWY",
+                "china_cdn_id": "YNkQg-FCgWY.mp4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

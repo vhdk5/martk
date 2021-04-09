@@ -1,0 +1,219 @@
+{
+  "id": 2510,
+  "project_id": 580,
+  "upload_types": [
+    "file"
+  ],
+  "file_filter_regex": "\\A(?!(((.*/)?(__MACOSX|\\.git|node_modules|bower_components|jspm_packages|\\.idea|build|.ipynb_checkpoints|\\.Trash-0|logs)(\\Z|/))))((.*\\.(js|css|py|html|htm|txt|md|markdown|sql|swift|java|gradle|xml|rst|yml|yaml|rmd|pdf|docx)\\Z)|((.*/)?(README|Readme|readme|Makefile)\\Z))",
+  "nomination_eligible": false,
+  "stand_out": "",
+  "hide_criteria": false,
+  "created_at": "2019-02-20T06:17:57.679Z",
+  "updated_at": "2020-12-18T14:52:04.420Z",
+  "hashtag": "",
+  "max_upload_size_mb": 500,
+  "estimated_sla": null,
+  "project_assistant_enabled": false,
+  "available_for_cert_project": false,
+  "language": "en-us",
+  "ndkeys": [
+    "nd028-beta",
+    "nd028",
+    "nd028-ent",
+    "nd028-cn",
+    "nd028-connect"
+  ],
+  "coursekeys": [],
+  "is_career": false,
+  "sections": [
+    {
+      "id": 5413,
+      "name": "Part 1: Objectives Results",
+      "created_at": "2019-02-26T19:11:21.033Z",
+      "updated_at": "2019-02-26T19:11:46.050Z",
+      "deleted_at": null,
+      "position": 0,
+      "rubric_id": 2510,
+      "rubric_items": [
+        {
+          "id": 15584,
+          "section_id": 5413,
+          "passed_description": "Student visually (in an appropriate table or graph for the data type) demonstrates the total number of sales for each year, and displayed the percent change from 2017 to 2018.\n\nStudent indicated whether the example goal was met or was not met. \n\nStudent used proper chart labels, headings, and any legends. \n\nStudent restated the goal, so it was evident why they were presenting the information on each slide\nStudent did this for both the Ad Spend goal and the Sales goal.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:11:46.284Z",
+          "updated_at": "2019-02-26T19:12:38.447Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student provide results on the performance against the Objectives?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5414,
+      "name": "Part 2: Evaluate the Audience",
+      "created_at": "2019-02-26T19:12:50.576Z",
+      "updated_at": "2019-02-26T19:12:58.089Z",
+      "deleted_at": null,
+      "position": 1,
+      "rubric_id": 2510,
+      "rubric_items": [
+        {
+          "id": 15586,
+          "section_id": 5414,
+          "passed_description": " \n* For the required question The student should demonstrate the data points for every age range (18-25, 26-35, 36-45, 46-50,51-55,55+).\n* The information should be easy to understand and they should provide a visual to reinforce it.\n* Students may use multiple charts, or combined charts, to demonstrate the result.\n* Students should include a description of the outcome.\nCharts should have proper labels, titles, and legends so it is clear to understand. \n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:12:58.289Z",
+          "updated_at": "2019-02-26T19:14:45.729Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student provide an analysis of the Audience  by answering the required question?",
+          "exceedable": false
+        },
+        {
+          "id": 15587,
+          "section_id": 5414,
+          "passed_description": "* Student indicated what question they are trying to answer.\n\n* Student used proper chart labels, headings, and any legends. \n\n* Student provided supporting text to any visuals provided to explain the information and why it was being presented. \nThe information should be easy to understand and they should provide a visual to reinforce it.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:13:40.462Z",
+          "updated_at": "2019-02-26T19:14:45.734Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Did the student select a second question and provide an analysis of the Audience?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5415,
+      "name": "Part 3: Evaluate the Marketing",
+      "created_at": "2019-02-26T19:16:21.859Z",
+      "updated_at": "2019-02-26T19:16:31.531Z",
+      "deleted_at": null,
+      "position": 2,
+      "rubric_id": 2510,
+      "rubric_items": [
+        {
+          "id": 15588,
+          "section_id": 5415,
+          "passed_description": "* The information should be easy to understand and they should provide a visual to reinforce it.\n* Students may use multiple charts, or combined charts, to demonstrate the result.\n* Students should include a description of the outcome.\n* Charts should have proper labels, titles, and legends so it is clear to understand. \n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:16:31.770Z",
+          "updated_at": "2019-02-26T19:17:07.338Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student provide an analysis of the marketing performance by answering the required question?",
+          "exceedable": false
+        },
+        {
+          "id": 15591,
+          "section_id": 5415,
+          "passed_description": "* Student indicated what question they are trying to answer.\n* Student used proper chart labels, headings, and any legends. \n* Student provided supporting text to any visuals provided to explain the information and why it was being presented. \n* The information should be easy to understand and they should provide a visual to reinforce it.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:18:24.418Z",
+          "updated_at": "2019-02-26T19:19:58.744Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Did the student select a second question and provide an analysis of the marketing performance?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5416,
+      "name": "Part 4: Evaluate the Sales",
+      "created_at": "2019-02-26T19:17:07.540Z",
+      "updated_at": "2019-02-26T19:17:56.963Z",
+      "deleted_at": null,
+      "position": 3,
+      "rubric_id": 2510,
+      "rubric_items": [
+        {
+          "id": 15589,
+          "section_id": 5416,
+          "passed_description": "* The information should be easy to understand and they should provide a visual to reinforce it.\n* Students may use multiple charts, or combined charts, to demonstrate the result.\n* Students should include a description of the outcome.\n* Charts should have proper labels, titles, and legends so it is clear to understand. \n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:17:13.234Z",
+          "updated_at": "2019-02-26T19:19:58.749Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student provide an analysis of the sales performance by answering the required question?",
+          "exceedable": false
+        },
+        {
+          "id": 15592,
+          "section_id": 5416,
+          "passed_description": "* Student indicated what question they are trying to answer.\n* Student used proper chart labels, headings, and any legends. \n* Student provided supporting text to any visuals provided to explain the information and why it was being presented. \n* The information should be easy to understand and they should provide a visual to reinforce it.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:19:58.995Z",
+          "updated_at": "2019-02-26T19:21:34.704Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Did the student select a second question and provide an analysis of the sales performance?",
+          "exceedable": false
+        }
+      ]
+    },
+    {
+      "id": 5417,
+      "name": "Part 5: Evaluate the Product Categories",
+      "created_at": "2019-02-26T19:17:57.193Z",
+      "updated_at": "2019-02-26T19:18:02.679Z",
+      "deleted_at": null,
+      "position": 4,
+      "rubric_id": 2510,
+      "rubric_items": [
+        {
+          "id": 15590,
+          "section_id": 5417,
+          "passed_description": "* The information should be easy to understand and they should provide a visual to reinforce it.\n* Students may use multiple charts, or combined charts, to demonstrate the result.\n* Students should include a description of the outcome.\n* Charts should have proper labels, titles, and legends so it is clear to understand. \n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:18:02.929Z",
+          "updated_at": "2019-02-26T19:21:34.710Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 0,
+          "criteria": "Did the student provide an analysis of the sales performance product categories by answering the required question?",
+          "exceedable": false
+        },
+        {
+          "id": 15593,
+          "section_id": 5417,
+          "passed_description": "* Student indicated what question they are trying to answer.\n* Student used proper chart labels, headings, and any legends. \n* Student provided supporting text to any visuals provided to explain the information and why it was being presented. \n* The information should be easy to understand and they should provide a visual to reinforce it.\n",
+          "exceeded_description": null,
+          "created_at": "2019-02-26T19:21:35.036Z",
+          "updated_at": "2019-02-26T19:22:12.055Z",
+          "deleted_at": null,
+          "optional": false,
+          "position": 1,
+          "criteria": "Did the student select a second question and provide an analysis of the product categories?",
+          "exceedable": false
+        }
+      ]
+    }
+  ],
+  "project": {
+    "id": 580,
+    "name": "Create a Proposal for the Next Quarter",
+    "nanodegree_key": "nd028",
+    "is_cert_project": false,
+    "audit_project_id": null,
+    "hashtag": null,
+    "audit_rubric_id": 2899,
+    "entitlement_required": false,
+    "is_career": false,
+    "recruitment_family_id": 8,
+    "created_at": "2019-02-19T20:40:54.876Z",
+    "updated_at": "2021-04-08T08:07:23.978Z",
+    "price": "8.0",
+    "ungradeable_price": "3.0",
+    "audit_price": "0.0"
+  }
+}

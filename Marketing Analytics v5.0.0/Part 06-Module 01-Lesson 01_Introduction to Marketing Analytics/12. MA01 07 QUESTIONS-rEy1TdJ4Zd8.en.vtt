@@ -1,0 +1,289 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.884
+We've established that the marketing landscape is complex.
+
+00:00:03.884 --> 00:00:09.089
+We have data being collected and delivered through a vast ecosystem of platform.
+
+00:00:09.089 --> 00:00:14.550
+We can combine this data layering it and segmenting it to answer our key questions.
+
+00:00:14.550 --> 00:00:18.660
+Additionally, we have a process by which we can look at the analytics,
+
+00:00:18.660 --> 00:00:22.710
+and we even have a methodology by how we analyze these insights.
+
+00:00:22.710 --> 00:00:26.210
+Now, we're always looking to capture the right data based on
+
+00:00:26.210 --> 00:00:28.310
+our objectives and figuring out
+
+00:00:28.309 --> 00:00:32.089
+the insights that we specifically need to get out of this data.
+
+00:00:32.090 --> 00:00:35.720
+But when it comes time to actually start pulling these metrics,
+
+00:00:35.719 --> 00:00:40.339
+it can be confusing to know how much data you need to answer your question.
+
+00:00:40.340 --> 00:00:42.125
+So I encourage you to approach
+
+00:00:42.125 --> 00:00:46.725
+every analytics project so that you can answer these five questions.
+
+00:00:46.725 --> 00:00:49.125
+First, what happened?
+
+00:00:49.125 --> 00:00:52.950
+Are we looking at a data point or multiple data points.
+
+00:00:52.950 --> 00:00:56.225
+We're usually looking at this data in comparison to something.
+
+00:00:56.225 --> 00:01:00.590
+So oftentimes, we'll see that the trend is up or a trend is down,
+
+00:01:00.590 --> 00:01:03.275
+and that'll indicate that something has happened.
+
+00:01:03.274 --> 00:01:05.274
+Then we need to ask ourselves,
+
+00:01:05.274 --> 00:01:07.085
+are these results good?
+
+00:01:07.084 --> 00:01:10.254
+Now we talked a little about how we evaluate this,
+
+00:01:10.254 --> 00:01:15.909
+change and context help us understand if this is normal or abnormal.
+
+00:01:15.909 --> 00:01:17.619
+Once we've identified that,
+
+00:01:17.620 --> 00:01:20.660
+we need to understand why did it happen,
+
+00:01:20.659 --> 00:01:23.049
+and this is where it gets really complex.
+
+00:01:23.049 --> 00:01:24.534
+Now we're being a detective.
+
+00:01:24.534 --> 00:01:28.554
+There are many ways that can contribute to why something happened.
+
+00:01:28.555 --> 00:01:30.384
+Lots of data to discover,
+
+00:01:30.384 --> 00:01:33.715
+to figure out what went wrong or what went right.
+
+00:01:33.715 --> 00:01:38.980
+It's also important that we be careful between causation and correlation because
+
+00:01:38.980 --> 00:01:41.545
+oftentimes we can compare the wrong data
+
+00:01:41.545 --> 00:01:45.500
+or the right data and get drastically different answers.
+
+00:01:45.500 --> 00:01:49.545
+Next, we need to figure out what's happening now.
+
+00:01:49.545 --> 00:01:53.420
+Right, we want to figure out if this trend is continuing or if
+
+00:01:53.420 --> 00:01:57.500
+this event happened one time or if it's going to keep happening.
+
+00:01:57.500 --> 00:02:00.750
+Finally, what will happen in the future.
+
+00:02:00.750 --> 00:02:04.310
+Remember, we're always thinking about actionability.
+
+00:02:04.310 --> 00:02:06.260
+So what's going to happen if we don't change
+
+00:02:06.260 --> 00:02:09.259
+things or what will happen if we change things.
+
+00:02:09.259 --> 00:02:12.844
+Again, some things are going to be one time occurrences.
+
+00:02:12.844 --> 00:02:16.430
+Other events might be the start of growth or decline.
+
+00:02:16.430 --> 00:02:18.920
+Now, when we think about the future,
+
+00:02:18.919 --> 00:02:22.699
+we can start forecasting by manipulating the data.
+
+00:02:22.699 --> 00:02:25.054
+Let's think about this a different way.
+
+00:02:25.055 --> 00:02:26.659
+Say you're asked to review
+
+00:02:26.659 --> 00:02:30.259
+the sales performance of your e-commerce store from last Friday.
+
+00:02:30.259 --> 00:02:33.439
+So what happened? Let's say we had 30 sales.
+
+00:02:33.439 --> 00:02:35.645
+Okay. Are these results good?
+
+00:02:35.645 --> 00:02:40.550
+Well, we need to figure out if this particular measurement is good or bad,
+
+00:02:40.550 --> 00:02:42.635
+which means we have to compare it.
+
+00:02:42.634 --> 00:02:46.849
+So we'll use that historical dataset or even benchmarks that already
+
+00:02:46.849 --> 00:02:51.264
+exist to determine whether what we have is good or bad.
+
+00:02:51.264 --> 00:02:56.734
+Again, I like to use the change and contexts within that select time period.
+
+00:02:56.735 --> 00:02:59.000
+So let's say we look at change.
+
+00:02:59.000 --> 00:03:04.189
+We identify that this is a 50 percent lift from last Friday.
+
+00:03:04.189 --> 00:03:05.710
+What's the context then,
+
+00:03:05.710 --> 00:03:08.070
+is this normal or abnormal?
+
+00:03:08.069 --> 00:03:09.875
+Well, we have to think about this.
+
+00:03:09.875 --> 00:03:13.085
+It could be good or it could be bad.
+
+00:03:13.085 --> 00:03:14.980
+Is there seasonality involved?
+
+00:03:14.979 --> 00:03:16.429
+Let's say today is a holiday.
+
+00:03:16.430 --> 00:03:19.909
+So a 50 percent lift from last Friday can actually be
+
+00:03:19.909 --> 00:03:24.305
+bad if we should have expected 150 percent lift.
+
+00:03:24.305 --> 00:03:26.810
+So now we need to figure out why it happened.
+
+00:03:26.810 --> 00:03:29.045
+Let's say it ends up being a good thing.
+
+00:03:29.044 --> 00:03:30.799
+Are we running a promotion?
+
+00:03:30.800 --> 00:03:32.810
+Is that promotion what contributed,
+
+00:03:32.810 --> 00:03:34.650
+or did more traffic come to the site?
+
+00:03:34.650 --> 00:03:36.780
+Was there a blog mentioned somewhere on the web?
+
+00:03:36.780 --> 00:03:38.585
+You have to connect all the dots.
+
+00:03:38.585 --> 00:03:43.040
+We need to identify where this lift came from because that
+
+00:03:43.039 --> 00:03:47.914
+will help us figure out later what we do when we forecast into the future.
+
+00:03:47.914 --> 00:03:50.164
+So what's happening right now?
+
+00:03:50.164 --> 00:03:54.215
+Well, we look at this and we say sales are still up,
+
+00:03:54.215 --> 00:03:57.265
+and relative to what we typically see.
+
+00:03:57.264 --> 00:04:01.759
+By knowing that what's happening now follows a positive trend,
+
+00:04:01.759 --> 00:04:05.574
+we're less concerned than if it was following a negative trend.
+
+00:04:05.574 --> 00:04:08.474
+Finally, what might happen in the future.
+
+00:04:08.474 --> 00:04:13.194
+Well now, we can start to understand if we expect this pattern to continue or not.
+
+00:04:13.194 --> 00:04:14.414
+If it was seasonality,
+
+00:04:14.414 --> 00:04:16.459
+then we know that this is going to drop off.
+
+00:04:16.459 --> 00:04:18.310
+If it was a new marketing promotion,
+
+00:04:18.310 --> 00:04:19.665
+then we might think, well,
+
+00:04:19.665 --> 00:04:21.980
+if we keep investing this spend,
+
+00:04:21.980 --> 00:04:24.335
+then we should keep getting these results.
+
+00:04:24.334 --> 00:04:28.039
+Now you can plug that data in and start asking great questions.
+
+00:04:28.040 --> 00:04:29.830
+If we keep spending this much money,
+
+00:04:29.829 --> 00:04:31.639
+are we going to keep getting this return,
+
+00:04:31.639 --> 00:04:33.814
+and if so, what does that mean for our bottom line?
+
+00:04:33.814 --> 00:04:38.035
+Can we spend more money and create more revenue.
+
+00:04:38.035 --> 00:04:41.794
+In which case, you start to get into forecasting and projecting,
+
+00:04:41.793 --> 00:04:46.609
+and now you start thinking about how you can build actionable insights.
+
+00:04:46.610 --> 00:04:47.795
+Now we can take action.
+
+00:04:47.795 --> 00:04:49.939
+We can say, well, we're going to forecast,
+
+00:04:49.939 --> 00:04:52.595
+and now we start thinking about hypotheses and testing,
+
+00:04:52.595 --> 00:04:54.660
+which we'll get into later.
+

@@ -1,0 +1,199 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.394
+Now, the ecosystem of data is no doubt impressive.
+
+00:00:04.394 --> 00:00:08.209
+So finding and using this information will become easier,
+
+00:00:08.210 --> 00:00:11.655
+if you understand how the data collection process works.
+
+00:00:11.654 --> 00:00:14.324
+Now, I'm sure it's no surprise to you that
+
+00:00:14.324 --> 00:00:17.984
+every action you take on the web is tracked one way or another.
+
+00:00:17.984 --> 00:00:19.184
+The pages you view,
+
+00:00:19.184 --> 00:00:20.519
+the files you download,
+
+00:00:20.519 --> 00:00:24.464
+and even your demographic and interest data, is all recorded.
+
+00:00:24.464 --> 00:00:28.469
+At the 2018, Consumer Electronics Show in Las Vegas.
+
+00:00:28.469 --> 00:00:31.364
+Intel projected that by 2020,
+
+00:00:31.364 --> 00:00:34.229
+we will be generating 1.5 gigabytes of data
+
+00:00:34.229 --> 00:00:37.754
+per day from our individual Internet activities.
+
+00:00:37.755 --> 00:00:41.070
+All of that tracking data we bought and sold by over
+
+00:00:41.070 --> 00:00:44.240
+4,000 data brokers in the United States alone.
+
+00:00:44.240 --> 00:00:47.704
+Now, this data is collected as first,
+
+00:00:47.704 --> 00:00:50.664
+second, and third party data.
+
+00:00:50.664 --> 00:00:54.085
+First party data is what you collect,
+
+00:00:54.085 --> 00:00:57.350
+all the information that you immediately have access to,
+
+00:00:57.350 --> 00:00:59.225
+information coming from your website,
+
+00:00:59.225 --> 00:01:01.219
+your subscriptions, and your CRM.
+
+00:01:01.219 --> 00:01:06.859
+Now, second party data is essentially all of the first party data that is resold.
+
+00:01:06.859 --> 00:01:10.510
+So if you collected data on your customers and sold that to someone else,
+
+00:01:10.510 --> 00:01:12.920
+it would then become second party data.
+
+00:01:12.920 --> 00:01:15.879
+This could include things such as your website data,
+
+00:01:15.879 --> 00:01:18.319
+but it also goes as far as how people are
+
+00:01:18.319 --> 00:01:21.709
+using an application or even surveys that you run.
+
+00:01:21.709 --> 00:01:23.994
+Finally, third party data.
+
+00:01:23.995 --> 00:01:25.780
+These are all the aggregators.
+
+00:01:25.780 --> 00:01:31.924
+Third-party data vendors by from all sorts of sources and then they combine this data.
+
+00:01:31.924 --> 00:01:35.619
+Now, this data is coming from a myriad of places.
+
+00:01:35.620 --> 00:01:37.930
+First, we have the cookies that follow you
+
+00:01:37.930 --> 00:01:41.710
+around or pixels that fire when you make a transaction,
+
+00:01:41.709 --> 00:01:44.619
+and then we also have device fingerprinting,
+
+00:01:44.620 --> 00:01:49.255
+which is a really interesting method of combining information about you,
+
+00:01:49.254 --> 00:01:51.780
+such as your location, screen size,
+
+00:01:51.780 --> 00:01:53.984
+the hardware using, plugins you have,
+
+00:01:53.984 --> 00:01:56.284
+apps you have, software, and so on.
+
+00:01:56.284 --> 00:01:58.899
+Because it's easy to guess whether or not you're
+
+00:01:58.900 --> 00:02:01.960
+the same person between two sessions on a site,
+
+00:02:01.959 --> 00:02:04.134
+even if you leave your phone to your computer,
+
+00:02:04.135 --> 00:02:07.040
+because it's very unlikely that somebody else has
+
+00:02:07.040 --> 00:02:10.925
+that exact combination of items on their device.
+
+00:02:10.925 --> 00:02:16.070
+In fact, your very own Internet service provider could be selling data about who you are,
+
+00:02:16.069 --> 00:02:17.959
+where you've been, and so on.
+
+00:02:17.960 --> 00:02:20.599
+So what can we do with this knowledge?
+
+00:02:20.599 --> 00:02:23.780
+Well, we know that we can layer in all of
+
+00:02:23.780 --> 00:02:27.140
+these additional insights into this traditionally flat information.
+
+00:02:27.139 --> 00:02:31.399
+If you find a gap in your data and you want to fill it in to answer a question,
+
+00:02:31.400 --> 00:02:34.939
+you now understand that this information is out there and you can find
+
+00:02:34.939 --> 00:02:38.819
+it and fill that it take Google Analytics, for example.
+
+00:02:38.819 --> 00:02:41.180
+Let's say I measure one visit to my website.
+
+00:02:41.180 --> 00:02:43.580
+Now, that data point is interesting,
+
+00:02:43.580 --> 00:02:46.085
+but there is a breadth of information behind it.
+
+00:02:46.085 --> 00:02:49.990
+Google can tell me characteristics such as where that clip came from,
+
+00:02:49.990 --> 00:02:51.985
+how long that visit lasted,
+
+00:02:51.985 --> 00:02:53.750
+and the page that they were on.
+
+00:02:53.750 --> 00:02:56.179
+Now, that's all first party information,
+
+00:02:56.179 --> 00:03:00.979
+but dig deeper and you'll find that Google can bring me third party information,
+
+00:03:00.979 --> 00:03:02.590
+such as the visitor's interests,
+
+00:03:02.590 --> 00:03:05.955
+their market segment, even their age range and gender.
+
+00:03:05.955 --> 00:03:11.600
+That data combined helps paint a much better picture of what's going on on my website.
+
+00:03:11.599 --> 00:03:16.489
+It tells me more about the type of people that are being exposed to my content,
+
+00:03:16.490 --> 00:03:20.180
+and it can help me understand how to change my marketing behaviors.
+
+00:03:20.180 --> 00:03:22.519
+So as we layer that data together,
+
+00:03:22.519 --> 00:03:28.620
+we can answer more complex questions and segment in ways that provide us richer insight.
+

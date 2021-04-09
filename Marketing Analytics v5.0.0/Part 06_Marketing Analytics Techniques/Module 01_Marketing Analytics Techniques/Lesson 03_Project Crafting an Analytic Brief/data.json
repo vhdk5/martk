@@ -1,0 +1,239 @@
+{
+  "data": {
+    "lesson": {
+      "id": 826102,
+      "key": "aa7a0682-3662-4ff0-9b9a-ac5e50924874",
+      "title": "Project: Crafting an Analytic Brief",
+      "semantic_type": "Lesson",
+      "is_public": true,
+      "version": "1.0.0",
+      "locale": "en-us",
+      "summary": null,
+      "lesson_type": "Classroom",
+      "display_workspace_project_only": null,
+      "resources": null,
+      "project": {
+        "key": "5d07dcb1-90fd-4c6a-ad6c-e73da923699f",
+        "version": "1.0.0",
+        "locale": "en-us",
+        "duration": 10080,
+        "semantic_type": "Project",
+        "title": "Project - Crafting an Analytic Brief",
+        "description": "Make a copy of this [Google doc template](https://docs.google.com/presentation/d/1frr3RPZEbUAH7zY_ZqxWQrjXfhe-f8PQBbDKP_XrB7c/edit?usp=sharing), and be sure to complete each section.\n\na) To copy the template as a Google Slide: Open the template in Google. Then, click on File --> Make a copy... --> and select \"My Drive\" as the destination. This will allow you to edit the template in Google.\n\nb) To copy the template as a Microsoft Powerpoint file: Open the template in Google. Then, click on File >> Download as... >> Microsoft Powerpoint. This will allow you to edit the template as a .pptx file.\n\nWhen you are ready, save your file as a PDF and submit it.\n\nFinally, be sure to convert your answers document into a PDF and submit it below. It's straightforward to convert a Microsoft Word document into a pdf on a PC or Mac. If you used a Google Doc, in Google Docs, simply click on File >> Download as… >> and choose PDF Document.\n\n### Rubric\nYou can reference this project's [rubric](https://review.udacity.com/#!/rubrics/2509/view) to review what your submission should include.\n\n\n\n",
+        "is_public": true,
+        "summary": null,
+        "forum_path": "",
+        "rubric_id": "2509",
+        "terminal_project_id": null,
+        "resources": null,
+        "image": null
+      },
+      "lab": null,
+      "concepts": [
+        {
+          "id": 826921,
+          "key": "34d36db2-370d-43dc-a371-bca65c33d53e",
+          "title": "Project Prep",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "34d36db2-370d-43dc-a371-bca65c33d53e",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826932,
+              "key": "363f680d-afc3-49d8-9e4e-b60ce67417c9",
+              "title": null,
+              "semantic_type": "TextAtom",
+              "is_public": true,
+              "text": "## Project Introduction\n\nAs a Marketing Analyst or Marketing Manager one of your main responsibilities is to interpret and provide reports on the performance of the marketing efforts of your company. As you learned that is an endless amount of data that can be collected. As an analyst it is up to you to par down the data to ensure you are measuring what matters most. An analytic brief is a great way to narrow the focus and establish what you are going to measure and why. In this project you will be crafting an Analytic Brief for the company of your choice.\n\nFor the purpose of this project you are a new employee to the marketing team as an analyst. You’ve been tasked with crafting an Analytics Brief for the company. This is all hypothetical and there is no one right answer. The purpose of the project practice thinking strategically about how to approach your data exploration. \nTo meet specification for this project your project must include the following:\n\n1.  A short description of the company you’ve selected to use for your project. It might be helpful to narrow the scope of the company you’ve selected and focus on one product or service for that business. Here are are few examples and options (the choice is up to you, feel free to select a company that is not listed):\n   * [Tesla](https://www.tesla.com/model3) Branch New York, New York Model 3\n   * [Dropbox Business](https://www.dropbox.com/business)  \n   * [Nike Hyperadapt](https://www.nike.com/us/en_us/c/innovation/hyperadapt) (Self Lacing Shoes) \n   * [Lime Scooters](https://www.li.me/) (In your city)\n   * [Udacity School of Business](https://www.udacity.com/school-of-business) \n2. We’ve provided a template that you may use to present your work. If you choose not to use the template please craft your brief in a Doc or Deck. \n3. Identify what data needs to be captured\n4. Provide suggestions for potential gaps in data\n5. Identify two/three avenues of the funnel \n\nWe’ve provided a [template](https://docs.google.com/presentation/d/1frr3RPZEbUAH7zY_ZqxWQrjXfhe-f8PQBbDKP_XrB7c/edit?usp=sharing) you can use to showcase your work, but don’t let this confine your creativity. Don’t worry if you are missing or unable to find specific information to answer all of the questions, here is where you get to take editorial freedom and craft a story that makes sense based on the company, product, and services. \n",
+              "instructor_notes": ""
+            }
+          ]
+        },
+        {
+          "id": 826933,
+          "key": "61b81e63-4df3-4fad-bc8c-c81fa4274cbb",
+          "title": "Analytics Brief",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "61b81e63-4df3-4fad-bc8c-c81fa4274cbb",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826934,
+              "key": "80867bd7-fb93-4956-a072-018a0a5a7463",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5a78_screen-shot-2019-02-18-at-10.43.06-am/screen-shot-2019-02-18-at-10.43.06-am.png",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/80867bd7-fb93-4956-a072-018a0a5a7463",
+              "caption": "",
+              "alt": "",
+              "width": 1686,
+              "height": 930,
+              "instructor_notes": null
+            }
+          ]
+        },
+        {
+          "id": 826927,
+          "key": "3f1ad67e-6363-44ad-a184-9248afa48f03",
+          "title": "Project Sample ",
+          "semantic_type": "Concept",
+          "is_public": true,
+          "user_state": {
+            "node_key": "3f1ad67e-6363-44ad-a184-9248afa48f03",
+            "completed_at": null,
+            "last_viewed_at": null,
+            "unstructured": null
+          },
+          "resources": null,
+          "atoms": [
+            {
+              "id": 826941,
+              "key": "5c9969aa-da19-4819-8524-6c321366edc9",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b0a_sample-good-project-crafting-an-analytic-brief-template/sample-good-project-crafting-an-analytic-brief-template.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/5c9969aa-da19-4819-8524-6c321366edc9",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 826942,
+              "key": "cb56b384-27b8-4ad4-a666-fd775deb1266",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b18_sample-good-project-crafting-an-analytic-brief-template-1/sample-good-project-crafting-an-analytic-brief-template-1.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/cb56b384-27b8-4ad4-a666-fd775deb1266",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 826943,
+              "key": "95371ae1-79e8-4d58-9624-668f0a6a8884",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b28_sample-good-project-crafting-an-analytic-brief-template-2/sample-good-project-crafting-an-analytic-brief-template-2.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/95371ae1-79e8-4d58-9624-668f0a6a8884",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 826944,
+              "key": "90742447-011e-4224-a978-4350d8faf01d",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b46_sample-good-project-crafting-an-analytic-brief-template-3/sample-good-project-crafting-an-analytic-brief-template-3.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/90742447-011e-4224-a978-4350d8faf01d",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 826945,
+              "key": "c12c6622-1ed6-4870-85b2-c4f098473b89",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b55_sample-good-project-crafting-an-analytic-brief-template-4/sample-good-project-crafting-an-analytic-brief-template-4.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/c12c6622-1ed6-4870-85b2-c4f098473b89",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 826946,
+              "key": "0d388ec0-ca89-414a-af4b-5d235541660b",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b65_sample-good-project-crafting-an-analytic-brief-template-5/sample-good-project-crafting-an-analytic-brief-template-5.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/0d388ec0-ca89-414a-af4b-5d235541660b",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            },
+            {
+              "id": 826948,
+              "key": "91ed3e8c-fa31-4ca9-a0ac-d00bdb745510",
+              "title": null,
+              "semantic_type": "ImageAtom",
+              "is_public": true,
+              "url": "https://video.udacity-data.com/topher/2019/February/5c6b5b78_sample-good-project-crafting-an-analytic-brief-template-6/sample-good-project-crafting-an-analytic-brief-template-6.jpg",
+              "non_google_url": "https://s3.cn-north-1.amazonaws.com.cn/u-img/91ed3e8c-fa31-4ca9-a0ac-d00bdb745510",
+              "caption": "",
+              "alt": "",
+              "width": 960,
+              "height": 540,
+              "instructor_notes": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "_deprecated": [
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    },
+    {
+      "name": "non_google_url",
+      "reason": "(2016/8/18) Not sure, ask i18n team for reason"
+    }
+  ]
+}

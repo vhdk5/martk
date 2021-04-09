@@ -1,0 +1,196 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.605
+Let's talk about analyzing metrics.
+
+00:00:02.605 --> 00:00:08.218
+Earlier, we touched on one component of our analytics process and that was analyzing,
+
+00:00:08.218 --> 00:00:10.844
+but we've only scratched the surface.
+
+00:00:10.845 --> 00:00:12.929
+When it comes to analyzing data,
+
+00:00:12.929 --> 00:00:15.719
+it's actually a fairly deep concept and there's
+
+00:00:15.720 --> 00:00:19.589
+a true methodology by which we want to look at these insights.
+
+00:00:19.589 --> 00:00:22.530
+Now the skill of drawing information out of
+
+00:00:22.530 --> 00:00:26.250
+our datasets is often going to be the result of experience.
+
+00:00:26.250 --> 00:00:28.320
+As you spend more time with the data,
+
+00:00:28.320 --> 00:00:30.449
+you'll get more comfortable at finding
+
+00:00:30.449 --> 00:00:33.479
+connections between all of these different data points.
+
+00:00:33.479 --> 00:00:35.684
+But simply being curious,
+
+00:00:35.685 --> 00:00:38.150
+having an outside the box way of thinking,
+
+00:00:38.149 --> 00:00:42.799
+and figuring out how to see the bigger picture is a great place to start.
+
+00:00:42.799 --> 00:00:45.559
+Analyzing the marketing metrics tells us what is
+
+00:00:45.560 --> 00:00:49.490
+happening but only if we do our analysis properly.
+
+00:00:49.490 --> 00:00:53.719
+Now it's just as likely you'll do a bad analysis on good data
+
+00:00:53.719 --> 00:00:58.954
+as it is you'll do a fantastic analysis on bad or suspect data.
+
+00:00:58.954 --> 00:01:02.554
+It's actually rarely the case that the data itself is bad,
+
+00:01:02.554 --> 00:01:05.885
+but rather the way the data is interpreted.
+
+00:01:05.885 --> 00:01:11.255
+For example, it's easy to mix up a visit and a pageview.
+
+00:01:11.254 --> 00:01:13.819
+A visit is one person arriving whereas
+
+00:01:13.819 --> 00:01:17.449
+a pageview is something that happens every time a page loads.
+
+00:01:17.450 --> 00:01:20.600
+A visitor can have many pageviews.
+
+00:01:20.599 --> 00:01:23.704
+Think about a visitor to our grocery store.
+
+00:01:23.704 --> 00:01:27.280
+They come in and they could look at many products,
+
+00:01:27.280 --> 00:01:30.320
+but that one person has looked at many things.
+
+00:01:30.319 --> 00:01:33.619
+If we instead accidentally modeled our conversion rate on
+
+00:01:33.620 --> 00:01:38.030
+how many products were looked at versus how many people purchased,
+
+00:01:38.030 --> 00:01:41.200
+we'd have a really unrealistic view of what's happening.
+
+00:01:41.200 --> 00:01:44.465
+So the metrics that you use need to be accurate.
+
+00:01:44.465 --> 00:01:48.530
+You need to be using the right data and the right data points.
+
+00:01:48.530 --> 00:01:51.140
+Also, in our analysis process,
+
+00:01:51.140 --> 00:01:53.359
+all of these metrics must be compared.
+
+00:01:53.359 --> 00:01:55.159
+So we start with them being accurate,
+
+00:01:55.159 --> 00:01:58.189
+and then we think about how we compare them.
+
+00:01:58.189 --> 00:02:01.159
+Comparison is important because without it,
+
+00:02:01.159 --> 00:02:04.250
+the metrics will really provide no sense of direction.
+
+00:02:04.250 --> 00:02:06.620
+So in order to generate a comparison,
+
+00:02:06.620 --> 00:02:10.460
+we look at change and context over time.
+
+00:02:10.460 --> 00:02:13.939
+In other words, how does this metric change during
+
+00:02:13.939 --> 00:02:17.389
+a period of time and what is the context of that change?
+
+00:02:17.389 --> 00:02:19.754
+Is it normal or abnormal?
+
+00:02:19.754 --> 00:02:21.224
+So I want to give you an example.
+
+00:02:21.224 --> 00:02:24.289
+Let's say that we open up our store and there are no visitors.
+
+00:02:24.289 --> 00:02:26.929
+The first thing that we have to do is compare that.
+
+00:02:26.930 --> 00:02:28.430
+So if you look to yesterday,
+
+00:02:28.430 --> 00:02:33.830
+is zero less than yesterday or more than yesterday for that same window of time?
+
+00:02:33.830 --> 00:02:35.660
+If we opened up the story yesterday and we had
+
+00:02:35.659 --> 00:02:38.210
+three visitors and today we have zero, well,
+
+00:02:38.210 --> 00:02:42.939
+now we know that the change is we have three less visitors during this same time period.
+
+00:02:42.939 --> 00:02:45.844
+Now we have to ask is that normal or abnormal?
+
+00:02:45.844 --> 00:02:47.689
+To do that, we might have to zoom out.
+
+00:02:47.689 --> 00:02:49.669
+We might need to look at a trend over time.
+
+00:02:49.669 --> 00:02:52.549
+Do we typically have a lot of visitors in the morning?
+
+00:02:52.550 --> 00:02:54.800
+Is today different from other days?
+
+00:02:54.800 --> 00:02:59.255
+Perhaps today is a Saturday and most people aren't coming in this early on a Saturday.
+
+00:02:59.254 --> 00:03:01.579
+So we have to look at the context,
+
+00:03:01.580 --> 00:03:07.020
+we have to zoom out to really understand whether that change is normal or abnormal.
+
+00:03:07.020 --> 00:03:11.780
+Analyzing the data is an exercise that's oftentimes like being a detective.
+
+00:03:11.780 --> 00:03:14.405
+So remember, when you analyze your metrics,
+
+00:03:14.405 --> 00:03:17.015
+you always want to start with accurate metrics.
+
+00:03:17.014 --> 00:03:19.069
+From there, you need to compare them.
+
+00:03:19.069 --> 00:03:22.859
+You have to look at change and context.
+
