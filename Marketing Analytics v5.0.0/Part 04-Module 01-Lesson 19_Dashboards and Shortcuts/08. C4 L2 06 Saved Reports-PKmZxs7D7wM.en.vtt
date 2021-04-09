@@ -1,0 +1,115 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.669
+Let's talk about Saved Reports.
+
+00:00:02.669 --> 00:00:04.799
+Right now I'm in one of
+
+00:00:04.799 --> 00:00:08.939
+the two treemaps reports that are available within Google Analytics.
+
+00:00:08.939 --> 00:00:14.744
+There's a treemaps report for all traffic and a treemaps report specifically for AdWords.
+
+00:00:14.744 --> 00:00:16.980
+We haven't visited these reports yet,
+
+00:00:16.980 --> 00:00:21.420
+but they can be a very useful format for comparing two metrics.
+
+00:00:21.420 --> 00:00:24.660
+One metric is displayed by size of the square
+
+00:00:24.660 --> 00:00:28.285
+and the other metric is displayed by color gradation.
+
+00:00:28.285 --> 00:00:31.804
+Let's change the primary metric to sessions
+
+00:00:31.804 --> 00:00:35.659
+and the secondary metric to e-commerce conversion rate.
+
+00:00:35.659 --> 00:00:41.179
+Now, we can see at a glance which channels are sending significant numbers of sessions,
+
+00:00:41.179 --> 00:00:45.259
+and how those channels are performing in terms of e-commerce conversion rate.
+
+00:00:45.259 --> 00:00:47.899
+A good way to identify high performance or
+
+00:00:47.899 --> 00:00:51.574
+low performance in channels that are sending a lot of traffic.
+
+00:00:51.575 --> 00:00:56.840
+We see that the referral channel is sending a significant number of sessions,
+
+00:00:56.840 --> 00:01:00.940
+and it is performing well in terms of e-commerce conversion rate.
+
+00:01:00.939 --> 00:01:03.289
+We can drill down into referral and get
+
+00:01:03.289 --> 00:01:08.358
+even more insight as to which sources account for the greatest number of referrals,
+
+00:01:08.358 --> 00:01:12.354
+and how those sources are performing in terms of e-commerce conversion rate.
+
+00:01:12.355 --> 00:01:15.500
+Let's say that you wanted to make sure to refer to this report
+
+00:01:15.500 --> 00:01:18.920
+configured as is at any later time,
+
+00:01:18.920 --> 00:01:21.439
+you wouldn't have to find the report again and manually
+
+00:01:21.439 --> 00:01:25.579
+reconstruct the configuration that you currently have.
+
+00:01:25.579 --> 00:01:29.375
+What you could do is click Save, enter a name.
+
+00:01:29.375 --> 00:01:35.105
+Let's call this treemaps channels sessions versus e-commerce conversion rate.
+
+00:01:35.105 --> 00:01:36.530
+Click Okay.
+
+00:01:36.530 --> 00:01:39.394
+Now, we could navigate away from this report.
+
+00:01:39.394 --> 00:01:42.170
+Now, we can click Customization,
+
+00:01:42.170 --> 00:01:47.615
+Saved Reports, and here's the exact report configuration that we have saved.
+
+00:01:47.614 --> 00:01:50.689
+Notice that all of the same settings are still in place.
+
+00:01:50.689 --> 00:01:55.834
+So, if you get a report looking exactly the way you want in terms of display,
+
+00:01:55.834 --> 00:01:59.284
+drill down, filtering, or segments,
+
+00:01:59.284 --> 00:02:03.859
+you can save the report and refer to it again anytime down the road.
+
+00:02:03.859 --> 00:02:08.224
+Notice that there is not an option for sharing saved reports
+
+00:02:08.224 --> 00:02:13.159
+because saved reports can have a dependency on a segment that's applied,
+
+00:02:13.159 --> 00:02:16.384
+and not all users have access to the same segments.
+
+00:02:16.384 --> 00:02:22.439
+Therefore, saved reports are truly a personal asset within Google Analytics.
+

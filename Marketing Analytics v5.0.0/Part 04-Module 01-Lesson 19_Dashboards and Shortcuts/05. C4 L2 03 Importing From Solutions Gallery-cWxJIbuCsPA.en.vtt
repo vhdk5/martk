@@ -1,0 +1,139 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.715
+In the previous section,
+
+00:00:01.715 --> 00:00:07.495
+we saw the option to import from gallery when we were creating a new dashboard.
+
+00:00:07.495 --> 00:00:09.669
+If we click import from gallery,
+
+00:00:09.669 --> 00:00:14.830
+we see the Google Analytics Solutions Gallery appear in a modal window.
+
+00:00:14.830 --> 00:00:17.140
+Let's give ourselves a little more room to work with.
+
+00:00:17.140 --> 00:00:20.830
+Let's just close out of this modal window for now,
+
+00:00:20.829 --> 00:00:26.799
+open up a new tab and search for Google Analytics Solutions Gallery.
+
+00:00:26.800 --> 00:00:28.330
+Let's click Browse.
+
+00:00:28.329 --> 00:00:31.929
+There are many selections that we could make in the left panel.
+
+00:00:31.929 --> 00:00:36.829
+We can filter by type of asset we want to import the configuration for.
+
+00:00:36.829 --> 00:00:41.214
+Some of these assets will probably be a little more useful than others.
+
+00:00:41.215 --> 00:00:44.210
+To me, something like a goal or
+
+00:00:44.210 --> 00:00:49.100
+a channel grouping is probably a little too individualized for me to want to import.
+
+00:00:49.100 --> 00:00:56.135
+Potentially attribution model, definitely channel grouping, dashboard, and segments.
+
+00:00:56.134 --> 00:01:00.589
+Those are really the classic shareable Google Analytics configurations.
+
+00:01:00.590 --> 00:01:05.284
+On the top we see Occam's Razor Awesomeness from our friend Avinash.
+
+00:01:05.284 --> 00:01:06.979
+If we click import,
+
+00:01:06.980 --> 00:01:08.960
+let's note a couple of things here.
+
+00:01:08.959 --> 00:01:12.439
+One is that we're being asked to view that we want to import
+
+00:01:12.439 --> 00:01:15.920
+these configurations into and we're not importing any data.
+
+00:01:15.920 --> 00:01:17.600
+Just the configurations.
+
+00:01:17.599 --> 00:01:20.269
+That will work with the data in the view.
+
+00:01:20.269 --> 00:01:24.829
+Also notice we can import many configurations at one time.
+
+00:01:24.829 --> 00:01:27.709
+There are a number of segments and custom reports
+
+00:01:27.709 --> 00:01:31.430
+and one dashboard included in this one import.
+
+00:01:31.430 --> 00:01:35.845
+You can deselect any assets that you don't want to include in the import.
+
+00:01:35.844 --> 00:01:37.605
+Let's cancel out of this for now,
+
+00:01:37.605 --> 00:01:40.505
+and let's look at some other options for filtering.
+
+00:01:40.504 --> 00:01:44.599
+We can also filter by category, custom reports,
+
+00:01:44.599 --> 00:01:50.584
+dashboards, and segments certainly can have a specific category focus.
+
+00:01:50.584 --> 00:01:53.000
+Let's select site optimization.
+
+00:01:53.000 --> 00:01:56.599
+Let's import the site performance dashboard
+
+00:01:56.599 --> 00:02:00.079
+from another one of our Google Analytics friends, Justin Cutroni.
+
+00:02:00.079 --> 00:02:02.239
+We can import directly from here.
+
+00:02:02.239 --> 00:02:06.839
+Select a view, what's important to the Master View of the merchandise store.
+
+00:02:06.840 --> 00:02:09.830
+We don't have to worry about importing into a test view first
+
+00:02:09.830 --> 00:02:13.535
+because none of these assets will alter the underlying report data.
+
+00:02:13.534 --> 00:02:16.900
+So now, we have a site performance dashboard.
+
+00:02:16.900 --> 00:02:20.750
+If you did decide that this dashboard wasn't right for you,
+
+00:02:20.750 --> 00:02:24.080
+you can either edit it or you could delete it.
+
+00:02:24.080 --> 00:02:25.610
+No harm done at all.
+
+00:02:25.610 --> 00:02:29.150
+Make sure to experiment with importing custom reports
+
+00:02:29.150 --> 00:02:33.090
+and dashboards and segments from the Solutions Gallery.
+
+00:02:33.090 --> 00:02:35.420
+It's always good to get ideas and
+
+00:02:35.419 --> 00:02:38.739
+inspirations from others in the Google Analytics community.
+

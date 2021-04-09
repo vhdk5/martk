@@ -1,0 +1,268 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.375
+When we first clicked into the dashboards panel
+
+00:00:03.375 --> 00:00:07.054
+in the main view of the merchandise store property,
+
+00:00:07.054 --> 00:00:09.449
+we saw several shared views.
+
+00:00:09.449 --> 00:00:15.619
+Shared views are created by one user and shared with other users who access the view.
+
+00:00:15.619 --> 00:00:18.509
+Let's see how we would share a dashboard that we've created.
+
+00:00:18.510 --> 00:00:23.100
+You do need to have a collaborate access to the view to share a dashboard.
+
+00:00:23.100 --> 00:00:27.560
+If you click Share at the top of a dashboard and you see share object,
+
+00:00:27.559 --> 00:00:31.574
+this means that you do have collaborate access and you can
+
+00:00:31.574 --> 00:00:35.879
+share the dashboard to be viewed by anyone who does access the view.
+
+00:00:35.880 --> 00:00:39.719
+Share object is a little bit of an unexpected name,
+
+00:00:39.719 --> 00:00:45.140
+but this does just mean share the dashboard for anyone who accesses the view.
+
+00:00:45.140 --> 00:00:50.270
+Let's talk about sharing outside of the view by exporting or by emailing.
+
+00:00:50.270 --> 00:00:53.225
+We can export or email built-in reports,
+
+00:00:53.225 --> 00:00:55.975
+or customer reports, or dashboards.
+
+00:00:55.975 --> 00:00:59.960
+The export and email features are fairly straightforward.
+
+00:00:59.960 --> 00:01:04.295
+Let's check them out in our Ecommerce by Country custom report.
+
+00:01:04.295 --> 00:01:07.775
+For export, we have the option of PDF Google Sheets,
+
+00:01:07.775 --> 00:01:10.000
+Excel, and CSV format.
+
+00:01:10.000 --> 00:01:11.444
+If we click Share,
+
+00:01:11.444 --> 00:01:13.174
+this is the email feature.
+
+00:01:13.174 --> 00:01:16.399
+We can share as PDF, Excel, or CSV.
+
+00:01:16.400 --> 00:01:20.300
+Notice that we can set up the email to be recurring.
+
+00:01:20.299 --> 00:01:23.045
+We could send it one time only or we could pick
+
+00:01:23.045 --> 00:01:26.375
+an interval anywhere from daily to quarterly.
+
+00:01:26.375 --> 00:01:30.170
+I believe that this is actually the only instance in
+
+00:01:30.170 --> 00:01:34.564
+the GUI where we do see quarterly as an option for a time interval.
+
+00:01:34.564 --> 00:01:42.539
+Let's say I'm going to send this to manager@xyz.com monthly.
+
+00:01:42.540 --> 00:01:45.680
+Note that when you click Send for a scheduled email,
+
+00:01:45.680 --> 00:01:47.000
+you're not sending right now.
+
+00:01:47.000 --> 00:01:49.030
+You're scheduling the email to go out.
+
+00:01:49.030 --> 00:01:52.250
+If you do ever want to cancel that email,
+
+00:01:52.250 --> 00:01:53.915
+you can go into the Admin,
+
+00:01:53.915 --> 00:01:56.945
+Scheduled Emails, and Delete.
+
+00:01:56.944 --> 00:02:00.004
+The scheduling of dashboards, custom reports,
+
+00:02:00.004 --> 00:02:03.699
+and built-in reports is a useful and important feature
+
+00:02:03.700 --> 00:02:08.629
+because it allows you to more easily keep different stakeholders involved.
+
+00:02:08.629 --> 00:02:13.625
+You're not going to think of all the questions that you need to on your own.
+
+00:02:13.625 --> 00:02:16.909
+You want to keep other stakeholders involved with
+
+00:02:16.909 --> 00:02:19.310
+different perspectives and different questions
+
+00:02:19.310 --> 00:02:22.310
+for different types of analysis and insight.
+
+00:02:22.310 --> 00:02:26.569
+The reason that it's recommended to use dashboards and custom reports for
+
+00:02:26.569 --> 00:02:31.324
+your scheduled emails is that you can make them very customized to each stakeholder.
+
+00:02:31.324 --> 00:02:35.419
+We definitely don't want to send the same information to everyone.
+
+00:02:35.419 --> 00:02:38.750
+These are some examples of the types of data that we
+
+00:02:38.750 --> 00:02:42.319
+would want to surface for different roles within our organization.
+
+00:02:42.319 --> 00:02:45.530
+A designer or a developer would not be as
+
+00:02:45.530 --> 00:02:49.265
+interested in the same things as a social media manager.
+
+00:02:49.264 --> 00:02:54.454
+Notice that the format I'm suggesting here is not a built-in report.
+
+00:02:54.455 --> 00:02:59.120
+We're going to be able to do a better job of sending relevant reports to
+
+00:02:59.120 --> 00:03:04.284
+different stakeholders if we use a dashboard or a custom report.
+
+00:03:04.284 --> 00:03:09.409
+Let's consider other ways to export Google Analytics data or at least to view
+
+00:03:09.409 --> 00:03:15.034
+Google Analytics data outside of GA. We want to remember visualization tools,
+
+00:03:15.034 --> 00:03:18.770
+especially Data Studio, which makes it so easy for us
+
+00:03:18.770 --> 00:03:23.135
+to pull in Google Analytics data and visualize it in different ways.
+
+00:03:23.134 --> 00:03:27.054
+So, we're not so much exporting to Data Studio,
+
+00:03:27.055 --> 00:03:29.990
+but we definitely can surface Google Analytics data
+
+00:03:29.990 --> 00:03:33.715
+richly in Data Studio as another environment.
+
+00:03:33.715 --> 00:03:38.689
+Another export option that will check out is the Google Analytics Spreadsheet Add-on
+
+00:03:38.689 --> 00:03:43.655
+that will provide additional flexibility for getting GA data into Google Sheets.
+
+00:03:43.655 --> 00:03:45.860
+We're in an empty Google Sheet.
+
+00:03:45.860 --> 00:03:49.655
+I'm going to click Add-ons, Get add-ons.
+
+00:03:49.655 --> 00:03:52.520
+This is the Google Analytics Spreadsheet Add-on.
+
+00:03:52.520 --> 00:03:57.485
+Add. Allow. Now in our Add-ons menu,
+
+00:03:57.485 --> 00:04:01.760
+we have the Google Analytics Spreadsheet option: Create new report.
+
+00:04:01.759 --> 00:04:05.974
+You do need edit access to the view that you do want to read from.
+
+00:04:05.974 --> 00:04:08.495
+For dimensions, let's say,
+
+00:04:08.495 --> 00:04:13.205
+Source/Medium, Metrics, Sessions, Bounce Rate.
+
+00:04:13.205 --> 00:04:15.469
+I'll just do something very basic.
+
+00:04:15.469 --> 00:04:17.269
+We can add segments as well.
+
+00:04:17.269 --> 00:04:21.875
+We want to stay aware of sampling if we do at segments.
+
+00:04:21.875 --> 00:04:24.290
+We'll just call the report Source/Medium.
+
+00:04:24.290 --> 00:04:27.620
+Click Create Report to create the configuration.
+
+00:04:27.620 --> 00:04:30.730
+Click again on Add-ons, Google Analytics,
+
+00:04:30.730 --> 00:04:35.370
+and we could either schedule the report to run at a regular interval,
+
+00:04:35.370 --> 00:04:37.035
+we'll cancel out of this for now,
+
+00:04:37.035 --> 00:04:39.525
+or run the report right now.
+
+00:04:39.524 --> 00:04:44.139
+Note that you can't have more than one report configuration per sheet,
+
+00:04:44.139 --> 00:04:49.599
+which can be a good way to pull in data from multiple GA views at one time.
+
+00:04:49.600 --> 00:04:52.685
+To learn more about the Google Analytics Spreadsheet plugin,
+
+00:04:52.685 --> 00:04:55.100
+search for Google Analytics Spreadsheet Add-on,
+
+00:04:55.100 --> 00:04:57.875
+and there's some good additional information here.
+
+00:04:57.875 --> 00:05:01.795
+Also, as you're putting together your exports,
+
+00:05:01.795 --> 00:05:05.884
+you can refer to the Google Analytics Dimensions and Metrics Explorer.
+
+00:05:05.884 --> 00:05:09.050
+This is a listing of all of the dimensions and metrics that are
+
+00:05:09.050 --> 00:05:14.360
+available through the API and through the Google Analytics UI.
+
+00:05:14.360 --> 00:05:17.449
+So, for instance, instead of searching through the UI for
+
+00:05:17.449 --> 00:05:21.170
+the goal dimensions and metrics that you could export,
+
+00:05:21.170 --> 00:05:25.560
+you can list them out in the Dimensions and Metrics Explorer.
+
