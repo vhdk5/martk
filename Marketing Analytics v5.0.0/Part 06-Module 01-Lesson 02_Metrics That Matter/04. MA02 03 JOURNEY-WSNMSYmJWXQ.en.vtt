@@ -1,0 +1,190 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.180
+A lot of online marketing revolves around
+
+00:00:03.180 --> 00:00:06.689
+encouraging a direct response from a perspective customer.
+
+00:00:06.690 --> 00:00:09.179
+We'll show them an advertisement, a tweet,
+
+00:00:09.179 --> 00:00:12.059
+or a special offer via an email and then measure
+
+00:00:12.060 --> 00:00:15.525
+success based on the click and the subsequent conversion.
+
+00:00:15.525 --> 00:00:19.304
+This is what's referred to as last click attribution.
+
+00:00:19.304 --> 00:00:23.070
+The entire value of the customers conversion is placed on
+
+00:00:23.070 --> 00:00:27.089
+the marketing channel or campaign that delivered that customer.
+
+00:00:27.089 --> 00:00:29.739
+Last click attribution is easy to measure,
+
+00:00:29.739 --> 00:00:33.640
+because it involves a very clear process that the user takes.
+
+00:00:33.640 --> 00:00:37.234
+However, this is typically a very flawed method.
+
+00:00:37.234 --> 00:00:40.685
+We know that customers take a much larger journey.
+
+00:00:40.685 --> 00:00:46.179
+So it's irresponsible if we focus our marketing analytics efforts on that last click.
+
+00:00:46.179 --> 00:00:49.325
+The path the customer takes through your funnel could be a loop,
+
+00:00:49.325 --> 00:00:51.605
+a spiral, a zigzag, and so on.
+
+00:00:51.604 --> 00:00:56.154
+They can dart in and out of your funnels and others seem to just appear.
+
+00:00:56.155 --> 00:00:59.600
+The time they spend at each step is variable and
+
+00:00:59.600 --> 00:01:04.790
+some consumers may inexplicably spend time in each step simultaneously.
+
+00:01:04.790 --> 00:01:09.620
+Perhaps they're hovering over the checkout button while reassessing whether they're sure,
+
+00:01:09.620 --> 00:01:11.670
+they're in the right place.
+
+00:01:11.890 --> 00:01:16.129
+We can't perfectly model human behavior with
+
+00:01:16.129 --> 00:01:22.399
+a two-dimensional image of a funnel or the customer journey. Think about it this way.
+
+00:01:22.400 --> 00:01:26.660
+Have you ever tried to use a different brands loyalty card at a grocery store.
+
+00:01:26.659 --> 00:01:30.950
+So you're at one store and you're trying to use the card for another or
+
+00:01:30.950 --> 00:01:36.260
+perhaps you put in your branded gas card at the wrong gas station.
+
+00:01:36.260 --> 00:01:39.590
+You're now immediately aware that you've trick yourself into
+
+00:01:39.590 --> 00:01:42.939
+going down the wrong path to purchase at the wrong place.
+
+00:01:42.939 --> 00:01:46.784
+You've ignored the signs but it's almost the same thing.
+
+00:01:46.784 --> 00:01:51.034
+Then you toss your loyalty out the window and make the purchase anyway.
+
+00:01:51.034 --> 00:01:55.149
+What I'm getting at is that the customer path is really illogical,
+
+00:01:55.150 --> 00:01:56.780
+and if you really start to think about
+
+00:01:56.780 --> 00:02:00.500
+all the various avenues by which a customer comes to purchase,
+
+00:02:00.500 --> 00:02:02.694
+it's going to be really complex.
+
+00:02:02.694 --> 00:02:05.389
+That's why when it comes to marketing analytics,
+
+00:02:05.390 --> 00:02:08.810
+we need to simplify it by thinking about things as they
+
+00:02:08.810 --> 00:02:13.199
+relate to the buyer's mindset and how that maps to our funnel.
+
+00:02:13.199 --> 00:02:17.149
+Our goal is just to look at the most common paths.
+
+00:02:17.150 --> 00:02:19.700
+We're setting everything up with our analytics in
+
+00:02:19.699 --> 00:02:22.669
+anticipation of a user going through each step,
+
+00:02:22.669 --> 00:02:25.224
+and when we do this we'll capture the majority.
+
+00:02:25.224 --> 00:02:28.444
+We'll be ready to measure those who zig and those who zag,
+
+00:02:28.444 --> 00:02:31.009
+and we'll let the analytics tools fill in the gaps.
+
+00:02:31.009 --> 00:02:33.799
+We're not terribly concerned if a user skips
+
+00:02:33.800 --> 00:02:37.085
+a blog article or if they didn't sign up for our email campaign.
+
+00:02:37.085 --> 00:02:39.575
+So long as they have the opportunity,
+
+00:02:39.574 --> 00:02:43.429
+we measured it, and that they eventually make that purchase.
+
+00:02:43.430 --> 00:02:48.034
+So the framework by which we're evaluating the buyer, this marketing funnel,
+
+00:02:48.034 --> 00:02:50.659
+this journey is meant to be flexible,
+
+00:02:50.659 --> 00:02:53.465
+and it's meant to be measured in a flexible manner.
+
+00:02:53.465 --> 00:02:56.750
+We really just want to describe the most common path.
+
+00:02:56.750 --> 00:02:59.555
+So don't feel overwhelmed if you can't attribute
+
+00:02:59.555 --> 00:03:02.705
+a measurement for every possible journey or touch point.
+
+00:03:02.705 --> 00:03:05.120
+Your goal is to cover the big picture.
+
+00:03:05.120 --> 00:03:07.474
+In doing so, you're still going to support
+
+00:03:07.474 --> 00:03:12.094
+the erratic customer who bounces around your funnel like a pinball.
+
+00:03:12.094 --> 00:03:15.995
+We call what we're building the reference experience.
+
+00:03:15.995 --> 00:03:18.530
+That is how the customer wants to navigate,
+
+00:03:18.530 --> 00:03:21.169
+not necessarily how you're currently set up for
+
+00:03:21.169 --> 00:03:24.409
+the average customer in your target segment.
+
+00:03:24.409 --> 00:03:27.530
+So when it comes to picking data across the journey,
+
+00:03:27.530 --> 00:03:28.805
+which we're going to do in a bit,
+
+00:03:28.805 --> 00:03:33.330
+just think about the most simplified and most common paths.
+

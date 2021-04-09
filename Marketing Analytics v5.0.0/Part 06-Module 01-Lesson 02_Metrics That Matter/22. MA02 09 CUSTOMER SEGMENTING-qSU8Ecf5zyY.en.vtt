@@ -1,0 +1,259 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.625
+We've talked a lot about looking at data,
+
+00:00:02.625 --> 00:00:06.929
+capturing metrics, and how to work through ways to solve what we want to measure.
+
+00:00:06.929 --> 00:00:09.390
+But when it comes to putting those metrics to work,
+
+00:00:09.390 --> 00:00:12.660
+well, we need to add in another layer of complexity.
+
+00:00:12.660 --> 00:00:15.250
+We talk a lot about segmenting and marketing.
+
+00:00:15.250 --> 00:00:20.565
+So it's time that we evaluate how we begin to measure our customer segments.
+
+00:00:20.565 --> 00:00:23.570
+Consumer segment is really a way of dividing up
+
+00:00:23.570 --> 00:00:27.155
+your consumers into different groups of like people.
+
+00:00:27.155 --> 00:00:29.150
+We may have many segments,
+
+00:00:29.149 --> 00:00:31.820
+and these segments can all perform differently.
+
+00:00:31.820 --> 00:00:37.734
+So really, we need to begin to measure how one segment performs against a piece of data.
+
+00:00:37.734 --> 00:00:40.835
+We may have a lifetime value that is different
+
+00:00:40.835 --> 00:00:44.570
+for each segment of consumers that come to our business.
+
+00:00:44.570 --> 00:00:46.594
+Let's get on the same page.
+
+00:00:46.594 --> 00:00:50.570
+Segmentation is really a process of taxonomy.
+
+00:00:50.570 --> 00:00:53.689
+It's a way that we divide something into parts, and really,
+
+00:00:53.689 --> 00:00:57.574
+it's a way that we begin to separate the market into sub-markets.
+
+00:00:57.575 --> 00:01:00.380
+Generally, within a consumer segment,
+
+00:01:00.380 --> 00:01:04.525
+you have homogeneous within, and heterogeneous between.
+
+00:01:04.525 --> 00:01:07.359
+This really means that good segments are going to have
+
+00:01:07.359 --> 00:01:10.420
+customers that are all very similar within that segment,
+
+00:01:10.420 --> 00:01:13.840
+and very dissimilar to customers of other segments.
+
+00:01:13.840 --> 00:01:16.780
+We can have segments based on attributes of customers,
+
+00:01:16.780 --> 00:01:18.754
+such as those that we looked at earlier,
+
+00:01:18.754 --> 00:01:21.420
+ones who'd like sports or fitness.
+
+00:01:21.420 --> 00:01:25.930
+We may also have segments based on very simple business rules.
+
+00:01:25.930 --> 00:01:32.140
+For example, you might view your segment as those that use your product a lot,
+
+00:01:32.140 --> 00:01:34.739
+a little bit, very little,
+
+00:01:34.739 --> 00:01:36.299
+or not at all.
+
+00:01:36.299 --> 00:01:40.244
+Alternatively, you get segment based on recency,
+
+00:01:40.245 --> 00:01:42.939
+frequency, and monetary variables.
+
+00:01:42.939 --> 00:01:45.250
+How recently did a customer purchase?
+
+00:01:45.250 --> 00:01:48.109
+How frequently does a customer purchase?
+
+00:01:48.109 --> 00:01:50.775
+How much did they spend?
+
+00:01:50.775 --> 00:01:53.535
+We could take those consumer groups,
+
+00:01:53.534 --> 00:01:55.244
+those that frequent purchase,
+
+00:01:55.245 --> 00:01:57.210
+those that spend a lot,
+
+00:01:57.209 --> 00:01:59.244
+or those that we see often,
+
+00:01:59.245 --> 00:02:01.070
+and create segments for them.
+
+00:02:01.069 --> 00:02:03.494
+Segments are important in marketing,
+
+00:02:03.495 --> 00:02:06.454
+and just as important in our marketing analytics.
+
+00:02:06.454 --> 00:02:09.530
+If we can find all the people that are alike, well,
+
+00:02:09.530 --> 00:02:13.340
+then we can assume that their behaviors are also very much alike.
+
+00:02:13.340 --> 00:02:16.250
+So when we measure things and make decisions,
+
+00:02:16.250 --> 00:02:21.664
+we can expect that those decisions impact that entire group similarly.
+
+00:02:21.664 --> 00:02:23.509
+Take abandonment for example,
+
+00:02:23.509 --> 00:02:25.039
+or churn, or cancellation,
+
+00:02:25.039 --> 00:02:29.144
+or any metric that suggests customers are leaving your funnel.
+
+00:02:29.145 --> 00:02:31.805
+That metric exists as an aggregate.
+
+00:02:31.805 --> 00:02:35.420
+So you can say, "Our business has a 10 percent churn rate."
+
+00:02:35.419 --> 00:02:39.229
+In other words, we can expect for every 10 customers we get,
+
+00:02:39.229 --> 00:02:41.284
+to have one of them go away.
+
+00:02:41.284 --> 00:02:44.509
+But what if we slice that data by segment?
+
+00:02:44.509 --> 00:02:49.280
+What have we discovered, that customers who use our product five times,
+
+00:02:49.280 --> 00:02:51.185
+there are in a high-use segment,
+
+00:02:51.185 --> 00:02:53.780
+have only a one percent churn rate.
+
+00:02:53.780 --> 00:02:56.140
+Well, that tells us a completely different story.
+
+00:02:56.139 --> 00:02:57.629
+Now, just as we said,
+
+00:02:57.629 --> 00:03:00.375
+there is no one size of framework.
+
+00:03:00.375 --> 00:03:03.500
+There is no one size fits all customer.
+
+00:03:03.500 --> 00:03:05.854
+By understanding these segments,
+
+00:03:05.854 --> 00:03:09.619
+we can really look at data in a more granular fashion,
+
+00:03:09.620 --> 00:03:11.870
+while still making it actionable.
+
+00:03:11.870 --> 00:03:13.310
+With that churn rate,
+
+00:03:13.310 --> 00:03:17.330
+we know that we can invest in ways to influence other customer groups,
+
+00:03:17.330 --> 00:03:18.875
+maybe the medium use groups,
+
+00:03:18.875 --> 00:03:21.800
+to arrive at higher usage of our product,
+
+00:03:21.800 --> 00:03:24.370
+because we know that if we can move them into that group,
+
+00:03:24.370 --> 00:03:26.615
+the churn rate will go down.
+
+00:03:26.615 --> 00:03:31.025
+I can't take action on the results of an individual person.
+
+00:03:31.025 --> 00:03:32.780
+That's why segmentation is important.
+
+00:03:32.780 --> 00:03:34.640
+If we look at one person,
+
+00:03:34.639 --> 00:03:36.109
+that's far too granular.
+
+00:03:36.110 --> 00:03:38.645
+So we need to take them as a group so that we can
+
+00:03:38.645 --> 00:03:42.050
+understand the similar behaviors that link them together.
+
+00:03:42.050 --> 00:03:45.320
+Now, segments reveal themselves differently.
+
+00:03:45.319 --> 00:03:47.989
+You may have a segment sensitive to price,
+
+00:03:47.990 --> 00:03:51.290
+a segment that prefers a particular marketing channel,
+
+00:03:51.289 --> 00:03:55.129
+or a segment that requires a certain style of communication.
+
+00:03:55.129 --> 00:03:59.509
+Start thinking about how you can layer segmentation into your analytics.
+
+00:03:59.509 --> 00:04:01.429
+What insights might it provide?
+
+00:04:01.430 --> 00:04:03.080
+What will it reveal?
+
+00:04:03.080 --> 00:04:05.840
+The more data that we can attribute to a segment,
+
+00:04:05.840 --> 00:04:08.719
+the better decisions we can make in influencing
+
+00:04:08.719 --> 00:04:12.719
+that segment to achieve our marketing objectives.
+

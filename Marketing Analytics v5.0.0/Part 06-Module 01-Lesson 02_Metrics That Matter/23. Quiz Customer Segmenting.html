@@ -1,0 +1,454 @@
+<!-- udacity2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Quiz: Customer Segmenting</title>
+  <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/css/plyr.css">
+  <link rel="stylesheet" href="../assets/css/katex.min.css">
+  <link rel="stylesheet" href="../assets/css/jquery.mCustomScrollbar.min.css">
+  <link rel="stylesheet" href="../assets/css/styles.css">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/udacimak.png" />
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav id="sidebar">
+  <div class="sidebar-header">
+    <h3>Metrics That Matter</h3>
+  </div>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled components">
+    <li class="">
+      <a href="01. Intro.html">01. Intro</a>
+    </li>
+    <li class="">
+      <a href="02. Metrics That Matter.html">02. Metrics That Matter</a>
+    </li>
+    <li class="">
+      <a href="03. Quiz Metrics That Matter.html">03. Quiz: Metrics That Matter</a>
+    </li>
+    <li class="">
+      <a href="04. Measuring Across the Journey.html">04. Measuring Across the Journey</a>
+    </li>
+    <li class="">
+      <a href="05. Quiz Measuring Across the Journey.html">05. Quiz: Measuring Across the Journey</a>
+    </li>
+    <li class="">
+      <a href="06. The Analytic Brief.html">06. The Analytic Brief</a>
+    </li>
+    <li class="">
+      <a href="07. Text The Analytic Brief.html">07. Text: The Analytic Brief</a>
+    </li>
+    <li class="">
+      <a href="08. Quiz The Analytic Brief.html">08. Quiz: The Analytic Brief</a>
+    </li>
+    <li class="">
+      <a href="09. Business Story.html">09. Business Story</a>
+    </li>
+    <li class="">
+      <a href="10. Text Analytic Brief Business Story.html">10. Text: Analytic Brief Business Story</a>
+    </li>
+    <li class="">
+      <a href="11. Quiz Business Story.html">11. Quiz: Business Story</a>
+    </li>
+    <li class="">
+      <a href="12. Customer Story.html">12. Customer Story</a>
+    </li>
+    <li class="">
+      <a href="13. Text Analytic Brief Customer Story.html">13. Text: Analytic Brief Customer Story</a>
+    </li>
+    <li class="">
+      <a href="14. Quiz Customer Story.html">14. Quiz: Customer Story</a>
+    </li>
+    <li class="">
+      <a href="15. Text Customer Journey.html">15. Text: Customer Journey</a>
+    </li>
+    <li class="">
+      <a href="16. Testing &amp; Learning Plan.html">16. Testing &amp; Learning Plan</a>
+    </li>
+    <li class="">
+      <a href="17. Text Testing &amp; Learning Plan.html">17. Text: Testing &amp; Learning Plan</a>
+    </li>
+    <li class="">
+      <a href="18. Quiz Testing &amp; Learning.html">18. Quiz: Testing &amp; Learning</a>
+    </li>
+    <li class="">
+      <a href="19. Template Analytics Brief.html">19. Template: Analytics Brief</a>
+    </li>
+    <li class="">
+      <a href="20. Recap Business Story.html">20. Recap Business Story</a>
+    </li>
+    <li class="">
+      <a href="21. Quiz Analytic Brief.html">21. Quiz: Analytic Brief</a>
+    </li>
+    <li class="">
+      <a href="22. Customer Segmenting.html">22. Customer Segmenting</a>
+    </li>
+    <li class="">
+      <a href="23. Quiz Customer Segmenting.html">23. Quiz: Customer Segmenting</a>
+    </li>
+    <li class="">
+      <a href="24. Common Tools.html">24. Common Tools</a>
+    </li>
+    <li class="">
+      <a href="25. Quiz Common Tools.html">25. Quiz: Common Tools</a>
+    </li>
+    <li class="">
+      <a href="26. Social &amp; Web Monitoring Tools.html">26. Social &amp; Web Monitoring Tools</a>
+    </li>
+    <li class="">
+      <a href="27. Social &amp; Web Monitoring Tools Expanded.html">27. Social &amp; Web Monitoring Tools Expanded</a>
+    </li>
+    <li class="">
+      <a href="28. Quiz Social &amp; Web Monitoring Tools.html">28. Quiz: Social &amp; Web Monitoring Tools</a>
+    </li>
+    <li class="">
+      <a href="29. Search Analytics Tools.html">29. Search Analytics Tools</a>
+    </li>
+    <li class="">
+      <a href="30. Search Analytics Tools Expanded.html">30. Search Analytics Tools Expanded</a>
+    </li>
+    <li class="">
+      <a href="31. Quiz Search Analytics Tools.html">31. Quiz: Search Analytics Tools</a>
+    </li>
+    <li class="">
+      <a href="32. Audience Analytics Tools.html">32. Audience Analytics Tools</a>
+    </li>
+    <li class="">
+      <a href="33. Audience Analytics Quiz.html">33. Audience Analytics Quiz</a>
+    </li>
+    <li class="">
+      <a href="34. Content Analytics Tools.html">34. Content Analytics Tools</a>
+    </li>
+    <li class="">
+      <a href="35. Content Analytics Tools Expanded.html">35. Content Analytics Tools Expanded</a>
+    </li>
+    <li class="">
+      <a href="36. Quiz Content Analytics Tools.html">36. Quiz: Content Analytics Tools</a>
+    </li>
+    <li class="">
+      <a href="37. Summary of Lesson.html">37. Summary of Lesson</a>
+    </li>
+  </ul>
+
+  <ul class="sidebar-list list-unstyled CTAs">
+    <li>
+      <a href="../index.html" class="article">Back to Home</a>
+    </li>
+  </ul>
+</nav>
+
+    <div id="content">
+      <header class="container-fluild header">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="align-items-middle">
+                <button type="button" id="sidebarCollapse" class="btn btn-toggle-sidebar">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </button>
+
+                <h1 style="display: inline-block">23. Quiz: Customer Segmenting</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What is a consumer segment?</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1550561668150" name="827122" id="a1550561668150">
+        <label for="a1550561668150"><p>A taxonomy of every consumer in your market </p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561696422" name="827122" id="a1550561696422">
+        <label for="a1550561696422"><p>A list of consumers that are not similar </p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561697197" name="827122" id="a1550561697197">
+        <label for="a1550561697197"><p>A sub-group of consumers with many similarities </p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561698044" name="827122" id="a1550561698044">
+        <label for="a1550561698044"><p>A taxonomy of every consumer outside of your market</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    A sub-group of consumers with many similarities 
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p>What attribute is true of a good customer segment? </p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1550561775498" name="827123" id="a1550561775498">
+        <label for="a1550561775498"><p>Customers are very similar within their segment, and dissimilar to other segments</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561786884" name="827123" id="a1550561786884">
+        <label for="a1550561786884"><p>Customers are very dissimilar in their segment, and similar to other segments     </p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561787663" name="827123" id="a1550561787663">
+        <label for="a1550561787663"><p>Customers are very similar within their segment, and similar to other segments     </p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561788386" name="827123" id="a1550561788386">
+        <label for="a1550561788386"><p>Customers are very dissimilar in their segment, and dissimilar to other segments</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    Customers are very similar within their segment, and dissimilar to other segments
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p><strong>(Fill in the blank)</strong> You can have segments based on <code>_________</code> of customers or based on simple business <code>_______</code>.</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1550561836759" name="827124" id="a1550561836759">
+        <label for="a1550561836759"><p>Attributes, Rules</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561865290" name="827124" id="a1550561865290">
+        <label for="a1550561865290"><p>Groups, Rules</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561866291" name="827124" id="a1550561866291">
+        <label for="a1550561866291"><p>Attributes, Groups</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561867026" name="827124" id="a1550561867026">
+        <label for="a1550561867026"><p>Rules, Attributes</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    Attributes, Rules
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p><strong>True/False</strong>: If we can find all the people that are alike, we can assume that their behaviors are also very much alike</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1550561940676" name="827125" id="a1550561940676">
+        <label for="a1550561940676"><p>True</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550561960064" name="827125" id="a1550561960064">
+        <label for="a1550561960064"><p>False</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    True
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p><strong>True/False</strong>: There is a one-size-fits-all customer. </p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1550561976719" name="827126" id="a1550561976719">
+        <label for="a1550561976719"><p>True</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550562003171" name="827126" id="a1550562003171">
+        <label for="a1550562003171"><p>False</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    False
+  </details>
+</div>
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3><p>Reflect</p></h3>
+  <div>
+  <p><strong>QUESTION: </strong></p>
+  <p>Explain why you think the average order value could change between different customer segments? </p>
+
+  <details>
+    <summary><strong>ANSWER:</strong></summary>
+    <p><p><strong>Example</strong>: Because we could have high-value customers, that order lots of items from us and we could have low-value customers that only order one item. We may have high-income consumers and low-income consumers, and their behaviors will vary.</p></p>
+  </details>
+</div>
+
+
+</div>
+<div class="divider"></div><div class="ud-atom">
+  <h3></h3>
+  <div>
+  <form>
+    <fieldset>
+      <legend><p><strong>True/False</strong>: Segmentation gives us granular data that is not actionable</p></legend>
+    </fieldset>
+
+      <div>
+        <input type="radio" value="a1550562056347" name="827128" id="a1550562056347">
+        <label for="a1550562056347"><p>True</p></label>
+      </div>
+      <div>
+        <input type="radio" value="a1550562086762" name="827128" id="a1550562086762">
+        <label for="a1550562086762"><p>False</p></label>
+      </div>
+  </form>
+
+  <details>
+    <summary><strong>SOLUTION:</strong></summary>
+    False
+  </details>
+</div>
+
+</div>
+<div class="divider"></div>
+          </div>
+
+          <div class="col-12">
+            <p class="text-right">
+              <a href="24. Common Tools.html" class="btn btn-outline-primary mt-4" role="button">Next Concept</a>
+            </p>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <p class="text-center">
+                <a href="https://us-udacity.github.io/" target="_blank">【udacity2.0 】If you need more courses, please add wechat：udacity6</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+
+
+  <script src="../assets/js/jquery-3.3.1.min.js"></script>
+  <script src="../assets/js/plyr.polyfilled.min.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+  <script src="../assets/js/katex.min.js"></script>
+  <script>
+    // Initialize Plyr video players
+    const players = Array.from(document.querySelectorAll('video')).map(p => new Plyr(p));
+
+    // render math equations
+    let elMath = document.getElementsByClassName('mathquill');
+    for (let i = 0, len = elMath.length; i < len; i += 1) {
+      const el = elMath[i];
+
+      katex.render(el.textContent, el, {
+        throwOnError: false
+      });
+    }
+
+    // this hack will make sure Bootstrap tabs work when using Handlebars
+    if ($('#question-tabs').length && $('#user-answer-tabs').length) {
+      $("#question-tabs a.nav-link").on('click', function () {
+        $("#question-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+      $("#user-answer-tabs a.nav-link").on('click', function () {
+        $("#user-answer-tab-contents .tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    } else {
+      $("a.nav-link").on('click', function () {
+        $(".tab-pane").hide();
+        $($(this).attr("href")).show();
+      });
+    }
+
+    // side bar events
+    $(document).ready(function () {
+      $("#sidebar").mCustomScrollbar({
+        theme: "minimal"
+      });
+
+      $('#sidebarCollapse').on('click', function () {
+        $('#sidebar, #content').toggleClass('active');
+        $('.collapse.in').toggleClass('in');
+        $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+      });
+
+      // scroll to first video on page loading
+      if ($('video').length) {
+        $('html,body').animate({ scrollTop: $('div.plyr').prev().offset().top});
+      }
+
+      // auto play first video: this may not work with chrome/safari due to autoplay policy
+      if (players && players.length > 0) {
+        players[0].play();
+      }
+
+      // scroll sidebar to current concept
+      const currentInSideBar = $( "ul.sidebar-list.components li a:contains('23. Quiz: Customer Segmenting')" )
+      currentInSideBar.css( "text-decoration", "underline" );
+      $("#sidebar").mCustomScrollbar('scrollTo', currentInSideBar);
+    });
+  </script>
+</body>
+
+</html>
