@@ -1,0 +1,307 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.819
+Now that we've helped navigate how to best
+
+00:00:02.819 --> 00:00:05.699
+determine the conditions for some of your custom alerts,
+
+00:00:05.700 --> 00:00:08.759
+we'll move back to the Google merchandise Store demo account,
+
+00:00:08.759 --> 00:00:13.289
+where we've looked through their analytics to come up with a good candidate for an alert.
+
+00:00:13.289 --> 00:00:15.524
+Because this is an e-commerce site,
+
+00:00:15.525 --> 00:00:17.170
+we started by looking at revenue,
+
+00:00:17.170 --> 00:00:19.975
+because that tends to be one of the most important metrics.
+
+00:00:19.975 --> 00:00:23.120
+Look at what happened to this revenue stream,
+
+00:00:23.120 --> 00:00:26.394
+going back to what looks like March.
+
+00:00:26.394 --> 00:00:30.710
+Now, this is a trend that was begging to be noticed and corrected,
+
+00:00:30.710 --> 00:00:33.484
+and which we will now set up an alert to prevent it from
+
+00:00:33.484 --> 00:00:36.424
+ever going unnoticed again. Think about it.
+
+00:00:36.424 --> 00:00:38.599
+None of the possible causes here a good.
+
+00:00:38.600 --> 00:00:41.170
+Website issues like a broken shopping cart,
+
+00:00:41.170 --> 00:00:44.500
+poor SEO, old products that aren't exciting.
+
+00:00:44.500 --> 00:00:48.740
+Now, natural thought is that maybe this is due to a seasonal trend,
+
+00:00:48.740 --> 00:00:50.664
+it's spring when it starts.
+
+00:00:50.664 --> 00:00:53.810
+Now, that's something we can easily check just to make sure,
+
+00:00:53.810 --> 00:00:58.530
+and we do that by comparing this to the prior year.
+
+00:00:58.570 --> 00:01:01.299
+Now, this is really telling.
+
+00:01:01.299 --> 00:01:04.519
+Despite the fact that the two years look relatively different,
+
+00:01:04.519 --> 00:01:08.088
+we do see that last year there was this trend of relative stability,
+
+00:01:08.088 --> 00:01:09.575
+while during this year,
+
+00:01:09.575 --> 00:01:11.555
+we've had this significant drop,
+
+00:01:11.555 --> 00:01:14.270
+which was predicated by this other drop.
+
+00:01:14.269 --> 00:01:16.390
+We also see that last year,
+
+00:01:16.390 --> 00:01:18.859
+it turned something around in June,
+
+00:01:18.859 --> 00:01:23.394
+where we are just continuing the flounder during the current year.
+
+00:01:23.394 --> 00:01:25.209
+Now, if this is my site,
+
+00:01:25.209 --> 00:01:27.299
+I've seen enough to confirm that moving forward,
+
+00:01:27.299 --> 00:01:31.054
+I want some notification about any other kind of drop here.
+
+00:01:31.055 --> 00:01:37.405
+To do this, we begin by going to the customization menu and selecting "Custom Alerts".
+
+00:01:37.405 --> 00:01:42.465
+Similarly, you can access custom alerts by going into
+
+00:01:42.465 --> 00:01:45.710
+the "Admin" settings under the "View" because these
+
+00:01:45.709 --> 00:01:49.564
+are configured at the view level and clicking "Custom Alerts".
+
+00:01:49.564 --> 00:01:53.239
+You'll see that we have no alerts for this view established,
+
+00:01:53.239 --> 00:01:57.170
+which we're going to go ahead and we're going to create a new one.
+
+00:01:57.170 --> 00:02:00.400
+First thing that we're going to need to figure out is what to name it.
+
+00:02:00.400 --> 00:02:04.020
+Now, we know that this is going to be based on revenue,
+
+00:02:04.019 --> 00:02:06.289
+we know this is going to be based on a decline.
+
+00:02:06.290 --> 00:02:11.930
+We can see the names of some other custom alerts that have been created and deprecated,
+
+00:02:11.930 --> 00:02:14.800
+but we don't see one just like ours.
+
+00:02:14.800 --> 00:02:19.830
+Revenue decline week over week,
+
+00:02:19.830 --> 00:02:24.115
+for us, it's 10 percent or more.
+
+00:02:24.115 --> 00:02:26.340
+Now, because we're working in the master view,
+
+00:02:26.340 --> 00:02:28.430
+it's automatically going to be applied here.
+
+00:02:28.430 --> 00:02:30.349
+If we wanted to add it to any other views,
+
+00:02:30.349 --> 00:02:32.074
+we could also do that at the same time.
+
+00:02:32.074 --> 00:02:34.549
+We're not going to do that in this case.
+
+00:02:34.550 --> 00:02:38.480
+We know that this refers to a period of a week.
+
+00:02:38.479 --> 00:02:40.614
+We want this by email.
+
+00:02:40.615 --> 00:02:45.050
+Now, when this is "Send me an email" then 'me' is actually referring to whoever is logged
+
+00:02:45.050 --> 00:02:49.880
+in whatever Google account is being used to access analytics at this time.
+
+00:02:49.879 --> 00:02:54.409
+We have the opportunity to add other email addresses here and to configure
+
+00:02:54.409 --> 00:02:59.280
+our mobile phones for text messaging alerts if we choose to do them.
+
+00:02:59.280 --> 00:03:01.909
+All right, let's get to the conditions.
+
+00:03:01.909 --> 00:03:05.840
+We know that this is going to apply to all traffic at the point
+
+00:03:05.840 --> 00:03:10.754
+when revenue has a percentage decrease.
+
+00:03:10.754 --> 00:03:12.884
+Now, we want to catch it at 10 percent,
+
+00:03:12.884 --> 00:03:14.854
+so we're going to put nine percent here.
+
+00:03:14.854 --> 00:03:17.599
+When the decrease is more than nine percent,
+
+00:03:17.599 --> 00:03:21.604
+which for us we want it to start at 10 percent compared to the previous week,
+
+00:03:21.604 --> 00:03:24.264
+we go ahead and we click "Save Alert".
+
+00:03:24.264 --> 00:03:28.259
+It says success and now it appears here.
+
+00:03:28.259 --> 00:03:29.974
+So, that's it.
+
+00:03:29.974 --> 00:03:34.699
+Google Analytics will now monitor our data and when these conditions fall into place,
+
+00:03:34.699 --> 00:03:37.729
+generate the notification to be sent to us usually the next day.
+
+00:03:37.729 --> 00:03:43.219
+Now, editing and deleting custom alerts is done from here as well.
+
+00:03:43.219 --> 00:03:46.055
+If you wanted to go ahead and edit this,
+
+00:03:46.055 --> 00:03:47.900
+you would just click on it,
+
+00:03:47.900 --> 00:03:50.990
+make your changes and click "Save".
+
+00:03:50.990 --> 00:03:54.485
+If you decided that you didn't want the alert peer anymore,
+
+00:03:54.485 --> 00:03:56.270
+go ahead and click "Remove",
+
+00:03:56.270 --> 00:03:59.750
+it would ask you to confirm and you would click "Okay".
+
+00:03:59.750 --> 00:04:05.689
+Clients sometimes ask how often to expect alerts and I tell them that ideally,
+
+00:04:05.689 --> 00:04:07.969
+you'll expect every alert you'll get.
+
+00:04:07.969 --> 00:04:09.349
+If that's the case,
+
+00:04:09.349 --> 00:04:12.349
+then you have an idea of the cause of an alert once you see it in
+
+00:04:12.349 --> 00:04:16.495
+your inbox and consent about confirming that cause and effect relationship.
+
+00:04:16.495 --> 00:04:19.774
+It's important not to assume it's correct.
+
+00:04:19.774 --> 00:04:22.474
+If you get an alert that you're not expecting,
+
+00:04:22.475 --> 00:04:24.379
+it's important not to overreact,
+
+00:04:24.379 --> 00:04:26.735
+whether it's a positive or a negative.
+
+00:04:26.735 --> 00:04:28.895
+Often with a little bit of looking,
+
+00:04:28.894 --> 00:04:31.909
+you'll see it that while perhaps unexpected and alert was
+
+00:04:31.910 --> 00:04:35.435
+triggered by easily explainable factors like seasonality.
+
+00:04:35.435 --> 00:04:38.209
+But you do need to compare to seasonal trends from
+
+00:04:38.209 --> 00:04:42.099
+previous years if your GA data goes back 13 months or more.
+
+00:04:42.100 --> 00:04:47.000
+Or otherwise, track down the cost till you really know what's happening in your data.
+
+00:04:47.000 --> 00:04:50.209
+All of the products, product features, hints,
+
+00:04:50.209 --> 00:04:54.109
+and tools that we've covered in this course are intended to help you manage
+
+00:04:54.110 --> 00:04:59.660
+your data and get the most out of it in a streamlined and as clear away as possible.
+
+00:04:59.660 --> 00:05:02.270
+Understanding that the problems that are most
+
+00:05:02.269 --> 00:05:04.805
+likely to be fixed are those that are noticed,
+
+00:05:04.805 --> 00:05:09.500
+it's always important to strive for simplicity in your implementation and clarity
+
+00:05:09.500 --> 00:05:14.524
+in your presentation and to keep looking for ways to optimize your approach.
+
+00:05:14.524 --> 00:05:17.659
+As you are learning and experience increase,
+
+00:05:17.660 --> 00:05:21.064
+you'll identify more and more ways to do this.
+
+00:05:21.064 --> 00:05:27.185
+Keeping the most important data visible and contextualized maximizes the potential impact
+
+00:05:27.185 --> 00:05:29.480
+for Google Analytics to make a difference for
+
+00:05:29.480 --> 00:05:33.890
+your website and the goals that you're trying to achieve with it.
+

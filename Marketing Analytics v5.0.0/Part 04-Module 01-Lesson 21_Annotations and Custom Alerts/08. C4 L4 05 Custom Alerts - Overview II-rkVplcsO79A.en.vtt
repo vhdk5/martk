@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.915
+The custom alerts you choose to configure will ultimately depend
+
+00:00:03.915 --> 00:00:07.634
+on the types and volume of traffic you have and other variables.
+
+00:00:07.634 --> 00:00:11.699
+So it helps to think about metrics based on a few major areas.
+
+00:00:11.699 --> 00:00:15.000
+Overall usage; this refers to visits,
+
+00:00:15.000 --> 00:00:18.434
+visitors, page views, time on-page, and bounce rate.
+
+00:00:18.434 --> 00:00:22.289
+E-commerce metrics; conversions, transactions,
+
+00:00:22.289 --> 00:00:24.824
+and revenue come to mind immediately.
+
+00:00:24.824 --> 00:00:28.019
+Goals; If you have goals configured,
+
+00:00:28.019 --> 00:00:31.919
+you would usually want to know about changes and your goal conversion rates.
+
+00:00:31.920 --> 00:00:35.130
+We recommend at a minimum that you begin by
+
+00:00:35.130 --> 00:00:39.000
+monitoring for these areas if they were applicable to your implementation,
+
+00:00:39.000 --> 00:00:42.119
+and here are some ideas for how to get started.
+
+00:00:42.119 --> 00:00:44.334
+For overall site usage,
+
+00:00:44.335 --> 00:00:49.954
+begin with monitoring for a 10 percent weekly increase or decrease in total sessions.
+
+00:00:49.954 --> 00:00:51.949
+You can then go in and troubleshoot for
+
+00:00:51.950 --> 00:00:55.310
+example what channels are seeing a dip in performance.
+
+00:00:55.310 --> 00:01:00.170
+This is often easier than setting up custom alerts for the performance of every channel.
+
+00:01:00.170 --> 00:01:02.355
+If you're engaging in e-commerce,
+
+00:01:02.354 --> 00:01:05.599
+consider alerts for a 10 percent weekly increase or
+
+00:01:05.599 --> 00:01:08.905
+decrease in both conversion rate and revenue,
+
+00:01:08.905 --> 00:01:10.599
+and if you set up goals,
+
+00:01:10.599 --> 00:01:14.509
+it implies a level of importance that you get conversions for them.
+
+00:01:14.510 --> 00:01:18.065
+Begin by monitoring for a 10 percent weekly increase
+
+00:01:18.064 --> 00:01:22.000
+or decrease in goal conversion rate for each of your goals.
+
+00:01:22.000 --> 00:01:25.385
+Or you can use goal value as a proxy for
+
+00:01:25.385 --> 00:01:28.340
+actual goal completions if you have goal value
+
+00:01:28.340 --> 00:01:32.000
+configured as Eric demonstrated in a previous lesson.
+
+00:01:32.000 --> 00:01:34.370
+As you get to know your data,
+
+00:01:34.370 --> 00:01:37.579
+you may need to go in and adjust some of these conditions.
+
+00:01:37.579 --> 00:01:41.344
+We've provided them to you here as just a basic starting point.
+
+00:01:41.344 --> 00:01:43.969
+Now that you have some guidance in hand to help you
+
+00:01:43.969 --> 00:01:46.810
+determine what custom alerts you should consider creating,
+
+00:01:46.810 --> 00:01:49.710
+we're going to head into the interface and set one up,
+
+00:01:49.709 --> 00:01:55.619
+so you can see exactly how easy it is once you've done a little bit of earlier work.
+

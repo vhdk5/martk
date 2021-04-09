@@ -1,0 +1,175 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.629
+Our next concept seems very simple and it is,
+
+00:00:03.629 --> 00:00:05.070
+but it holds the potential to be
+
+00:00:05.070 --> 00:00:08.699
+a tremendous time-saver and can become an excellent first place
+
+00:00:08.699 --> 00:00:11.250
+to look for answers to questions about changes
+
+00:00:11.250 --> 00:00:14.519
+that you observe in your Google Analytics Data.
+
+00:00:14.519 --> 00:00:18.689
+Proper and consistent use of the annotations function,
+
+00:00:18.690 --> 00:00:21.420
+which allows you to leave notes that are date stamped in
+
+00:00:21.420 --> 00:00:26.550
+Google analytics can provide a historical record of occurrences, events, initiatives,
+
+00:00:26.550 --> 00:00:29.894
+and changes both internal and external, intentional,
+
+00:00:29.894 --> 00:00:35.894
+and accidental that could impact how your data looks and is reflected in your reports.
+
+00:00:35.895 --> 00:00:39.600
+We know that there's a timeline on the audience overview.
+
+00:00:39.600 --> 00:00:41.454
+So, let's quickly go there.
+
+00:00:41.454 --> 00:00:43.909
+So, here's our timeline graph.
+
+00:00:43.909 --> 00:00:47.149
+Here, you can see that some annotations exist because
+
+00:00:47.149 --> 00:00:50.719
+of these little word bubbles that exist on the timeline.
+
+00:00:50.719 --> 00:00:52.225
+I wonder what they say.
+
+00:00:52.225 --> 00:00:53.820
+Well we're going to find out.
+
+00:00:53.820 --> 00:00:56.179
+But first we want to talk about and list for you
+
+00:00:56.179 --> 00:01:01.189
+some potential instances when leaving annotations might be best warranted.
+
+00:01:01.189 --> 00:01:06.700
+You and your team can use annotations to help explain changes that occur in your data.
+
+00:01:06.700 --> 00:01:11.795
+So, anything that stands to cause a spike or a drop is an excellent candidate.
+
+00:01:11.795 --> 00:01:18.349
+These include, new marketing campaigns or instances of ongoing campaigns such as email,
+
+00:01:18.349 --> 00:01:22.844
+design and development changes on your site, new products,
+
+00:01:22.844 --> 00:01:25.730
+mass media marketing, and changes to
+
+00:01:25.730 --> 00:01:30.755
+your actual GA implementation such as creating filters or goals.
+
+00:01:30.754 --> 00:01:34.729
+Now, those are some examples of things that you want to cause a spike.
+
+00:01:34.730 --> 00:01:38.990
+But what about some things that might cause your data to dip for a period of time?
+
+00:01:38.989 --> 00:01:42.064
+Minutes can make a difference in some instances,
+
+00:01:42.064 --> 00:01:44.480
+but what about hours or days?
+
+00:01:44.480 --> 00:01:46.910
+If any of the following things occur,
+
+00:01:46.909 --> 00:01:51.979
+we recommend you go into Google Analytics and create an annotation to record it.
+
+00:01:51.980 --> 00:01:53.870
+You'll be glad you did.
+
+00:01:53.870 --> 00:02:00.325
+If you experience server issues from short-term to a complete website outage altogether,
+
+00:02:00.325 --> 00:02:02.755
+go ahead and get that recorded.
+
+00:02:02.754 --> 00:02:08.810
+Anything that occurs that causes user sentiment about your brand can drop or spike.
+
+00:02:08.810 --> 00:02:13.340
+For example a poor or excellent earnings report for a big company,
+
+00:02:13.340 --> 00:02:16.895
+or negative or positive PR incident that goes viral.
+
+00:02:16.895 --> 00:02:20.510
+These are things that can cause changes that you'll want to be able to put
+
+00:02:20.509 --> 00:02:25.024
+your fingertips on when you notice the dips are spikes in your data.
+
+00:02:25.025 --> 00:02:28.189
+We're also aware of some organizations that make
+
+00:02:28.189 --> 00:02:31.819
+annotations around production shutdowns that they have;
+
+00:02:31.819 --> 00:02:34.250
+known seasonality surrounding their products or
+
+00:02:34.250 --> 00:02:38.569
+services and even holidays that impact website traffic.
+
+00:02:38.569 --> 00:02:41.449
+It's simple notes like these that can often be
+
+00:02:41.449 --> 00:02:44.089
+especially overlooked when looking at data dips.
+
+00:02:44.090 --> 00:02:47.270
+Because the first thing that we tend to do when we see a data dip,
+
+00:02:47.270 --> 00:02:50.945
+is go to the worst and unforeseen kinds of explanations.
+
+00:02:50.944 --> 00:02:54.109
+This can save you from heading down that rabbit hole.
+
+00:02:54.110 --> 00:02:57.860
+Using annotations can be a hard habit to get into,
+
+00:02:57.860 --> 00:02:59.930
+because you're certain in the moment that you'll just
+
+00:02:59.930 --> 00:03:03.064
+remember the causes for these spikes and these dips.
+
+00:03:03.064 --> 00:03:06.379
+But given the pace of our lives and this industry,
+
+00:03:06.379 --> 00:03:09.889
+is just not humanly possible for most people to do that.
+
+00:03:09.889 --> 00:03:13.519
+Our advice is always to record these occurrences as
+
+00:03:13.520 --> 00:03:19.310
+annotations where you can always find reference and context exactly where you need it,
+
+00:03:19.310 --> 00:03:22.189
+along the date and the Google Analytics interface,
+
+00:03:22.189 --> 00:03:25.530
+no matter how far in the future you might need it.
+

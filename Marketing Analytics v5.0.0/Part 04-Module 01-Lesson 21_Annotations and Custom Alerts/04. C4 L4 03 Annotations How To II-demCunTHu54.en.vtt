@@ -1,0 +1,232 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.520
+Let's go through how we can create,
+
+00:00:02.520 --> 00:00:05.174
+edit, and delete our own annotations.
+
+00:00:05.174 --> 00:00:08.309
+From scratch, you could begin by just simply
+
+00:00:08.310 --> 00:00:11.970
+clicking the little down tab under the timeline.
+
+00:00:11.970 --> 00:00:14.910
+You'll see the list of annotations that we already
+
+00:00:14.910 --> 00:00:18.405
+have which we'll also see the option to create a new annotation.
+
+00:00:18.405 --> 00:00:20.580
+You want to select the date that you want
+
+00:00:20.579 --> 00:00:22.619
+the annotation to be associated with, and again,
+
+00:00:22.620 --> 00:00:27.585
+that date has to exist in the range that you've selected with the date range selector.
+
+00:00:27.585 --> 00:00:30.089
+Let's go ahead and do July 15th,
+
+00:00:30.089 --> 00:00:33.270
+because it's there and we'll call this a test
+
+00:00:33.270 --> 00:00:39.990
+annotation for excellent students exclamation point.
+
+00:00:39.990 --> 00:00:42.195
+Go ahead and click "Save."
+
+00:00:42.195 --> 00:00:45.965
+You'll see that it appends itself by date range,
+
+00:00:45.965 --> 00:00:48.680
+so if we had made this say for July 5th,
+
+00:00:48.679 --> 00:00:52.854
+it would have put a self between the 4th and the 9th.
+
+00:00:52.854 --> 00:00:57.154
+Now, deleting and editing annotations is similarly intuitive,
+
+00:00:57.155 --> 00:00:59.240
+because I created all of these I do have
+
+00:00:59.240 --> 00:01:01.850
+control over editing them and deleting them from here.
+
+00:01:01.850 --> 00:01:06.750
+We'll go ahead and delete.
+
+00:01:06.920 --> 00:01:10.909
+We'll go back to March so we can catch our fun one.
+
+00:01:10.909 --> 00:01:16.564
+Pretty sure that this Ides of March Office Decor Sale was not a real thing.
+
+00:01:16.564 --> 00:01:20.814
+We'll go ahead and edit,
+
+00:01:20.814 --> 00:01:23.810
+and here you see the option to delete.
+
+00:01:23.810 --> 00:01:25.534
+It's going to ask you if you're sure,
+
+00:01:25.534 --> 00:01:28.519
+yes we are, and we'll get rid of it.
+
+00:01:28.519 --> 00:01:33.670
+Let's just say that I realized that I didn't want to use the word excellent,
+
+00:01:33.670 --> 00:01:36.430
+let me go ahead and click "Edit."
+
+00:01:36.439 --> 00:01:39.569
+We can go ahead and change anything that we want in here,
+
+00:01:39.569 --> 00:01:42.559
+you can even change the date and re-associate it with another date if you want
+
+00:01:42.560 --> 00:01:47.375
+to and make that awesome students and click "Save."
+
+00:01:47.375 --> 00:01:49.995
+That's it. Now remember,
+
+00:01:49.995 --> 00:01:54.290
+nothing that we just did is going to impact anyone because these were
+
+00:01:54.290 --> 00:01:59.015
+all private for me and made up and only I could see them.
+
+00:01:59.015 --> 00:02:03.109
+This may be very different than what you're dealing with depending
+
+00:02:03.109 --> 00:02:05.179
+on what your permissions are and whether or not
+
+00:02:05.180 --> 00:02:07.385
+you choose to share your annotations with others,
+
+00:02:07.385 --> 00:02:09.469
+so proceed with appropriate caution.
+
+00:02:09.469 --> 00:02:14.359
+Well, there are some considerations about functionality that are helpful to know
+
+00:02:14.360 --> 00:02:17.000
+as you begin working with annotations and before we leave
+
+00:02:17.000 --> 00:02:20.090
+the subject to move on the custom alerts which is next.
+
+00:02:20.090 --> 00:02:23.360
+The first is if there isn't currently a way to timestamp
+
+00:02:23.360 --> 00:02:28.120
+an annotation with a day or with an hour or a minute.
+
+00:02:28.120 --> 00:02:31.530
+Or to set one that spans a range of dates and
+
+00:02:31.530 --> 00:02:35.224
+the annotation may only be associated with one specific date.
+
+00:02:35.224 --> 00:02:40.449
+Second, you may have noticed when you create a new annotation.
+
+00:02:40.449 --> 00:02:46.189
+If the interface limits you to 160 characters per annotation and this provides you with
+
+00:02:46.189 --> 00:02:49.009
+a paradox to navigate and that is how to be clear
+
+00:02:49.009 --> 00:02:52.324
+and explicit while being required to be brief.
+
+00:02:52.324 --> 00:02:54.709
+That's right. Our recommendation is that you be as
+
+00:02:54.710 --> 00:02:57.530
+specific as you can in those 160 characters
+
+00:02:57.530 --> 00:03:02.905
+because the more specific you are now the more helpful it will be farther down the road.
+
+00:03:02.905 --> 00:03:07.069
+Now, you'll likely immediately turn to using abbreviations and acronyms.
+
+00:03:07.069 --> 00:03:08.254
+Just a quick note,
+
+00:03:08.254 --> 00:03:10.250
+make sure that they're ones that are
+
+00:03:10.250 --> 00:03:14.330
+well-known to the potential audience who'll be looking at your annotations.
+
+00:03:14.330 --> 00:03:19.070
+If you have your own acronym that you use for something that nobody knows what it means,
+
+00:03:19.069 --> 00:03:21.109
+putting it in here is not going to be helpful.
+
+00:03:21.110 --> 00:03:24.515
+That's a place to use up some of your characters and be more explicit.
+
+00:03:24.514 --> 00:03:28.259
+The last thing to consider is that when you export,
+
+00:03:28.259 --> 00:03:31.370
+let's say we wanted to export this report to a PDF.
+
+00:03:31.370 --> 00:03:34.325
+This is going to take a few moments.
+
+00:03:34.324 --> 00:03:39.289
+Here we go. You can see now that our report has rendered and downloaded.
+
+00:03:39.289 --> 00:03:41.014
+We go ahead and open this.
+
+00:03:41.014 --> 00:03:44.029
+You will see that nowhere does the text from any
+
+00:03:44.030 --> 00:03:47.134
+of our annotations exist on the export of this report.
+
+00:03:47.134 --> 00:03:50.239
+All of it shows are the texts bubbles to let you
+
+00:03:50.240 --> 00:03:53.555
+know that there are annotations for those states.
+
+00:03:53.555 --> 00:03:56.150
+Creating and editing annotations is
+
+00:03:56.150 --> 00:04:00.245
+an important component of maintaining a healthy GA implementation.
+
+00:04:00.245 --> 00:04:04.909
+But also remember that when you have access to others analytics you should be checking
+
+00:04:04.909 --> 00:04:09.889
+their annotations too as a potential first-place to answer your questions.
+
+00:04:09.889 --> 00:04:13.084
+If they've done a good job with their annotations,
+
+00:04:13.085 --> 00:04:17.329
+the simple bits of functionality will save you a tremendous amount of
+
+00:04:17.329 --> 00:04:20.584
+complicated digging leaving you time to see to
+
+00:04:20.584 --> 00:04:24.620
+other aspects of your implementation and analysis.
+

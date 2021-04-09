@@ -1,0 +1,130 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.459
+Now it's time to go back into the Google Analytics Interface and look under the hood.
+
+00:00:05.459 --> 00:00:09.719
+We'll start by checking out the annotations that we teased about earlier,
+
+00:00:09.720 --> 00:00:14.230
+and then demonstrate creating and editing your own annotations.
+
+00:00:14.230 --> 00:00:16.899
+You remember these three texts bubbles from earlier.
+
+00:00:16.899 --> 00:00:22.719
+Well, each of them corresponds to an annotation that's been made to a date in this range.
+
+00:00:22.719 --> 00:00:24.949
+These bubbles are the only visual cue,
+
+00:00:24.949 --> 00:00:27.530
+that some information is aligned to these dates.
+
+00:00:27.530 --> 00:00:31.200
+We can pull down this little tab, and they will show up.
+
+00:00:31.199 --> 00:00:33.320
+Another way to get them to show up is to actually just,
+
+00:00:33.320 --> 00:00:34.609
+click on one of them.
+
+00:00:34.609 --> 00:00:37.369
+But there is something important to remember, and that is that,
+
+00:00:37.369 --> 00:00:41.839
+the only annotations that are included in your selected date range,
+
+00:00:41.840 --> 00:00:43.490
+will show up on this list.
+
+00:00:43.490 --> 00:00:45.785
+This is not an all-inclusive list,
+
+00:00:45.784 --> 00:00:47.073
+that you can scroll,
+
+00:00:47.073 --> 00:00:50.274
+to go backwards or forwards from the date range that you've selected.
+
+00:00:50.274 --> 00:00:56.254
+So, for example, if we wanted to see if there were any annotations made in March,
+
+00:00:56.255 --> 00:01:00.020
+we would actually have to widen our date range,
+
+00:01:00.020 --> 00:01:01.865
+with the date range selector.
+
+00:01:01.865 --> 00:01:07.019
+Let Google Analytics do its thing, and check again.
+
+00:01:07.019 --> 00:01:11.655
+Sure enough, there is a annotation that was made on March 15th,
+
+00:01:11.655 --> 00:01:13.605
+about the Ides of March clearance sale.
+
+00:01:13.605 --> 00:01:15.585
+We'll take care of that later.
+
+00:01:15.584 --> 00:01:18.789
+Now, you've probably noticed that,
+
+00:01:18.790 --> 00:01:21.760
+all of these are marked as private.
+
+00:01:21.760 --> 00:01:24.760
+Private is one of the two types of annotations.
+
+00:01:24.760 --> 00:01:26.530
+It means that, only I,
+
+00:01:26.530 --> 00:01:29.064
+who is the person who created these annotations,
+
+00:01:29.064 --> 00:01:30.560
+will be able to see them.
+
+00:01:30.560 --> 00:01:32.409
+These are all marked as private,
+
+00:01:32.409 --> 00:01:34.450
+due to limited access given to us,
+
+00:01:34.450 --> 00:01:37.760
+as users of the Google Analytics Merchandise Store.
+
+00:01:37.760 --> 00:01:42.730
+However, when you have Collaborate Access to a Google Analytics view,
+
+00:01:42.730 --> 00:01:44.799
+you'll be able to choose the option to create
+
+00:01:44.799 --> 00:01:47.939
+the second kind of annotation, which is shared.
+
+00:01:47.939 --> 00:01:54.614
+Shared annotations can be seen by any GA users who have access to a properties reports.
+
+00:01:54.614 --> 00:01:56.494
+That can be a diverse audience.
+
+00:01:56.495 --> 00:01:59.375
+So it's important to be mindful of what you're sharing.
+
+00:01:59.375 --> 00:02:04.310
+Also, while annotations are shared across reports in the same view,
+
+00:02:04.310 --> 00:02:06.939
+they are not shared among views in the same property.
+
+00:02:06.939 --> 00:02:10.069
+So, make sure everyone is making their annotations,
+
+00:02:10.069 --> 00:02:14.099
+in the organizations designated main working view.
+

@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.240
+In addition to recording context for your data by
+
+00:00:03.240 --> 00:00:06.134
+using the annotations function in Google Analytics,
+
+00:00:06.134 --> 00:00:09.480
+you can also implement a feature called custom alerts
+
+00:00:09.480 --> 00:00:13.410
+to help monitor your analytics for changes in your data.
+
+00:00:13.410 --> 00:00:18.390
+Custom alerts are notifications that are triggered when certain data thresholds are
+
+00:00:18.390 --> 00:00:23.115
+realized or trans identified based on conditions that you choose.
+
+00:00:23.114 --> 00:00:26.939
+This provides a convenient automated method for you to be notified
+
+00:00:26.940 --> 00:00:31.260
+when something happens in your data that might require your attention.
+
+00:00:31.260 --> 00:00:34.230
+We're going to talk about what you need to know about
+
+00:00:34.229 --> 00:00:36.899
+your own data to create effective alerts,
+
+00:00:36.899 --> 00:00:39.210
+help you narrow down some metrics that might make
+
+00:00:39.210 --> 00:00:41.850
+sense for you to monitor depending on your site,
+
+00:00:41.850 --> 00:00:44.510
+and give you a sample set of alerts that you can work
+
+00:00:44.509 --> 00:00:47.599
+from if you're really having a hard time getting started.
+
+00:00:47.600 --> 00:00:50.870
+As you'll see, you can set up custom alerts for
+
+00:00:50.869 --> 00:00:55.009
+almost any metric and dimension combination in Google Analytics,
+
+00:00:55.009 --> 00:00:57.379
+and that can be a bit overwhelming.
+
+00:00:57.380 --> 00:01:00.980
+Even though configuring these alerts is pretty straightforward,
+
+00:01:00.979 --> 00:01:04.594
+it's best if you do a little bit of planning ahead of time.
+
+00:01:04.594 --> 00:01:08.120
+For now, we're going to have you begin thinking about
+
+00:01:08.120 --> 00:01:11.219
+some potential conditions that you'd want to be alerted for,
+
+00:01:11.219 --> 00:01:15.094
+and we'll see if you can make a custom alert for exactly that.
+
+00:01:15.094 --> 00:01:17.914
+Some examples for you to think about are;
+
+00:01:17.915 --> 00:01:21.484
+what filter and metric combinations are important?
+
+00:01:21.484 --> 00:01:27.064
+How big or small does the change need to be in order for it to be important to you?
+
+00:01:27.064 --> 00:01:31.159
+Does this condition need to be checked or compared daily?
+
+00:01:31.159 --> 00:01:33.784
+Weekly? Or monthly?
+
+00:01:33.784 --> 00:01:37.819
+You're trying to get the ultimate combination of notifications you
+
+00:01:37.819 --> 00:01:42.409
+need at the right interval to ensure that you can take action.
+
+00:01:42.409 --> 00:01:46.968
+But before you get carried away setting up dozens of daily alerts,
+
+00:01:46.968 --> 00:01:50.000
+let's talk a little bit about alert timing.
+
+00:01:50.000 --> 00:01:56.840
+Many users mistakenly create too many and too frequent alerts especially daily ones,
+
+00:01:56.840 --> 00:02:00.980
+based on a mistaken assumption that alerts are generated in real time,
+
+00:02:00.980 --> 00:02:02.930
+that's not the case.
+
+00:02:02.930 --> 00:02:06.305
+Custom alerts are typically generated and sent
+
+00:02:06.305 --> 00:02:09.770
+at the end of the period in which the conditions were met,
+
+00:02:09.770 --> 00:02:12.890
+not as soon as the conditions were met.
+
+00:02:12.889 --> 00:02:16.069
+This is often much later than you would prefer to have
+
+00:02:16.069 --> 00:02:19.250
+notification about any kind of critical failure.
+
+00:02:19.250 --> 00:02:25.175
+Because of this, custom alerts do not provide and should not be considered an alternative
+
+00:02:25.175 --> 00:02:27.230
+for real-time monitoring and
+
+00:02:27.229 --> 00:02:31.715
+real-time notification for changes in mission-critical metrics.
+
+00:02:31.715 --> 00:02:34.939
+The other thing that can happen if alerts are generating
+
+00:02:34.939 --> 00:02:38.270
+too frequently is that their importance tends to fade,
+
+00:02:38.270 --> 00:02:41.090
+and you may begin ignoring them which defeats
+
+00:02:41.090 --> 00:02:44.349
+the whole reason you created them in the first place.
+
