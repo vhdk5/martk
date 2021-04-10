@@ -1,0 +1,79 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:03.980 --> 00:00:07.320
+Forecasting model requires careful thinking
+
+00:00:07.320 --> 00:00:10.605
+about which approach you want take to create the models.
+
+00:00:10.605 --> 00:00:13.455
+One approach to modeling is top-down,
+
+00:00:13.455 --> 00:00:16.050
+it takes a macro approach to forecasting.
+
+00:00:16.050 --> 00:00:20.100
+Here you start with the best estimate of the larger size of the market,
+
+00:00:20.100 --> 00:00:24.960
+narrowing down to identify the portion of the market that the company is serving,
+
+00:00:24.960 --> 00:00:29.940
+and then estimate what it will take to capture that portion of the market.
+
+00:00:29.940 --> 00:00:32.505
+Top-down is a macro approach,
+
+00:00:32.505 --> 00:00:37.315
+but it's less credible and typically adopted when there's limited historical data.
+
+00:00:37.314 --> 00:00:42.679
+We'll next look at an example that shows why this is less credible.
+
+00:00:42.679 --> 00:00:45.200
+Let's go to the WeCart example.
+
+00:00:45.200 --> 00:00:50.969
+We start with the online grocery delivery market which is about $20 billion,
+
+00:00:50.969 --> 00:00:53.615
+and then we start getting into the specifics such as
+
+00:00:53.615 --> 00:00:56.945
+which market segments the company wants to focus on.
+
+00:00:56.945 --> 00:01:00.950
+Say the executive team at WeCart wants to retain the focus
+
+00:01:00.950 --> 00:01:05.109
+on the urban market which is about $17 million.
+
+00:01:05.109 --> 00:01:10.664
+Now, the assumption is that WeCart aim to capture five percent of this market,
+
+00:01:10.665 --> 00:01:14.775
+and with that we arrived at $850,000.
+
+00:01:14.775 --> 00:01:17.550
+Finally, based on our product pricing,
+
+00:01:17.549 --> 00:01:20.054
+say $4.95 per delivery,
+
+00:01:20.055 --> 00:01:25.885
+we can now arrive at our sale quantity estimates of about 170,000 customer orders.
+
+00:01:25.885 --> 00:01:29.990
+As you can see, this is a less credible way to forecast because
+
+00:01:29.989 --> 00:01:34.069
+you're talking in guesses and estimates based on macro figures.
+
+00:01:34.069 --> 00:01:36.829
+It's harder to convince potential investors you
+
+00:01:36.829 --> 00:01:40.679
+can realistically achieve this forecasted revenue.
+

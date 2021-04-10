@@ -1,0 +1,205 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.960
+So, now we have builtin the year one values in our income statement,
+
+00:00:03.960 --> 00:00:05.549
+but as we move to year two,
+
+00:00:05.549 --> 00:00:09.570
+we quickly realize that it's not going to be so easy moving down the list.
+
+00:00:09.570 --> 00:00:15.780
+AVGO and year one were the very first row in our original data.
+
+00:00:15.779 --> 00:00:17.609
+But as we go further down,
+
+00:00:17.609 --> 00:00:21.914
+it becomes more challenging to hard-code in the row number.
+
+00:00:21.914 --> 00:00:28.424
+Because what if it was CSRA or year three for HPE ticker symbol?
+
+00:00:28.425 --> 00:00:33.170
+We want to match both of these criteria
+
+00:00:33.170 --> 00:00:38.560
+for the cell value to be pulled and placed into our dashboard.
+
+00:00:38.560 --> 00:00:41.440
+This is where the match function comes in handy.
+
+00:00:41.439 --> 00:00:43.609
+So, let's walk through one example.
+
+00:00:43.609 --> 00:00:47.405
+We're matching just one criteria, the ticker symbol.
+
+00:00:47.405 --> 00:00:49.715
+Again, it's the empty dashboard we're trying to fill,
+
+00:00:49.715 --> 00:00:51.875
+and this is the data we want to pull from.
+
+00:00:51.875 --> 00:00:56.125
+I've gone ahead and hidden the extra financial metrics that we were showing earlier.
+
+00:00:56.125 --> 00:01:01.909
+So, right now, we're trying to match just the AVGO ticker symbol, just one criteria.
+
+00:01:01.909 --> 00:01:03.019
+So to do that,
+
+00:01:03.020 --> 00:01:06.245
+I've replicated that in this worksheet here.
+
+00:01:06.245 --> 00:01:09.020
+So you can see we have the ticker symbol,
+
+00:01:09.019 --> 00:01:12.060
+I'm going to go ahead and hide this, and the total revenue.
+
+00:01:12.060 --> 00:01:14.109
+We're trying to, in our dashboard,
+
+00:01:14.109 --> 00:01:18.530
+select the value that meets at least this ticker symbol.
+
+00:01:18.530 --> 00:01:21.805
+So, we want the INDEX to,
+
+00:01:21.805 --> 00:01:24.230
+we don't want to hard-code the number one here.
+
+00:01:24.230 --> 00:01:28.954
+We just wanted to match it when the ticker symbol matches AVGO.
+
+00:01:28.954 --> 00:01:33.500
+So, we need to plugin the position for it.
+
+00:01:33.500 --> 00:01:39.200
+So, MATCH can return the number representing the position in the ticker symbol array.
+
+00:01:39.200 --> 00:01:41.240
+So this is the ticker symbol array.
+
+00:01:41.239 --> 00:01:45.004
+I'll go ahead and actually call it ticker_symbol.
+
+00:01:45.004 --> 00:01:47.780
+We'll look for a MATCH H2 here,
+
+00:01:47.780 --> 00:01:48.995
+that's the ticker symbol,
+
+00:01:48.995 --> 00:01:52.050
+ticker symbol_array is the one here,
+
+00:01:52.049 --> 00:01:55.969
+and we're saying if this match type value is one,
+
+00:01:55.969 --> 00:02:01.655
+MATCH will look for the largest value that is less than or equal to the lookup value.
+
+00:02:01.655 --> 00:02:03.605
+If MATCH type is zero,
+
+00:02:03.605 --> 00:02:08.495
+MATCH looks for the first value that is exactly equal to the lookup value.
+
+00:02:08.495 --> 00:02:11.539
+There is another MATCH type negative one that looks for
+
+00:02:11.539 --> 00:02:16.144
+the smallest value that is greater than or equal to the lookup value.
+
+00:02:16.145 --> 00:02:19.495
+I'm providing some example for this in the text box below.
+
+00:02:19.495 --> 00:02:22.780
+So, we're going go ahead in zero because we want MATCH
+
+00:02:22.780 --> 00:02:26.509
+to look for the position in this array,
+
+00:02:26.508 --> 00:02:30.214
+ticker_symbol array, that matches AVGO,
+
+00:02:30.215 --> 00:02:32.659
+which matches this condition that we're trying to meet.
+
+00:02:32.659 --> 00:02:35.569
+So, we referred to this lookup value.
+
+00:02:35.569 --> 00:02:38.704
+This is the lookup value highlighted in blue,
+
+00:02:38.705 --> 00:02:43.730
+ticker_symbol is actually referring to this ticker symbol right here,
+
+00:02:43.729 --> 00:02:46.114
+and zero is the condition we're trying to meet.
+
+00:02:46.115 --> 00:02:47.620
+Then we hit Enter there,
+
+00:02:47.620 --> 00:02:49.830
+it gives us the value one.
+
+00:02:49.830 --> 00:02:52.290
+Place this here so you can see the formula,
+
+00:02:52.289 --> 00:02:55.155
+but I had to do the Ctrl + Shift + Enter again,
+
+00:02:55.155 --> 00:02:56.849
+and this is the value of return.
+
+00:02:56.849 --> 00:03:01.989
+So, we want the value one to show up here inside the INDEX function,
+
+00:03:01.990 --> 00:03:07.710
+and that's why we just plugin whatever we take as a MATCH into the INDEX function,
+
+00:03:07.710 --> 00:03:09.314
+because it's looking for.
+
+00:03:09.314 --> 00:03:13.210
+Let me show you that. So, it's looking for the row number,
+
+00:03:13.210 --> 00:03:16.855
+and that row number's provided by the MATCH function.
+
+00:03:16.854 --> 00:03:20.959
+As you can see, the column number right here is the
+
+00:03:20.960 --> 00:03:25.265
+zero because we're saying stay within the total revenue array,
+
+00:03:25.264 --> 00:03:32.459
+match the very first value in terms of row number but stay within the zero column number.
+
+00:03:32.460 --> 00:03:35.585
+When we do this, it gives us this value.
+
+00:03:35.585 --> 00:03:38.420
+I've again placed it here so that you can see what
+
+00:03:38.419 --> 00:03:41.719
+the formula looks like and what it gives,
+
+00:03:41.719 --> 00:03:46.694
+and it's the same value that is given by having the MATCH function is there.
+
+00:03:46.694 --> 00:03:50.099
+So, we can put this MATCH function inside the INDEX function,
+
+00:03:50.099 --> 00:03:52.159
+and it tells INDEX which cell to pull
+
+00:03:52.159 --> 00:03:57.270
+the total revenue value from and it returns the value to us.
+

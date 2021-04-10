@@ -1,0 +1,28 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:02.419 --> 00:00:07.455
+There are essentially two parts to a model; inputs and output.
+
+00:00:07.455 --> 00:00:11.759
+You need the inputs to create a model or drivers of the model.
+
+00:00:11.759 --> 00:00:15.015
+The output is what you're aiming to forecast.
+
+00:00:15.015 --> 00:00:17.460
+The golden forecasting is to find
+
+00:00:17.460 --> 00:00:22.245
+a related inputs which can help you best predict your key outputs.
+
+00:00:22.245 --> 00:00:26.700
+Typically, for inputs, we could include a combination of historical data,
+
+00:00:26.699 --> 00:00:29.474
+assumptions, and scenario analysis.
+
+00:00:29.475 --> 00:00:33.550
+Let's go through each of these in the next set of videos.
+

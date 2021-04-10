@@ -1,0 +1,202 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:06.209
+So, in our data, since we have two rows for a company at least,
+
+00:00:06.209 --> 00:00:08.879
+we have Year 1 and Year 2 data,
+
+00:00:08.880 --> 00:00:14.850
+we are in a pickle if you just try to use match with one criteria,
+
+00:00:14.849 --> 00:00:16.664
+because when we get to this,
+
+00:00:16.664 --> 00:00:21.875
+it's trying to match two criteria both the ticker symbol and the Year 1.
+
+00:00:21.875 --> 00:00:25.940
+So, this is where we will use Match with two criteria.
+
+00:00:25.940 --> 00:00:31.620
+For doing this, the Match function in Excel uses Boolean logic.
+
+00:00:31.620 --> 00:00:34.759
+If you're familiar with Boolean logic this will be straightforward.
+
+00:00:34.759 --> 00:00:37.673
+Using Boolean logic, we can assign a variable,
+
+00:00:37.673 --> 00:00:42.259
+a value of 1 when a particular condition is true and
+
+00:00:42.259 --> 00:00:47.614
+the variable is assigned a value of 0 if the condition is not met.
+
+00:00:47.615 --> 00:00:50.090
+So, let's first tackle the Boolean logic here.
+
+00:00:50.090 --> 00:00:56.700
+We can see that the ticker symbol AVGO is true in the case of cell 1 and
+
+00:00:56.700 --> 00:01:03.665
+cell 2 which corresponds to the ticker symbol AVGO and the ticker symbol column here.
+
+00:01:03.664 --> 00:01:10.069
+The value of Year 1 is true in the case of cell 1 or row 1,
+
+00:01:10.069 --> 00:01:13.094
+3, 5, and 8.
+
+00:01:13.094 --> 00:01:18.269
+But we want the condition of both ticker symbol AVGO and the
+
+00:01:18.269 --> 00:01:24.625
+Year 1 to be true which happens to be only in the case of row 1.
+
+00:01:24.625 --> 00:01:28.359
+So, this is when both the criteria are met.
+
+00:01:28.359 --> 00:01:35.530
+So, I have indicated here with the true and false as well that these two are true.
+
+00:01:35.530 --> 00:01:39.534
+But these are true in these rows,
+
+00:01:39.534 --> 00:01:45.504
+but the combination of the two conditions is true only in this one, the first one,
+
+00:01:45.504 --> 00:01:52.944
+and this is the value that we want to pull out here and then for Year 2,
+
+00:01:52.944 --> 00:01:54.469
+where the condition is met,
+
+00:01:54.469 --> 00:01:56.400
+we'll have to pull it out here.
+
+00:01:56.400 --> 00:02:01.810
+So, we're saying match the condition when the value is 1.
+
+00:02:01.810 --> 00:02:05.439
+So, we want both the conditions ticker symbol,
+
+00:02:05.439 --> 00:02:07.194
+AVGO to be met,
+
+00:02:07.194 --> 00:02:09.344
+which is row 1 as we know,
+
+00:02:09.344 --> 00:02:13.669
+and we want the second Year 1 value to be matched as well.
+
+00:02:13.669 --> 00:02:17.509
+So, only when both of these conditions are one,
+
+00:02:17.509 --> 00:02:21.139
+meet that condition exactly using,
+
+00:02:21.139 --> 00:02:25.439
+that's where the match type is zero and give us the location.
+
+00:02:25.439 --> 00:02:27.495
+So, when we do this,
+
+00:02:27.495 --> 00:02:29.384
+we see that the value is 1.
+
+00:02:29.384 --> 00:02:35.209
+We want to plugin this particular value in the index function and say,
+
+00:02:35.210 --> 00:02:43.110
+"Give me the cost of revenue from the cost of revenue array when the row number is 1."
+
+00:02:43.110 --> 00:02:45.695
+So, I can show you this to be true.
+
+00:02:45.694 --> 00:02:47.944
+I'm going to go back and actually put
+
+00:02:47.944 --> 00:02:51.519
+this code here and you can actually see the formula.
+
+00:02:51.520 --> 00:02:57.240
+We're making both the condition to be true.
+
+00:02:57.240 --> 00:03:02.115
+What it does is, Excel does in the background is it calculates the, okay,
+
+00:03:02.115 --> 00:03:07.070
+when H1 equal to ticker symbol and it does the Boolean logic
+
+00:03:07.069 --> 00:03:12.155
+behind times when is a Boolean logic true for the years.
+
+00:03:12.155 --> 00:03:16.400
+Multiply both of those conditions because it's assigning a value of 1 for
+
+00:03:16.400 --> 00:03:21.885
+every true condition and 0 when the condition isn't met.
+
+00:03:21.884 --> 00:03:25.215
+So, it's multiplying both of those and it's giving
+
+00:03:25.215 --> 00:03:30.224
+this final array and when this condition is met.
+
+00:03:30.224 --> 00:03:31.769
+So, it's saying, "Okay.
+
+00:03:31.770 --> 00:03:36.965
+One match this condition exactly in the first location."
+
+00:03:36.965 --> 00:03:40.520
+So, it gives us back the number 1.
+
+00:03:40.520 --> 00:03:45.980
+That is how you get the value for and total revenue.
+
+00:03:45.979 --> 00:03:49.549
+We can repeat the process for all of her cells.
+
+00:03:49.550 --> 00:03:53.045
+You have to type it in by hand, let me do that.
+
+00:03:53.044 --> 00:03:54.649
+So, we have total revenue,
+
+00:03:54.650 --> 00:04:00.110
+match it to the ticker symbol and to the F6 is year,
+
+00:04:00.110 --> 00:04:03.770
+give me the total revenue value when those conditions are met.
+
+00:04:03.770 --> 00:04:05.689
+That's how you get the dashboard.
+
+00:04:05.689 --> 00:04:09.650
+You can see that this is an interactive dashboard
+
+00:04:09.650 --> 00:04:13.960
+because when you change the ticker symbol the value change.
+
+00:04:13.960 --> 00:04:18.704
+It's showing up as NA in the case of Year 3 because as you,
+
+00:04:18.704 --> 00:04:20.939
+let me show you this actual data.
+
+00:04:20.939 --> 00:04:26.285
+As you can see, there's no Year 3 value except in the case of the HPE.
+
+00:04:26.285 --> 00:04:30.160
+So, when you actually look at HPE,
+
+00:04:30.160 --> 00:04:32.865
+that's when those values show up correctly.
+
+00:04:32.865 --> 00:04:36.930
+That's how you do a dashboard using index and matching.
+

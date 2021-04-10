@@ -1,0 +1,319 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.770
+Now, we get to step three.
+
+00:00:01.770 --> 00:00:05.310
+We want the values here in the assumptions to
+
+00:00:05.309 --> 00:00:09.480
+change depending on which scenario we choose.
+
+00:00:09.480 --> 00:00:16.109
+We don't want to hardcore them by selecting only the strong case for revenue growth,
+
+00:00:16.109 --> 00:00:18.000
+gross margin, and operating margin.
+
+00:00:18.000 --> 00:00:22.545
+So, now we're looking for a way to tell Excel to use this cell,
+
+00:00:22.545 --> 00:00:28.910
+in this row and this column when the scenario is a strong case scenario,
+
+00:00:28.910 --> 00:00:33.500
+and use the cell in this row and this column when
+
+00:00:33.500 --> 00:00:38.810
+the scenario chosen is a base case and change it to this.
+
+00:00:38.810 --> 00:00:41.090
+This is where offset can be used,
+
+00:00:41.090 --> 00:00:45.020
+and here is what the generic function isn't looking for.
+
+00:00:45.020 --> 00:00:47.480
+So, it's looking for a reference point,
+
+00:00:47.479 --> 00:00:49.369
+some place to start with,
+
+00:00:49.369 --> 00:00:54.679
+and then it's asking for how many rows do you want me to move over,
+
+00:00:54.679 --> 00:00:56.539
+and how many columns?
+
+00:00:56.539 --> 00:01:01.714
+Based on that, that is the value I'll return in this particular cell.
+
+00:01:01.715 --> 00:01:06.140
+Okay, and so for the rules I want
+
+00:01:06.140 --> 00:01:11.540
+it to be able to move to the right row and give me this value.
+
+00:01:11.540 --> 00:01:15.770
+I'm actually going to go ahead and use the match function to
+
+00:01:15.769 --> 00:01:21.079
+match the row based on the scenario that is chosen here.
+
+00:01:21.079 --> 00:01:25.150
+So, that just kind of a criteria that we're using and the scenario,
+
+00:01:25.150 --> 00:01:28.370
+and so therefore I'm going to use the match function to narrow
+
+00:01:28.370 --> 00:01:32.329
+down which row I am selecting.
+
+00:01:32.329 --> 00:01:36.274
+For the which row am I selecting this one,
+
+00:01:36.275 --> 00:01:38.109
+this one or this one.
+
+00:01:38.109 --> 00:01:40.200
+This one, this one and this one.
+
+00:01:40.200 --> 00:01:46.010
+Then the column I can tell is the one over here,
+
+00:01:46.010 --> 00:01:47.270
+or the one over here.
+
+00:01:47.269 --> 00:01:50.149
+So, I'm going to switch over to this tab here because
+
+00:01:50.150 --> 00:01:53.090
+you can see that I'm using this reference point.
+
+00:01:53.090 --> 00:01:56.120
+So, offset is always looking for a starting point.
+
+00:01:56.120 --> 00:01:57.500
+So, that's what you do.
+
+00:01:57.500 --> 00:02:01.189
+So when you're actually plugging in the opposite function,
+
+00:02:01.189 --> 00:02:02.659
+it's starting a reference.
+
+00:02:02.659 --> 00:02:07.655
+Reference is the starting point from which to count the number of rows and columns.
+
+00:02:07.655 --> 00:02:09.905
+So, I want in here,
+
+00:02:09.905 --> 00:02:17.189
+I want the reference point to be let's say this because I'm talking about revenue growth,
+
+00:02:17.189 --> 00:02:18.780
+so I have this empty cell.
+
+00:02:18.780 --> 00:02:22.099
+So, I'm going to just use this as my starting point and say okay,
+
+00:02:22.099 --> 00:02:25.639
+go down to this row and this column.
+
+00:02:25.639 --> 00:02:27.139
+So, I'm going to show you this.
+
+00:02:27.139 --> 00:02:28.974
+So, I'm saying okay,
+
+00:02:28.974 --> 00:02:30.989
+start with this reference point,
+
+00:02:30.990 --> 00:02:32.835
+blue border cell here,
+
+00:02:32.835 --> 00:02:35.250
+and match for the row,
+
+00:02:35.250 --> 00:02:37.634
+match whatever is in.
+
+00:02:37.634 --> 00:02:42.179
+So, matched function will return for me the row that I'm looking for,
+
+00:02:42.179 --> 00:02:47.128
+which will be C24 because it's looking for this scenario,
+
+00:02:47.128 --> 00:02:50.745
+matching it within this lookup array,
+
+00:02:50.745 --> 00:02:55.640
+and saying strong case matches the row one of these three cases,
+
+00:02:55.639 --> 00:02:58.919
+and so it's going to return the value.
+
+00:02:59.210 --> 00:03:01.740
+I'm asking it for an exact match,
+
+00:03:01.740 --> 00:03:04.100
+that's why I have the match type to be zero.
+
+00:03:04.099 --> 00:03:08.780
+So, it's going to say, okay match row is one, and then column.
+
+00:03:08.780 --> 00:03:14.219
+So, now I have the match giving me back row is one,
+
+00:03:14.219 --> 00:03:16.879
+and now for this is the column reference.
+
+00:03:16.879 --> 00:03:23.914
+So, I'm saying okay, stay in this column which belongs to H28 and give me this cell.
+
+00:03:23.914 --> 00:03:28.000
+So, if it says base case,
+
+00:03:28.000 --> 00:03:31.430
+match will give me back two because off
+
+00:03:31.430 --> 00:03:35.900
+the lookup array it'll give me the second row for the first year,
+
+00:03:35.900 --> 00:03:38.375
+or rather for year four.
+
+00:03:38.375 --> 00:03:41.909
+So, when I again, Control, Alt, Shift,
+
+00:03:41.909 --> 00:03:43.990
+it gives me minus five,
+
+00:03:43.990 --> 00:03:48.665
+which is this case because right now scenario is selected as base case.
+
+00:03:48.664 --> 00:03:50.854
+If I change it to a strong case,
+
+00:03:50.854 --> 00:03:52.909
+then it switches to minus three.
+
+00:03:52.909 --> 00:03:54.715
+So, for this one,
+
+00:03:54.715 --> 00:03:58.215
+well it's one column of H28.
+
+00:03:58.215 --> 00:04:02.009
+So, staying with the same reference point,
+
+00:04:02.009 --> 00:04:05.715
+I'm saying H28 is the reference cell,
+
+00:04:05.715 --> 00:04:09.280
+match it to the same criteria, strong,
+
+00:04:09.280 --> 00:04:13.939
+the scenario criteria and give me an exact match for that row.
+
+00:04:13.939 --> 00:04:15.875
+Then for column I'm saying,
+
+00:04:15.875 --> 00:04:18.785
+offset move over one column.
+
+00:04:18.785 --> 00:04:20.660
+That's this column here.
+
+00:04:20.660 --> 00:04:23.370
+So, it's going to give me minus three.
+
+00:04:23.370 --> 00:04:25.254
+Let me show you how it changes.
+
+00:04:25.254 --> 00:04:27.194
+So, if I say this is minus four,
+
+00:04:27.194 --> 00:04:29.204
+this value changes to minus four.
+
+00:04:29.204 --> 00:04:33.404
+So, that's how offset and match are used.
+
+00:04:33.404 --> 00:04:35.613
+So, for gross margin,
+
+00:04:35.613 --> 00:04:40.774
+the only difference is I'm using the same offset and match combination,
+
+00:04:40.774 --> 00:04:46.579
+but this time I decided to use this empty cell right above gross margin,
+
+00:04:46.579 --> 00:04:50.589
+but in essence it's the same exact principle that I'm saying, okay,
+
+00:04:50.589 --> 00:04:53.639
+for match row H32,
+
+00:04:53.639 --> 00:04:58.800
+match it for me for C24 in this lookup array.
+
+00:04:58.800 --> 00:05:01.290
+That's what the B33, B35 is.
+
+00:05:01.290 --> 00:05:03.680
+You can see in the purple colored cells,
+
+00:05:03.680 --> 00:05:05.775
+give me an exact match of that row.
+
+00:05:05.774 --> 00:05:08.664
+So, this gives me back row one, two, or three,
+
+00:05:08.665 --> 00:05:13.175
+based on whatever is inside this scenario strong scenario here.
+
+00:05:13.175 --> 00:05:17.090
+Give me just the column the first with still within the same column
+
+00:05:17.089 --> 00:05:21.419
+as H32 for year four and for year five,
+
+00:05:21.420 --> 00:05:23.340
+just move by a column.
+
+00:05:23.339 --> 00:05:25.379
+So again, I'm just going to demonstrate.
+
+00:05:25.379 --> 00:05:27.629
+So, if I change this to well,
+
+00:05:27.629 --> 00:05:28.839
+survey in the strong case,
+
+00:05:28.839 --> 00:05:31.935
+so I'm going to change this to 0.32.
+
+00:05:31.935 --> 00:05:33.625
+It changes to 32.
+
+00:05:33.625 --> 00:05:36.300
+This is set up to be 32 percent to
+
+00:05:36.300 --> 00:05:40.754
+a percentage but I just wanted to be a value, number value.
+
+00:05:40.754 --> 00:05:47.269
+So, that is how I repeated it for operating margin and using H36 as a reference point,
+
+00:05:47.269 --> 00:05:50.629
+and we get our assumptions and they are dynamic.
+
+00:05:50.629 --> 00:05:54.125
+We're finally ready for step four,
+
+00:05:54.125 --> 00:05:55.600
+which is the next video.
+

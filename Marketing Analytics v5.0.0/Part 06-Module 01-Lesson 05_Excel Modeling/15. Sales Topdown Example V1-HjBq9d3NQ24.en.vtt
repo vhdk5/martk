@@ -1,0 +1,256 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.665
+So, let's walk through the model.
+
+00:00:01.665 --> 00:00:04.339
+I've kept the overarching themes here on the left.
+
+00:00:04.339 --> 00:00:07.605
+So, you can see what is the motivation for each of these sections.
+
+00:00:07.605 --> 00:00:12.675
+We start with the number of opportunities we expect the person to close annually.
+
+00:00:12.675 --> 00:00:19.289
+Average price per unit is the average price per unit or product for manufacturing.
+
+00:00:19.289 --> 00:00:22.259
+If you work in a sales SaaS company,
+
+00:00:22.260 --> 00:00:25.020
+this would be the average price per seat.
+
+00:00:25.019 --> 00:00:27.839
+Average units per opportunity is the average number of
+
+00:00:27.839 --> 00:00:31.125
+units you can expect to sell per opportunity.
+
+00:00:31.125 --> 00:00:34.740
+Average contracts month per opportunity is the average length
+
+00:00:34.740 --> 00:00:38.370
+of time in months that sales contract can be for.
+
+00:00:38.369 --> 00:00:41.579
+Next, we get to the average opportunity size.
+
+00:00:41.579 --> 00:00:44.299
+You just take the product of these three numbers,
+
+00:00:44.299 --> 00:00:46.189
+average price per unit,
+
+00:00:46.189 --> 00:00:49.729
+average units per opportunity and average
+
+00:00:49.729 --> 00:00:53.704
+contract months per opportunity to get this number of bookings.
+
+00:00:53.704 --> 00:01:00.484
+This is the average booking size we expect this salesperson to create on an annual basis.
+
+00:01:00.484 --> 00:01:05.284
+Next, we see how we are going to get to these booking sites.
+
+00:01:05.284 --> 00:01:10.789
+We start with the assumption that the center ramp or the length of time we can
+
+00:01:10.790 --> 00:01:16.865
+expect the new seller to reach full productivity after being hired is three months.
+
+00:01:16.864 --> 00:01:21.140
+So, we have the projector and hire date here and we use dummy coding.
+
+00:01:21.140 --> 00:01:25.370
+Dummy coding refers to when you give a value of zero or one to
+
+00:01:25.370 --> 00:01:29.540
+a sale because it means something's got to represent something has happened.
+
+00:01:29.540 --> 00:01:33.800
+It's kind of one and zero are dummies for the presence of something happening.
+
+00:01:33.799 --> 00:01:35.825
+So, in the sales hiring schedule,
+
+00:01:35.825 --> 00:01:42.125
+we're trying to create dummy coding for the projected hire date and after that,
+
+00:01:42.125 --> 00:01:46.219
+indicating a one for the person having been hired.
+
+00:01:46.219 --> 00:01:49.209
+For this, we use two XOR functions.
+
+00:01:49.209 --> 00:01:53.479
+One is end of month and the other is today. Let's start with today.
+
+00:01:53.480 --> 00:01:55.760
+So, for sales person one, say,
+
+00:01:55.760 --> 00:01:58.850
+we are going to hire them on 12/16.
+
+00:01:58.849 --> 00:02:02.419
+So, we start with the today function just says okay.
+
+00:02:02.420 --> 00:02:04.075
+Whatever today's date is,
+
+00:02:04.075 --> 00:02:05.924
+just add 30 days to it.
+
+00:02:05.924 --> 00:02:08.069
+Well, since I'm doing the recording on 11/16,
+
+00:02:08.069 --> 00:02:12.044
+it is just adding 30 days to that and so on.
+
+00:02:12.044 --> 00:02:16.459
+Here, we're adding 60 days to it and here we are adding 90 days to it.
+
+00:02:16.460 --> 00:02:20.300
+End of month allows you to state that today date
+
+00:02:20.300 --> 00:02:24.750
+and add months to that date and give that final date.
+
+00:02:24.750 --> 00:02:28.509
+So, today's date is 11/16 and is adding
+
+00:02:28.509 --> 00:02:32.780
+zero months to it but it's giving me the end of the month, which is 11/30.
+
+00:02:32.780 --> 00:02:34.460
+It does the same thing,
+
+00:02:34.460 --> 00:02:36.365
+giving it a one-month laps,
+
+00:02:36.365 --> 00:02:39.170
+two-month laps and a three-month laps.
+
+00:02:39.169 --> 00:02:43.549
+So, now we can see that the hiring schedule shows that once a person has hired,
+
+00:02:43.550 --> 00:02:44.795
+a month from then,
+
+00:02:44.794 --> 00:02:49.444
+they will be employed and available to start generating leads,
+
+00:02:49.444 --> 00:02:51.169
+and that's what this table is showing.
+
+00:02:51.169 --> 00:02:53.405
+For the center productivity schedule,
+
+00:02:53.405 --> 00:02:56.210
+we borrow the end of month function again and get
+
+00:02:56.210 --> 00:02:59.330
+three months for every month from today.
+
+00:02:59.330 --> 00:03:02.555
+So, because we are trying to generate
+
+00:03:02.555 --> 00:03:05.960
+the schedule when the seller is going to be productive,
+
+00:03:05.960 --> 00:03:09.905
+we want to give the seller three months of ramp time.
+
+00:03:09.905 --> 00:03:12.020
+So, starting from today,
+
+00:03:12.020 --> 00:03:14.344
+end of the month of today's month,
+
+00:03:14.344 --> 00:03:16.560
+just add three months to that.
+
+00:03:16.560 --> 00:03:18.555
+So, that's what end of month does here.
+
+00:03:18.555 --> 00:03:21.750
+We're just giving it C14,
+
+00:03:21.750 --> 00:03:24.104
+which is this month,
+
+00:03:24.104 --> 00:03:27.674
+this date here and it's adding three months to that,
+
+00:03:27.675 --> 00:03:30.920
+same here and use the dummy coding to create
+
+00:03:30.919 --> 00:03:35.929
+the productivity schedule that shows three months since the person was hired,
+
+00:03:35.930 --> 00:03:38.780
+the person is going to be productive or not.
+
+00:03:38.780 --> 00:03:41.995
+This matrix describes the productive discussion.
+
+00:03:41.995 --> 00:03:45.194
+Finally, we get to our projections for when a seller
+
+00:03:45.194 --> 00:03:48.530
+will be productive and the projected bookings based on that.
+
+00:03:48.530 --> 00:03:53.150
+Since we only need the bookings the seller will generate per month,
+
+00:03:53.150 --> 00:03:56.090
+we're trying to calculate that dollar amount per month.
+
+00:03:56.090 --> 00:04:00.034
+We need to multiply the productivity dummy variable,
+
+00:04:00.034 --> 00:04:05.764
+here with the projected average booking that we expect based on this number.
+
+00:04:05.764 --> 00:04:07.384
+So, let me break that down.
+
+00:04:07.384 --> 00:04:10.344
+So, this is telling us that,
+
+00:04:10.344 --> 00:04:13.125
+start with this booking number,
+
+00:04:13.125 --> 00:04:16.879
+130,000 per person times
+
+00:04:16.879 --> 00:04:21.189
+the number of opportunities the person will be generating per month,
+
+00:04:21.189 --> 00:04:25.464
+that's this number, and multiply that with this value,
+
+00:04:25.464 --> 00:04:27.619
+which is whether the person is productive or not.
+
+00:04:27.620 --> 00:04:31.639
+So, it generates that projected booking per person for
+
+00:04:31.639 --> 00:04:36.469
+that month based on this and then we can get our total bookings at the bottom.
+
+00:04:36.470 --> 00:04:38.170
+I made a copy of the CSV,
+
+00:04:38.170 --> 00:04:40.944
+so you can look at the CSV file yourself too.
+
+00:04:40.944 --> 00:04:43.375
+Feel free to watch this video again,
+
+00:04:43.375 --> 00:04:47.670
+slowly, as you follow along with the file on your computer.
+

@@ -1,0 +1,193 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.120
+Offsets are useful tools for scenario analysis.
+
+00:00:03.120 --> 00:00:06.780
+We can see how in this example when we change the scenario,
+
+00:00:06.780 --> 00:00:08.759
+it changes the assumptions here,
+
+00:00:08.759 --> 00:00:10.949
+and when the assumptions are changed,
+
+00:00:10.949 --> 00:00:13.844
+it changes the forecasted Sinek metrics here.
+
+00:00:13.845 --> 00:00:16.005
+Let's build one scenario analysis.
+
+00:00:16.004 --> 00:00:18.449
+I split up the video into various steps.
+
+00:00:18.449 --> 00:00:20.864
+So, they're building on each concept.
+
+00:00:20.864 --> 00:00:26.009
+For starters, lets define the four steps to take to create a financial forecast.
+
+00:00:26.010 --> 00:00:28.460
+Step 1 is to calculate
+
+00:00:28.460 --> 00:00:34.685
+the operating statistics that include the gross and operating margin, and revenue growth.
+
+00:00:34.685 --> 00:00:36.980
+This is all based on the historical data,
+
+00:00:36.979 --> 00:00:39.859
+which you can find in the income statement over here.
+
+00:00:39.859 --> 00:00:41.155
+So, this is step 1.
+
+00:00:41.155 --> 00:00:42.590
+The first box here.
+
+00:00:42.590 --> 00:00:45.665
+Step 2 is to create the scenarios.
+
+00:00:45.664 --> 00:00:48.979
+I have them here in this box here.
+
+00:00:48.979 --> 00:00:51.559
+So, this is the scenario that we are going to be creating.
+
+00:00:51.560 --> 00:00:55.135
+Typically, we have a strong base and weak case.
+
+00:00:55.134 --> 00:00:59.019
+Some business analysts choose to have two additional scenarios as well,
+
+00:00:59.020 --> 00:01:00.980
+we're going to stick with three cases.
+
+00:01:00.979 --> 00:01:03.949
+Then come the assumptions as part of step 3.
+
+00:01:03.950 --> 00:01:09.170
+These assumptions change in response to the scenario that is chosen over here.
+
+00:01:09.170 --> 00:01:11.210
+This is where we're going to use offset.
+
+00:01:11.209 --> 00:01:16.339
+Finally, step 4 may be develop the forecasted scenarios that
+
+00:01:16.340 --> 00:01:18.740
+change dynamically based on
+
+00:01:18.739 --> 00:01:22.359
+the scenarios that are chosen because that affects the assumptions,
+
+00:01:22.359 --> 00:01:26.545
+and the assumptions go inside the forecasted metrics.
+
+00:01:26.545 --> 00:01:28.939
+So, for step 1,
+
+00:01:28.939 --> 00:01:30.319
+we need to calculate
+
+00:01:30.319 --> 00:01:34.279
+our gross and operating margin here for a based on a historical data.
+
+00:01:34.280 --> 00:01:38.015
+So, we have this original data that we have seen before,
+
+00:01:38.015 --> 00:01:45.390
+and the gross margin is basically one minus the cost of revenue or cost of goods sold,
+
+00:01:45.390 --> 00:01:49.370
+those two terms are interchangeable over the total revenue.
+
+00:01:49.370 --> 00:01:51.800
+So, you plug in this formula in here,
+
+00:01:51.799 --> 00:01:54.974
+copy and paste it, and it gives us the gross margin.
+
+00:01:54.974 --> 00:02:01.189
+For operating margin, this is your operating profit over your total revenue.
+
+00:02:01.189 --> 00:02:04.879
+So, now we have our historical margin ratios here.
+
+00:02:04.879 --> 00:02:10.250
+I've plugged them in here using our index and match functions.
+
+00:02:10.250 --> 00:02:16.025
+So, I've referred to this as the named box for gross margin you can see,
+
+00:02:16.025 --> 00:02:20.180
+and this is named box for operating margin.
+
+00:02:20.180 --> 00:02:24.159
+So, I just said okay within the gross margin array,
+
+00:02:24.159 --> 00:02:30.530
+give me an exact match for where the ticker symbol and your- as you can see,
+
+00:02:30.530 --> 00:02:34.550
+ticker symbol and your are matched and give me
+
+00:02:34.550 --> 00:02:39.105
+that particular gross margin or operating margin,
+
+00:02:39.104 --> 00:02:43.049
+and plug it in for me into these cells.
+
+00:02:43.050 --> 00:02:44.670
+So, that's what I did here,
+
+00:02:44.669 --> 00:02:46.034
+and then four operating margin,
+
+00:02:46.034 --> 00:02:50.465
+I reference the array is referring to the operating margin
+
+00:02:50.465 --> 00:02:56.585
+saying give me that exact ticker symbol and your match and plug in that value.
+
+00:02:56.585 --> 00:02:58.760
+Revenue growth, you're just taking
+
+00:02:58.759 --> 00:03:05.974
+your current year's revenue over your previous year's revenue minus one.
+
+00:03:05.974 --> 00:03:09.004
+What essentially does is it gives you the difference
+
+00:03:09.004 --> 00:03:12.409
+between the two years of revenue based on
+
+00:03:12.409 --> 00:03:15.109
+last year's revenue so you can see how much
+
+00:03:15.110 --> 00:03:20.075
+the revenue growth has occurred in the current year based on last year's revenue.
+
+00:03:20.074 --> 00:03:22.469
+I'm using HPE as a ticker symbol,
+
+00:03:22.469 --> 00:03:25.129
+so you can see all the 3-years historical data.
+
+00:03:25.129 --> 00:03:29.990
+You can see this looks different for the companies with just two years data,
+
+00:03:29.990 --> 00:03:34.165
+but I delete the financial forecast would actually be for one company,
+
+00:03:34.164 --> 00:03:35.359
+for your own company so,
+
+00:03:35.360 --> 00:03:37.820
+you're going to have this as a dynamic array.
+
+00:03:37.819 --> 00:03:43.400
+Okay. So, we have the historical upgrading statistics here and step 1 is done.
+

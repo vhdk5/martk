@@ -1,0 +1,106 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.645
+So, let's walk through the sales model using a bottom-up approach.
+
+00:00:03.645 --> 00:00:06.359
+I've kept the overarching themes here on the top,
+
+00:00:06.360 --> 00:00:09.720
+so you can see what is the motivation for each of these columns.
+
+00:00:09.720 --> 00:00:14.234
+We start with this column with a row for each sales team member.
+
+00:00:14.234 --> 00:00:16.035
+This is followed by the company,
+
+00:00:16.035 --> 00:00:20.759
+which is the company name for which you are going to be selling products in bulk,
+
+00:00:20.760 --> 00:00:22.725
+and then comes in column C,
+
+00:00:22.725 --> 00:00:24.030
+the units per month.
+
+00:00:24.030 --> 00:00:29.940
+So, this is the number of units this opportunity is likely to create a bookings for.
+
+00:00:29.940 --> 00:00:34.185
+Contract terms shows the number of months each opportunity is for.
+
+00:00:34.185 --> 00:00:37.460
+Price for all units in one month shows the number of
+
+00:00:37.460 --> 00:00:40.939
+units times the sales price per unit,
+
+00:00:40.939 --> 00:00:42.804
+which is $5 here,
+
+00:00:42.804 --> 00:00:47.524
+and this is showing the sales price for their projected unit over a month.
+
+00:00:47.524 --> 00:00:50.225
+For example, how much would Joe Smith,
+
+00:00:50.225 --> 00:00:51.920
+working with company A,
+
+00:00:51.920 --> 00:00:56.760
+bring in revenues from the sale of 4,000 units per month?
+
+00:00:56.759 --> 00:00:59.750
+Then you multiply that with the number of months in
+
+00:00:59.750 --> 00:01:03.524
+the contract term to arrive at the bookings forecast.
+
+00:01:03.524 --> 00:01:07.099
+We can go one step further and multiply the bookings forecast with
+
+00:01:07.099 --> 00:01:11.464
+the win probability to show a more realistic weighted forecast.
+
+00:01:11.465 --> 00:01:13.219
+So, let's look at this example.
+
+00:01:13.219 --> 00:01:18.605
+We're more likely to get the sales contract with Corey Jones, Company C,
+
+00:01:18.605 --> 00:01:21.500
+because it has a wind probability of 0.9,
+
+00:01:21.500 --> 00:01:24.680
+versus this opportunity with Joe Smith,
+
+00:01:24.680 --> 00:01:27.890
+Company A, which has a lower probability.
+
+00:01:27.890 --> 00:01:33.405
+So, the 290k is a weighted bookings forecast,
+
+00:01:33.405 --> 00:01:38.030
+which shows this is a high probability that you'll win this compared to this one.
+
+00:01:38.030 --> 00:01:40.614
+It takes into account the probability,
+
+00:01:40.614 --> 00:01:43.159
+so you can get a realistic estimate of
+
+00:01:43.159 --> 00:01:46.325
+how likely are we getting this amount versus the amount.
+
+00:01:46.325 --> 00:01:49.880
+So, this is a bottoms-up sales forecast.
+
+00:01:49.879 --> 00:01:52.519
+As you can see, here we're using
+
+00:01:52.519 --> 00:01:59.929
+an opportunity level forecast to project out the bookings for the whole company.
+

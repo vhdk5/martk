@@ -1,0 +1,157 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.740
+Let's look at this spreadsheet.
+
+00:00:01.740 --> 00:00:07.360
+We have some ticker symbols in this column here and then a bunch of financial data,
+
+00:00:07.360 --> 00:00:09.405
+then we'll get to in a short while.
+
+00:00:09.404 --> 00:00:10.889
+Looking at this ticker symbol,
+
+00:00:10.890 --> 00:00:14.820
+we can see that each ticker symbol is repeated a few times.
+
+00:00:14.820 --> 00:00:18.690
+We want to create as part the data validation is a drop-down list that
+
+00:00:18.690 --> 00:00:23.609
+contains only one occurrence of each of these ticker symbols.
+
+00:00:23.609 --> 00:00:27.899
+To get started, we're going to use pivot tables.
+
+00:00:27.899 --> 00:00:31.695
+Well, there are many ways to create data validation drop-down list.
+
+00:00:31.695 --> 00:00:33.225
+This is one of the ways.
+
+00:00:33.225 --> 00:00:36.114
+So, we select ticker symbols,
+
+00:00:36.113 --> 00:00:39.015
+you go insert, fill the table,
+
+00:00:39.015 --> 00:00:41.429
+we've selected the cell already,
+
+00:00:41.429 --> 00:00:43.515
+and we say new worksheet,
+
+00:00:43.515 --> 00:00:45.980
+and it creates a pivot table here for us.
+
+00:00:45.979 --> 00:00:48.034
+We select ticker symbol,
+
+00:00:48.034 --> 00:00:50.599
+and it shows up under the rows,
+
+00:00:50.600 --> 00:00:56.060
+and you can see any repeated occurrences of each ticker symbol had been eliminated,
+
+00:00:56.060 --> 00:00:58.609
+and each symbol shows up only once.
+
+00:00:58.609 --> 00:01:02.600
+We need access to this unique list of names.
+
+00:01:02.600 --> 00:01:05.075
+I'm going to go ahead and paste it in here,
+
+00:01:05.075 --> 00:01:09.034
+and then once I've pasted and I'm going to go ahead and select it again,
+
+00:01:09.034 --> 00:01:14.390
+and use name box to give this list a name called company list.
+
+00:01:14.390 --> 00:01:16.415
+So, I'm going to have the selector,
+
+00:01:16.415 --> 00:01:19.910
+go to name box here and go to company list.
+
+00:01:19.909 --> 00:01:23.329
+Once I've done that, I can reference this list by
+
+00:01:23.329 --> 00:01:26.969
+simply calling this name in my formulas.
+
+00:01:26.969 --> 00:01:30.379
+We can now go ahead and create a new worksheet here.
+
+00:01:30.379 --> 00:01:32.899
+We're going to call it data validation.
+
+00:01:32.900 --> 00:01:37.710
+I'm going to type in ticker symbol because I want this to show up next to that,
+
+00:01:37.709 --> 00:01:39.509
+and then in this cell,
+
+00:01:39.510 --> 00:01:42.710
+I'm going to go Data, Data Validation.
+
+00:01:42.709 --> 00:01:46.354
+You have the option to choose various criteria.
+
+00:01:46.355 --> 00:01:48.890
+So, I'm going ahead and select a list,
+
+00:01:48.890 --> 00:01:50.584
+and as a source,
+
+00:01:50.584 --> 00:01:53.914
+I'm going to reference back to this list here,
+
+00:01:53.915 --> 00:01:57.725
+and I can see it automatically filled into named box,
+
+00:01:57.724 --> 00:02:01.489
+and I go ahead and click Okay, and there you have it.
+
+00:02:01.489 --> 00:02:07.854
+You have a data drop-down menu that only references each of these names separately.
+
+00:02:07.855 --> 00:02:11.210
+Another trick I just want to mention is that if you find
+
+00:02:11.210 --> 00:02:15.800
+that you're having problems with the data range it's not showing up correctly,
+
+00:02:15.800 --> 00:02:18.245
+you can go to the formula tab at the top,
+
+00:02:18.245 --> 00:02:20.200
+and you can go to Name Manager,
+
+00:02:20.199 --> 00:02:24.384
+and here you can actually see all named boxes that you have,
+
+00:02:24.384 --> 00:02:28.530
+and it tells you which file it's referring to,
+
+00:02:28.530 --> 00:02:31.610
+and you can confirm which ones you want to delete,
+
+00:02:31.610 --> 00:02:33.185
+which ones you want to edit,
+
+00:02:33.185 --> 00:02:37.974
+or you can use the edit option to do that and correct the reference,
+
+00:02:37.974 --> 00:02:40.375
+which sheet did refers to.
+
+00:02:40.375 --> 00:02:42.979
+So, this is also an option if you're having some trouble with
+
+00:02:42.979 --> 00:02:45.530
+the Data Validation. See you in the next video.
+

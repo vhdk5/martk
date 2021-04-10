@@ -1,0 +1,61 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.280 --> 00:00:07.815
+We will next focus on sales forecasting.
+
+00:00:07.815 --> 00:00:11.324
+We will go through an example of forecasting sales bookings
+
+00:00:11.324 --> 00:00:15.629
+using both the bottom-up approach and the top-down approach.
+
+00:00:15.630 --> 00:00:17.414
+In the bottom-up approach,
+
+00:00:17.414 --> 00:00:21.179
+you will see how historical data is used for forecasting.
+
+00:00:21.179 --> 00:00:23.068
+In the top-down approach,
+
+00:00:23.068 --> 00:00:26.114
+you will use assumptions about [inaudible] that
+
+00:00:26.114 --> 00:00:31.125
+influences sales productivity and in turn the projected bookings.
+
+00:00:31.125 --> 00:00:34.820
+Though there are many ways to implement each of these approaches,
+
+00:00:34.820 --> 00:00:37.829
+the examples here will provide a foundation
+
+00:00:37.829 --> 00:00:41.159
+for extending these practices to new examples.
+
+00:00:41.159 --> 00:00:43.669
+I've provided additional resources below
+
+00:00:43.670 --> 00:00:47.480
+the videos for you to see other examples of sales forecast.
+
+00:00:47.479 --> 00:00:52.224
+Before we begin, let's take a moment to revisit the sales funnel.
+
+00:00:52.225 --> 00:00:57.920
+As you remember, the sales metrics are tracking the conversions from prospects into
+
+00:00:57.920 --> 00:01:03.439
+leads and then turning these leads into quantified leads and finally,
+
+00:01:03.439 --> 00:01:07.759
+the hope to win or close the deals and increase the sales bookings.
+
+00:01:07.760 --> 00:01:12.125
+Now let's go over a sales forecast using a bottom-up approach.
+
+00:01:12.125 --> 00:01:17.959
+This is the more common approach and it comes from the sales funnel historical data.
+

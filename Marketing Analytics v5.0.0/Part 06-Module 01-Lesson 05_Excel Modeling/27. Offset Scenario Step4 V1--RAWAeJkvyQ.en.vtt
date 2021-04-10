@@ -1,0 +1,109 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:05.429
+So, finally we're at the last step in the financial forecasting process.
+
+00:00:05.429 --> 00:00:11.899
+Here, I've created the equations for you so you can see what I'm doing for year four,
+
+00:00:11.900 --> 00:00:17.594
+year five, and we start plugging in the values from the assumptions.
+
+00:00:17.594 --> 00:00:23.549
+So, this one is year four revenue will be based off of year three's revenue,
+
+00:00:23.550 --> 00:00:27.750
+so it's just going to add whatever the assumption here above revenue growth.
+
+00:00:27.750 --> 00:00:28.899
+So, you just say,
+
+00:00:28.899 --> 00:00:36.210
+G7 which is previous year's revenue times one plus the revenue growth percent expected.
+
+00:00:36.210 --> 00:00:39.140
+So, you add that and you get this value,
+
+00:00:39.140 --> 00:00:40.715
+so you can, let's just see.
+
+00:00:40.715 --> 00:00:41.990
+So, it's taking this year,
+
+00:00:41.990 --> 00:00:45.980
+year three's revenue times one plus minus three,
+
+00:00:45.979 --> 00:00:48.544
+and that's the reason why it's actually going down.
+
+00:00:48.545 --> 00:00:51.515
+For year five, it's doing the same thing.
+
+00:00:51.515 --> 00:00:54.554
+You just a reference into year four instead.
+
+00:00:54.554 --> 00:00:59.100
+So that's why the H7 and we're basing it off I19.
+
+00:00:59.100 --> 00:01:01.814
+So, see that here, okay.
+
+00:01:01.814 --> 00:01:04.043
+Then for gross margins,
+
+00:01:04.043 --> 00:01:07.295
+we are forecasting it based off of the revenue,
+
+00:01:07.295 --> 00:01:11.015
+so we just take whatever the revenue is for year four
+
+00:01:11.015 --> 00:01:15.385
+times the gross margin and for F column,
+
+00:01:15.385 --> 00:01:18.140
+so it's just multiplying this revenue with
+
+00:01:18.140 --> 00:01:21.260
+gross margin and that gives us the gross profit.
+
+00:01:21.260 --> 00:01:27.660
+Similarly here, it's just year five's revenue times the gross margin of this,
+
+00:01:27.659 --> 00:01:30.439
+all of this formula is here so you can keep referencing to that.
+
+00:01:30.439 --> 00:01:39.664
+H7 which is revenue times the operating margin for year four and for year five.
+
+00:01:39.665 --> 00:01:43.820
+So, now we can see that our financial forecast is based off
+
+00:01:43.819 --> 00:01:48.049
+the historical data for this company but also the assumptions that we make,
+
+00:01:48.049 --> 00:01:50.989
+and as described earlier as we change
+
+00:01:50.989 --> 00:01:55.694
+the scenario analysis the forecast to the metrics change as well.
+
+00:01:55.694 --> 00:02:03.119
+So now, we have a dynamic representation of our financial forecast based on scenarios.
+
+00:02:03.120 --> 00:02:05.210
+So, that's called scenario analysis as well,
+
+00:02:05.209 --> 00:02:09.919
+it's one way to create a financial forecast using some advanced Excel tools.
+
+00:02:09.919 --> 00:02:12.530
+I've provided the formulas that I've used below
+
+00:02:12.530 --> 00:02:15.729
+and you can also find them in the CSV file in the resource.
+
+00:02:15.729 --> 00:02:17.729
+I hope you find this video helpful.
+

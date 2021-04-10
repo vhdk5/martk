@@ -1,0 +1,67 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:04.309 --> 00:00:06.919
+To build on the financial model,
+
+00:00:06.919 --> 00:00:12.099
+let's first take a look at some Excel functions and tools for financial modeling.
+
+00:00:12.099 --> 00:00:14.859
+As we introduce you to each of these,
+
+00:00:14.859 --> 00:00:16.839
+we will work toward the financial model.
+
+00:00:16.839 --> 00:00:20.695
+So this will set you up nicely for your final project.
+
+00:00:20.695 --> 00:00:23.829
+Data validation is an Excel tool that
+
+00:00:23.829 --> 00:00:27.445
+allows you to limit what values are accepted in a cell.
+
+00:00:27.445 --> 00:00:30.355
+You can create drop-down list of items,
+
+00:00:30.355 --> 00:00:34.524
+restrict cell value to data ranges and numbers.
+
+00:00:34.524 --> 00:00:40.149
+Index function is used when you want the cell to have a value chosen from
+
+00:00:40.149 --> 00:00:45.619
+a specified array and row number indicated within the index function.
+
+00:00:45.619 --> 00:00:50.269
+Match is the lookup function that can locate the position of the lookup value
+
+00:00:50.270 --> 00:00:56.240
+within an array only when it needs specific criteria defined in the match function.
+
+00:00:56.240 --> 00:01:01.609
+Index and match together add a powerful feature for advanced formulas.
+
+00:01:01.609 --> 00:01:04.625
+Together they can give a value from an array,
+
+00:01:04.625 --> 00:01:07.370
+the purpose of the index function based on
+
+00:01:07.370 --> 00:01:11.180
+a numeric position which is provided by the match function.
+
+00:01:11.180 --> 00:01:13.055
+Finally, offset.
+
+00:01:13.055 --> 00:01:17.180
+Here you can select a start point in the spreadsheet and tell
+
+00:01:17.180 --> 00:01:21.530
+Excel to return a set of styles that are counted from the starting point.
+
+00:01:21.530 --> 00:01:26.790
+We are going to work through an actual example for each of these in the coming videos.
+
