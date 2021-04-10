@@ -1,0 +1,142 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.649
+So, to calculate your growth metrics,
+
+00:00:01.649 --> 00:00:04.214
+you would actually get the data from your data team.
+
+00:00:04.214 --> 00:00:06.240
+So, for daily active users,
+
+00:00:06.240 --> 00:00:12.929
+this would be the number of users who were active in the particular 24-hour time window,
+
+00:00:12.929 --> 00:00:19.394
+and the particular 24-hour time window is defined by the date you give the data team.
+
+00:00:19.394 --> 00:00:21.074
+For monthly active users,
+
+00:00:21.074 --> 00:00:27.600
+that would be the number of users who were active within the month-long time window.
+
+00:00:27.600 --> 00:00:33.270
+So, let's assume for our mock data we have here,
+
+00:00:33.270 --> 00:00:37.785
+we have the daily active users provided based on the last day of each month,
+
+00:00:37.784 --> 00:00:40.559
+and the monthly active users is building off of that.
+
+00:00:40.560 --> 00:00:42.730
+So, for the whole month,
+
+00:00:42.729 --> 00:00:44.959
+give us the number of users who were active.
+
+00:00:44.960 --> 00:00:49.969
+I created the bar graphs here to depict the numbers we had up here,
+
+00:00:49.969 --> 00:00:53.554
+and you can see that there is a dip in the number of
+
+00:00:53.554 --> 00:00:59.000
+active users on October 30th compared to September 30th,
+
+00:00:59.000 --> 00:01:01.850
+but it steadily improves after that.
+
+00:01:01.850 --> 00:01:04.370
+But the monthly active users count,
+
+00:01:04.370 --> 00:01:10.125
+which is the number of users who were active in the last month, were steadily increasing.
+
+00:01:10.125 --> 00:01:13.049
+A better interpretation of the DAU and monthly
+
+00:01:13.049 --> 00:01:16.189
+active user metric is using the stickiness ratio.
+
+00:01:16.189 --> 00:01:18.605
+So, let's go ahead and calculate the stickiness.
+
+00:01:18.605 --> 00:01:20.525
+I'm using the formula provided here,
+
+00:01:20.525 --> 00:01:22.840
+and I'm using it for all of the months.
+
+00:01:22.840 --> 00:01:27.719
+So, this would be daily active users over monthly active users,
+
+00:01:27.719 --> 00:01:30.140
+and I have a graph that I will go over in a minute.
+
+00:01:30.140 --> 00:01:34.314
+So now, we have the stickiness ratio calculated here.
+
+00:01:34.314 --> 00:01:39.649
+A stickiness ratio of one means that every user who visited the website in
+
+00:01:39.650 --> 00:01:42.650
+the last month was also active on
+
+00:01:42.650 --> 00:01:45.830
+the day on which the daily active user account was generated.
+
+00:01:45.829 --> 00:01:52.579
+You can see here that our stickiness ratio range between 0.1 to 0.21.
+
+00:01:52.579 --> 00:01:56.329
+This is the proportion of monthly active users who
+
+00:01:56.329 --> 00:02:00.189
+came back to your product in that 24-hour or day window.
+
+00:02:00.189 --> 00:02:03.209
+So, 0.2 ratio means 20 percent of the month.
+
+00:02:03.209 --> 00:02:06.299
+So six days out of the last month,
+
+00:02:06.299 --> 00:02:10.204
+the user was back online looking at the website or app.
+
+00:02:10.205 --> 00:02:12.525
+If you're ratio is say 0.01,
+
+00:02:12.525 --> 00:02:13.830
+that's less than a day,
+
+00:02:13.830 --> 00:02:15.375
+and that's a problem scenario.
+
+00:02:15.375 --> 00:02:19.099
+So, engagement metrics are useful metrics to gauge how
+
+00:02:19.099 --> 00:02:23.284
+often your website is being used and a good guide for your business.
+
+00:02:23.284 --> 00:02:25.750
+This line chart is a visualization tool
+
+00:02:25.750 --> 00:02:28.909
+business analysts use to show the stickiness ratio.
+
+00:02:28.909 --> 00:02:31.579
+It can be used to show email campaigns or
+
+00:02:31.580 --> 00:02:34.870
+experiments when your website features were introduced.
+
+00:02:34.870 --> 00:02:39.335
+They coincide with high or low stickiness ratio and
+
+00:02:39.335 --> 00:02:44.070
+can help guide future plans to introduce or revisit specific effort.
+

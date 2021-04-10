@@ -1,0 +1,64 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.049
+So here, we have an example of the car sales bookings.
+
+00:00:03.049 --> 00:00:06.585
+You see the list of grocery stores in the first column.
+
+00:00:06.585 --> 00:00:11.609
+Column B through E are the bookings for the last quarter of the year.
+
+00:00:11.609 --> 00:00:13.664
+To get the total bookings,
+
+00:00:13.664 --> 00:00:17.759
+all we have to do is actually just add up this amount and you can use
+
+00:00:17.760 --> 00:00:22.410
+the sum function or can just type it in yourself here.
+
+00:00:22.410 --> 00:00:25.350
+All we do is here, add up these,
+
+00:00:25.350 --> 00:00:29.535
+and that gives you the total bookings for each of the months.
+
+00:00:29.535 --> 00:00:30.809
+Just a little side note,
+
+00:00:30.809 --> 00:00:34.699
+so these are bookings for each of the stores.
+
+00:00:34.700 --> 00:00:36.830
+So, that means is that they'd been able to get
+
+00:00:36.829 --> 00:00:40.534
+monthly or annual subscriptions to the customers.
+
+00:00:40.534 --> 00:00:46.265
+It's that value of the subscriptions that is reflected in these.
+
+00:00:46.265 --> 00:00:49.549
+So, these are the new bookings that they got every month.
+
+00:00:49.549 --> 00:00:52.649
+You can see that there are some cells which are empty.
+
+00:00:52.700 --> 00:00:57.030
+For example here, Sprouts is actually annual bookings.
+
+00:00:57.030 --> 00:00:58.785
+Once they have that then,
+
+00:00:58.784 --> 00:01:01.250
+they don't have any follow-up in November and December.
+
+00:01:01.250 --> 00:01:03.950
+So, that's what's being reflected here, okay?
+
+00:01:03.950 --> 00:01:05.799
+See you in the next video.
+

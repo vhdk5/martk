@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.595
+So to calculate the average time to close a deal,
+
+00:00:02.595 --> 00:00:03.900
+we follow two steps.
+
+00:00:03.899 --> 00:00:06.089
+First, we're going to go ahead and calculate
+
+00:00:06.089 --> 00:00:08.894
+the total number of days for all sales combined.
+
+00:00:08.894 --> 00:00:10.980
+So, we have our four accounts here,
+
+00:00:10.980 --> 00:00:15.060
+and each of these numbers tells you the number of days from
+
+00:00:15.060 --> 00:00:20.054
+first contact by the sales team member to closing the deal with Costco.
+
+00:00:20.054 --> 00:00:24.855
+So, for instance, this one took 150 days,
+
+00:00:24.855 --> 00:00:26.730
+so approximately five months.
+
+00:00:26.730 --> 00:00:29.910
+This one took six months and so on and so forth.
+
+00:00:29.910 --> 00:00:37.200
+So, we add these up so that this just be the sum of these days for each of your accounts.
+
+00:00:37.200 --> 00:00:39.165
+We got 720.
+
+00:00:39.164 --> 00:00:42.524
+Number of accounts is just these accounts that we have,
+
+00:00:42.524 --> 00:00:45.369
+and so I could just hard code for in here,
+
+00:00:45.369 --> 00:00:47.509
+but I just want to show you a little trick.
+
+00:00:47.509 --> 00:00:49.549
+So, if you do COUNTA,
+
+00:00:49.549 --> 00:00:52.375
+it tells you if they're not empty.
+
+00:00:52.375 --> 00:00:56.060
+You can actually just select the cells you want
+
+00:00:56.060 --> 00:00:59.975
+and it will give you the count because these are the number of rows that I'm counting.
+
+00:00:59.975 --> 00:01:01.895
+To get the average time to close,
+
+00:01:01.895 --> 00:01:05.659
+you just take the total number of days you took
+
+00:01:05.659 --> 00:01:09.994
+for all the sales combined divided by the number of accounts,
+
+00:01:09.995 --> 00:01:12.140
+and that gives you a 180 days.
+
+00:01:12.140 --> 00:01:18.329
+So on average, it took a 180 days to close the deals in this dataset.
+

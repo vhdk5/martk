@@ -1,0 +1,58 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.345
+This spreadsheet has marked data for a website week card.
+
+00:00:03.345 --> 00:00:05.025
+The purpose of this example,
+
+00:00:05.025 --> 00:00:08.233
+we created ads and marketed them on Facebook,
+
+00:00:08.233 --> 00:00:10.800
+Google Search, and Google Display.
+
+00:00:10.800 --> 00:00:15.960
+You will use a formula to calculate the cost per click or CPC.
+
+00:00:15.960 --> 00:00:19.275
+So, I'm going to go ahead and create a row with that.
+
+00:00:19.274 --> 00:00:23.189
+I've put the formula here so you can see how I'm calculating this.
+
+00:00:23.190 --> 00:00:26.325
+So, this will be the amount of money that we spend
+
+00:00:26.324 --> 00:00:31.004
+on Facebook over the amount of clicks that we got.
+
+00:00:31.004 --> 00:00:34.710
+So, we did C3 over C4,
+
+00:00:34.710 --> 00:00:39.855
+which is the amount of money spent on the ad over the number of clicks that we got.
+
+00:00:39.854 --> 00:00:41.789
+As you can see in this example,
+
+00:00:41.789 --> 00:00:48.274
+Google Search and Google Display give us about a dollar of CPC.
+
+00:00:48.274 --> 00:00:51.799
+In comparison, Facebook is more than $2.
+
+00:00:51.799 --> 00:00:56.994
+Turns out $2 is the average CPC across all industries.
+
+00:00:56.994 --> 00:01:00.979
+Again, under this, you want to compare your CPC rates to
+
+00:01:00.979 --> 00:01:03.619
+your industry-specific averages to get
+
+00:01:03.619 --> 00:01:08.000
+a better gauge of how your ad is performing on each platform.
+

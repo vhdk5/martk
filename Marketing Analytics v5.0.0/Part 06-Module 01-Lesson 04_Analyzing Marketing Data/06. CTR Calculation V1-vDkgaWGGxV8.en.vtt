@@ -1,0 +1,49 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:04.769
+Here's an example spreadsheet with some metadata for a website WeCart.
+
+00:00:04.769 --> 00:00:09.224
+So, it looks like at WeCart we created ads and marketed them on Facebook,
+
+00:00:09.224 --> 00:00:11.490
+Google Search, and Google Display.
+
+00:00:11.490 --> 00:00:14.789
+To calculate the click-through rate or CTR,
+
+00:00:14.789 --> 00:00:18.449
+we include formula in this column for CTR.
+
+00:00:18.449 --> 00:00:22.214
+I've placed the equation here so you can see what I'm doing.
+
+00:00:22.214 --> 00:00:24.989
+I'm going to put it in the first cell.
+
+00:00:24.989 --> 00:00:29.009
+So, this will be number of clicks over the number of
+
+00:00:29.010 --> 00:00:34.250
+impressions or the number of people who saw this times a 100.
+
+00:00:34.250 --> 00:00:37.079
+That gives us the rate in percentage.
+
+00:00:37.079 --> 00:00:41.479
+You copy down the formula and I'm going to just reduce the number
+
+00:00:41.479 --> 00:00:46.244
+of decimals to make it consistent and there we have it.
+
+00:00:46.244 --> 00:00:51.239
+In general, a two percent CTR is good but the average ranging from
+
+00:00:51.240 --> 00:00:56.579
+1.9 2.35 but it varies widely by industry.
+
+00:00:56.579 --> 00:01:01.799
+Check out the ad resources below to compare average CTR across industries.
+

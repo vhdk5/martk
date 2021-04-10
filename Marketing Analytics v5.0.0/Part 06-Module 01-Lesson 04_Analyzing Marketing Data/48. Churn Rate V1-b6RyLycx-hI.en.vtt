@@ -1,0 +1,76 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:01.784
+To calculate churn rate,
+
+00:00:01.784 --> 00:00:07.200
+we need two pieces of data for the time period we're calculating the churn rate for.
+
+00:00:07.200 --> 00:00:11.745
+First, how many costumers were with us at the beginning of the time period?
+
+00:00:11.744 --> 00:00:14.339
+Then, of those costumers,
+
+00:00:14.339 --> 00:00:18.239
+how many remained with us by the end of the time period?
+
+00:00:18.239 --> 00:00:20.039
+So, for week A here,
+
+00:00:20.039 --> 00:00:24.710
+we have churn rate being calculated for each month.
+
+00:00:24.710 --> 00:00:27.115
+This is the formula we're going to be using.
+
+00:00:27.114 --> 00:00:30.649
+Essentially, this is calculating the difference between
+
+00:00:30.649 --> 00:00:34.399
+these numbers and dividing it by the beginning number.
+
+00:00:34.399 --> 00:00:36.875
+So, let's go ahead and calculate this.
+
+00:00:36.875 --> 00:00:44.519
+So, this will be 135 minus 130 over 135.
+
+00:00:44.520 --> 00:00:46.060
+So, as you can see,
+
+00:00:46.060 --> 00:00:51.440
+they have some churn over the year with the highest being in the month of February.
+
+00:00:51.439 --> 00:00:54.500
+When we started with 155 customers,
+
+00:00:54.500 --> 00:00:57.935
+but we're left with only 140 of those.
+
+00:00:57.935 --> 00:01:03.590
+But we more than made up by having a few months of very good growth rate.
+
+00:01:03.590 --> 00:01:08.725
+Remember, growth rate is tracking the number of new users per month,
+
+00:01:08.724 --> 00:01:12.784
+which is reflected in the increasing number of
+
+00:01:12.784 --> 00:01:17.119
+new customers at the beginning of the month in the second part of the year.
+
+00:01:17.120 --> 00:01:21.234
+While the churn rate keeps a tally of last customers,
+
+00:01:21.234 --> 00:01:26.555
+the growth rate follows how many new paid customers started buying from the company.
+
+00:01:26.555 --> 00:01:29.450
+To experience growth, a company should aim to have
+
+00:01:29.450 --> 00:01:32.870
+a growth rate that is higher than the churn rate.
+

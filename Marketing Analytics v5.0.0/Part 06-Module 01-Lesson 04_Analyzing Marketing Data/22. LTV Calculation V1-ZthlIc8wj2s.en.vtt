@@ -1,0 +1,184 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.069
+So, to calculate the lifetime value,
+
+00:00:02.069 --> 00:00:03.629
+let's use this formula.
+
+00:00:03.629 --> 00:00:06.259
+We're going to go ahead and break each piece up,
+
+00:00:06.259 --> 00:00:10.094
+so that we can see how to calculate each of these components of the formula,
+
+00:00:10.095 --> 00:00:12.269
+and we're going to use the week r example again.
+
+00:00:12.269 --> 00:00:16.619
+Let's assume a typical week our customer orders groceries once a week,
+
+00:00:16.620 --> 00:00:18.975
+for say $70 per order.
+
+00:00:18.975 --> 00:00:22.875
+So, our purchase cycle we can make it to be one week,
+
+00:00:22.875 --> 00:00:26.309
+total sales revenue per cycle would be the $70 we
+
+00:00:26.309 --> 00:00:30.375
+expect to earn from the customer during this purchase cycle,
+
+00:00:30.375 --> 00:00:33.965
+to 70, and then the number of sales per
+
+00:00:33.965 --> 00:00:38.530
+purchase cycle would be the number of times the customer buys during the purchase cycle,
+
+00:00:38.530 --> 00:00:40.689
+which would be one order per week.
+
+00:00:40.689 --> 00:00:43.549
+So, one order per customer cycle, which is one.
+
+00:00:43.549 --> 00:00:46.724
+Now, let's go ahead and calculate the other pieces of the formula.
+
+00:00:46.725 --> 00:00:49.219
+To calculate the other two pieces of the formula,
+
+00:00:49.219 --> 00:00:54.560
+you need to take into account cost per acquisition as well as average sales revenue.
+
+00:00:54.560 --> 00:00:55.670
+So, let's walk through these.
+
+00:00:55.670 --> 00:01:00.005
+So, the cost per acquisition is the CPR that we've calculated before.
+
+00:01:00.005 --> 00:01:02.719
+So, let's assume this to be $25.
+
+00:01:02.719 --> 00:01:06.875
+So, it takes about $25 of sales and marketing costs to get a need.
+
+00:01:06.875 --> 00:01:11.239
+The expected retention time is the amount of time
+
+00:01:11.239 --> 00:01:15.980
+which is measured in purchase cycles that you expect to retain the customer.
+
+00:01:15.980 --> 00:01:20.630
+I think we can aim a customer to stay with our business for, say seven years,
+
+00:01:20.629 --> 00:01:25.429
+when she say, think of our own experience as a grocery buyer and online shopper.
+
+00:01:25.430 --> 00:01:28.390
+So, this would be seven years,
+
+00:01:28.390 --> 00:01:32.840
+but since we need this in the purchase cycles as that is our unit.
+
+00:01:32.840 --> 00:01:35.420
+So, we're going to go seven years times 52.
+
+00:01:35.420 --> 00:01:36.890
+So, that's how I got this.
+
+00:01:36.890 --> 00:01:41.579
+So, this would be seven times 52 weeks per year,
+
+00:01:41.579 --> 00:01:44.674
+so that gives us 364 weeks across seven years.
+
+00:01:44.674 --> 00:01:48.575
+Average sales revenue is the average revenue we
+
+00:01:48.575 --> 00:01:53.829
+receive from the customer per transaction during the cycle.
+
+00:01:53.829 --> 00:01:55.319
+We calculate this above.
+
+00:01:55.319 --> 00:01:58.379
+This is $70 per cycle,
+
+00:01:58.379 --> 00:02:00.060
+so that's 70 here,
+
+00:02:00.060 --> 00:02:03.695
+and then profit margin per customer.
+
+00:02:03.694 --> 00:02:06.469
+The way to calculate this is average sale,
+
+00:02:06.469 --> 00:02:10.849
+which is $70 minus the average cost of sales.
+
+00:02:10.849 --> 00:02:13.819
+So, this would be where you can plug in the cost per acquisition,
+
+00:02:13.819 --> 00:02:15.769
+so over the average sales.
+
+00:02:15.770 --> 00:02:21.680
+So, this would be this minus this over 70.
+
+00:02:21.680 --> 00:02:24.980
+Okay. So, that's $0.64 on a dollar.
+
+00:02:24.979 --> 00:02:27.229
+That's the profit margin per customer.
+
+00:02:27.229 --> 00:02:31.369
+Now, we're ready to plug all of that in into the lifetime value formula.
+
+00:02:31.370 --> 00:02:35.075
+So, we're ready to plug in the values for the lifetime value now.
+
+00:02:35.074 --> 00:02:38.674
+So, this is going to be our average sale,
+
+00:02:38.675 --> 00:02:44.090
+which is 70 times number for peak sales,
+
+00:02:44.090 --> 00:02:48.140
+which is one times expected retention time,
+
+00:02:48.139 --> 00:02:54.514
+which is these number of weeks across seven years times the profit margin.
+
+00:02:54.514 --> 00:03:00.834
+So, 16,380 or the value that a customer would bring to a company.
+
+00:03:00.835 --> 00:03:06.200
+So, now that you know that an average customer value is 16,380,
+
+00:03:06.199 --> 00:03:11.254
+the company should spend less than this to obtain a new paying customer.
+
+00:03:11.254 --> 00:03:12.960
+It is spending more than this,
+
+00:03:12.960 --> 00:03:16.129
+the company may be making losses in the long run.
+
+00:03:16.129 --> 00:03:20.704
+One other thing, I have seen several equations for lifetime value.
+
+00:03:20.705 --> 00:03:25.895
+It is generally recommended to calculate lifetime value using a few different ways,
+
+00:03:25.895 --> 00:03:29.750
+so you can get a better estimate of your average lifetime value.
+
+00:03:29.750 --> 00:03:33.020
+We've provided a few links below for you to
+
+00:03:33.020 --> 00:03:37.000
+see what are the other ways to calculate lifetime value of a customer.
+

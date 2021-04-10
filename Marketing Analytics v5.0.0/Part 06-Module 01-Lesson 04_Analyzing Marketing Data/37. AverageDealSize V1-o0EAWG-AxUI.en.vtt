@@ -1,0 +1,118 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:03.854
+So, to get the average deal size for all the accounts,
+
+00:00:03.854 --> 00:00:07.559
+I've set up a spreadsheet so that we can first calculate
+
+00:00:07.559 --> 00:00:11.280
+the total bookings in dollars that we already did in the past,
+
+00:00:11.279 --> 00:00:16.289
+in the previous video and then the number of deals for each of the accounts,
+
+00:00:16.289 --> 00:00:19.519
+and then we're going to go ahead and calculate the average deal size.
+
+00:00:19.519 --> 00:00:21.780
+So first, we're going to go ahead and
+
+00:00:21.780 --> 00:00:25.905
+calculate the sum of the bookings for each of these accounts.
+
+00:00:25.905 --> 00:00:27.615
+I'll just copy and paste it down,
+
+00:00:27.614 --> 00:00:30.989
+and then the short number of deals where each of the accounts and then again,
+
+00:00:30.989 --> 00:00:33.434
+I'm going to just copy this formula down.
+
+00:00:33.435 --> 00:00:34.950
+I'm going to go ahead and copy these.
+
+00:00:34.950 --> 00:00:40.050
+So, I'm going to just go ahead and copy and paste the values,
+
+00:00:40.049 --> 00:00:42.359
+copy and paste the values,
+
+00:00:42.359 --> 00:00:46.560
+and then to get the average deal size that we got from each of
+
+00:00:46.560 --> 00:00:50.900
+the accounts all you have to do is you divide the total bookings by the number of deals,
+
+00:00:50.899 --> 00:00:53.989
+and that tells you the average amount for
+
+00:00:53.990 --> 00:00:57.780
+each deal or that we got from each of these accounts.
+
+00:00:57.780 --> 00:00:59.655
+Right away, we can see,
+
+00:00:59.655 --> 00:01:05.629
+Sam's Club had really high bookings that it seems to me there was a mix of
+
+00:01:05.629 --> 00:01:10.759
+monthly and annual subscriptions that we got and the reason is because we know that
+
+00:01:10.760 --> 00:01:16.160
+the monthly subscription is $16 and you're yearly subscriptions are $195.
+
+00:01:16.159 --> 00:01:18.075
+So, with that knowledge in mind,
+
+00:01:18.075 --> 00:01:21.769
+we can see that this- the amount that we got from Sam's Club and
+
+00:01:21.769 --> 00:01:26.364
+Costco was a combination of monthly and yearly accounts, purely orders.
+
+00:01:26.364 --> 00:01:28.819
+So, the average deal size tells us that.
+
+00:01:28.819 --> 00:01:33.304
+We got a combination of monthly and yearly subscription from Costco and Sam's Club.
+
+00:01:33.305 --> 00:01:36.030
+Case of Sprouts, the book yield was smaller,
+
+00:01:36.030 --> 00:01:38.070
+but the booking size was bigger,
+
+00:01:38.069 --> 00:01:40.669
+and that's because the average deal size
+
+00:01:40.670 --> 00:01:43.820
+was a 195 which turns out to be a yearly subscription.
+
+00:01:43.819 --> 00:01:48.659
+So, all of the a 150 deals that we got for Sprouts, for this account,
+
+00:01:48.659 --> 00:01:51.200
+were all annual versus in Safeway
+
+00:01:51.200 --> 00:01:53.630
+where even though we've gotten the more number of deals,
+
+00:01:53.629 --> 00:01:58.579
+the unit price was $16 which happens to be a monthly subscription.
+
+00:01:58.579 --> 00:02:01.420
+So, we didn't get as much bookings for that.
+
+00:02:01.420 --> 00:02:05.329
+But this kind of analysis allows the sales team to see okay,
+
+00:02:05.329 --> 00:02:11.180
+which account is actually generating more bookings for them and focus their efforts
+
+00:02:11.180 --> 00:02:17.330
+on the type of deals that they get and the type of customer that they're getting.
+

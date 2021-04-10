@@ -1,0 +1,91 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.544
+Here, you can see a slightly different spreadsheet,
+
+00:00:02.544 --> 00:00:04.919
+but it's actually building on the previous example.
+
+00:00:04.919 --> 00:00:07.214
+In row one, marketing costs,
+
+00:00:07.214 --> 00:00:09.615
+and including the cost of building,
+
+00:00:09.615 --> 00:00:11.370
+the ads across the street,
+
+00:00:11.369 --> 00:00:13.904
+ad platforms from our previous examples.
+
+00:00:13.904 --> 00:00:17.609
+Then, I've added in the sales and marketing salaries,
+
+00:00:17.609 --> 00:00:20.489
+and included any overhead costs for sales and marketing.
+
+00:00:20.489 --> 00:00:22.739
+So, these show up in these three rows.
+
+00:00:22.739 --> 00:00:26.399
+We add them up to get our total sales and marketing cost.
+
+00:00:26.399 --> 00:00:29.954
+So, I'm going to sum up these three cell values,
+
+00:00:29.954 --> 00:00:34.979
+and I'm going to copy the formula over for the other two months, September and October.
+
+00:00:34.979 --> 00:00:38.489
+Then, to get the customer acquisition cost,
+
+00:00:38.490 --> 00:00:42.265
+I'm going to take this total sales and marketing cost
+
+00:00:42.265 --> 00:00:44.810
+and divide it by the number of paid customer.
+
+00:00:44.810 --> 00:00:47.420
+So, I'm going to get back in that formula.
+
+00:00:47.420 --> 00:00:49.145
+So, I'm going to take this,
+
+00:00:49.145 --> 00:00:53.035
+divide it by the number of paid customers,
+
+00:00:53.034 --> 00:00:58.469
+and copy the formula over again for the two months remaining, September and October.
+
+00:00:58.469 --> 00:01:00.509
+As you can see in this example,
+
+00:01:00.509 --> 00:01:07.599
+our CAC was less than a $150 in range between 148-210.
+
+00:01:07.599 --> 00:01:11.644
+A good rule of thumb is that the CAC should be a fourth of your revenue.
+
+00:01:11.644 --> 00:01:14.319
+If you're spending more than that,
+
+00:01:14.319 --> 00:01:16.239
+then you are spending too much.
+
+00:01:16.239 --> 00:01:18.799
+So, you're spending too much to get a customer,
+
+00:01:18.799 --> 00:01:20.500
+to acquire a customer.
+
+00:01:20.500 --> 00:01:22.885
+Now, If you're spending less than that,
+
+00:01:22.885 --> 00:01:25.750
+you're actually losing business opportunities.
+
+00:01:25.750 --> 00:01:29.599
+So, this was one example to calculate the customer acquisition cost.
+
